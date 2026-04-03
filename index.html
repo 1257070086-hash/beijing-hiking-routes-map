@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>环游北京 - 徒步路线地图</title>
+    <!-- 高德地图 JS API -->
+    <script type="text/javascript">
+        window._AMapSecurityConfig = {
+            securityJsCode: '69c59e9aafd6d5b284f854dc5fe80dcf'
+        }
+    </script>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=b5fac459d9fdf729ca06931f73993067"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e7eb 100%);
+            height: 100vh;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+
+        .header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            padding: 16px 40px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.08);
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1d1d1f;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        .logo::before {
+            content: '🏔';
+            font-size: 28px;
+        }
+
+        .filters {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .filter-btn {
+            padding: 8px 18px;
+            border: none;
+            border-radius: 20px;
+            background: rgba(0, 0, 0, 0.04);
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+            font-size: 13px;
+            font-weight: 500;
+            color: #1d1d1f;
+        }
+
+        .filter-btn:hover {
+            background: rgba(0, 0, 0, 0.08);
+            transform: scale(1.02);
+        }
+
+        .filter-btn.active {
+            background: #007AFF;
+            color: white;
+            box-shadow: 0 2px 8px rgba(0, 122, 255, 0.3);
+        }
+
+        .search-box {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 20px;
+            background: rgba(0, 0, 0, 0.04);
+            font-size: 13px;
+            outline: none;
+            transition: all 0.3s ease;
+            min-width: 220px;
+        }
+
+        .search-box:focus {
+            background: white;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar {
+            position: absolute;
+            left: 20px;
+            top: 80px;
+            width: 320px;
+            height: calc(100vh - 120px);
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-radius: 20px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
+            overflow-y: auto;
+            padding: 20px;
+            z-index: 999;
+            transition: transform 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+
+        .sidebar::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .sidebar::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 2px;
+        }
+
+        .sidebar-header {
+            font-size: 17px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .route-item {
+            background: white;
+            padding: 14px;
+            margin-bottom: 12px;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+            border: 0.5px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .route-item:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+            border-color: #007AFF;
+        }
+
+        .route-name {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 8px;
+        }
+
+        .route-meta {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            font-size: 12px;
+            color: #86868b;
+        }
+
+        .difficulty {
+            color: #FF3B30;
+            font-weight: 600;
+        }
+
+        #map-container {
+            position: absolute;
+            left: 360px;
+            top: 80px;
+            right: 20px;
+            height: calc(100vh - 120px);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        /* 信息窗口样式 - Apple风格 */
+        .info-window {
+            padding: 16px;
+            min-width: 300px;
+            max-width: 360px;
+            max-height: 480px;
+            overflow-y: auto;
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+        }
+
+        .info-window::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .info-window::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 2px;
+        }
+
+        .info-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            padding-bottom: 10px;
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .info-header h3 {
+            font-size: 18px;
+            color: #1d1d1f;
+            font-weight: 600;
+        }
+
+        .info-difficulty {
+            font-size: 13px;
+            font-weight: 600;
+            color: #FF3B30;
+        }
+
+        .info-photos {
+            width: 100%;
+            height: 160px;
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 12px;
+        }
+
+        .info-photos img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .info-body {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .info-icon {
+            font-size: 16px;
+            min-width: 20px;
+        }
+
+        .info-content {
+            flex: 1;
+            color: #1d1d1f;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #1d1d1f;
+        }
+
+        .info-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 4px;
+        }
+
+        .info-tag {
+            padding: 4px 10px;
+            background: rgba(52, 199, 89, 0.1);
+            color: #34C759;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .view-path-btn {
+            margin-top: 12px;
+            padding: 12px;
+            background: #007AFF;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .view-path-btn:hover {
+            background: #0051D5;
+            transform: scale(1.02);
+            box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
+        }
+
+        /* 路径数据卡片 - 修改为右上角显示，避免和景点卡片重叠 */
+        .path-info-card {
+            position: absolute;
+            top: 100px;
+            right: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px) saturate(180%);
+            padding: 16px 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+            z-index: 1000;
+            display: none;
+            min-width: 320px;
+        }
+
+        .path-info-card.active {
+            display: block;
+            animation: slideIn 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .path-info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 0;
+            font-size: 14px;
+            color: #1d1d1f;
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .path-info-item:last-child {
+            border-bottom: none;
+        }
+
+        .path-info-icon {
+            font-size: 18px;
+        }
+
+        .path-info-label {
+            font-weight: 600;
+            min-width: 80px;
+        }
+
+        .path-info-value {
+            flex: 1;
+            text-align: right;
+            font-weight: 500;
+        }
+
+        /* 导航按钮 */
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 0.5px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .nav-btn {
+            flex: 1;
+            padding: 10px;
+            background: rgba(0, 122, 255, 0.1);
+            color: #007AFF;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .nav-btn:hover:not(:disabled) {
+            background: #007AFF;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .toggle-sidebar {
+            position: absolute;
+            left: 350px;
+            top: 100px;
+            width: 36px;
+            height: 36px;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        .toggle-sidebar:hover {
+            background: #007AFF;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px) saturate(180%);
+            padding: 16px;
+            border-radius: 16px;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+            z-index: 999;
+        }
+
+        .legend-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1d1d1f;
+            margin-bottom: 10px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+            font-size: 12px;
+            color: #1d1d1f;
+        }
+
+        .legend-marker {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .difficulty-1 { background: #34C759; }
+        .difficulty-2 { background: #007AFF; }
+        .difficulty-3 { background: #FF9500; }
+        .difficulty-4 { background: #FF9500; }
+        .difficulty-5 { background: #FF3B30; }
+
+        @media (max-width: 1024px) {
+            #map-container {
+                left: 20px;
+            }
+            .sidebar {
+                transform: translateX(-360px);
+            }
+            .sidebar.active {
+                transform: translateX(0);
+            }
+            .toggle-sidebar {
+                left: 20px;
+            }
+            .path-info-card {
+                left: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">环游北京</div>
+        <div class="filters">
+            <input type="text" class="search-box" placeholder="搜索徒步路线..." id="searchInput">
+            <button class="filter-btn active" data-difficulty="all">全部路线</button>
+            <button class="filter-btn" data-difficulty="1,2">入门级</button>
+            <button class="filter-btn" data-difficulty="3">进阶级</button>
+            <button class="filter-btn" data-difficulty="4,5">挑战级</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">📍 徒步路线 (<span id="routeCount">0</span>)</div>
+            <div id="routeList"></div>
+        </div>
+
+        <div class="toggle-sidebar" id="toggleSidebar">☰</div>
+
+        <div id="map-container"></div>
+
+        <!-- 路径信息卡片 -->
+        <div class="path-info-card" id="pathInfoCard">
+            <div class="path-info-item">
+                <span class="path-info-icon">⏱️</span>
+                <span class="path-info-label">徒步用时</span>
+                <span class="path-info-value" id="pathDuration">-</span>
+            </div>
+            <div class="path-info-item">
+                <span class="path-info-icon">📏</span>
+                <span class="path-info-label">路径长度</span>
+                <span class="path-info-value" id="pathDistance">-</span>
+            </div>
+            <div class="path-info-item">
+                <span class="path-info-icon">🔥</span>
+                <span class="path-info-label">消耗卡路里</span>
+                <span class="path-info-value" id="pathCalories">-</span>
+            </div>
+            <!-- 导航按钮 -->
+            <div class="nav-buttons">
+                <button class="nav-btn" id="prevBtn" onclick="navigatePrev()">
+                    ⬅️ 上一个
+                </button>
+                <button class="nav-btn" id="nextBtn" onclick="navigateNext()">
+                    下一个 ➡️
+                </button>
+            </div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-title">难度图例</div>
+            <div class="legend-item">
+                <div class="legend-marker difficulty-1">★</div>
+                <span>入门</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-marker difficulty-2">★★</div>
+                <span>初级</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-marker difficulty-3">★★★</div>
+                <span>中级</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-marker difficulty-4">★★★★</div>
+                <span>高级</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-marker difficulty-5">★★★★★</div>
+                <span>专业</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 徒步路线数据(完整25条)
+        const hikingRoutes = [
+            {
+                name: "箭扣长城",
+                location: [116.5833, 40.4698],
+                difficulty: 5,
+                duration: "6-8小时",
+                distance: "约10公里",
+                elevation: "1150米",
+                description: "箭扣长城位于怀柔区,以险峻著称,有'长城天花板'之称",
+                scenery: ["野长城", "悬崖峭壁", "山林景观"],
+                traffic: "地铁15号线至俸伯站,换乘H23路至西栅子站",
+                suitable: ["资深驴友", "体力充沛者"],
+                season: "春秋最佳(4-5月,9-10月)",
+                tips: ["需准备专业装备", "注意安全防护"],
+                photos: ["https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800"],
+                path: [[116.5733, 40.4598], [116.5783, 40.4648], [116.5833, 40.4698], [116.5883, 40.4748], [116.5933, 40.4798]]
+            },
+            {
+                name: "凤凰岭十险",
+                location: [116.0931, 40.0755],
+                difficulty: 4,
+                duration: "5-7小时",
+                distance: "约12公里",
+                elevation: "1291米",
+                description: "凤凰岭以野路奇险闻名,包含十大险峰",
+                scenery: ["险峰悬崖", "古松奇石", "山泉溪流"],
+                traffic: "地铁16号线至北安河站,换乘346路",
+                suitable: ["有经验驴友", "体力良好者"],
+                season: "春夏秋三季",
+                tips: ["需要攀爬技巧", "携带充足饮水"],
+                photos: ["https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800"],
+                path: [[116.0831, 40.0655], [116.0881, 40.0705], [116.0931, 40.0755], [116.0981, 40.0805]]
+            },
+            {
+                name: "阳台山-妙峰山",
+                location: [116.0829, 40.0525],
+                difficulty: 4,
+                duration: "8-10小时",
+                distance: "约23公里",
+                elevation: "1291米",
+                description: "经典拉练路线,强度大但风景壮丽",
+                scenery: ["连绵山脉", "寺庙群", "山花烂漫"],
+                traffic: "地铁4号线至北宫门站,换乘633路",
+                suitable: ["拉练爱好者", "体力极佳者"],
+                season: "4-6月(山花),9-11月(红叶)",
+                tips: ["需合理分配体力", "准备充足补给"],
+                photos: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"],
+                path: [[116.0729, 40.0425], [116.0779, 40.0475], [116.0829, 40.0525], [116.0879, 40.0575]]
+            },
+            {
+                name: "海坨山",
+                location: [115.6167, 40.5500],
+                difficulty: 5,
+                duration: "10-12小时",
+                distance: "约18公里",
+                elevation: "2241米",
+                description: "北京第二高峰,拥有原始森林和高山草甸",
+                scenery: ["原始森林", "高山草甸", "云海奇观"],
+                traffic: "京藏高速至延庆,包车至登山口",
+                suitable: ["资深户外者", "体能极佳者"],
+                season: "6-9月",
+                tips: ["需GPS设备", "携带帐篷"],
+                photos: ["https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800"],
+                path: [[115.6067, 40.5400], [115.6117, 40.5450], [115.6167, 40.5500]]
+            },
+            {
+                name: "水泉沟",
+                location: [116.6167, 40.3833],
+                difficulty: 2,
+                duration: "3-4小时",
+                distance: "约6公里",
+                elevation: "600米",
+                description: "有山有水路线,夏天特别适合",
+                scenery: ["山涧溪流", "瀑布深潭", "密林绿荫"],
+                traffic: "地铁15号线至俸伯站,换乘H11路",
+                suitable: ["入门级", "家庭亲子"],
+                season: "夏季最佳(6-8月)",
+                tips: ["可带换洗衣物", "溯溪鞋更佳"],
+                photos: ["https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800"],
+                path: [[116.6067, 40.3733], [116.6117, 40.3783], [116.6167, 40.3833]]
+            },
+            {
+                name: "神堂峪栈道",
+                location: [116.6333, 40.4000],
+                difficulty: 1,
+                duration: "2-3小时",
+                distance: "约5公里",
+                elevation: "200米",
+                description: "无难度休闲路线,栈道完善",
+                scenery: ["栈道长廊", "山溪流水", "自然风光"],
+                traffic: "地铁15号线至俸伯站,换乘H25路",
+                suitable: ["所有人群", "老人儿童"],
+                season: "四季皆宜",
+                tips: ["无需特殊装备", "可推婴儿车"],
+                photos: ["https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800"],
+                path: [[116.6233, 40.3900], [116.6283, 40.3950], [116.6333, 40.4000]]
+            },
+            {
+                name: "虎头山",
+                location: [116.5833, 40.4167],
+                difficulty: 2,
+                duration: "3-4小时",
+                distance: "约7公里",
+                elevation: "850米",
+                description: "小野山,路线成熟,爬升适中",
+                scenery: ["山顶远景", "松林小道", "巨石景观"],
+                traffic: "地铁15号线至俸伯站,换乘H23路",
+                suitable: ["初级驴友", "周末休闲"],
+                season: "春秋两季",
+                tips: ["路线清晰", "适合新手"],
+                photos: ["https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800"],
+                path: [[116.5733, 40.4067], [116.5783, 40.4117], [116.5833, 40.4167]]
+            },
+            {
+                name: "红螺山",
+                location: [116.6000, 40.3833],
+                difficulty: 2,
+                duration: "3-5小时",
+                distance: "约8公里",
+                elevation: "812米",
+                description: "著名景区,步道完善",
+                scenery: ["古寺名刹", "千年古树", "山林景观"],
+                traffic: "地铁15号线至俸伯站,换乘H57路",
+                suitable: ["入门级", "家庭出游"],
+                season: "春季赏花,秋季红叶",
+                tips: ["需购买门票", "有缆车"],
+                photos: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"],
+                path: [[116.5900, 40.3733], [116.5950, 40.3783], [116.6000, 40.3833]]
+            },
+            {
+                name: "霞云岭",
+                location: [115.7167, 39.7000],
+                difficulty: 3,
+                duration: "5-6小时",
+                distance: "约10公里",
+                elevation: "1400米",
+                description: "壮丽远景,红色教育基地",
+                scenery: ["京西山脉", "云海雾凇", "红色遗迹"],
+                traffic: "地铁房山线至苏庄,换乘房32路",
+                suitable: ["中级驴友", "体力良好者"],
+                season: "秋季最佳",
+                tips: ["早起看日出", "山顶风大"],
+                photos: ["https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800"],
+                path: [[115.7067, 39.6900], [115.7117, 39.6950], [115.7167, 39.7000]]
+            },
+            {
+                name: "百花山",
+                location: [115.6167, 39.8833],
+                difficulty: 4,
+                duration: "6-8小时",
+                distance: "约12公里",
+                elevation: "1991米",
+                description: "高山草甸,夏季百花盛开",
+                scenery: ["高山草甸", "百花齐放", "云海日落"],
+                traffic: "地铁1号线至苹果园,换乘892路",
+                suitable: ["中高级驴友", "摄影爱好者"],
+                season: "6-8月最美",
+                tips: ["紫外线强", "禁止踩踏草甸"],
+                photos: ["https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800"],
+                path: [[115.6067, 39.8733], [115.6117, 39.8783], [115.6167, 39.8833]]
+            },
+            {
+                name: "灵山",
+                location: [115.5667, 40.0500],
+                difficulty: 5,
+                duration: "8-10小时",
+                distance: "约15公里",
+                elevation: "2303米",
+                description: "北京第一高峰,高山草甸辽阔",
+                scenery: ["北京之巅", "高山草甸", "云海奇观"],
+                traffic: "地铁1号线至苹果园,换乘892路",
+                suitable: ["资深户外者", "高原适应者"],
+                season: "6-9月,冬季封山",
+                tips: ["注意高反", "备保暖衣物"],
+                photos: ["https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800"],
+                path: [[115.5567, 40.0400], [115.5617, 40.0450], [115.5667, 40.0500]]
+            },
+            {
+                name: "黄花城水长城",
+                location: [116.4833, 40.4667],
+                difficulty: 2,
+                duration: "3-4小时",
+                distance: "约6公里",
+                elevation: "600米",
+                description: "独特的水中长城景观",
+                scenery: ["水中长城", "明代长城", "湖光山色"],
+                traffic: "地铁15号线至俸伯站,换乘H21路",
+                suitable: ["入门级", "摄影爱好者"],
+                season: "四季皆宜",
+                tips: ["需购买门票", "可乘船"],
+                photos: ["https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800"],
+                path: [[116.4733, 40.4567], [116.4783, 40.4617], [116.4833, 40.4667]]
+            },
+            {
+                name: "蟒山国家森林公园",
+                location: [116.1833, 40.2167],
+                difficulty: 2,
+                duration: "3-4小时",
+                distance: "约8公里",
+                elevation: "640米",
+                description: "3666级台阶直达山顶",
+                scenery: ["大佛寺", "天池", "彩叶林"],
+                traffic: "地铁5号线至天通苑北,换乘643路",
+                suitable: ["入门级", "健身爱好者"],
+                season: "春秋两季",
+                tips: ["台阶陡峭", "可坐缆车"],
+                photos: ["https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800"],
+                path: [[116.1733, 40.2067], [116.1783, 40.2117], [116.1833, 40.2167]]
+            },
+            {
+                name: "喇叭沟门原始森林",
+                location: [116.9167, 41.0833],
+                difficulty: 3,
+                duration: "5-6小时",
+                distance: "约10公里",
+                elevation: "1700米",
+                description: "华北唯一原始次生林",
+                scenery: ["原始森林", "白桦林", "高山草甸"],
+                traffic: "东直门长途站916路至怀柔转916支",
+                suitable: ["中级驴友", "自然爱好者"],
+                season: "夏季最佳",
+                tips: ["路程较远", "气温低10度"],
+                photos: ["https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800"],
+                path: [[116.9067, 41.0733], [116.9117, 41.0783], [116.9167, 41.0833]]
+            },
+            {
+                name: "云蒙山",
+                location: [116.5500, 40.5833],
+                difficulty: 4,
+                duration: "6-7小时",
+                distance: "约12公里",
+                elevation: "1414米",
+                description: "有北方小黄山之称",
+                scenery: ["奇峰异石", "瀑布溪流", "原始森林"],
+                traffic: "东直门916路至怀柔转H11路",
+                suitable: ["中高级驴友", "登山爱好者"],
+                season: "春夏秋三季",
+                tips: ["山路陡峭", "需购买门票"],
+                photos: ["https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800"],
+                path: [[116.5400, 40.5733], [116.5450, 40.5783], [116.5500, 40.5833]]
+            },
+            {
+                name: "妙峰山",
+                location: [116.0333, 40.0500],
+                difficulty: 3,
+                duration: "4-5小时",
+                distance: "约9公里",
+                elevation: "1291米",
+                description: "著名道教名山,玫瑰花海",
+                scenery: ["古寺道观", "玫瑰花海", "京城全景"],
+                traffic: "地铁1号线苹果园站换乘892路",
+                suitable: ["中级驴友", "摄影爱好者"],
+                season: "5-6月玫瑰花开",
+                tips: ["四月有庙会", "可自驾"],
+                photos: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"],
+                path: [[116.0233, 40.0400], [116.0283, 40.0450], [116.0333, 40.0500]]
+            },
+            {
+                name: "鹫峰森林公园",
+                location: [116.0667, 40.0667],
+                difficulty: 2,
+                duration: "3-4小时",
+                distance: "约7公里",
+                elevation: "1153米",
+                description: "小西山最高峰",
+                scenery: ["秀峰林立", "古寺遗迹", "红叶彩林"],
+                traffic: "地铁16号线北安河站换乘346路",
+                suitable: ["入门级", "休闲徒步"],
+                season: "秋季赏红叶",
+                tips: ["需购买门票", "可坐缆车"],
+                photos: ["https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800"],
+                path: [[116.0567, 40.0567], [116.0617, 40.0617], [116.0667, 40.0667]]
+            },
+            {
+                name: "香山",
+                location: [116.1833, 39.9833],
+                difficulty: 2,
+                duration: "3-4小时",
+                distance: "约6公里",
+                elevation: "557米",
+                description: "最著名赏红叶胜地",
+                scenery: ["红叶彩林", "鬼见愁", "碧云寺"],
+                traffic: "地铁4号线北宫门站换乘563路",
+                suitable: ["所有人群", "摄影爱好者"],
+                season: "秋季赏红叶(10月-11月)",
+                tips: ["人流密集", "可坐缆车"],
+                photos: ["https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800"],
+                path: [[116.1733, 39.9733], [116.1783, 39.9783], [116.1833, 39.9833]]
+            },
+            {
+                name: "八大处公园",
+                location: [116.1833, 39.9667],
+                difficulty: 1,
+                duration: "3-4小时",
+                distance: "约8公里",
+                elevation: "464米",
+                description: "八座古寺环山而建",
+                scenery: ["八座古寺", "山林景观", "宗教文化"],
+                traffic: "地铁1号线苹果园站换乘972路",
+                suitable: ["所有人群", "文化爱好者"],
+                season: "春秋两季",
+                tips: ["需购买门票", "可坐滑道"],
+                photos: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"],
+                path: [[116.1733, 39.9567], [116.1783, 39.9617], [116.1833, 39.9667]]
+            },
+            {
+                name: "司马台长城",
+                location: [117.2667, 40.6667],
+                difficulty: 4,
+                duration: "5-6小时",
+                distance: "约10公里",
+                elevation: "1000米",
+                description: "唯一保留明代原貌长城",
+                scenery: ["野长城", "险峻烽火台", "星空夜景"],
+                traffic: "东直门980路至密云转密51路",
+                suitable: ["中高级驴友", "摄影爱好者"],
+                season: "春秋最佳,可夜游",
+                tips: ["需预约购票", "夜游需预约"],
+                photos: ["https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800"],
+                path: [[117.2567, 40.6567], [117.2617, 40.6617], [117.2667, 40.6667]]
+            },
+            {
+                name: "金山岭长城",
+                location: [117.2333, 40.6667],
+                difficulty: 3,
+                duration: "4-5小时",
+                distance: "约10公里",
+                elevation: "700米",
+                description: "摄影爱好者天堂",
+                scenery: ["壮观长城", "烽火台群", "日出日落"],
+                traffic: "东直门980路至密云转密51路",
+                suitable: ["中级驴友", "摄影爱好者"],
+                season: "春秋最佳",
+                tips: ["需购买门票", "可住农家院"],
+                photos: ["https://images.unsplash.com/photo-1515488764276-beab7607c1e6?w=800"],
+                path: [[117.2233, 40.6567], [117.2283, 40.6617], [117.2333, 40.6667]]
+            },
+            {
+                name: "古北水镇",
+                location: [117.2750, 40.6583],
+                difficulty: 2,
+                duration: "4-5小时",
+                distance: "约8公里",
+                elevation: "500米",
+                description: "江南水乡+长城文化",
+                scenery: ["水乡古镇", "长城烽火台", "夜景灯光"],
+                traffic: "东直门980路至密云转密51路",
+                suitable: ["所有人群", "度假休闲"],
+                season: "四季皆宜",
+                tips: ["需购买套票", "可住镇内"],
+                photos: ["https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"],
+                path: [[117.2650, 40.6483], [117.2700, 40.6533], [117.2750, 40.6583]]
+            },
+            {
+                name: "慕田峪长城",
+                location: [116.5667, 40.4333],
+                difficulty: 2,
+                duration: "3-4小时",
+                distance: "约5公里",
+                elevation: "600米",
+                description: "长城精华段",
+                scenery: ["雄伟长城", "敌楼密集", "山林景观"],
+                traffic: "东直门916路至怀柔转H23路",
+                suitable: ["所有人群", "国际友人"],
+                season: "春秋两季",
+                tips: ["需购买门票", "可坐缆车"],
+                photos: ["https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800"],
+                path: [[116.5567, 40.4233], [116.5617, 40.4283], [116.5667, 40.4333]]
+            },
+            {
+                name: "居庸关长城",
+                location: [116.0667, 40.3000],
+                difficulty: 2,
+                duration: "2-3小时",
+                distance: "约4公里",
+                elevation: "450米",
+                description: "天下九塞之一,春季花海",
+                scenery: ["关城建筑", "春季花海", "云台石刻"],
+                traffic: "地铁昌平线至昌平站换乘昌55路",
+                suitable: ["所有人群", "历史爱好者"],
+                season: "春季花开(3-4月)",
+                tips: ["需购买门票", "春季人多"],
+                photos: ["https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800"],
+                path: [[116.0567, 40.2900], [116.0617, 40.2950], [116.0667, 40.3000]]
+            },
+            {
+                name: "八达岭长城",
+                location: [115.9833, 40.3500],
+                difficulty: 2,
+                duration: "3-4小时",
+                distance: "约6公里",
+                elevation: "1015米",
+                description: "最著名的长城段",
+                scenery: ["雄伟长城", "好汉坡", "烽火台"],
+                traffic: "地铁昌平线至朱辛庄换乘877路",
+                suitable: ["所有人群", "首次游长城"],
+                season: "春秋两季",
+                tips: ["游客众多", "可坐缆车"],
+                photos: ["https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=800"],
+                path: [[115.9733, 40.3400], [115.9783, 40.3450], [115.9833, 40.3500]]
+            }
+        ];
+
+        let map, markers = [], paths = [];
+        let currentFilter = 'all';
+        let currentPath = null;
+        let walkingMarker = null;
+        let currentRouteIndex = -1;
+        let displayedRoutes = hikingRoutes; // 当前显示的路线列表
+        let currentInfoWindow = null; // 全局维护当前打开的信息窗口
+
+        // 初始化地图
+        function initMap() {
+            map = new AMap.Map('map-container', {
+                zoom: 9,
+                center: [116.397428, 39.90923],
+                mapStyle: 'amap://styles/whitesmoke',
+                viewMode: '2D'
+            });
+
+            map.addControl(new AMap.Scale());
+            map.addControl(new AMap.ToolBar({
+                position: { top: '20px', right: '20px' }
+            }));
+
+            // 初始加载所有路线并立即显示
+            displayedRoutes = hikingRoutes;
+            renderMarkers(displayedRoutes);
+            renderRouteList(displayedRoutes);
+            
+            // 自动适应视野包含所有标记点
+            setTimeout(() => {
+                if (markers.length > 0) {
+                    map.setFitView(markers, false, [60, 60, 60, 60]);
+                }
+            }, 500);
+        }
+
+        // 渲染标记
+        function renderMarkers(routes) {
+            markers.forEach(marker => map.remove(marker));
+            markers = [];
+            clearPath();
+            closeAllInfoWindows(); // 清除所有信息窗口
+
+            routes.forEach(route => {
+                const icon = new AMap.Icon({
+                    size: new AMap.Size(40, 40),
+                    image: createMarkerSVG(route.difficulty),
+                    imageSize: new AMap.Size(40, 40)
+                });
+
+                const marker = new AMap.Marker({
+                    position: route.location,
+                    icon: icon,
+                    title: route.name,
+                    extData: route
+                });
+
+                // 创建信息窗口（注意：移除了 autoMove: false）
+                const infoWindow = new AMap.InfoWindow({
+                    content: createInfoWindowContent(route),
+                    offset: new AMap.Pixel(0, -30)
+                    // 允许自动调整位置，避免被遮挡
+                });
+
+                marker.on('mouseover', () => {
+                    closeAllInfoWindows(); // 先关闭所有窗口
+                    currentInfoWindow = infoWindow;
+                    infoWindow.open(map, marker.getPosition());
+                });
+
+                marker.on('click', () => {
+                    showRoutePath(route);
+                    closeAllInfoWindows(); // 先关闭所有窗口
+                    currentInfoWindow = infoWindow;
+                    infoWindow.open(map, marker.getPosition());
+                });
+
+                map.add(marker);
+                markers.push(marker);
+            });
+
+            document.getElementById('routeCount').textContent = routes.length;
+        }
+
+        // 关闭所有信息窗口
+        function closeAllInfoWindows() {
+            if (currentInfoWindow) {
+                currentInfoWindow.close();
+                currentInfoWindow = null;
+            }
+            map.clearInfoWindow(); // 确保清除所有窗口
+        }
+
+        function createMarkerSVG(difficulty) {
+            const colors = { 1: '#34C759', 2: '#007AFF', 3: '#FF9500', 4: '#FF9500', 5: '#FF3B30' };
+            const color = colors[difficulty] || '#999';
+            const svg = `
+                <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="15" fill="${color}" stroke="white" stroke-width="3"/>
+                    <text x="20" y="26" text-anchor="middle" fill="white" font-size="16" font-weight="bold">★</text>
+                </svg>
+            `;
+            return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+        }
+
+        function createInfoWindowContent(route) {
+            const difficultyStars = '★'.repeat(route.difficulty);
+            const sceneryTags = route.scenery.slice(0, 3).map(s => `<span class="info-tag">${s}</span>`).join('');
+            const photo = route.photos && route.photos.length > 0 ? route.photos[0] : '';
+
+            return `
+                <div class="info-window">
+                    ${photo ? `<div class="info-photos"><img src="${photo}" alt="${route.name}"/></div>` : ''}
+                    <div class="info-header">
+                        <h3>${route.name}</h3>
+                        <span class="info-difficulty">${difficultyStars}</span>
+                    </div>
+                    <div class="info-body">
+                        <div class="info-row">
+                            <span class="info-icon">📝</span>
+                            <div class="info-content">${route.description}</div>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">⏱️</span>
+                            <div class="info-content">${route.duration} | ${route.distance}</div>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-icon">🏔️</span>
+                            <div class="info-content">
+                                <div class="info-tags">${sceneryTags}</div>
+                            </div>
+                        </div>
+                        <button class="view-path-btn" onclick="showRoutePath(hikingRoutes.find(r => r.name === '${route.name}'))">
+                            🗺️ 查看徒步路径
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 显示路径并添加动画小人
+        function showRoutePath(route) {
+            clearPath();
+            
+            if (!route.path || route.path.length === 0) {
+                alert('该路线暂无路径数据');
+                return;
+            }
+
+            // 记录当前路线索引
+            currentRouteIndex = displayedRoutes.findIndex(r => r.name === route.name);
+
+            // 绘制路径
+            currentPath = new AMap.Polyline({
+                path: route.path,
+                strokeColor: '#FF3B30',
+                strokeWeight: 4,
+                strokeOpacity: 0.8,
+                lineJoin: 'round',
+                lineCap: 'round'
+            });
+            
+            map.add(currentPath);
+
+            // 起点和终点
+            const startMarker = new AMap.Marker({
+                position: route.path[0],
+                icon: new AMap.Icon({
+                    size: new AMap.Size(30, 30),
+                    image: 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(`
+                        <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15" r="12" fill="#34C759" stroke="white" stroke-width="2"/>
+                            <text x="15" y="20" text-anchor="middle" fill="white" font-size="14" font-weight="bold">起</text>
+                        </svg>
+                    `),
+                    imageSize: new AMap.Size(30, 30)
+                })
+            });
+
+            const endMarker = new AMap.Marker({
+                position: route.path[route.path.length - 1],
+                icon: new AMap.Icon({
+                    size: new AMap.Size(30, 30),
+                    image: 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(`
+                        <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="15" cy="15" r="12" fill="#FF3B30" stroke="white" stroke-width="2"/>
+                            <text x="15" y="20" text-anchor="middle" fill="white" font-size="14" font-weight="bold">终</text>
+                        </svg>
+                    `),
+                    imageSize: new AMap.Size(30, 30)
+                })
+            });
+
+            map.add([startMarker, endMarker]);
+            paths.push(currentPath, startMarker, endMarker);
+
+            // 自动适应视野
+            map.setFitView([currentPath], false, [100, 100, 100, 100]);
+
+            // 创建动画小人
+            createWalkingMarker(route);
+            
+            // 显示路径信息卡片
+            showPathInfo(route);
+            
+            // 更新导航按钮状态
+            updateNavButtons();
+        }
+
+        // 创建动画小人 - 真正沿路径移动
+        function createWalkingMarker(route) {
+            // 小人图标 - 使用emoji让它更生动
+            const personIcon = new AMap.Icon({
+                size: new AMap.Size(40, 40),
+                image: 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(`
+                    <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <text x="20" y="30" text-anchor="middle" font-size="32">🚶</text>
+                    </svg>
+                `),
+                imageSize: new AMap.Size(40, 40)
+            });
+
+            walkingMarker = new AMap.Marker({
+                position: route.path[0],
+                icon: personIcon,
+                offset: new AMap.Pixel(-20, -40),
+                zIndex: 1000
+            });
+
+            map.add(walkingMarker);
+            paths.push(walkingMarker);
+
+            // 沿路径移动动画 - 使用 moveAlong 方法，小人会真正跟随路径
+            walkingMarker.moveAlong(route.path, {
+                duration: 5000, // 5秒完成全程
+                autoRotation: true, // 自动旋转朝向运动方向
+                circlable: false // 不循环
+            });
+        }
+
+        // 更新导航按钮状态 - 循环模式下按钮永远可用
+        function updateNavButtons() {
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            
+            // 循环模式：按钮永远不禁用
+            if (prevBtn && nextBtn) {
+                prevBtn.disabled = false;
+                nextBtn.disabled = false;
+            }
+        }
+
+        // 上一个路线 - 循环模式
+        function navigatePrev() {
+            if (displayedRoutes.length === 0) return;
+            
+            // 如果是第一条，跳到最后一条（循环）
+            let newIndex = currentRouteIndex - 1;
+            if (newIndex < 0) {
+                newIndex = displayedRoutes.length - 1;
+            }
+            
+            const prevRoute = displayedRoutes[newIndex];
+            showRoutePath(prevRoute);
+            
+            // 找到对应的marker
+            const marker = markers.find(m => m.getExtData().name === prevRoute.name);
+            if (marker) {
+                // 关闭所有旧窗口
+                closeAllInfoWindows();
+                
+                // 使用 setZoomAndCenter 精确居中，并设置合适的缩放级别
+                map.setZoomAndCenter(13, marker.getPosition());
+                
+                // 延迟打开信息窗口
+                setTimeout(() => {
+                    const infoWindow = new AMap.InfoWindow({
+                        content: createInfoWindowContent(prevRoute),
+                        offset: new AMap.Pixel(0, -30)
+                    });
+                    currentInfoWindow = infoWindow;
+                    infoWindow.open(map, marker.getPosition());
+                }, 500);
+            }
+        }
+
+        // 下一个路线 - 循环模式
+        function navigateNext() {
+            if (displayedRoutes.length === 0) return;
+            
+            // 如果是最后一条，跳到第一条（循环）
+            let newIndex = currentRouteIndex + 1;
+            if (newIndex >= displayedRoutes.length) {
+                newIndex = 0;
+            }
+            
+            const nextRoute = displayedRoutes[newIndex];
+            showRoutePath(nextRoute);
+            
+            // 找到对应的marker
+            const marker = markers.find(m => m.getExtData().name === nextRoute.name);
+            if (marker) {
+                // 关闭所有旧窗口
+                closeAllInfoWindows();
+                
+                // 使用 setZoomAndCenter 精确居中，并设置合适的缩放级别
+                map.setZoomAndCenter(13, marker.getPosition());
+                
+                // 延迟打开信息窗口
+                setTimeout(() => {
+                    const infoWindow = new AMap.InfoWindow({
+                        content: createInfoWindowContent(nextRoute),
+                        offset: new AMap.Pixel(0, -30)
+                    });
+                    currentInfoWindow = infoWindow;
+                    infoWindow.open(map, marker.getPosition());
+                }, 500);
+            }
+        }
+
+        // 显示路径信息
+        function showPathInfo(route) {
+            const distance = parseFloat(route.distance.replace(/[^0-9.]/g, ''));
+            const elevation = parseFloat(route.elevation.replace(/[^0-9.]/g, ''));
+            
+            // 计算卡路里: 距离(km) × 65 + 海拔(m) × 0.05
+            const calories = Math.round(distance * 65 + elevation * 0.05);
+
+            document.getElementById('pathDuration').textContent = route.duration;
+            document.getElementById('pathDistance').textContent = route.distance;
+            document.getElementById('pathCalories').innerHTML = formatCalories(calories);
+            
+            document.getElementById('pathInfoCard').classList.add('active');
+        }
+
+        // 将卡路里转换成形象的食物对比
+        function formatCalories(calories) {
+            // 常见食物卡路里参考
+            const foods = [
+                { name: '🥤 可乐', unit: '瓶', cal: 140 },
+                { name: '🍔 汉堡', unit: '个', cal: 280 },
+                { name: '🍎 苹果', unit: '个', cal: 50 },
+                { name: '🍰 榴莲', unit: 'g', cal: 1.5, show: 100 }, // 每100g
+                { name: '🍫 巧克力', unit: 'g', cal: 5.5, show: 100 },
+                { name: '🍕 披萨', unit: '片', cal: 300 },
+                { name: '🍜 拉面', unit: '碗', cal: 500 }
+            ];
+
+            // 根据卡路里选择最合适的食物（让数字在1-10之间）
+            let bestFood = foods[0];
+            let bestAmount = calories / bestFood.cal;
+            
+            for (let food of foods) {
+                const amount = calories / food.cal;
+                // 选择让数字在1-8之间的食物
+                if (amount >= 1 && amount <= 8) {
+                    if (Math.abs(amount - 3) < Math.abs(bestAmount - 3)) {
+                        bestFood = food;
+                        bestAmount = amount;
+                    }
+                }
+            }
+
+            // 格式化显示
+            const amount = (calories / bestFood.cal).toFixed(1);
+            const showAmount = bestFood.show ? `${(amount * bestFood.show).toFixed(0)}${bestFood.unit}` : `${amount}${bestFood.unit}`;
+            
+            return `${calories} kcal<br><span style="font-size:12px;color:#86868b;">≈ ${bestFood.name} ${showAmount}</span>`;
+        }
+
+        function clearPath() {
+            paths.forEach(item => map.remove(item));
+            paths = [];
+            currentPath = null;
+            walkingMarker = null;
+            document.getElementById('pathInfoCard').classList.remove('active');
+        }
+
+        function renderRouteList(routes) {
+            const listContainer = document.getElementById('routeList');
+            listContainer.innerHTML = routes.map(route => {
+                const difficultyStars = '★'.repeat(route.difficulty);
+                return `
+                    <div class="route-item" onclick="focusRoute('${route.name}')">
+                        <div class="route-name">${route.name}</div>
+                        <div class="route-meta">
+                            <span class="difficulty">${difficultyStars}</span>
+                            <span>⏱️ ${route.duration}</span>
+                            <span>📏 ${route.distance}</span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function focusRoute(routeName) {
+            const route = hikingRoutes.find(r => r.name === routeName);
+            if (route) {
+                // 显示路径和动画
+                showRoutePath(route);
+                
+                // 找到对应的marker
+                const marker = markers.find(m => m.getExtData().name === routeName);
+                if (marker) {
+                    // 关闭所有旧窗口
+                    closeAllInfoWindows();
+                    
+                    // 使用 setZoomAndCenter 精确居中，并设置合适的缩放级别
+                    map.setZoomAndCenter(13, marker.getPosition());
+                    
+                    // 延迟打开信息窗口
+                    setTimeout(() => {
+                        const infoWindow = new AMap.InfoWindow({
+                            content: createInfoWindowContent(route),
+                            offset: new AMap.Pixel(0, -30)
+                        });
+                        currentInfoWindow = infoWindow;
+                        infoWindow.open(map, marker.getPosition());
+                    }, 500);
+                }
+            }
+        }
+
+        // 筛选
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                const difficultyFilter = this.dataset.difficulty;
+                currentFilter = difficultyFilter;
+                
+                let filteredRoutes = hikingRoutes;
+                if (difficultyFilter !== 'all') {
+                    const difficulties = difficultyFilter.split(',').map(Number);
+                    filteredRoutes = hikingRoutes.filter(r => difficulties.includes(r.difficulty));
+                }
+                
+                displayedRoutes = filteredRoutes; // 更新当前显示的路线列表
+                renderMarkers(filteredRoutes);
+                renderRouteList(filteredRoutes);
+                
+                // 自动显示第一条路线
+                if (filteredRoutes.length > 0) {
+                    setTimeout(() => {
+                        focusRoute(filteredRoutes[0].name);
+                    }, 300);
+                }
+            });
+        });
+
+        // 搜索
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const keyword = e.target.value.toLowerCase();
+            let filteredRoutes = hikingRoutes;
+            
+            if (currentFilter !== 'all') {
+                const difficulties = currentFilter.split(',').map(Number);
+                filteredRoutes = filteredRoutes.filter(r => difficulties.includes(r.difficulty));
+            }
+            
+            if (keyword) {
+                filteredRoutes = filteredRoutes.filter(route => 
+                    route.name.toLowerCase().includes(keyword) ||
+                    route.description.toLowerCase().includes(keyword) ||
+                    route.scenery.some(s => s.toLowerCase().includes(keyword))
+                );
+            }
+            
+            displayedRoutes = filteredRoutes; // 更新当前显示的路线列表
+            renderMarkers(filteredRoutes);
+            renderRouteList(filteredRoutes);
+        });
+
+        // 切换侧边栏
+        document.getElementById('toggleSidebar').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.toggle('active');
+        });
+
+        window.onload = function() {
+            if (typeof AMap === 'undefined') {
+                alert('高德地图 API 加载失败');
+                return;
+            }
+            initMap();
+        };
+    </script>
+</body>
+</html>
