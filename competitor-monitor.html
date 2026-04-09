@@ -1,0 +1,2003 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>行业资讯雷达</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #f5f5f7;
+      --surface: #fff;
+      --surface-2: #f5f5f7;
+      --border: rgba(0,0,0,.08);
+      --border-strong: rgba(0,0,0,.14);
+      --text: #1d1d1f;
+      --text-2: #6e6e73;
+      --text-3: #aeaeb2;
+      --blue: #0071e3;
+      --blue-bg: #e8f1fb;
+      --red: #ff3b30;
+      --red-bg: #fff1f0;
+      --orange: #ff9500;
+      --green: #34c759;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --shadow: 0 2px 8px rgba(0,0,0,.06), 0 0 0 1px rgba(0,0,0,.04);
+      --shadow-md: 0 4px 20px rgba(0,0,0,.08), 0 0 0 1px rgba(0,0,0,.04);
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+    }
+
+    /* ── TOPBAR ── */
+    .topbar {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(255,255,255,.85);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      display: flex; align-items: center; gap: 16px; height: 52px;
+    }
+    .topbar-logo {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 15px; font-weight: 600; color: var(--text); letter-spacing: -.3px;
+    }
+    .topbar-logo-dot {
+      width: 8px; height: 8px; border-radius: 50%; background: var(--blue);
+    }
+    .topbar-divider { width: 1px; height: 18px; background: var(--border-strong); }
+    .topbar-tabs { display: flex; gap: 2px; }
+    .topbar-tab {
+      padding: 5px 12px; border-radius: 6px; font-size: 13px; font-weight: 500;
+      color: var(--text-2); cursor: pointer; transition: all .15s;
+      border: none; background: none;
+    }
+    .topbar-tab:hover { background: var(--surface-2); color: var(--text); }
+    .topbar-tab.active { background: var(--surface); color: var(--text); box-shadow: var(--shadow); }
+    .topbar-right { margin-left: auto; display: flex; align-items: center; gap: 10px; }
+    .status-pill {
+      display: flex; align-items: center; gap: 5px;
+      font-size: 12px; color: var(--text-2);
+      padding: 4px 10px; border-radius: 20px;
+      background: var(--surface); box-shadow: var(--shadow);
+    }
+    .status-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--green); }
+    .status-dot.syncing { background: var(--orange); animation: pulse .8s ease-in-out infinite alternate; }
+    @keyframes pulse { to { opacity: .3; } }
+    .btn-refresh {
+      display: flex; align-items: center; gap: 6px;
+      padding: 7px 14px; border-radius: 8px;
+      background: var(--blue); color: #fff;
+      font-size: 13px; font-weight: 500; border: none; cursor: pointer;
+      transition: all .15s;
+    }
+    .btn-refresh:hover { background: #0077ed; }
+    .btn-refresh:active { transform: scale(.97); }
+    .btn-refresh svg { transition: transform .5s; }
+    .btn-refresh.spinning svg { animation: spin .7s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── COMPANY SEGMENT ── */
+    .segment-wrap { padding: 16px 24px 0; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    .segment {
+      display: inline-flex; background: var(--surface); border-radius: 10px;
+      box-shadow: var(--shadow); padding: 3px; gap: 2px; flex-wrap: wrap;
+    }
+    .seg-btn {
+      padding: 5px 14px; border-radius: 7px; font-size: 13px; font-weight: 500;
+      color: var(--text-2); cursor: pointer; border: none; background: none;
+      transition: all .15s; white-space: nowrap; display: flex; align-items: center; gap: 5px;
+    }
+    .seg-btn:hover { color: var(--text); }
+    .seg-btn.active { background: var(--blue); color: #fff; }
+    .seg-btn .cnt {
+      font-size: 11px; font-weight: 600;
+      background: rgba(255,255,255,.25); border-radius: 4px; padding: 0 5px; line-height: 16px;
+    }
+    .seg-btn:not(.active) .cnt { background: var(--surface-2); color: var(--text-3); }
+
+    /* ── VIEW SWITCH ── */
+    .view-switch { margin-left: auto; }
+
+    /* ── SEARCH BAR ── */
+    .search-bar {
+      padding: 12px 24px 0; display: flex; align-items: center; gap: 10px;
+    }
+    .search-wrap {
+      position: relative; flex: 1; max-width: 400px;
+    }
+    .search-wrap svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: var(--text-3); pointer-events: none; }
+    .search-input {
+      width: 100%; padding: 8px 12px 8px 34px;
+      border: 1px solid var(--border); border-radius: 8px;
+      background: var(--surface); font-size: 13px; color: var(--text);
+      outline: none; transition: all .15s;
+    }
+    .search-input:focus { border-color: var(--blue); box-shadow: 0 0 0 3px var(--blue-bg); }
+    .search-input::placeholder { color: var(--text-3); }
+    .kw-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+    .kw-pill {
+      padding: 4px 10px; border-radius: 16px; font-size: 12px; font-weight: 500;
+      border: 1px solid var(--border); color: var(--text-2); background: var(--surface);
+      cursor: pointer; transition: all .12s;
+    }
+    .kw-pill:hover { border-color: var(--blue); color: var(--blue); }
+    .kw-pill.on { background: var(--blue); border-color: var(--blue); color: #fff; }
+    .result-count { margin-left: auto; font-size: 12px; color: var(--text-3); white-space: nowrap; }
+
+    /* ── AI KEY BAR ── */
+    .ai-bar {
+      margin: 12px 24px 0; padding: 10px 14px;
+      background: var(--surface); border-radius: var(--radius-sm); box-shadow: var(--shadow);
+      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    }
+    .ai-bar-label { font-size: 12px; color: var(--text-2); font-weight: 500; white-space: nowrap; }
+    .ai-key-input {
+      flex: 1; min-width: 200px; padding: 6px 10px; border: 1px solid var(--border);
+      border-radius: 6px; font-size: 12px; color: var(--text); outline: none;
+      background: var(--surface-2); transition: all .15s;
+    }
+    .ai-key-input:focus { border-color: var(--blue); background: #fff; }
+    .btn-ai { padding: 6px 12px; border-radius: 6px; background: var(--blue); color: #fff; font-size: 12px; font-weight: 500; border: none; cursor: pointer; transition: all .15s; white-space: nowrap; }
+    .btn-ai:hover { background: #0077ed; }
+    .ai-tip { font-size: 11px; color: var(--text-3); }
+
+    /* ── MAIN LAYOUT ── */
+    .main-layout {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 0;
+      padding: 16px 24px 40px;
+      max-width: 1400px; margin: 0 auto;
+      align-items: start;
+    }
+
+    /* ── PANELS ── */
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    /* BRIEF PANEL */
+    .brief-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 20px; }
+    .brief-grid.single { grid-template-columns: 1fr; }
+    /* 单公司视图：上方公司总卡片 + 下方各账号子卡片网格 */
+    .source-cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-top: 0; }
+    .source-card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px; animation: fadeUp .25s ease both; }
+    .source-card-head { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .source-card-avatar { width: 32px; height: 32px; border-radius: 8px; object-fit: cover; background: var(--surface-2); }
+    .source-card-name { font-size: 13px; font-weight: 600; flex: 1; transition: color .12s; }
+    .source-card-name:hover { color: var(--blue); text-decoration: underline; }
+    .source-card-cnt { font-size: 11px; color: var(--text-3); }
+    /* 单公司视图布局 */
+    .company-detail-wrap { display: flex; flex-direction: column; gap: 20px; }
+    .company-detail-header { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 20px; display: flex; align-items: center; gap: 14px; }
+    .company-detail-title { font-size: 18px; font-weight: 700; letter-spacing: -.3px; }
+    .company-detail-sub { font-size: 12px; color: var(--text-3); margin-top: 2px; }
+    .company-section-title { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 10px; }
+    .company-bottom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .company-chart-card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; }
+    .company-wc { display: flex; flex-wrap: wrap; gap: 5px; padding: 4px; min-height: 120px; align-items: center; justify-content: center; }
+    .company-ai-card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; }
+    .company-ai-result { margin-top: 12px; padding: 12px 14px; border-radius: 8px; background: var(--blue-bg); font-size: 12px; color: #1a4a7a; line-height: 1.7; }
+    .btn-company-ai { display: inline-flex; align-items: center; gap: 7px; padding: 9px 18px; border-radius: 8px; background: var(--blue); color: #fff; font-size: 13px; font-weight: 600; border: none; cursor: pointer; transition: all .15s; }
+    .btn-company-ai:hover { background: #0077ed; }
+    .btn-company-ai:disabled { opacity: .55; cursor: default; }
+    @media (max-width: 860px) { .company-bottom-grid { grid-template-columns: 1fr; } }
+
+    /* ── 情报存档 ── */
+    .archive-badge { display:inline-flex;align-items:center;justify-content:center;background:var(--blue);color:#fff;border-radius:10px;font-size:10px;font-weight:700;min-width:16px;height:16px;padding:0 4px;margin-left:4px;vertical-align:middle;line-height:1; }
+    .archive-toolbar { display:flex;align-items:center;gap:10px;padding:14px 0 12px;border-bottom:1px solid var(--border);margin-bottom:16px; }
+    .archive-toolbar-title { font-size:14px;font-weight:700;color:var(--text); }
+    .archive-filter { padding:5px 10px;border-radius:6px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:12px;cursor:pointer; }
+    .archive-clear-btn { padding:5px 12px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--text-3);font-size:12px;cursor:pointer;transition:all .15s; }
+    .archive-clear-btn:hover { border-color:var(--red);color:var(--red); }
+    .archive-list { display:flex;flex-direction:column;gap:20px; }
+    .archive-card { background:var(--surface);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px;animation:fadeUp .2s ease both;border-left:3px solid var(--blue); }
+    .archive-card-head { display:flex;align-items:center;gap:10px;margin-bottom:18px; }
+    .archive-card-company { font-size:13px;font-weight:700;cursor:pointer;transition:opacity .12s;color:var(--text); }
+    .archive-card-company:hover { opacity:.7;text-decoration:underline; }
+    .archive-card-time { font-size:11px;color:var(--text-3);margin-left:auto; }
+    .archive-card-del { width:24px;height:24px;border-radius:6px;border:none;background:transparent;color:var(--text-3);cursor:pointer;font-size:15px;line-height:1;display:flex;align-items:center;justify-content:center;transition:all .15s; }
+    .archive-card-del:hover { background:var(--red);color:#fff; }
+    .archive-card-body { font-size:13px;color:var(--text-1);line-height:1.8; }
+    .archive-section { margin-bottom:20px; }
+    .archive-section:last-child { margin-bottom:0; }
+    .archive-section-title {
+      font-size:12px;font-weight:700;letter-spacing:.04em;
+      color:var(--text-1);border-left:3px solid var(--blue);
+      padding:3px 10px;display:block;margin-bottom:10px;
+    }
+    .archive-section-body { font-size:13px;color:var(--text-1);line-height:1.8;padding-left:4px; }
+    .archive-refs { margin-top:14px;border-top:1px solid var(--border);padding-top:10px; }
+    .archive-refs-toggle { font-size:11px;color:var(--text-3);cursor:pointer;user-select:none;display:flex;align-items:center;gap:4px; }
+    .archive-refs-toggle:hover { color:var(--blue); }
+    .archive-refs-list { margin-top:8px;display:flex;flex-direction:column;gap:4px; }
+    .archive-ref-item { font-size:11px;color:var(--blue);text-decoration:none;display:flex;align-items:baseline;gap:5px;line-height:1.5;padding:2px 0; }
+    .archive-ref-item:hover { text-decoration:underline; }
+    .archive-ref-src { font-size:10px;color:var(--text-3);flex-shrink:0; }
+    .brief-card {
+      background: var(--surface); border-radius: var(--radius);
+      box-shadow: var(--shadow); padding: 24px; overflow: hidden;
+      animation: fadeUp .3s ease both;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .brief-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    @keyframes fadeUp { from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none} }
+    .bc-head { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+    .bc-avatar {
+      width: 38px; height: 38px; border-radius: 10px;
+      object-fit: cover; flex-shrink: 0;
+    }
+    .bc-avatar-placeholder {
+      width: 38px; height: 38px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 16px; font-weight: 700; color: #fff; flex-shrink: 0;
+    }
+    .bc-info { flex: 1; min-width: 0; }
+    .bc-name { font-size: 15px; font-weight: 600; letter-spacing: -.2px; }
+    .bc-sub { font-size: 11px; color: var(--text-3); margin-top: 1px; }
+    .bc-badge {
+      font-size: 11px; font-weight: 600; padding: 3px 8px;
+      border-radius: 20px; background: var(--blue-bg); color: var(--blue);
+    }
+
+    .bc-section { margin-bottom: 20px; }
+    .bc-section-title {
+      font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
+      color: var(--text-3); margin-bottom: 10px; padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    .bc-item {
+      display: block; padding: 6px 0; border-bottom: 1px solid var(--border);
+      text-decoration: none; color: var(--text); font-size: 13px;
+      line-height: 1.4; transition: color .12s;
+    }
+    .bc-item:last-child { border-bottom: none; }
+    .bc-item:hover { color: var(--blue); }
+    .bc-item-meta { font-size: 11px; color: var(--text-3); margin-top: 2px; display: block; }
+    .bc-empty { font-size: 12px; color: var(--text-3); font-style: italic; padding: 4px 0; }
+
+    .kw-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+    .kw-tag {
+      font-size: 11px; padding: 2px 8px; border-radius: 4px;
+      background: var(--surface-2); color: var(--text-2); border: 1px solid var(--border);
+    }
+    .kw-tag.hot { background: var(--red-bg); color: var(--red); border-color: transparent; }
+
+    .ai-result {
+      margin-top: 12px; padding: 10px 12px; border-radius: 8px;
+      background: var(--blue-bg); font-size: 12px; color: #1a4a7a;
+      line-height: 1.6;
+    }
+    .ai-trigger {
+      margin-top: 10px; font-size: 12px; color: var(--blue);
+      cursor: pointer; display: inline-flex; align-items: center; gap: 4px;
+    }
+    .ai-trigger:hover { text-decoration: underline; }
+
+    /* ARTICLES PANEL */
+    .articles-list { display: flex; flex-direction: column; gap: 10px; }
+    .article-card {
+      background: var(--surface); border-radius: var(--radius);
+      box-shadow: var(--shadow); padding: 14px 16px;
+      display: grid; grid-template-columns: 1fr 88px;
+      gap: 12px; text-decoration: none; color: inherit;
+      cursor: pointer; transition: box-shadow .15s, transform .12s;
+      animation: fadeUp .2s ease both;
+    }
+    .article-card:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
+    .art-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 5px; flex-wrap: wrap; }
+    .art-source {
+      font-size: 11px; font-weight: 600; padding: 2px 7px; border-radius: 4px; color: #fff;
+    }
+    .art-company { font-size: 11px; color: var(--text-3); }
+    .art-date { font-size: 11px; color: var(--text-3); margin-left: auto; }
+    .art-kws { display: flex; gap: 4px; flex-wrap: wrap; }
+    .art-kw { font-size: 10px; padding: 1px 6px; border-radius: 3px; background: var(--red-bg); color: var(--red); font-weight: 500; }
+    .art-title {
+      font-size: 14px; font-weight: 500; color: var(--text);
+      line-height: 1.45; letter-spacing: -.1px;
+    }
+    .art-title mark { background: #fff3b0; color: inherit; border-radius: 2px; padding: 0 1px; }
+    .art-thumb {
+      width: 88px; height: 62px; object-fit: cover;
+      border-radius: 8px; flex-shrink: 0;
+      background: var(--surface-2);
+    }
+    .art-no-thumb {
+      width: 88px; height: 62px; border-radius: 8px;
+      background: var(--surface-2); flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--text-3); font-size: 10px;
+    }
+    .load-more-wrap { text-align: center; padding: 20px; }
+    .btn-load-more {
+      padding: 9px 24px; border-radius: 20px; border: 1px solid var(--border);
+      background: var(--surface); color: var(--text-2); font-size: 13px;
+      cursor: pointer; transition: all .15s;
+    }
+    .btn-load-more:hover { border-color: var(--blue); color: var(--blue); }
+
+    /* CHARTS PANEL */
+    .charts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .chart-card {
+      background: var(--surface); border-radius: var(--radius);
+      box-shadow: var(--shadow); padding: 20px;
+    }
+    .chart-card.wide { grid-column: 1/-1; }
+    .chart-title { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 16px; }
+    .chart-subtitle { font-size: 11px; color: var(--text-3); font-weight: 400; margin-left: 6px; }
+    .chart-canvas-wrap { position: relative; }
+
+    /* WORDCLOUD */
+    #wordcloud-container {
+      display: flex; flex-wrap: wrap; gap: 6px;
+      align-items: center; justify-content: center;
+      padding: 8px; min-height: 160px;
+    }
+    .wc-word {
+      border-radius: 4px; padding: 3px 8px; cursor: default;
+      transition: transform .15s; white-space: nowrap;
+      animation: fadeUp .3s ease both;
+    }
+    .wc-word:hover { transform: scale(1.08); }
+
+    /* SIDEBAR */
+    .sidebar { padding-left: 16px; display: flex; flex-direction: column; gap: 14px; }
+    .sb-card {
+      background: var(--surface); border-radius: var(--radius);
+      box-shadow: var(--shadow); padding: 16px;
+    }
+    .sb-title { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 12px; }
+    .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .stat-item {
+      background: var(--surface-2); border-radius: 8px; padding: 10px 12px;
+      transition: background .15s, box-shadow .15s, transform .15s;
+    }
+    .stat-item.clickable { cursor: pointer; }
+    .stat-item.clickable:hover {
+      background: var(--blue-bg); box-shadow: 0 0 0 1.5px var(--blue);
+      transform: translateY(-1px);
+    }
+    .stat-item.clickable:hover .stat-lbl { color: var(--blue); }
+    .stat-item.clickable:active { transform: scale(.97); }
+    .stat-val { font-size: 22px; font-weight: 700; letter-spacing: -.5px; color: var(--text); }
+    .stat-lbl { font-size: 11px; color: var(--text-3); margin-top: 2px; transition: color .15s; }
+
+    .src-list { display: flex; flex-direction: column; gap: 1px; }
+    .src-item { display: flex; align-items: center; gap: 8px; padding: 8px 0; border-bottom: 1px solid var(--border); cursor: pointer; border-radius: 6px; transition: background .12s; }
+    .src-item:last-child { border-bottom: none; }
+    .src-item:hover { background: var(--surface-2); padding-left: 4px; }
+    .src-avatar { width: 28px; height: 28px; border-radius: 7px; object-fit: cover; flex-shrink: 0; background: var(--surface-2); }
+    .src-name { font-size: 12px; font-weight: 500; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .src-count { font-size: 11px; color: var(--text-3); flex-shrink: 0; }
+
+    .act-list { display: flex; flex-direction: column; gap: 8px; }
+    .act-item { display: flex; gap: 8px; align-items: flex-start; border-radius: 6px; padding: 3px 4px; transition: background .12s; }
+    .act-item:hover { background: var(--surface-2); }
+    .act-item:hover .act-text { color: var(--blue); }
+    .act-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); margin-top: 5px; flex-shrink: 0; }
+    .act-text { font-size: 12px; color: var(--text-2); line-height: 1.4; }
+    .act-time { font-size: 11px; color: var(--text-3); margin-top: 1px; display: block; }
+
+    /* EMPTY & WARNING */
+    .empty-state { padding: 40px 20px; text-align: center; font-size: 13px; color: var(--text-3); }
+    .warn-bar {
+      margin: 10px 24px 0;
+      padding: 10px 14px; border-radius: 8px;
+      background: #fff8e8; border: 1px solid #f0d080;
+      display: flex; align-items: flex-start; gap: 10px;
+      font-size: 12px; color: #7a5c00; line-height: 1.5;
+    }
+    .warn-bar a { color: inherit; }
+    .warn-close { margin-left: auto; cursor: pointer; opacity: .5; flex-shrink: 0; font-size: 16px; line-height: 1; padding: 0 2px; }
+    .warn-close:hover { opacity: 1; }
+
+    /* ── 未分类账号分类面板 ── */
+    .classify-overlay { position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:9000;display:flex;align-items:center;justify-content:center;animation:fadeIn .15s ease; }
+    @keyframes fadeIn { from{opacity:0}to{opacity:1} }
+    .classify-modal { background:var(--surface);border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.25);width:540px;max-width:92vw;max-height:80vh;display:flex;flex-direction:column;overflow:hidden; }
+    .classify-modal-head { padding:20px 24px 14px;border-bottom:1px solid var(--border);flex-shrink:0; }
+    .classify-modal-title { font-size:16px;font-weight:700;color:var(--text-1); }
+    .classify-modal-sub { font-size:12px;color:var(--text-3);margin-top:3px; }
+    .classify-modal-body { overflow-y:auto;padding:16px 24px;display:flex;flex-direction:column;gap:12px; }
+    .classify-row { display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:8px;background:var(--bg); }
+    .classify-avatar { width:32px;height:32px;border-radius:8px;object-fit:cover;flex-shrink:0; }
+    .classify-avatar-ph { width:32px;height:32px;border-radius:8px;background:var(--blue);display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:700;flex-shrink:0; }
+    .classify-name { flex:1;font-size:13px;font-weight:500;color:var(--text-1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
+    .classify-select { border:1px solid var(--border);border-radius:7px;padding:5px 10px;font-size:12px;background:var(--surface);color:var(--text-1);cursor:pointer;min-width:130px; }
+    .classify-modal-foot { padding:14px 24px;border-top:1px solid var(--border);display:flex;justify-content:flex-end;gap:8px;flex-shrink:0; }
+    .classify-skip { background:none;border:1px solid var(--border);border-radius:8px;padding:7px 16px;font-size:13px;cursor:pointer;color:var(--text-2); }
+    .classify-skip:hover { background:var(--bg); }
+    .classify-save { background:var(--blue);color:#fff;border:none;border-radius:8px;padding:7px 18px;font-size:13px;font-weight:600;cursor:pointer; }
+    .classify-save:hover { opacity:.88; }
+    .classify-new-input { border:1px solid var(--border);border-radius:7px;padding:5px 10px;font-size:12px;background:var(--surface);color:var(--text-1);width:110px;display:none; }
+
+    @media (max-width: 900px) {
+      .main-layout { grid-template-columns: 1fr; }
+      .sidebar { padding-left: 0; }
+      .charts-grid { grid-template-columns: 1fr; }
+      .charts-grid .chart-card.wide { grid-column: 1; }
+      .brief-grid { grid-template-columns: 1fr; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<header class="topbar">
+  <div class="topbar-logo">
+    <div class="topbar-logo-dot"></div>
+    行业资讯雷达
+  </div>
+  <div class="topbar-divider"></div>
+  <div class="topbar-tabs">
+    <button class="topbar-tab active" data-view="brief" onclick="switchView('brief')">资讯概览</button>
+    <button class="topbar-tab" data-view="articles" onclick="switchView('articles')">资讯列表</button>
+    <button class="topbar-tab" data-view="charts" onclick="switchView('charts')">数据图表</button>
+    <button class="topbar-tab" data-view="archive" onclick="switchView('archive')">AI 资讯摘要</button>
+  </div>
+  <div class="topbar-right">
+    <div class="status-pill">
+      <div class="status-dot" id="status-dot"></div>
+      <span id="status-text">正在连接…</span>
+    </div>
+    <button class="btn-refresh" id="btn-refresh" onclick="refresh()">
+      <svg id="refresh-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <path d="M21 2v6h-6M3 12a9 9 0 0 1 15-6.7L21 8M3 22v-6h6M21 12a9 9 0 0 1-15 6.7L3 16"/>
+      </svg>
+      刷新数据
+    </button>
+  </div>
+</header>
+
+<!-- COMPANY SEGMENT -->
+<div class="segment-wrap">
+  <div class="segment" id="company-segment">
+    <button class="seg-btn active" data-company="all"
+      onclick="switchCompany('all')">
+      全部 <span class="cnt" id="cnt-all">–</span>
+    </button>
+  </div>
+</div>
+
+<!-- WARNING BAR (hidden initially) -->
+<div id="warn-bar" style="display:none" class="warn-bar">
+  <span>⚠️</span>
+  <div id="warn-text"></div>
+  <span class="warn-close" onclick="document.getElementById('warn-bar').style.display='none'">×</span>
+</div>
+
+<!-- SEARCH BAR (articles view) -->
+<div class="search-bar" id="search-bar" style="display:none">
+  <div class="search-wrap">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input class="search-input" id="search-input" type="text" placeholder="搜索标题关键词…" oninput="applyFilters()">
+  </div>
+  <div class="kw-pills" id="kw-pills"></div>
+  <div class="result-count" id="result-count"></div>
+</div>
+
+<!-- AI KEY BAR -->
+<div class="ai-bar">
+  <span class="ai-bar-label">🤖 AI 摘要</span>
+  <input class="ai-key-input" id="ai-key" type="password" value="" placeholder="DeepSeek API Key（本地保存）" oninput="localStorage.setItem('cm_ai_key',this.value)">
+  <button class="btn-ai" id="btn-ai" onclick="triggerAiSummary()">
+    ✦ 一键生成全部情报摘要
+  </button>
+  <span class="ai-tip" id="ai-tip">含人事变动 · 行业资讯跨账号整合 · 基于 DeepSeek</span>
+</div>
+
+<!-- MAIN LAYOUT -->
+<div class="main-layout">
+  <div>
+    <!-- BRIEF PANEL -->
+    <div class="panel active" id="panel-brief">
+      <div class="brief-grid" id="brief-grid">
+        <div class="empty-state">加载中…</div>
+      </div>
+    </div>
+
+    <!-- ARTICLES PANEL -->
+    <div class="panel" id="panel-articles">
+      <div class="articles-list" id="articles-list"></div>
+      <div class="load-more-wrap" id="load-more" style="display:none">
+        <button class="btn-load-more" onclick="loadMore()">加载更多</button>
+      </div>
+    </div>
+
+    <!-- CHARTS PANEL -->
+    <div class="panel" id="panel-charts">
+      <div class="charts-grid">
+        <div class="chart-card wide">
+          <div class="chart-title">最近 14 天发文趋势 <span class="chart-subtitle">按公司分组</span></div>
+          <div class="chart-canvas-wrap" style="height:200px"><canvas id="chart-trend"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">关键词公司归属 <span class="chart-subtitle">各公司标题中的高频词热力</span></div>
+          <div id="chart-heatmap" style="overflow-x:auto;padding:4px 0"></div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-title">高频词云 <span class="chart-subtitle">标题词频 Top 40</span></div>
+          <div id="wordcloud-container"></div>
+        </div>
+        <div class="chart-card wide">
+          <div class="chart-title">关键词频率 <span class="chart-subtitle">Top 20</span></div>
+          <div class="chart-canvas-wrap" style="height:200px"><canvas id="chart-kw"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ARCHIVE PANEL -->
+    <div class="panel" id="panel-archive">
+      <div class="archive-toolbar">
+        <span class="archive-toolbar-title">AI 资讯摘要</span>
+        <div style="display:flex;gap:8px;margin-left:auto;align-items:center">
+          <select class="archive-filter" id="archive-filter-date" onchange="renderArchive()">
+            <option value="all">全部日期</option>
+          </select>
+          <select class="archive-filter" id="archive-filter-company" onchange="onArchiveCompanyChange(this.value)">
+            <option value="all">全部公司</option>
+          </select>
+          <button class="btn-ai" style="padding:5px 12px;font-size:12px" onclick="saveCurrentBriefToArchive()">📌 存入今日情报</button>
+          <button class="archive-clear-btn" onclick="clearArchive()">清空存档</button>
+        </div>
+      </div>
+      <div id="archive-list" class="archive-list"><div class="empty-state">暂无存档，点击「存入今日情报」手动保存当日生成的摘要</div></div>
+    </div>
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sb-card">
+      <div class="sb-title">数据概览</div>
+      <div class="stat-grid">
+        <div class="stat-item clickable" title="点击查看今日更新的公众号" onclick="filterByPeriod('today')">
+          <div class="stat-val" id="stat-today">–</div><div class="stat-lbl">今日更新</div>
+        </div>
+        <div class="stat-item clickable" title="点击查看本周更新的公众号" onclick="filterByPeriod('week')">
+          <div class="stat-val" id="stat-week">–</div><div class="stat-lbl">本周更新</div>
+        </div>
+        <div class="stat-item clickable" title="点击查看所有监测账号" onclick="showAllSources()">
+          <div class="stat-val" id="stat-sources">–</div><div class="stat-lbl">监测账号</div>
+        </div>
+        <div class="stat-item clickable" title="点击查看全部文章" onclick="curSearch='';document.getElementById('search-input').value='';switchView('articles');curCompany='all';curSourceId=null;curPeriodArts=null;curPeriodLabel='';document.querySelectorAll('.seg-btn').forEach(b=>b.classList.toggle('active',b.dataset.company==='all'));renderArticles();"><div class="stat-val" id="stat-total">–</div><div class="stat-lbl">文章总量</div></div>
+      </div>
+    </div>
+    <div class="sb-card">
+      <div class="sb-title">最新动态</div>
+      <div class="act-list" id="act-list"></div>
+    </div>
+    <div class="sb-card">
+      <div class="sb-title">公众号状态</div>
+      <div class="src-list" id="src-list"></div>
+    </div>
+  </aside>
+</div>
+
+<div id="classify-overlay" class="classify-overlay" style="display:none">
+  <div class="classify-modal">
+    <div class="classify-modal-head">
+      <div class="classify-modal-title">📥 发现未分类的公众号</div>
+      <div class="classify-modal-sub">以下账号在 WeWe RSS 里新增，请为它们选择所属公司（也可跳过，之后在「设置」里随时修改）</div>
+    </div>
+    <div class="classify-modal-body" id="classify-body"></div>
+    <div class="classify-modal-foot">
+      <button class="classify-skip" onclick="closeClassify()">稍后再说</button>
+      <button class="classify-save" onclick="saveClassify()">✓ 保存分类</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════ CONFIG ═══════════════
+const API      = 'https://wewe-rss-6t29.onrender.com';
+const AI_BASE  = 'https://api.deepseek.com/v1';
+const AUTH     = '';  // WeWe RSS 认证 token，本地使用时按需填写
+const PAGE_SZ  = 25;
+
+const COMPANY_GROUPS = {
+  '行业资讯': ['MP_WXS_3223374696','MP_WXS_3572959446','MP_WXS_3254144461','MP_WXS_3539511831','MP_WXS_3077993707','MP_WXS_1432156401','MP_WXS_3073282833','MP_WXS_2390142780','MP_WXS_3236757533'],
+  '字节跳动': ['MP_WXS_3231231509','MP_WXS_3293283359','MP_WXS_3930693616','MP_WXS_3253632141'],
+  '腾讯':     ['MP_WXS_1925343081','MP_WXS_2266383221','MP_WXS_2398602260'],
+  '阿里':     ['MP_WXS_3534750856','MP_WXS_3885737868'],
+  '美团':     ['MP_WXS_2397623202','MP_WXS_2396491298'],
+  '小红书':   ['MP_WXS_3212124064','MP_WXS_3935671163','MP_WXS_3889763736'],
+};
+const COMPANY_COLORS = {
+  '字节跳动': '#28F6E4',
+  '小红书':   '#ff2d55',
+  '美团':     '#f5a623',
+  '阿里':     '#ff6900',
+  '腾讯':     '#0071e3',
+  '行业资讯': '#34c759',
+};
+const COMPANY_BG = {
+  '字节跳动': '#f0fffe',
+  '小红书':   '#fff0f3',
+  '美团':     '#fff8ed',
+  '阿里':     '#fff4ed',
+  '腾讯':     '#f0f7ff',
+  '行业资讯': '#f0fff4',
+};
+const RECRUIT_KW  = ['校招','实习','招聘','春招','秋招','Offer','offer','HC','转正','社招','暑期实习','应届','届'];
+const PERSON_KW   = ['离职','晋升','任命','调整','高管','CTO','CEO','VP','总裁','裁员','优化','人事'];
+const STOP = new Set(['的','了','在','是','和','有','我','们','以','及','这','个','上','下','不','也','都','要','可','一','大','小','多','与','为','对','等','将','中','后','已','新','于','从','会','到','更','最','之','而','让','但','或','如','把','被']);
+// 公司名称屏蔽词（词云中不显示）
+const COMPANY_NAMES = new Set(['字节','跳动','字节跳动','小红书','美团','阿里','腾讯','巴巴','阿里巴巴','快手','微信','百度','京东','拼多多','抖音','今日头条','字节范','字节范儿','招聘','技术','团队','行业','资讯','互联网']);
+
+// ═══════════════ STATE ═══════════════
+let sources=[], sourceMap={}, allArticles=[];
+let curCompany='all', curView='brief', curSearch='', activeKws=new Set(), curPage=1;
+let curSourceId=null; // 精确公众号过滤（null=不限）
+let charts={}, emptySrcs=[];
+
+// ═══════════════ INIT ═══════════════
+async function init() {
+  // 恢复上次保存的 API Key
+  const savedKey = localStorage.getItem('cm_ai_key');
+  if (savedKey) document.getElementById('ai-key').value = savedKey;
+
+  await fetchSources();
+  await fetchArticles();
+  // 检测未分类账号，有则弹出分类面板
+  const unclassified = getUnclassified();
+  if (unclassified.length) {
+    setTimeout(() => openClassifyModal(), 600);
+  }
+}
+
+// ═══════════════ SOURCES ═══════════════
+async function fetchSources() {
+  try {
+    const r = await fetch(`${API}/feeds`);
+    sources = await r.json();
+    sources.forEach(s => sourceMap[s.id] = s);
+
+    rebuildSegmentButtons();
+
+    // KW pills
+    const pills = document.getElementById('kw-pills');
+    ['校招','实习','招聘','AI','大模型'].forEach(kw => {
+      const p = document.createElement('button');
+      p.className = 'kw-pill'; p.textContent = kw;
+      p.dataset.kw = kw;
+      p.onclick = () => {
+        const isOn = p.classList.toggle('on');
+        // 取消其他 pill 的选中状态（单选）
+        document.querySelectorAll('.kw-pill').forEach(other => { if (other !== p) other.classList.remove('on'); });
+        const input = document.getElementById('search-input');
+        input.value = isOn ? kw : '';
+        applyFilters();
+      };
+      pills.appendChild(p);
+    });
+
+    document.getElementById('stat-sources').textContent = sources.length;
+  } catch(e) { console.error('fetchSources', e); }
+}
+
+function rebuildSegmentButtons() {
+  const seg = document.getElementById('company-segment');
+  // 清除旧的（保留「全部」按钮）
+  [...seg.querySelectorAll('.seg-btn:not([data-company="all"])')].forEach(b => b.remove());
+
+  // 合并固定分组 + 自定义分组
+  const custom = loadCustomGroups();
+  const allCompanies = [...new Set([...Object.keys(COMPANY_GROUPS), ...Object.keys(custom)])];
+
+  allCompanies.forEach(company => {
+    const btn = document.createElement('button');
+    btn.className = 'seg-btn';
+    btn.dataset.company = company;
+    btn.onclick = () => switchCompany(company);
+    // 自定义分组加个小标识
+    const isCustom = !COMPANY_GROUPS[company] && custom[company];
+    btn.innerHTML = `${company}${isCustom ? ' <span style="font-size:9px;opacity:.5">自定义</span>' : ''} <span class="cnt" id="cnt-${company}">–</span>`;
+    seg.appendChild(btn);
+  });
+}
+
+// ═══════════════ ARTICLES ═══════════════
+async function fetchArticles() {
+  const btn = document.getElementById('btn-refresh');
+  const dot = document.getElementById('status-dot');
+  btn.classList.add('spinning');
+  dot.classList.add('syncing');
+  emptySrcs = []; allArticles = [];
+
+  // 直接读本地缓存（数据库已有历史数据，无需触发同步）
+  setStatus('读取文章…');
+  const results = await Promise.all(sources.map(async src => {
+    try {
+      const r = await fetch(`${API}/feeds/${src.id}.json?limit=100`);
+      const d = await r.json();
+      const items = (d.items||[]).map(item => ({
+        id: item.id, title: item.title||'(无标题)', url: item.url,
+        image: item.image||null,
+        date: item.date_modified ? new Date(item.date_modified) : null,
+        authorName: src.name, sourceId: src.id,
+        company: getCompany(src.id),
+      }));
+      if (!items.length) emptySrcs.push(src.name);
+      return items;
+    } catch{ return []; }
+  }));
+
+  allArticles = results.flat().sort((a,b) => {
+    if (!a.date && !b.date) return 0;
+    if (!a.date) return 1; if (!b.date) return -1;
+    return b.date - a.date;
+  });
+
+  btn.classList.remove('spinning');
+  dot.classList.remove('syncing');
+
+  if (emptySrcs.length) {
+    const wb = document.getElementById('warn-bar');
+    document.getElementById('warn-text').innerHTML =
+      `以下账号暂无文章：<strong>${emptySrcs.join('、')}</strong>。` +
+      `请在微信读书 App 关注后，到 <a href="https://wewe-rss-6t29.onrender.com" target="_blank">WeWe RSS 管理后台</a> 删除并重新添加这些账号。`;
+    wb.style.display = 'flex';
+  } else {
+    document.getElementById('warn-bar').style.display = 'none';
+  }
+
+  setStatus(`已同步 ${allArticles.length} 篇${emptySrcs.length ? ' · ' + emptySrcs.length + ' 个账号无数据' : ''}`);
+  updateStats(); updateCounts(); renderSidebar(); render();
+}
+
+function setStatus(txt) { document.getElementById('status-text').textContent = txt; }
+function getCompany(id) {
+  for (const [c, ids] of Object.entries(COMPANY_GROUPS)) if (ids.includes(id)) return c;
+  // 查用户自定义分类（localStorage）
+  const custom = loadCustomGroups();
+  for (const [c, ids] of Object.entries(custom)) if (ids.includes(id)) return c;
+  return '其他';
+}
+// 获取某公司的全部账号 ID（固定 + 自定义，去重）
+function getCompanyIds(company) {
+  const custom = loadCustomGroups();
+  return [...new Set([...(COMPANY_GROUPS[company]||[]), ...(custom[company]||[])])];
+}
+
+// ═══════════════ 自定义分类（localStorage） ═══════════════
+const CUSTOM_KEY = 'cm_custom_groups';
+function loadCustomGroups() {
+  try { return JSON.parse(localStorage.getItem(CUSTOM_KEY) || '{}'); } catch { return {}; }
+}
+function saveCustomGroups(obj) {
+  localStorage.setItem(CUSTOM_KEY, JSON.stringify(obj));
+}
+function getUnclassified() {
+  const custom = loadCustomGroups();
+  const allGrouped = new Set([
+    ...Object.values(COMPANY_GROUPS).flat(),
+    ...Object.values(custom).flat(),
+  ]);
+  return sources.filter(s => !allGrouped.has(s.id));
+}
+
+// ─── 分类面板 ───
+function openClassifyModal() {
+  const unclassified = getUnclassified();
+  if (!unclassified.length) return;
+  const allCompanies = [...Object.keys(COMPANY_GROUPS), ...Object.keys(loadCustomGroups())];
+  const uniqueCompanies = [...new Set(allCompanies)];
+
+  const body = document.getElementById('classify-body');
+  body.innerHTML = unclassified.map(s => {
+    const avatarHTML = s.cover
+      ? `<img class="classify-avatar" src="${s.cover}" referrerpolicy="no-referrer" onerror="this.style.display='none'">`
+      : `<div class="classify-avatar-ph">${(s.name||'?')[0]}</div>`;
+    const opts = uniqueCompanies.map(c => `<option value="${c}">${c}</option>`).join('');
+    return `<div class="classify-row" data-id="${s.id}">
+      ${avatarHTML}
+      <span class="classify-name" title="${s.name}">${s.name}</span>
+      <select class="classify-select" data-id="${s.id}">
+        <option value="">── 暂不分类 ──</option>
+        ${opts}
+        <option value="__new__">✚ 新建分组…</option>
+      </select>
+      <input class="classify-new-input" data-id="${s.id}" placeholder="分组名称" />
+    </div>`;
+  }).join('');
+
+  // 监听「新建分组」选项
+  body.querySelectorAll('.classify-select').forEach(sel => {
+    sel.addEventListener('change', e => {
+      const id = sel.dataset.id;
+      const inp = body.querySelector(`.classify-new-input[data-id="${id}"]`);
+      inp.style.display = e.target.value === '__new__' ? 'inline-block' : 'none';
+    });
+  });
+
+  document.getElementById('classify-overlay').style.display = 'flex';
+}
+function closeClassify() {
+  document.getElementById('classify-overlay').style.display = 'none';
+}
+function saveClassify() {
+  const body = document.getElementById('classify-body');
+  const custom = loadCustomGroups();
+
+  body.querySelectorAll('.classify-select').forEach(sel => {
+    const id = sel.dataset.id;
+    let company = sel.value;
+    if (company === '__new__') {
+      const inp = body.querySelector(`.classify-new-input[data-id="${id}"]`);
+      company = (inp?.value || '').trim();
+    }
+    if (!company) return;
+    if (!custom[company]) custom[company] = [];
+    if (!custom[company].includes(id)) custom[company].push(id);
+  });
+
+  saveCustomGroups(custom);
+  closeClassify();
+  // 重新给所有文章打公司标签（company 字段在加载时固化，分类后需刷新）
+  allArticles.forEach(a => { a.company = getCompany(a.sourceId); });
+  // 重建 Tab 栏 + 刷新视图
+  rebuildSegmentButtons();
+  updateCounts();
+  renderSidebar();
+  render();
+}
+
+// ═══════════════ STATS ═══════════════
+function updateStats() {
+  const now = new Date(), today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const week = new Date(+today - 6*86400000);
+  document.getElementById('stat-total').textContent = allArticles.length;
+  document.getElementById('stat-today').textContent = allArticles.filter(a=>a.date&&a.date>=today).length;
+  document.getElementById('stat-week').textContent  = allArticles.filter(a=>a.date&&a.date>=week).length;
+}
+
+// 期间筛选状态（由 filterByPeriod 设置，clearPeriodFilter 清除）
+let curPeriodArts = null; // null = 不处于期间筛选模式
+let curPeriodLabel = '';
+
+// 点击今日更新/本周更新：切换到文章列表并展示对应时间段内有更新的公众号
+function filterByPeriod(period) {
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const since = period === 'today' ? today : new Date(+today - 6*86400000);
+  const label = period === 'today' ? '今日更新' : '本周更新';
+
+  // 找出有更新的公众号（去重）
+  const activeSrcIds = [...new Set(
+    allArticles.filter(a => a.date && a.date >= since).map(a => a.sourceId)
+  )];
+
+  if (!activeSrcIds.length) return;
+
+  // 切到公众号列表展示临时过滤：在公众号状态卡片里高亮对应账号
+  // 切到文章列表，并过滤出这些公众号的文章
+  curCompany = 'all';
+  curSourceId = null;
+  curSearch = '';
+  activeKws.clear();
+  document.querySelectorAll('.seg-btn').forEach(b => b.classList.toggle('active', b.dataset.company==='all'));
+  document.querySelectorAll('.kw-pill').forEach(p => p.classList.remove('on'));
+  document.getElementById('search-input').value = '';
+  document.getElementById('search-input').placeholder = '搜索标题关键词…';
+  curPage = 1;
+
+  switchView('articles');
+
+  // 覆盖 getFiltered 展示敶据时间段内的文章
+  const periodArts = allArticles.filter(a => a.date && a.date >= since);
+  const list = document.getElementById('articles-list');
+  const countEl = document.getElementById('result-count');
+  countEl.innerHTML = `<span style="display:inline-flex;align-items:center;gap:5px;background:var(--orange);color:#fff;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600">${label} <span onclick="clearPeriodFilter()" style="cursor:pointer;opacity:.8;font-size:13px;line-height:1">×</span></span> ${periodArts.length} 篇·${activeSrcIds.length} 个账号有更新`;
+  list.innerHTML = periodArts.slice(0, PAGE_SZ).map((a,i) => articleCard(a,i)).join('');
+  document.getElementById('load-more').style.display = periodArts.length > PAGE_SZ ? 'block' : 'none';
+
+  // 在公众号状态列表里高亮有更新的账号
+  document.querySelectorAll('.src-item').forEach(el => {
+    const sid = el.dataset.srcid;
+    const isActive = activeSrcIds.includes(sid);
+    el.style.background = isActive ? 'var(--blue-bg)' : '';
+    el.style.boxShadow = isActive ? 'inset 3px 0 0 var(--blue)' : '';
+  });
+}
+function updateCounts() {
+  document.getElementById('cnt-all').textContent = allArticles.length;
+  // 合并固定分组 + 自定义分组
+  const allCompanies = [...new Set([...Object.keys(COMPANY_GROUPS), ...Object.keys(loadCustomGroups())])];
+  allCompanies.forEach(c => {
+    const el = document.getElementById(`cnt-${c}`);
+    if (el) el.textContent = allArticles.filter(a=>a.company===c).length;
+  });
+}
+
+// ═══════════════ SIDEBAR ═══════════════
+function renderSidebar() {
+  document.getElementById('src-list').innerHTML = sources.map(s => {
+    const cnt = allArticles.filter(a=>a.sourceId===s.id).length;
+    const company = getCompany(s.id);
+    const color = COMPANY_COLORS[company]||'#0071e3';
+    return `<div class="src-item" data-srcid="${s.id}" onclick="jumpToSource('${s.id}','${company}')" title="点击查看 ${s.name} 的文章">
+      <img class="src-avatar" src="${s.cover||''}" alt="" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">
+      <span class="src-name">${s.name}</span>
+      <span class="src-count" style="color:${color};font-weight:600">${cnt}</span>
+    </div>`;
+  }).join('');
+
+  document.getElementById('act-list').innerHTML = allArticles.filter(a=>a.date).slice(0,8).map(a=>`
+    <a class="act-item" href="${a.url}" target="_blank" rel="noopener" style="text-decoration:none;cursor:pointer" title="点击查看原文">
+      <div class="act-dot"></div>
+      <div class="act-text">
+        <strong>${a.authorName}</strong> ${a.title.slice(0,24)}${a.title.length>24?'…':''}
+        <span class="act-time">${relTime(a.date)}</span>
+      </div>
+    </a>`).join('');
+}
+
+// ═══════════════ NAVIGATION ═══════════════
+function switchCompany(c) {
+  curCompany = c; curPage = 1;
+  curSourceId = null;
+  curPeriodArts = null; curPeriodLabel = '';
+  document.getElementById('search-input').placeholder = '搜索标题关键词…';
+  document.querySelectorAll('.src-item').forEach(el => { el.style.background=''; el.style.boxShadow=''; });
+  document.querySelectorAll('.seg-btn').forEach(b => b.classList.toggle('active', b.dataset.company===c));
+  // 同步存档下拉（如果选项已填充）
+  const filterCompEl = document.getElementById('archive-filter-company');
+  if (filterCompEl && filterCompEl.options.length > 1) filterCompEl.value = c;
+  render();
+}
+
+  // 存档公司下拉变更 → 同步顶部 Tab + 刷新存档
+function onArchiveCompanyChange(val) {
+  curCompany = val;
+  document.querySelectorAll('.seg-btn').forEach(b => b.classList.toggle('active', b.dataset.company === val));
+  renderArchive();
+}
+
+// 点击公众号：切换到该公司 Tab + 下面展开单公司账号子卡片
+function jumpToSource(sourceId, company) {
+  if (company && company !== '其他') switchCompany(company);
+  switchView('articles');
+  document.getElementById('search-input').value = '';
+  curSearch = '';
+  curSourceId = sourceId;
+  curPeriodArts = null; curPeriodLabel = '';
+  document.querySelectorAll('.kw-pill').forEach(p => p.classList.remove('on'));
+  activeKws.clear();
+  document.querySelectorAll('.src-item').forEach(el => { el.style.background=''; el.style.boxShadow=''; });
+  const srcName = sourceMap[sourceId]?.name||'';
+  document.getElementById('search-input').placeholder = `正在显示：${srcName} 的文章`;
+  curPage = 1;
+  renderArticles();
+}
+function switchView(v) {
+  curView = v;
+  // 切离 articles 时清除精确账号过滤，避免状态残留
+  if (v !== 'articles') { curSourceId = null; }
+  document.querySelectorAll('.topbar-tab').forEach(t => t.classList.toggle('active', t.dataset.view===v));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.getElementById(`panel-${v}`).classList.add('active');
+  document.getElementById('search-bar').style.display = (v==='articles' || v==='brief') ? 'flex' : 'none';
+  render();
+}
+function render() {
+  if (curView==='brief')    renderBrief();
+  if (curView==='articles') renderArticles();
+  if (curView==='charts')   renderCharts();
+  if (curView==='archive')  renderArchive();
+}
+function getFiltered() {
+  let arts = [...allArticles];
+  if (curSourceId) {
+    // 精确公众号过滤（优先级最高，忽略 company/search）
+    arts = arts.filter(a => a.sourceId === curSourceId);
+    return arts;
+  }
+  if (curCompany!=='all') arts = arts.filter(a=>a.company===curCompany);
+  if (curSearch) arts = arts.filter(a=>a.title.toLowerCase().includes(curSearch.toLowerCase()));
+  if (activeKws.size) arts = arts.filter(a=>[...activeKws].some(kw=>a.title.toLowerCase().includes(kw.toLowerCase())));
+  return arts;
+}
+function applyFilters() {
+  curSourceId = null;
+  curPeriodArts = null; curPeriodLabel = '';
+  document.getElementById('search-input').placeholder = '搜索标题关键词…';
+  document.querySelectorAll('.src-item').forEach(el => { el.style.background=''; el.style.boxShadow=''; });
+  curSearch = document.getElementById('search-input').value.trim();
+  // 手动输入时取消 pill 选中
+  if (curSearch) document.querySelectorAll('.kw-pill').forEach(p => p.classList.remove('on'));
+  curPage = 1;
+  render();
+}
+
+// ═══════════════ BRIEF PANEL ═══════════════
+function renderBrief() {
+  const companies = curCompany==='all' ? [...new Set([...Object.keys(COMPANY_GROUPS), ...Object.keys(loadCustomGroups())])] : [curCompany];
+  const grid = document.getElementById('brief-grid');
+  if (companies.length === 1) {
+    // 单公司：直接显示公司详情页（各公众号内容 + 图表 + AI）
+    grid.className = 'brief-grid single';
+    grid.innerHTML = renderCompanyDetail(companies[0]);
+  } else {
+    grid.className = 'brief-grid';
+    grid.innerHTML = companies.map(c => briefCard(c)).join('');
+  }
+  // 单公司时绘制发布趋势图
+  if (companies.length === 1) renderCompanyTrendChart(companies[0]);
+}
+
+// 单公司详情页
+function renderCompanyDetail(company) {
+  const ids = getCompanyIds(company);
+  const color = COMPANY_COLORS[company]||'#333';
+  const bg = COMPANY_BG[company]||'#f5f5f7';
+  const arts = allArticles.filter(a=>a.company===company);
+  const coverSrc = ids.map(id=>sourceMap[id]?.cover).find(Boolean)||'';
+  const avatarHTML = coverSrc
+    ? `<img style="width:40px;height:40px;border-radius:10px;object-fit:cover" src="${coverSrc}" referrerpolicy="no-referrer" onerror="this.style.display='none'">`
+    : `<div style="width:40px;height:40px;border-radius:10px;background:${color};display:flex;align-items:center;justify-content:center;color:#fff;font-size:18px;font-weight:700">${company[0]}</div>`;
+
+  // 各公众号子卡片
+  const srcCards = ids.map((id, ci) => {
+    const src = sourceMap[id];
+    if (!src) return '';
+    const kw = curSearch.toLowerCase();
+    const srcArts = allArticles.filter(a=>a.sourceId===id && (!kw || a.title.toLowerCase().includes(kw))).slice(0,6);
+    const av = src.cover
+      ? `<img class="source-card-avatar" src="${src.cover}" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`
+      : `<div class="source-card-avatar" style="background:${color};display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700">${src.name[0]}</div>`;
+    const items = srcArts.length
+      ? srcArts.map(a=>`<a class="bc-item" href="${a.url}" target="_blank" rel="noopener" style="font-size:12px">
+          ${esc(a.title.slice(0,42))}${a.title.length>42?'…':''}
+          <span class="bc-item-meta">${a.date?relTime(a.date):'–'}</span>
+        </a>`).join('')
+      : '<div class="bc-empty">暂无文章</div>';
+    return `<div class="source-card" style="animation-delay:${ci*50}ms">
+      <div class="source-card-head">
+        ${av}
+        <span class="source-card-name" style="cursor:pointer" onclick="jumpToSource('${id}','${company}')" title="点击查看 ${src.name} 全部文章">${src.name}</span>
+        <span class="source-card-cnt">${allArticles.filter(a=>a.sourceId===id).length} 篇</span>
+      </div>
+      ${items}
+    </div>`;
+  }).join('');
+
+  return `<div class="company-detail-wrap">
+    <div class="company-detail-header" style="border-left:4px solid ${color}">
+      ${avatarHTML}
+      <div>
+        <div class="company-detail-title">${company}</div>
+        <div class="company-detail-sub">${ids.length} 个公众号 · ${arts.length} 篇文章共计</div>
+      </div>
+    </div>
+    <div>
+      <div class="company-section-title">公众号内容</div>
+      <div class="source-cards-grid">${srcCards}</div>
+    </div>
+    <div class="company-bottom-grid">
+      <div class="company-chart-card">
+        <div class="company-section-title">近 14 天发布趋势</div>
+        <div style="position:relative;height:180px"><canvas id="chart-company-trend"></canvas></div>
+      </div>
+      <div class="company-chart-card">
+        <div class="company-section-title">高频词云</div>
+        <div class="company-wc" id="company-wc"></div>
+      </div>
+    </div>
+    <div class="company-ai-card">
+      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+        <button class="btn-company-ai" id="btn-company-ai" onclick="genAiCompany('${company}')">✦ 生成 AI 深度分析</button>
+        <span style="font-size:12px;color:var(--text-3)">招聘动态 · 人事变动 · 战略重点 · 快手启示</span>
+      </div>
+      <div id="company-ai-result" class="company-ai-result" style="display:none"></div>
+    </div>
+  </div>`;
+}
+
+function briefCard(company) {
+  const kw = curSearch.toLowerCase();
+  // 全部文章；若有搜索词或 activeKws 则过滤
+  const allArts = allArticles.filter(a=>a.company===company);
+  let arts = allArts;
+  if (kw) {
+    arts = allArts.filter(a=>a.title.toLowerCase().includes(kw));
+  } else if (activeKws.size) {
+    arts = allArts.filter(a=>[...activeKws].some(k=>a.title.toLowerCase().includes(k.toLowerCase())));
+  }
+  // 无结果时隐藏此卡片
+  if ((kw || activeKws.size) && !arts.length) return '';
+  const color = COMPANY_COLORS[company]||'#333';
+  const bg = COMPANY_BG[company]||'#f5f5f7';
+  const ids = getCompanyIds(company);
+  const coverSrc = ids.map(id=>sourceMap[id]?.cover).find(Boolean)||'';
+
+  // 工具：高亮关键词
+  const hi = str => kw ? str.replace(new RegExp(kw.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'), m=>`<mark>${m}</mark>`) : str;
+
+  // 招聘动态（搜索模式：在匹配结果中找，否则在全部里找招聘词）
+  const recruitArts = (kw ? arts : allArts.filter(a=>RECRUIT_KW.some(kw=>a.title.includes(kw)))).slice(0,4);
+  // 技术动态
+  const techArts = (kw ? arts : allArts
+    .filter(a=>!RECRUIT_KW.some(kw=>a.title.includes(kw))&&!PERSON_KW.some(kw=>a.title.includes(kw)))).slice(0,4);
+
+  const kwFreq = {};
+  const srcNamesStop = new Set(sources.map(s=>s.name).flatMap(n=>[n,...(n.match(/[\u4e00-\u9fa5]{2,6}/g)||[])]));
+  allArts.forEach(a=>{
+    (a.title.match(/[\u4e00-\u9fa5]{2,5}|[A-Za-z]{2,12}/g)||[]).forEach(w=>{
+      if(!STOP.has(w)&&!COMPANY_NAMES.has(w)&&!srcNamesStop.has(w)&&w.length>=2) kwFreq[w]=(kwFreq[w]||0)+1;
+    });
+  });
+  const topKw = Object.entries(kwFreq).sort((a,b)=>b[1]-a[1]).slice(0,12);
+
+  const avatarHTML = coverSrc
+    ? `<img class="bc-avatar" src="${coverSrc}" referrerpolicy="no-referrer" onerror="this.style.display='none'">`
+    : `<div class="bc-avatar-placeholder" style="background:${color}">${company[0]}</div>`;
+
+  const itemHTML = a => `<a class="bc-item" href="${a.url}" target="_blank" rel="noopener">
+      ${hi(esc(a.title.slice(0,38)))}${a.title.length>38?'…':''}
+      <span class="bc-item-meta">${a.authorName} · ${a.date?relTime(a.date):'–'}</span>
+    </a>`;
+
+  const recruitHTML = recruitArts.length
+    ? recruitArts.map(itemHTML).join('')
+    : `<div class="bc-empty">暂无招聘相关动态</div>`;
+
+  const techHTML = techArts.length
+    ? techArts.map(itemHTML).join('')
+    : `<div class="bc-empty">暂无技术相关动态</div>`;
+
+  const kwHTML = topKw.map(([w,n],i)=>`<span class="kw-tag${i<4?' hot':''}" style="cursor:pointer" onclick="searchFromBrief('${w}')" title="点击筛选含「${w}」的文章">${w} ${n}</span>`).join('');
+  const matchBadge = kw ? `<span style="font-size:11px;color:var(--blue);font-weight:600;margin-left:4px">${arts.length} 条结果</span>` : '';
+
+  return `<div class="brief-card" style="border-top:3px solid ${color}" onmouseenter="this.style.background='${bg}'" onmouseleave="this.style.background=''">
+    <div class="bc-head">
+      ${avatarHTML}
+      <div class="bc-info">
+        <div class="bc-name" style="cursor:pointer" onclick="switchCompany('${company}')" title="点击查看${company}详情">${company}${matchBadge}</div>
+        <div class="bc-sub">${ids.length} 个账号 · ${allArts.length} 篇文章</div>
+      </div>
+      <div class="bc-badge">${allArts.length}</div>
+    </div>
+    <div class="bc-section">
+      <div class="bc-section-title">${kw ? '搜索结果' : '招聘动态'}</div>
+      ${kw ? arts.slice(0,6).map(itemHTML).join('') || '<div class="bc-empty">无匹配</div>' : recruitHTML}
+    </div>
+    ${kw ? '' : `<div class="bc-section">
+      <div class="bc-section-title">技术动态</div>
+      ${techHTML}
+    </div>`}
+    <div class="bc-section">
+      <div class="bc-section-title">高频词</div>
+      <div class="kw-tags">${kwHTML||'<span class="bc-empty">暂无</span>'}</div>
+    </div>
+    <div id="ai-note-${company}" class="ai-result" style="display:none"></div>
+  </div>`;
+}
+
+// ═══════════════ ARCHIVE (localStorage 持久存档) ═══════════════
+const ARCHIVE_KEY = 'cm_ai_archive';
+
+function loadArchive() {
+  try { return JSON.parse(localStorage.getItem(ARCHIVE_KEY) || '[]'); } catch { return []; }
+}
+function saveAiRecord(company, txt, dateKey, articles, silent) {
+  const records = loadArchive();
+  if (!dateKey) dateKey = new Date().toISOString().slice(0,10);
+
+  // 检查当天同公司是否已有存档
+  const existIdx = records.findIndex(r => r.company === company && (r.dateKey || r.time?.slice(0,10)) === dateKey);
+  if (existIdx !== -1) {
+    if (silent) {
+      // 批量生成时静默覆盖
+      records.splice(existIdx, 1);
+    } else {
+      const ok = confirm(`「${company}」今日（${dateKey}）已有一条 AI 摘要，是否覆盖更新？\n\n点「确定」→ 覆盖旧版本\n点「取消」→ 保留两条`);
+      if (ok) records.splice(existIdx, 1);
+    }
+  }
+
+  records.unshift({
+    id: Date.now(),
+    company,
+    time: new Date().toISOString(),
+    dateKey,
+    content: txt,
+    articles: (articles || []).map(a => ({ title: a.title, url: a.url, authorName: a.authorName })),
+  });
+  if (records.length > 200) records.splice(200);
+  localStorage.setItem(ARCHIVE_KEY, JSON.stringify(records));
+  updateArchiveBadge();
+}
+function updateArchiveBadge() {
+  // badge 不再显示数字，保留函数以兼容旧调用
+}
+// 手动存入今日情报：把所有已生成的 AI 结果按公司保存一条
+function saveCurrentBriefToArchive() {
+  const today = new Date().toISOString().slice(0,10);
+  const records = loadArchive();
+
+  // 收集所有待存的公司+内容
+  const toSave = [];
+  Object.keys(COMPANY_GROUPS).forEach(company => {
+    const el = document.getElementById(`ai-note-${company}`);
+    if (el && el.style.display !== 'none' && el.textContent.trim()) {
+      const txt = el.dataset.raw || el.innerText || el.textContent;
+      const refs = el.dataset.refsJson ? JSON.parse(el.dataset.refsJson) : [];
+      if (txt && txt.trim()) toSave.push({ company, txt, refs });
+    }
+  });
+  const detailEl = document.getElementById('company-ai-result');
+  if (detailEl && detailEl.style.display !== 'none' && detailEl.textContent.trim()) {
+    const company = curCompany !== 'all' ? curCompany : '其他';
+    const txt = detailEl.dataset.raw || detailEl.innerText || detailEl.textContent;
+    const refs = detailEl.dataset.refsJson ? JSON.parse(detailEl.dataset.refsJson) : [];
+    if (txt && txt.trim()) toSave.push({ company, txt, refs });
+  }
+
+  if (toSave.length === 0) {
+    alert('当前页面没有已生成的 AI 摘要，请先点击生成然后再存入。');
+    return;
+  }
+
+  // 检查是否有任何公司当天已有存档，只弹一次确认
+  const hasDups = toSave.some(({ company }) =>
+    records.some(r => r.company === company && (r.dateKey || r.time?.slice(0,10)) === today)
+  );
+  let overwrite = false;
+  if (hasDups) {
+    overwrite = confirm(`今日（${today}）部分公司已有存档，是否覆盖？\n\n确定 → 全部覆盖\n取消 → 保留旧版本（追加新版本）`);
+  }
+
+  toSave.forEach(({ company, txt, refs }) => saveAiRecord(company, txt, today, refs, overwrite ? true : false));
+  alert(`已存入 ${toSave.length} 条情报到「${today}」`);
+  renderArchive();
+}
+function clearArchive() {
+  if (!confirm('确定清空全部存档？此操作不可撤销。')) return;
+  localStorage.removeItem(ARCHIVE_KEY);
+  updateArchiveBadge();
+  renderArchive();
+}
+function deleteArchiveRecord(id) {
+  const records = loadArchive().filter(r => r.id !== id);
+  localStorage.setItem(ARCHIVE_KEY, JSON.stringify(records));
+  updateArchiveBadge();
+  renderArchive();
+}
+function renderArchive() {
+  const list = document.getElementById('archive-list');
+  if (!list) return;
+
+  // 每次都重建公司筛选下拉（确保新增自定义分组后也能更新）
+  const filterCompEl = document.getElementById('archive-filter-company');
+  if (filterCompEl) {
+    const curVal = filterCompEl.value || 'all';
+    filterCompEl.innerHTML = '<option value="all">全部公司</option>';
+    const allCompanies = [...new Set([...Object.keys(COMPANY_GROUPS), ...Object.keys(loadCustomGroups())])];
+    allCompanies.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c; opt.textContent = c;
+      filterCompEl.appendChild(opt);
+    });
+    // 对齐当前 curCompany 状态
+    filterCompEl.value = curCompany !== 'all' ? curCompany : curVal;
+  }
+  const filterCompany = filterCompEl ? filterCompEl.value : 'all';
+
+  // 更新日期筛选下拉
+  const filterDateEl = document.getElementById('archive-filter-date');
+  const allDates = [...new Set(loadArchive().map(r => r.dateKey || r.time?.slice(0,10) || '').filter(Boolean))].sort().reverse();
+  if (filterDateEl) {
+    const curDateVal = filterDateEl.value;
+    filterDateEl.innerHTML = '<option value="all">全部日期</option>';
+    allDates.forEach(d => {
+      const opt = document.createElement('option');
+      opt.value = d; opt.textContent = d;
+      if (d === curDateVal) opt.selected = true;
+      filterDateEl.appendChild(opt);
+    });
+  }
+  const filterDate = filterDateEl ? filterDateEl.value : 'all';
+
+  let records = loadArchive();
+  if (filterCompany !== 'all') records = records.filter(r => r.company === filterCompany);
+  if (filterDate !== 'all') records = records.filter(r => (r.dateKey || r.time?.slice(0,10)) === filterDate);
+
+  if (!records.length) {
+    list.innerHTML = '<div class="empty-state">暂无存档，点击「存入今日情报」手动保存当日生成的摘要</div>';
+    return;
+  }
+
+  const color = c => COMPANY_COLORS[c] || 'var(--blue)';
+  // 公司顺序（与顶部 Tab 保持一致）
+  const companyOrder = Object.keys(COMPANY_GROUPS);
+  const sortByCompany = (a, b) => {
+    const ai = companyOrder.indexOf(a.company), bi = companyOrder.indexOf(b.company);
+    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+  };
+  // 按天分组
+  const groups = {};
+  records.forEach(r => {
+    const dk = r.dateKey || r.time?.slice(0,10) || '未知日期';
+    if (!groups[dk]) groups[dk] = [];
+    groups[dk].push(r);
+  });
+  // 每天内部按公司顺序排序
+  Object.values(groups).forEach(recs => recs.sort(sortByCompany));
+
+  const cardHTML = r => {
+    const clr = color(r.company);
+    const timeStr = new Date(r.time).toLocaleString('zh-CN', {month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+    const refArticles = r.articles || [];
+    const enableCit = r.company !== '行业资讯';
+
+    // 结构化渲染：把 **标题** 识别为分节标题，正文内 [N] 替换成内联引用角标
+    const raw = (r.content || '').trim();
+    const parts = raw.split(/(?=^\*\*)/m);
+    let bodyHTML = '';
+    parts.forEach(part => {
+      const titleMatch = part.match(/^\*\*(.+?)\*\*\s*\n?([\s\S]*)/);
+      if (titleMatch) {
+        const sectionTitle = titleMatch[1].trim();
+        const sectionBody = renderWithCitations(titleMatch[2].trim(), refArticles, enableCit);
+        if (sectionBody) {
+          bodyHTML += `<div class="archive-section">
+            <div class="archive-section-title" style="border-left-color:${clr}">${sectionTitle}</div>
+            <div class="archive-section-body">${sectionBody}</div>
+          </div>`;
+        } else {
+          bodyHTML += `<div class="archive-section"><div class="archive-section-title" style="border-left-color:${clr}">${sectionTitle}</div></div>`;
+        }
+      } else if (part.trim()) {
+        bodyHTML += `<div class="archive-section"><div class="archive-section-body">${renderWithCitations(part.trim(), refArticles, enableCit)}</div></div>`;
+      }
+    });
+
+    return `<div class="archive-card" style="border-left-color:${clr}">
+      <div class="archive-card-head">
+        <span style="width:8px;height:8px;border-radius:50%;background:${clr};flex-shrink:0"></span>
+        <span class="archive-card-company"
+          onclick="switchCompany('${r.company}');switchView('brief');"
+          title="点击查看 ${r.company} 资讯概览">${r.company}</span>
+        <span class="archive-card-time">${timeStr}</span>
+        <button class="archive-card-del" onclick="deleteArchiveRecord(${r.id})" title="删除">×</button>
+      </div>
+      <div class="archive-card-body">${bodyHTML}</div>
+    </div>`;
+  };
+
+  list.innerHTML = Object.entries(groups)
+    .sort(([a],[b]) => b.localeCompare(a))
+    .map(([dk, recs]) => `
+      <div style="margin-bottom:20px">
+        <div style="font-size:12px;font-weight:700;color:var(--text-2);padding:6px 0;border-bottom:2px solid var(--border);margin-bottom:10px;display:flex;align-items:center;gap:8px">
+          📅 ${dk}
+          <span style="font-size:11px;font-weight:400;color:var(--text-3)">${recs.length} 条存档</span>
+        </div>
+        ${recs.map(cardHTML).join('<div style="height:14px"></div>')}
+      </div>
+    `).join('');
+}
+let companyTrendChart = null;
+function renderCompanyTrendChart(company) {
+  const canvas = document.getElementById('chart-company-trend');
+  if (!canvas) return;
+  const arts = allArticles.filter(a=>a.company===company);
+  const days14 = Array.from({length:14},(_,i)=>{const d=new Date();d.setDate(d.getDate()-13+i);return d.toISOString().slice(0,10);});
+  const color = COMPANY_COLORS[company]||'#0071e3';
+  if (companyTrendChart) { companyTrendChart.destroy(); companyTrendChart=null; }
+  companyTrendChart = new Chart(canvas, {
+    type:'bar',
+    data:{
+      labels: days14.map(d=>d.slice(5)),
+      datasets:[{
+        label:'发布量',
+        data: days14.map(day=>arts.filter(a=>a.date&&a.date.toISOString().slice(0,10)===day).length),
+        backgroundColor: color+'55', borderColor: color, borderWidth:1.5, borderRadius:4,
+      }]
+    },
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}},
+      scales:{ y:{beginAtZero:true,ticks:{stepSize:1,precision:0}}, x:{grid:{display:false}} } }
+  });
+
+  // 词云
+  const wc = document.getElementById('company-wc');
+  if (!wc) return;
+  const srcNamesStop = new Set(sources.map(s=>s.name).flatMap(n=>[n,...(n.match(/[\u4e00-\u9fa5]{2,6}/g)||[])]));
+  const kwFreq = {};
+  arts.forEach(a=>{
+    (a.title.match(/[\u4e00-\u9fa5]{2,5}|[A-Za-z]{2,12}/g)||[]).forEach(w=>{
+      if(!STOP.has(w)&&!COMPANY_NAMES.has(w)&&!srcNamesStop.has(w)&&w.length>=2) kwFreq[w]=(kwFreq[w]||0)+1;
+    });
+  });
+  const sorted = Object.entries(kwFreq).sort((a,b)=>b[1]-a[1]).slice(0,40);
+  if (!sorted.length) { wc.innerHTML='<div class="empty-state">暂无数据</div>'; return; }
+  const max=sorted[0][1], min=sorted[sorted.length-1][1];
+  const wcColors=['#0071e3','#ff3b30','#ff9500','#34c759','#af52de','#5ac8fa','#ff2d55','#1c1c1e'];
+  wc.innerHTML=sorted.map(([w,n],i)=>{
+    const scale=min===max?1:(n-min)/(max-min);
+    const size=Math.round(11+scale*16);
+    const c=wcColors[i%wcColors.length];
+    return `<span style="font-size:${size}px;color:${c};font-weight:${scale>.6?700:400};opacity:${0.55+scale*0.45};padding:1px 4px;cursor:default" title="${n}次">${w}</span>`;
+  }).join('');
+}
+
+// 单公司 AI 深度分析（直接调用，结果写入详情页 #company-ai-result）
+async function genAiCompany(company) {
+  const btn = document.getElementById('btn-company-ai');
+  const resultEl = document.getElementById('company-ai-result');
+  if (!btn || !resultEl) return;
+
+  const key = document.getElementById('ai-key').value.trim();
+  if (!key) { resultEl.style.display='block'; resultEl.textContent='请先在顶部填入 API Key'; return; }
+
+  btn.disabled = true;
+  btn.textContent = '⏳ 分析中…';
+  resultEl.style.display = 'block';
+  resultEl.innerHTML = '<span style="color:var(--text-3);font-size:12px">⏳ DeepSeek 分析中…</span>';
+
+  const arts = allArticles.filter(a=>a.company===company).slice(0,50);
+  if (!arts.length) { resultEl.textContent='暂无文章数据'; btn.disabled=false; btn.textContent='✦ 生成 AI 深度分析'; return; }
+
+  // 全局统一编号（所有文章一起编号，行业资讯接在后面）
+  const COMPANY_ALIASES = {
+    '字节跳动': ['字节跳动','字节','跳动','抖音','今日头条','ByteDance'],
+    '小红书':   ['小红书','RED','RedNote'],
+    '美团':     ['美团'],
+    '阿里':     ['阿里巴巴','阿里','蚂蚁','淘天','Alibaba'],
+    '腾讯':     ['腾讯','微信','Tencent'],
+    '行业资讯': [],
+  };
+  const aliases = COMPANY_ALIASES[company] || [company];
+  const industryRelatedArts = company !== '行业资讯'
+    ? allArticles.filter(a => a.company==='行业资讯' && aliases.some(al=>a.title.includes(al))).slice(0,15)
+    : [];
+  // orderedArts 按分组遍历顺序收集，保证与 AI 看到的编号严格一致
+  let globalIdx = 1;
+  const grouped = {};
+  arts.forEach(a => { if (!grouped[a.authorName]) grouped[a.authorName]=[]; grouped[a.authorName].push(a); });
+  const orderedArts = [];
+  const titlesByAccount = Object.entries(grouped)
+    .map(([name, artList]) => `【${name}】\n${artList.map(a => { orderedArts.push(a); return `${globalIdx++}. ${a.title}`; }).join('\n')}`)
+    .join('\n\n');
+  const orderedIndustryArts = [];
+  const industryNote = industryRelatedArts.length
+    ? `\n\n【行业资讯账号关于「${company}」的报道，请重点提取人事变动整合进"人事变动"一节】：\n${industryRelatedArts.map(a => { orderedIndustryArts.push(a); return `${globalIdx++}. 《${a.authorName}》 ${a.title}`; }).join('\n')}`
+    : '';
+  const finalRefArts = [...orderedArts, ...orderedIndustryArts];
+
+  try {
+    const resp = await fetch(`${AI_BASE}/chat/completions`, {
+      method: 'POST',
+      headers: {'Content-Type':'application/json','Authorization':`Bearer ${key}`},
+      body: JSON.stringify({
+        model: 'deepseek-chat',
+        messages: [
+          {role:'system', content:'你是快手雇主品牌团队的竞对情报分析师。分析各公司旗下多个公众号的近期文章，提炼关键情报。输出语言简洁有力，每句话信息密度高，不废话。'},
+          {role:'user', content:`请分析「${company}」旗下各公众号的近期文章，按以下结构输出：\n\n**招聘动态**\n（结合各账号招聘文章，总结该公司最近的招聘方向、岗位重点、规模变化，2-3句）\n\n**人事变动**\n（如检测到高管任免、团队调整等信息则列出；否则写"未检测到明显人事变动"）\n\n**近期战略重点**\n（3条，每条一句）\n- \n- \n- \n\n**对快手的启示**\n（快手雇主品牌可以从中借鉴或差异化的一句话建议）\n\n---\n各账号文章如下：\n${titlesByAccount}${industryNote}`},
+        ],
+        max_tokens: 700, temperature: 0.6,
+      })
+    });
+    const d = await resp.json();
+    if (d.error) throw new Error(d.error.message);
+    const txt = d.choices?.[0]?.message?.content || '分析失败';
+    // 格式化并渲染（把 [N] 替换成内联链接）
+    resultEl.dataset.raw = txt; // 保存原始 AI 文本，供手动存档使用
+    resultEl.dataset.refsJson = JSON.stringify(finalRefArts.map(a=>({title:a.title,url:a.url,authorName:a.authorName}))); // 保存引用文章
+    const formatted = renderWithCitations(txt, finalRefArts, company !== '行业资讯');
+    resultEl.innerHTML = `<span style="font-size:11px;color:var(--blue);font-weight:600;letter-spacing:.03em">✦ AI 深度分析</span><br>${formatted}`;
+    // 自动同步到情报存档，带上引用文章
+    saveAiRecord(company, txt, new Date().toISOString().slice(0,10), finalRefArts, true);
+  } catch(e) {
+    console.error('genAiCompany error', e);
+    if (resultEl) resultEl.innerHTML = `<span style="color:var(--red)">请求失败：${e.message}</span>`;
+  }
+  btn.disabled = false;
+  btn.textContent = '✦ 重新生成 AI 分析';
+}
+
+// 单公司视图：各账号子卡片网格（保留兼容旧调用）
+function sourceCardsGrid(company) {
+  const ids = getCompanyIds(company);
+  const color = COMPANY_COLORS[company]||'#333';
+  const cards = ids.map((id, ci) => {
+    const src = sourceMap[id];
+    if (!src) return '';
+    const arts = allArticles.filter(a=>a.sourceId===id).slice(0,5);
+    const avatarHTML = src.cover
+      ? `<img class="source-card-avatar" src="${src.cover}" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`
+      : `<div class="source-card-avatar" style="background:${color};display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700">${src.name[0]}</div>`;
+    const itemsHTML = arts.length
+      ? arts.map(a=>`<a class="bc-item" href="${a.url}" target="_blank" rel="noopener" style="font-size:12px">
+          ${esc(a.title.slice(0,40))}${a.title.length>40?'…':''}
+          <span class="bc-item-meta">${a.date?relTime(a.date):'–'}</span>
+        </a>`).join('')
+      : '<div class="bc-empty">暂无文章</div>';
+    return `<div class="source-card" style="animation-delay:${ci*50}ms">
+      <div class="source-card-head">
+        ${avatarHTML}
+        <span class="source-card-name">${src.name}</span>
+        <span class="source-card-cnt">${allArticles.filter(a=>a.sourceId===id).length} 篇</span>
+      </div>
+      ${itemsHTML}
+    </div>`;
+  }).join('');
+  return `<div class="source-cards-grid">${cards}</div>`;
+}
+
+// ═══════════════ ARTICLES PANEL ═══════════════
+function renderArticles() {
+  // 期间筛选模式优先级最高
+  if (curPeriodArts !== null) {
+    const filtered = curPeriodArts;
+    const countEl = document.getElementById('result-count');
+    const activeSrcIds = [...new Set(filtered.map(a=>a.sourceId))];
+    countEl.innerHTML = `<span style="display:inline-flex;align-items:center;gap:5px;background:var(--orange);color:#fff;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600">${curPeriodLabel} <span onclick="clearPeriodFilter()" style="cursor:pointer;opacity:.8;font-size:13px;line-height:1">&times;</span></span> ${filtered.length} 篇·${activeSrcIds.length} 个账号有更新`;
+    const list = document.getElementById('articles-list');
+    list.innerHTML = filtered.slice(0, curPage * PAGE_SZ).map((a,i) => articleCard(a,i)).join('');
+    document.getElementById('load-more').style.display = filtered.length > curPage * PAGE_SZ ? 'block' : 'none';
+    return;
+  }
+
+  const filtered = getFiltered();
+  const countEl = document.getElementById('result-count');
+
+  // 构建过滤标签：公众号精确过滤 + 激活的关键词 pills
+  const srcName = curSourceId ? sourceMap[curSourceId]?.name : null;
+  const srcTag = srcName
+    ? `<span style="display:inline-flex;align-items:center;gap:4px;background:var(--blue);color:#fff;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600">${srcName} <span onclick="clearSourceFilter()" style="cursor:pointer;opacity:.75;font-size:13px;line-height:1">&times;</span></span>`
+    : '';
+  const kwTags = activeKws.size
+    ? [...activeKws].map(kw =>
+        `<span style="display:inline-flex;align-items:center;gap:4px;background:var(--blue);color:#fff;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600">${kw} <span onclick="removeKwFilter('${kw}')" style="cursor:pointer;opacity:.75;font-size:13px;line-height:1">&times;</span></span>`
+      ).join('')
+    : '';
+  const prefixHtml = srcTag || kwTags ? `${srcTag}${kwTags} ` : '';
+  countEl.innerHTML = `${prefixHtml}${filtered.length} 篇`;
+  const list = document.getElementById('articles-list');
+  if (!filtered.length) {
+    list.innerHTML = '<div class="empty-state">暂无符合条件的文章</div>';
+    document.getElementById('load-more').style.display = 'none';
+    return;
+  }
+  list.innerHTML = filtered.slice(0, PAGE_SZ).map((a,i)=>articleCard(a,i)).join('');
+  document.getElementById('load-more').style.display = filtered.length > PAGE_SZ ? 'block' : 'none';
+}
+function loadMore() {
+  const filtered = getFiltered(); curPage++;
+  const next = filtered.slice((curPage-1)*PAGE_SZ, curPage*PAGE_SZ);
+  document.getElementById('articles-list').insertAdjacentHTML('beforeend', next.map((a,i)=>articleCard(a,i)).join(''));
+  if (curPage*PAGE_SZ >= filtered.length) document.getElementById('load-more').style.display='none';
+}
+
+function articleCard(a, i) {
+  const color = COMPANY_COLORS[a.company]||'#6e6e73';
+  const kws = RECRUIT_KW.concat(PERSON_KW).filter(kw=>a.title.includes(kw)).slice(0,3);
+  let title = esc(a.title);
+  if (curSearch) title = title.replace(new RegExp(`(${escRe(curSearch)})`, 'gi'), '<mark>$1</mark>');
+
+  const imgHTML = a.image
+    ? `<img class="art-thumb" src="${a.image}" referrerpolicy="no-referrer" loading="lazy" alt="" onerror="this.outerHTML='<div class=art-no-thumb>无图</div>'">`
+    : `<div class="art-no-thumb">无图</div>`;
+
+  return `<a class="article-card" href="${a.url}" target="_blank" rel="noopener" style="animation-delay:${Math.min(i,10)*20}ms">
+    <div>
+      <div class="art-meta">
+        <span class="art-source" style="background:${color}">${a.authorName}</span>
+        <span class="art-company">${a.company}</span>
+        <span class="art-date">${a.date?relTime(a.date):'–'}</span>
+        ${kws.map(kw=>`<span class="art-kw">${kw}</span>`).join('')}
+      </div>
+      <div class="art-title">${title}</div>
+    </div>
+    ${imgHTML}
+  </a>`;
+}
+
+// 移除单个关键词过滤
+function removeKwFilter(kw) {
+  activeKws.delete(kw);
+  const pill = document.querySelector(`.kw-pill[data-kw="${kw}"]`);
+  if (pill) pill.classList.remove('on');
+  curPage = 1;
+  render();
+}
+function clearSourceFilter() {
+  curSourceId = null;
+  document.getElementById('search-input').placeholder = '搜索标题关键词…';
+  // 取消公众号高亮
+  document.querySelectorAll('.src-item').forEach(el => { el.style.background=''; el.style.boxShadow=''; });
+  curPage = 1;
+  renderArticles();
+}
+
+function clearPeriodFilter() {
+  curPeriodArts = null;
+  curPeriodLabel = '';
+  document.querySelectorAll('.src-item').forEach(el => { el.style.background=''; el.style.boxShadow=''; });
+  curPage = 1;
+  renderArticles();
+}
+
+// 点击"监测账号"：在文章列表区展示所有账号分组列表
+function showAllSources() {
+  curCompany = 'all';
+  curSourceId = null;
+  curSearch = '';
+  activeKws.clear();
+  document.querySelectorAll('.seg-btn').forEach(b => b.classList.toggle('active', b.dataset.company==='all'));
+  document.querySelectorAll('.kw-pill').forEach(p => p.classList.remove('on'));
+  document.getElementById('search-input').value = '';
+  document.getElementById('search-input').placeholder = '搜索标题关键词…';
+
+  switchView('articles');
+
+  // 按公司分组渲染账号列表
+  const list = document.getElementById('articles-list');
+  const countEl = document.getElementById('result-count');
+  countEl.innerHTML = `<span style="display:inline-flex;align-items:center;gap:5px;background:#6e6e73;color:#fff;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600">全部账号 <span onclick="clearPeriodFilter()" style="cursor:pointer;opacity:.75;font-size:13px;line-height:1">&times;</span></span> ${sources.length} 个监测账号`;
+
+  const groupHTML = Object.entries(COMPANY_GROUPS).map(([company, ids]) => {
+    const color = COMPANY_COLORS[company] || '#6e6e73';
+    const rowsHTML = ids.map(id => {
+      const src = sourceMap[id];
+      if (!src) return '';
+      const cnt = allArticles.filter(a => a.sourceId === id).length;
+      const latest = allArticles.filter(a => a.sourceId === id && a.date).sort((a,b)=>b.date-a.date)[0];
+      const latestStr = latest ? relTime(latest.date) : '无文章';
+      const av = src.cover
+        ? `<img style="width:28px;height:28px;border-radius:7px;object-fit:cover;flex-shrink:0" src="${src.cover}" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">`
+        : `<div style="width:28px;height:28px;border-radius:7px;background:${color};flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:700">${src.name[0]}</div>`;
+      return `<div onclick="jumpToSource('${id}','${company}')" style="display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:8px;cursor:pointer;transition:background .12s" onmouseenter="this.style.background='var(--surface-2)'" onmouseleave="this.style.background=''">
+        ${av}
+        <span style="flex:1;font-size:13px;font-weight:500">${src.name}</span>
+        <span style="font-size:11px;color:var(--text-3);white-space:nowrap">${cnt} 篇</span>
+        <span style="font-size:11px;color:var(--text-3);white-space:nowrap;min-width:52px;text-align:right">${latestStr}</span>
+      </div>`;
+    }).join('');
+    return `<div style="margin-bottom:16px">
+      <div style="font-size:11px;font-weight:600;color:${color};letter-spacing:.05em;padding:4px 4px 6px;border-bottom:2px solid ${color}22;margin-bottom:4px">${company}</div>
+      ${rowsHTML}
+    </div>`;
+  }).join('');
+
+  list.innerHTML = `<div style="padding:4px 0">${groupHTML}</div>`;
+  document.getElementById('load-more').style.display = 'none';
+}
+
+// ═══════════════ CHARTS ═══════════════
+function renderCharts() {
+  // 排除「行业资讯」，只统计各公司
+  const EXCLUDE = '行业资讯';
+  const arts = (curCompany==='all' ? allArticles : allArticles.filter(a=>a.company===curCompany))
+    .filter(a=>a.company !== EXCLUDE);
+  const days14 = Array.from({length:14},(_,i)=>{const d=new Date();d.setDate(d.getDate()-13+i);return d.toISOString().slice(0,10);});
+  const companies = (curCompany==='all' ? Object.keys(COMPANY_GROUPS) : [curCompany]).filter(c=>c!==EXCLUDE);
+  buildChart('chart-trend','line',{
+    labels: days14.map(d=>d.slice(5)),
+    datasets: companies.map(c=>({
+      label:c,
+      data:days14.map(day=>allArticles.filter(a=>a.company===c&&a.date instanceof Date&&a.date.toISOString().slice(0,10)===day).length),
+      borderColor:COMPANY_COLORS[c]||'#999',
+      backgroundColor:(COMPANY_COLORS[c]||'#999')+'18',
+      tension:.35, pointRadius:3, fill:false, borderWidth:2,
+    })),
+  },{
+    scales:{y:{beginAtZero:true,grid:{color:'#f0f0f0'},ticks:{stepSize:1,font:{size:11}}},x:{grid:{display:false},ticks:{font:{size:11}}}},
+    plugins:{legend:{position:'top',labels:{boxWidth:10,font:{size:11}}}},
+  });
+
+  // 关键词公司归属热力图
+  renderHeatmap(arts, companies);
+
+  // Word cloud
+  renderWordCloud(arts);
+
+  // KW freq bar
+  const kwFreq={};
+  const srcNamesStop2 = new Set(sources.map(s=>s.name).flatMap(n=>[n,...(n.match(/[\u4e00-\u9fa5]{2,6}/g)||[])]));
+  arts.forEach(a=>{
+    (a.title.match(/[\u4e00-\u9fa5]{2,5}|[A-Za-z]{2,12}/g)||[]).forEach(w=>{
+      if(!STOP.has(w)&&!COMPANY_NAMES.has(w)&&!srcNamesStop2.has(w)&&w.length>=2) kwFreq[w]=(kwFreq[w]||0)+1;
+    });
+  });
+  const topKw=Object.entries(kwFreq).sort((a,b)=>b[1]-a[1]).slice(0,20);
+  buildChart('chart-kw','bar',{
+    labels:topKw.map(([w])=>w),
+    datasets:[{label:'词频',data:topKw.map(([,n])=>n),
+      backgroundColor:topKw.map((_,i)=>`oklch(${55+i}% 0.18 ${250-i*5})`),
+      borderRadius:4,borderWidth:0}],
+  },{
+    indexAxis:'y',
+    scales:{x:{beginAtZero:true,grid:{color:'#f0f0f0'},ticks:{font:{size:11}}},y:{grid:{display:false},ticks:{font:{size:11}}}},
+    plugins:{legend:{display:false}},
+  });
+}
+
+function renderHeatmap(arts, companies) {
+  const container = document.getElementById('chart-heatmap');
+  if (!container) return;
+
+  // 构建屏蔽词集合（公众号名）
+  const srcNamesStop = new Set(sources.map(s=>s.name).flatMap(n=>[n,...(n.match(/[\u4e00-\u9fa5]{2,6}/g)||[])]));
+
+  // 计算全局高频词 Top 12
+  const kwFreq = {};
+  arts.forEach(a=>{
+    (a.title.match(/[\u4e00-\u9fa5]{2,5}|[A-Za-z]{2,12}/g)||[]).forEach(w=>{
+      if(!STOP.has(w)&&!COMPANY_NAMES.has(w)&&!srcNamesStop.has(w)&&w.length>=2) kwFreq[w]=(kwFreq[w]||0)+1;
+    });
+  });
+  const topKws = Object.entries(kwFreq).sort((a,b)=>b[1]-a[1]).slice(0,12).map(([w])=>w);
+  if (!topKws.length || !companies.length) { container.innerHTML='<div class="empty-state">暂无数据</div>'; return; }
+
+  // 统计每公司每关键词出现次数
+  const matrix = {};
+  companies.forEach(c=>{
+    matrix[c]={};
+    const compArts = arts.filter(a=>a.company===c);
+    topKws.forEach(kw=>{
+      matrix[c][kw] = compArts.filter(a=>a.title.includes(kw)).length;
+    });
+  });
+
+  // 找最大值（用于颜色归一化）
+  const allVals = companies.flatMap(c=>topKws.map(kw=>matrix[c][kw]));
+  const maxVal = Math.max(...allVals, 1);
+
+  // 渲染表格
+  const thStyle = 'padding:6px 10px;font-size:11px;font-weight:600;color:var(--text-3);text-align:center;white-space:nowrap;background:var(--surface)';
+  const tdLabelStyle = 'padding:6px 10px;font-size:12px;font-weight:600;color:var(--text-2);white-space:nowrap;';
+  let html = `<table style="width:100%;border-collapse:collapse;font-size:12px">
+    <thead><tr><th style="${thStyle};text-align:left">公司 / 词</th>`;
+  topKws.forEach(kw=>{ html+=`<th style="${thStyle}">${kw}</th>`; });
+  html+=`</tr></thead><tbody>`;
+  companies.forEach(c=>{
+    const clr = COMPANY_COLORS[c]||'#6e6e73';
+    html+=`<tr>
+      <td style="${tdLabelStyle}"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${clr};margin-right:5px;vertical-align:middle"></span>${c}</td>`;
+    topKws.forEach(kw=>{
+      const val = matrix[c][kw];
+      const alpha = val===0 ? 0 : 0.08 + (val/maxVal)*0.72;
+      const bg = val===0 ? 'transparent' : `${clr}${Math.round(alpha*255).toString(16).padStart(2,'0')}`;
+      html+=`<td title="${c}·${kw}: ${val}篇" style="padding:6px 10px;text-align:center;background:${bg};color:${val>0?'var(--text)':'var(--text-3)'};font-weight:${val>0?'600':'400'};border-radius:4px;transition:background .15s">${val||'–'}</td>`;
+    });
+    html+=`</tr>`;
+  });
+  html+=`</tbody></table>`;
+  container.innerHTML = html;
+}
+
+function renderWordCloud(arts) {
+  const container = document.getElementById('wordcloud-container');
+  const kwFreq = {};
+  // 构建公众号名称屏蔽集
+  const srcNamesStop = new Set(sources.map(s=>s.name).flatMap(n=>[n,...(n.match(/[\u4e00-\u9fa5]{2,6}/g)||[])]));
+  arts.forEach(a=>{
+    (a.title.match(/[\u4e00-\u9fa5]{2,5}|[A-Za-z]{2,12}/g)||[]).forEach(w=>{
+      if(!STOP.has(w)&&!COMPANY_NAMES.has(w)&&!srcNamesStop.has(w)&&w.length>=2) kwFreq[w]=(kwFreq[w]||0)+1;
+    });
+  });
+  const sorted = Object.entries(kwFreq).sort((a,b)=>b[1]-a[1]).slice(0,40);
+  if (!sorted.length) { container.innerHTML='<div class="empty-state">暂无数据</div>'; return; }
+  const max = sorted[0][1], min = sorted[sorted.length-1][1];
+  const colors = ['#0071e3','#ff3b30','#ff9500','#34c759','#af52de','#5ac8fa','#ff2d55','#1c1c1e'];
+
+  container.innerHTML = sorted.map(([w,n],i)=>{
+    const scale = min===max ? 1 : (n-min)/(max-min);
+    const size = Math.round(11 + scale*18);
+    const opacity = 0.55 + scale*0.45;
+    const color = colors[i % colors.length];
+    const bgAlpha = Math.round((0.06+scale*0.1)*255).toString(16).padStart(2,'0');
+    return `<span class="wc-word" style="font-size:${size}px;color:${color};opacity:${opacity.toFixed(2)};background:${color}${bgAlpha};animation-delay:${i*20}ms" title="${w}: ${n}次">${w}</span>`;
+  }).join('');
+}
+
+function buildChart(id, type, data, options) {
+  if (charts[id]) charts[id].destroy();
+  charts[id] = new Chart(document.getElementById(id), {
+    type, data,
+    options: {
+      responsive:true, maintainAspectRatio:false,
+      animation:{duration:350},
+      plugins:{legend:{labels:{font:{family:"Inter,-apple-system",size:11}}}},
+      ...options,
+    }
+  });
+}
+
+// ═══════════════ AI ═══════════════
+// 句子 → 文章关键词反查，返回最匹配的文章（无需 AI 标编号）
+function findBestMatchArt(sentence, articles) {
+  if (!articles || !articles.length) return null;
+  // 提取句子里长度>=2的汉字词段
+  const words = sentence.match(/[\u4e00-\u9fa5A-Za-z]{2,}/g) || [];
+  if (!words.length) return null;
+  let best = null, bestScore = 0;
+  articles.forEach(art => {
+    if (!art || !art.title) return;
+    let score = 0;
+    words.forEach(w => {
+      if (w.length >= 2 && art.title.includes(w)) score += w.length; // 更长的词权重更高
+    });
+    if (score > bestScore) { bestScore = score; best = art; }
+  });
+  // 至少命中 4 个字符才认为匹配
+  return bestScore >= 4 ? best : null;
+}
+
+// 把 AI 输出格式化，并为每行结论自动匹配引用角标
+function renderWithCitations(txt, articles, enableCitations) {
+  if (!txt) return '';
+  const lines = txt.split('\n');
+  const processedLines = lines.map(line => {
+    // 跳过标题行、空行、纯符号行
+    const isTitle = /^\*\*.+\*\*/.test(line.trim());
+    const isEmpty = !line.trim() || /^[-—]+$/.test(line.trim());
+    if (isTitle || isEmpty || !enableCitations) return line;
+    // 关键词反查
+    const art = findBestMatchArt(line, articles);
+    if (!art || !art.url) return line;
+    // 安全转义 title 属性值（防止引号截断 HTML）
+    const safeTitle = ((art.authorName ? '[' + art.authorName + '] ' : '') + (art.title || ''))
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    const badge = `<a href="${art.url}" target="_blank" rel="noopener" title="${safeTitle}" `
+      + `style="display:inline-flex;align-items:center;justify-content:center;min-width:14px;height:14px;border-radius:3px;background:var(--border);color:var(--text-3);font-size:9px;font-weight:600;text-decoration:none;vertical-align:super;margin:0 2px;padding:0 2px;line-height:1;flex-shrink:0">↗</a>`;
+    return line + badge;
+  });
+  let html = processedLines.join('\n')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>')
+    .replace(/^[•\-] (.+)/gm, '<span style="display:block;padding-left:10px">• $1</span>');
+  return html;
+}
+
+function applyAiToCard(company, txt) {
+  const el = document.getElementById(`ai-note-${company}`);
+  if (!el) return;
+
+  // 解析各 section
+  const sections = {};
+  let cur = null;
+  txt.split('\n').forEach(line => {
+    const m = line.match(/^\*\*(.+?)\*\*/);
+    if (m) { cur = m[1]; sections[cur] = []; }
+    else if (cur && line.trim()) sections[cur].push(line.trim());
+  });
+
+  // 将 AI 结论注入对应卡片 section 的上方（如有内容）
+  // 也统一显示在 ai-result 区块里
+  const formatted = txt
+    .replace(/\*\*(.+?)\*\*/g, '<strong style="color:var(--text);display:block;margin-top:8px;margin-bottom:2px">$1</strong>')
+    .replace(/\n/g, '<br>')
+    .replace(/^[•\-] (.+)/gm, '<span style="display:block;padding-left:10px">• $1</span>');
+  el.style.display = 'block';
+  el.dataset.raw = txt; // 保存原始文本，供手动存档时使用
+  el.innerHTML = `<span style="font-size:11px;color:var(--blue);font-weight:600;letter-spacing:.03em">✦ AI 深度摘要</span><br>${formatted}`;
+}
+
+async function genAi(company) {
+  const key = document.getElementById('ai-key').value.trim();
+  const el  = document.getElementById(`ai-note-${company}`);
+  if (!el) return;
+  el.style.display = 'block';
+  if (!key) { el.textContent = '请先填入 API Key'; return; }
+
+  const arts = allArticles.filter(a=>a.company===company).slice(0,50);
+  if (!arts.length) { el.textContent = '暂无文章数据'; return; }
+
+  // 全局统一编号
+  const COMPANY_ALIASES = {
+    '字节跳动': ['字节跳动','字节','跳动','抖音','今日头条','ByteDance'],
+    '小红书':   ['小红书','RED','RedNote'],
+    '美团':     ['美团'],
+    '阿里':     ['阿里巴巴','阿里','蚂蚁','淘天','Alibaba'],
+    '腾讯':     ['腾讯','微信','Tencent'],
+    '行业资讯': [],
+  };
+  const aliases = COMPANY_ALIASES[company] || [company];
+  const industryRelatedArts = company !== '行业资讯'
+    ? allArticles.filter(a => a.company === '行业资讯' && aliases.some(al => a.title.includes(al))).slice(0,15)
+    : [];
+  const refArts = [...arts, ...industryRelatedArts];
+  let globalIdx = 1;
+  const grouped = {};
+  arts.forEach(a => { if (!grouped[a.authorName]) grouped[a.authorName]=[]; grouped[a.authorName].push(a); });
+  // orderedArts 按分组遍历顺序收集，保证与 AI 看到的编号严格一致
+  const orderedArts = [];
+  const titlesByAccount = Object.entries(grouped)
+    .map(([name, artList]) => `【${name}】\n${artList.map(a => { orderedArts.push(a); return `${globalIdx++}. ${a.title}`; }).join('\n')}`)
+    .join('\n\n');
+  const orderedIndustryArts = [];
+  const industryPersonNote = industryRelatedArts.length
+    ? `\n\n【以下是行业资讯账号关于「${company}」的报道】：\n${industryRelatedArts.map(a => { orderedIndustryArts.push(a); return `${globalIdx++}. 《${a.authorName}》 ${a.title}`; }).join('\n')}`
+    : '';
+  // 引用文章顺序与 AI 编号严格一致
+  const finalRefArts = [...orderedArts, ...orderedIndustryArts];
+
+  el.innerHTML = '<span style="color:var(--text-3);font-size:12px">⏳ DeepSeek 分析中…</span>';
+  try {
+    const resp = await fetch(`${AI_BASE}/chat/completions`,{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Authorization':`Bearer ${key}`},
+      body:JSON.stringify({
+        model:'deepseek-chat',
+        messages:[
+          {role:'system',content:'你是快手雇主品牌团队的竞对情报分析师。分析各公司旗下多个公众号的近期文章，提炼关键情报。输出语言简洁有力，每句话信息密度高，不废话。'},
+          {role:'user',content:`请分析「${company}」旗下各公众号的近期文章，按以下结构输出：\n\n**招聘动态**\n（结合各账号招聘文章，总结该公司最近的招聘方向、岗位重点、规模变化，2-3句）\n\n**人事变动**\n（如检测到高管任免、团队调整等信息则列出；否则写"未检测到明显人事变动"）\n\n**近期战略重点**\n（3条，每条一句）\n- \n- \n- \n\n**对快手的启示**\n（快手雇主品牌可以从中借鉴或差异化的一句话建议）\n\n---\n各账号文章如下：\n${titlesByAccount}${industryPersonNote}`},
+        ],
+        max_tokens:700, temperature:0.6,
+      })
+    });
+    const d = await resp.json();
+    if (d.error) throw new Error(d.error.message);
+    const txt = d.choices?.[0]?.message?.content||'分析失败';
+    applyAiToCard(company, txt);
+    // 保存引用文章到 el.dataset，供手动存档用
+    el.dataset.refsJson = JSON.stringify(refArts.map(a=>({title:a.title,url:a.url,authorName:a.authorName})));
+    // 自动同步到情报存档，带上引用文章
+    saveAiRecord(company, txt, new Date().toISOString().slice(0,10), refArts, true);
+  } catch(e) { el.innerHTML = `<span style="color:var(--red)">请求失败：${e.message}</span>`; }
+}
+
+async function triggerAiSummary() {
+  if (curView!=='brief') switchView('brief');
+  const companies = curCompany==='all' ? Object.keys(COMPANY_GROUPS) : [curCompany];
+  const btn = document.getElementById('btn-ai');
+  const tip = document.getElementById('ai-tip');
+  btn.disabled = true;
+  btn.textContent = `⏳ 分析中 0/${companies.length}…`;
+  let done = 0;
+  await Promise.all(companies.map(async c => {
+    await genAi(c);
+    done++;
+    btn.textContent = `⏳ 分析中 ${done}/${companies.length}…`;
+  }));
+  btn.disabled = false;
+  btn.textContent = '✦ 重新生成全部情报摘要';
+  tip.textContent = `已完成 ${done} 家 · 含行业资讯跨账号人事整合`;
+}
+
+// ═══════════════ REFRESH ═══════════════
+async function refresh() {
+  await fetchArticles();
+  updateStats(); updateCounts(); renderSidebar(); render();
+}
+
+// ═══════════════ UTILS ═══════════════
+function relTime(date) {
+  const m=Math.floor((Date.now()-date)/60000);
+  if (m<1) return '刚刚';
+  if (m<60) return `${m}分钟前`;
+  const h=Math.floor(m/60);
+  if (h<24) return `${h}小时前`;
+  const d=Math.floor(h/24);
+  if (d<14) return `${d}天前`;
+  return date.toLocaleDateString('zh-CN',{month:'short',day:'numeric'});
+}
+function esc(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function escRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); }
+
+// ═══════════════ BOOT ═══════════════
+document.getElementById('search-bar').style.display = 'none';
+async function main() { await init(); updateArchiveBadge(); }
+main();
+</script>
+</body>
+</html>
