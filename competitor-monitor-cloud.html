@@ -699,27 +699,26 @@ async function fetchSources() {
   }
   sources.forEach(s => sourceMap[s.id] = s);
 
-    rebuildSegmentButtons();
+  rebuildSegmentButtons();
 
-    // KW pills
-    const pills = document.getElementById('kw-pills');
-    ['校招','实习','招聘','AI','大模型'].forEach(kw => {
-      const p = document.createElement('button');
-      p.className = 'kw-pill'; p.textContent = kw;
-      p.dataset.kw = kw;
-      p.onclick = () => {
-        const isOn = p.classList.toggle('on');
-        // 取消其他 pill 的选中状态（单选）
-        document.querySelectorAll('.kw-pill').forEach(other => { if (other !== p) other.classList.remove('on'); });
-        const input = document.getElementById('search-input');
-        input.value = isOn ? kw : '';
-        applyFilters();
-      };
-      pills.appendChild(p);
-    });
+  // KW pills
+  const pills = document.getElementById('kw-pills');
+  ['校招','实习','招聘','AI','大模型'].forEach(kw => {
+    const p = document.createElement('button');
+    p.className = 'kw-pill'; p.textContent = kw;
+    p.dataset.kw = kw;
+    p.onclick = () => {
+      const isOn = p.classList.toggle('on');
+      // 取消其他 pill 的选中状态（单选）
+      document.querySelectorAll('.kw-pill').forEach(other => { if (other !== p) other.classList.remove('on'); });
+      const input = document.getElementById('search-input');
+      input.value = isOn ? kw : '';
+      applyFilters();
+    };
+    pills.appendChild(p);
+  });
 
-    document.getElementById('stat-sources').textContent = sources.length;
-  } catch(e) { console.error('fetchSources', e); }
+  document.getElementById('stat-sources').textContent = sources.length;
 }
 
 function rebuildSegmentButtons() {
