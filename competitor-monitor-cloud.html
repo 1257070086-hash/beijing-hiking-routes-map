@@ -782,7 +782,7 @@ async function fetchArticles() {
       }));
       if (!items.length) emptySrcs.push(src.name);
       return items;
-    } catch{ return []; }
+    } catch(e){ return []; }
   }));
 
   allArticles = results.flat().sort((a,b) => {
@@ -825,7 +825,7 @@ function getCompanyIds(company) {
 // ═══════════════ 自定义分类（localStorage） ═══════════════
 const CUSTOM_KEY = 'cm_custom_groups';
 function loadCustomGroups() {
-  try { return JSON.parse(localStorage.getItem(CUSTOM_KEY) || '{}'); } catch { return {}; }
+  try { return JSON.parse(localStorage.getItem(CUSTOM_KEY) || '{}'); } catch(e) { return {}; }
 }
 function saveCustomGroups(obj) {
   localStorage.setItem(CUSTOM_KEY, JSON.stringify(obj));
@@ -1240,7 +1240,7 @@ function briefCard(company) {
 const ARCHIVE_KEY = 'cm_ai_archive';
 
 function loadArchive() {
-  try { return JSON.parse(localStorage.getItem(ARCHIVE_KEY) || '[]'); } catch { return []; }
+  try { return JSON.parse(localStorage.getItem(ARCHIVE_KEY) || '[]'); } catch(e) { return []; }
 }
 function saveAiRecord(company, txt, dateKey, articles, silent) {
   const records = loadArchive();
