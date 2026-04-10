@@ -1,0 +1,813 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "美团技术团队",
+    "home_page_url": "http://localhost:4000/feeds/MP_WXS_2396491298.json",
+    "description": "这里是美团、大众点评、美团无人机、美团无人车等技术团队对外技术交流的窗口，我们会定期分享在AI领域的探索与实践、研发技能和技术招聘信息，希望跟大家一起交流学习，拥抱未来。",
+    "icon": "http://wx.qlogo.cn/mmhead/Q3auHgzwzM5vhk5P7xlYy014w9hRdPMvmnciaYLl3pyQicvXV7aTXmDA/0",
+    "author": {
+        "name": "美团技术团队"
+    },
+    "generator": "WeWe-RSS",
+    "items": [
+        {
+            "id": "f0LwJ0k9k1z1uYl-M6lS-Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/f0LwJ0k9k1z1uYl-M6lS-Q",
+            "title": "2025-2026 | 美团科研合作优秀课题获得者名单公布",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0DwtqQibeaCyVfEMI5zQHc9GZ8LKXRx2EPep1xZlZIEIBMfVa7yfibCpZgwo2b6BT3PxRXXokD3Q3QQCGvickb1EJolOIuxLymW0dM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-09T11:58:47.000Z"
+        },
+        {
+            "id": "mo4cG9K_ynqUpDAvSVFw_Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/mo4cG9K_ynqUpDAvSVFw_Q",
+            "title": "2026 美团 LongCat 大模型 | 北斗实习计划",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/V95GN2mm0DzY2cD432LEiajZibRadj8TODtYG62JBqMfBlz8BAUHBfVB6fZxCoR51mCiaTvg9ThtIDppSicBe0QnEueibBUNOETQ5VJTkXIAUNzQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-09T11:58:47.000Z"
+        },
+        {
+            "id": "P4w0Hbnw8EfUclsd0EXQLQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/P4w0Hbnw8EfUclsd0EXQLQ",
+            "title": "2026 美团科研合作课题 | 公开征集进行中",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0DyU59ibxXuF15GYlKWMuFbowF2W3AYRt4qBdtaNPI6O8TQqG5wA0lQm5mNQlBKoK5z5I0zzN7icAkyptuBvbykmQVBJPl0DUgs1g/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-09T11:58:47.000Z"
+        },
+        {
+            "id": "NJZPb9mseXLXJMEzct5fUQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/NJZPb9mseXLXJMEzct5fUQ",
+            "title": "美团发布原生多模态 LongCat-Next：当视觉和语音成为AI的母语",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0Dz2oia5LRmwvIUgFvcwZ686Mxbia49RvMARqLBOib8j4fosY0raYHMoc4EWLwnHh1YWd0U7ard86maLXxQnnOQC6q1FJiaSOQWkkBs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-02T11:58:47.000Z"
+        },
+        {
+            "id": "hZUVVkUW0n8_KVV3924ifw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hZUVVkUW0n8_KVV3924ifw",
+            "title": "LongCat-Flash-Prover：AI 攻克数学定理证明，不仅要“算得对”，更要“证得严”",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/V95GN2mm0DzXHXTCDriaHDLTBWD3mN2S2CCkdz0oJGoTNfXyOowEyGDpvXlvar6okDgic3tWJ5b4uwphXUR1rMHc5mwPSRBeRiblcoMuP9oKMw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-02T11:58:47.000Z"
+        },
+        {
+            "id": "dFKm3bO1hl4WaJov6tBcyg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/dFKm3bO1hl4WaJov6tBcyg",
+            "title": "2026 美团科研合作课题 | 公开征集启动",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0DyU59ibxXuF15GYlKWMuFbowF2W3AYRt4qBdtaNPI6O8TQqG5wA0lQm5mNQlBKoK5z5I0zzN7icAkyptuBvbykmQVBJPl0DUgs1g/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-26T11:59:43.000Z"
+        },
+        {
+            "id": "WDc3-A6MzvA6jT13XSG_4A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WDc3-A6MzvA6jT13XSG_4A",
+            "title": "报名｜ICLR 2026 美团学术论文精选及分享会（下）",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/V95GN2mm0DyTbUkuicrR9OOSiafPeAtyiaa0dfhVsJZtJ3qrjcIgJAicWrJhicmMg7s42GAk4J1qia9va3Nw3A5MlUjrheED6iaaJbkU648vBGabrg/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-26T11:59:43.000Z"
+        },
+        {
+            "id": "LuCy56KRYk4W-USpDUViyg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/LuCy56KRYk4W-USpDUViyg",
+            "title": "美团 BI 在指标平台和分析引擎上的探索和实践",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0Dz8BIwGLPr3ufKa2z6QxzzbhtAQH2jXngeyOSRibHVE2mtsnbh4fnGPWM6boQ0HlxEmeaks6KTO4uicuic68Td7iaOFX99Q8ic3u13s/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-19T11:59:15.000Z"
+        },
+        {
+            "id": "O6KxxxiVM1EossmC0MbcnQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/O6KxxxiVM1EossmC0MbcnQ",
+            "title": "重塑站外体验：大众点评 M 站基于 Qwik.js 的重构实践",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0Dy83beyvgV9CncPNbsDvCL8zMiaHv62sOXiaQLmSJJPClDG1pIhUDiazEVjP0W3GY8xTphKBTYyCg8uvCxKsqjCqDPqT8cm6PvRr8/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-12T11:58:51.000Z"
+        },
+        {
+            "id": "JpXh5WmN5c49VUScGRPKhg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JpXh5WmN5c49VUScGRPKhg",
+            "title": "报名｜ICLR 2026 美团论文精选及分享会（上）——搜推 ASX 专场",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/V95GN2mm0DyTbUkuicrR9OOSiafPeAtyiaa0dfhVsJZtJ3qrjcIgJAicWrJhicmMg7s42GAk4J1qia9va3Nw3A5MlUjrheED6iaaJbkU648vBGabrg/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-12T11:58:51.000Z"
+        },
+        {
+            "id": "EX6ybiNGdjjISw5RqvjgNg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/EX6ybiNGdjjISw5RqvjgNg",
+            "title": "LongCat 为 OpenClaw 装上效率引擎：你的自动化任务还能再快 30%",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0DyLrmBmB8aFkn6yFEp3zZkTjPM8MUbKH6YWrNK9FdCUNmBo9zyypqutL7xRAD21IxeBUuib7NYiaubM6z792cdicjvZnAuMlqcTvM/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-05T11:58:58.000Z"
+        },
+        {
+            "id": "q9sDnbUicXlVheK304qoQQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/q9sDnbUicXlVheK304qoQQ",
+            "title": "美团发布基于 N-gram 全新模型：嵌入扩展新范式，实现轻量化 MoE 高效进化",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0DyrWibDXH7z3mYbuKnnzGAmGSU2WXLA9VdcSjRBjhhIsHFFyCdvE0miaa1ApnQB1mxFHEvpqzUGAzkQ8iceDMyIHVMgqxbUnrY0to/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-09T02:24:10.000Z"
+        },
+        {
+            "id": "yP6XlvHl5lvMuzrtGLmoyQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/yP6XlvHl5lvMuzrtGLmoyQ",
+            "title": "美团无人机年度报告",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0Dy9nHdArdPAPdQCLdOOrFQCfQVS9nX0kR6NeohllPanQ1tibbgrlTg5icU0picibPe9YdmelrkoOg5IG7RibiaHjPzjVSTiahfVhKPMJ0/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-09T02:24:10.000Z"
+        },
+        {
+            "id": "K6fJe3nlIKAuDnB6oE319Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/K6fJe3nlIKAuDnB6oE319Q",
+            "title": "NoCode 挑战赛倒计时 33 天！万元奖金冲就对了～ 教学资源包 + 冲刺福利已就位！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/V95GN2mm0Dyxibq06XJGqNeEE9gyPOnZQ3QxQ6Zjohia3y6RlNWvgXn7cD6t6UIibzHupZzWDVoPffP5DaRbXv1VicPPuiazoVvQlDmQ1ZqXu4yg/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-05T11:58:47.000Z"
+        },
+        {
+            "id": "BICxYV0-0dGkesM6imi1Bg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BICxYV0-0dGkesM6imi1Bg",
+            "title": "互动有奖 | 美团技术年货加更，活动沉淀来啦！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWws4BM3Hvw3QNe80uOI7l49RMP1stO5Cmwv60Q2Nmr5h2DJdlw01zUcoibUz0WC34tRibmiaiaBictZkw/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-04T11:58:46.000Z"
+        },
+        {
+            "id": "WLmpwKpQ9d3g1TGtNDMSaw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WLmpwKpQ9d3g1TGtNDMSaw",
+            "title": "2025美团技术年货，「马」上到来 | 内含新春福利",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWfwA8YMDkl3BUR2Kibza0msRvcDqhJlKbo7gicUsp6we62LnIJNr6V1IyLXSH9SeW2Sf2YGYmctmEQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-29T11:59:36.000Z"
+        },
+        {
+            "id": "udcM1BDUor7bjp0jsigH2g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/udcM1BDUor7bjp0jsigH2g",
+            "title": "多维创新打造强泛化智能体模型，LongCat-Flash-Thinking-2601技术报告发布",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsW8KXOiaaJRYXsMF3CtNpicEOqf48TQPjRVf1bC36lRxte6z1S0RNoNKbI9fGMKDmHsAbuUxEcRToyg/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-29T11:59:36.000Z"
+        },
+        {
+            "id": "OiROcpLX4x_qMXooM-mwLg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/OiROcpLX4x_qMXooM-mwLg",
+            "title": "美团EvoCUA刷新开源SOTA，会用电脑还会持续进化的智能体",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVxfF6ltFNej8JR7DiclLW156WNmYAuNlOXOgbnRV8j57CynZzmf6Jrf3LOZrS9ibFJz4hiapk0u6ltQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-23T02:25:19.000Z"
+        },
+        {
+            "id": "_7_mgi3SJJMZSOt63LO9DQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_7_mgi3SJJMZSOt63LO9DQ",
+            "title": "美团 LongCat-Flash-Thinking-2601 发布，工具调用能力登顶开源 SOTA！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVic1cugJiaVepdhLicGicYtpsva5SbibiaibEPu9cglR7hliaFPRAiaa9OS7V4AicMnmboPrvLpBveVYntu7Jg/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-16T06:01:20.000Z"
+        },
+        {
+            "id": "loJOmab5OtYwWMHsjY4O-Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/loJOmab5OtYwWMHsjY4O-Q",
+            "title": "KuiTest：基于大模型通识的UI交互遍历测试",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUNghaGI9tHJ5A85sOAJmkItQlSnF9eIBTXhNQ8xoGyVtUTbsHhLbmy3oAmibTiciasy3OKciaiaicPNnFg/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-08T11:59:21.000Z"
+        },
+        {
+            "id": "xZQV2G2MbNIkPOPJRVXRMA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xZQV2G2MbNIkPOPJRVXRMA",
+            "title": "报名 | 美团技术沙龙第88期：美团大模型交互系统 WOWService 深度解析",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUNghaGI9tHJ5A85sOAJmkIo55zKWPBWAib8sDvZcrhfibJ1kQib0UexO3gRJibo24WUS2QUqYlmzr0uQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-08T11:59:21.000Z"
+        },
+        {
+            "id": "R006oyu7N89dyDMs0MRVQw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/R006oyu7N89dyDMs0MRVQw",
+            "title": "报名｜AAAI 2026美团学术论文精选及分享会",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUNghaGI9tHJ5A85sOAJmkI7xaUUR6rwySco20babME1LK4kNB8GxcolgP5LzbRibbViafVg6XYbFXg/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-08T11:59:21.000Z"
+        },
+        {
+            "id": "MGeEoDrl1ifUX3Z8fOBAsQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/MGeEoDrl1ifUX3Z8fOBAsQ",
+            "title": "2025 美团技术团队热门技术文章汇总 | 内含福利",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsX9JRicfYWDh6sNz1iaNX90xPlG4ugeE3uibCuMZX6pKibxHBeH2Zm5KdVlicJibxtT9ibfamTTfKo8qdlrg/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-25T11:58:51.000Z"
+        },
+        {
+            "id": "jwJ9ubPUGlCgHFsyadcwdg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/jwJ9ubPUGlCgHFsyadcwdg",
+            "title": "智启新春，一‘码’奔腾！NoCode 创新挑战赛重磅开启，丰厚大奖等你拿！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsX9JRicfYWDh6sNz1iaNX90xPqK3QgUUnfpsmb4pWtaMI0jp1zUtxUN338rhRq508SPeowHg9MMCiceA/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-25T11:58:51.000Z"
+        },
+        {
+            "id": "RpOy8EutePXNZL8SkUc9_Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/RpOy8EutePXNZL8SkUc9_Q",
+            "title": "从“点对点”迈向“城市级航网”：美团无人机开启低空物流新阶段",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsX9JRicfYWDh6sNz1iaNX90xPMkCw6dA3SqpYylF6KOzYGAIyJW4Ft4DgSibmCwZMopomlqAJ3DtXyhw/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-25T11:58:51.000Z"
+        },
+        {
+            "id": "yG2Hf5PVR2_xRVsnNuBh1w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/yG2Hf5PVR2_xRVsnNuBh1w",
+            "title": "美团 LongCat-Video-Avatar 发布，实现开源SOTA级拟真表现",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUZdLw04g1y9RJDXsibEQCjeXmnlibeJ5ySfk22K5sz9J021lQmxqVGdMgs36c781fIbOlZHX5FamNA/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-18T11:59:23.000Z"
+        },
+        {
+            "id": "L1ykQlPMhu8xRcZea7nbnQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/L1ykQlPMhu8xRcZea7nbnQ",
+            "title": "大模型剪枝新范式：先浓缩，再剪枝——DenoiseRotator技术解读",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUQxp1w9Ol1Sdicw2vgjicdv5mlrZx2sJW1V6Tia95OyjBfIm0OibxiaUtjic814svLziage2MdOmlZCibEvw/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-18T11:59:23.000Z"
+        },
+        {
+            "id": "nsN82sO9kXfmDZZM9ZYeOA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nsN82sO9kXfmDZZM9ZYeOA",
+            "title": "直播预告 | NoCode 发福利了，快来领 500 元美团卡",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUZdLw04g1y9RJDXsibEQCjeVNIOPA3T4UZto56DVKOcEBFiavNho3HwZOQ4WA9CWUicYVcGCIXw9sTw/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-18T11:59:23.000Z"
+        },
+        {
+            "id": "nyQSD4fDsvmUkUExVSuQVQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nyQSD4fDsvmUkUExVSuQVQ",
+            "title": "美团发布 LongCat-Image 图像生成模型，编辑能力登顶开源SOTA",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUedTZuWgds7VrsgLD3A7mOAvia9S32l1XkRG3L9PTWVDdQk1Mb9iaaEtXjgaL5jmkicVdhP8mUeAM4Q/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-08T02:24:52.000Z"
+        },
+        {
+            "id": "gh8EcUVp4Z6UnkgGRNCw2g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/gh8EcUVp4Z6UnkgGRNCw2g",
+            "title": "美团 LongCat 上线 AI 生图！精准高效，AI 创作不设限",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUedTZuWgds7VrsgLD3A7mO7FTf3Mlrl0ZHJyqa58Dewrbh6NSq8aW0SDVEHQCyao7RFtKkzH0EHg/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-08T02:24:52.000Z"
+        },
+        {
+            "id": "vqqw60fwEfI3pjBgUc4QUg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/vqqw60fwEfI3pjBgUc4QUg",
+            "title": "AI Coding与单元测试的协同进化：从验证到驱动",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWXadrEjLaNd5zppkbnGpdbFXQKKmH7ibmg1VunoRm0KFNxqZnzic8DQvzBrlmgh6iaxb4ibmFicPNNGNA/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-04T11:58:41.000Z"
+        },
+        {
+            "id": "L8DKUnpNU-AhJj0yH0Gg0Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/L8DKUnpNU-AhJj0yH0Gg0Q",
+            "title": "清华美团INFORMS TSL挑战赛冠军论文：RL+超启发式算法破解动态调度难题",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWXadrEjLaNd5zppkbnGpdbjkfcY4bXpJgzHxtwF00LicscNn7Gl9WFNhYD1U8ibytC7sXofor2uCgQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-04T11:58:41.000Z"
+        },
+        {
+            "id": "fy1RrRf8-VgWG9qVtvJjcw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fy1RrRf8-VgWG9qVtvJjcw",
+            "title": "机致生活 | 美团无人机低空航网发布会定档",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWXadrEjLaNd5zppkbnGpdb8yia0R23m9trXKvLicZTAFoY0ia8ISn6aBNDFrQJpiaULq7KSsW88P4yMg/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-04T11:58:41.000Z"
+        },
+        {
+            "id": "XOVs0CV7B3j74hOu_HzIWg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/XOVs0CV7B3j74hOu_HzIWg",
+            "title": "复旦 NLP&美团 LongCat 联合提出长程推理能力评测与增强新框架",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVeibKmVEoGavyQ38ibiaUOlGnH4As3mNFpxdMrTicLUcQBA4QyoCuQ6jfVpGhxSZdKgr0SviaXOrcbKPg/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-27T11:59:08.000Z"
+        },
+        {
+            "id": "vfhtNAfBxH8MG8cTwznzwQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/vfhtNAfBxH8MG8cTwznzwQ",
+            "title": "LongCat 发布 AMO-Bench：重新定义 LLM 数学上限",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVeibKmVEoGavyQ38ibiaUOlGn5uqu3BIvbfa4RKiajPMvWsQEg2RArXZE8YTA3ITmbeIUIcMbstmbIXg/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-27T11:59:08.000Z"
+        },
+        {
+            "id": "3zKOvUohqTSdw8O8frgdTA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/3zKOvUohqTSdw8O8frgdTA",
+            "title": "报名 | 美团技术沙龙第87期：鸿蒙原生适配与跨端架构演进实践",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVeibKmVEoGavyQ38ibiaUOlGn9R76Rk8blO2fIibzsjjujmqe8qTIA6pYLjM6WmoYIRVUCHibmgGMyXyQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-27T11:59:08.000Z"
+        },
+        {
+            "id": "_WhBBUICK8mLydGO16Ofxg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_WhBBUICK8mLydGO16Ofxg",
+            "title": "美团 LongCat Interaction 团队发布大模型交互系统技术报告 WOWService",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsV72pj4yfZStf0ZNtKOySOzicLkwxE6KcYGryDrLHwHbBa8SrgjS3jwXmbiapejapsyibTwymC60zZ8g/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-20T11:59:21.000Z"
+        },
+        {
+            "id": "GvAF_JU01eBdFchTt_-3Qw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GvAF_JU01eBdFchTt_-3Qw",
+            "title": "美团首款 AI IDE 产品 CatPaw 开启公测 | 文末附邀请码",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUEabEGbF9lAs9MlVIyzs9D9QZyLCj6QzttG5ggmPy2WHvUlKjgwrI4lUdxB71cuw38iaGbaxNh4jQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-20T11:59:21.000Z"
+        },
+        {
+            "id": "LnZSKb_Cs-nu0GWLyMIq3g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/LnZSKb_Cs-nu0GWLyMIq3g",
+            "title": "抽奖赠书 | 从理论到落地，清华×美团出版教材，讲透即时配送",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUEabEGbF9lAs9MlVIyzs9DTbt5Px4icyfALqFuVukcx9mqRVYrptHEqezKJ3woibQWDQ9FI9N0aMCg/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-20T11:59:21.000Z"
+        },
+        {
+            "id": "lf4NdUPEk9ZigCxpG0KuKw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/lf4NdUPEk9ZigCxpG0KuKw",
+            "title": "美团开源 LongCat-Audio-Codec，高效语音编解码器助力实时交互落地",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXmiax6j7KIDBiaDGKufVpGAMmoLic3xCG7nzVIR08S6vJY57maDD7A0zU88ckEUfuW50jBHyfIuGZRg/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-13T11:59:29.000Z"
+        },
+        {
+            "id": "SzUoiKiZFUvjlYVN0W1B4A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/SzUoiKiZFUvjlYVN0W1B4A",
+            "title": "美团 LongCat 团队发布全模态一站式评测基准UNO-Bench：揭示单模态与全模态能力的组合规律",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVdrq3yQ4SPN1bxbBk0ZWtXHro0Af4Akq9qfsXc6adkdMSHYFic3VPkwsqWoiarbE4W4b2BFdbYgt2A/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-13T11:59:29.000Z"
+        },
+        {
+            "id": "ua-WXlX-jkOIR3Cn2tPRLg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ua-WXlX-jkOIR3Cn2tPRLg",
+            "title": "报名&赠书｜NeurIPS 2025美团论文精选及分享会",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVdrq3yQ4SPN1bxbBk0ZWtXSlO7MEXcobphcIEHDx3tCEPNlUYhaskF1p9RGPJetUejQdZO5Tm0ZQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-13T11:59:29.000Z"
+        },
+        {
+            "id": "-VsWhtii1u22CcnHCtP57Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/-VsWhtii1u22CcnHCtP57Q",
+            "title": "LongCat-Flash-Omni 正式发布并开源：开启全模态实时交互时代",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVdNDApZiaCBGmtuVxicGyT90Zva7qezgthmdnic9qIPvascdofiaB6YiaVNxH1uickPkaY5YasiaelTf1mQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-03T02:24:59.000Z"
+        },
+        {
+            "id": "Fljopq8vuM4mpw7mRyjmuA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Fljopq8vuM4mpw7mRyjmuA",
+            "title": "VitaBench：基于复杂生活场景的交互式 Agent 评测基准",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXcwibvr0jQX5ddYt0rXnzB83R5baOibNS7yFBPybwcTS8eB7rDAgV14uZibRWM7T0SUu31zcbmicgiaAg/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-03T02:24:59.000Z"
+        },
+        {
+            "id": "iWxKChMbPULHww8ooq3tHw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/iWxKChMbPULHww8ooq3tHw",
+            "title": "LongCat-Video 视频生成模型正式发布，探索世界模型的第一步",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXg8qxEq7y3RXuzN090gnTUfKuTs4UvCDhsD4DjsEWsFl2hqavZEDpfdH4yzrbcicW4Qiadh5ymYfVw/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-27T02:25:15.000Z"
+        },
+        {
+            "id": "h04rQUPvdR46Y511Oo2qcw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/h04rQUPvdR46Y511Oo2qcw",
+            "title": "活动回顾｜2025年美团北斗计划 · 基座大模型技术交流会圆满落幕",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXg8qxEq7y3RXuzN090gnTUTI5LJ0tx0ONVd9k3UUeQmpA93iaIdWAOlPEOEHN4542oeYVYXsIsBDw/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-27T02:25:15.000Z"
+        },
+        {
+            "id": "yGtX75E8oVOnVaIUfE5lIA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/yGtX75E8oVOnVaIUfE5lIA",
+            "title": "谁说美团没有AI？文末互动有奖！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXcwibvr0jQX5ddYt0rXnzB8zEMwmFokKxLfxw0xUOsLx269Gw8w9ZeGwhAn9joxLibiaibTt7ibibdxwxw/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-24T02:24:30.000Z"
+        },
+        {
+            "id": "Zd5WP1cU1s3xOTFICqDSfA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Zd5WP1cU1s3xOTFICqDSfA",
+            "title": "IROS 2025 |  美团机器人研究院学术年会，具身智能大咖观点交锋",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXcwibvr0jQX5ddYt0rXnzB8C2CvDbO0htwZIvS7Kic4FBL0tnR5aKX1WTQufyayRO6ibHVeibP3CTyvA/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-24T02:24:30.000Z"
+        },
+        {
+            "id": "IyANmglQXU0PziL3-SM8kw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/IyANmglQXU0PziL3-SM8kw",
+            "title": "ICCV 2025 | 美团论文精选及多模态推理竞赛冠军方法分享",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUaf65ejXibUwJOia6f1Kypr6ah7j0Y1IEBOACGMafNiat0Y0rY4gmeVZpxIERC5icxmspCTVibvEVPM5Q/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-24T02:24:30.000Z"
+        },
+        {
+            "id": "excBMwipnmuRe730a8qfDw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/excBMwipnmuRe730a8qfDw",
+            "title": "从0到1建设美团数据库容量评估系统",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsV9zjr2OytPrSGsb979ID1HcNRVeBtgKxbsA2BmwtR5xl2tsibDrkNo30ic8IzOD7DfphFFsEsmbziaA/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-16T11:58:44.000Z"
+        },
+        {
+            "id": "358_PJ-hl3mbjz_4yd3LLw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/358_PJ-hl3mbjz_4yd3LLw",
+            "title": "美团无人机香港航线升级，国内首个夜间配送服务上线深圳",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsV9zjr2OytPrSGsb979ID1HlUBK6pwaU5QX4OjEGmmluYdzql1NRKMvrXYWdEURFSl5V74pJibebfA/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-16T11:58:44.000Z"
+        },
+        {
+            "id": "0NIfezMIEcCIDGt85WmrHg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/0NIfezMIEcCIDGt85WmrHg",
+            "title": "可验证过程奖励在提升大模型推理效率中的探索与实践",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsX6EFMLrnos4MibOCuKVYVicGfpBBCylEpRiahQRueR1ll2PgxBknp2pMvNO9cDJbDmZGfp6nzulCpWQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-09T11:58:39.000Z"
+        },
+        {
+            "id": "JNgBW08rJoScsfhll0Lcxw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JNgBW08rJoScsfhll0Lcxw",
+            "title": "MARS TALK 第06期｜走进香港理工大学，共话高动态环境下的智能机器人发展与应用",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsX6EFMLrnos4MibOCuKVYVicGoXMCLhfDPciaK60y0bQx5ckkyLfeoTm4C72ic0YWI8KcZq13ia6LUsx2A/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-09T11:58:39.000Z"
+        },
+        {
+            "id": "As9-QzWCcSQivIFUdB-OTg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/As9-QzWCcSQivIFUdB-OTg",
+            "title": "LongCat-Flash-Thinking 正式发布，更强、更专业，保持极速！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUv6lQbibOnN9sIc6BqTXtFcTb6dIBL2EMN73FOXJ7d35D9BfOOF5tmxe5WRU8x4LpjBcZRgzjicQ2w/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-22T11:59:26.000Z"
+        },
+        {
+            "id": "n54Hpgt4HdNUzCRbLbpt_A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/n54Hpgt4HdNUzCRbLbpt_A",
+            "title": "开源 | InfiniteTalk：无限长虚拟人视频生成的新范式",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXcicLgBSsqAMgmTNeEhibEhoYXD26zhjia3iaM4xnvCYZJNMlJLH8Qr7YCgBDBQZTcTWQsvMrLFfibatw/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-22T11:59:26.000Z"
+        },
+        {
+            "id": "tEw-rewVnGQXmPopx9NEpA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/tEw-rewVnGQXmPopx9NEpA",
+            "title": "报名丨IROS 2025·美团机器人研究院学术年会邀您共赴杭州",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVCC4TNj4TJluTddeUmnBhMRzYibrkUiat0XErxXVgJjMldhNRneMMZLibglnkMYLl5DeBdSOibfE8ibEQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-11T11:59:28.000Z"
+        },
+        {
+            "id": "vi01mi9vZX6vkPMaW3s56Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/vi01mi9vZX6vkPMaW3s56Q",
+            "title": "报名 | 清华美团数字生活研究院学术论坛——大模型：前沿理论与产业变革",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXSjEuG9hVhyHNp27e4bAERCdrhETicxVPAPUox9RHuj4SSglxf8ibHjgNbDqyo54ZGLAAN5yuxtXPQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-04T11:59:10.000Z"
+        },
+        {
+            "id": "pJMQdKM772IXggJRSZMoQA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/pJMQdKM772IXggJRSZMoQA",
+            "title": "美团正式发布并开源 LongCat-Flash-Chat，动态计算开启高效 AI 时代",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsX4nQMAn0Z9QZ2ciaIt5QZRqUH7kugjZnHKxw1sNoxXiaLTHn96y2EWuOUnJ7tT0UDWXbJTQQ0DiaZWw/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-01T02:23:57.000Z"
+        },
+        {
+            "id": "Ak70v0OAYHgVOxkG66C8IQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Ak70v0OAYHgVOxkG66C8IQ",
+            "title": "美团 M17 团队开源 Meeseeks 评测集：揭秘大模型的 “听话”能力",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVUZbC6TWcLsZJpUnXBw3jccJNBgqpbuiaFnBQRzf3K1O2kq4BCF0FJFtYafy4k8HIOjQv1000PYNA/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-28T11:59:07.000Z"
+        },
+        {
+            "id": "Ius__C49L0CMnk3A2sxNHg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Ius__C49L0CMnk3A2sxNHg",
+            "title": "可信实验白皮书系列08：开放式分析引擎 | 附PDF合集下载",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWDaM3wvmc1xyYk00RVv5wEsphEKNIM50lrEWyyVNNnZeaGhBxfRmD2mVEZvbUOD1qv4vXgmHHAyw/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-21T11:58:52.000Z"
+        },
+        {
+            "id": "FXh5q-rcEbnIMH6P-FNO8Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FXh5q-rcEbnIMH6P-FNO8Q",
+            "title": "【报名】MARS TALK 香港理工大学站｜高动态环境下的智能机器人",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWDaM3wvmc1xyYk00RVv5wEH9CKAOiaZxdVkMicR1nfVaeiauvjia2D54D9Z3h5exfxUum9LkGCeU8Y5w/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-21T11:58:52.000Z"
+        },
+        {
+            "id": "5i604sNVnrowY1JNQq895Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/5i604sNVnrowY1JNQq895Q",
+            "title": "美团AI人才招聘进行时，大模型/感知算法…多个岗位热招中！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWDaM3wvmc1xyYk00RVv5wEMyKpbHQbSxgATC3zxhjCj7F93PlbiaicCUJJxxckWw2nOPgqriakILtIQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-21T11:58:52.000Z"
+        },
+        {
+            "id": "kKR7DYTgAHd37KHJQb2IeQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kKR7DYTgAHd37KHJQb2IeQ",
+            "title": "美团智能头盔研发实践系列01：硬件设计篇",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUXib0PoRYuHickyje7JtcdiaHiclsNrupKb22xtic2ARVgR4EL44WDkzGt69bJs9JaYAvOCHpcFJtUXSQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-14T11:58:46.000Z"
+        },
+        {
+            "id": "ENmdRNoQp6ycPVpff5aucQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ENmdRNoQp6ycPVpff5aucQ",
+            "title": "美团智能头盔研发实践系列02：软件功能篇",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsUXib0PoRYuHickyje7JtcdiaH8yqibpPX6dHEfHBkzuFhGH8IRPzH0PWEWRJzOetcibephvbZYD35k3lA/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-14T11:58:46.000Z"
+        },
+        {
+            "id": "vVa75eNeTq71zYdZPBbZKA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/vVa75eNeTq71zYdZPBbZKA",
+            "title": "美团闪购技术部 | 火热招聘，「职」等你来",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsV3SicLjm0aZ6mDooNXILIMDDuUfn5sWbMSpRIJyDzzDCYQVORqXKNiaarO6erxHXiaySn8wKYOesh5A/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-07T11:59:35.000Z"
+        },
+        {
+            "id": "l2XTU8Nyg7AXGzO-csnKoA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/l2XTU8Nyg7AXGzO-csnKoA",
+            "title": "ACL 2025 | 美团技术团队论文精选",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsV3SicLjm0aZ6mDooNXILIMDddBrzRhtnXgMsXtTTFRpS63Dhn05bQ5bLwV3gbic5E2YUQT02NZfO6Q/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-31T11:58:46.000Z"
+        },
+        {
+            "id": "x1cstodElFNU2kzBhlxjhg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/x1cstodElFNU2kzBhlxjhg",
+            "title": "报名倒计时4天！美团第三届低空经济智能飞行管理挑战赛邀您相约 IROS 2025",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsV3SicLjm0aZ6mDooNXILIMDJj4g9ibWrV0KDtadc6SHvflHibO7vjHxUfb87iabg760qIcRmznEtZT5Q/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-31T11:58:46.000Z"
+        },
+        {
+            "id": "RzKwrCd4fNttMlWw5EbDFg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/RzKwrCd4fNttMlWw5EbDFg",
+            "title": "美团闪购技术部 | 火热招聘，「职」等你来",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsV3SicLjm0aZ6mDooNXILIMDDuUfn5sWbMSpRIJyDzzDCYQVORqXKNiaarO6erxHXiaySn8wKYOesh5A/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-31T11:58:46.000Z"
+        },
+        {
+            "id": "1vVCWhf3Lp2HNJ2x7Ljn_g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1vVCWhf3Lp2HNJ2x7Ljn_g",
+            "title": "美团开源OIBench与CoreCodeBench：揭示大模型编程能力的真实水平",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXVE4s5yc6G398L13kcy80ibe3bicCAbibUEtv9KNDiaF8QqauOiaL6BuHoLcUTJ1wC77hFc5gNee324JQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-17T11:58:52.000Z"
+        },
+        {
+            "id": "lSt6qJANxl7XnI3okNv3mg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/lSt6qJANxl7XnI3okNv3mg",
+            "title": "NoCode 重磅升级！丝滑体验 +Database 开挂，速来解锁新玩法",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWnMjgrFhZUIp93eiczzAtu9DMI7MoFqMKUpJibLqdlJ1wIx7kTgRY8x3eIhEtLicQIj3yYR54Th5H5w/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-17T11:58:52.000Z"
+        },
+        {
+            "id": "5qATaXPhWFpkbi1_4i3OHw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/5qATaXPhWFpkbi1_4i3OHw",
+            "title": "活动报名｜「大模型：次世代对话」学术沙龙",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWnMjgrFhZUIp93eiczzAtu91l80NPd9AKjsc6dAibslUIwkM4k1rogOiamGncw0VUsQgDvxgqKB8U4Q/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-17T11:58:52.000Z"
+        },
+        {
+            "id": "RPWEUaMgpO2cLHKgccohow",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/RPWEUaMgpO2cLHKgccohow",
+            "title": "相约IROS 2025现场！美团第三届低空经济智能飞行管理挑战赛报名开始",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXkfHiagguPP6BicPcUwRz0VDbI0PRfPpJqRaqQulLR84Rkic61LZ3hdorbKNj1G5D8s8my7yArrkRgA/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-10T11:59:29.000Z"
+        },
+        {
+            "id": "R0m1F3jKOqN1vcKF5c2J-g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/R0m1F3jKOqN1vcKF5c2J-g",
+            "title": "报名 | 技术沙龙第86期：美团如何做前端、推荐引擎及全链路的性能优化？",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXrEiaibfACW4dB5tRLvAacVxZfSaKxZAdXjibsJ3CicBzrnWI3ts2vpZtRgxhkbZwlCeTlx9OfkjsPbQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-10T11:59:29.000Z"
+        },
+        {
+            "id": "T4hyGbZ1dnn9fiow3OoHaQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/T4hyGbZ1dnn9fiow3OoHaQ",
+            "title": "「NoCode·无界校园行」作品征集活动启动，首站清华，更多高校即将开启",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXrEiaibfACW4dB5tRLvAacVxic9KuiaV8ug3rOSDc5NkaaRttFJA6okicr67ep0sVufPEOu0FwHOsa45A/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-03T11:59:12.000Z"
+        },
+        {
+            "id": "GWOL14t5W_UyY-6LovSP1g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GWOL14t5W_UyY-6LovSP1g",
+            "title": "报名 | 美团技术沙龙第86期：多业务场景下，美团如何做性能优化",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXrEiaibfACW4dB5tRLvAacVxZfSaKxZAdXjibsJ3CicBzrnWI3ts2vpZtRgxhkbZwlCeTlx9OfkjsPbQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-03T11:59:12.000Z"
+        },
+        {
+            "id": "EJHbR0ShT53BhMTUceY9pg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/EJHbR0ShT53BhMTUceY9pg",
+            "title": "开源 | MeiGen-MultiTalk：基于单张照片实现多人互动演绎",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWdnibTldDYiacOHMajAjr8j1HUPfmegGPpCelCeg2t7jyniaiaLyCATcia3Crhu2YxYnw4KZGYOMRGhNQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-26T11:59:15.000Z"
+        },
+        {
+            "id": "S3HI6NYyDIp7K-6Mv7FK2Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/S3HI6NYyDIp7K-6Mv7FK2Q",
+            "title": "一周 NoCode 实战案例集锦：三大工具助力效率升级",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWdnibTldDYiacOHMajAjr8j1M3604T4QTb3we6XZ1QtOUhOJETLECt2CiasqHOuJqkzvewB9LHT1WNg/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-26T11:59:15.000Z"
+        },
+        {
+            "id": "a-3izzJJpCoekAWFB-E6hA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/a-3izzJJpCoekAWFB-E6hA",
+            "title": "可信实验白皮书系列07：高阶实验工具",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsURCWpInD1H00MVJ0EwkqyXDH2cmS1OicbWRrws3moUSHpGVn37755YYVqgjo938OOicXibLMh7jjBzA/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-26T11:59:15.000Z"
+        },
+        {
+            "id": "XE_HnkVleuBDcWf-8-oBpQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/XE_HnkVleuBDcWf-8-oBpQ",
+            "title": "JDK高版本特性总结与ZGC实践",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVKiaqpoAWf0sCSM68O0ujMEFNl0nZoyKaZbYnupFCcuqeM0icjNMIBcuLKwlPH5Wt51MzIHGS76obQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-19T11:58:56.000Z"
+        },
+        {
+            "id": "PfZkVx0itfeWd54T1qmsbQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/PfZkVx0itfeWd54T1qmsbQ",
+            "title": "NoCode技巧分享：巧用提示词，做一个赛博朋克风的网站",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWBL48ibeb4FfrZwGJYhLnumJMl3FX9B3KM5xXl2eHgyz0ialmQPgmODXcQWHQk1Jh9dIWEGyHfnYicw/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-19T11:58:56.000Z"
+        },
+        {
+            "id": "Za-RrCeA0VghaqLTdQqHLA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Za-RrCeA0VghaqLTdQqHLA",
+            "title": "可信实验白皮书系列06：观察性研究",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsURCWpInD1H00MVJ0EwkqyXDH2cmS1OicbWRrws3moUSHpGVn37755YYVqgjo938OOicXibLMh7jjBzA/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-19T11:58:56.000Z"
+        },
+        {
+            "id": "NYU-KGeE60xLbZbK1-kVzQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/NYU-KGeE60xLbZbK1-kVzQ",
+            "title": "无需代码！美团 NoCode 像聊天一样轻松搭建你的专属网站",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWpMJrwky7BqAxUXsRJIBuJf0dVLHtdlicd0VLsbgjfRVBhZ0cmud4Aia4TPsOdLonQVibGnFCcX3nQg/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-12T11:59:02.000Z"
+        },
+        {
+            "id": "MmIaBME56b8OsVRwTLkF9A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/MmIaBME56b8OsVRwTLkF9A",
+            "title": "北斗计划 | 美团核心本地商业大模型全年招聘",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWpMJrwky7BqAxUXsRJIBuJfI5DsMESWS2aHM3ibk4k1kiawBll3WFnNXCErApPO1qkhibawvvKCEoYw/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-12T11:59:02.000Z"
+        },
+        {
+            "id": "Ptjrc-wqmrNo60EanHIxSw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Ptjrc-wqmrNo60EanHIxSw",
+            "title": "可信实验白皮书系列05：准实验",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsURCWpInD1H00MVJ0EwkqyXDH2cmS1OicbWRrws3moUSHpGVn37755YYVqgjo938OOicXibLMh7jjBzA/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-12T11:59:02.000Z"
+        },
+        {
+            "id": "EubHlzk-tHsWBQ6wFJVKKQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/EubHlzk-tHsWBQ6wFJVKKQ",
+            "title": "可信实验白皮书系列03：随机对照实验",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsX1h1lcWycfggxJH5c5pdYjbZZrNcsSbLkeSlEZXAX1hibibk0GGGDYOw67iczq4sVyibgQovNgMzCovA/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-05T11:58:47.000Z"
+        },
+        {
+            "id": "ETF1y3N-NNSSHh-Zye17vg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ETF1y3N-NNSSHh-Zye17vg",
+            "title": "可信实验白皮书系列04：随机轮转实验",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsURCWpInD1H00MVJ0EwkqyXDH2cmS1OicbWRrws3moUSHpGVn37755YYVqgjo938OOicXibLMh7jjBzA/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-05T11:58:47.000Z"
+        },
+        {
+            "id": "M2JJIJV7S6pJ6pSi0am0eQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/M2JJIJV7S6pJ6pSi0am0eQ",
+            "title": "2025美团大模型北斗实习课题发布-业务研发平台",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXB55qL9ibmFITv7hVmVAPIrBAn1ODV6BeI6FwAxOibv86t0RCYJGoRtQ5Kc8sWia8QcWxB127PN1ccw/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-28T11:59:20.000Z"
+        },
+        {
+            "id": "Ovr0YkU6pQmH1ONcaOOB3w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Ovr0YkU6pQmH1ONcaOOB3w",
+            "title": "报名 | 美团技术沙龙【AI+安全：智能技术在安全领域的应用探索】",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXB55qL9ibmFITv7hVmVAPIrMQhF00Oej45wPiaQUgjpuv3CxPm4JmIPAHCd3MZvyWvbBVwQ3H6PjwQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-28T11:59:20.000Z"
+        },
+        {
+            "id": "goYuFb1SdpZcoPci1lsosA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/goYuFb1SdpZcoPci1lsosA",
+            "title": "可信实验白皮书系列01：从0到1的方法论与实践指南",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsURCWpInD1H00MVJ0EwkqyXWuztl9FGZcOf9fEjMZfveaMLLJDet6flGu9u7OzupOhWaNzkM8BWAg/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-22T11:58:52.000Z"
+        },
+        {
+            "id": "sGziybRFxZ4tkFniq3LtUA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/sGziybRFxZ4tkFniq3LtUA",
+            "title": "可信实验白皮书系列02：AB实验基础",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsURCWpInD1H00MVJ0EwkqyXDH2cmS1OicbWRrws3moUSHpGVn37755YYVqgjo938OOicXibLMh7jjBzA/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-22T11:58:52.000Z"
+        },
+        {
+            "id": "_ySva4UWxwHbkEqprywUkA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_ySva4UWxwHbkEqprywUkA",
+            "title": "美团2026届北斗计划正式启动",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVX97s8P0719SFl8MGv8W2DAKD6DQanXk7257UgDdDcRzAEqHoyA772O4icN1Lv83k7pZtrT2JKJnA/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-22T11:58:52.000Z"
+        },
+        {
+            "id": "JiDOqD-ThU0Upp6xnNg3Nw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JiDOqD-ThU0Upp6xnNg3Nw",
+            "title": "MTGR：美团外卖生成式推荐Scaling Law落地实践",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsV1EY8oI2wUztNnQCicz28Z47ePJVpsJfafks9DcTtlOsrHIkEibkvNKmJpE8jWJCnSL71LCRM9CWZg/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-15T11:58:50.000Z"
+        },
+        {
+            "id": "CgcaPwv0ntg5yww6Pxn0bA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/CgcaPwv0ntg5yww6Pxn0bA",
+            "title": "招聘 | 美团 AI 搜索：致力用 AI 技术创造极致的搜索和交互体验",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXIIqy7Vr5fknueADufrYNSjGyvENoZEFG6Jb9u6yvZwAo3wAfGLOus7kxJYzGuXe74ZKcMIkGOAQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-15T11:58:50.000Z"
+        },
+        {
+            "id": "m4PaS62oYACAmT4V7pfwlg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/m4PaS62oYACAmT4V7pfwlg",
+            "title": "美团无人机感知与避障技术成国际标准 “自研+应用”填补全球空白",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXMsNLia4ic6hfqwSCxWCibscNDcMoUV6IRk6rQ9mRSXHuT3RCvqdjvLfNqZUouC0cC9XK4ibAHkk9OPA/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-15T11:58:50.000Z"
+        },
+        {
+            "id": "WU_Pq_MTWiFkYc7Pc9SvWQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WU_Pq_MTWiFkYc7Pc9SvWQ",
+            "title": "OR算法+ML模型混合推理框架架构演进",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVdsk1sNr5M4PxkibwveGTobxjskMfdPaLpwAdH1wR0O5y8h5VHEzJqCqI5D2nF6IE6EmcYmWlhJ2w/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-08T11:59:19.000Z"
+        },
+        {
+            "id": "KRgrouki4KNELDt_9jZNPw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KRgrouki4KNELDt_9jZNPw",
+            "title": "活动报名 | 智能测试新征程：AI 驱动的测试创新探索主题",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXIIqy7Vr5fknueADufrYNSGb2Gh1W3LicKRKyaN8DprWXXCPNCnR1sNEcniczeLFmdlTqHDlc84Wbw/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-08T11:59:19.000Z"
+        },
+        {
+            "id": "1t15ZaLgndGYidqY8DDMUg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1t15ZaLgndGYidqY8DDMUg",
+            "title": "招聘 | 美团 AI 搜索：致力用 AI 技术创造极致的搜索和交互体验",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXIIqy7Vr5fknueADufrYNSjGyvENoZEFG6Jb9u6yvZwAo3wAfGLOus7kxJYzGuXe74ZKcMIkGOAQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-08T11:59:19.000Z"
+        },
+        {
+            "id": "DH79CJlF8rLy6AtCCnnHmg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/DH79CJlF8rLy6AtCCnnHmg",
+            "title": "美团AI招聘 | 开启AI Native Agent新纪元！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVh2qriasnZK8YPIn1J4NLsh1gDogJTFHuGfS5RhxLWJ4U9WRkjNYicaEv4ibT5ThsRWD4WzranRWX7g/0?wx_fmt=jpeg",
+            "date_modified": "2025-04-24T11:59:10.000Z"
+        },
+        {
+            "id": "UoUYaNAbJGxQu1kt0oNkYg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/UoUYaNAbJGxQu1kt0oNkYg",
+            "title": "2024-2025 | 美团科研合作课题评优",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWytxkuWerIfICfRBZuFrsnr11ttEJicMCkicmHicPaCicckPX2RvuPK1HHfhM6fkvON3aebBlDyicLB6g/0?wx_fmt=jpeg",
+            "date_modified": "2025-04-18T06:08:29.000Z"
+        },
+        {
+            "id": "TTgEI2mHVUwWccMcXnHeiA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/TTgEI2mHVUwWccMcXnHeiA",
+            "title": "2025美团科研合作课题公开征集 | 倒计时10天",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXUibFsPSYrRxiaXA305jp90pR6sWXRQ6usWVGibs7RiaGfuqcLwmsqYQg1SJWVAVrrianaMhP9l8xzDSw/0?wx_fmt=jpeg",
+            "date_modified": "2025-04-18T06:08:29.000Z"
+        }
+    ]
+}

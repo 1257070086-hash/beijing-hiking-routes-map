@@ -1,0 +1,813 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "机器之心",
+    "home_page_url": "http://localhost:4000/feeds/MP_WXS_3073282833.json",
+    "description": "专业的人工智能媒体和产业服务平台",
+    "icon": "http://wx.qlogo.cn/mmhead/Q3auHgzwzM75UiawQgcdqOcmtYS7Jibug9J7dskxkNicGiadtdKl7mLyiaw/0",
+    "author": {
+        "name": "机器之心"
+    },
+    "generator": "WeWe-RSS",
+    "items": [
+        {
+            "id": "Npmyz_SOG5zVVI2cnCHbNg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Npmyz_SOG5zVVI2cnCHbNg",
+            "title": "帮普通人「驯服」Agent，这支硅谷初创团队冲上了X全球热搜",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFbN9ozD0dHEEWO3NHaRpr70Njn6qGknmsMde1icqsicrXq6TT3UkMn5vDCFSN0ZibfzHQlFskSHFcY2wbNcmRKT3vX25EZNGtu6E/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-09T03:59:10.000Z"
+        },
+        {
+            "id": "Yej_ttznZHKJnxevpevP9g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Yej_ttznZHKJnxevpevP9g",
+            "title": "读代码前先跑5个「Git命令」？方法火了，网友却吵起来了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEGv4zJcMH17vM1KsiaHica3VDNsw3Clz5uNQAQ7ib9KC7fFjzzyCEJnCqqjTEJ00SOTiaGoicuHSfictlw7AyI0HM2RiaxHOIFIpRLfU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-09T03:59:10.000Z"
+        },
+        {
+            "id": "9Pe54Wl3IRskvlLxuy5hOg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9Pe54Wl3IRskvlLxuy5hOg",
+            "title": "清华发布AutoSOTA：一周刷新105个顶会SOTA，推动AI科研回归创新本质",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHt0TVnkUwaibc6ictwy5vlNzRCbTE7CiaqiaIGpPsxBtGPLFhulGeqzHf0h7Rh6tkiaR57oREUDqTNbcV1j84hGMQW5iczjgZHEyDQM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-09T03:59:10.000Z"
+        },
+        {
+            "id": "hPn63gB0lKD1k57naCH7PA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hPn63gB0lKD1k57naCH7PA",
+            "title": "全行业的「龙虾热」中，什么是AI Infra下半场的「神之一手」？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEonQBWNe8DtKicy9Dt3jR6s5rpyuhtheGDhNqBlBicOxQVvxCdXic6rjKbicaqsfwBA1JPbkjVd2s1EAfV9npCMuA8T9AkvPDic124/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-08T09:51:24.000Z"
+        },
+        {
+            "id": "Nuv_f-Yqdya52ZG3SFKpvw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Nuv_f-Yqdya52ZG3SFKpvw",
+            "title": "断层碾压Seedance 2.0：神秘「欢乐马」空降榜首，视频AI变天了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqF5IQjmkecQhFbX6xpnsZibINA63YWeQRjgdsF3epesH5xhqfBGjnELLYcKZcQxMOXPpOCnGYCHvTBaibCmRvbwgbdfUk5kdfGxA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-08T09:51:24.000Z"
+        },
+        {
+            "id": "zmbShufm-lpFCSknScGVuQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/zmbShufm-lpFCSknScGVuQ",
+            "title": "李飞飞World Labs双模齐发，能「造」超复杂大场景，一手实测",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFAMSPm92noCUTknDMiakGLFOoAU8b0LYhTbqQLIkM4jFH8gWxcIQP9Nk7xyjmicnK9QOcLUviaR1ibE1cqJYibYiaibiangrvPicCQqSk8/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-08T09:51:24.000Z"
+        },
+        {
+            "id": "JU2nwWSWfRktHpfqlTB8Eg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JU2nwWSWfRktHpfqlTB8Eg",
+            "title": "与Generalist顶峰相见，30天狂吸30亿，千寻智能做对了什么？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGobEeWtyIStia2XoeT61nDQyBVKVjcRacWmVOSlIrv5gXe6NR4fE05OCxjk23iclbQ3pwcD1KeFDjYeug7dJcNSXh5g2wnD0elA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-07T01:05:24.000Z"
+        },
+        {
+            "id": "4hSnkZo5wj-GbbczvEwfuA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4hSnkZo5wj-GbbczvEwfuA",
+            "title": "Sam Altman：超级智能近在眼前！OpenAI官方13页蓝图引爆海外社区",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFoK6jeLqqxolgG16trDaIs1nLtCvp8bZ0HZujddFnZ11T3K786QBfnxZpNVmfhRGscTMS8lnZLHmdkXJe01SsCrPa0mKVXiclk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-07T01:05:24.000Z"
+        },
+        {
+            "id": "8EHNUI_hjq7adtmROAyCFg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/8EHNUI_hjq7adtmROAyCFg",
+            "title": "十分钟破解加密货币！谷歌在量子计算领域发现了什么？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHXbq9DialpscctBTP9e1kXIrcMUiaVDtUficj6gNHjVwvVnyzmj9gjG7vmbUWIPhDt69NfAwicIEAntrx6dnYOxAzNsrGjRFP2sxo/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-07T01:05:24.000Z"
+        },
+        {
+            "id": "UJSwqTh3Lf1smlnx_dELdA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/UJSwqTh3Lf1smlnx_dELdA",
+            "title": "iPhone本地跑Gemma 4火了，0 token时代还有多远？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGrsH06pHcVTV7Y00dljra0H5LaS7Het3IO6c9J0Dicb51KZSNpnzVPIE7iaOC7q9NvXJImUPrqQgzicKyhhial6GFnicfr2p6UOSjI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-06T04:36:21.000Z"
+        },
+        {
+            "id": "hr_CjsCMACm-eqXL9AccGw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hr_CjsCMACm-eqXL9AccGw",
+            "title": "Karpathy强推，大厂抢着「复古」命令行，Star数全都上千了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFUQVffvjOoczEZUzS0dIypts5dRoGYAXoPll8MficZMs2CHzmaAClgVVqZVPMIg7KiaP7XztSzDgaXMquh6gxibz2xCIcme17WNI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-06T04:36:21.000Z"
+        },
+        {
+            "id": "BmOlW8IktiNyOEwidE9Mjg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BmOlW8IktiNyOEwidE9Mjg",
+            "title": "USC团队发布HumDex：攻克人形机器人数据瓶颈，低成本实现全身灵巧操控",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqE0iaBPiaOduiatLmwk8h08DhIellnqoicTibsv45du2lsW8icibYy3z2UFNhrsfVDkib9A2KIxzKYz54yFDfDLpVO2ltTFUyK3Y45BGXE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-06T04:36:21.000Z"
+        },
+        {
+            "id": "27l7Ckx_FL53JVDeErvi6Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/27l7Ckx_FL53JVDeErvi6Q",
+            "title": "科技史上最贵的饭局：扎克伯格痛失DeepMind始末",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHjicWVd2ZDfGzKZ8cyX7OfPltkdERGKaeWLXc0ZbVSnasJRuwyaFJnN23wBoLD30MicDxoyEicuRyFSuTEPdicNkibYaln7OTC7bicg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-05T04:31:35.000Z"
+        },
+        {
+            "id": "-2H3xFx_R4KIIZ_vDpEYQw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/-2H3xFx_R4KIIZ_vDpEYQw",
+            "title": "Karpathy知识库「LLM Wiki」火爆了，全网围观讨论",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGkleBYA95cckic0R14ekbqsoEicMFbASUVia3ogIezia2Ticqy3iaXqR36MHa5NTcibwJiarVccXEfZP4rgW6tDK5fl3IibC1DppgPMOaY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-05T04:31:35.000Z"
+        },
+        {
+            "id": "4zHXGCcMwuqzh5psYaWGRg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4zHXGCcMwuqzh5psYaWGRg",
+            "title": "告别昂贵账单，Token直降68%，多智能体动态协作编程来了",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqE7fKdYH924u6uJAlHqz3TYJfEdgUsDXtbickw5m5wNiaia7WaialG1IrM8tDOzth9DjcqWkxkROAB87d1y2vA6HjiaacrBsQkdlFn4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-05T04:31:35.000Z"
+        },
+        {
+            "id": "F9mimuW3ym61JL5SqqwGbQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/F9mimuW3ym61JL5SqqwGbQ",
+            "title": "全网开骂！Claude订阅「封杀」OpenClaw，想用龙虾？得加钱！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHv1ajeQpiaJHA0x8Z11kcycrFMTPnPzBvqia0A5qlM8djibCiaAIlMlHfXia1BwVJEAkvTjrMctiapxPHYydVNyCj5dZVe0v1kC51Sk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-04T03:26:54.000Z"
+        },
+        {
+            "id": "XThWpLxqMT0TKrAQ3kibmg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/XThWpLxqMT0TKrAQ3kibmg",
+            "title": "大模型SFT后效果≠RL潜力！港科大、阿里提出自适应冷启动新范式",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHTr1z5fwqCKVkFvLjfx4eEOnattjzjCB7APzsaJUKFE804X94ZlbiczqdiaAKrnkhattK6Rtyl3QuAoceB9ZDdANB9ibicvXk1yic4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-04T03:26:54.000Z"
+        },
+        {
+            "id": "iU37iuKhFOxUdSnoYUPaVg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/iU37iuKhFOxUdSnoYUPaVg",
+            "title": "一个内测码，怎么就成UP主们的「硬通货」了？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHYvmiabXsQN9cz3Fhamp0dEsE6ffpicG0lFs4yL2xA9hT9Clpe4EhvRC1KnPGbkXuZErIvbworQ1YQFpHicAgM6aCDAsic8ibZI7qs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-03T04:22:13.000Z"
+        },
+        {
+            "id": "ONsIrYUCip5e4lc0ZzSPhA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ONsIrYUCip5e4lc0ZzSPhA",
+            "title": "openJiuwen：打造高可靠、自演进、多智能体原生、算力亲和的AgentOS",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqG2aqHtV15kf5sl2B9ZKkbXjdrbiaQHoVZg86bDWZcIoUW8FaDJHpMP5ZEsMsx5lqcM7kXMAmI1Hj9852okeQbT4smibgVzWkibeA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-03T04:22:13.000Z"
+        },
+        {
+            "id": "bNsBvX4S0iYD2D5WlhRBeg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bNsBvX4S0iYD2D5WlhRBeg",
+            "title": "Physion-Eval发布 | 别被「更像真的视频」骗了，AI视频生成，可能还远未真正学会物理世界",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqElFRHzwq0d0D8TforHpCuKoEFvzUy6Qk4EdssBBHaO6sKHdBjw7zw7qL8xGTTO4whb7uHI7yqOJCpxywCRCaHbL4D7iaiaUTCLw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-03T04:22:13.000Z"
+        },
+        {
+            "id": "IzzNLPI9L2tSRvOXniOJ2Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/IzzNLPI9L2tSRvOXniOJ2Q",
+            "title": "美团LongCat-Next：把图像、声音、文字都变成Token，然后呢？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFX3NvS0rE5yPadGCj2KUWrvoxibiaBDYibW9tVHuiaZ2icIjYAlehWfa0jW0AQuFm7YbDchg7eLUpveAt7eo78GdyzUeMg4kI70T7Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-02T03:47:18.000Z"
+        },
+        {
+            "id": "9muzsAwpC28Axbmip8NdGg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9muzsAwpC28Axbmip8NdGg",
+            "title": "OpenAI刚融到1220亿美元，却在二级市场「没人接盘」？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHubJmHTGibicVDCHYOfwcTaDQEGI4SsLCicYQvnB6nuD1YkqAsLSZ6NaoicRcxZG14rznH2JW2bGyjMxYW7EqoW4QmyMWGv3Iic6cw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-02T03:47:18.000Z"
+        },
+        {
+            "id": "ztE8GofcssuI1PdkHx_kLg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ztE8GofcssuI1PdkHx_kLg",
+            "title": "重构跨域RL框架！理论驱动「双重对齐」让跨域迁移「质变」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGdcQAFUC2jB1nk28ZUepCGE0wFx8c4uaLnbu1BjtibpZiaJPcvh7jpxebibV2YyoZz5tNZdovJAJZMY6J6BU12rCcib9Zg4kt43VU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-02T03:47:18.000Z"
+        },
+        {
+            "id": "698Bue2aKefT_zuUFjiaVQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/698Bue2aKefT_zuUFjiaVQ",
+            "title": "超百万算力、72小时、近百台真机：具身智能的刷分时代，被一场「裸考」终结",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEP0RltxKULIicpWg37FYqzIicU0F9DZB4iacGdIQaLkmajWHLGrY5LXsrqL5ib18eibXfyM4NG2FVJLggknCH9dLdp09VBTwYAqIz4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-01T05:02:26.000Z"
+        },
+        {
+            "id": "Etka-XqjE8_hC4Dy7ekJJA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Etka-XqjE8_hC4Dy7ekJJA",
+            "title": "去现场救火、去商超理货！杭州这场国际机器人大赛，5月亮相",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqEBLPBMwokBSPk7ZQwkaFZ4ktBV1eyBbgcibRrlYu2ZYr9ss6Fc4JAXkXYTwyzbJ8iaXFdbkibpcXsvrmmxA1mqIK42AW06zNXXQg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-01T05:02:26.000Z"
+        },
+        {
+            "id": "kf2qaVq1U1CtDTNtD4tRvg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kf2qaVq1U1CtDTNtD4tRvg",
+            "title": "比全球最强推理引擎还快2倍，斯坦福、普林斯顿破解大模型「串行魔咒」",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHJK184aa1VfpEKbiaQAaL6mwCnFnQaXDrNMuAkLqFwogzocicqnbpqOMKVibiaoibQpkJWmdYyyaeTOXYBU5KptaPBv5veq8XcSyCQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-01T05:02:26.000Z"
+        },
+        {
+            "id": "GW3HL1HqbXl0LVj8BR-vtA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GW3HL1HqbXl0LVj8BR-vtA",
+            "title": "京东卷出新高度！硬刚「复杂指令」长时长、自由态数字人直播终于丝滑了",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFzYcuJ3BuRSCu8Tib3pyHsay4KtAFoBCaguU7RMEnzId3v3KWicvKoK8TibbUwpVWB6gicKUsl2kI7OGUz0yjNLrKtFYTSfQpJyB4/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-31T05:36:45.000Z"
+        },
+        {
+            "id": "cbfX8oQ1zA9_jal0EYzdpA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/cbfX8oQ1zA9_jal0EYzdpA",
+            "title": "不加算力，只改一个算法：Muon在万亿MoE模型中最高2倍加速",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHZaicQWQGMM7O3hiatFTLb5MTPYxMCNhUI7RISdkmEBHfbSqU8CexBYnczUvKuwY1JM5vReTY0ricR5XYVXP7Qj1hKK3vhCHYyqI/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-31T05:36:45.000Z"
+        },
+        {
+            "id": "09Xe7gKpAnr6gV9jnHNxvw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/09Xe7gKpAnr6gV9jnHNxvw",
+            "title": "ICLR 2026 | 大模型当裁判也「翻车」？北大清华联合多校提出TrustJudge，让LLM评估更值得信赖",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFYXwakw6wUc3QCQ0cg1XESsicxGU4xuenNNb4bcJeWpwgkpsZNw4ClJzXQibJhtQgvYniayGJSEPic3xMcYj6KsN6MvXibZBd81LRM/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-31T05:36:45.000Z"
+        },
+        {
+            "id": "m0oPXIfYkRwSzhAarhlJMQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/m0oPXIfYkRwSzhAarhlJMQ",
+            "title": "Echo：预测智能的一小步，通往通用智能的一大步",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGrhoENBJibY4zCFmzt8vyly3YcJElwPhTLpAEYQNGRx8290RqQeTiaSzMBnK2gCPfX2YaiaBVfgEdj2XicaUhaVXxC7ZQYIlhrFTA/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-30T01:34:59.000Z"
+        },
+        {
+            "id": "pGnyUMZmBq0RBD0fAmlQ8A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/pGnyUMZmBq0RBD0fAmlQ8A",
+            "title": "ICLR 2026 | 让多模态模型学会主动说话：主动交互从训练到评估的完整方案",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFExNrPOUbyKdpLbT7BnZkwEsdsavIicNlDuFngne217iajibgtC4Mfdia78lUr4bUlyYxuWlL8ia2EUR1Xiccc46icRzEVunjLRibzricA/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-30T01:34:59.000Z"
+        },
+        {
+            "id": "h6OU7JBJWriKZRib4D5KOA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/h6OU7JBJWriKZRib4D5KOA",
+            "title": "GitLab创始人抗癌实录：他用创始人思维和AI救了自己",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFTEhfyYiaJgic3rsKEQ6L3lvzjlRMswVWvHs8FvXR45YvgeoS5V0Z0jYB2icFMXwtwPWT1HRL5ZExYNicCdDoKbb94nmCW6iakiaT8s/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-29T05:04:09.000Z"
+        },
+        {
+            "id": "7u45QuQP1Qtqenqrb1vYdw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/7u45QuQP1Qtqenqrb1vYdw",
+            "title": "AI 为什么不会规划？Yann LeCun团队：问题出在「时间是弯的」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGNcRuAswyXPzHlDOicagA5FqpZLOpibVYmHeKfX0EbZkZhc9Oas6UUmynv5VDW20ncGm19L89Pqht3ZRhQhhSVHIlHOtSHKFicDM/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-29T05:04:09.000Z"
+        },
+        {
+            "id": "s9wsIeh3aFQBpiPe9iCk_g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/s9wsIeh3aFQBpiPe9iCk_g",
+            "title": "让中小团队也玩得起Deep Research：TAMU/Waterloo团队把研究智能体的训练做成了开源流水线",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGXFP4dadd1pcibv8mu5m82prVLPAfF8icQvyLqMEhXyO3bH9DMUaniaGL8dBZR162q6LYXibCuzvBrQjSr0VaX7Hgiae4Y7trglJuU/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-29T05:04:09.000Z"
+        },
+        {
+            "id": "sKTxnkgJX-iNDSVkgsgLQQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/sKTxnkgJX-iNDSVkgsgLQQ",
+            "title": "血洗内存股900亿刀的谷歌AI论文，竟涉嫌学术造假",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGgdCjrMic1JcMU186mkOzNyA4sZ0Qkibh7eOwDoLeUd5u4O8tKywUmaMv81DseBQibgmTYTIrnI7PmzIgF8RFAZ1xMQS3jwOcrVY/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-28T06:31:23.000Z"
+        },
+        {
+            "id": "OfofM1Gs-h-VfqbOtJuWrw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/OfofM1Gs-h-VfqbOtJuWrw",
+            "title": "151个软件包，暗藏肉眼不可见的恶意代码，AI批量生成的？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqE4y7EG9kGdkVzqEG1mMyQcNvicj5NsIqpSUw4RT53DpGibLca0tFJibQMjWheQQ9C7GbMpdqUqccCcmuMbzSTibXjs1GVdO9AGYek/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-28T06:31:23.000Z"
+        },
+        {
+            "id": "k-C_8ZHWktTRGa3kaq0Lcw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/k-C_8ZHWktTRGa3kaq0Lcw",
+            "title": "ICRA 2026 | LLM+运筹优化：工业级多机器人协同控制软件生成新范式",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqEN9uzicKOibFe2M7yDicjfXK6ydxB3Giapvg7lST2l4BeCw14ia5mubyEmib1ogwpdAVH5tPxvicE8fJh88BmRZpy1aBOc268LVSicAE0/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-28T06:31:23.000Z"
+        },
+        {
+            "id": "a702a53kLDoZ0lUS5mkZiA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/a702a53kLDoZ0lUS5mkZiA",
+            "title": "专访中科第五纪黄岩：在具身智能的狂热中，做一位技术实干家",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHwtw2wExHDaVibJI1NN3auFUTDicpwokz6UgOiaNxf34I46AXyRcHYm5hYeDcGVzeDSMyiaGzldfFp8S8P5m0R46ib7zENVgdnrGgM/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-27T04:05:14.000Z"
+        },
+        {
+            "id": "I4R8OP4w47_qY34X4gsExw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/I4R8OP4w47_qY34X4gsExw",
+            "title": "CCF与淘天这个基金，单项资助30万，支持你研究「龙虾」",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHyKqZGh03VEYia4dXdyfywFKqRZaUvfUF1nWQp8h7C0xwhegEyWoryE3MpkN4Q5speLACwHI9k3IAokF4icO3PcAnJ2HHw28lBo/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-27T04:05:14.000Z"
+        },
+        {
+            "id": "qgGe51RcwJxkZ25DxQEpBA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qgGe51RcwJxkZ25DxQEpBA",
+            "title": "不止Deep，更要Wide：清华、无问芯穹发布多智能体系统WideSeek-R1，4B模型比肩671B模型！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFrdn8dZ1j7tPne4KZMb4gzUOv15rOQjsuUocWgtT6ftRnwT1KgIdrT8xOHUEv9cl7nLwY7OZORiaB0iaWLyeUuwh95xMyQxhcibs/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-27T04:05:14.000Z"
+        },
+        {
+            "id": "wHRuU64BVq9VFL-T6X31iw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/wHRuU64BVq9VFL-T6X31iw",
+            "title": "糟糕，大佬45年前论文，被判AI生成",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFpNZ751od3C2ArywK4iasts9f1iaEkChGWPYG3KYINIUhiapgDJfVx5JlCHLPjS7tvKcqa2DTojS7psY37Wz5LoIoSRick4ve55Y4/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-26T11:38:50.000Z"
+        },
+        {
+            "id": "6sZTC1D-hMwekVJSjbTsfQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/6sZTC1D-hMwekVJSjbTsfQ",
+            "title": "内存股集体大跌，原因竟是谷歌这篇一年前的论文",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEH9TCBCrTJ0ic7KHcns2KhjDBDBdnbmPO2v1Tunej9HEakyoI0Z8PaIJfm43LXdPsjblqaTQNcibsq1Zhur0ysrKCn5sOVgTtuw/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-26T11:38:50.000Z"
+        },
+        {
+            "id": "9TmVSNHMQYY4ULJaJYEOWw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9TmVSNHMQYY4ULJaJYEOWw",
+            "title": "ICLR 2026 Oral | Revela：用语言建模重新定义稠密检索器训练",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGUV5Riawz0rv5mUepcl4vMjT6ZagzIj5BerAE9GiaQOM7VjveAdYVhPz06eYHUFunGc1iacm0ykqibHHHyOGFYUxDROmln8BdfPpo/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-26T11:38:50.000Z"
+        },
+        {
+            "id": "YuKaeXNdKjX8TZWxRwmL-g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/YuKaeXNdKjX8TZWxRwmL-g",
+            "title": "我在微信免费养「龙虾」，玩到上瘾，这组CP太强了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGEmF7FAF8OxQrz2n5wJhibXeudYX4jNtJ51wDIrpklibCkpx90Hd1pO1P4eyJsicayJ02RZX0Gnibt0tYFDZl1z15kCS5t0T710UE/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-25T03:59:10.000Z"
+        },
+        {
+            "id": "VrQ65bEnXJWSKGjmYuyy9A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/VrQ65bEnXJWSKGjmYuyy9A",
+            "title": "突发｜立即检查你的Python库！LiteLLM被投毒，Karpathy警告，马斯克关注",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFxUtearYlOiamj50FMgYrhGpBCU5jIbujWSltib4qQOx9fhrn8FNRA5P2Yicr5TsPUdRZABJnib6gTGyVJ8CMCVdeaQubian59S4Fg/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-25T03:59:10.000Z"
+        },
+        {
+            "id": "81wiPTdyebb9nGfAvoU2CQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/81wiPTdyebb9nGfAvoU2CQ",
+            "title": "对抗KV Cache压缩的脆弱性：两行代码以最坏风险控制防御底层假设崩塌",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHnNjLQzJ1PjUl4r7I8FZa3qsR81G1LgrAvKAJW1dTEianuD660yyibXiaqxQPfqEp4XeBkXSlbSOv15zNPXmwbKcVnc1iaMQTwLIo/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-25T03:59:10.000Z"
+        },
+        {
+            "id": "Tk4TaItYzS4J6U8tRPD0Og",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Tk4TaItYzS4J6U8tRPD0Og",
+            "title": "RXD大会首发北京：当硅谷还在谈论物理AI，西门子已重写工业规则",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE0RCiaVFF5Vl7o1aU99aib7q1TACSq495eXafKsbUxRoGZVsJ1Xc6lbY86RQ7uqX5ATZNCbgwaCgcOciaPibptg6255377iakCd6mQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-24T09:14:14.000Z"
+        },
+        {
+            "id": "VycD8SODNAnHiLIg4DlZvw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/VycD8SODNAnHiLIg4DlZvw",
+            "title": "世界模型开始做减法？LeCun团队和清华团队给出两种思路",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFInoSscFsXBfJiaUEibOEOWtB3nTADUUpNiamia27XjialdZKKreClg5WNamIAyHwjm6wsfcPqCZvQx2Uia909yEfIyBBuDFnGHH508/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-24T09:14:14.000Z"
+        },
+        {
+            "id": "RYATYwUDgLnGm29RH1fr_Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/RYATYwUDgLnGm29RH1fr_Q",
+            "title": "世界模型最新综述！中科院联合MBZ、NTU、Oxford系统梳理前沿进展",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFuHwdwAb18jPV2NciaJ8iabSmqthvichSPicLZuGyK1sS9Vp1bVZaERPnZMR0CYCseFLQaJwk7whzkAC1Vb1f4M6jQOAlbJUBfSdk/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-24T09:14:14.000Z"
+        },
+        {
+            "id": "xm0EXBmn8QbyzBt3X4GY7A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xm0EXBmn8QbyzBt3X4GY7A",
+            "title": "必看！Sebastian Raschka新博客盘点了所有主要注意力机制",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGgqCm3qaCb3CeGwllG37YZ3VEibghf6icuplfOQbR7uENHPAWuZEUAQdhcoK1z2LZ61nCDDxzC5tapje2wIUJlWMKBjDgMARUuc/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-23T07:07:16.000Z"
+        },
+        {
+            "id": "RNAAfzvmCYUmMAIceNogXw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/RNAAfzvmCYUmMAIceNogXw",
+            "title": "扎克伯格正在打造自己的「AI分身」，并计划裁掉1.6万人",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqEOGlXKJysA4l4zBQYgTdxCVtUkn4VcxUia7SrZa0FfiaZWynKK20JAEm8MHcCWyyexEpLiaoqSwdkTc94yQRgU25dDDhz9kNmUicI/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-23T07:07:16.000Z"
+        },
+        {
+            "id": "sy1L2RoWuv3-fBOO4rG1rg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/sy1L2RoWuv3-fBOO4rG1rg",
+            "title": "北大团队提出 SHINE：将任意文本转化为大模型 LoRA，仅需一次前向传播！",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHibdLV6hh5bbSUjDn05pCb5ibfdNTJkkpqpYDicKKiaN10H1RGVWCDbZL4xQocwWYk4JECzxgOvvJ4N9I28eEWR7w60h8aibzyBWQs/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-23T07:07:16.000Z"
+        },
+        {
+            "id": "1yTd36hev6o4OieTdOeYAw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1yTd36hev6o4OieTdOeYAw",
+            "title": "扩散语言模型总是均匀发力，华为诺亚教它「抓重点」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFibkH2ibqyQTKicxt40pkR21VtHOeDH5UKvibWx3eLIe7SiapMhU8P6buflxUKN7JFKotGXPkibbG6jZiaCV9OOMdoWAqibMQsAibdQGo0/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-22T05:31:43.000Z"
+        },
+        {
+            "id": "JOadccKoBIRur-F2IjrcQA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JOadccKoBIRur-F2IjrcQA",
+            "title": "刚刚，马斯克启动TERAFAB项目：万亿瓦算力工厂，瞄准太空",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHm1stkhOHr5jIjH6fIxI1eticZpHCpJ9Bco13YuhIqwTXwyXKBJLG9ONExQ4ib67ExjSWZI9DT5oC3XrOKBbNeNdvvYQg3ucU80/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-22T05:31:43.000Z"
+        },
+        {
+            "id": "xoIJU4fBcTW4UfnbFZAKYQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xoIJU4fBcTW4UfnbFZAKYQ",
+            "title": "CVPR 2026 | 中科院、港中文等提出HiFi-Inpaint：无损还原物体细节，重塑Inpainting生成范式！",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFv2mjjAePGrNKLyaPFk1YUFUDoCPYFnwz6ia6lvEsgRxlDL56nftGVfiaVvx5J1icJRm3dicS6uIbzkwib502S74sz1cI5Pmt0lIPI/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-22T05:31:43.000Z"
+        },
+        {
+            "id": "olYbVOqTIvfoJ6DAhwVNdQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/olYbVOqTIvfoJ6DAhwVNdQ",
+            "title": "「龙虾」爆火，token成「硬通货」后，这场AI比赛变得更重要了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGibTVET6Jr4kyD4cRV0TJkib50kMdvMuUbBnTQmIalKxfJV6I7xZeIuMVlOvIcD4jkpAjWiamc59fvibELQmdCCOto8tgndickxCyY/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-21T05:01:03.000Z"
+        },
+        {
+            "id": "1glKNj-EMygQJOruWw6r6Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1glKNj-EMygQJOruWw6r6Q",
+            "title": "画质革命还是AI整容？DLSS 5引爆全网争议，老黄亲自下场论战",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHzCibibBObHryZtZNVX3zLcrrZX4K4NaZW67akR50icw7yLTHLAZBBplMN8ey7FtWVUY6qPQLCN1n2BTY4hNtEc5N8RiaTnfVFV6c/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-21T05:01:03.000Z"
+        },
+        {
+            "id": "ngn6YY6AjO7vbQQlOv0fIg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ngn6YY6AjO7vbQQlOv0fIg",
+            "title": "ICLR 2026 | 清华提出交叉熵分解：“误差熵”才是大模型规模定律真正的驱动项",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqH27lhjEzcvhbcRhJBIvdNrwsO9fqPdCAV5SFcCrsQkBxicfLMW7M2yiaGuqiccewxEKQFrW8LbpKic4GWnibcOGiaDV4JcsTTdSdhbU/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-21T05:01:03.000Z"
+        },
+        {
+            "id": "uJvguiux7V74YpNaSu7X5g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/uJvguiux7V74YpNaSu7X5g",
+            "title": "登顶全球权威榜单！浙大创业团队百卡打造开源实时世界模型，视频秒变可交互4D世界",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqH2z5jkqic36GhicYfVltr8SSuHS72iaQibzfia0u5dmwWDSaDTXjofe3zL2DibfV4ibRyZxIUVzVO1hicVz4J24ZdXkAxvgOic0Wmp3ark/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-20T05:00:30.000Z"
+        },
+        {
+            "id": "STCdNggKNsW8PHCscLQ3Vw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/STCdNggKNsW8PHCscLQ3Vw",
+            "title": "搞不懂Skills？看看Claude Code内部工程师们是怎么玩的",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHUNP0NjtiagxB7636htMe2eiaXZ8HUFVzzDuolDk2HW8dz858IsytjpdT65tOnxqMr16ib2wvYG4CLceW3DmXc1NhvHThAic25WXw/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-20T05:00:30.000Z"
+        },
+        {
+            "id": "FXdeQhAeq-neYBCGpnrjBQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FXdeQhAeq-neYBCGpnrjBQ",
+            "title": "ICLR 2026 | 机器人不够聪明？VLMgineer让大模型自己「发明工具」，从设计到使用全自动",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE61CL8W85gHpVCUWib5S0GjULT2rl0DRtXKstNTIo2nrvQdP4SYg6V9mGcX5De2LibiasORHgaxs7ibmRCzW4npwakjSlrYRCN7vk/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-20T05:00:30.000Z"
+        },
+        {
+            "id": "k4WlVjldfbto6bRgACVN4g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/k4WlVjldfbto6bRgACVN4g",
+            "title": "当中国AI喊出「开源脑机」，马斯克站到全网的对立面",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFCxIvdicUsLWVXTHic6LOyjLgAVNwghpZfj3TCTxxkvUMn3ib1Te9dBOwJiagG163ttCf5CuIV1peialzg9HVVacxZ9WqgdibfXicCe4/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-19T06:46:57.000Z"
+        },
+        {
+            "id": "DnV3sG1YyWmCcEyVIb0_3w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/DnV3sG1YyWmCcEyVIb0_3w",
+            "title": "想进OpenAI？先解出这道题，百万美元算力已就位",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGYRAZOJxoyw2V4yoeBWHIzfhdFqUQe3s7uYWJ4vm1Slic3XmopaIv6dpqT2icZ6RA1ZiahsXGSJTUJ4vcT3IVNFX7ZlvFTt0fPA4/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-19T06:46:57.000Z"
+        },
+        {
+            "id": "Q28azqwk-PtsXoep2i0_0Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Q28azqwk-PtsXoep2i0_0Q",
+            "title": "CVPR2026  | Streamo：让大模型变成实时流式交互助手",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHZcsAwOQlLrqfOjIDK2OeDgfmQVDSAosC4rQVEo1dFU2aSiarL8aCBJPAX7oRjBdqsLF3wNmt5B8kOYhDHcfw2PgHzcdYmefII/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-19T06:46:57.000Z"
+        },
+        {
+            "id": "greKLeayuGqSYmVFdOBSFA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/greKLeayuGqSYmVFdOBSFA",
+            "title": "更全面的具身智能真机评测来了！CVPR 2026 ManipArena挑战赛邀你打榜",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGlFGvYChn1j8DvvlYxYvuQ5BEVynwRfufzjOKNsuq30Xr6JJicBzLUS3ribyaISOUu0cZzA4LCVlRhXdibSyuNGAias9dkLrWxY00/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-18T07:37:04.000Z"
+        },
+        {
+            "id": "Ks6h3SeYuS2HhsvtEMiNBQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Ks6h3SeYuS2HhsvtEMiNBQ",
+            "title": "第二代PPTAgent来了！中科院软件所开源首个本地通用幻灯片智能体，9B参数打平GPT-5",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE70sxK9WiaRlrfU3CGFvNN4mGf3d4cYqicfzJMLqkiaf9AwN4YAdZ5ia00PEJRS7MoXicwG8DffP63tq1hMMGWsqYq3dzKQXgqdyoU/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-18T07:37:04.000Z"
+        },
+        {
+            "id": "2N4AZXsBy2Jq-kVU1ak-jw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/2N4AZXsBy2Jq-kVU1ak-jw",
+            "title": "老黄呼吁所有企业「养虾」当天，阿里正规军入场，「悟空」把路铺平了",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFc86U1ibN8XZiaJTkkygLib7ia8ALl8xcU873vlDnC6mSoM7dNWP8eibmjAaIjF3R3RHyyyanIyd1WFPKtiaaA0VayDeq1Pmv8YCJAk/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-17T10:00:12.000Z"
+        },
+        {
+            "id": "kJgTM_9J13zytRp-pKOqZA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kJgTM_9J13zytRp-pKOqZA",
+            "title": "一家00后创办的世界模型公司，凭什么让华为哈勃重金押注？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGouYRVhNAGkVMiaia04yXkw4n5RI6SasFQ8XaDYjNFomtnybB7q3mTeJqQuVl56TUmx9q86bVu2cbL3HwpdhaBlzu7QcJfIKZRg/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-17T10:00:12.000Z"
+        },
+        {
+            "id": "nJ6faGAM3jhiPPYWLxb1mA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nJ6faGAM3jhiPPYWLxb1mA",
+            "title": "TPAMI 2026 | 仅用两个变量破解混杂因素：CIC实现动力学因果推断与混杂变量重构",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE9W9mgEAP9k5LxHOg3ZE8Z7mZz33FGEFwXs5Od3lHjaAIlpv1DNqubynmv3LWxgnxpfaWrFnbsNsucnsZc0iaIBfibjeye3icSjI/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-17T10:00:12.000Z"
+        },
+        {
+            "id": "zryQas1YMkPuvASCYB9xeQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/zryQas1YMkPuvASCYB9xeQ",
+            "title": "清华团队悄悄开源了一只「教学龙虾」：国内首个L4级AI课堂来了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEwxX2fWEZGPaNPibnYrJBXUWacTd81omnmHClLxfj8Hicc266USPtiaH0ibXW0OUc6UGxChibichm1qPSC3Q1UO0ZRNv0n7HbRlvChk/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-16T03:50:32.000Z"
+        },
+        {
+            "id": "W0ZAY4LITeedzROryWl6wA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/W0ZAY4LITeedzROryWl6wA",
+            "title": "DeepSeek、GPT、Qwen，所有大模型架构图都有，Karpathy：宝藏画廊！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFib7KICU5pNLibXWGV5frDd8S9FfXIiaEY0sMWWOCgzolt7IOpE72ElaNBgOiaWEyNOL6PSJTCxH28BB4D7qO2deAZ5gm5dOWJgII/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-16T03:50:32.000Z"
+        },
+        {
+            "id": "IURVW72mQLYDiYgDwhMpgQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/IURVW72mQLYDiYgDwhMpgQ",
+            "title": "以「图」破局，HyperOffload定义超节点存储管理新范式",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFvvNdftyhm7a3SORFN0JqqGbyuv2HMje0wlaxCicQgrfFW416w8D8yLYj1IBtvR1HOpgic7GP34vsyVTQxAIghYpGjJ7lJiayLfg/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-16T03:50:32.000Z"
+        },
+        {
+            "id": "62QUkMnZlJOlj19ym92QlA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/62QUkMnZlJOlj19ym92QlA",
+            "title": "arXiv变天：将脱离康奈尔大学独立，招聘CEO，网友：以后还能白嫖吗？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEWNIsK4b0HKk2icWnf06YXZoXMC6qjzjnqt6V2BXaBgAIMe1ic7KQcApPFv2lb3IibVuoPwQKed7Rs9OB3CoLZx4ap74dBMVkRsY/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-15T01:17:59.000Z"
+        },
+        {
+            "id": "ocHfiAFShuqPP9vFfwkqjw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ocHfiAFShuqPP9vFfwkqjw",
+            "title": "OpenClaw带火AI记忆，DeepMind用混合记忆把3D重建拉到近2万帧",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGKcjeXcMs1lQnAZ29S4qLzicrficgyEr14PY1IkvIr84dOZRxX8U01ib1EaAsowBlraibgics3eTlvxULJN08uCYoFvltU689DTiaLI/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-15T01:17:59.000Z"
+        },
+        {
+            "id": "bEqUz9Ae3o6QV_8UteQlig",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bEqUz9Ae3o6QV_8UteQlig",
+            "title": "ICLR 2026｜多模态大模型真的理解情绪吗？MME-Emotion给出了系统答案",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFCQDRVsHstiahSIgR5M6JWNiawWbTvu1wnuqfiberL4AYufssxPicMO65FhWDkY50RlmedSibqoWyppEUYNeguH0ADILDuFTQdEMDA/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-15T01:17:59.000Z"
+        },
+        {
+            "id": "NRlS2FwEEJ5-7-i-cOHTnQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/NRlS2FwEEJ5-7-i-cOHTnQ",
+            "title": "内测输给Gemini，还套壳？！Meta千亿自研大模型遭延期",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqEhwYnfdKwNQnibzG8pGLjgyic4I0gBOfncNCiakfnCR0SEZelQgmuu35jdxjof7eYxvgKpROfXybfR1jwtlERibZPE7lzHTTw4zF4/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-14T06:31:36.000Z"
+        },
+        {
+            "id": "Ld2bT4jsbrZqTZnSzbmrhQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Ld2bT4jsbrZqTZnSzbmrhQ",
+            "title": "不用任何人类语言训练，大模型反而更强了？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqH9kK7Zk0LibjBUBJrMZs2lEZrbiar6k4vf4iarmhKdohPVelPBdrt00o35xgIjIFSYvkUuzDSQfmESNTJicibiaUcN2a8lfiaIrOBgdQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-14T06:31:36.000Z"
+        },
+        {
+            "id": "19OFUdNd5RS8QcEVkvr74A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/19OFUdNd5RS8QcEVkvr74A",
+            "title": "小模型读书大模型思考：上海AI Lab提出新知识推理解耦方法DRIFT，高效且「防越狱」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqF7hxrdqkwM4SxF5G8ic2Gs6nFb74GjS2h3LsUIzN3oYqNbrwWUQbHIYI72ibiajPIXPLEDrYshaPbVibMibrCpTMI7NpCZvVNWJFkA/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-14T06:31:36.000Z"
+        },
+        {
+            "id": "0aobg5GePEc1h0zKTQe36w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/0aobg5GePEc1h0zKTQe36w",
+            "title": "3亿美元巨额融资，AI视频新独角兽爱诗科技，正在抢跑「实时世界模型」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGJAnS7QUMVhOOMjiaf6NxnXtbompTuUZGKktFtvOGbH6C1QM9QL4l6wM1iaLDL1GFXiaqyicbkpt1NHLc9Ftamrq3E6D2Q9mhLvKg/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-13T03:57:37.000Z"
+        },
+        {
+            "id": "_UO7sQCnb8rakZfkNwZWcw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_UO7sQCnb8rakZfkNwZWcw",
+            "title": "这年头学不会数理化，只能怪自己懒，谷歌NotebookLM上新，秒出科普视频",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqG2wyzY6hC6eBgbzCNoqqoGVfyYicJcv2CZT9b3icxHZjIesbS6uZFfwBVic2ToHt41IYC6Gt4ryNmbia05Q5DKDs0mq9QJOK4Nibys/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-13T03:57:37.000Z"
+        },
+        {
+            "id": "rWdu9519WzALxiaw5jjPEg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/rWdu9519WzALxiaw5jjPEg",
+            "title": "有效思考激发多模态智能体决策潜力！清华&北大&腾讯联合提出GTR训练新框架",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFG3Ud7hibxwJgfDaKzbSnNvBhfHOIduhTNexmdHTn8hUOaO6fxfFdoTtBVwKV99zyCNeiakGtPxlD9mBAPxLNvh4ichHiaEeNN2c8/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-13T03:57:37.000Z"
+        },
+        {
+            "id": "ja2RHpHwCRosGecTXdraMA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ja2RHpHwCRosGecTXdraMA",
+            "title": "2秒终结AI 3D不可能三角，我们和VAST首席科学家曹炎培聊了聊",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEJgx43ZaDYb57HOh2dnhbz9icI4pbDjkGbj5aXgI3ftLpHtQ6c9ib7ohqIwQ5lrBB8UZHiargggZNf3UlSiblESqZwyLymaHYQLI4/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-12T09:27:19.000Z"
+        },
+        {
+            "id": "QRA-fQYLsiE9neaaINEaQw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/QRA-fQYLsiE9neaaINEaQw",
+            "title": "不用排长龙！JiuwenClaw助你一键养龙虾！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGanPJVMsdlFvnOX2Hg8oOFic1MGpofj1gtB6OQ2ZRwoeP2E9pM7Z9HX1SfibjzKDN0SLFohkwSaUZwqSkbeJhRry4Vkbl0AvCwU/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-12T09:27:19.000Z"
+        },
+        {
+            "id": "n5IKu-gopNgrA8jOIF0kkw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/n5IKu-gopNgrA8jOIF0kkw",
+            "title": "AI下半场的战场，从Agent记忆体正式打响",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFNcdFojXbyWxqiaExQmMFdtwwPcywRYhvVvTpORib3onszf7jSkJdA3BG9z74zOvcHh282A5IBpm5oZ1l1Rrq2U6o4YYQWicpicUw/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-12T09:27:19.000Z"
+        },
+        {
+            "id": "t0GF1V_jcmWyH3INHl_RsA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/t0GF1V_jcmWyH3INHl_RsA",
+            "title": "复旦北大联合美团LongCat提出TDAR：用“粗思考，细求证”破解Block Diffusion的速度精度悖论",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFX8r9T7mMasYshBTibgq4KkUjHQgSUS3gBrBBMxcaRs4Z3Jqm0vbAI3n6MEBPB98VrkgYnBbibxsy078WiaYaichjdtADsVwPYKZE/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-12T09:27:19.000Z"
+        },
+        {
+            "id": "t1lLYqqWX9tr7G0z92d5NQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/t1lLYqqWX9tr7G0z92d5NQ",
+            "title": "一只金融龙虾！AlphaClaw来了",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFZXNfmhiaaYgZo6lUjUPwOoTFWtDnp2mTAIIZ1ibWb47QWPwAFiaaj2sJH67Kw1adtEs0x1UsktCIpmyrzqBEb51m8K7O3ElEw6I/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-11T09:36:45.000Z"
+        },
+        {
+            "id": "71sAdqmTl9AcckD3VaprKA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/71sAdqmTl9AcckD3VaprKA",
+            "title": "几千亿美元远远不够！黄仁勋亲笔长文：AI 是人类历史上最大的基建浪潮",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGwbCIqPLoibVINyIVqU5C3CBprLdgFZiaIoCpP8gfDvp7iaib0cAdY0poKJQUopTfFpYUl0vicrak9jiaibSuia1CZNCozPEs6bq9Jaaw/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-11T09:36:45.000Z"
+        },
+        {
+            "id": "KJP8te3fufBJ6eoRav-2gA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KJP8te3fufBJ6eoRav-2gA",
+            "title": "UIUC清华微软联合提出PlugMem：当Agent记忆告别「经历」，开始存储「经验」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqH03C9M1wdBw1ZWF2kria286EbxC7tsVOkF2KzIZ6Y3iaLiczcfPsdNlTd5KckxycN9BiajOrtd5ZHt4H3GHicFq9H52WmrUvIX4Bcs/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-11T09:36:45.000Z"
+        },
+        {
+            "id": "dhLXS8pIoYkY71Xa1PST2g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/dhLXS8pIoYkY71Xa1PST2g",
+            "title": "CVPR 2026 | 还在为AI「鬼画符」发愁？TextPecker即插即用破解文字渲染难题",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGAwYehr4Z4q32iadUnupNITLasvNvHF1cOtTEFKqJWIpuqBBxFWAFzdCgO877l5dOTz7TogwfaCiaDC0e2nX8aDExF1n5R9wj0s/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-11T09:36:45.000Z"
+        },
+        {
+            "id": "1acBcAZx9rL_efZqB1Oe-Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1acBcAZx9rL_efZqB1Oe-Q",
+            "title": "AI发布首个全球科学家社区爆火，硅谷投资圈：科技研究领域的「谷歌地图」来了！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGvlTmof7QvfmFibq0mcVs5T9VcJcBQPeRoMwvvDvM8LTjChU20uopDJPgm17Lf0UyjjwgA1L29ibW7hNtj8A0VraxgqHvYnaDtM/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-10T08:11:25.000Z"
+        },
+        {
+            "id": "evJy27KXWJz3RJX5ONEzlQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/evJy27KXWJz3RJX5ONEzlQ",
+            "title": "Karpathy Vibe Coding整新活：Agent版「GitHub」问世",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGUI2hV3RvFnJGreoWPu86V6gOpeMpL2bkpDUObiavpKXE3M7Tic43Srk2V9b3roDdOK6fMNIMPTkcbuGOib525ECd4neM668e8bc/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-10T08:11:25.000Z"
+        },
+        {
+            "id": "f_-OO5xfTKpYCZKRgSJSdw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/f_-OO5xfTKpYCZKRgSJSdw",
+            "title": "首个千万美金ARR的AI4S公司，完成AI设计新分子商业应用",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGFia4pew7IDsI7GCTRmw6oBhxMVuaAUicQRm6qYbF126NCsgEhjBICMlIBvylMKJhDIE0ia2nXYNrAZsico8l9icFdHId3PpZk5ibxk/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-10T08:11:25.000Z"
+        },
+        {
+            "id": "iUVT42ZYKX8ySYSogA63NQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/iUVT42ZYKX8ySYSogA63NQ",
+            "title": "不平衡数据下对比学习的理论分析：从训练动态到剪枝解决方案",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHbQhCXpTsCPzJHCaPYyMek1DGHugnQXkxmNuV52EIfDLJmY0VngPXrly88s5jJSwZJugliaOpxicIrzsPAFd4oQvUEFgibKbz9jM/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-10T08:11:25.000Z"
+        },
+        {
+            "id": "2aafqNOryRvbTJvC0SjWAg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/2aafqNOryRvbTJvC0SjWAg",
+            "title": "3B打32B？海外病毒式传播的小模型，竟然来自BOSS直聘",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFD4cPSzDAem5Ldc6HVt7h19gcG3EVtAGRfibAXO0gvyvxGlhmZkUSQFIdLImxvuWWa3UccUdOh7RjJnwiaicMNd4MMJP8TauPZ7s/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-09T03:56:22.000Z"
+        },
+        {
+            "id": "h-zBFW1C8RBXQ9Dw8Xib1Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/h-zBFW1C8RBXQ9Dw8Xib1Q",
+            "title": "AI 下半场，LLM Benchmark 要补全什么？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE8b3ichdlSe2kxQ91OWticSGld1umyBSwsLzCru3Yoj5jQr7AW0cHiafIGXu0Mgu5z34ROZbEdDvyfq7fTIsQ0GDsb1geSK7Cq7Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-09T03:56:22.000Z"
+        },
+        {
+            "id": "a6_6c3DvtZTqg1PmUHB1iQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/a6_6c3DvtZTqg1PmUHB1iQ",
+            "title": "ICLR2026 Oral | 北大彭一杰团队提出高效优化新范式，递归似然比梯度优化器赋能扩散模型后训练",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFrjrKcrLZXgibSUicOlEexiac6Rhjmdlofib3akKEx9u7FNQsciaDv8TgtgHmGzGg1lZCnlJCORicXNbpDvVjiax0OAMBQRsF3OyHsPo/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-09T03:56:22.000Z"
+        },
+        {
+            "id": "4Grt-fwsMd3o3TO2pusnPQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4Grt-fwsMd3o3TO2pusnPQ",
+            "title": "一键接入OpenClaw，谷歌开源CLI狂揽15k Stars，Agent开始接管Workspace",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHyhjTwxlDB9JJ99vibZaYibySHyyIC7el65yTtag8iaiajD35pU6emGbazGSI4ATRGhxI0ia9nUj0AMHib0SzRKcibYQNpPqehNp14U0/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-08T04:04:17.000Z"
+        },
+        {
+            "id": "ozqblG65_EjqzZTuQTTQbQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ozqblG65_EjqzZTuQTTQbQ",
+            "title": "自动研究真的是未来！Karpathy放大招，将自我迭代智能体放进单个GPU",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEryhlmOPu6j1UyAHC4yStcX8Sq8kvLqctEpBiatichjdSjjNTyBMHpFf9KEskcEXjGJDqW3B804LWIxZcsqABshznicZdDeOGG4U/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-08T04:04:17.000Z"
+        },
+        {
+            "id": "up5xIhpkDKlANPJWst6BuA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/up5xIhpkDKlANPJWst6BuA",
+            "title": "李曼玲、李飞飞团队顶会新作：给大模型测「空间智商」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHmRPS0icJEAVfKBfRiaXgDzbCuOk61hxzPQbXB01eF7JnBJCX9mOicqRHrBibSmo01ia6yM1oNYaHeticWzQtVXJHSiaRXtZBeRZEKTU/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-08T04:04:17.000Z"
+        },
+        {
+            "id": "F9dPhKfx82bOQjpAL_CBaA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/F9dPhKfx82bOQjpAL_CBaA",
+            "title": "14B规模竟也能单卡实时生成视频？多亏这个强大的开源底座",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFx7XZNphgTHTNFCPY2ptTPN0jReUr9UJ8fMjn57npquq1ELCKZg12PAT50rxlY3JVUTYcJHn3WrY8HuuL1Y0RRJYrYpfUjKC4/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-07T04:18:12.000Z"
+        }
+    ]
+}

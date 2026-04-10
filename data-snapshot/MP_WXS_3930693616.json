@@ -1,0 +1,765 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "字节跳动Seed",
+    "home_page_url": "http://localhost:4000/feeds/MP_WXS_3930693616.json",
+    "description": "字节跳动 Seed 团队成立于2023年，致力于寻找通用智能的新方法，追求智能上限，为科技和社会发展作出贡献。Seed 团队在AI领域拥有长期愿景与决心，团队研究方向涵盖MLLM、GenMedia、AI for Science、机器人等。",
+    "icon": "http://wx.qlogo.cn/mmhead/ibKHP1TZZeXJqqUQ3xQPd50qOz7e9TvIibS9MrIFicT6vhfnD6qtd7CXU7tPuDlybib0mM50nd9l75Y/0",
+    "author": {
+        "name": "字节跳动Seed"
+    },
+    "generator": "WeWe-RSS",
+    "items": [
+        {
+            "id": "ymyF-nBO-VT7ehnGO255qg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ymyF-nBO-VT7ehnGO255qg",
+            "title": "Seed 全双工语音大模型发布：懂倾听、抗干扰，走向更自然的交互",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/pPBYFCwmHEnMYicIa4jAwW0nicWCzLveUJXgUMffSwXiavzCZuesA1Lowo5pbgPcYPwWoAvEicrtlcq9hPJH9icVVns7xEM072vic5OPSfjNebqt8/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-09T04:01:59.000Z"
+        },
+        {
+            "id": "KbD0clq20SOkbQCaXSS0OA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KbD0clq20SOkbQCaXSS0OA",
+            "title": "字节跳动 Seed 2027 届大模型人才校招启动（含实习）",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/pPBYFCwmHEnIr3DicAO0CuSyGAFiaRyvKwxtYV2g4yicXBxEia2Fib03LuQmHHuLjdsRpxv1lOay58QG47ZEgniaSkib2icAu9VE9lLCul1l5ibTIgwk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-01T03:29:25.000Z"
+        },
+        {
+            "id": "zLk7dRFreI4gVj6lJhR9OQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/zLk7dRFreI4gVj6lJhR9OQ",
+            "title": "Seed2.0 正式发布",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/pPBYFCwmHElWml9ZlDzic1P4rPOE26dKGb00jUoNUbLRpexvTaFI1hoTyPD4ukclCHqRh9Q9yNJITMEpXz158icasBzVAM5Lnr9OexP7KibVF0/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-14T05:57:48.000Z"
+        },
+        {
+            "id": "J18YVIqrd9gMqEVcIT-i5w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/J18YVIqrd9gMqEVcIT-i5w",
+            "title": "“思考”更深，生成更准｜Seedream 5.0 Lite 发布",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/pPBYFCwmHEnCERGZSLQgliaLYbJiaGS7p8sFjOSnsYHBhqUngF3Xpbibia8nc9icO2hkD3YZibq0UZob0oJmHtdPX2Vpy9k5xJZfFgCGAxj2NbTOg/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-13T05:32:46.000Z"
+        },
+        {
+            "id": "p47plANQOLVEylnBC7ZLDQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/p47plANQOLVEylnBC7ZLDQ",
+            "title": "Seedance 2.0 正式发布",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/pPBYFCwmHEljibsjA5W5wTuQgTIHfhRgY0CQMBZcXEXh4EcIA1qOGCVHmZicDEy6rDM18SRxHNIYaomdAnbheiaHurRDOeYNstseG5cE0URic9Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-12T04:50:27.000Z"
+        },
+        {
+            "id": "vcciJWK9KfDBM4FBIJwTfw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/vcciJWK9KfDBM4FBIJwTfw",
+            "title": "Seed Prover 1.5：全新 Agentic 架构，更强数学推理表现",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuia8kzD8X6wkWTibGQ5n8b1tUXBwO6ias4XzSDBT5JeYy0F00YOdEicK4nbCYjmibAUJibax8zQ9YKorbpA/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-24T03:43:59.000Z"
+        },
+        {
+            "id": "N2TkulYSo5SeT9tlu-62jw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/N2TkulYSo5SeT9tlu-62jw",
+            "title": "通用Agent模型Seed1.8正式发布",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujXnRA16op3yL07fOeibLuyDtXdPrcOiaZ3Mk2TwUCjfAoURWBxSDxxZxr2I7PWqbODxGCAMhE1BsOw/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-18T04:11:00.000Z"
+        },
+        {
+            "id": "C6YH3ifq7vJPjY_zSpWbfw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/C6YH3ifq7vJPjY_zSpWbfw",
+            "title": "声画俱全，一镜入戏 | Seedance 1.5 pro 音视频创作模型正式发布",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuia5w2c90CdCWu66EWh82x3j8NOYNkISW9iatu9Tosuf5DORGxria2Fs8MmSBDdD0LqicjYeEuvPaLicRQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-16T10:43:27.000Z"
+        },
+        {
+            "id": "FfF3z4x5XTc2M4eyrHIZ8w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FfF3z4x5XTc2M4eyrHIZ8w",
+            "title": "Seed Research｜GR-RL 发布：突破VLA精细操作瓶颈，首次实现真机强化学习穿鞋带",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujJM2wksA6ibf2yI7a1otWLv9s1NGRBtsiaXlA7NfM4GXiaibvJqezanXT7sYLQMicQiaTuXfbLOXUG8hag/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-02T04:23:38.000Z"
+        },
+        {
+            "id": "fyKUf1yFbblUjERrKo5CXg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fyKUf1yFbblUjERrKo5CXg",
+            "title": "Seed Research￨Depth Anything 3：单一Transformer架构实现任意视角空间重建",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujsQPnMJn3anVyjTzia0aP8vsgklmq2Usy4AtFLSFB0nf4oWjRZ8T288TicpUKgQHBheicB1USMAic9vg/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-27T03:30:41.000Z"
+        },
+        {
+            "id": "nvFWcf0_HquG5rD8LbyD0A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nvFWcf0_HquG5rD8LbyD0A",
+            "title": "Seed3D 1.0 发布，一张图生成高精度 3D 模型，纹理生成能力 SOTA",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhb5YyQBElSZfpSsCNAqOwlNadCfVo0DPhcyEwlxMVTd0yFmPF9U3KYPQDKS9wZSpPABZ5BDsxUuA/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-23T03:58:23.000Z"
+        },
+        {
+            "id": "lJgwXV3iStUvddAIwcFW8g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/lJgwXV3iStUvddAIwcFW8g",
+            "title": "不止会“画”，更会“想”｜Seedream 4.0 图像创作模型正式发布",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhQXRRCN2H2m4CQ5g2sQRW6qMr4osoSiaebt2AibKYYXrCrh5zJ8CCR5hpbibvrIcShguEibtmckibEianw/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-09T02:31:42.000Z"
+        },
+        {
+            "id": "A1CdiEiSaGrh_aH_ggBINg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/A1CdiEiSaGrh_aH_ggBINg",
+            "title": "解锁任意模态模型训练，字节跳动Seed开源VeOmni框架",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujOoYJkf8elKA51ljc7ObX4zacA393LJypAxJvfqEtFP1ET2Flf5LRgMaLWJByezQiay4fM3V5nEgQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-14T08:27:04.000Z"
+        },
+        {
+            "id": "4e6maGpWaEtWfj1rxkhI0w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4e6maGpWaEtWfj1rxkhI0w",
+            "title": "字节跳动Seed助力清华获机器人足球世界杯冠军",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhK4CxgDEiabnzVvag7WO49N2KibD3Fqnib0ow5AEMNDgQmrxAVHB4LcKEcwLsFr0QXFH8GIsyqekxtw/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-01T04:38:47.000Z"
+        },
+        {
+            "id": "ry3BsjzOG5DhBL0QWrtNqg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ry3BsjzOG5DhBL0QWrtNqg",
+            "title": "Seed Research￨每秒推理速度2146 tokens，扩散语言模型Seed Diffusion Preview发布",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuh2cONHHCKaak9pupVz5FwmNDGgAOMRBlibk1Ln4kyvicM2xjyFKYsFcueUkOXyEDroWS1W8ZIibyFpA/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-31T11:55:05.000Z"
+        },
+        {
+            "id": "vjq_cwneALGoPf6RgxwuLQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/vjq_cwneALGoPf6RgxwuLQ",
+            "title": "Seed 端到端同声传译大模型发布：准确率接近真人，3s 延迟，实时声音复刻",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiaXtGJ1f9nZF4ImgPJm7p5bIXs0Q1gSKIpbdqIf0Sv9Wozj9XUKmxEw79bOw6IX6XQEODN4y5puicg/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-24T04:43:53.000Z"
+        },
+        {
+            "id": "MWo8dIg4bqQXzB_W9UZ7Ow",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/MWo8dIg4bqQXzB_W9UZ7Ow",
+            "title": "字节跳动 Seed Prover 取得 IMO 2025 银牌分数",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhrwm5Fchne98Hm4iad0V5dibUQ8fItLP4D7ruEeTVAPnPChMQGz5Jprx5ba9ibrg9PrjPleLvMKgHsA/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-23T00:51:54.000Z"
+        },
+        {
+            "id": "ziH0FSN4XHl9C1NGOBDZNg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ziH0FSN4XHl9C1NGOBDZNg",
+            "title": "Seed Research￨通用机器人模型GR-3发布！支持高泛化、长程任务、柔性物体双臂操作",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESug6jh0lj4hfP8SBWOibqLTLSaR39icYQY6PHZwNsfQMtkojBiaG8iaoAGYT0clicF4fddQCDtjKLKObQtQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-22T04:08:22.000Z"
+        },
+        {
+            "id": "6ohGURiGs9z-Osh_Ew7Grw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/6ohGURiGs9z-Osh_Ew7Grw",
+            "title": "Seed Research｜4B 模型数学推理接近 235B 表现，Seed 最新强化学习配方全面开源",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugoK26ZOaM9oz8gQc0n8AibEZHlk1FBDQxanSNnb02xez5xiaQr2sysXgTbQTm3lsicicWicyHP6Pp0HwQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-15T10:25:48.000Z"
+        },
+        {
+            "id": "hPBn1uCBg2QkIYV3rrB15w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hPBn1uCBg2QkIYV3rrB15w",
+            "title": "25 篇成果入选，字节跳动 Seed 与你共赴 ICML 2025",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuia3juu49icibicpxfTxsk85ounMhic8pJPEJ6wK3TXQmAhMldhe90Fau5Wibsna9y9ep1U7Tmib5SlFT5hQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-14T04:25:26.000Z"
+        },
+        {
+            "id": "_5Y_1dQ54tkkEGqw-1h72w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_5Y_1dQ54tkkEGqw-1h72w",
+            "title": "Seed1.6 系列模型技术介绍",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujPEsfH9aKtXSD7DwDdKYVVJRHqRx5pclShhf9Qhrrtxx1KyXm6oWpQ8ReccIBo9CcfuUYTGsJCzg/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-25T02:32:58.000Z"
+        },
+        {
+            "id": "JELVx-eaKu5mmY5ddC7nrQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JELVx-eaKu5mmY5ddC7nrQ",
+            "title": "字节跳动Seed与比亚迪锂电池深化合作：将成立AI联合实验室加速电池研发",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujnhfQgyhuDCnP3eTiaHelLnAgfYoOe6urkiaHcOwqnfgNnxFA98s20jvvkF0Ymus2VfIoTib8OAILkw/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-18T04:05:39.000Z"
+        },
+        {
+            "id": "nKJ-GJvdxzc5Jz14yAxRRQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nKJ-GJvdxzc5Jz14yAxRRQ",
+            "title": "Seedance 1.0 视频生成模型技术报告公开",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugZK5fNA5pMS5AuScwRQg4zgcBBXqPMZmibyeibqIC5Hu8xJlVia73eyCHg1AujEliaf2SQqlk8BoWAOA/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-11T04:23:32.000Z"
+        },
+        {
+            "id": "YsTDQhfO4WwHXKCf0co5Ow",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/YsTDQhfO4WwHXKCf0co5Ow",
+            "title": "12篇成果入选，2场Talk，字节跳动Seed邀你相聚CVPR 2025",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhpUtL3ytXIkKz293ka96NY2zlichSp0vmCNJibhdrUOcXxMUKvyhVPhrc1icSojFfw9PuO3eicy62Azw/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-10T04:07:58.000Z"
+        },
+        {
+            "id": "kFeUSeC6U0L2wkWXjYzREA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kFeUSeC6U0L2wkWXjYzREA",
+            "title": "图像编辑模型SeedEdit 3.0发布！更强保持力，更高可用率",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhpUtL3ytXIkKz293ka96NYicgYxxLPg5GgcWOO8dferhwnPn1ax8yGZiaslbI3TWIxqQj1vibQvWD2A/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-06T04:05:38.000Z"
+        },
+        {
+            "id": "ntZDIVYxpYxey7G-wUS3mw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ntZDIVYxpYxey7G-wUS3mw",
+            "title": "Seed Research｜理解与生成统一模型 BAGEL 开源，All-in-One Model！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujQ2NAKG3gqfkmP9664wdZP0HSpNCPicEPibL4LZzuAHTzswKSrQvGkWwjfeibgPDrEGp1qAAXJEQzww/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-28T09:17:51.000Z"
+        },
+        {
+            "id": "tfmhtBbA0uIo4IM9SdPSag",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/tfmhtBbA0uIo4IM9SdPSag",
+            "title": "Seed-Coder开源代码模型发布，依托LLM构建代码数据",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhpMa8rbrmOVRU1fib9FCBNY8dSa7FNsxPDp9BV3zOakTQSXY6PrZvfUaIUZaPPg6CBdGiavTQ8tM5Q/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-19T04:28:30.000Z"
+        },
+        {
+            "id": "uWvOVPEowCXAuowrTKefiA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/uWvOVPEowCXAuowrTKefiA",
+            "title": "Seed VLM 技术报告首次公开：图像、视频、GUI、Game 完全体",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujsX7qyMwslAPXbIMf7mIico0zuZ6X0a3q8Xx8zt0CqddPRD3xVI2MxiaaeIGcLRTge6KYDWr9d16Gg/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-13T06:09:03.000Z"
+        },
+        {
+            "id": "gBcUyNxE1aqq_3wXksmOzA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/gBcUyNxE1aqq_3wXksmOzA",
+            "title": "向量检索能力SOTA，字节Seed1.5-Embedding模型训练细节公开",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujnpqJBYt5qgOL3uBkhJgrxgdnm9Eib3k8HUdBgs0zPOhV5EmXncibG62ROAXSWFNoPy7pRuSqS1ZuA/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-12T04:05:29.000Z"
+        },
+        {
+            "id": "ATUz0UW4haIt5A8E8FO7qQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ATUz0UW4haIt5A8E8FO7qQ",
+            "title": "字节跳动 Top Seed 人才计划 2026 届正式启动",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiaLuYfeHVyfdf7IicibJmEffO8BXTfdIdBC9u4G0YqA8EB28ABkL0nkNicUbeyicdN8zlQTSUQP0lfncA/0?wx_fmt=jpeg",
+            "date_modified": "2025-04-27T08:24:37.000Z"
+        },
+        {
+            "id": "4Xy5NSdywaVBYAyc6-1GSg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4Xy5NSdywaVBYAyc6-1GSg",
+            "title": "23篇成果入选，2场交流活动，字节跳动Seed邀你相聚ICLR 2025",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhL20maqgut9jBeSVFVUJnFI9u6ibicI17iatqrqWKsLEbKeEWO0EeNovSyXSHd1c27qINFRAjVEeiagg/0?wx_fmt=jpeg",
+            "date_modified": "2025-04-23T10:52:27.000Z"
+        },
+        {
+            "id": "A3xAgxyEnU-6DoNlJfqFqA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/A3xAgxyEnU-6DoNlJfqFqA",
+            "title": "字节跳动 Seed Edge 研究计划启动招聘",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhYFJlU5PgQcyYnVolDpQWgN8vlwxx0vltNDYHs5YV8DolZ1MNMRH0Fsa1ibrHicgH2sT3XAODcVfEw/0?wx_fmt=jpeg",
+            "date_modified": "2025-04-18T04:05:23.000Z"
+        },
+        {
+            "id": "gRqyNlF8BTkh9f36UlW3ew",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/gRqyNlF8BTkh9f36UlW3ew",
+            "title": "字节 Seed 智能体模型 UI-TARS-1.5 开源！多项 Benchmark 取得 SOTA 表现",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhgLULPDxMRleHXJSClUq9V2xN3dyQepkeBAYvrBdPLhibLsBfsoHic4KibOosAibs6a2VQk7Zqk1VKSw/0?wx_fmt=jpeg",
+            "date_modified": "2025-04-17T11:24:56.000Z"
+        },
+        {
+            "id": "mLRMHXq51HDBN_Vaylm_mw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/mLRMHXq51HDBN_Vaylm_mw",
+            "title": "Seedream 3.0 文生图模型技术报告发布",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujQPG1ib7o97ibCMGibgPc3SgujgDmibjfnkUUba3JE5udlIibWSPveQp9ck9f455czthsCGia0zHOvKy6g/0?wx_fmt=jpeg",
+            "date_modified": "2025-04-16T05:48:13.000Z"
+        },
+        {
+            "id": "WJc9b2cB-Io0YNrBQvfYBA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WJc9b2cB-Io0YNrBQvfYBA",
+            "title": "字节跳动最新思考模型，Seed-Thinking-v1.5技术细节公开",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhZFdeAibWR8bic5maWsnTeaiaLIBhqHFa4r8pldNCKcib6qiaRsQbxqhecb1kRBR403kX0tV8SkBthbmQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-04-14T03:30:22.000Z"
+        },
+        {
+            "id": "hoFAPJc4WCeWMBiFSZ1mkg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hoFAPJc4WCeWMBiFSZ1mkg",
+            "title": "Multi-SWE-bench：首个多语言代码修复基准开源",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiaM09Kr8LnIcqJK1gyib6LUPXFZ0YPJS88fXAZsSuEkAgP0J2eGakSkPtqibFfPibgIKb2iccxnUQkicCw/0?wx_fmt=jpeg",
+            "date_modified": "2025-04-10T05:16:07.000Z"
+        },
+        {
+            "id": "qMIT_HkdrOnpTj3dbJhcwA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qMIT_HkdrOnpTj3dbJhcwA",
+            "title": "字节跳动 Top Seed 研究实习生专项启动",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiaias4Hw3gO9KsqYUHPrVoNy8bghoUJbS3Jy9T4DlNvIlsDXvDxVE8IeolicoDiaxicLwFV7xzEPUIVEg/0?wx_fmt=jpeg",
+            "date_modified": "2025-03-20T11:14:24.000Z"
+        },
+        {
+            "id": "3E4s2c7TcWQ_g_6DdJPJkQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/3E4s2c7TcWQ_g_6DdJPJkQ",
+            "title": "豆包文生图技术报告发布！数据处理、预训练、RLHF全流程公开",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujMm2Yvdx5r2k5VaPa3ibib8GicmbEY6ftBNhJBEvib95j2zZpvcXXUCmddKibvDuoxtCX3GUcaqLnfaxg/0?wx_fmt=jpeg",
+            "date_modified": "2025-03-12T05:06:52.000Z"
+        },
+        {
+            "id": "Mpfz3QaK761_-BxzQM54Kw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Mpfz3QaK761_-BxzQM54Kw",
+            "title": "万卡集群真实部署，已节省数百万 GPU 小时！MoE 通信优化技术 COMET 开源",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuh5KHNONicvM4UZoZicWBBicf6WFjweDLy7YokBucK6QGrVSGMgZOjPnOfibjagbCMjvoCiaqXJfUPda1Q/0?wx_fmt=jpeg",
+            "date_modified": "2025-03-10T09:58:33.000Z"
+        },
+        {
+            "id": "SBBelA3tKeDx5hkVs_x8pA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/SBBelA3tKeDx5hkVs_x8pA",
+            "title": "285 学科全覆盖！豆包大模型团队开源基准测试集 SuperGPQA",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujMh2k8vlGuphuYzDMdEOD34uVB6ewby4tKsMCdK38Z7A8HmDQwqWt2uiboMzhicef8ibbKAOj4utjtA/0?wx_fmt=jpeg",
+            "date_modified": "2025-03-04T03:40:38.000Z"
+        },
+        {
+            "id": "bDj3m27MAlo2WGEX14pI1A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bDj3m27MAlo2WGEX14pI1A",
+            "title": "Seed Research | 形式化数学推理新SOTA！BFS-Prover模型最新开源",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhbvK8Y6ibicJtFQE90iaHTR8kicibSehnzvy77aeKR6oyElfbxialMqQ6gxKSOia0icUrRG4EQuLOcHZGc1g/0?wx_fmt=jpeg",
+            "date_modified": "2025-02-25T09:59:44.000Z"
+        },
+        {
+            "id": "BPGbzAQ5AKPj7yqrOCCuGQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BPGbzAQ5AKPj7yqrOCCuGQ",
+            "title": "Seed Research | 全新超稀疏架构，推理成本较 MoE 最高可降 83%！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujxNVq6TXRmmRHpkYYck8QyG6kicxGHUibLQS4B5WoYj5l0XlovUnQmXfLmzJO4Bib3n6xAhdkpJqWicA/0?wx_fmt=jpeg",
+            "date_modified": "2025-02-12T04:03:51.000Z"
+        },
+        {
+            "id": "mXaktIsD3w5BgCJQb6R7xQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/mXaktIsD3w5BgCJQb6R7xQ",
+            "title": "Seed Research | 视频生成模型最新成果，可仅靠视觉认知世界！现已开源",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhPOK4aGeiaH4xc3K9hftIaUovvPIiajdXhGmQ6bpfQbkuhw8Jvd0fia0Fn647rgTFkP9okCfCicpjuag/0?wx_fmt=jpeg",
+            "date_modified": "2025-02-10T04:01:28.000Z"
+        },
+        {
+            "id": "chiqMUZJe8n3nsSUcEsiJg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/chiqMUZJe8n3nsSUcEsiJg",
+            "title": "Doubao-1.5-pro 发布 | 豆包大模型 LLM 团队热招中",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujE9spibW2XKS2lZAdmru4aLvsox8AOiaK7NmUegicEeykEpMz8xnlm3wa9a7GJ030zibfZ3ekx4Q1PzA/0?wx_fmt=jpeg",
+            "date_modified": "2025-01-24T12:27:21.000Z"
+        },
+        {
+            "id": "JYX-Z30Lj3dWMz2A0GvRpA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JYX-Z30Lj3dWMz2A0GvRpA",
+            "title": "向AI未知之境出发，字节跳动启动 Seed Edge 研究计划！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiaic9C5Alog19DVCX2icZn4BFRGrmAGC5QzdicerLY71PcicwQ0qHiacC3c2IePHJz3MIgOudVcZ688Zcw/0?wx_fmt=jpeg",
+            "date_modified": "2025-01-23T10:04:55.000Z"
+        },
+        {
+            "id": "gRrkoMQwrjXLk2D2QTUpIw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/gRrkoMQwrjXLk2D2QTUpIw",
+            "title": "全文版 | 豆包大模型 1.5 Pro 正式发布",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiaic9C5Alog19DVCX2icZn4BFClZYZnRCTOnGfuicT3c4WNOU9A7CkoMPV6V9cRVL344dV4RaZPdGbNA/0?wx_fmt=jpeg",
+            "date_modified": "2025-01-22T04:33:31.000Z"
+        },
+        {
+            "id": "CIiS5WJO7u97sJ9Ui2dtTw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/CIiS5WJO7u97sJ9Ui2dtTw",
+            "title": "豆包实时语音大模型上线即开放！情商智商双高",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugUxJZ87ndBXuwQ5tiaFs0e6FPbVQKuGapNLZFJs1kGM2eiaO8HicfwvaEq7ECiaMRaKTdG4ahp4icDwOw/0?wx_fmt=jpeg",
+            "date_modified": "2025-01-20T07:22:39.000Z"
+        },
+        {
+            "id": "WcmWbGAeVXWjJ4IXDAIbrw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WcmWbGAeVXWjJ4IXDAIbrw",
+            "title": "ICLR 2025 Workshop 征稿：推动基础模型的开源、开放、可复现",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujzRwp3VvMtgzTW9ib3S8PmAQNnuwU2qBumMleQVzNBmdjsljI178jDw0rica1hpZz9FqYibSazfia02A/0?wx_fmt=jpeg",
+            "date_modified": "2025-01-06T04:13:52.000Z"
+        },
+        {
+            "id": "KVfu86njzyK2iK4j6VJONw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KVfu86njzyK2iK4j6VJONw",
+            "title": "豆包大模型2024年的8个关键瞬间",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujHUjar3icmsOMWrwKbMZrqjSPzVG1pTtUo0F9oZK9bossQX9R1KyaW0vb21xP3B6tVjB6ib8kLlSuw/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-30T04:12:57.000Z"
+        },
+        {
+            "id": "k1eNqjXrKGgoa9zlLZvlJQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/k1eNqjXrKGgoa9zlLZvlJQ",
+            "title": "豆包视觉理解模型正式发布，通用模型能力全面对齐GPT-4o！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujAa8DibOAzeZlPONeJibchESmIwbOFR93FicZQb6EsjaIrOEU6XW6W6RVP4Y2J81NSxqoL5xq23selw/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-18T05:03:34.000Z"
+        },
+        {
+            "id": "fQQX8xU_WjXQFyTJAsTAwA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fQQX8xU_WjXQFyTJAsTAwA",
+            "title": "今晚7点开播！豆包大模型团队NeurIPS 2024中选论文精讲",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugbib2nS7hNEcicpxXboe7KW3iaPIuFedYZzcHbppvS45YibATVCgDqbHsLbrIiaHkiadpibjR3c71c4vffA/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-17T09:59:52.000Z"
+        },
+        {
+            "id": "k26o5BMoYtowDE-7XTdeww",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/k26o5BMoYtowDE-7XTdeww",
+            "title": "字节跳动豆包大模型基金“代码安全”方向课题开启申报",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiaTSDNiaVYnOKx7xClK36TJuZyPThXgVmzHDMib0S8SmSGKoRz7yBicTiaibs1WooMhpHhNVk9L4PcRVqQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-16T10:05:34.000Z"
+        },
+        {
+            "id": "Ku6I7rf1en0c3j76DuStaQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Ku6I7rf1en0c3j76DuStaQ",
+            "title": "北京大学-字节跳动“豆包大模型系统软件联合实验室”成立，聚焦AI系统软件关键问题",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiaLmtbDib9uuORlrS4qlUdKQWsEJ2iaDuMRnEkzLfdtiaTJo8HqALtcsUYehX88v4PT4le2WUaNicLB2A/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-12T09:10:07.000Z"
+        },
+        {
+            "id": "xprSEexqewgqF-9LpwPdnw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xprSEexqewgqF-9LpwPdnw",
+            "title": "直播预约｜豆包大模型团队 NeurIPS 2024 中选论文精讲",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugwVkzJ43hIVdraRMohx0d7XeJ1Anic1q1kDu3l7QXlYzWhk5OCyycspf2RicNw5s7VOdVz7OlbOxibA/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-11T04:02:17.000Z"
+        },
+        {
+            "id": "MTCQSuX_V6cGUGyWCmyIqA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/MTCQSuX_V6cGUGyWCmyIqA",
+            "title": "首次覆盖超 11 类真实编程场景！豆包大模型团队开源代码大模型全新基准",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugtuxSzoicS4QpcjtfnRQNribqxOic53NWAHjCPk8NNOJLib9mJD3D9Uic5Wln598IqkTTPfqVwqsKX9Iw/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-05T04:10:27.000Z"
+        },
+        {
+            "id": "oY28Ai8e8ESDOZs4sV7fEg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/oY28Ai8e8ESDOZs4sV7fEg",
+            "title": "NeurIPS 2024邀请函｜字节跳动豆包大模型火种之夜，邀你共话科技前沿！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhnZiaUwvDMV9ESGarCLGxicEibLAYlp8CFibeiciaYGR7HEibRF383UO6kK7U7BLUwLeOa2lNsic1jeaYQpg/0?wx_fmt=jpeg",
+            "date_modified": "2024-11-28T05:20:26.000Z"
+        },
+        {
+            "id": "QCv2a98Y1Wa8iW12ycHdfA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/QCv2a98Y1Wa8iW12ycHdfA",
+            "title": "大幅降低数据科学门槛！豆包大模型团队开源AutoKaggle，端到端解决数据处理",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiaib8JTXKKrXMgluNEIXKWibYDEfibQv5zjbcia1eicSTQiaOia7rosoJsGMUc5KAYRv71JBaRareornnGSg/0?wx_fmt=jpeg",
+            "date_modified": "2024-11-27T09:58:11.000Z"
+        },
+        {
+            "id": "Je9uQZzOSoa58EU4ZKhavw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Je9uQZzOSoa58EU4ZKhavw",
+            "title": "弥补Transformer缺陷，北大字节跳动联合提出FAN，聚焦周期性特征与规律",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhladbgoLMK9eMYQDic4Tjux94wLFSrib7EV1AfrRHAoMzvhnK3ZKABxme0uvZrTbEf1toMC17Sx1GA/0?wx_fmt=jpeg",
+            "date_modified": "2024-11-22T04:03:55.000Z"
+        },
+        {
+            "id": "1luWcjSNaHgMLlERtCGfPw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1luWcjSNaHgMLlERtCGfPw",
+            "title": "无文本编码器仍能媲美CLIP！豆包大模型团队首创SuperClass模型",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiaChY7fIFz5ibVONanUiaZqaOWCgQ4ibN2kMvgHAhLicpLkONFwiaxGgSibqphsvzyDCicrGepmtqMaKYR2A/0?wx_fmt=jpeg",
+            "date_modified": "2024-11-20T09:59:42.000Z"
+        },
+        {
+            "id": "xUykBSAAnXf21w2THBWwpw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xUykBSAAnXf21w2THBWwpw",
+            "title": "一句话轻松 P 图！字节跳动图像编辑模型SeedEdit发布，产品端可体验",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugvexMria5L1cEFRmlR6ibpaIEpAqFWgDONghZPD46Lm6bzSg1dicCv6QwW0iarqyF65HWQuo1YFw58qg/0?wx_fmt=jpeg",
+            "date_modified": "2024-11-11T03:25:13.000Z"
+        },
+        {
+            "id": "nwfqXt9tThAiU_8oRtf8rA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nwfqXt9tThAiU_8oRtf8rA",
+            "title": "视频生成模型能否“理解”物理规律？豆包大模型团队公布系统性实验结论",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhsQzIxsyDbGVia3S2r9iaTe8CdRMWuAbawF8DQDxibvny8Ppgy7CP1MuEt6jeMcM103TWZpEVKgRZKQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-11-08T04:06:29.000Z"
+        },
+        {
+            "id": "eOhOhNRL0YtdJXyaviOMUw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/eOhOhNRL0YtdJXyaviOMUw",
+            "title": "豆包招聘速递｜豆包大模型 LLM 团队热招中",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiahEibicAGHwOUHDjGSoSsicz8w4eEEso7retEC9w5nficuO4qTj1R9V7ovCxQOOG4kJjdYibZ6eRq7uJQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-11-04T09:03:11.000Z"
+        },
+        {
+            "id": "JYQQs2vqnhRz82rtDI-1OQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JYQQs2vqnhRz82rtDI-1OQ",
+            "title": "最高提升20倍吞吐量！豆包大模型团队发布全新 RLHF 框架，现已开源！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiahEibicAGHwOUHDjGSoSsicz81onRUbChF6DhhtspbBYF2D1r7iaUKaQzDOKbSS2NHmSbr5ApWkjcKoA/0?wx_fmt=jpeg",
+            "date_modified": "2024-11-01T04:43:43.000Z"
+        },
+        {
+            "id": "Mucq2ReRYzRIy0RAsPm3QQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Mucq2ReRYzRIy0RAsPm3QQ",
+            "title": "字节跳动与清华 AIR 成立联合研究中心，推动大模型产学研合作",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugaSLeQiblvdFib9Kqkm5Ck2WwvccNyT3icVSzq45Zf4E7bNNicCpgcOWib5SiaaGQEo6cz6Qo7aNPM3iaAw/0?wx_fmt=jpeg",
+            "date_modified": "2024-10-11T08:59:30.000Z"
+        },
+        {
+            "id": "1putuD_htU0qYtLnArG6yA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1putuD_htU0qYtLnArG6yA",
+            "title": "豆包两款视频生成模型发布！多个垂类模型上新，基础模型研发全面发力！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujickzkoyZRggBHgQsGZSxV9V56ns4xAQnQ76Sibfu3cibECAT1NU4urZFHicsavVegZicGbWkYhC5XSOg/0?wx_fmt=jpeg",
+            "date_modified": "2024-09-24T12:26:15.000Z"
+        },
+        {
+            "id": "2EhPItxi9dQ8_-2rpqLnuQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/2EhPItxi9dQ8_-2rpqLnuQ",
+            "title": "一个算法博士毕业后的六年：“我在字节跳动做大模型”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujaN86AdtTltPNiaoMFn3AdaXMSicdCRxdcEub3lEKFb19Cicic4LTgKRSWs6uDS6lYbxbSsTVic2XAT9w/0?wx_fmt=jpeg",
+            "date_modified": "2024-09-23T10:38:51.000Z"
+        },
+        {
+            "id": "ojHZ7x_0--X3q1vBZRafLA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ojHZ7x_0--X3q1vBZRafLA",
+            "title": "豆包招聘速递｜豆包大模型 Speech 团队热招中",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugHfSf9qVoibNGTR07jY67FCIRnNWncD26qibFoCGz3j08Q0jg9WgYLhIHA5TcN9kytiaapvaMs0DBgQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-09-19T10:00:26.000Z"
+        },
+        {
+            "id": "0_XBQOH6G0Js2lJbKSDJyA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/0_XBQOH6G0Js2lJbKSDJyA",
+            "title": "Seed-Music 音乐大模型正式发布！生成编辑两开花，十种创作任务，满足多样化需求",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuia45IZAJKYictGHVtztx3GIhu0fuwQKb6udJ0RsdC1GTO540IK1NL5LHf8LicxWsKpA4qTOmic4THXgg/0?wx_fmt=jpeg",
+            "date_modified": "2024-09-18T05:24:37.000Z"
+        },
+        {
+            "id": "agnsuPikVUFTTPjkanFIRA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/agnsuPikVUFTTPjkanFIRA",
+            "title": "豆包招聘速递｜豆包大模型 Vision 团队热招中",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujx0fYWfBCj4ZciagR4T1FZAOxpwmFU3Ft9u6r7lyrXazPXdZ6hrGUV2jjnjcf9e2aNepC34cI0G3A/0?wx_fmt=jpeg",
+            "date_modified": "2024-09-05T13:07:52.000Z"
+        },
+        {
+            "id": "4eUPcojYxNWlBZCFDhop6A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4eUPcojYxNWlBZCFDhop6A",
+            "title": "豆包“听力”水平现场开箱！看Seed-ASR如何突破语音识别瓶颈",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuje4DgibbPlVu7opemQfy5ibA45N1p4VeYvPcofcyu5wtC4s8haia9rtxSrnh51f7qjbjic6wrlGD3eow/0?wx_fmt=jpeg",
+            "date_modified": "2024-08-22T04:03:21.000Z"
+        },
+        {
+            "id": "Yytn7occ9o_6pJHiZPam8A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Yytn7occ9o_6pJHiZPam8A",
+            "title": "今晚 7 点直播！1篇Outstanding，5篇Oral，字节跳动 ACL 论文分享会等你来！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugz9jzoBKiaDNt42armApG474I1o2BA4tK0llL7hAZ6Tb47iaZLibLV7baINwuHdVWIFMZ4iapKyM2gZQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-08-20T10:00:15.000Z"
+        },
+        {
+            "id": "CKDZIS5Y11yuoJ7NZnDORw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/CKDZIS5Y11yuoJ7NZnDORw",
+            "title": "“豆包大模型基金”入选结果公布，23位学者达成合作",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujmybFZ9icP8aJdlZiakiagfhfhVicV0aqgNxFElDxvGTCkW0Xfbd2u2bStaicaqujDHCKjLO8Kp3xCq9g/0?wx_fmt=jpeg",
+            "date_modified": "2024-08-16T05:00:33.000Z"
+        },
+        {
+            "id": "xSkeVBY1p6hTC0A8E0OyZQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xSkeVBY1p6hTC0A8E0OyZQ",
+            "title": "直播预告｜字节跳动5篇论文中选 ACL 2024 Oral，与多位研究员在线畅聊！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiacNdRrd43J5KZbSxodmxvScmdknVHXreriaMib3UDiaJvfx2WPWuERib3ibC4hoO9UBgJZzenP1rtzxicQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-08-13T11:53:17.000Z"
+        },
+        {
+            "id": "hfUn_Snc3_Jpq8xU1cJGtQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hfUn_Snc3_Jpq8xU1cJGtQ",
+            "title": "最高优化529倍！豆包大模型团队&港大提出ByteCheckpoint提效LLM训练",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujBYWibzRj5JOf6utUMzMticlkhuwLeZ4KhMNjNn4frYFuZKibiaPp6S1LBOBjyRhwr0gR8xPmGCsV3zw/0?wx_fmt=jpeg",
+            "date_modified": "2024-08-08T03:31:01.000Z"
+        },
+        {
+            "id": "yTfD7MtxvfIEkyJWIJ64yA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/yTfD7MtxvfIEkyJWIJ64yA",
+            "title": "ACL 2024邀请函丨字节跳动多篇论文中选Oral，邀你共话技术前沿趋势！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhGhPyicFvM0R66LaFUYmQLUwYUlCI0VZBd9tycesUXWp4Pab84RTwcJOWguGJ4X0eWUxJiauy5kIdw/0?wx_fmt=jpeg",
+            "date_modified": "2024-08-05T10:00:27.000Z"
+        },
+        {
+            "id": "_WefLN40LYcOoyHyDGLnRg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_WefLN40LYcOoyHyDGLnRg",
+            "title": "豆包大模型视觉、语音能力升级！文生图更懂“国风”，TTS“拿捏”情绪",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiab5slKmn8za5jRgFbzL2H0bLzVYmIZXH9ibJ514tPxfYliajz5tpAQ8DgicouWtibklNFEoJ0w17vficQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-08-01T05:34:50.000Z"
+        },
+        {
+            "id": "aepuDqU59xKzj0YpWqcC9Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/aepuDqU59xKzj0YpWqcC9Q",
+            "title": "豆包招聘速递｜豆包大模型 Foundation 团队热招中",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugqoE1HDUrgFyNJHTtZic4BA6x0jseSbK2wy4KxZmrGkFmJZv3rG9Xicc7mz3w9ERmseCPakz6QHicsA/0?wx_fmt=jpeg",
+            "date_modified": "2024-07-30T04:00:21.000Z"
+        },
+        {
+            "id": "BD5F2dOj_0Rvq8lGxOIAtw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BD5F2dOj_0Rvq8lGxOIAtw",
+            "title": "中选ICML Oral！豆包大模型团队实习生提出 IR-QLoRA，将信息论引入LLM",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugoPxyC3kKz6FBQyu4XRwibNYeJQ6ICZ9nTMvBbIaRSb7DDuH1ZdG8nu6s2ghfzqnibIg15mhopS5hQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-07-19T03:55:55.000Z"
+        },
+        {
+            "id": "mIAc-qM-JZPWiaAIr8IASw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/mIAc-qM-JZPWiaAIr8IASw",
+            "title": "今日16点直播｜ByteDance AI Luminary Talks：世界模型探索",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugoPxyC3kKz6FBQyu4XRwibNhYRPWob0IGXT9QO4Om9XbmO8cCSu36nc0FS6dOgwODia7rQeDNDycAQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-07-19T03:55:55.000Z"
+        },
+        {
+            "id": "2mH6A1247B2Jt5hICatHXA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/2mH6A1247B2Jt5hICatHXA",
+            "title": "字节跳动 Top Seed 研究实习生专项启动！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugoPxyC3kKz6FBQyu4XRwibNeia4QyagicyhGBDAWoMXF67I6CWaGC6z6mlgqvJXvqgboFItXq0WicyEw/0?wx_fmt=jpeg",
+            "date_modified": "2024-07-18T10:34:00.000Z"
+        },
+        {
+            "id": "NvYbZyZurNYpiF7c9aIWwA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/NvYbZyZurNYpiF7c9aIWwA",
+            "title": "Github获8k Star！入选苹果CoreML模型库的Depth Anything是怎么做出来的？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhhwqlMvGwamxp079Rx1gbN5LHyKmfQa9FWWRuPFMchr2ibsia0uMMLxYBqrv2pTj0abR2o6X1cgzWQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-07-10T11:40:35.000Z"
+        },
+        {
+            "id": "GO2cX9gBrWXZee-G32TJ7Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GO2cX9gBrWXZee-G32TJ7Q",
+            "title": "助力学术前沿探索，字节跳动豆包大模型免费开放万亿Tokens！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugl9au1gUNl2RZrY8GwElWSwD2ibLIv009KyFU1foWtS5yUjWzfHeqs6uxbmsiaJgD9OYN4DaBBHtcw/0?wx_fmt=jpeg",
+            "date_modified": "2024-07-04T10:00:14.000Z"
+        },
+        {
+            "id": "Zzjw3PI4efuf9zqW9HcFkw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Zzjw3PI4efuf9zqW9HcFkw",
+            "title": "字节跳动 AI 技术菁英论坛——世界模型探索：视频和3D 生成与理解模型",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuiar8ibCF6AJDxYgaK5sBstnDCtaMtxkSEra4icMDdtKbuKoh9ZicgIXGuxZ4YK6nEPAZlvd4qKtpoo9g/0?wx_fmt=jpeg",
+            "date_modified": "2024-07-02T09:31:36.000Z"
+        },
+        {
+            "id": "x9NQXHc-K1GgYsUAHxkO4Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/x9NQXHc-K1GgYsUAHxkO4Q",
+            "title": "对话 Top Seed 导师｜我们为什么如此重视年轻人",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESug5rVSibzENEeZvSQ198aTtmy7WSkVgXa9QIWdyvpyxjca3HSIF2ErgyRcBVr3ALIRicQhicKZ1Ig26g/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-27T12:21:24.000Z"
+        },
+        {
+            "id": "SYgR4eJQuDq7NvoIzG-GIg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/SYgR4eJQuDq7NvoIzG-GIg",
+            "title": "对话 Seed-TTS 团队：如何打破传统 TTS 思路？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhzCfQSIQdHdamibRm2Zzvr8wFhvxCl4rzznPmx70QiabUlgwbczOkvfQeBIqnKGcrvFDWNHxM1IGpQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-25T10:01:13.000Z"
+        },
+        {
+            "id": "e7RPLbnOFgSdAWALQW5vKA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/e7RPLbnOFgSdAWALQW5vKA",
+            "title": "全新图像Tokenizer：生成图像最低只需32个token，最高提速410倍",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujv4nf2S6kOXpVodmgYYRoLgxravrzcnXtrq6Ya5ia9fGwH4cvZIuJQy7CDZsrgwyXSOfGicLL662yA/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-25T10:01:13.000Z"
+        },
+        {
+            "id": "JncUyAyolQ6iS1g2Zk0AbA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JncUyAyolQ6iS1g2Zk0AbA",
+            "title": "字节跳动CVPR 2024线下活动回顾：上百位研究者齐聚，畅谈生成式AI浪潮",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhzCfQSIQdHdamibRm2Zzvr80KFglMefuFgc9jWGYAz7IoZWj8wus0CWSIwS8cUY3tDQqO4IRiaUHxQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-24T10:00:09.000Z"
+        },
+        {
+            "id": "FrTOCEDvWWCCKmUwlHpAqQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FrTOCEDvWWCCKmUwlHpAqQ",
+            "title": "【CVPR 2024 活动邀请函】与字节跳动共同探讨视觉前沿技术",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESugwibGXoiaia81v38OMc0Xah9wYkHdHISc46UC778QiapmjqO08iawIn44f8VE28SvgXjib8LpAeWj4tVag/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-14T04:50:34.000Z"
+        },
+        {
+            "id": "uYmCvxZM4X8r_860gR2kJQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/uYmCvxZM4X8r_860gR2kJQ",
+            "title": "字节跳动 “豆包大模型基金” 开启申报",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujLI0IYVxibqrfr6L0KVE1bBdJzy7j3PiaO0icQoGE2sy33tDFA2tsvQXBcqS1MWURYfg20Tmicriatcfw/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-06T10:34:18.000Z"
+        },
+        {
+            "id": "LtmKBhjw0BKG--KwbElkjA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/LtmKBhjw0BKG--KwbElkjA",
+            "title": "校招生在豆包大模型团队如何快速成长？3位同学有话说",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujNVODGXeXo7TExhCu2TM3IrqnmYetQTENmIVodS1uEqWkECIDjXyNQhOsmCgF9dsXSNVs3scxEHg/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-05T04:00:08.000Z"
+        },
+        {
+            "id": "ZjQ-v6reZXhBP6G27cbmlQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ZjQ-v6reZXhBP6G27cbmlQ",
+            "title": "字节跳动 Top Seed 人才计划正式启动",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuhayADBDSjZDMQu9ibpmoWicics0PFAVNym9chcy4yodSJf2f41cnCfRuL6MZ5mYQ43mPzbp1Cbhh9Nw/0?wx_fmt=jpeg",
+            "date_modified": "2024-05-20T10:36:55.000Z"
+        },
+        {
+            "id": "WZ0ofTsPFZ3r0UQKXlfXoA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WZ0ofTsPFZ3r0UQKXlfXoA",
+            "title": "豆包大模型，认识一下",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujg69OjibWfGia8lNTediac0rs1HibfjFJkXqALBzhTLhv7xrJlYzf65ygEoOZa0K6UezXPUPcqeaD66Q/0?wx_fmt=jpeg",
+            "date_modified": "2024-05-16T04:22:22.000Z"
+        },
+        {
+            "id": "Iz85M_IoOt8nKFTl6buRVA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Iz85M_IoOt8nKFTl6buRVA",
+            "title": "字节跳动副总裁朱骏：从大模型到用户体验，在做豆包产品时的一点感想",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESuj2Y50JM9fUmQGyoc6cMC4nk4oq8bznTzEa4QHSoXBic3fjovMfPOQg3vm3gWMbPV32FHJfprsiaKLQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-05-15T08:02:54.000Z"
+        },
+        {
+            "id": "CJA3s9v13nBFxYFlNnTFqw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/CJA3s9v13nBFxYFlNnTFqw",
+            "title": "作为校招新人，他们如何在字节跳动做 AI 研究并中选 ICLR 的？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/IrH3BAPESujH9t48JuuwXsjgFXs2TIG00OJt7VQ4CFI5aQrKdy24N2ic20hMzUUiaQKJtNJPiakrJNJ9wiaj9KsiaTA/0?wx_fmt=jpeg",
+            "date_modified": "2024-05-14T10:01:17.000Z"
+        }
+    ]
+}

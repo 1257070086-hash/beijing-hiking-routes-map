@@ -1,0 +1,813 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "字节跳动技术团队",
+    "home_page_url": "http://localhost:4000/feeds/MP_WXS_3253632141.json",
+    "description": "字节跳动的技术实践分享",
+    "icon": "http://wx.qlogo.cn/mmhead/Q3auHgzwzM4Mz0zV5VtfHx3vA6LLNw3npTWibbGbYhtsc131DoN6m0A/0",
+    "author": {
+        "name": "字节跳动技术团队"
+    },
+    "generator": "WeWe-RSS",
+    "items": [
+        {
+            "id": "zoUUNMukZ1nofI-qaD4V9w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/zoUUNMukZ1nofI-qaD4V9w",
+            "title": "扣子2.5，开启全新 Agent World！",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9Fefj1yw3swh6gU2gb9A4IyicmwkuGHe69CiaNgFzl3cAibp4UIferTdqPamqq1QkLiaJPEydVLict0TzKN3DHhfsXNerB1dVOLvGFPPE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-09T07:02:33.000Z"
+        },
+        {
+            "id": "iT_knZwCtF5LseIClSyaSA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/iT_knZwCtF5LseIClSyaSA",
+            "title": "重磅发布｜Scale‑SWE 构造 10 万级真实 SWE 数据集，火山引擎沙箱底座重塑代码智能体训练",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9Fedom06BLQ3LcC30gGIok2XAhV4ogEfasnXCLd3BEpbfy9Yn0U5yfua6ctnKjOAicFsAfXvn9H8DlAUAlnTqQpW3GYo1E0aQCfFE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-07T09:05:41.000Z"
+        },
+        {
+            "id": "GP2Kji8VMj9SiWXGMuEp-Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GP2Kji8VMj9SiWXGMuEp-Q",
+            "title": "让老手机刷抖音也流畅：我们做对了这三件事",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FedicGg3yp80U1rl5GjRKkrfXShufPUPpjpnYupFvj8oVauOhjGCr3cU2MaLxW7Vt35GXicibGdQgbPlMhAXya8WMiaOxLSANlr3aXU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-03T06:39:59.000Z"
+        },
+        {
+            "id": "Lu7CM1ObodcEwmlT5irhKA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Lu7CM1ObodcEwmlT5irhKA",
+            "title": "OpenClaw 的 “安全卫士”：Jeddak AgentArmor 运行时防护全解析",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FefOiaffftCz037ia65xb96ZUVWCuHbNP9WEVMKVFRSE7H0v9FBIg1wiaaneeoLIe6qkxBqN0zavTYO11pLzf3t8fIUlCMSFUqqicUo/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-01T09:05:02.000Z"
+        },
+        {
+            "id": "095ZOTx3wgYujglhlZ04AQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/095ZOTx3wgYujglhlZ04AQ",
+            "title": "PrivLLM 协变混淆：隐私保护的 LLM 推理高效实现",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FedfTcmX6fjRVpn4pTPH3liceg9btj0DFW6wKAuYlkBVP4JCsUjclibS7uNzHGE7Hhjz20NNUYmYNMWZoDF4f8lwOOcTTicKE0yejU/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-30T09:02:10.000Z"
+        },
+        {
+            "id": "GKNqUA7r66WklxNZB4zJyQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GKNqUA7r66WklxNZB4zJyQ",
+            "title": "OpenSearchCon China 2026：字节跳动在 OpenSearch 上的技术实践与前沿探索",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FeeMBn1hQvQsxVQRE2XLoCRkYKSZIklERkb7yFkLENXkYyfkl0w8LPibme0K7Xq4HzAdWEMIymJ7GaHsEVI6Ly5wf4dycSWzzK48/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-27T09:37:46.000Z"
+        },
+        {
+            "id": "mbvoeTuDR-lJ_u1TYw6-FQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/mbvoeTuDR-lJ_u1TYw6-FQ",
+            "title": "一文读懂：智能体身份权限治理演进实录",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FecSNMkuNOuce3vA0uZVibJyDDc8zc61hYExA0bVTicibaTKdFibBXeJeMtfW0PZNk5ibR3wK9XibVlVSbeNlZ4YA0BzroTAnSnWibsBJs/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-25T10:05:33.000Z"
+        },
+        {
+            "id": "atv7FQON8X-qmsB0PnZlVw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/atv7FQON8X-qmsB0PnZlVw",
+            "title": "OpenViking 实战教程：搭建多仓库代码语义检索系统，赋能 AI 助手 & OpenClaw 记忆插件 2.0 升级",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FedrEDsaMDUfJXakibfcGDujMLiaU4fC0C2Uic54cqkBFZTvFEB8As18cgCCWs95Xg6caZn6zttnhTlIWy7c3ySiaXx6V8BnuE7dUWI/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-20T10:33:16.000Z"
+        },
+        {
+            "id": "wpiROVdoJAHvolkEpYo20w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/wpiROVdoJAHvolkEpYo20w",
+            "title": "如何让你的 Agent 更准确：MCP 工具设计技巧",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9Fee36tN2woNcJb8LVq30BCaVKheEUfnSpVZYrGTvlIEtPTNjrRnNVAZfw3pxzSiatJepBicLjKp9cvluibGibcVPiczv7IsEKsA8EwOI/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-18T09:03:14.000Z"
+        },
+        {
+            "id": "G5ZfFHAa6ugbDUkCGO5v5Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/G5ZfFHAa6ugbDUkCGO5v5Q",
+            "title": "【养虾人必读】告别黑盒！让你的 OpenClaw 像水晶一样透明",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9Fec4ZRxJsRLZeozFrwe6L6MuHgHJWWJ3ibPo3BnxOVzKSmyDd9YLLhMbsBibnEBJoKkCndAB5X5ZhPFjZ0ZM7OEsvZKbMrPSpJibgI/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-18T09:03:14.000Z"
+        },
+        {
+            "id": "dwPa_QoIK0EkYDNsbjB1iQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/dwPa_QoIK0EkYDNsbjB1iQ",
+            "title": "一文了解｜火山引擎 OpenClaw 安全最佳实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FeeVpToKtOt8cFkMz1KWLcR9wxib2xh0B9qF4CDib6N8tFZBfoquA4CsYq8sOQv29wWo5jyCbX0W6FUHib5EXamIquwyqNvjOibLIvw/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-17T12:12:12.000Z"
+        },
+        {
+            "id": "1Fde47opaVPa__5FdVQr0w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1Fde47opaVPa__5FdVQr0w",
+            "title": "看清 OpenClaw 每一步：扣子罗盘Trace 全新上线",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9Fec06ickVGQB5Yva2X0EUep5bhQhiaR2txpMjErGrpVkzCQnLicV1gejIyH46K46jNBicb03yNibvQMLPau9JY2UibbhB6bmuBtT4RYOE/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-12T06:14:01.000Z"
+        },
+        {
+            "id": "BOHuGIF2m14wUYn8NEkntg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BOHuGIF2m14wUYn8NEkntg",
+            "title": "OpenClaw 养虾第一站，InStreet 全面开放内测！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FefibZUNMyianiaqibNqcpHDclsURFlvWL2Aw7SnJDxSLAqnGAZoV3tcLGic8PofxXDGDu0EweAibqTBfQx9wyqiaxrCxVevbJUbomybDE/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-10T09:03:45.000Z"
+        },
+        {
+            "id": "5E6D-E35b5zSFxjXmvyZkA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/5E6D-E35b5zSFxjXmvyZkA",
+            "title": "火热报名中｜ 首届Lance Meetup 2026 · 北京站",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FectiagxMNJHUoIhWLXBh6ltRt3ambibl56WXwVQ0NCpicwPcLyjEkyQlsEAib3GuMYH3fvWA8nWVswnwoYtISGQRribHDBatA6ObBdA/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-10T09:03:45.000Z"
+        },
+        {
+            "id": "9wW87FexSRLAVUJnufiHmA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9wW87FexSRLAVUJnufiHmA",
+            "title": "OpenViking x OpenClaw：开箱即用 解决 Agent 的长期记忆困局",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9Feequg7FhZwKrbWuar3qiclFzxScJKZ8M8yA4zcjw7DP6BFS8sL77Ygx3MXILNzmMfpvuyu3Hj9kHfvl0laOqibSic3F0TuxoVHYW0/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-09T10:05:10.000Z"
+        },
+        {
+            "id": "ePHHCNkXD7vkCoFPx25gcg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ePHHCNkXD7vkCoFPx25gcg",
+            "title": "Vibe Coding 一键部署——火山引擎推出 Supabase， 驱动Agent 应用快速上线",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FedLxrXYpHuEXia45HGj6thb7jKAnauCvPPcmpySESMHeIvehODjAuljaCfuibOcqrKSJBpN3UGeX30YglVpmoDuwPicKkrToP5ibTU/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-09T10:05:10.000Z"
+        },
+        {
+            "id": "wsE3utK4XU0gyuDTkXem4w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/wsE3utK4XU0gyuDTkXem4w",
+            "title": "7000+Offer、转正率超 50%......字节跳动 ByteIntern 实习生招聘正式启动！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9Fee0C1BOFnIJmibUsj5sdia530enFFQWuCxNM1yX9MWQ6hrLFafLZ465U3oru6iazoPR5iaZXKffscsMWXfTNHXLTUm9teNv8patxKo/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-06T05:37:14.000Z"
+        },
+        {
+            "id": "9gcyRO_k4dkWRqsszOCiWQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9gcyRO_k4dkWRqsszOCiWQ",
+            "title": "别再硬扛原生记忆了！OpenClaw内置Mem0，让Agent更省token、更智能",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FedEjIhlCD9YibyAvzaoxogS2PWmQg4ZRn8EUPjic9WiaLc4j8ibibBWmaHictGmBNNoqsib61dZN1DYicPwAFsiak0RDRw5pZwI11Me1qibA/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-04T09:02:38.000Z"
+        },
+        {
+            "id": "qze7JMSiBhE4YI_PgGCsLQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qze7JMSiBhE4YI_PgGCsLQ",
+            "title": "ICLR 2026 | 火山引擎多媒体实验室提出GenDR, 探索扩散模型超分落地难题",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FeeCbSDWkw8lstwhfwInLE7ywoUhObJn8wye9ib4CP24L2uqicMSu6WyTt18sEbkERaE6ozfKDqicibjo1rRxh5tAZQzlAublp3Lvms/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-03T09:03:49.000Z"
+        },
+        {
+            "id": "hLR7DAuqMvDeubQsy1VKQQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hLR7DAuqMvDeubQsy1VKQQ",
+            "title": "3D数字分身的奇幻舞台：火山引擎空间视频技术解密",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9Fef3RBaWyzP9ZZdje9lnEkLnzhgibzQPTh4H08Mc6Ts06W9AljSOuTgyVF5MSDsEibR5wZBWQwSUmOnEic8lruvKulXEic3ibnEPBLyU/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-02T09:03:06.000Z"
+        },
+        {
+            "id": "rsu-k8NwzWceOfPxTRKkBA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/rsu-k8NwzWceOfPxTRKkBA",
+            "title": "一文读懂 Agent Tools，拒绝复杂化、碎片化、黑盒化",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FeficPq6vWGKKKv1uMHs4bfEHBibsfic1ZjFX2tX5KDXYEvic0diccT0VRFTOdbqF3vIqiccKyG548C5V4j0aAUfgDba0wcpx5FicaQYicE/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-27T09:03:02.000Z"
+        },
+        {
+            "id": "QMFP35p79ZTjSy4y931hQA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/QMFP35p79ZTjSy4y931hQA",
+            "title": "Seedance 2.0 登上春晚大屏：8K/50FPS背后的最佳拍档",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FeeBXXc7eQWUpWxxnGkUvqdgmzvKTCayvy6WCibMorpe09nNPgwwuadicBKBVjcZQxUicuwTPze9aI3icUiaCjYaK0BE490zG0KzW8X4/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-26T09:05:52.000Z"
+        },
+        {
+            "id": "XIjMSxHfvRMqis1kvbtRfA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/XIjMSxHfvRMqis1kvbtRfA",
+            "title": "ICLR 2026 Oral｜火山引擎多媒体实验室提出RALI，探索画质理解大模型泛化性，节约96%开销助力实时部署",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FedxyDHaficZlIRl0EDBhSIpR6lFojjrPMmmGvzbR2r0QnibYoXRC9lk2wongJGCLOicf1mCO9Qt7Lh5jnup51N2nxEQE9NicgczibBE/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-25T09:04:43.000Z"
+        },
+        {
+            "id": "A6sUm-s44MwM7ZvIzqs_Eg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/A6sUm-s44MwM7ZvIzqs_Eg",
+            "title": "Agent Bucket：万亿级 Agent 原生存储桶",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FefzIDjvI90XKKqmFEj0ltXuaHTpJM2crVhpZZ857bJzKicxcoWGkRegaK87mBVibmlt3XaLGp08QoZO1iahHFcPWeNSyERJicFRdZ4/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-14T03:04:29.000Z"
+        },
+        {
+            "id": "6qvamIsTR1_Yxl-l0nwazg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/6qvamIsTR1_Yxl-l0nwazg",
+            "title": "BSave - 数据切面工程在字节的大规模实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FefkK2xSwic2YAVEJrc0BibAjeelK2hTmKJYfX1HpeChiama3FY8ibQTMDFEumBF3zZK4nop50q9ZJohxicOjibmXO9864TvLQs7VRrks/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-10T09:02:50.000Z"
+        },
+        {
+            "id": "Sx52DN9kktgri77z6cj3vg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Sx52DN9kktgri77z6cj3vg",
+            "title": "当 OpenClaw 内置 LanceDB：为个人 AI 智能体打造超强长期记忆",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9Fed32xHEMHbSSLjbpRBU3nFTAiaiayQHic9UlDXUxhr0vaib7qFqVmibCkdfX7w25XwuDqopnrFqic3uDQYS5RWnDuB5HmsabW8nbsx88/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-09T06:03:04.000Z"
+        },
+        {
+            "id": "fYbK0D3rF7YNvf0WJFyMEQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fYbK0D3rF7YNvf0WJFyMEQ",
+            "title": "TOS Vectors + TLS Trace：打造更高效、更智能的存储 SDK 工厂",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9Fedlcicb1fnFhx6ZfLtiaWgwnKibMYg1642rV73F1oONxyOJNJ5IzyrTPH3oTYc1icGiabQ6vCM1Fv4ZrLYNMSSVhEuHhL85uE24AXDM/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-04T09:07:38.000Z"
+        },
+        {
+            "id": "TlX6-GfU8j8Csfq821002g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/TlX6-GfU8j8Csfq821002g",
+            "title": "UGC 人脸增强异常检测挑战赛",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhu0qvRAqIRIXhAiauRVYH38gVpR9KibhVlJKHpK1ZCWpA8HFiav0q54bQCnOaIHONqLAHYUj5zO570Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-03T10:12:45.000Z"
+        },
+        {
+            "id": "Mkp3fyDsFyZZxGcTyyeHQw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Mkp3fyDsFyZZxGcTyyeHQw",
+            "title": "OpenViking：面向 Agent 的上下文数据库",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhPgCJ4RmV1MegakjPibk1amHKrcm3fqlmpztic6uv4boicKala1GFELauN0sbalrcyDSxV3QGJibR6Fg/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-02T10:04:20.000Z"
+        },
+        {
+            "id": "4RPYo5gOfAXZUAxbUisRhQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4RPYo5gOfAXZUAxbUisRhQ",
+            "title": "来火山引擎部署Moltbot，9.9元打造私人AI助手",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FeTia9z6dzZEtxTibKdvTpmkmJpf3AHx9TPaNduOpX94PNibpYGSmRKqfpsbAIPfjvwY1FyGdQKibtyNOgZ4ic7ibWyQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-29T15:04:51.000Z"
+        },
+        {
+            "id": "WCvoH0ivLhCxvIRG_82Lfw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WCvoH0ivLhCxvIRG_82Lfw",
+            "title": "KOOK 携手火山引擎 RTC ，重构游戏开黑新体验",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiaatsjVc7USnEE7xePsvF7iaTphIoqslGicRcCY26ia5dNbcQmLFR8UlII8sKat6GvMTxe6ibqFbibJE0w/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-27T10:05:59.000Z"
+        },
+        {
+            "id": "ESxV1ytyAob2BAWek2Os5g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ESxV1ytyAob2BAWek2Os5g",
+            "title": "TRAE IDE 10 大热门 MCP Server 推荐",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiaPHANqQPLicSpKqIw0jEFCJDYg4AMfyK53fqKDdpyLQZxphT57MquHtgFicAyGTh3QDYMrPcBL06vA/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-23T09:04:45.000Z"
+        },
+        {
+            "id": "Bl4ODUxvwO8pYu9nXVmjuQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Bl4ODUxvwO8pYu9nXVmjuQ",
+            "title": "一文读懂 Skills｜从概念到实操的完整指南",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOg9Mo0CuZWdPvteDTpgYgpDptv2yvO6xrtbnS5S4xkmrgThH8t6fcnqsoIj3G8dEfURyLwSHtOVYg/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-22T09:39:58.000Z"
+        },
+        {
+            "id": "Uck9Jzs_wY-68qPdfWbvyA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Uck9Jzs_wY-68qPdfWbvyA",
+            "title": "扣子 2.0，让 Agent 更进一步",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/6Qibp6lbmicKXBn0OO8oLYdKm00ylBPRYgmZn6r18XV8UfCiaEGBAHIT7w7qDwZ2MwHngI366j7u04rPmKvOhjZsA/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-19T09:29:35.000Z"
+        },
+        {
+            "id": "M7HmYlOS27aH2mTPWk2rTA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/M7HmYlOS27aH2mTPWk2rTA",
+            "title": "观测成本如何优化？APMPlus 尾采样技术的降本增效实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjFXb7uaGd2UeBbteiabfqvcqKmZkrQ6WfUxuRVUVib7Jvsxw8iazJwbEDJPcYA2JNjgmolkET0OicBiag/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-16T10:26:11.000Z"
+        },
+        {
+            "id": "xJriqyrU8TEnBq9eEQWLQw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xJriqyrU8TEnBq9eEQWLQw",
+            "title": "火山引擎日志服务-AI时代的数据存储分析底座",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiaer0oMoktPuZOgzy9vGKwwNpDTebImHmpmdJ1hOH0zEJGPk5yiaHS7r3to2nUkl8MzEDHtJEP012g/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-14T09:12:50.000Z"
+        },
+        {
+            "id": "Zlwn42KyfjgwfX6lp-JthQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Zlwn42KyfjgwfX6lp-JthQ",
+            "title": "用第一性原理拆解 Agentic Coding：从理论到实操",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgYKUYIBPqCI8WRukpVicyhjbb8iaN9srTvRBaN9iaz19vU67rnADoxdcef4axtCgPNKmJn5ibm5sJdhA/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-12T09:02:42.000Z"
+        },
+        {
+            "id": "Xbr6crf84RYNmjj1lbNFAw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Xbr6crf84RYNmjj1lbNFAw",
+            "title": "Cue-Pro：让 AI 编程助手真正理解你的“心流”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgYKUYIBPqCI8WRukpVicyhjrRwdTAjkxj6icQAM1cqBjPW9EDOJBCdhHH2GetLCDhHYQicYRicGHO5Lw/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-12T09:02:42.000Z"
+        },
+        {
+            "id": "kLbSA7Xpmllk4A2yurkiYg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kLbSA7Xpmllk4A2yurkiYg",
+            "title": "火山引擎发布系列《AI 安全白皮书》，构筑AI云原生可信基座",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjpssf2el8aJicPQs4HxwCHlsy2e40QWBrRFMaI3UwGcEbGgTp9CnOU2UwmmuOnwDTckdYhNzppsMw/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-31T05:01:24.000Z"
+        },
+        {
+            "id": "ET8dF_IPR1WYvvfxUAqLqw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ET8dF_IPR1WYvvfxUAqLqw",
+            "title": "解读流媒体个性化技术：分级体系与短视频演化之旅",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjpssf2el8aJicPQs4HxwCHlrykiaSbsrc3KgOpKxuBalkCRLrmOBPj2pxQoZOKoHp97SkJdnmVyTvg/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-30T09:52:52.000Z"
+        },
+        {
+            "id": "VOxY63TC78q7IQx_TP6q1g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/VOxY63TC78q7IQx_TP6q1g",
+            "title": "火山引擎多媒体实验室多项成果入选 SIGGRAPH ASIA 2025",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhfKCUIoBgcqpVvBtmYZuiaC3lqt10jncIt5Yn8YFKkorJSZ4ahvibU9tUA146w9pxy9KXvjhxibXpoQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-29T09:57:23.000Z"
+        },
+        {
+            "id": "Hu7waiZ_Ps0KJ_IGCaQ3JA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Hu7waiZ_Ps0KJ_IGCaQ3JA",
+            "title": "从“抖音同款”到“豆包同款”：视频云正在进入 Agent 时代",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhfKCUIoBgcqpVvBtmYZuiaCpdmLjXPSq11dqpnj1WUy84JCLWf7u7yZ6NQqWGnjOXp0E2lsZEpiaicw/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-29T09:57:23.000Z"
+        },
+        {
+            "id": "uY9ZxCFnhYjfj81j20ztHw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/uY9ZxCFnhYjfj81j20ztHw",
+            "title": "TRAE 2025 年度产品报告",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhYuyKrzOt2KIibqjNkeDxtMzhhsXIIpxiahlNUjcoGs3R5ANag0xV670sIoAeB4XicQKksTEZ3wia1Fw/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-26T09:05:06.000Z"
+        },
+        {
+            "id": "t90WJ5TZHQ4ZZnj2Wof5bg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/t90WJ5TZHQ4ZZnj2Wof5bg",
+            "title": "AI 驱动数据范式变革：字节跳动数据库的智能进化之路",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhRcyImEIbia2sfib4wicac6t1J9ibYxPgTGDIrGhCSOJYwlu35ASEMtQVHgUBNqGgY9ADOrLJrHw0w0g/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-25T09:02:55.000Z"
+        },
+        {
+            "id": "oVTO8Jpz035M-urIExvfPQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/oVTO8Jpz035M-urIExvfPQ",
+            "title": "火山引擎发布《AI时代企业数据基建升级路线图》",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiaZefrIwKNwD83suSrqddhia3dOcIZwcV8AcOaAEuuDeWvPhmfmXbI83xoiaZOPibrxwia83W54hKpArg/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-22T09:03:53.000Z"
+        },
+        {
+            "id": "9KVHZwdyE7EX-1qu7O4cCw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9KVHZwdyE7EX-1qu7O4cCw",
+            "title": "“大晓机器人”携手火山引擎多模态数据湖探索千万小时级视频处理新路径",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiaQBoGdar15KruVUmXNVxb5VUcd3I0RKswWp3K7T3V3P4aiakL4GYDibPb4j06GgaaW3DV95SgQibpYw/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-18T09:02:25.000Z"
+        },
+        {
+            "id": "WKvk4O5gSY2zugzhBUOTCg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WKvk4O5gSY2zugzhBUOTCg",
+            "title": "字节内部演进实录：Redis 迁移 Valkey，以一体化破解 AI 集群规模魔咒",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhkibHYiclnIfFBHxS99M6WJPB2C9EZukW5owANCIicUv50CgJ7BicfLxon5IuJibM4eGkObb282jVDqgQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-16T09:26:20.000Z"
+        },
+        {
+            "id": "jfj-Xxiv_MJlqrXf9u2DxA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/jfj-Xxiv_MJlqrXf9u2DxA",
+            "title": "抖音多媒体质量实验室 EvalMuse 入选 AAAI 2026，定义 T2I 评估新体系",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiagqJw94hZGMdn0NpIWfO335Id14FFehUEFbrNxS0X0Gqf1tPMeNOZPTcC39DY4vdtNn0iczB7XBmQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-01T09:02:57.000Z"
+        },
+        {
+            "id": "FYMOR5qd9vWTop2FEIbHVA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FYMOR5qd9vWTop2FEIbHVA",
+            "title": "火山引擎多媒体实验室 AIGC 视频画质理解大模型 VQ-Insight 入选 AAAI 2025 Oral",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhicglMPXBqELl0A3FXTIScCsKEL1W0Y2xXqMiblia2ibjEMsb9LccM0VpayBTwTHQZ3gZ2PaOnxhicMzQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-26T09:04:21.000Z"
+        },
+        {
+            "id": "LKQZXgaK2ooOewLxe_myYA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/LKQZXgaK2ooOewLxe_myYA",
+            "title": "用 Eino ADK 构建你的第一个 AI 智能体：从 Excel Agent 实战开始",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOg79Qia0FIUyKk1VibpaxCFkwicfvYdLhguL5ofR7QkJbrcy4p5r882icRrN5icFMEmh8yamjNlmlNNAcg/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-25T09:02:35.000Z"
+        },
+        {
+            "id": "gwqbDFhGrCxOA3y741tDOg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/gwqbDFhGrCxOA3y741tDOg",
+            "title": "智能体防御｜一文了解3种用户提示词加固方案",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjBB9eMD4Pd2lQf9PvIJiaPsnpK2tRxph929BzhC570l1yLLECreT1iaNOhn5orLCd9yBfXRibES2pKA/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-24T09:47:50.000Z"
+        },
+        {
+            "id": "wZxmdWSc6IcvyXoJhcBHMA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/wZxmdWSc6IcvyXoJhcBHMA",
+            "title": "Vibe Coze-企业 AI 应用赛道开启",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjBB9eMD4Pd2lQf9PvIJiaPsicQHfXgmibOk5K0qzPsuNYK6xx9lVcCkML0espLFofPIPGt2BN98FI0w/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-24T09:47:50.000Z"
+        },
+        {
+            "id": "rq3TtNyNVFXZaT78zkq4BA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/rq3TtNyNVFXZaT78zkq4BA",
+            "title": "火山引擎 MongoDB 进化史：从扛住抖音流量洪峰到 AI 数据底座",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjAnfPQX3e3ad6BRKoR3U9goIFm5N09GDByaz4o5oQuCsoSfXpJicJPtNfWmZ17r5MTFzdzgMoNocg/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-18T09:04:21.000Z"
+        },
+        {
+            "id": "IczRR-aLRJZu800OErUvJA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/IczRR-aLRJZu800OErUvJA",
+            "title": "veDB-HTAP 论文入选 VLDB'25 | 字节跳动高度集成、高效执行&自适应的 HTAP（TP&AP 融合）系统",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiaKeFcJHs6ZmylmfB2mywWbpjpPV7vP69jB28sUXYjnaE6TDiazibd7CAwEicvEbj4qSKpd1dlbC93pA/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-17T09:04:36.000Z"
+        },
+        {
+            "id": "n1IYdAc10aLp9236b36lSQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/n1IYdAc10aLp9236b36lSQ",
+            "title": "全新升级，全面开放，限时免费！一图读懂 SOLO 正式版",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiacTVkmaFqmg1bf7OvOCZZvKqPrbnudeb8csshb3crGicfXE72rib5o82IonKzg5jNEUSyBYugaEt8A/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-13T10:19:22.000Z"
+        },
+        {
+            "id": "asTpYKbLAbW5RrMVWbX6xg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/asTpYKbLAbW5RrMVWbX6xg",
+            "title": "PubSub-VFL——基于发布订阅架构的高效异构垂直联邦学习框架",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOia8SDPwiaalIaV7fg3wkH6UFLhbUPDfIFFB1Hiaw4J2sAPsQly5C2AAOlnH8GnTicFG9jJxl2MYkD2mg/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-10T10:03:50.000Z"
+        },
+        {
+            "id": "nXB-r020EGdGSX0iupyeWg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nXB-r020EGdGSX0iupyeWg",
+            "title": "云端协同构建 VR 院线，加速 LBE 产业化与规模化发展",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgw63nR1fpX6yZWTZf2wCBkuEBjf490wPq7yWzY4n0DYR05w2v0hUt1QRRofcKslZLrZCTcYZzNibQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-05T09:03:49.000Z"
+        },
+        {
+            "id": "j0_kf4XkJIa_SEtXlwVJDw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/j0_kf4XkJIa_SEtXlwVJDw",
+            "title": "Vibe Coze！扣子 AI 挑战赛邀你参赛",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgw63nR1fpX6yZWTZf2wCBkCS0zWvoxME5aIkTB8dggT2ewlia2jgSVtQLTcLFOppTIwNATTa3UW3g/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-05T09:03:49.000Z"
+        },
+        {
+            "id": "ffGjlDEzEzroo8w6knlLqw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ffGjlDEzEzroo8w6knlLqw",
+            "title": "Eino ADK：一文搞定 AI Agent 核心设计模式，从0到1搭建智能体系统",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgxB7kHfb0ZrVibic0YKFD5iaibKicmr0vicAibFtyicxVzib28r0I800rBdFwdfZjgzdXonsnVPIMMiaPhrx0Q/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-04T09:02:05.000Z"
+        },
+        {
+            "id": "6rM9XAvFcszUdMekljqeJQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/6rM9XAvFcszUdMekljqeJQ",
+            "title": "火山引擎推出数据智能体 Data Agent 评测体系",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjLLx3WXAELOS1bia6Za19GdMT3E6oz6b6sJI5I4sQJqPZBXHn2J4fCkUsDXPFvAM7vFMicblicWGcYQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-29T09:03:10.000Z"
+        },
+        {
+            "id": "jM_boNJC7v0Mg_IodeLPsw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/jM_boNJC7v0Mg_IodeLPsw",
+            "title": "火山 HTTPDNS Cache2.0：网段级精准调度驱动核心业务收益",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjMiaDEPwkhZBE9wQBvjJ5wDObxkMRkpSWlwgr3ibNuhticgicxtI7BsYiaLurGhm8OLYxCc2uu5ERXWQA/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-28T09:03:55.000Z"
+        },
+        {
+            "id": "RViNIpYYW_-q1WLsAsO-eQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/RViNIpYYW_-q1WLsAsO-eQ",
+            "title": "AIO Sandbox：为 AI Agent 打造的一体化、可定制的沙箱环境",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOg1RicB7vlcW9XwvxkgeLia6ib0lO23Szk1xcRjpAtknBcf5VkETgibNZGiaG6Eh51DYAq10FGFyVXqSQA/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-27T10:53:32.000Z"
+        },
+        {
+            "id": "1j_Ftk-IgXCUUYtV6_PqjQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1j_Ftk-IgXCUUYtV6_PqjQ",
+            "title": "抖音云游戏调度优化实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOg1RicB7vlcW9XwvxkgeLia6ibiacZagGbWV7L4ptiaich4BZkOYzLlutZaeQy2JUia6nrcJYVicF0LPGmPyQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-27T10:53:32.000Z"
+        },
+        {
+            "id": "ZTwg9PiYlA_jL3i56LIB0g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ZTwg9PiYlA_jL3i56LIB0g",
+            "title": "ByteKMP Compose ArkUI 原生渲染解决方案",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhibSSznYgDLKfJ5SukRtiaSF0Fic457qWWo9rEghlWkMTQncADNhHEuzQPlyoCKFXF8uUOQtciakL6Hg/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-23T09:03:07.000Z"
+        },
+        {
+            "id": "NhuOEwKqiFYn0-KIddKmsg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/NhuOEwKqiFYn0-KIddKmsg",
+            "title": "火山引擎多媒体实验室画质理解大模型 Q-Insight 入选 NeurIPS 2025 Spotlight",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiaAtqichBGwnKTVtiaLu4L0mFIcBGsic4WZFRKL55Tt7Wus2rhqZiauZr0RHneclsQvudEoOgnwTwGU1A/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-22T09:02:53.000Z"
+        },
+        {
+            "id": "NwxHvDgMbtSPedOf7aT99g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/NwxHvDgMbtSPedOf7aT99g",
+            "title": "NeurIPS 2025｜火山引擎多媒体实验室联合南开大学推出TempSamp-R1强化学习新框架，视频时序理解大模型SOTA！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjqBnfeutL81fPIwzbjbBmZcLkyIxuDy6B3vMzgqdNMFFPIjwJGOrvicjVCjY9UM6uH1tBiaicl8XmaA/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-21T09:03:37.000Z"
+        },
+        {
+            "id": "eTpMWIWV3v7iK9Sbrnmt9Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/eTpMWIWV3v7iK9Sbrnmt9Q",
+            "title": "1024 邀请函｜火山引擎 AI Coding 技术实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiasgfa2WcT4a0e1UW2WvR3rWoTvcy65kWvRL0vaMDVsiaJYkSwWicf7icJNPtjwSQg56cp7HNEHNOicfA/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-16T09:32:24.000Z"
+        },
+        {
+            "id": "0VJP96rZ80Vp3_YGco9VAw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/0VJP96rZ80Vp3_YGco9VAw",
+            "title": "迈向可信AI Agent：Jeddak AgentArmor意图对齐与约束遵循方案",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjUQVkPh1INRdYcjNJtoWn6PxHQOFicdWnnEyAVxdQyYm61JUvG2F6wCcmMOTpTPLlmibz2Vb53u3lw/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-15T10:04:40.000Z"
+        },
+        {
+            "id": "yCqkGNPfngHGUx9BlhGFdQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/yCqkGNPfngHGUx9BlhGFdQ",
+            "title": "Compose 智能重组：编译器视角下的黑科技",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgmndmb8GjaFZVjHGcwnkZGKdA7mIUicgXIQROVsCzr55BUmvMjibOg4ib8vyoT7rz5KNCDNFyKWXZHQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-13T09:02:49.000Z"
+        },
+        {
+            "id": "27_wde0Nybovpb6hnRgghg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/27_wde0Nybovpb6hnRgghg",
+            "title": "Kotlin 与 ArkTS 交互性能与效率优化实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhwjibFXdn8NXJlicx5CkXImH1ytxjurOTa5AL4s0fCRce81W8I2Vv8n9FzOib9OSibfAJSRX5juJopGw/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-29T09:02:33.000Z"
+        },
+        {
+            "id": "lSicF1KWpTTQz_n8G_sh9w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/lSicF1KWpTTQz_n8G_sh9w",
+            "title": "字节跳动多媒体实验室联合 ISCAS 举办第五届神经网络视频编码竞赛",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjJDHVfSjpAGoJ7ibafwApFH5QFQDm72KovzlzZfSQ104U7uZJ2w2IGYa5DGvwBUGYOjMVIBUSPWHQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-24T09:01:48.000Z"
+        },
+        {
+            "id": "wEwPDnfafNYGWxTpdJ2vgg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/wEwPDnfafNYGWxTpdJ2vgg",
+            "title": "MCP 安全“体检” | 基于 AI 驱动的 MCP 安全扫描系统",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhTWR7cOPNm2St5ga2n2j8okmHDuHGH65lzj9g4ibqTVHVibLnlAH9ia5ZQUV7I9TQa4DicEhehZgK4rA/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-23T10:14:00.000Z"
+        },
+        {
+            "id": "hygSUGckQIFIqotoEEz1Qg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hygSUGckQIFIqotoEEz1Qg",
+            "title": "Kmp 内存分配和 GC 优化分析和实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjibWDTribJwdILGu3GyYbcxgCNsNvryJsgia0Xv1TjsgLRRD3ntys9rtI9PN7EU6mlRvDlbfAfhEKTA/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-22T10:02:56.000Z"
+        },
+        {
+            "id": "4xo7aPYe1C4X3r04L101lA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4xo7aPYe1C4X3r04L101lA",
+            "title": "教你打造一款 AI 安全助手 | 安全 MCP 的实践指南",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgjRZOzKlg5CxlDrrJzO0KYzYmQiaYD5icPy2EGTaxxdYzAFvGdMo8YiaoAK80md19ibSh6L1icmLG6rLw/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-16T10:04:09.000Z"
+        },
+        {
+            "id": "qAL92PwaUwikdJRtUeEH5Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qAL92PwaUwikdJRtUeEH5Q",
+            "title": "Kotlin Multiplatform 原理深入分析",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjMH1oCkhfWkXFlhzj0A0yib9tS4bHmq2UjGWwThDBCR1G2Sj2d0iaW2nFHsibibn7MqDonWZLkCcp1uQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-15T10:07:17.000Z"
+        },
+        {
+            "id": "oUw_MOUmfvHUA7ZvBXEpNw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/oUw_MOUmfvHUA7ZvBXEpNw",
+            "title": "火山引擎多媒体实验室重要突破！LiveGS 技术登榜 SIGGRAPH，重新定义移动端自由视角视频直播",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgoeDaicrGv3qiaRghB0BiaiagYmHzhRIcD2IkRFJcLwFSrSvHRfacgRDr6YoPElExMQ7UE0Lnu4bCxyA/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-11T09:05:15.000Z"
+        },
+        {
+            "id": "69ej_Yor2KmboDk1oBn8-A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/69ej_Yor2KmboDk1oBn8-A",
+            "title": "字节跳动论文入选 ACM SIGCOMM'25 | 基于 WebRTC 的大规模直播: 助推直播渗透率与观播时长显著增长",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiawJ84icTian0BWVlcQTl3MNCSO29D4sRDUiapklj7eog5aFRdSYtW4zJs8N8UIpCoWjiasxTqM4Q3WNw/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-10T09:03:47.000Z"
+        },
+        {
+            "id": "1I5zQOoHvJW3T88kPc0B_A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1I5zQOoHvJW3T88kPc0B_A",
+            "title": "直击3D内容创作痛点-火山引擎多媒体实验室首次主持 SIGGRAPH Workshop，用前沿技术降低沉浸式内容生成门槛",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhia1npiauvL0TOElqUWBzgum6CBaNIUrybWicqPOvwDvfriaib3YULn8s8tSJgoPgibDgLLJfhbpo10ljg/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-09T09:04:56.000Z"
+        },
+        {
+            "id": "p652pt43DBKkVqKkK-VpQw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/p652pt43DBKkVqKkK-VpQw",
+            "title": "VLDB2025 | Magnus: 字节跳动面向大规模机器学习的数据管理方案",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjLIUc92NDddSgSQY4V54GVYszJZONQeGQRg198iapWeQe4dfRkbmypB1rycHE2uzw0iaHyAiaW7XFtw/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-04T10:03:45.000Z"
+        },
+        {
+            "id": "IpCZx67OWQhwNe7wO80IOg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/IpCZx67OWQhwNe7wO80IOg",
+            "title": "沉浸式 LBE 大空间互动体验！火山引擎支持《转折·从头越》北京 VR 巡展",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgsL9CoVz7uXNLz4DhUQMiaUI1PcnVzia36W4fdy1HPtp9ibrgiakEeCibHbmzqFP6AQnpkzMdrEmyp0ug/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-01T09:34:31.000Z"
+        },
+        {
+            "id": "FSK6zuRygxj5TrHFkIJ2tg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FSK6zuRygxj5TrHFkIJ2tg",
+            "title": "为 AI Agent 行为立“规矩”——字节跳动提出 Jeddak AgentArmor 智能体安全框架",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOia9vFiaFL3ibU8CyxGKWrdPwPf8cgB5j44GficmQu0QSQ5vfkM0icSicYH2KRg2ISGxLMlaia3BbBwrE3kQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-27T10:10:23.000Z"
+        },
+        {
+            "id": "Uq6_WeEB1vQU5_djBBAbkg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Uq6_WeEB1vQU5_djBBAbkg",
+            "title": "当数字世界的“万能钥匙”被滥用，谁来守护核心资产？来自火山的 MCP 安全授权新范式",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhsTIykt7OUG7vibHRksYWibKNdgAZ25lfxb8SGCsE7JXQuylesj45Y7jibr672icaV3fHSpQzoghfJdw/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-26T10:08:19.000Z"
+        },
+        {
+            "id": "WA7rjQK92pFjh-9HS1W3eA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WA7rjQK92pFjh-9HS1W3eA",
+            "title": "沉浸式文旅新玩法-基于4D GS技术的真人数字人赋能VR体验升级",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgJOm9W7CV7Z8tv82PCkRpDVwekPamml4hJNYbgvUUL1K4h1Z5dPBO21WyNLcneMbPic9NMjB4Tib1Q/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-25T10:08:07.000Z"
+        },
+        {
+            "id": "bgL8vlfrmC5aK5HvheDNow",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bgL8vlfrmC5aK5HvheDNow",
+            "title": "USENIX Security 25 | TEE+Legacy GPU混合算力下的模型隐私安全攻防",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjFKVzCgqzlaGq1LsSd6FCSfBZ8VVGQh5dN49UwI7G8KT5fapK7DwsQDR7MoJkJibl4nCQB4P40lUw/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-20T09:38:19.000Z"
+        },
+        {
+            "id": "x2XWjnzEXvIOn02zLMlhlQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/x2XWjnzEXvIOn02zLMlhlQ",
+            "title": "AIBrix v0.4.0 发布：P/D 解耦与专家并行支持、KVCache v1 连接器、KV 事件同步与多引擎支持",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjUyxZ03jqblRjj7dzJzXRtGoM80nzDQFv930a8FDu80LBvCRymyRlPl3WNvOwytfmjLANPdk7WXQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-19T10:49:45.000Z"
+        },
+        {
+            "id": "BRMuBncxjNOGJ2f_D3mLNg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BRMuBncxjNOGJ2f_D3mLNg",
+            "title": "火山引擎LAS基于Lance的PB级智驾数据湖方案",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjnY7O095ukms3LOD28e3iaM8lse9bBnK45oSxlWkJibRhLE6egX6VwJCxRicyl31b31HKtfiasiacjibEw/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-18T03:28:54.000Z"
+        },
+        {
+            "id": "ndNDFP8vEQIq0ZRbriLzXw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ndNDFP8vEQIq0ZRbriLzXw",
+            "title": "智能体防御 | 一文了解3种系统提示词加固方法",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjLOtKibcDflA3gn08GbKukRsBXEXeFvKWpIO2icm0r5WibhqkJ1Rnhicoiamqdxk7SW974am54Rh5yhwA/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-15T10:10:26.000Z"
+        },
+        {
+            "id": "JZgLqyGyKgTkArINB0dijw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JZgLqyGyKgTkArINB0dijw",
+            "title": "PartCrafter：首个结构化3D多部件生成模型",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOh8iaeQJvSrXe19p6MBfXgde7HWfB4dBgzMvbCO9JZ7Qxso26WbrHMib6E7iaicSqYZKe6uYK7iajsfyvw/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-13T09:08:45.000Z"
+        },
+        {
+            "id": "Ksl_lF8KNwM0vRtsjzWaBA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Ksl_lF8KNwM0vRtsjzWaBA",
+            "title": "基于 DiT 大模型与字体级分割的视频字幕无痕擦除方案，助力短剧出海",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiasLDg3rOiagEhJMGemaqw3zzvwTQlibg4icVbMWibo64VK0AS0yIicTemSMzTZzkTTBuQLwkic9CYBgKww/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-11T10:03:14.000Z"
+        },
+        {
+            "id": "wKJwbNESHeX67UYR8bqOkg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/wKJwbNESHeX67UYR8bqOkg",
+            "title": "当AI智能体学会“欺骗”，我们如何自保？来自火山的MCP安全答卷",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgOl49cTjJ3fm4UT8OlzI9dq8o6nKahMMaiahszV5nSHx36chSY5cV6L2kBiaofzC5YtBeH28iccueKw/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-06T10:03:19.000Z"
+        },
+        {
+            "id": "Uk0c0lzr9Mq5id469K745A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Uk0c0lzr9Mq5id469K745A",
+            "title": "从认知到实践：AI 友好的 MCP 工具构建指南",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhv48hj52snpLib7qrpZPEJtMyJiakNssVvVicscGQWeaVsLdoUPsaNnqEP5BIdaRv57q3Wcy9L6OLng/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-04T10:03:49.000Z"
+        },
+        {
+            "id": "8f6bSFlYBvtf9rg_W_LWRQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/8f6bSFlYBvtf9rg_W_LWRQ",
+            "title": "扣子开源，三天揽获1.5W GitHub Star",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhvmseUxpEKRBMWTOZAZibxpN880W4iak5OSlFznKzrdnbM5jspHibd6iaxmY9NQTFatetYhQ3n46CiaKQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-31T10:05:16.000Z"
+        },
+        {
+            "id": "OSpR4SISHOl9Mbu0KVpp3A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/OSpR4SISHOl9Mbu0KVpp3A",
+            "title": "JavaScript 内存泄漏排查方法",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhLSxlCuXiaQ0Yo7CtQqoq5RUSACyF4vIOoCDIHAh6jCticzRLAlIQrpeZicoiaOB9gs5SW6Z8SUaJkeA/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-29T07:58:42.000Z"
+        },
+        {
+            "id": "89AMdQtBmaJwjNDS44rXxg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/89AMdQtBmaJwjNDS44rXxg",
+            "title": "字节KV数据库(ABase)架构论文入选数据库顶会SIGMOD 2025",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiaVjtn4bRWPicIzYm21XgmKr2CeAY1Arz7XPfnVUFibIOh9RzmsEicOdBBGv9zTWybicvZ2x9nLmoJg6g/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-28T10:04:24.000Z"
+        },
+        {
+            "id": "dgJnC0742zbGKjP0M_D-dA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/dgJnC0742zbGKjP0M_D-dA",
+            "title": "揭秘字节跳动内部流量调度与容灾实践【下】",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOh6WR1scfGdVfL9pTFEL3u7wny7rIrLThOUcslfGs6sIcFTMajljlibNae8iaib3XpxzV1C2zmKNHcHg/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-24T10:04:06.000Z"
+        },
+        {
+            "id": "0IUYlpfZ_hvCnNlbNScEFg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/0IUYlpfZ_hvCnNlbNScEFg",
+            "title": "猎影计划：从密流中捕获 Cobalt Strike 的隐秘身影",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgw8oTJ6zwoH39n6vKN16SLYtkibDKhA9MFXBUgLxKqWLNyBefhcGwY3rQh2VI0JsJ3pOBjP4qnlTA/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-23T10:04:21.000Z"
+        },
+        {
+            "id": "hHN9WuVnE2kwsN0R8gxNKA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hHN9WuVnE2kwsN0R8gxNKA",
+            "title": "The First Context Engineer：TRAE 2.0 SOLO 发布",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOg34EWmaY3f1CHibqmoD7HFOLxPzgc2IoWbpvibXMcB9OGibSyoJgFNaM2QrHHK1VsticNTXq59F25vFw/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-22T13:20:32.000Z"
+        },
+        {
+            "id": "a4ThvkQEFPweoSbBIJPOPg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/a4ThvkQEFPweoSbBIJPOPg",
+            "title": "诱导大模型 | 新型“回音室”攻击和对抗技术",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhh5Us7qDnW6u2QI5XvaV8UXclU7FhNTYNRHriao4NcSDlAHibXULA2d1Wm60ZcnVU6r08sCQuFYibFg/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-18T09:07:17.000Z"
+        },
+        {
+            "id": "DGWKHxa5soixm-W0iZfs6A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/DGWKHxa5soixm-W0iZfs6A",
+            "title": "Simple Editor - 高效智能地设计动效",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjHKbz95G5GeJUkkY3GOdKKibVa0mFtIjybxUYMhcMEUBYiaTgiby7Qvp021SVY2Zj4NbdDYxPDRbpqA/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-16T04:09:57.000Z"
+        },
+        {
+            "id": "EZYbSl4rDCIl5FxuZ1jT5A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/EZYbSl4rDCIl5FxuZ1jT5A",
+            "title": "让AI写代码，「多模态数据处理」实战指南",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgmvibqiahLXN2iaLJaC5Sic4YUiaZDAJob9uvLccj3TibdyVzGoY1WAFnoVUVGy0jFbqe43iaqnKYSMCGzw/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-14T03:26:17.000Z"
+        }
+    ]
+}
