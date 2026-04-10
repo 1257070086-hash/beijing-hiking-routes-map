@@ -605,16 +605,12 @@
 
 <script>
 // ═══════════════ CONFIG ═══════════════
-const API      = 'https://wewe-rss.serveousercontent.com';
 const AI_BASE  = 'https://api.deepseek.com/v1';
-const AUTH     = '';  // WeWe RSS 认证 token，本地使用时按需填写
 const PAGE_SZ  = 25;
 
-// 静态快照 fallback（Mac 离线时读 GitHub Pages 上的 JSON 快照）
+// 纯静态快照模式：所有数据来自 GitHub Pages 上的 data-snapshot/*.json
+// 更新数据请在本地运行 export-snapshot.sh
 const SNAPSHOT_BASE = './data-snapshot';
-// serveousercontent.com 在某些网络环境被封，默认优先用快照
-// 只有当 API 明确返回数据时才切换到实时模式
-let usingSnapshot = true;
 
 const COMPANY_GROUPS = {
   '行业资讯': ['MP_WXS_3223374696','MP_WXS_3572959446','MP_WXS_3254144461','MP_WXS_3539511831','MP_WXS_3077993707','MP_WXS_1432156401','MP_WXS_3073282833','MP_WXS_2390142780','MP_WXS_3236757533'],
@@ -651,6 +647,7 @@ let sources=[], sourceMap={}, allArticles=[];
 let curCompany='all', curView='brief', curSearch='', activeKws=new Set(), curPage=1;
 let curSourceId=null; // 精确公众号过滤（null=不限）
 let charts={}, emptySrcs=[];
+const usingSnapshot = true; // 固定为快照模式
 
 // ═══════════════ INIT ═══════════════
 async function init() {
@@ -669,32 +666,15 @@ async function init() {
 
 // ═══════════════ SOURCES ═══════════════
 async function fetchSources() {
-  // 策略：先用快照保证页面能显示，后台尝试实时 API 替换数据
+  // 纯静态快照模式：只读 GitHub Pages 上的静态 JSON
   try {
     const r = await fetch(`${SNAPSHOT_BASE}/feeds.json`);
     sources = await r.json();
-    usingSnapshot = true;
   } catch(e) {
-    console.error('快照读取失败', e);
+    console.error('快照读取失败，请确认已运行 export-snapshot.sh', e);
+    setStatus('❌ 快照数据不存在，请运行 export-snapshot.sh 生成数据');
     return;
   }
-
-  // 后台异步尝试实时 API（3秒超时，不阻塞页面）
-  const ctrl = new AbortController();
-  const tid = setTimeout(() => ctrl.abort(), 3000);
-  fetch(`${API}/feeds`, { signal: ctrl.signal })
-    .then(r => r.json())
-    .then(data => {
-      clearTimeout(tid);
-      if (data && data.length) {
-        sources = data;
-        sources.forEach(s => sourceMap[s.id] = s);
-        usingSnapshot = false;
-        // 重新拉文章（实时数据）
-        fetchArticles();
-      }
-    })
-    .catch(e => { clearTimeout(tid); /* 静默失败，继续用快照 */ });
   sources.forEach(s => sourceMap[s.id] = s);
 
   rebuildSegmentButtons();
@@ -748,30 +728,12 @@ async function fetchArticles() {
   dot.classList.add('syncing');
   emptySrcs = []; allArticles = [];
 
-  // 直接读本地缓存（数据库已有历史数据，无需触发同步）
+  // 纯静态快照模式：只读 GitHub Pages 静态 JSON
   setStatus('读取文章…');
   const results = await Promise.all(sources.map(async src => {
     try {
-      let d;
-      if (usingSnapshot) {
-        // 快照模式：读 GitHub Pages 静态 JSON
-        const r = await fetch(`${SNAPSHOT_BASE}/${src.id}.json`);
-        d = await r.json();
-      } else {
-        // 实时模式：读实时 API（3秒超时）
-        const ctrl = new AbortController();
-        const tid = setTimeout(() => ctrl.abort(), 3000);
-        try {
-          const r = await fetch(`${API}/feeds/${src.id}.json?limit=100`, { signal: ctrl.signal });
-          clearTimeout(tid);
-          d = await r.json();
-        } catch(e) {
-          clearTimeout(tid);
-          // 实时失败降级到快照
-          const r2 = await fetch(`${SNAPSHOT_BASE}/${src.id}.json`);
-          d = await r2.json();
-        }
-      }
+      const r = await fetch(`${SNAPSHOT_BASE}/${src.id}.json`);
+      const d = await r.json();
       const items = (d.items||[]).map(item => ({
         id: item.id, title: item.title||'(无标题)', url: item.url,
         image: item.image||null,
@@ -797,7 +759,7 @@ async function fetchArticles() {
     const wb = document.getElementById('warn-bar');
     document.getElementById('warn-text').innerHTML =
       `以下账号暂无文章：<strong>${emptySrcs.join('、')}</strong>。` +
-      `请在微信读书 App 关注后，到 <a href="https://wewe-rss.serveousercontent.com" target="_blank">WeWe RSS 管理后台</a> 删除并重新添加这些账号。`;
+      `请在本地运行 <code>export-snapshot.sh</code> 更新快照数据后重新推送到 GitHub。`;
     wb.style.display = 'flex';
   } else {
     document.getElementById('warn-bar').style.display = 'none';
