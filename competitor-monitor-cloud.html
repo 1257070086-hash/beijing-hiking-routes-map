@@ -667,8 +667,21 @@ async function init() {
 
 // ═══════════════ SOURCES ═══════════════
 async function fetchSources() {
+  // 带超时的 fetch（兼容所有浏览器）
+  async function fetchWithTimeout(url, ms) {
+    const ctrl = new AbortController();
+    const tid = setTimeout(() => ctrl.abort(), ms);
+    try {
+      const r = await fetch(url, { signal: ctrl.signal });
+      clearTimeout(tid);
+      return r;
+    } catch(e) {
+      clearTimeout(tid);
+      throw e;
+    }
+  }
   try {
-    const r = await fetch(`${API}/feeds`, { signal: AbortSignal.timeout(5000) });
+    const r = await fetchWithTimeout(`${API}/feeds`, 5000);
     sources = await r.json();
     usingSnapshot = false;
   } catch(e) {
@@ -748,9 +761,17 @@ async function fetchArticles() {
         const r = await fetch(`${SNAPSHOT_BASE}/${src.id}.json`);
         d = await r.json();
       } else {
-        // 正常模式：读实时 API
-        const r = await fetch(`${API}/feeds/${src.id}.json?limit=100`, { signal: AbortSignal.timeout(8000) });
-        d = await r.json();
+        // 正常模式：读实时 API（8秒超时）
+        const ctrl = new AbortController();
+        const tid = setTimeout(() => ctrl.abort(), 8000);
+        try {
+          const r = await fetch(`${API}/feeds/${src.id}.json?limit=100`, { signal: ctrl.signal });
+          clearTimeout(tid);
+          d = await r.json();
+        } catch(e) {
+          clearTimeout(tid);
+          throw e;
+        }
       }
       const items = (d.items||[]).map(item => ({
         id: item.id, title: item.title||'(无标题)', url: item.url,
