@@ -612,7 +612,9 @@ const PAGE_SZ  = 25;
 
 // 静态快照 fallback（Mac 离线时读 GitHub Pages 上的 JSON 快照）
 const SNAPSHOT_BASE = './data-snapshot';
-let usingSnapshot = false;  // 标记当前是否在用快照数据
+// serveousercontent.com 在某些网络环境被封，默认优先用快照
+// 只有当 API 明确返回数据时才切换到实时模式
+let usingSnapshot = true;
 
 const COMPANY_GROUPS = {
   '行业资讯': ['MP_WXS_3223374696','MP_WXS_3572959446','MP_WXS_3254144461','MP_WXS_3539511831','MP_WXS_3077993707','MP_WXS_1432156401','MP_WXS_3073282833','MP_WXS_2390142780','MP_WXS_3236757533'],
@@ -667,36 +669,32 @@ async function init() {
 
 // ═══════════════ SOURCES ═══════════════
 async function fetchSources() {
-  // 带超时的 fetch（兼容所有浏览器）
-  async function fetchWithTimeout(url, ms) {
-    const ctrl = new AbortController();
-    const tid = setTimeout(() => ctrl.abort(), ms);
-    try {
-      const r = await fetch(url, { signal: ctrl.signal });
-      clearTimeout(tid);
-      return r;
-    } catch(e) {
-      clearTimeout(tid);
-      throw e;
-    }
-  }
+  // 策略：先用快照保证页面能显示，后台尝试实时 API 替换数据
   try {
-    const r = await fetchWithTimeout(`${API}/feeds`, 5000);
+    const r = await fetch(`${SNAPSHOT_BASE}/feeds.json`);
     sources = await r.json();
-    usingSnapshot = false;
+    usingSnapshot = true;
   } catch(e) {
-    // API 不通，尝试读快照
-    console.warn('API 不可用，切换到快照模式', e);
-    try {
-      const r = await fetch(`${SNAPSHOT_BASE}/feeds.json`);
-      sources = await r.json();
-      usingSnapshot = true;
-      setStatus('⚠️ 离线模式：显示快照数据（Mac 未连接）');
-    } catch(e2) {
-      console.error('快照也读失败', e2);
-      return;
-    }
+    console.error('快照读取失败', e);
+    return;
   }
+
+  // 后台异步尝试实时 API（3秒超时，不阻塞页面）
+  const ctrl = new AbortController();
+  const tid = setTimeout(() => ctrl.abort(), 3000);
+  fetch(`${API}/feeds`, { signal: ctrl.signal })
+    .then(r => r.json())
+    .then(data => {
+      clearTimeout(tid);
+      if (data && data.length) {
+        sources = data;
+        sources.forEach(s => sourceMap[s.id] = s);
+        usingSnapshot = false;
+        // 重新拉文章（实时数据）
+        fetchArticles();
+      }
+    })
+    .catch(e => { clearTimeout(tid); /* 静默失败，继续用快照 */ });
   sources.forEach(s => sourceMap[s.id] = s);
 
   rebuildSegmentButtons();
@@ -756,20 +754,22 @@ async function fetchArticles() {
     try {
       let d;
       if (usingSnapshot) {
-        // 离线模式：读 GitHub Pages 上的静态快照
+        // 快照模式：读 GitHub Pages 静态 JSON
         const r = await fetch(`${SNAPSHOT_BASE}/${src.id}.json`);
         d = await r.json();
       } else {
-        // 正常模式：读实时 API（8秒超时）
+        // 实时模式：读实时 API（3秒超时）
         const ctrl = new AbortController();
-        const tid = setTimeout(() => ctrl.abort(), 8000);
+        const tid = setTimeout(() => ctrl.abort(), 3000);
         try {
           const r = await fetch(`${API}/feeds/${src.id}.json?limit=100`, { signal: ctrl.signal });
           clearTimeout(tid);
           d = await r.json();
         } catch(e) {
           clearTimeout(tid);
-          throw e;
+          // 实时失败降级到快照
+          const r2 = await fetch(`${SNAPSHOT_BASE}/${src.id}.json`);
+          d = await r2.json();
         }
       }
       const items = (d.items||[]).map(item => ({
