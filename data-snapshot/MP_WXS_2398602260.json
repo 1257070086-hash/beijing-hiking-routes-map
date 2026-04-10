@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "QcJD7yAAs_Ft-gD9uBV4rA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/QcJD7yAAs_Ft-gD9uBV4rA",
+            "title": "“龙虾”也需要看病？一张旧病历，引出三个新确诊",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz9073unpausfqpiccgMK4HxulFcbsDydGCQ1vzGRIq7EF4zEUxqFy2xeICibgDqdOg1Y1RZjVeKhvg3JVzricrVMqpqqqf8mKKXWeuI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T09:35:04.000Z"
+        },
+        {
             "id": "MKWckXraK1irNvMgCIJXZw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/MKWckXraK1irNvMgCIJXZw",
@@ -798,14 +806,6 @@
             "title": "AI时代下，程序员还有必要系统性啃书去学习吗？",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvatQ9jepCt5eibxNTK5bkbicaRs4KtzBKjWVneBtDwv5eFTvT2M81AyseagH5cLGr30132EjD96A3ooA/0?wx_fmt=jpeg",
             "date_modified": "2025-08-06T10:03:17.000Z"
-        },
-        {
-            "id": "3KUA5ss2KIS3EGF39i-yuw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/3KUA5ss2KIS3EGF39i-yuw",
-            "title": "氛围感编程，说干就干用AI手搓一个微信带货小程序",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvatzQqosXTQCia8w43N2WK0PDlVGHq8ibpRJFUaAqSbZ53h6mBXXickhuqcfrP1mNXiaHbH8YDgazibJD9Q/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-04T09:52:01.000Z"
         }
     ]
 }

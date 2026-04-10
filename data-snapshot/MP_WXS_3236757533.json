@@ -10,6 +10,46 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "XLDn-i7TVshIY-Ibv5WBmw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/XLDn-i7TVshIY-Ibv5WBmw",
+            "title": "实测刘翔pick的国产AI汽车，BBA老车主的豪华滤镜碎了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGFUOSbsOs7nmdsgkGoyMUicfghDnQ1RfVIBiaicxebayIqXvFheVdVjZZNibo6pa0KywPwBHwmicQYzYxnShhxlcyhF2PC4wzYjUre4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T04:05:52.000Z"
+        },
+        {
+            "id": "kdPBjupV_4C8GxqaswCpRw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kdPBjupV_4C8GxqaswCpRw",
+            "title": "Claude神之bug：给自己下指令，还诬赖用户？？Hacker News炸了",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFK0obecaNbs1P7syQktDtoZm9oQqFVcQDGfJlpXpImUicKq0aQwrxQWV4jRzaOTXUzvvoxzKWACSPSicapjIX99QoafN3nLAT68/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T04:05:52.000Z"
+        },
+        {
+            "id": "siGHXTw_oAWFllfkmHugWg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/siGHXTw_oAWFllfkmHugWg",
+            "title": "SVG性能比肩GPT/Claude，腾讯开源3B模型HiVG，让Token「懂几何」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGFg4uXU1SUePxUlffba4fXRLx2lcVvcfibKHlfjg8k3C82u9JAa5LicXw1mzF5ibB81ic2Lib95DyzSibFicP34sezvRF2AoRcpDcjIl4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T04:05:52.000Z"
+        },
+        {
+            "id": "1XJV6S_HLa0EY9Sr01Y4nQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1XJV6S_HLa0EY9Sr01Y4nQ",
+            "title": "一年一度最值得关注的AI榜单来啦！申报即日启动",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGHYMUW63xpzzsk1VDnHZVpVm4XibxJWu1r3cx8GzphyvwsEsUuicm1OKicXhy6zNu0QlxLtAWibibrQAXVTYhibBujCmC5ibQO8HFGdRQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T04:05:52.000Z"
+        },
+        {
+            "id": "3DTajWyRMOn6QYvTdxlKLQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/3DTajWyRMOn6QYvTdxlKLQ",
+            "title": "量子位编辑作者招聘",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T04:05:52.000Z"
+        },
+        {
             "id": "nrxyH_pt5Ra_tfjVbJqExw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/nrxyH_pt5Ra_tfjVbJqExw",
@@ -768,46 +808,6 @@
             "title": "10倍加速化学推理大模型！Haven团队在隐空间思考分子式，碾压显示CoT",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGnF2E1AWe2ladn1ibx37RpgjhBGVaCM4w8GSzjh9ytgqG3IfmsQ7wvSHiakBNQhRtaYBK3BnJ3bnc5qAy6HRSpsRRicgCJ8x6ckg/0?wx_fmt=jpeg",
             "date_modified": "2026-03-20T05:00:33.000Z"
-        },
-        {
-            "id": "g-M_dwIQKRkH-AQVyqDoqw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/g-M_dwIQKRkH-AQVyqDoqw",
-            "title": "量子位编辑作者招聘",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-20T05:00:33.000Z"
-        },
-        {
-            "id": "m1_AbaimgB-kjxYEPYwyBA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/m1_AbaimgB-kjxYEPYwyBA",
-            "title": "一年一度最值得关注的AI榜单来啦！申报即日启动",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGHYMUW63xpzzsk1VDnHZVpVm4XibxJWu1r3cx8GzphyvwsEsUuicm1OKicXhy6zNu0QlxLtAWibibrQAXVTYhibBujCmC5ibQO8HFGdRQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-20T05:00:33.000Z"
-        },
-        {
-            "id": "wrbeZ7MUpKuj678xZy_xog",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/wrbeZ7MUpKuj678xZy_xog",
-            "title": "AI球球直播喊话全人类：开源脑机接口，开源科技文明",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFWKCvN69Z7PSWZibSicqcf9XuMpLlehFza2Gcx6VVQQ3QpdyAxPrJbQHvvibeuC2GgLJJfdgOHy79O1O13j4QmrLqdiaazP3K337w/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T07:07:12.000Z"
-        },
-        {
-            "id": "n0vtnJohYegpor5pkjbVdg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/n0vtnJohYegpor5pkjbVdg",
-            "title": "英伟达首台DGX GB300，老黄亲自登门送给他",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGF6qp5hPQEQkrUkE0zr735H3rniaxtEM43mvulfOB3NCnlvMNSI4L4lPzlPhYoG3XhkxicYjt7oqMtuUCzn5DEbIryGIAIRpdofo/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T07:07:12.000Z"
-        },
-        {
-            "id": "C8PHSlltRFnum912MEOFwA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/C8PHSlltRFnum912MEOFwA",
-            "title": "生成视频总出物理bug？用VLM迁移+token级对齐，让燃烧在正确位置发生，碰撞遵循动量守恒丨CVPR 2026近满分接收",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGHSekTTQJ9MsmwzZNkcdBlao9p0ObuF4BIJ3osRBEDlcOBwc7cPzEUHtCOWWDTswlkjZE9lTicSEVicLQUwxVFw0XXPSLEwCibCt8/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T07:07:12.000Z"
         }
     ]
 }

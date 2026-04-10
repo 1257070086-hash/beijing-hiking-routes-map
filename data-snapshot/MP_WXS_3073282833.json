@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "a5lojLW_fbvGPQ86pfYQFg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/a5lojLW_fbvGPQ86pfYQFg",
+            "title": "Generalist爆火背后：具身智能真正的竞争，已不在模型",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHMjb00AO95ejrXF464j8hTlWfbC6KW01v1TMrstZqhic4dZVic3Lzwdhue6jGQibeTs2w7TX4pDlIBIos17HemicyDxTKNuzMicK3w/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T10:18:53.000Z"
+        },
+        {
+            "id": "rCaBRiRTp7gz7k4bclNamQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/rCaBRiRTp7gz7k4bclNamQ",
+            "title": "龙虾连Gemma 4，只需三步，谷歌官方教程出炉，不再花钱买token",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHc9LOYe4EIhyd4TCQ1g6IuBhMrB1jaFOSJ0E8gAnUpVEhJrqUM9qvibhx1FeAUBltvC7bUz8Cm8Z1XDiaOibC0ujebteLjjTnwWg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T10:18:53.000Z"
+        },
+        {
+            "id": "fkIvNeG9bFQaDIboQbaL4g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fkIvNeG9bFQaDIboQbaL4g",
+            "title": "CVPR 2026 | 20步也能稳住画质，这个扩散加速方法不一样",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEgxZ6rzicEFXW8vyF5we3KMHicOtKRWhTVOQgcOLxVH3NExQ77nQfObp8bW9aFRR1gBiaBENugTh0dAz4TRWSfssqPP0InRYgHIE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T10:18:53.000Z"
+        },
+        {
             "id": "Npmyz_SOG5zVVI2cnCHbNg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/Npmyz_SOG5zVVI2cnCHbNg",
@@ -784,30 +808,6 @@
             "title": "一键接入OpenClaw，谷歌开源CLI狂揽15k Stars，Agent开始接管Workspace",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHyhjTwxlDB9JJ99vibZaYibySHyyIC7el65yTtag8iaiajD35pU6emGbazGSI4ATRGhxI0ia9nUj0AMHib0SzRKcibYQNpPqehNp14U0/0?wx_fmt=jpeg",
             "date_modified": "2026-03-08T04:04:17.000Z"
-        },
-        {
-            "id": "ozqblG65_EjqzZTuQTTQbQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ozqblG65_EjqzZTuQTTQbQ",
-            "title": "自动研究真的是未来！Karpathy放大招，将自我迭代智能体放进单个GPU",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEryhlmOPu6j1UyAHC4yStcX8Sq8kvLqctEpBiatichjdSjjNTyBMHpFf9KEskcEXjGJDqW3B804LWIxZcsqABshznicZdDeOGG4U/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-08T04:04:17.000Z"
-        },
-        {
-            "id": "up5xIhpkDKlANPJWst6BuA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/up5xIhpkDKlANPJWst6BuA",
-            "title": "李曼玲、李飞飞团队顶会新作：给大模型测「空间智商」",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHmRPS0icJEAVfKBfRiaXgDzbCuOk61hxzPQbXB01eF7JnBJCX9mOicqRHrBibSmo01ia6yM1oNYaHeticWzQtVXJHSiaRXtZBeRZEKTU/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-08T04:04:17.000Z"
-        },
-        {
-            "id": "F9dPhKfx82bOQjpAL_CBaA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/F9dPhKfx82bOQjpAL_CBaA",
-            "title": "14B规模竟也能单卡实时生成视频？多亏这个强大的开源底座",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFx7XZNphgTHTNFCPY2ptTPN0jReUr9UJ8fMjn57npquq1ELCKZg12PAT50rxlY3JVUTYcJHn3WrY8HuuL1Y0RRJYrYpfUjKC4/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-07T04:18:12.000Z"
         }
     ]
 }

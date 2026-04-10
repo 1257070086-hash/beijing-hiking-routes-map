@@ -10,6 +10,46 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "5LWDFIMFnYgxmsd4uOj4kA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/5LWDFIMFnYgxmsd4uOj4kA",
+            "title": "当前的上下文方案，本质是暴力破解！DeepMind 创始人：忽强忽弱的 AI，才是真正的灾难，突破在记忆系统",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgUIYA3NtuswF6EcKfXfibq2PLkjibb1UORhLGbnngNuWcLicW3nQ6H4DG34PpiayJ3VVs8qWY4Ezib23dxQ3zmvsdRbkh6ial61qYHs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T06:11:43.000Z"
+        },
+        {
+            "id": "WmStzrRFXyGWAI6-FpWGkw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WmStzrRFXyGWAI6-FpWGkw",
+            "title": "生成率从8%到60%：快手智能测试用例生成系统的四阶进化",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhKib9BMjOrFK5sy51aQ1IYjXG9IRhiaptQIxicj7y0BCDhcNg5yNlRo3R1cfyoJbaVXubxMZcwqRtodJFYJzn110KfUEgevmr7fc/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T06:11:43.000Z"
+        },
+        {
+            "id": "OYBRFsvY1E-500cJ0ieCSg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/OYBRFsvY1E-500cJ0ieCSg",
+            "title": "银行业云原生事件驱动架构实践：经验与教训",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhoNABbl0ibdic7vNJhkMWtCOIVJw7bLPNVibDAWLialMm6fRXoscpAZIuyzUW65ZcZh3QDjZfE3MxFQo9grGSKPd6BiaeWoib96gghk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T06:11:43.000Z"
+        },
+        {
+            "id": "x3jO2q-Tv2-T97qM6izhpQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/x3jO2q-Tv2-T97qM6izhpQ",
+            "title": "GitHub 如何用 AI 重构反馈处理机制",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNj8aYRBnHgm7iapVa57Nhjib7ynUjQicEm2ibv0A1icr2Wjq8DWsicOaeGMB8FVOg7DTZnn9CsbrBZ1gNyLDCCq7xmtiaoibh6INV0IKUE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T06:11:43.000Z"
+        },
+        {
+            "id": "nvoL67QhBptlwP8sT2TENw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nvoL67QhBptlwP8sT2TENw",
+            "title": "杀死“流水线”： ColaOS（ListenHub）如何构建 AI 时代的液态超级团队 | QCon",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgzGupco0JkbsaxFnE4N55A2AiczzaEiaJY5v1W4w2v6cHYiaQeV6wiaR59bJtSYeOiacrRSDRyoz5OGV5ra7sS6455IuGkOkibSUOZA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T06:11:43.000Z"
+        },
+        {
             "id": "bxJJoBu37qUp_41ph2g7nw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/bxJJoBu37qUp_41ph2g7nw",
@@ -768,46 +808,6 @@
             "title": "TDSQL Boundless：AI时代的多模态数据库",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhoo4miauqtcIiaomEEF4VrtF9Snz3QlCjicuGfcCFfVIcZttX18CYmibkibdcco5rN8l2mfaedpYByYgukWmcBIeib4M2EMDwtAk5xY/0?wx_fmt=jpeg",
             "date_modified": "2026-03-18T07:08:28.000Z"
-        },
-        {
-            "id": "SW3-tI-OdtvladmWf-SLpg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/SW3-tI-OdtvladmWf-SLpg",
-            "title": "Datadog 如何将其 Agent 的 Go 二进制文件缩减 77%",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgNwekQ7Yd1NRLZBjNftmH8yzGrrugr1hLO2f3cRzcPdp94Vmt9qsb7X9TMicWK2OpKp0Bicz5LZmdGQqoRj7Jv1MdDRKbJc9cQg/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-18T07:08:28.000Z"
-        },
-        {
-            "id": "9wvope1jdUccLKQTuVIR3Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/9wvope1jdUccLKQTuVIR3Q",
-            "title": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon 北京",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiayNolYSuUJkibv3pEZ9nibZJ8a7H6s1icqf5ibJMaUrh6eZqNz0LN6hJiamFtlBAjQ0nfdaibCVUahXzao2s9AgkvbqwPSWt7ZVOMsE/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-18T07:08:28.000Z"
-        },
-        {
-            "id": "NatXWU9mjpKnKGWiWlTRpQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/NatXWU9mjpKnKGWiWlTRpQ",
-            "title": "黄仁勋 GTC 2026 演讲实录：所有SaaS公司都将消失；Token成本全球最低；“龙虾”创造了历史；Feynman 架构已在路上",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjDLx6CBNpS6wAhlFPnn7FNkiapfMKGWZib3j12d5AooT90aeW1d8m2B0q3HI8JxZBIqFHiaBys0qSqTicq3icvgx3xkzTs1mzkERT8/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-16T23:21:05.000Z"
-        },
-        {
-            "id": "tLb9CWt5Jcyaq76HZZF00Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/tLb9CWt5Jcyaq76HZZF00Q",
-            "title": "手工软件工程师的时代已经结束！一位连续创业CTO的判断",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgVVmzwFiaejA2xD4pvBlvsoHu958d6FSfn7b3zNw6tn9hJjWmqhJha1zp16EoAAeLfq4DjaY45RsmJk6NRPAbKibicw3QtFxrkHE/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-16T23:21:05.000Z"
-        },
-        {
-            "id": "buc3H3M1gopunWKi_Ahaeg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/buc3H3M1gopunWKi_Ahaeg",
-            "title": "工业级 LLM 数据工程：北京大学 DCAI 团队 DataFlow 框架的架构设计与实践",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhxgdD78IzegexpN0FvC6WAVic7pegtz5mZZ5iasLpwABH4yVDyB7ian3TZa3H8LPl5yvQ8Uwxa9Y5vVoW8d8YuSXuNiaggsiaibRPpw/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-16T23:21:05.000Z"
         }
     ]
 }
