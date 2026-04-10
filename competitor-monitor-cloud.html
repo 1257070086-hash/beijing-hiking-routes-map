@@ -610,6 +610,10 @@ const AI_BASE  = 'https://api.deepseek.com/v1';
 const AUTH     = '';  // WeWe RSS 认证 token，本地使用时按需填写
 const PAGE_SZ  = 25;
 
+// 静态快照 fallback（Mac 离线时读 GitHub Pages 上的 JSON 快照）
+const SNAPSHOT_BASE = './data-snapshot';
+let usingSnapshot = false;  // 标记当前是否在用快照数据
+
 const COMPANY_GROUPS = {
   '行业资讯': ['MP_WXS_3223374696','MP_WXS_3572959446','MP_WXS_3254144461','MP_WXS_3539511831','MP_WXS_3077993707','MP_WXS_1432156401','MP_WXS_3073282833','MP_WXS_2390142780','MP_WXS_3236757533'],
   '字节跳动': ['MP_WXS_3231231509','MP_WXS_3293283359','MP_WXS_3930693616','MP_WXS_3253632141'],
@@ -664,9 +668,23 @@ async function init() {
 // ═══════════════ SOURCES ═══════════════
 async function fetchSources() {
   try {
-    const r = await fetch(`${API}/feeds`);
+    const r = await fetch(`${API}/feeds`, { signal: AbortSignal.timeout(5000) });
     sources = await r.json();
-    sources.forEach(s => sourceMap[s.id] = s);
+    usingSnapshot = false;
+  } catch(e) {
+    // API 不通，尝试读快照
+    console.warn('API 不可用，切换到快照模式', e);
+    try {
+      const r = await fetch(`${SNAPSHOT_BASE}/feeds.json`);
+      sources = await r.json();
+      usingSnapshot = true;
+      setStatus('⚠️ 离线模式：显示快照数据（Mac 未连接）');
+    } catch(e2) {
+      console.error('快照也读失败', e2);
+      return;
+    }
+  }
+  sources.forEach(s => sourceMap[s.id] = s);
 
     rebuildSegmentButtons();
 
@@ -724,8 +742,16 @@ async function fetchArticles() {
   setStatus('读取文章…');
   const results = await Promise.all(sources.map(async src => {
     try {
-      const r = await fetch(`${API}/feeds/${src.id}.json?limit=100`);
-      const d = await r.json();
+      let d;
+      if (usingSnapshot) {
+        // 离线模式：读 GitHub Pages 上的静态快照
+        const r = await fetch(`${SNAPSHOT_BASE}/${src.id}.json`);
+        d = await r.json();
+      } else {
+        // 正常模式：读实时 API
+        const r = await fetch(`${API}/feeds/${src.id}.json?limit=100`, { signal: AbortSignal.timeout(8000) });
+        d = await r.json();
+      }
       const items = (d.items||[]).map(item => ({
         id: item.id, title: item.title||'(无标题)', url: item.url,
         image: item.image||null,
@@ -757,7 +783,7 @@ async function fetchArticles() {
     document.getElementById('warn-bar').style.display = 'none';
   }
 
-  setStatus(`已同步 ${allArticles.length} 篇${emptySrcs.length ? ' · ' + emptySrcs.length + ' 个账号无数据' : ''}`);
+  setStatus(`${usingSnapshot ? '📦 快照' : '✅ 实时'} · ${allArticles.length} 篇${emptySrcs.length ? ' · ' + emptySrcs.length + ' 个账号无数据' : ''}`);
   updateStats(); updateCounts(); renderSidebar(); render();
 }
 
