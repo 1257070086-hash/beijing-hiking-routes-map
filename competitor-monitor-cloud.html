@@ -605,7 +605,7 @@
 
 <script>
 // ═══════════════ CONFIG ═══════════════
-const API      = 'https://wewe-rss-6t29.onrender.com';
+const API      = 'https://wewe-rss-production-7e37.up.railway.app';
 const AI_BASE  = 'https://api.deepseek.com/v1';
 const AUTH     = '';  // WeWe RSS 认证 token，本地使用时按需填写
 const PAGE_SZ  = 25;
@@ -751,7 +751,7 @@ async function fetchArticles() {
     const wb = document.getElementById('warn-bar');
     document.getElementById('warn-text').innerHTML =
       `以下账号暂无文章：<strong>${emptySrcs.join('、')}</strong>。` +
-      `请在微信读书 App 关注后，到 <a href="https://wewe-rss-6t29.onrender.com" target="_blank">WeWe RSS 管理后台</a> 删除并重新添加这些账号。`;
+      `请在微信读书 App 关注后，到 <a href="https://wewe-rss-production-7e37.up.railway.app" target="_blank">WeWe RSS 管理后台</a> 删除并重新添加这些账号。`;
     wb.style.display = 'flex';
   } else {
     document.getElementById('warn-bar').style.display = 'none';
