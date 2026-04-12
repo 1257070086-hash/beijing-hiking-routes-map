@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "ekGkTzA6CqUqP4ZdC9dHmw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ekGkTzA6CqUqP4ZdC9dHmw",
+            "title": "这大概是我读过最硬核的一次 Linux 内核重构文章了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz907JiaSAm6PnTrVE0A5Y1ZF3QyfuP9C4fZEMEicNlOohSKoBMMWU5bEzNsxicHoFCy6FziaL3S1ib1MDvMGGATiblS38gDBiaj2Z6EWpOc/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-12T09:51:09.000Z"
+        },
+        {
             "id": "QcJD7yAAs_Ft-gD9uBV4rA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/QcJD7yAAs_Ft-gD9uBV4rA",
@@ -798,14 +806,6 @@
             "title": "2025年多款Deep Research智能体框架全面对比",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauuEr2pwP4DH8OOXmicu92eYvfZYhfJaD0icseCW15LUQib6kzKdV4BXUr8VHthxymyfDJAMl4nzlIUg/0?wx_fmt=jpeg",
             "date_modified": "2025-08-08T09:37:02.000Z"
-        },
-        {
-            "id": "1u6PvJsWldnKskAEoqbxcw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/1u6PvJsWldnKskAEoqbxcw",
-            "title": "AI时代下，程序员还有必要系统性啃书去学习吗？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvatQ9jepCt5eibxNTK5bkbicaRs4KtzBKjWVneBtDwv5eFTvT2M81AyseagH5cLGr30132EjD96A3ooA/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-06T10:03:17.000Z"
         }
     ]
 }

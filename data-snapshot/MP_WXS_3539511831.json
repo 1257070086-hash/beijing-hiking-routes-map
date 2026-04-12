@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "qDvZgTjL7t2Obh3zWntUPA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qDvZgTjL7t2Obh3zWntUPA",
+            "title": "研发少4成，蔚来2025年减员10,603人！",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/oQjET7dYAzz6rxLOeaUOMibQV50ED9WUhxrR3UbsjzAE2sF6AkXB67hVchV6WhvQjIEHmQ84BMjbZEMlXKWntZN3pbicT4BTOvo7lfFEW4lOg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-11T07:46:00.000Z"
+        },
+        {
+            "id": "u1abEsn36yCYRPDfudl4RA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/u1abEsn36yCYRPDfudl4RA",
+            "title": "腾讯2025年员工流失率下降至15.9%！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/oQjET7dYAzxltJOoIedEHEViaX1MgCBGzfAKV77TPW3K5F4PIqes7Q9OXjChpciajEmjyHPhoMcicc9ZHU8LrU4XHk8gEPE2tQCSxHh5BlYQibw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T02:21:52.000Z"
+        },
+        {
+            "id": "_hNhzDr9EOyi8lPXg3MVSQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_hNhzDr9EOyi8lPXg3MVSQ",
+            "title": "百度校招专项｜PSIG事业群星海计划启动，就等你来投！",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/oQjET7dYAzyibiciadH8E6v54n1cJFx0oDPoA3ibBrC6YUib9Aibzb07c4wibLBjGia1CicWw8YX0OgOrnqSpuGIknBmzuVajibPQpdtmfq49fOPjPG1k/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-10T02:21:52.000Z"
+        },
+        {
             "id": "TV-ZJr573lqHZtZj1-pC8A",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/TV-ZJr573lqHZtZj1-pC8A",
@@ -784,30 +808,6 @@
             "title": "蔡崇信All-In 2025访谈现场（附原文）",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2KbBPUmxLw4QCUO8J5MCUkRu3Nk69fzeLWOibrY3EhGQUVDQSlyntmq4jth8I6Lc0qmiaibda6FvEkPQ/0?wx_fmt=jpeg",
             "date_modified": "2025-10-09T18:07:21.000Z"
-        },
-        {
-            "id": "8yvM5XzvaFPvHtoSt-g3-A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/8yvM5XzvaFPvHtoSt-g3-A",
-            "title": "刚刚，飞猪的“十一”战报太意外，OTA有戏看了？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2KbBPUmxLw4QCUO8J5MCUkRqWt1D9kTw8a4TssCrvyLUoByTcBLb87hiaASbGhveUxribcPsaib24Fcw/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-09T11:17:53.000Z"
-        },
-        {
-            "id": "qLVEI6-n-L82G_ZZSZm7Og",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/qLVEI6-n-L82G_ZZSZm7Og",
-            "title": "作为大厂mentor，我们会留下怎样的实习生 ?",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2L4qg0j3icBxGeQAg75nEcqlWF8S7ibDJP29vLY7ibU6gfyP2Imm1BVEx7pFaeN2ThPtUMIcFKLDox1g/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-30T16:24:51.000Z"
-        },
-        {
-            "id": "IS_NSqloSnyiUHF8PkJDKA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/IS_NSqloSnyiUHF8PkJDKA",
-            "title": "被开除，她将公司告上法院，获赔992876.07元！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2LsTU5jy0zBn3W1vMiaPzEJe1Y3p8R67mnSOfW3LkJrxwXd9icb5qAVqu4QXFXrhlNJd03ib8V2zUP0g/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-29T11:26:52.000Z"
         }
     ]
 }
