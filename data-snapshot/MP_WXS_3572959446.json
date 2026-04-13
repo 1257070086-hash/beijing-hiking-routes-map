@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "kVJZjb6tK4MgVABL_aEFvg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kVJZjb6tK4MgVABL_aEFvg",
+            "title": "战争、AI 与投资：赚到钱的人都不看霍尔木兹海峡堵了多少桶油",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYVMTqSPNuzXxVzLYx6I9xgwJl2ibiaf2JjSkaISuRKeNSoorqB7WoQvureALG7yc9zcRlZXKsp8S3aloqP0PsxjgiamwgYSAmVAHQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-12T02:51:36.000Z"
+        },
+        {
             "id": "LLm28-dqOdyv5SV8OVuivw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/LLm28-dqOdyv5SV8OVuivw",
@@ -800,14 +808,6 @@
             "title": "八年了，又一个 “茅台魔咒” 挑战者丨晚点小数据",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5sjqhCA2py5AOgXfIA7kSnyRufhvHOr5jGspgo7pN12Jrf4nyjhv0IEHk4STxBP7ulCPdgt8DBm1g/0?wx_fmt=jpeg",
             "date_modified": "2025-09-01T14:58:41.000Z"
-        },
-        {
-            "id": "Z3ULaXIUfZJrQ1FKduc-yw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Z3ULaXIUfZJrQ1FKduc-yw",
-            "title": "麓湖 CPI ，一个以卷对抗内卷的零售地产实验丨晚点周末",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5uKGqgibxUssfb72HibTp6BIaQTNzantiaSEkBmHibVoiaogicXMeKsrn0nRfBjb4BWBiab5gM4ghZOOiac1w/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-31T12:11:11.000Z"
         }
     ]
 }

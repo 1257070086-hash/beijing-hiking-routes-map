@@ -10,6 +10,70 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "K26nAC9Xzsr4lQe3qP3Nog",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/K26nAC9Xzsr4lQe3qP3Nog",
+            "title": "“我开始失去写代码的能力”：开发者直面 AI 编程的真实代价",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhauoS83318bCm5vKhpXnKcCibGflsnXaKxmCO4zlc5HXC8N99sF8v1o2QElZAPPVXOIfOz0vX9wqY8gEbA5P08qKia4r1M89xns/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-12T02:16:05.000Z"
+        },
+        {
+            "id": "bKSUW3qbjjPSwK4u195Jdw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bKSUW3qbjjPSwK4u195Jdw",
+            "title": "10岁孩子都能训机器人！对话松应科技创始人：做物理AI界的“安卓”挑战英伟达，正将其开源开放",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiayfVY2iaicmEXEbOlDtszLBIMY5X8OHTpZNBSz0VtO6KicMx8YtibTAoxKqMQQ2xC2M7rhficXZosNu6M9LicnVLuzmsKRDODpg4sRA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-12T02:16:05.000Z"
+        },
+        {
+            "id": "dg2cA_p0We3Q656YbMubyQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/dg2cA_p0We3Q656YbMubyQ",
+            "title": "Istio 引入多集群、环境模式及推理功能，应对 AI 时代的不断发展",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaz2horIVTx1SNXHzWFq6gmWcYtwl7pqBiaOJT82O3u0ib2BRKGricBuUnLh7m5aTDW5ibhfsp20eEXdag93hxsbaZm17JBOQTEOss/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-12T02:16:05.000Z"
+        },
+        {
+            "id": "_OmDgfFo88OmGIbuJwg7ZA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_OmDgfFo88OmGIbuJwg7ZA",
+            "title": "TigerFS：将 PostgreSQL 数据库挂载为文件系统，面向开发者与 AI 智能体",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjwh2S67pPrWrAx30o8yTzzcLXlq8yiayReDj4PrRfHgTKIp87bMaCRWESibZakwz4TB7f7KicnCicqZbeApUUpvSFZQsa5t6h2EAA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-12T02:16:05.000Z"
+        },
+        {
+            "id": "jgGif46VXOYw1CyjsTkvyg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/jgGif46VXOYw1CyjsTkvyg",
+            "title": "从拒绝AI到一切先问Agent，DHH：这是我最爽的编程时刻之一，但程序员黄金时代到头了",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiayywib9MMianoLU3nrMLo8LIw1VkRjmhUFxCZYb3E94aYJMUtwJvfF479JcOK6z4UVLLYYNsPxjcMak7EnO2d4EZtuzIyEwAjJw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-11T02:15:50.000Z"
+        },
+        {
+            "id": "6wCbAAtovhulsMpzVjIdpA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/6wCbAAtovhulsMpzVjIdpA",
+            "title": "AI 原生软件工程的可观测性与可控制性",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjZCTbAq6epXx2ibK2Bclq5Hic8Uw4HXWjt4tufkdHZkvWWkwLzVujmiclicT3xciaMYUzlAVzskkN4LICBq4DdOMpmRqZibSgQdSia88/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-11T02:15:50.000Z"
+        },
+        {
+            "id": "UWo_G_K4GoVgHZAH55KyWw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/UWo_G_K4GoVgHZAH55KyWw",
+            "title": "Claude Code 生成 13 种编程语言代码基准测试：动态语言更快更省成本",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjf5vHINL94HGqOIswNj54rl4OicdYqaSHwHJkZlcQibewqjad0bh78rzELLicSWP43y0IahAc20Bxic2dZdZdaUDibnaFMSrDGEWOA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-11T02:15:50.000Z"
+        },
+        {
+            "id": "e6ZWvcPk2WFV-hBtBf5TZQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/e6ZWvcPk2WFV-hBtBf5TZQ",
+            "title": "Swift 6.3 来了：不止 Android，C 互操作能力也更进一步",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjZI4SV3c2FVNtalo5ibHiavMeXeWdPYicFjibae79meTib0U1eXaru0LUNF6wzctlx75a3katxWO0wsib8icQ5p8m7ia8hFqpHIhLP0YA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-11T02:15:50.000Z"
+        },
+        {
             "id": "5LWDFIMFnYgxmsd4uOj4kA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/5LWDFIMFnYgxmsd4uOj4kA",
@@ -744,70 +808,6 @@
             "title": "大模型记忆系统 MemOS 2.0：StarDust 技术演进与关键挑战｜QCon 北京",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhG6gxwzThnKBFBibRuIB5hiaib3k5eiaiaBao4icbwianYx0smAaWC2pic6z4k7Db8Ut1KNAZckuVCxYCBxxKWHzIs8CpibIB3uqWoT3m0/0?wx_fmt=jpeg",
             "date_modified": "2026-03-20T08:07:35.000Z"
-        },
-        {
-            "id": "3J91W1d3Ibt2QOScnOgokQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/3J91W1d3Ibt2QOScnOgokQ",
-            "title": "把 MiniMax M2.7 扔进真实业务里：它替我省了 BI 和程序员的钱",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhlKnmr0nxNZoozX8ibYBp4LgXiavkBlaUnaxFsXXv7bqndtKoaIgAkT6xsscRjXOibNyeyb9GXMYzg8D1eAjic5oBiaUeVCNVDdVyE/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T13:00:46.000Z"
-        },
-        {
-            "id": "27yxwqb2C2m1HzD2JT3Arw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/27yxwqb2C2m1HzD2JT3Arw",
-            "title": "从Demo到产品，这场AI实战迎来最终验收 | AI Hackathon Tour 高校联赛",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhIceMWrctyLJA0myZiaK51KnN3cyDGevibmYvOzCeEuicTBMpfKh0zNA0SLqypicTPWLccUzRTiaz9Fxg13uUszDtlQSr6D9rsXmCY/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T13:00:46.000Z"
-        },
-        {
-            "id": "d7XEO9bitJiib2QzOz5cLQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/d7XEO9bitJiib2QzOz5cLQ",
-            "title": "极客部落“OPC 创业者招募计划”正式启动 —— 携手朝阳区赋能 AI 时代独角兽，助推人才高质量发展",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjVIW0r2DZ8iceEN6tSwXcxaP4CJqU8laQtxGb90O02RCUib3aiarot2HFQwOOfyeJj3QGhkmIvKiaiarXcmibOMbrRmRegrfoPicptFM/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T13:00:46.000Z"
-        },
-        {
-            "id": "dFKO-mFgvoxemiF_39Y5xA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/dFKO-mFgvoxemiF_39Y5xA",
-            "title": "作业帮Flink On K8s落地实践",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjY9u26JBnFbUaIBZHIcZjL4gYH1FfwtefPy20NiaZQhicIiaUnHC80Xnm7YKDjicaegaD7icQ5Go4RXLddVVKVJEN4LAmSVicT8v1oI/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T13:00:46.000Z"
-        },
-        {
-            "id": "Gpyiw-aqXEDvM3TEqs6tsg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Gpyiw-aqXEDvM3TEqs6tsg",
-            "title": "用AI搞鸿蒙，把大家干失业？| 直播预告",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhe134THzJJQHdiaIFxEqbLQVLcpP05uMjjNibLlyxJW6icO6ceEHibUBljRSv9oojvhlCZoRv4eRibFfKZnZasx1mfAYxdpr7e5t7s/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T13:00:46.000Z"
-        },
-        {
-            "id": "CBTum9mKgbAFiYEsvSx7Sg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/CBTum9mKgbAFiYEsvSx7Sg",
-            "title": "发 token 当工资？工程师不只拿现金和期权，开始按 token 分身价了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgGecZf34FyTQ1iaVPsYn1rLgNJFpqxdSdia045dNuQRpf8lKNicHS4ylpvPcGHbJ5a7ekmlcBgfhX5oT0VDgDTg9HibicHsXVTqKp0/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-18T07:08:28.000Z"
-        },
-        {
-            "id": "-IXK_LZEdOqwfAvh2ODjYA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/-IXK_LZEdOqwfAvh2ODjYA",
-            "title": "AI 编程正在终结框架时代",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiaw9j3R6HnkFxTnQ4RiaSW0YUBTKPjyWfaGfHK3LsclBqZ6VfUiaVAWibMmeOGs9lRH94SwjuEN6Q2JxlXsY2rCZ3LWrkNLLk6NGc/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-18T07:08:28.000Z"
-        },
-        {
-            "id": "iHx5lQ4vKRVTKaaz1rcFxg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/iHx5lQ4vKRVTKaaz1rcFxg",
-            "title": "TDSQL Boundless：AI时代的多模态数据库",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhoo4miauqtcIiaomEEF4VrtF9Snz3QlCjicuGfcCFfVIcZttX18CYmibkibdcco5rN8l2mfaedpYByYgukWmcBIeib4M2EMDwtAk5xY/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-18T07:08:28.000Z"
         }
     ]
 }

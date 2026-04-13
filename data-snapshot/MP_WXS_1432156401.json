@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "XsBbG7lVfwU5zwue9u-yUA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/XsBbG7lVfwU5zwue9u-yUA",
+            "title": "中芯国际，273亿折旧不可怕",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/87nD5Qvn8kKr5GzrDZ8oE0kwOLjiaAFaCt2UHCZhrlibFWG3DhKkgxEPYVpvXtutq9yOAKPHhgibn78rEnWuStT6KrN64hyoIT4eDoS4tT6suE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T00:22:34.000Z"
+        },
+        {
+            "id": "PUd6W4Lloy3szTdbZOc4Iw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/PUd6W4Lloy3szTdbZOc4Iw",
+            "title": "早报 | 美军13日开始封锁伊朗港口；国际油价飙涨，黄金白银跳水；王石回应被抓传闻；云南农信社回应招聘被质疑“萝卜岗”",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/87nD5Qvn8kKvXP0vickot7BvAKkianAVh5jP43RB6AcZKqMxObhA3oyGV1pV3EViac2E0GsJDPib5Qlia9YwOO3bOCCSqHpGyLic8wr1DxmyYiaK1s/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T00:22:34.000Z"
+        },
+        {
+            "id": "1HUxtkGkqPW1Ss0AkNUfoA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1HUxtkGkqPW1Ss0AkNUfoA",
+            "title": "我们需要什么能力驾驭越来越强大的AI？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/87nD5Qvn8kJR9KxCoHD5kSKPxqST5nfTr6wptnGG6goI43JrANYEpevO5rItFGmYkD1iaZbSseUJCBe1XrruLOUXdiaZ15uaAGvZnEdjAjTRs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T00:22:34.000Z"
+        },
+        {
             "id": "vcOJGcIN2MQaLRfNPK_RUg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/vcOJGcIN2MQaLRfNPK_RUg",
@@ -784,30 +808,6 @@
             "title": "张雪背后的那个人，让F1估值狂涨500%",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/87nD5Qvn8kJ6ZJlB8nkuXHtNvf0KoklhnGiaNL6ugf3VKpfa9xNKJJ8RkG3SJ2SYW4UaOBmicHok3O5C14m4ApkC3S39Q4vKy56SlpA9EECyM/0?wx_fmt=jpeg",
             "date_modified": "2026-04-03T09:49:42.000Z"
-        },
-        {
-            "id": "yKZcE968cH9LNayvQ0I-SA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/yKZcE968cH9LNayvQ0I-SA",
-            "title": "雷军的考验还没完",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/87nD5Qvn8kIcIiazS32wmtPEbKKQ6coLqSfN7cbPEm6czAyvnvwdWmqbZyUVibgMGibBu13oiclgNdVdWqbVwHot1C9eYGibbtkCHIyqeWn5IG6Q/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-03T00:29:10.000Z"
-        },
-        {
-            "id": "xjCOlU9_bYR17woXmSEzsg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/xjCOlU9_bYR17woXmSEzsg",
-            "title": "早报 | 伊朗称袭甲骨文数据中心遭否认；特斯拉Q1交付不及预期股价跌超5%；三部门约谈抖音淘天小红书；美油暴涨近12%",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/87nD5Qvn8kK8wgDu5qMCKQypvz3bukDh6rp08MFsHHhshULsGFxia1tZK49gLscqIqlhh7lSib1l0icvh5gJKhuibRPNXDXy8zdlaleeDtNk2iaA/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-03T00:29:10.000Z"
-        },
-        {
-            "id": "TF4wJSwW48fOQXcH7WKnQg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/TF4wJSwW48fOQXcH7WKnQg",
-            "title": "石油从来不是美元霸权的基石",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/87nD5Qvn8kLUjRa335hOTngShBE7eKaI8IIxricLrlnaibjGiaKDyPVficIOua8wU30Av12nyGSJ830hlVicG4ibRicsia2Ym5l7xe1YUJ0ibSAAxTJI/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-03T00:29:10.000Z"
         }
     ]
 }
