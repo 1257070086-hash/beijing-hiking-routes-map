@@ -10,6 +10,46 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "6K49UyVZbhNglw4-EMjG4Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/6K49UyVZbhNglw4-EMjG4Q",
+            "title": "世界变了、Linus妥协了？AI代码可以进Linux内核，但出了事人来背",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhRsYjRp3IlDP0DeLict1zFUNgbphktpEDdVia3DMGr6PZpIYl3ulZ1OYibkT7BMQTNoJrIF03w4Rtl9oPSW1ol0mY4RC3bxscudA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-14T04:12:49.000Z"
+        },
+        {
+            "id": "jYJiIWY0XXo-nPXQrA-MJg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/jYJiIWY0XXo-nPXQrA-MJg",
+            "title": "Meta 143亿挖角后的首个作品：Alexandr Wang 推出闭源模型，杨立坤点赞",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjatPGNf4W1iaEhX8jR0VzvDgKNL1mqzACL0IVMteKjO8icEfburWia2GRdm4A9d0mscv8uiaTyn4vZwDC45iaD2pRqUAwqG1ia1LUlk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-14T04:12:49.000Z"
+        },
+        {
+            "id": "9cU5qErR5vCfim7jIhZmRQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9cU5qErR5vCfim7jIhZmRQ",
+            "title": "大规模替换数据库序列，保障百余个服务平稳运行",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNianAtUpvDkqpicb87WqRH9TksYahv8QHMzWQMt5VYTvkgepl3RQlpWxVhf2BdIh9qDu7QMO3r2eyu7tE3ibwDuPMSw3huMno4xuM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-14T04:12:49.000Z"
+        },
+        {
+            "id": "fKZJcBebRb_1bV56G0tZEQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fKZJcBebRb_1bV56G0tZEQ",
+            "title": "Cloudflare 推出 EmDash，瞄准 WordPress 的下一个十年",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgFe28Cyyj5UGE8heHUj4Y1N6rargBqeOVuksYGibBFSTvGYxVRb5ZFFRJcwTTJBVKj3sekNFnibC6bSXPcQcAxLCMqibIFCO3GCY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-14T04:12:49.000Z"
+        },
+        {
+            "id": "1Mdi9tknaiKlS454558CJA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1Mdi9tknaiKlS454558CJA",
+            "title": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon 北京",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaHsQJd4lbllexfI5aNPoUkV2G9C87VrJKREM81kcG5GHShzUaVBsS73tI8ycQ8JVyVkXH9UxPYq9L2Qdcia8uYn2ShFr1SWqkM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-14T04:12:49.000Z"
+        },
+        {
             "id": "M46-Tw5l_jhZ8sncf_Triw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/M46-Tw5l_jhZ8sncf_Triw",
@@ -768,46 +808,6 @@
             "title": "英伟达改卖Token？黄仁勋GTC后发声：token就是AI新通货，值钱的不是算力，是“每度电的智商",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjjlofNb46Vt49BMAaxEQuptXBMicpSYeDMUy83INsq9SZhCLPib86Dtecf4ib4FmlY76J6fa6PT5BNlIvEjibTUMx6uPQbOjIQrls/0?wx_fmt=jpeg",
             "date_modified": "2026-03-22T02:15:57.000Z"
-        },
-        {
-            "id": "n7Z4iE0iuKlEmUD4bAS31g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/n7Z4iE0iuKlEmUD4bAS31g",
-            "title": "AI两天推翻20年工作习惯！Karpathy百行代码开源项目“封神”，AI替你通宵肝研究、战绩可查",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaj4CbPsicP0255r5zBVWo9LrFAfpjcvdCVUqXuYYUNLia3XDUT3iauDgRWfDjOKWMm4iaQ2GBia7eFfxZ5R3X3mJtEwSqQYS6rgnd4/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-22T02:15:57.000Z"
-        },
-        {
-            "id": "1JyhabvaFhCzawVDaOt0QQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/1JyhabvaFhCzawVDaOt0QQ",
-            "title": "从提示词到生产环境上线：智能体开发指南",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhZz7icS5jIibicdDeTmnCxekR5OceDIWJoE4bK0t2QEqPxnUyTicNGWf5qIhNU6iaqVVYBqdOSiczibCljukBt0aO5AplgjthCvsxB4w/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-22T02:15:57.000Z"
-        },
-        {
-            "id": "fStBAW4D_NsDRTMB1_zqEA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/fStBAW4D_NsDRTMB1_zqEA",
-            "title": "Moltbook 新规太狠了：Agent 闯祸全算人类头上，免责条款拉满！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNian1vz9BnZS4olTfFqicyR2wMRsd1pictiamJicnZSB8pnqj7pGIGNHQ3n8uEj4HBtaVH5n5YWTrjfp22zoz1yVcx5W4eAzzSNCHicY/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-22T02:15:57.000Z"
-        },
-        {
-            "id": "K-q7D4ArLuyh_DNysl5Yqg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/K-q7D4ArLuyh_DNysl5Yqg",
-            "title": "Cursor 新模型被指就是Kimi K2.5，联创回应：确实是，下次我们会说清楚",
-            "image": "http://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjjngGEMlF2jdVYqiaU2kFIsO0qsPIoW5hxZ67rUiccgexceh96VlYic9zCo81iaVZzHHBOGNV7hY1Qh00HV3k0k9LM1VSzp8PzVicI/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-21T02:12:48.000Z"
-        },
-        {
-            "id": "f_qtJvwF4KQIO9z7E02u8g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/f_qtJvwF4KQIO9z7E02u8g",
-            "title": "一条被开发者踩出来的路：OpenClaw“涌进”飞书",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgyyJKFEO1QuJqLAgyxSicibrfteFIicREPbWGBcSCIDhJzsdjEEX0osiaQ12m2atjIXZ2A5fFtmkcBaze4FiaInsYYALl4ial70icGN0/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-20T08:07:35.000Z"
         }
     ]
 }

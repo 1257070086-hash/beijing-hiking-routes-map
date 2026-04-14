@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "kmx3rzpKkv48A-8El40Vmg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kmx3rzpKkv48A-8El40Vmg",
+            "title": "问界 M9 从突围到引领，全新一代车型或再度重塑豪华市场",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/J3iaQ6X4GdYWwFoibticCplaVnFpczXibiaqW7BMLW806j3icVTicBMH9CGyFibPbEYBKxtjVRkDK9JIMaXxl4JaicQExT3e0icBAl2oiaZIVmicSZPJ8vM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T12:45:21.000Z"
+        },
+        {
+            "id": "9y19OPBM2FuCG6hjQwGl1Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9y19OPBM2FuCG6hjQwGl1Q",
+            "title": "“人类的带宽太低、算力也低”，agent 可以替人去工作丨100 个 AI 创业者",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYVFgg4VSCLjxZFqsJz0UazN9icCyvtPpkNfDXz4rPT0qUSxomfekSmO1qcj8ibshqKyUVhTT4lFicVXNusJkniaAgjpQyeAJqe7Csc/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T12:45:21.000Z"
+        },
+        {
             "id": "kVJZjb6tK4MgVABL_aEFvg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/kVJZjb6tK4MgVABL_aEFvg",
@@ -792,22 +808,6 @@
             "title": "全面换代，全新问界 M7 能否再成爆款？",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5vjTMmWaicgOqiaFsfYp8suFQSicPtiaqMGquicrSJzmT6Fzr2BlfqhZLdFM3dtsvsYmL5b3BuibM6oM1Ng/0?wx_fmt=jpeg",
             "date_modified": "2025-09-05T11:52:03.000Z"
-        },
-        {
-            "id": "wPmU6PljOhzO_diPXXXXdg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/wPmU6PljOhzO_diPXXXXdg",
-            "title": "小红书电商进入“新阶段”：加速引入 “好货” 商家",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5ttwk4AmE2ZJqWCJib2cKz25fvDZCZ6hDPA9lbSxMoMfHNblne0cy4Q6BRovIpcTedWcMuWBM5Ktzg/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-02T13:18:11.000Z"
-        },
-        {
-            "id": "LqqHf9vgruGKQ12_uHgSZQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/LqqHf9vgruGKQ12_uHgSZQ",
-            "title": "八年了，又一个 “茅台魔咒” 挑战者丨晚点小数据",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5sjqhCA2py5AOgXfIA7kSnyRufhvHOr5jGspgo7pN12Jrf4nyjhv0IEHk4STxBP7ulCPdgt8DBm1g/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-01T14:58:41.000Z"
         }
     ]
 }
