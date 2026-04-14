@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "KUms1kQMvLaC6b3Wol89qQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KUms1kQMvLaC6b3Wol89qQ",
+            "title": "刚说科兴倒闭，工信部就点名了！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/oQjET7dYAzxAGrkZKEJC41nbxtBPf35OwYlbAUzibC7O7KTQAqnx8ticY7aGpLewAqnOukQtuzGNp614us81DUibeEHyNIMUXuwr0raq1gv6yg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T09:51:11.000Z"
+        },
+        {
+            "id": "_pEkE9heilKshtbBg5nPpw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_pEkE9heilKshtbBg5nPpw",
+            "title": "美团社招 | 企业IT团队纳新，最新hc都在这了！",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/oQjET7dYAzxgPcKAWmoibzVj4Cl0oJcSy6ib6SIm9AibWyJxzUEJRFl3ZyMz9ibpwIMcwlpedEQgOyq1ppYqY50eHn55l2QBuHtH3B2hN3pbWgE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T09:51:11.000Z"
+        },
+        {
+            "id": "1O_5uTVyjRksfu4zBrdXMg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1O_5uTVyjRksfu4zBrdXMg",
+            "title": "滴滴社招 | 桔厂算法专场，热招职位等你来投！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/oQjET7dYAzwdx6ichHT5FBxH9oibiciar6xz5SibFEJRDA4YJAHiagdvwlD6DsPkl4OQmkrzt7ZdrtZ5jQeLuKwHR6q5kTHf01Az43SYV4gp5jbIE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T09:51:11.000Z"
+        },
+        {
             "id": "qDvZgTjL7t2Obh3zWntUPA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/qDvZgTjL7t2Obh3zWntUPA",
@@ -784,30 +808,6 @@
             "title": "2024年香港上市公司董事薪酬榜：李想排名第一，刘强东第四，陈睿、李旎同上榜！",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2LfKal7z8Eb02V645u85q1L8SRh4t2A9bg3Maca5TnUnWlPr72UVx44wZGdpqXPrYwdxcX8ABXiaag/0?wx_fmt=jpeg",
             "date_modified": "2025-10-14T15:23:32.000Z"
-        },
-        {
-            "id": "njPEN0VZWGgyTINHrcslPw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/njPEN0VZWGgyTINHrcslPw",
-            "title": "10.13｜今天，互联网的“瓜”都在这了！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2LdYib3ricvYMtJ1OfBXbtgYR3eHF0PGcCibeNJA1HKbO7wOJOTKy1nzRwdgZhhIJZuQqKKN8lZ3BBRA/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-13T15:51:25.000Z"
-        },
-        {
-            "id": "8W72b5812AlFRHfj8R4t5A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/8W72b5812AlFRHfj8R4t5A",
-            "title": "微软跟eBay开始裁员了？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2IJicAk6vBUiawUHGucEOzhFJJyENBrAY4aWOB5rbJsiaKJOPDvTUCpicYibMcz4JouKlgy9dcNIq3UsBg/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-11T12:12:06.000Z"
-        },
-        {
-            "id": "_gZAthXfULZLUnZIrCBqHw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/_gZAthXfULZLUnZIrCBqHw",
-            "title": "蔡崇信All-In 2025访谈现场（附原文）",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2KbBPUmxLw4QCUO8J5MCUkRu3Nk69fzeLWOibrY3EhGQUVDQSlyntmq4jth8I6Lc0qmiaibda6FvEkPQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-09T18:07:21.000Z"
         }
     ]
 }

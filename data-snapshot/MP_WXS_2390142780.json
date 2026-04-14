@@ -10,6 +10,38 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "M46-Tw5l_jhZ8sncf_Triw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/M46-Tw5l_jhZ8sncf_Triw",
+            "title": "OpenAI 也把工程师经验“蒸馏”进 skill 了！Harness 爆文作者曝内部玩法：一个百万行代码系统，全程零人工编码和审核",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaeDsrxCqCRtlZZ4LUDg4bfzJobmP5lRXiayuxAeZG8xwRicyx7rul2ScQaIxfzJbU7wdQuyYnoP5wL8gmCCIBWEEvucRhupmzUg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T10:17:57.000Z"
+        },
+        {
+            "id": "ngyWfFVc-s8U-zPiCuGtGQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ngyWfFVc-s8U-zPiCuGtGQ",
+            "title": "明略科技吴明辉：企业级Agent的“精度陷阱”与人机协同重构之路",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgWoDk5wo9dR5GIdOEDU98ibdcHOu4QGwDP8TjgS6ufJ0dibiaS5bnfOH04wyO26ibBhBLGdnBlOWGQ5vZtiay4KtJGiagq5P6O0tfnI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T10:17:57.000Z"
+        },
+        {
+            "id": "R_veXax9vwifJzxmnv3NRg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/R_veXax9vwifJzxmnv3NRg",
+            "title": "神秘模型屠榜多日、碾压Seedance 2.0！背后竟是阿里大招：新部门首作实锤，引爆股价拉升",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjumnPzEl3MNibb2vbQU7cDbe8xpYqe2WicP6FFLEMIHOQLL4aCmicZAtRLYNcRVsHoUj744mh3jADgmq0d3ocUd2bicmcoYDGwRFA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T10:17:57.000Z"
+        },
+        {
+            "id": "MhcAKN1zqnpnXZKpStUJyA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/MhcAKN1zqnpnXZKpStUJyA",
+            "title": "谷歌开源 Colab MCP Server，AI 智能体可云端运行代码",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiacacb88w61IutgrgsV3HSw3C6WDxFwHgErLibDiaS2MJrwl6iawOUNjVeADibq3zwiaGAicwibpbmHyTd7w2icSCt3PkDqBIQnDTz2TZc/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T10:17:57.000Z"
+        },
+        {
             "id": "K26nAC9Xzsr4lQe3qP3Nog",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/K26nAC9Xzsr4lQe3qP3Nog",
@@ -775,38 +807,6 @@
             "url": "https://mp.weixin.qq.com/s/f_qtJvwF4KQIO9z7E02u8g",
             "title": "一条被开发者踩出来的路：OpenClaw“涌进”飞书",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgyyJKFEO1QuJqLAgyxSicibrfteFIicREPbWGBcSCIDhJzsdjEEX0osiaQ12m2atjIXZ2A5fFtmkcBaze4FiaInsYYALl4ial70icGN0/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-20T08:07:35.000Z"
-        },
-        {
-            "id": "Bfqk9wxbiX38gIgSq3asYg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Bfqk9wxbiX38gIgSq3asYg",
-            "title": "从云原生到 AI 原生：模型引发的新一代基础设施构建",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhIzffJE4GEdqDkY8VtxGcrPzOeFUsicg5ficOv5kicx2y6Bjnk6xzFibHHXsD8hmI5HBBHibnByLlv2pd3cSYCSYx6QXHJiahkuT1L8/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-20T08:07:35.000Z"
-        },
-        {
-            "id": "zTyJBc0RPIsADQXl93ceaw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/zTyJBc0RPIsADQXl93ceaw",
-            "title": "360 如何用 AutoMQ 解决千亿级 Kafka 冷读难题",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhh1ZSTKT8x5n7r6qemwKXleEG3psYDfo4HDkPAOr4ibvd8EabGRl5Qwvia490AoezwPrSgnQrU2gBarAuNGG7lrFO8XlmXtHIS4/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-20T08:07:35.000Z"
-        },
-        {
-            "id": "41rQyByK0K6JnDX9j_xP9w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/41rQyByK0K6JnDX9j_xP9w",
-            "title": "Grab 工程实践：将 LRU 升级为 TLRU，Android 图片缓存节省 50MB+",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgOYRTJs0bg22Us5aJibcya5xJPC9ZcM3vzwUUFicWwrkdK037ibreeYy8MwCNCGGNxibHM9cygqA6LozpSTHqUvB0sCLcaI6iaorics/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-20T08:07:35.000Z"
-        },
-        {
-            "id": "QX5L9BGh_-aqCxSY0h9o5w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/QX5L9BGh_-aqCxSY0h9o5w",
-            "title": "大模型记忆系统 MemOS 2.0：StarDust 技术演进与关键挑战｜QCon 北京",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhG6gxwzThnKBFBibRuIB5hiaib3k5eiaiaBao4icbwianYx0smAaWC2pic6z4k7Db8Ut1KNAZckuVCxYCBxxKWHzIs8CpibIB3uqWoT3m0/0?wx_fmt=jpeg",
             "date_modified": "2026-03-20T08:07:35.000Z"
         }
     ]

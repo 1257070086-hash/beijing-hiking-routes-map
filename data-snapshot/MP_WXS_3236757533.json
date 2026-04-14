@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "BtI_ceZp-oG5YNS17dwuug",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BtI_ceZp-oG5YNS17dwuug",
+            "title": "马斯克版微信亮相：支持中文，加密聊天，还专门防截屏",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGFU1hwibf3B0OjXiaNIpJz2IH0dvxticW57SiaDJOwiaJmQxRVZGbqdqvWMGFrq0RVCvf4vZFdUEZTelvycu5c06I0SNyh6f5YOQWXs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T14:33:54.000Z"
+        },
+        {
+            "id": "16uZcg5adOEB5EYtbdL-mw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/16uZcg5adOEB5EYtbdL-mw",
+            "title": "@所有人，2026真的需要自己上手用AI了丨年度AI盛会",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGEY3eL3TuibHuRqLWEq1Q7ltBFCeEo5XKDPVMHlw1VYkGcEJa9flIs9ibwNTNIqBUG2ias06klv6lnqNcH4ROe6QTZQxNnKhsTt4I/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T14:33:54.000Z"
+        },
+        {
             "id": "m1P0KXuGzgrS-D0K7Z1Bug",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/m1P0KXuGzgrS-D0K7Z1Bug",
@@ -791,22 +807,6 @@
             "url": "https://mp.weixin.qq.com/s/5wnScYck_VR3Wy-b3pcuAA",
             "title": "告别AI「鬼画符」！一行指令「复活」王羲之、苏轼，带连笔、懂排版，项目已开源丨ICLR'26",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGH6fZH3xYdVhkIiaXzJibMT7cfc9aezS9330Q8QO7ShwevGVeL7SHYm9xwbg48qwRbQJI8ialLSINfU6QwibAWPRMDqDwDSWTgqBQg/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-23T04:56:36.000Z"
-        },
-        {
-            "id": "Ih5shOj83h-4OzWSk7owLQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Ih5shOj83h-4OzWSk7owLQ",
-            "title": "一年一度最值得关注的AI榜单来啦！申报即日启动",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGHYMUW63xpzzsk1VDnHZVpVm4XibxJWu1r3cx8GzphyvwsEsUuicm1OKicXhy6zNu0QlxLtAWibibrQAXVTYhibBujCmC5ibQO8HFGdRQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-23T04:56:36.000Z"
-        },
-        {
-            "id": "5uqvGja4eNoXFhDCd-FpTA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/5uqvGja4eNoXFhDCd-FpTA",
-            "title": "量子位编辑作者招聘",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
             "date_modified": "2026-03-23T04:56:36.000Z"
         }
     ]
