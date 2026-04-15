@@ -10,6 +10,38 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "OjOh657LDzzq1WbgK-eVLg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/OjOh657LDzzq1WbgK-eVLg",
+            "title": "苹果疯狂狙击Vibe Coding App",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNheS5C16Jd6icuicbXQ8ZC9YISRwxTmJUVKHgRGennvygVnhBWgAYzXrBJYyrxwjDDyecpcP2Fu3dtL0upsdP4LQE4T5SUb39JHg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T07:13:27.000Z"
+        },
+        {
+            "id": "RgurJF9zM_lnPCkDhK3UEg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/RgurJF9zM_lnPCkDhK3UEg",
+            "title": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiatlTQf2spohDRnonslCNIABB37t9QOg0W2icvic8L5HJJ7wJH4ibU3WRZHp4TwjibuVqjoKwJyWzPy2KNnTs3QlNSJ23IxBZ37PiaY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T07:13:27.000Z"
+        },
+        {
+            "id": "BZ60PsSpDfsNR9Kh19JM1Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BZ60PsSpDfsNR9Kh19JM1Q",
+            "title": "一种可以减少 CI 回归测试套件规模的更佳方案",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNia5mT6YBYficVn3M3UOaP6Pqf59ia0LFWt3EaaO0SVITnhmO0rZWkmZVwicgujCeSGxvncgYJVZO3jiaWh4YfuqsyrQyFISf4OOo74/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T07:13:27.000Z"
+        },
+        {
+            "id": "tFk0iJ90nzQP_4EgJNTIKA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/tFk0iJ90nzQP_4EgJNTIKA",
+            "title": "Uber Hive 联邦架构：1.6 万数据集、10PB 数据去中心化，支撑大规模分析零停机",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjJp7KMy78cmqyctoiaahUm5cMDPKHbic1icOJcKuoibMXcAdw2NEYbwh6vicSw2BJ6lLNrZBEichzry7rRIuVfVgib7YhSicV3csvFUpg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T07:13:27.000Z"
+        },
+        {
             "id": "6K49UyVZbhNglw4-EMjG4Q",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/6K49UyVZbhNglw4-EMjG4Q",
@@ -776,38 +808,6 @@
             "title": "Agentic AI 时代，软件工程如何被重塑｜QCon北京2026即将开幕",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhK3m5HSjdXEUuBbLbEC2YvDR9HOzMxcsTKJ0CfKtDcsnaNbjSU2yrPj7icIuv3XMO4rC63COOwE2A14OiafWfqpDkic3EtsBm9b8/0?wx_fmt=jpeg",
             "date_modified": "2026-03-23T06:31:47.000Z"
-        },
-        {
-            "id": "UOkAwpD2sTlnO4z-kGjCVA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/UOkAwpD2sTlnO4z-kGjCVA",
-            "title": "Meta内部Agent失控升级：首个Sev 1级事故曝光，系统数据裸奔了两小时",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjNKnI8a6W7cvo0GWz4yBFTqAeJ7LWibEfzhibBsQmiaDeCnzrV70zh6vuyPNRJwquibYsGx13HCFTFrhGTibqJxPnchblibhBvrUxGA/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-23T06:31:47.000Z"
-        },
-        {
-            "id": "-9RC7EosIS6c5ec-wka3lg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/-9RC7EosIS6c5ec-wka3lg",
-            "title": "AI 智能体实践评估：基准、框架与经验总结",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgVcFX6fic9nVKtMqeibkKpCg9TBsepicG13h8BHNQAiauJsDU27KGoQ0MfYdebbqAXfxP9UQxuJAyZlLstk61obNDsD3Xyt5s0xicU/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-23T06:31:47.000Z"
-        },
-        {
-            "id": "lwW6VGKoBsPNZDJjRqZ71g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/lwW6VGKoBsPNZDJjRqZ71g",
-            "title": "Java 近期资讯：Apache Solr 10、LangChain4j、Grails、JobRunr、Gradle、Devnexus 和 Commonhaus",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjnvwxxhbfBuPQckGwIIoNS0RQibFic662zKHmia7Zh4WWesWMY2bptIwcTDnnzcE4R744xo4gdtcoyhZ0WJibm8nEIQJSlVNE13HM/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-23T06:31:47.000Z"
-        },
-        {
-            "id": "DjrUynpqSp5aIpWp3AyP1g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/DjrUynpqSp5aIpWp3AyP1g",
-            "title": "英伟达改卖Token？黄仁勋GTC后发声：token就是AI新通货，值钱的不是算力，是“每度电的智商",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjjlofNb46Vt49BMAaxEQuptXBMicpSYeDMUy83INsq9SZhCLPib86Dtecf4ib4FmlY76J6fa6PT5BNlIvEjibTUMx6uPQbOjIQrls/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-22T02:15:57.000Z"
         }
     ]
 }

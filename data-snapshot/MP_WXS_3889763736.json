@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "u0-tZEWTPX4Jh9y9EbVJ1g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/u0-tZEWTPX4Jh9y9EbVJ1g",
+            "title": "小红书 Relax 开源发布：面向全模态 Agentic 的异步 RL 训练引擎",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRnE9fs7OOgZzmUP2IVvVibuPx4kNwXZicb5K10gjyjFMb7icibSsrEf88kicknfFguUWpxYrgdVzyXD753JdIIZ2AXwOmf7X6Tia0RJ0/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T03:01:36.000Z"
+        },
+        {
             "id": "bZnwABi4XKTJCgvGhq-mYw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/bZnwABi4XKTJCgvGhq-mYw",
@@ -800,14 +808,6 @@
             "title": "小红书 X WSDM 2024「对话式多文档问答挑战赛」火热开赛！",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Isr8QtZHjVDkyMCmQA5HEOjjlshor8xHYicYy0MFsUKMtfzGB5JmXjWfibicK5GmFIQOSNruV2YzBEIQ/0?wx_fmt=jpeg",
             "date_modified": "2024-01-06T08:00:13.000Z"
-        },
-        {
-            "id": "E9znKeSLmyR55QWqpqMCxA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/E9znKeSLmyR55QWqpqMCxA",
-            "title": "聚焦QCon：小红书邀你一起探讨高性能网关、LLM 推理加速",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Is4k0r9JTszyyMPjlVeFeZGVwNS4mrSIRMB3wsu8g7W8LPpWtlkNTa4293S2SG1zZe8ibPjtziaodaw/0?wx_fmt=jpeg",
-            "date_modified": "2023-12-21T08:01:43.000Z"
         }
     ]
 }

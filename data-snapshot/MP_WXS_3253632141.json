@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "Pv1G52Zb41f4WAT7dGtNmA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Pv1G52Zb41f4WAT7dGtNmA",
+            "title": "CVPR 2026 | 火山引擎多媒体实验室提出TempR1，显著增强多模态大模型视频时序理解能力",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FedG5sVP3icUjKuI7LS5egLzMuYds9yZvS3zvcPBMDjbJndXTDzhyiaPDIibChnqQoa4DNjSTTGDJzSPP8fJibBUhQdQ68PSXBYaibvU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-13T10:05:06.000Z"
+        },
+        {
             "id": "zoUUNMukZ1nofI-qaD4V9w",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/zoUUNMukZ1nofI-qaD4V9w",
@@ -800,14 +808,6 @@
             "title": "Simple Editor - 高效智能地设计动效",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjHKbz95G5GeJUkkY3GOdKKibVa0mFtIjybxUYMhcMEUBYiaTgiby7Qvp021SVY2Zj4NbdDYxPDRbpqA/0?wx_fmt=jpeg",
             "date_modified": "2025-07-16T04:09:57.000Z"
-        },
-        {
-            "id": "EZYbSl4rDCIl5FxuZ1jT5A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/EZYbSl4rDCIl5FxuZ1jT5A",
-            "title": "让AI写代码，「多模态数据处理」实战指南",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgmvibqiahLXN2iaLJaC5Sic4YUiaZDAJob9uvLccj3TibdyVzGoY1WAFnoVUVGy0jFbqe43iaqnKYSMCGzw/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-14T03:26:17.000Z"
         }
     ]
 }
