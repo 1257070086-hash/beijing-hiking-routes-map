@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "mR1ySmzNKHkyj_34telSfg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/mR1ySmzNKHkyj_34telSfg",
+            "title": "高增长塑造了海底捞，现在增长结束了",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYUiaOzMiaSIqpyMZY52rukW8UGic8hPG9wOic4g6fTwzTqDttEicZQ4gLPgwfKB108qXMicNrA3X04mVY4k2k1PkCayAyic9PGYSJibU7w/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T16:14:46.000Z"
+        },
+        {
+            "id": "N7tKfNeEOAOHgES-4GK58A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/N7tKfNeEOAOHgES-4GK58A",
+            "title": "对话小鹏汽车刘先明：智驾软件可能接近天花板了，但物理 AI 刚开始",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYWvKPaHkn4icMxL2CeODEeLXCDzFrKVoNgV4edQVO0yq7WPTnJLdEdSM3JpL0aWdoQojLxJhWxicuZjicq2u7fF8Z4ZgCq1TzmUbU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T16:14:46.000Z"
+        },
+        {
+            "id": "Z1tnV-i4ZnksVskeZ4uAvw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Z1tnV-i4ZnksVskeZ4uAvw",
+            "title": "腾势 Z9GT 在欧洲为何敢定价近百万？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYV5E36LTWUEqV8dekQf1TAxebjicY8QkWicCq5INKT4AQhN7NPUVRw86lTbYwML8YzS9cJc4ORmGroPSGib0aguczLibVXjvAX4WKA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T16:14:46.000Z"
+        },
+        {
             "id": "kmx3rzpKkv48A-8El40Vmg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/kmx3rzpKkv48A-8El40Vmg",
@@ -784,30 +808,6 @@
             "title": "晚点独家丨字节组织变动，抖音电商有了更大自主权",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5tYibmvB0a3ftcvoDia4ot6dicXvNGtpbRnlEA4rMaTSaZm1n6iaNIE7a9L03am0Lxg1WAUcibhJaPD69w/0?wx_fmt=jpeg",
             "date_modified": "2025-09-08T12:09:00.000Z"
-        },
-        {
-            "id": "zkhPWCcoIxA5vUeYi7eQjw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/zkhPWCcoIxA5vUeYi7eQjw",
-            "title": "晚点独家丨阿里云首次出手具身智能，自变量完成近 10 亿元新融资",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5tYibmvB0a3ftcvoDia4ot6dicu0Fg0yDgniaIXUI86MAVsOHLPBkYJo7aymemibexwPfUsGODNcu7dBuw/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-08T12:09:00.000Z"
-        },
-        {
-            "id": "Ncch3T06MDxN4BT3K8X2Qg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Ncch3T06MDxN4BT3K8X2Qg",
-            "title": "夜生活综合体 INS 新乐园融资估值 26 亿元，新店后年开到北京",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5vjTMmWaicgOqiaFsfYp8suFQYrRCvPfMT4WtDlbicsKEUg0v7DnYmTYMyyCIdeKXr8FNGJbiaa5k7MFA/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-05T11:52:03.000Z"
-        },
-        {
-            "id": "i01qpm2lveBat4DH0QbzBw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/i01qpm2lveBat4DH0QbzBw",
-            "title": "全面换代，全新问界 M7 能否再成爆款？",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5vjTMmWaicgOqiaFsfYp8suFQSicPtiaqMGquicrSJzmT6Fzr2BlfqhZLdFM3dtsvsYmL5b3BuibM6oM1Ng/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-05T11:52:03.000Z"
         }
     ]
 }

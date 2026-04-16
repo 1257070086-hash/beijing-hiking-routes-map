@@ -10,6 +10,38 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "ZgjHRT5rXX0tLgR_YNUxYg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ZgjHRT5rXX0tLgR_YNUxYg",
+            "title": "AI提效20%，我们程序员加班却越来越狠：老板量生产力的尺子，歪了？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgxy2iaRdadxcpiabF0jVEIov70wZGGOMFv15B29sPFLAk5vDhwR9SoGjxLYvA6Z89ibYQcIh4HkcY0dqEBY6mFjdmAgMQiaTqicJibE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T02:15:59.000Z"
+        },
+        {
+            "id": "DxpA8qN0xX1RX08-PYciKA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/DxpA8qN0xX1RX08-PYciKA",
+            "title": "存量代码库难适配、人机边界模糊？百度拆解Coding Agent企业级落地的硬核解法",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhBU12TNPSNf46FJoVtE8HGGcpO2Zre2szicWHDXuIzEWlJl9Y0icP4LuUrMuPSqgZdIDR2ZdULG8yMicUG8ibudegs2WKIQtK3N3M/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T02:15:59.000Z"
+        },
+        {
+            "id": "fTRJHMhZXMUgjh9nUJOkIg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fTRJHMhZXMUgjh9nUJOkIg",
+            "title": "AI 成为主流负载后，数据基础设施将如何演进？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhTicrEcStBpK61P6cqQCpX9wib4gDKmUMyydBZVguq2KCCkz5ibVzGa14JxzI5Sc0zyibYs9dsplKm2EiaV8rq6qyq70HkjfXrMOQo/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T02:15:59.000Z"
+        },
+        {
+            "id": "E8a5-dL517N0vokb73ITwg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/E8a5-dL517N0vokb73ITwg",
+            "title": "首席工程师之路：培养领导力",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNia4TRbj9VLc1DkHfeuUnOY97iay099GDguez0nwSKQs21WHrJhv0VQ5l2OUn0fZ4jyxcwEv4BMI5htzxVibVPbsN1Foofz5Xn9sg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T02:15:59.000Z"
+        },
+        {
             "id": "OjOh657LDzzq1WbgK-eVLg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/OjOh657LDzzq1WbgK-eVLg",
@@ -776,38 +808,6 @@
             "title": "OpenClaw危了？Claude Code迎来最激进升级：AI 开始直接操控电脑，正面挑战 OpenAI",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgMzMHGAgTVnODQ8OUJ1ckuZKS2FoS7bm1yLw35CUvGHZoMiaFrbxKrlvw2XmUTdm7bMISW8OpngO6WFoam4J5cASxHncQib8V8s/0?wx_fmt=jpeg",
             "date_modified": "2026-03-24T05:29:52.000Z"
-        },
-        {
-            "id": "vtuL0s1k1cZXH6sH45Cc5w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/vtuL0s1k1cZXH6sH45Cc5w",
-            "title": "硬件成本直降60%！原生分布式VS传统分库分表数据库",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhKQa4gpk8ibcn4IcDdI9RogD5tgJLyEZ4RxoOqzwMvAPPOTRG7VxrcQrZdPojpZFicNPmnMsE6vv2zrX6moDFZniayiaNSCwibv090/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-24T05:29:52.000Z"
-        },
-        {
-            "id": "XWlRd7uAjzO-E6wdd_oQBg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/XWlRd7uAjzO-E6wdd_oQBg",
-            "title": "基于 AI 的机器人攻陷微软、DataDog 和 CNCF 项目中的 GitHub Actions 工作流",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgzeVAWufD1DyExibMcYJhEQOGfaZdML4etFFpGdz96FG3Gc7H13q9Gzz5GEXicL7avpcEPHD6lCuSzWicZ2c3xAlCicsXx0xsNIwM/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-24T05:29:52.000Z"
-        },
-        {
-            "id": "HzIs7ERIEP33eJZBPwe0AA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/HzIs7ERIEP33eJZBPwe0AA",
-            "title": "OpenClaw 进入产品和业务后：踩坑与落地经验 | 直播预告",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgXWEqeTS9yAxsAjnJRYfCUwgT5vc6nJVKega6IQbHKKlUibydbYWLrcGHjeeCkxUzv9vviaaE6SicBVxHLgaib9waG8ZJRuvK7few/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-24T05:29:52.000Z"
-        },
-        {
-            "id": "c5sBp4z4lkO2sWFhEecMmw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/c5sBp4z4lkO2sWFhEecMmw",
-            "title": "Agentic AI 时代，软件工程如何被重塑｜QCon北京2026即将开幕",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhK3m5HSjdXEUuBbLbEC2YvDR9HOzMxcsTKJ0CfKtDcsnaNbjSU2yrPj7icIuv3XMO4rC63COOwE2A14OiafWfqpDkic3EtsBm9b8/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-23T06:31:47.000Z"
         }
     ]
 }
