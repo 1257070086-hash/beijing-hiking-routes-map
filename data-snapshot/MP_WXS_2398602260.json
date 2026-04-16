@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "M-xrfkboccq6IMQlxYZwAQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/M-xrfkboccq6IMQlxYZwAQ",
+            "title": "装了N个skills之后，鹅厂员工觉得“最香”的是哪一个？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz904F7mnzPcyicy857YWxhNzXOu2V7EibnYiaCboKxaic7lD3BTQVw0le8zJZ0O2iahqMptfHFu5kjK7wgS6iaXUe1hojoE4dlseDciaxRI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T09:32:25.000Z"
+        },
+        {
             "id": "YAGaXOWh2GBPSNsQt5SlJg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/YAGaXOWh2GBPSNsQt5SlJg",
@@ -798,14 +806,6 @@
             "title": "迈向可信AI：LLM幻觉的分析与优化",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvav8Qetiap0nZEzEuAVmic7keWfpJB5jItQHicUIbMAFU7Vf3EcdAqUahQVWt9qXObuAVM2v1BwnG1BRQ/0?wx_fmt=jpeg",
             "date_modified": "2025-08-14T09:37:32.000Z"
-        },
-        {
-            "id": "ekNxpuq5wG8AN3GyF359hA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ekNxpuq5wG8AN3GyF359hA",
-            "title": "与Cursor结对编程的四个月，我大彻大悟了！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavZXrMiaKd4rky2Ye6nRzaGAD0V5sMsJ8l7ZLjNRTh8hbNVHthnZPZW5qicEVlNsT3t4QfOvRib8dOqg/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-11T09:36:44.000Z"
         }
     ]
 }

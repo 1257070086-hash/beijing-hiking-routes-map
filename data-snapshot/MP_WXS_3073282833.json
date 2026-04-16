@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "H7X6TGLLiBUFenEsC_lPzA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/H7X6TGLLiBUFenEsC_lPzA",
+            "title": "实测参考生之王Vidu Q3：这已经不叫AI生成了，这叫AI驱动整个剧组",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGM4ad7t1WG8yCYnseZ1CAE3zBBULQEevj9pLdibqTFYtiaapEticA1oAnoZOm7R4EAkZbgaIrLrdTZFVCcvUSRfiaQGxObACl6Ngw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T04:21:14.000Z"
+        },
+        {
+            "id": "YsbkUK3ql9UMOuoOMSsyGw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/YsbkUK3ql9UMOuoOMSsyGw",
+            "title": "刚刚，李飞飞世界模型开源了个渲染神器",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHMEicc81co7ic59ykLLiasDd7c0yEEn7Byk2Qicra6Jx715slLFcxdgoJLq8MbexofahicxIJj7AvXp7FLdkrZk7iavibdxwu5ObwdJY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T04:21:14.000Z"
+        },
+        {
+            "id": "QoXfElsL0UL8kAk_ThfYcw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/QoXfElsL0UL8kAk_ThfYcw",
+            "title": "北大联合Llama-Factory推出DataFlex：工业级数据动态训练系统",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqG3vibTLWBMkdwl3vkzH4j3BbNYXoR4OrTicagqqHbkbKdW1XNL4O4l6KLSTV39VNGo9JlY81bicfEdw0sBGR22Xt8AUmz93VhnXw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T04:21:14.000Z"
+        },
+        {
             "id": "4GBE4mjEPHVakZ0sGbuKlg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/4GBE4mjEPHVakZ0sGbuKlg",
@@ -783,30 +807,6 @@
             "url": "https://mp.weixin.qq.com/s/ja2RHpHwCRosGecTXdraMA",
             "title": "2秒终结AI 3D不可能三角，我们和VAST首席科学家曹炎培聊了聊",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEJgx43ZaDYb57HOh2dnhbz9icI4pbDjkGbj5aXgI3ftLpHtQ6c9ib7ohqIwQ5lrBB8UZHiargggZNf3UlSiblESqZwyLymaHYQLI4/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-12T09:27:19.000Z"
-        },
-        {
-            "id": "QRA-fQYLsiE9neaaINEaQw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/QRA-fQYLsiE9neaaINEaQw",
-            "title": "不用排长龙！JiuwenClaw助你一键养龙虾！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGanPJVMsdlFvnOX2Hg8oOFic1MGpofj1gtB6OQ2ZRwoeP2E9pM7Z9HX1SfibjzKDN0SLFohkwSaUZwqSkbeJhRry4Vkbl0AvCwU/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-12T09:27:19.000Z"
-        },
-        {
-            "id": "n5IKu-gopNgrA8jOIF0kkw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/n5IKu-gopNgrA8jOIF0kkw",
-            "title": "AI下半场的战场，从Agent记忆体正式打响",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFNcdFojXbyWxqiaExQmMFdtwwPcywRYhvVvTpORib3onszf7jSkJdA3BG9z74zOvcHh282A5IBpm5oZ1l1Rrq2U6o4YYQWicpicUw/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-12T09:27:19.000Z"
-        },
-        {
-            "id": "t0GF1V_jcmWyH3INHl_RsA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/t0GF1V_jcmWyH3INHl_RsA",
-            "title": "复旦北大联合美团LongCat提出TDAR：用“粗思考，细求证”破解Block Diffusion的速度精度悖论",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFX8r9T7mMasYshBTibgq4KkUjHQgSUS3gBrBBMxcaRs4Z3Jqm0vbAI3n6MEBPB98VrkgYnBbibxsy078WiaYaichjdtADsVwPYKZE/0?wx_fmt=jpeg",
             "date_modified": "2026-03-12T09:27:19.000Z"
         }
     ]

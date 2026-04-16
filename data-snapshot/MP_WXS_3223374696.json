@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "sMEFFKRKhZ9zI5dQl9m7qg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/sMEFFKRKhZ9zI5dQl9m7qg",
+            "title": "今日大厂员工事：美团陶雪璇调任点评；抖音成立红果电商新部门；携程组织架构调整；阿里百炼架构调整；得物考勤调整；百度徐博群调离原岗",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/MABFN5xh55xUwmtzIGzMAdT8rkO5k2kqNmVH8qbFG8VAceGJhdmuLkMU1icrKsgh10QgsvibDAmgMr3UbrRf4NSX1bIKgUIdSWaGtibee2SYGI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T05:22:01.000Z"
+        },
+        {
+            "id": "bYB1uRU4d1ggz0txGU4i2A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bYB1uRU4d1ggz0txGU4i2A",
+            "title": "国企、外企岗位推荐",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lBich4Tjxv4PUE9CIA72lYjqmLcicq3TbCHLtN9ClZTIY68sxmlAGgZBBTSD5fmyzY7fxFkh8MuxrLg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T05:22:01.000Z"
+        },
+        {
+            "id": "AZ29bsAlEa7iJw9K__NVgw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/AZ29bsAlEa7iJw9K__NVgw",
+            "title": "大厂日爆运营招募",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lA4CcWb4j1XUH6Fy6YHiaI63vjibalO1SdaJeTaWqnEo3ZC5D9cTpsdwTm8PB0OjX6Am70C4K0SyjicQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T05:22:01.000Z"
+        },
+        {
             "id": "i0fAqH20ylCckSgLDRfaDA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/i0fAqH20ylCckSgLDRfaDA",
@@ -784,30 +808,6 @@
             "title": "今日大厂员工事",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lDO3Anskgv8plVgrLIGFpojCIOiauAeicNl4mMOrFpehnbYQurPw72TBibwvE1eWeVEEt8lXB0Dcb4qA/0?wx_fmt=jpeg",
             "date_modified": "2025-02-27T04:18:23.000Z"
-        },
-        {
-            "id": "nKpVYkRJ07D_hR8Ri_H-Kg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/nKpVYkRJ07D_hR8Ri_H-Kg",
-            "title": "今日大厂员工事",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lAHiaDwpAPzcnshjgYjibRRYQ3WfYaic0iaLqiaVgWPbQbPMib1qh4f4F6UNX2Z6fVOs9c3fKNiaOiaCEHFtQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-02-26T04:16:24.000Z"
-        },
-        {
-            "id": "u6ilOBh9iXqOE22HV77lKQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/u6ilOBh9iXqOE22HV77lKQ",
-            "title": "从大厂上岸军队文职，经历分享",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lBEzmVTibdwhWiaPDRlaqbOibD6aY8Qg8lpXniactr1b33g8Y8tSSAR2vEU7y1a9Vx9tYLrsIGb21iaLkQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-02-26T04:16:24.000Z"
-        },
-        {
-            "id": "RP1hj0WSjvLnCtfblbkwRA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/RP1hj0WSjvLnCtfblbkwRA",
-            "title": "阿里P7前端转型数字游民，经历分享",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lBEzmVTibdwhWiaPDRlaqbOibD6aY8Qg8lpXniactr1b33g8Y8tSSAR2vEU7y1a9Vx9tYLrsIGb21iaLkQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-02-24T05:48:04.000Z"
         }
     ]
 }
