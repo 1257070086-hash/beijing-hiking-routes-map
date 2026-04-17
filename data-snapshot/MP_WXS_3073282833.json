@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "8iMI1UJB9FM5soVWU_be3Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/8iMI1UJB9FM5soVWU_be3Q",
+            "title": "当AI迈入Harness时代：以MiniMax为样本看智能体云端新基建",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGONIhSJOzlQ0WIKj1x0eea6Tp26OmibFEM4OXib2f1oeZB4icVf4FdMeoj5xqBtIgI7ubHWZh5dBScicZm1yCnHdRPiaom1toFSGME/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T10:12:14.000Z"
+        },
+        {
+            "id": "pi1e85BPzqQgrqZqs05_Vw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/pi1e85BPzqQgrqZqs05_Vw",
+            "title": "数据限制具身？觅蜂杀进场破局：高质量数据水电一样即取即用",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGjkevC3u1sCmsAvTc2uphbb6D2kC6tah3Mz0Lriba55JtKvCezmn2VhlAHMBibgswKaOrMfCm385kRrqNE297EqiarWJMIvJbBZ8/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T10:12:14.000Z"
+        },
+        {
+            "id": "NcBj7TM_QhxinJJJdsW2-w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/NcBj7TM_QhxinJJJdsW2-w",
+            "title": "TPAMI 2026 | 北大彭宇新团队提出CPL++框架，实现视觉定位模型的「自知之明」和「自我纠错」",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGbmHG3otVwNBy1SMk3mElyzYSWNXxic1KZKCM45I8LrOBWS8sRKsB8RMbv1L6aWNF85uV0Dy2iaKS3S141sk3XvrdyibTKpvaA1Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T10:12:14.000Z"
+        },
+        {
             "id": "H7X6TGLLiBUFenEsC_lPzA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/H7X6TGLLiBUFenEsC_lPzA",
@@ -784,30 +808,6 @@
             "title": "3亿美元巨额融资，AI视频新独角兽爱诗科技，正在抢跑「实时世界模型」",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGJAnS7QUMVhOOMjiaf6NxnXtbompTuUZGKktFtvOGbH6C1QM9QL4l6wM1iaLDL1GFXiaqyicbkpt1NHLc9Ftamrq3E6D2Q9mhLvKg/0?wx_fmt=jpeg",
             "date_modified": "2026-03-13T03:57:37.000Z"
-        },
-        {
-            "id": "_UO7sQCnb8rakZfkNwZWcw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/_UO7sQCnb8rakZfkNwZWcw",
-            "title": "这年头学不会数理化，只能怪自己懒，谷歌NotebookLM上新，秒出科普视频",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqG2wyzY6hC6eBgbzCNoqqoGVfyYicJcv2CZT9b3icxHZjIesbS6uZFfwBVic2ToHt41IYC6Gt4ryNmbia05Q5DKDs0mq9QJOK4Nibys/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-13T03:57:37.000Z"
-        },
-        {
-            "id": "rWdu9519WzALxiaw5jjPEg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/rWdu9519WzALxiaw5jjPEg",
-            "title": "有效思考激发多模态智能体决策潜力！清华&北大&腾讯联合提出GTR训练新框架",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFG3Ud7hibxwJgfDaKzbSnNvBhfHOIduhTNexmdHTn8hUOaO6fxfFdoTtBVwKV99zyCNeiakGtPxlD9mBAPxLNvh4ichHiaEeNN2c8/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-13T03:57:37.000Z"
-        },
-        {
-            "id": "ja2RHpHwCRosGecTXdraMA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ja2RHpHwCRosGecTXdraMA",
-            "title": "2秒终结AI 3D不可能三角，我们和VAST首席科学家曹炎培聊了聊",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEJgx43ZaDYb57HOh2dnhbz9icI4pbDjkGbj5aXgI3ftLpHtQ6c9ib7ohqIwQ5lrBB8UZHiargggZNf3UlSiblESqZwyLymaHYQLI4/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-12T09:27:19.000Z"
         }
     ]
 }

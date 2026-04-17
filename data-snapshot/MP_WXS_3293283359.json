@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "1lL1lKzCirj_XfQbJzCbnA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1lL1lKzCirj_XfQbJzCbnA",
+            "title": "字节跳动前沿技术领域人才校招，正式启动！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/Wl0pfQiav457MSPZy9UZ4Lib0R6ALaOpVyRPYNtJxzVPFyhFjKsEmzibIAWj7h54ufK0EzYicias5AMFzZU2TF0CDPgLmYOyTk9vsVUz6ay4dtjk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T13:03:31.000Z"
+        },
+        {
             "id": "1WJYpTxZR50AKB7i0DcfsA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/1WJYpTxZR50AKB7i0DcfsA",
@@ -800,14 +808,6 @@
             "title": "字节跳动 2024 校园招聘正式启动！",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hrjSjKuhQpUicf8Mjiar2gNrEHAkzLkph0UUdGOiaQPTbIYBGQF3fjYsWW7IQUSuo9CHic5VA3RXLbTu1TB27LdPHA/0?wx_fmt=jpeg",
             "date_modified": "2023-08-10T09:31:43.000Z"
-        },
-        {
-            "id": "QsCR5ZasP4-nN1PSdN17sA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/QsCR5ZasP4-nN1PSdN17sA",
-            "title": "字节跳动捐赠1亿元 ，驰援京津冀闽等受灾地区",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hrjSjKuhQpV6bxfSu6P7emwtHRWH1fzagmbzb3XqibQna4hvwlNiaIVVAxCFddWBiahk1J9to1SudkntRlIkiaDTuA/0?wx_fmt=jpeg",
-            "date_modified": "2023-08-02T04:28:07.000Z"
         }
     ]
 }

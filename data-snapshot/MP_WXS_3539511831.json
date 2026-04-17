@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "hK9gKC0sI_nWPWAqYuSWCA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hK9gKC0sI_nWPWAqYuSWCA",
+            "title": "4.16｜字节范儿停更？腾讯实习生日薪6000？年终奖被“画饼”？赛力斯人才通道升级",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/oQjET7dYAzx4AUnWsvZURamMFqZiadGWsKVXspFxGeymFSdBLS9HIbrcLEBlLyWd4htP6faGMpjRVza2PmvnecB28M4ZsWiakRz6MhgnUu9vg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T11:33:49.000Z"
+        },
+        {
             "id": "KUms1kQMvLaC6b3Wol89qQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/KUms1kQMvLaC6b3Wol89qQ",
@@ -800,14 +808,6 @@
             "title": "在阿里，我如何成为那个被ld偏爱的“嫡系”？",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2KMYUW93ohp27D8FoXROWTQnbYIcbCsnpXbyeh8omMUbo67Nfibg4NkOVOA0I8QHBic9VibYLibibIhztQ/0?wx_fmt=jpeg",
             "date_modified": "2025-10-15T12:28:41.000Z"
-        },
-        {
-            "id": "w3_ENP1uET955oxn_cJT3Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/w3_ENP1uET955oxn_cJT3Q",
-            "title": "2024年香港上市公司董事薪酬榜：李想排名第一，刘强东第四，陈睿、李旎同上榜！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2LfKal7z8Eb02V645u85q1L8SRh4t2A9bg3Maca5TnUnWlPr72UVx44wZGdpqXPrYwdxcX8ABXiaag/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-14T15:23:32.000Z"
         }
     ]
 }
