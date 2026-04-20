@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "xAo_PemwBOKvuj0TaOnseQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xAo_PemwBOKvuj0TaOnseQ",
+            "title": "2026 美团 LongCat 大模型 | 北斗实习计划",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/V95GN2mm0DzmfSqgiaTQMAeqDK9MLroRsTSW40zzicxMgjVnfS0rPkG9rrRoaQiccJKeKmBMQEfHKX8koUDb6sscj0BZMSgA7w9930x7ItUaXQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T11:59:12.000Z"
+        },
+        {
+            "id": "qGwajB8FN_kjqgtc44sqew",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qGwajB8FN_kjqgtc44sqew",
+            "title": "突破零样本TTS音色克隆上限：LongCat-AudioDiT 的声音克隆艺术",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/V95GN2mm0DyhqNloOcIqgMVPiaXVGcAL5VDeTv7FR0SWFAXicsaU7IIFZmzbGOoGekZk4FB4zYLQxNvcQibZAHGuHDhA2vFw0OBvRoucbxzQJw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T11:59:12.000Z"
+        },
+        {
+            "id": "oO_6XihNUZIFnW0vIgMw6w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/oO_6XihNUZIFnW0vIgMw6w",
+            "title": "MARS TALK 香港大学站｜具身智能的技术演进与商业化进程",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0Dz88ibkvH326ExFhicBp8U0l3GIOvSnc6eacB8mrcJWEndibLYz4B0Vz7icRicVTyUuT2csPlzPmTXCHqIXKy4ADoeBdZ5uKdtFC9IY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T11:59:12.000Z"
+        },
+        {
             "id": "f0LwJ0k9k1z1uYl-M6lS-Q",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/f0LwJ0k9k1z1uYl-M6lS-Q",
@@ -784,30 +808,6 @@
             "title": "招聘 | 美团 AI 搜索：致力用 AI 技术创造极致的搜索和交互体验",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXIIqy7Vr5fknueADufrYNSjGyvENoZEFG6Jb9u6yvZwAo3wAfGLOus7kxJYzGuXe74ZKcMIkGOAQ/0?wx_fmt=jpeg",
             "date_modified": "2025-05-08T11:59:19.000Z"
-        },
-        {
-            "id": "DH79CJlF8rLy6AtCCnnHmg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/DH79CJlF8rLy6AtCCnnHmg",
-            "title": "美团AI招聘 | 开启AI Native Agent新纪元！",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVh2qriasnZK8YPIn1J4NLsh1gDogJTFHuGfS5RhxLWJ4U9WRkjNYicaEv4ibT5ThsRWD4WzranRWX7g/0?wx_fmt=jpeg",
-            "date_modified": "2025-04-24T11:59:10.000Z"
-        },
-        {
-            "id": "UoUYaNAbJGxQu1kt0oNkYg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/UoUYaNAbJGxQu1kt0oNkYg",
-            "title": "2024-2025 | 美团科研合作课题评优",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsWytxkuWerIfICfRBZuFrsnr11ttEJicMCkicmHicPaCicckPX2RvuPK1HHfhM6fkvON3aebBlDyicLB6g/0?wx_fmt=jpeg",
-            "date_modified": "2025-04-18T06:08:29.000Z"
-        },
-        {
-            "id": "TTgEI2mHVUwWccMcXnHeiA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/TTgEI2mHVUwWccMcXnHeiA",
-            "title": "2025美团科研合作课题公开征集 | 倒计时10天",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXUibFsPSYrRxiaXA305jp90pR6sWXRQ6usWVGibs7RiaGfuqcLwmsqYQg1SJWVAVrrianaMhP9l8xzDSw/0?wx_fmt=jpeg",
-            "date_modified": "2025-04-18T06:08:29.000Z"
         }
     ]
 }

@@ -10,6 +10,102 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "xrWxU7wuuMqZg0m-iHSbUA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xrWxU7wuuMqZg0m-iHSbUA",
+            "title": "消耗了上百亿 Token后， 对于 Agent 时代软件构建、软件形态及未来发展的思考",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjJiaqcGDdo5D5yoqJLic9NVKL9YOu3JkLlslvWoNC8p3IESxjAXDCOIehNNAB1pQJEyMpOWfUmrJC9Xn2Ojcg2nxjlpLkhT8icvE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-19T02:16:13.000Z"
+        },
+        {
+            "id": "PnhJnFWPgwcEYO0KKKaBkQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/PnhJnFWPgwcEYO0KKKaBkQ",
+            "title": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiaDsdpRTM0pjWQcO3eKAEvrIrDaPsuEyjz2188V3GWEZxicMXrS9Mnl4wJyd7VB3Fic0WSnlRP5DrnJWiawTgcyZbgJlUzrnuO7pg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-19T02:16:13.000Z"
+        },
+        {
+            "id": "7nq6smBvqA1uxXjR-WpjiQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/7nq6smBvqA1uxXjR-WpjiQ",
+            "title": "Etsy 将拥有 1000 个分片、425 TB 数据的 MySQL 分片架构迁移至 Vitess",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhT2VxylYmb9qspQZqib2RdDLqJJ0sVC05iaC3wncG1663uXWFwPPY9w3uOTdmKLlIWV980bsmFhibMrNu5FdrmpvahyV7C8sibdw0/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-19T02:16:13.000Z"
+        },
+        {
+            "id": "Sz5GGcON88UQu0RpJURhvg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Sz5GGcON88UQu0RpJURhvg",
+            "title": "Google Cloud 介绍了对 PostgreSQL 核心功能的工作",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiam50CV2Veov3gaNwHSib9icIWiaExjtnGgFF6ic8kXqnZeJ2qxsRLpqYAxDWVnicuqBZTPEG38m9rx2ZgpDicVlQnmtT1qGxiauXqrIA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-19T02:16:13.000Z"
+        },
+        {
+            "id": "97ZDTIDZ4Qw0Xn8n-8bafQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/97ZDTIDZ4Qw0Xn8n-8bafQ",
+            "title": "Anthropic 深夜发布 Claude Design，一句话生成 UI，百亿美元市值 Figma 股价跌了 4.6%",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgbqBk6OzCuk2RQpSAc5icsPEbuzQGzrtQuBK3sbWU4tL4aVFMgdOhORuP5jqjgJDeyr3a1m3lgZmckJwB25dDPMIZ5pWiaficN80/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-18T05:09:58.000Z"
+        },
+        {
+            "id": "Oo8mXKSCwRxAmCCySZxCBg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Oo8mXKSCwRxAmCCySZxCBg",
+            "title": "取消AI考核、零裁员！股价暴跌82%后，多邻国走出了一条反硅谷之路",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNja5eHJ04r1NgiaOQOKd8PBcOfgj1JicSpP13qq5MGgVJDaePjyB3J23tOtYRlYTO3sx1W9l24vQWKfbvTyiaWTF6vujr0X0GymYY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-18T05:09:58.000Z"
+        },
+        {
+            "id": "hdbv9Obqd0dV2-doFskcog",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hdbv9Obqd0dV2-doFskcog",
+            "title": "卖鞋厂转型做 AI 股价暴涨 582%，华尔街最不缺这种荒诞闹剧",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgoyBAUicHbTo9ia76U307lMaFoZsNxuRh4jhPWNQMfFczlpxJCWYRicqSqkG96gos7amelK22WzwBzd2cOGQsC1S7MQK3lwJJmkM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-18T05:09:58.000Z"
+        },
+        {
+            "id": "PGrTOHAb6aVzs1ni5-LO9A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/PGrTOHAb6aVzs1ni5-LO9A",
+            "title": "Java 近期资讯：TornadoVM 4.0、Google ADK for Java 1.0、Grails、Tomcat、Log4j 和 Gradle",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaJN2J8XkLUEdrMsGAHVsl3EYL5WSoEricibRNxKY8B1Aic2qjicXpeN5rY26BUY3UsKyvt8Wia45g5Sb5O0wMhgVicCMGicUIl2K4HLs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-18T05:09:58.000Z"
+        },
+        {
+            "id": "YiGEt3CZisPJrtdKM-oTog",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/YiGEt3CZisPJrtdKM-oTog",
+            "title": "Claude Code 桌面版烂爆了，Anthropic 终于把 “100% AI 编码”演砸了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaQ9QEsmh2hG9klSn604obDzN9YXRYaQGvBfHYhMolibwGadvL78lxB4MR6Wtnrz3288NAXbVeiahbkdOCVFOicVGCLoEt2Ly5y0Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-17T08:40:46.000Z"
+        },
+        {
+            "id": "pF4sRiO6dbjKVvaJ2_RKBg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/pF4sRiO6dbjKVvaJ2_RKBg",
+            "title": "Claude 吞噬整个AI编程栈？“Vibe Coding 公司的最大错觉是以为自己有护城河”",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhjwgiaulMaqNuWzzLMjOwm4JvFa78WwibLlib2nlMSmqZ8S4Lv0vp5Wp83YE3aIseCndFe31HeVaiaZppkBHOWms3LDJX5ORWdUkQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-17T08:40:46.000Z"
+        },
+        {
+            "id": "qmXFu_lGd_FELZBmzDDxgg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qmXFu_lGd_FELZBmzDDxgg",
+            "title": "AI 驱动的数据库心脏：如何让云原生「自我进化」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjwEfyCG7XZflTIXb7fj8zCeohgEsp2aKfPoyic2dDvmCicnMVZGwpgN32oBj2VlM3CKX7iaWnqe7rSaDCEfE6pIcQzSTY75hFuH4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-17T08:40:46.000Z"
+        },
+        {
+            "id": "Fw9T-afjOvsIA05KX8w2mg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Fw9T-afjOvsIA05KX8w2mg",
+            "title": "开源安全工具 Trivy 遭供应链攻击，引发行业紧急响应",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgHm2b5GpoWxOicJcUagTmibJrgcQpGeciaOmuZKibOXMKQD9AyNUvIDwbtsOicXZS0ARw6pwws6kH0nib65wtyq4onTnW8SN3Ip1xMc/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-17T08:40:46.000Z"
+        },
+        {
             "id": "ZgjHRT5rXX0tLgR_YNUxYg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/ZgjHRT5rXX0tLgR_YNUxYg",
@@ -712,102 +808,6 @@
             "title": "AI 一键生成网站之后，最残酷的差距出现了：代码不再值钱，审美决定生死",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjLnET0icvgdEKRbj48VX4NgoNy31RaUUPlza4mmE4GCv4iaVGP7efxyFDtyHvhw5YPmyL2bgmO7ZyyI9ibia7aHoIwicZAAfsviacU8/0?wx_fmt=jpeg",
             "date_modified": "2026-03-27T07:15:22.000Z"
-        },
-        {
-            "id": "1C8e_4CDcZ1ogYo6mE5BXg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/1C8e_4CDcZ1ogYo6mE5BXg",
-            "title": "在边缘应用中，实现 Kubernetes 的主动扩缩容",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNg7JUic2jSEl3ZrVJk8VEKw8zsE5HdTRDegYqpW6VYA2mYfHDZsjpib9Hk3ehejicicdOR3JpRc2KbvRhvX3XwwXYeAOuzBfGZrDZk/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-27T07:15:22.000Z"
-        },
-        {
-            "id": "XdqIr8QIOQivVdcLFfYm6g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/XdqIr8QIOQivVdcLFfYm6g",
-            "title": "如何塑造软件公司的工程文化",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaY05epzLGtZPkHgxhOsPj9UTfGjPwe9M2Hb9xjBTJJk9BFzxaicT5IibYoLZGK5dFibNBRpLEaGDbUJOJgdGIr6v9tQMhzAnqsMY/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-27T07:15:22.000Z"
-        },
-        {
-            "id": "b7DWPS1FQloA7Zw3u20zWg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/b7DWPS1FQloA7Zw3u20zWg",
-            "title": "多模态 +Agent 在培训与教育领域的应用｜QCon 北京",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhB2KxfETvlEff68Nib9iaa9ic60pnjJmCv3M2ds2qaEMfHlkb7ev9FfaWZejc8EAfc01uFVXH1DHXkdHrKicibjqVG9TdNHQSgFaxw/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-27T07:15:22.000Z"
-        },
-        {
-            "id": "3y_OsNRsxR1-o6OaCE-Y8g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/3y_OsNRsxR1-o6OaCE-Y8g",
-            "title": "AI越强，企业越迷茫：顶尖CIO们的十大真实之问",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNj3IJo5DKznHkuYU3AQslboAV3bxjLWpfqMGp4v0jLGX3hX9NbOZS1810ZcuFEls5MFZuC8t4uz4ibKBibjRHnNEa3k8w6Ayadjw/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-26T05:48:00.000Z"
-        },
-        {
-            "id": "tiiU6JTdrTDECv2vQFq9zw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/tiiU6JTdrTDECv2vQFq9zw",
-            "title": "突破泛化瓶颈：阿里云智能运维 Agent 评测体系实践",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhCACBdqbKSvib5w5SNpKg78CibFibIHU3xGVNs6jvk8FyponiabCLS7KT30cjTIJXPunBdH8DhP2kxbUOWIklX3Eo1BAMOZTCK5FM/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-26T05:48:00.000Z"
-        },
-        {
-            "id": "FdE6_29x5uH17HVOJQPoJg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/FdE6_29x5uH17HVOJQPoJg",
-            "title": "AI 正在毁掉开源：从“协作圣地”到“垃圾洪水”，维护者士气跌至谷底，开始集体掀桌",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgrBWzwqC0ta4JqkE7lxMmFfPRyjNaUlo6fYVqbWNDTffL91hyBI8xBiaRjWfRjK8iafILjqKGMCpb1jibDR8uJia5hJ0lJlyTAoqo/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-26T05:48:00.000Z"
-        },
-        {
-            "id": "I62pUrqH1mSQSRiAlhl0gg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/I62pUrqH1mSQSRiAlhl0gg",
-            "title": "Sora 关停背后：为啥它没跑成“视频版 ChatGPT”？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgFiaJoPSjibRlwNP5gBmuyIuqiaqq7vlT69RFFR44nPb1XEKU9RwHdGZO56v6tBkbat1jFDjrRdQqZYG4TcrXhSQ0ibjhk771vAvA/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-26T05:48:00.000Z"
-        },
-        {
-            "id": "K6B7BMRSpySkXVYdIFVpqg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/K6B7BMRSpySkXVYdIFVpqg",
-            "title": "“聊天干活”只需扫个码：微信配WorkBuddy，自家出品就是快",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjns1CgjNzkBhsoibILxPZTwF4OkxHC8CgFv2UBfX4nicBN4GrPTWcqK51eCvSPw62liaLl6ia28qfuiaOL6qT84DGdeJBEsFjibdvsc/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-25T06:58:17.000Z"
-        },
-        {
-            "id": "s4vXYmdr01rSSULgHah8QA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/s4vXYmdr01rSSULgHah8QA",
-            "title": "AI是一次范式转移，选准生态位，投入自然清晰 | 飞猪CTO陈烨谈战略定力、组织进化与工程落地",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNh0hdG5w3WHfLG2QbfFAibLDnMufNsYs0TPibt1uudwCj2h66TyNlhNB7uicH4QDLNLLeE1LPAunqPB6lf8vzg8t3icGXiawvdp93Z8/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-25T06:58:17.000Z"
-        },
-        {
-            "id": "wZVxUQ1pjxJQVAxpf-I9wg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/wZVxUQ1pjxJQVAxpf-I9wg",
-            "title": "OpenAI 推出“超级应用”，开抢 Anthropic 的企业客户",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNggqjLnY1OoSAWHCvyQqB1ROVLW1mWr87ysjQomWuphUPicC82u3pIg8PPf8uIgEPQv0NdiaOiaGA9femd4S34ww4chojunYlLYibk/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-25T06:58:17.000Z"
-        },
-        {
-            "id": "9V64wtt-C8KIuV0SIdZmlw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/9V64wtt-C8KIuV0SIdZmlw",
-            "title": "极客部落“OPC 创业者招募计划”正式发布，赋能 AI 时代“一人独角兽”",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjLG8gic8t3iaeVusxK2cm5qDwSpQZbvAdOBjlHwTJib9dvG5HS6uAVjbYqGhzKBzWibQW5Fhe6vDyvm4FMWOZF44RdgFvNqfPoWiak/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-25T06:58:17.000Z"
-        },
-        {
-            "id": "_Ov8r2aHTPHieTkZMY7Q0A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/_Ov8r2aHTPHieTkZMY7Q0A",
-            "title": "OpenClaw危了？Claude Code迎来最激进升级：AI 开始直接操控电脑，正面挑战 OpenAI",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgMzMHGAgTVnODQ8OUJ1ckuZKS2FoS7bm1yLw35CUvGHZoMiaFrbxKrlvw2XmUTdm7bMISW8OpngO6WFoam4J5cASxHncQib8V8s/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-24T05:29:52.000Z"
         }
     ]
 }

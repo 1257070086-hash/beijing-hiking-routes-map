@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "5eRB-xt8sJFLaJpxBNVlAw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/5eRB-xt8sJFLaJpxBNVlAw",
+            "title": "今日大厂员工事：字节数分大佬Pai离职；小红书业务突破奖出炉；拼多多五一休5天；狗东物流架构调整；某大模型团队开启周六加班模式",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/MABFN5xh55wlxkKbuF1KaDibq0oIvdGuOOufpEXf79cq3QFtXNvJiaeydt9UIdxibXI5a72W68oJulc1IZzXBheqAPDsOgwGckneEn5w0rRoAg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-17T03:37:35.000Z"
+        },
+        {
             "id": "sMEFFKRKhZ9zI5dQl9m7qg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/sMEFFKRKhZ9zI5dQl9m7qg",
@@ -800,14 +808,6 @@
             "title": "马老师现身夸克工区 有大招？",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lDfrkPjiaZQdtP0rvibMqaWH5hlpEbVf2sgwgU30Gqmt3JQvsdkOTCrbSvbAlibH5eX617aJEOg7jw8g/0?wx_fmt=jpeg",
             "date_modified": "2025-03-04T06:41:06.000Z"
-        },
-        {
-            "id": "QMvYMbnNndYJlhxuyJgEaQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/QMvYMbnNndYJlhxuyJgEaQ",
-            "title": "今日大厂员工事",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lDO3Anskgv8plVgrLIGFpojCIOiauAeicNl4mMOrFpehnbYQurPw72TBibwvE1eWeVEEt8lXB0Dcb4qA/0?wx_fmt=jpeg",
-            "date_modified": "2025-02-27T04:18:23.000Z"
         }
     ]
 }
