@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>雇主品牌行业监测周报 2026 W16</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="nav-brand">雇主品牌动态监测</span>
+    </div>
+  </nav>
+
+  <!-- 页面布局：左侧目录 + 右侧内容 -->
+  <div class="layout">
+    <!-- 左侧目录 -->
+    <aside class="sidebar" id="sidebar">
+      <p class="sidebar-label">历史周报</p>
+      <nav class="sidebar-nav" id="sidebar-nav"></nav>
+    </aside>
+    <!-- 折叠按钮：放在 sidebar 外部，始终可见 -->
+    <button class="sidebar-toggle" id="sidebar-toggle" onclick="toggleSidebar()" title="折叠目录">‹</button>
+
+    <!-- 右侧内容 -->
+    <main id="app"></main>
+  </div>
+
+  <script src="data-W16.js"></script>
+  <script src="app-W16.js"></script>
+</body>
+</html>
