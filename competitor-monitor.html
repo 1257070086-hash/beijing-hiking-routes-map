@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>行业资讯雷达</title>
+  <!-- 禁止缓存，强制浏览器每次获取最新版本 -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>行业资讯雷达 v2</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
@@ -137,22 +141,9 @@
     .kw-pill.on { background: var(--blue); border-color: var(--blue); color: #fff; }
     .result-count { margin-left: auto; font-size: 12px; color: var(--text-3); white-space: nowrap; }
 
-    /* ── AI KEY BAR ── */
-    .ai-bar {
-      margin: 12px 24px 0; padding: 10px 14px;
-      background: var(--surface); border-radius: var(--radius-sm); box-shadow: var(--shadow);
-      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
-    }
-    .ai-bar-label { font-size: 12px; color: var(--text-2); font-weight: 500; white-space: nowrap; }
-    .ai-key-input {
-      flex: 1; min-width: 200px; padding: 6px 10px; border: 1px solid var(--border);
-      border-radius: 6px; font-size: 12px; color: var(--text); outline: none;
-      background: var(--surface-2); transition: all .15s;
-    }
-    .ai-key-input:focus { border-color: var(--blue); background: #fff; }
+    /* ── BTN-AI (archive toolbar) ── */
     .btn-ai { padding: 6px 12px; border-radius: 6px; background: var(--blue); color: #fff; font-size: 12px; font-weight: 500; border: none; cursor: pointer; transition: all .15s; white-space: nowrap; }
     .btn-ai:hover { background: #0077ed; }
-    .ai-tip { font-size: 11px; color: var(--text-3); }
 
     /* ── MAIN LAYOUT ── */
     .main-layout {
@@ -189,10 +180,6 @@
     .company-chart-card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; }
     .company-wc { display: flex; flex-wrap: wrap; gap: 5px; padding: 4px; min-height: 120px; align-items: center; justify-content: center; }
     .company-ai-card { background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px; }
-    .company-ai-result { margin-top: 12px; padding: 12px 14px; border-radius: 8px; background: var(--blue-bg); font-size: 12px; color: #1a4a7a; line-height: 1.7; }
-    .btn-company-ai { display: inline-flex; align-items: center; gap: 7px; padding: 9px 18px; border-radius: 8px; background: var(--blue); color: #fff; font-size: 13px; font-weight: 600; border: none; cursor: pointer; transition: all .15s; }
-    .btn-company-ai:hover { background: #0077ed; }
-    .btn-company-ai:disabled { opacity: .55; cursor: default; }
     @media (max-width: 860px) { .company-bottom-grid { grid-template-columns: 1fr; } }
 
     /* ── 情报存档 ── */
@@ -200,8 +187,11 @@
     .archive-toolbar { display:flex;align-items:center;gap:10px;padding:14px 0 12px;border-bottom:1px solid var(--border);margin-bottom:16px; }
     .archive-toolbar-title { font-size:14px;font-weight:700;color:var(--text); }
     .archive-filter { padding:5px 10px;border-radius:6px;border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:12px;cursor:pointer; }
-    .archive-clear-btn { padding:5px 12px;border-radius:6px;border:1px solid var(--border);background:transparent;color:var(--text-3);font-size:12px;cursor:pointer;transition:all .15s; }
-    .archive-clear-btn:hover { border-color:var(--red);color:var(--red); }
+    .archive-period-toggle { display:flex;gap:2px;background:var(--surface-2);border-radius:7px;padding:2px; }
+    .arc-toggle-btn { padding:4px 14px;border-radius:5px;border:none;font-size:12px;font-weight:500;cursor:pointer;background:transparent;color:var(--text-2);transition:all .15s; }
+    .arc-toggle-btn.active { background:var(--surface);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.1); }
+    #archive-weekly-frame { margin-top:4px; }
+    #archive-weekly-frame iframe { width:100%;height:600px;min-height:400px;border:none;border-radius:10px;background:var(--surface); }
     .archive-list { display:flex;flex-direction:column;gap:20px; }
     .archive-card { background:var(--surface);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px;animation:fadeUp .2s ease both;border-left:3px solid var(--blue); }
     .archive-card-head { display:flex;align-items:center;gap:10px;margin-bottom:18px; }
@@ -492,15 +482,6 @@
   <div class="result-count" id="result-count"></div>
 </div>
 
-<!-- AI KEY BAR -->
-<div class="ai-bar">
-  <span class="ai-bar-label">🤖 AI 摘要</span>
-  <input class="ai-key-input" id="ai-key" type="password" value="" placeholder="DeepSeek API Key（本地保存）" oninput="localStorage.setItem('cm_ai_key',this.value)">
-  <button class="btn-ai" id="btn-ai" onclick="triggerAiSummary()">
-    ✦ 一键生成全部情报摘要
-  </button>
-  <span class="ai-tip" id="ai-tip">含人事变动 · 行业资讯跨账号整合 · 基于 DeepSeek</span>
-</div>
 
 <!-- MAIN LAYOUT -->
 <div class="main-layout">
@@ -546,18 +527,23 @@
     <div class="panel" id="panel-archive">
       <div class="archive-toolbar">
         <span class="archive-toolbar-title">AI 资讯摘要</span>
-        <div style="display:flex;gap:8px;margin-left:auto;align-items:center">
+        <div class="archive-period-toggle" style="margin-left:12px">
+          <button class="arc-toggle-btn active" id="arc-btn-daily" onclick="switchArchivePeriod('daily')">每日</button>
+          <button class="arc-toggle-btn" id="arc-btn-weekly" onclick="switchArchivePeriod('weekly')">每周</button>
+        </div>
+        <div id="archive-daily-filters" style="display:flex;gap:8px;margin-left:auto;align-items:center">
           <select class="archive-filter" id="archive-filter-date" onchange="renderArchive()">
             <option value="all">全部日期</option>
           </select>
           <select class="archive-filter" id="archive-filter-company" onchange="onArchiveCompanyChange(this.value)">
             <option value="all">全部公司</option>
           </select>
-          <button class="btn-ai" style="padding:5px 12px;font-size:12px" onclick="saveCurrentBriefToArchive()">📌 存入今日情报</button>
-          <button class="archive-clear-btn" onclick="clearArchive()">清空存档</button>
         </div>
       </div>
-      <div id="archive-list" class="archive-list"><div class="empty-state">暂无存档，点击「存入今日情报」手动保存当日生成的摘要</div></div>
+      <div id="archive-list" class="archive-list"><div class="empty-state">暂无摘要，请等待每日自动更新</div></div>
+      <div id="archive-weekly-frame" style="display:none">
+        <iframe src="weekly-report/report-W16.html" title="每周周报" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 
@@ -605,10 +591,12 @@
 
 <script>
 // ═══════════════ CONFIG ═══════════════
-const API      = 'http://localhost:4000';
 const AI_BASE  = 'https://api.deepseek.com/v1';
-const AUTH     = '';  // WeWe RSS 认证 token，本地使用时按需填写
 const PAGE_SZ  = 25;
+
+// 数据模式：本地（localhost）直连 WeWe RSS API，云端（GitHub Pages）读快照
+const SNAPSHOT_BASE = './data-snapshot';
+const WEWE_BASE     = 'http://localhost:4000';
 
 const COMPANY_GROUPS = {
   '行业资讯': ['MP_WXS_3223374696','MP_WXS_3572959446','MP_WXS_3254144461','MP_WXS_3539511831','MP_WXS_3077993707','MP_WXS_1432156401','MP_WXS_3073282833','MP_WXS_2390142780','MP_WXS_3236757533'],
@@ -645,15 +633,17 @@ let sources=[], sourceMap={}, allArticles=[];
 let curCompany='all', curView='brief', curSearch='', activeKws=new Set(), curPage=1;
 let curSourceId=null; // 精确公众号过滤（null=不限）
 let charts={}, emptySrcs=[];
+// 本地（localhost / 127.0.0.1）直连实时数据，其余走快照
+const usingSnapshot = !(window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
 
 // ═══════════════ INIT ═══════════════
 async function init() {
-  // 恢复上次保存的 API Key
-  const savedKey = localStorage.getItem('cm_ai_key');
-  if (savedKey) document.getElementById('ai-key').value = savedKey;
-
   await fetchSources();
   await fetchArticles();
+
+  // 加载静态 AI 摘要快照（所有人都能看到，无需 API Key）
+  await loadSnapshotAiSummary();
+
   // 检测未分类账号，有则弹出分类面板
   const unclassified = getUnclassified();
   if (unclassified.length) {
@@ -661,34 +651,73 @@ async function init() {
   }
 }
 
+// 加载 data-snapshot/ai-summary.json 写入 archive（AI 资讯摘要 Tab 展示）
+async function loadSnapshotAiSummary() {
+  try {
+    const r = await fetch(`${SNAPSHOT_BASE}/ai-summary.json`);
+    if (!r.ok) return;
+    const data = await r.json();
+    const { generatedAt, summaries } = data;
+    if (!summaries) return;
+
+    const dateKey = generatedAt ? generatedAt.slice(0,10) : new Date().toISOString().slice(0,10);
+
+    // 始终覆盖写入：用最新快照替换当天同公司旧记录
+    // 同时传入对应公司的真实文章列表，供引用标注使用
+    Object.entries(summaries).forEach(([company, txt]) => {
+      if (!txt || txt === '暂无文章数据') return;
+      const companyArticles = allArticles.filter(a => a.company === company);
+      saveAiRecord(company, txt, dateKey, companyArticles, true);
+    });
+
+    // 若当前在 archive 视图则立即刷新
+    if (curView === 'archive') renderArchive();
+  } catch(e) {
+    console.log('AI 摘要快照未找到，如需展示请运行 export-snapshot.sh');
+  }
+}
+
 // ═══════════════ SOURCES ═══════════════
 async function fetchSources() {
   try {
-    const r = await fetch(`${API}/feeds`);
-    sources = await r.json();
-    sources.forEach(s => sourceMap[s.id] = s);
+    if (!usingSnapshot) {
+      // 本地模式：直连 WeWe RSS /feeds
+      const r = await fetch(`${WEWE_BASE}/feeds`);
+      const raw = await r.json();
+      // WeWe RSS 返回 [{id, name, intro, cover, syncTime, updateTime}, ...]
+      sources = raw.map(f => ({ id: f.id, name: f.name, cover: f.cover, intro: f.intro }));
+    } else {
+      // 快照模式：读 GitHub Pages 静态 JSON
+      const r = await fetch(`${SNAPSHOT_BASE}/feeds.json`);
+      sources = await r.json();
+    }
+  } catch(e) {
+    console.error(usingSnapshot ? '快照读取失败，请确认已运行 export-snapshot.sh' : '本地 WeWe RSS 连接失败，请确认服务已启动', e);
+    setStatus(usingSnapshot ? '❌ 快照数据不存在，请运行 export-snapshot.sh 生成数据' : '❌ 无法连接本地 WeWe RSS（localhost:4000），请确认服务已启动');
+    return;
+  }
+  sources.forEach(s => sourceMap[s.id] = s);
 
-    rebuildSegmentButtons();
+  rebuildSegmentButtons();
 
-    // KW pills
-    const pills = document.getElementById('kw-pills');
-    ['校招','实习','招聘','AI','大模型'].forEach(kw => {
-      const p = document.createElement('button');
-      p.className = 'kw-pill'; p.textContent = kw;
-      p.dataset.kw = kw;
-      p.onclick = () => {
-        const isOn = p.classList.toggle('on');
-        // 取消其他 pill 的选中状态（单选）
-        document.querySelectorAll('.kw-pill').forEach(other => { if (other !== p) other.classList.remove('on'); });
-        const input = document.getElementById('search-input');
-        input.value = isOn ? kw : '';
-        applyFilters();
-      };
-      pills.appendChild(p);
-    });
+  // KW pills
+  const pills = document.getElementById('kw-pills');
+  ['校招','实习','招聘','AI','大模型'].forEach(kw => {
+    const p = document.createElement('button');
+    p.className = 'kw-pill'; p.textContent = kw;
+    p.dataset.kw = kw;
+    p.onclick = () => {
+      const isOn = p.classList.toggle('on');
+      // 取消其他 pill 的选中状态（单选）
+      document.querySelectorAll('.kw-pill').forEach(other => { if (other !== p) other.classList.remove('on'); });
+      const input = document.getElementById('search-input');
+      input.value = isOn ? kw : '';
+      applyFilters();
+    };
+    pills.appendChild(p);
+  });
 
-    document.getElementById('stat-sources').textContent = sources.length;
-  } catch(e) { console.error('fetchSources', e); }
+  document.getElementById('stat-sources').textContent = sources.length;
 }
 
 function rebuildSegmentButtons() {
@@ -720,11 +749,12 @@ async function fetchArticles() {
   dot.classList.add('syncing');
   emptySrcs = []; allArticles = [];
 
-  // 直接读本地缓存（数据库已有历史数据，无需触发同步）
   setStatus('读取文章…');
+  const dataBase = usingSnapshot ? SNAPSHOT_BASE : WEWE_BASE + '/feeds';
   const results = await Promise.all(sources.map(async src => {
     try {
-      const r = await fetch(`${API}/feeds/${src.id}.json?limit=100`);
+      const url = `${dataBase}/${src.id}.json`;
+      const r = await fetch(url);
       const d = await r.json();
       const items = (d.items||[]).map(item => ({
         id: item.id, title: item.title||'(无标题)', url: item.url,
@@ -749,15 +779,15 @@ async function fetchArticles() {
 
   if (emptySrcs.length) {
     const wb = document.getElementById('warn-bar');
-    document.getElementById('warn-text').innerHTML =
-      `以下账号暂无文章：<strong>${emptySrcs.join('、')}</strong>。` +
-      `请在微信读书 App 关注后，到 <a href="https://wewe-rss-production-7e37.up.railway.app" target="_blank">WeWe RSS 管理后台</a> 删除并重新添加这些账号。`;
+    document.getElementById('warn-text').innerHTML = usingSnapshot
+      ? `以下账号暂无文章：<strong>${emptySrcs.join('、')}</strong>。请在本地运行 <code>export-snapshot.sh</code> 更新快照数据后重新推送到 GitHub。`
+      : `以下账号暂无文章：<strong>${emptySrcs.join('、')}</strong>。请检查 WeWe RSS 是否已同步该账号。`;
     wb.style.display = 'flex';
   } else {
     document.getElementById('warn-bar').style.display = 'none';
   }
 
-  setStatus(`已同步 ${allArticles.length} 篇${emptySrcs.length ? ' · ' + emptySrcs.length + ' 个账号无数据' : ''}`);
+  setStatus(`${usingSnapshot ? '📦 快照' : '✅ 实时'} · ${allArticles.length} 篇${emptySrcs.length ? ' · ' + emptySrcs.length + ' 个账号无数据' : ''}`);
   updateStats(); updateCounts(); renderSidebar(); render();
 }
 
@@ -1099,13 +1129,6 @@ function renderCompanyDetail(company) {
         <div class="company-wc" id="company-wc"></div>
       </div>
     </div>
-    <div class="company-ai-card">
-      <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
-        <button class="btn-company-ai" id="btn-company-ai" onclick="genAiCompany('${company}')">✦ 生成 AI 深度分析</button>
-        <span style="font-size:12px;color:var(--text-3)">招聘动态 · 人事变动 · 战略重点 · 快手启示</span>
-      </div>
-      <div id="company-ai-result" class="company-ai-result" style="display:none"></div>
-    </div>
   </div>`;
 }
 
@@ -1185,7 +1208,6 @@ function briefCard(company) {
       <div class="bc-section-title">高频词</div>
       <div class="kw-tags">${kwHTML||'<span class="bc-empty">暂无</span>'}</div>
     </div>
-    <div id="ai-note-${company}" class="ai-result" style="display:none"></div>
   </div>`;
 }
 
@@ -1226,47 +1248,6 @@ function saveAiRecord(company, txt, dateKey, articles, silent) {
 function updateArchiveBadge() {
   // badge 不再显示数字，保留函数以兼容旧调用
 }
-// 手动存入今日情报：把所有已生成的 AI 结果按公司保存一条
-function saveCurrentBriefToArchive() {
-  const today = new Date().toISOString().slice(0,10);
-  const records = loadArchive();
-
-  // 收集所有待存的公司+内容
-  const toSave = [];
-  Object.keys(COMPANY_GROUPS).forEach(company => {
-    const el = document.getElementById(`ai-note-${company}`);
-    if (el && el.style.display !== 'none' && el.textContent.trim()) {
-      const txt = el.dataset.raw || el.innerText || el.textContent;
-      const refs = el.dataset.refsJson ? JSON.parse(el.dataset.refsJson) : [];
-      if (txt && txt.trim()) toSave.push({ company, txt, refs });
-    }
-  });
-  const detailEl = document.getElementById('company-ai-result');
-  if (detailEl && detailEl.style.display !== 'none' && detailEl.textContent.trim()) {
-    const company = curCompany !== 'all' ? curCompany : '其他';
-    const txt = detailEl.dataset.raw || detailEl.innerText || detailEl.textContent;
-    const refs = detailEl.dataset.refsJson ? JSON.parse(detailEl.dataset.refsJson) : [];
-    if (txt && txt.trim()) toSave.push({ company, txt, refs });
-  }
-
-  if (toSave.length === 0) {
-    alert('当前页面没有已生成的 AI 摘要，请先点击生成然后再存入。');
-    return;
-  }
-
-  // 检查是否有任何公司当天已有存档，只弹一次确认
-  const hasDups = toSave.some(({ company }) =>
-    records.some(r => r.company === company && (r.dateKey || r.time?.slice(0,10)) === today)
-  );
-  let overwrite = false;
-  if (hasDups) {
-    overwrite = confirm(`今日（${today}）部分公司已有存档，是否覆盖？\n\n确定 → 全部覆盖\n取消 → 保留旧版本（追加新版本）`);
-  }
-
-  toSave.forEach(({ company, txt, refs }) => saveAiRecord(company, txt, today, refs, overwrite ? true : false));
-  alert(`已存入 ${toSave.length} 条情报到「${today}」`);
-  renderArchive();
-}
 function clearArchive() {
   if (!confirm('确定清空全部存档？此操作不可撤销。')) return;
   localStorage.removeItem(ARCHIVE_KEY);
@@ -1279,6 +1260,26 @@ function deleteArchiveRecord(id) {
   updateArchiveBadge();
   renderArchive();
 }
+// codeflicker-fix: UI-Issue-002/h2zsaci1b5xvmg2s9gow
+function switchArchivePeriod(period) {
+  document.getElementById('arc-btn-daily').classList.toggle('active', period === 'daily');
+  document.getElementById('arc-btn-weekly').classList.toggle('active', period === 'weekly');
+  const isDaily = period === 'daily';
+  document.getElementById('archive-list').style.display = isDaily ? '' : 'none';
+  // codeflicker-fix: UI-Issue-004/h2zsaci1b5xvmg2s9gow
+  document.getElementById('archive-daily-filters').style.display = isDaily ? 'flex' : 'none';
+  const frame = document.getElementById('archive-weekly-frame');
+  frame.style.display = isDaily ? 'none' : 'block';
+  if (!isDaily) {
+    // 动态计算 iframe 高度：视口高度 - frame 元素顶部距离 - 底部留白
+    const iframe = frame.querySelector('iframe');
+    if (iframe) {
+      const top = frame.getBoundingClientRect().top;
+      iframe.style.height = Math.max(400, window.innerHeight - top - 24) + 'px';
+    }
+  }
+}
+
 function renderArchive() {
   const list = document.getElementById('archive-list');
   if (!list) return;
@@ -1319,7 +1320,7 @@ function renderArchive() {
   if (filterDate !== 'all') records = records.filter(r => (r.dateKey || r.time?.slice(0,10)) === filterDate);
 
   if (!records.length) {
-    list.innerHTML = '<div class="empty-state">暂无存档，点击「存入今日情报」手动保存当日生成的摘要</div>';
+    list.innerHTML = '<div class="empty-state">暂无摘要，请等待每日自动更新</div>';
     return;
   }
 
@@ -1343,11 +1344,17 @@ function renderArchive() {
   const cardHTML = r => {
     const clr = color(r.company);
     const timeStr = new Date(r.time).toLocaleString('zh-CN', {month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
-    const refArticles = r.articles || [];
-    const enableCit = r.company !== '行业资讯';
+    // 行业资讯需要全量文章做跨公司引用匹配；其他公司只用本公司文章
+    const refArticles = r.company === '行业资讯' ? allArticles : (r.articles || []);
+    const enableCit = true;
 
     // 结构化渲染：把 **标题** 识别为分节标题，正文内 [N] 替换成内联引用角标
-    const raw = (r.content || '').trim();
+    // 先预处理：去掉 ###/#### 前缀，统一成 **标题** 格式；去掉 --- 分割线
+    const raw = (r.content || '').trim()
+      .replace(/^#{1,6}\s+/gm, '')       // 去掉 # ## ### #### 前缀
+      .replace(/^---+$/gm, '')            // 去掉分割线
+      .replace(/^\*{3}\s*/gm, '')        // 去掉 *** 分割线
+      .replace(/^\n{2,}/gm, '\n');       // 合并多余空行
     const parts = raw.split(/(?=^\*\*)/m);
     let bodyHTML = '';
     parts.forEach(part => {
@@ -1435,81 +1442,6 @@ function renderCompanyTrendChart(company) {
     const c=wcColors[i%wcColors.length];
     return `<span style="font-size:${size}px;color:${c};font-weight:${scale>.6?700:400};opacity:${0.55+scale*0.45};padding:1px 4px;cursor:default" title="${n}次">${w}</span>`;
   }).join('');
-}
-
-// 单公司 AI 深度分析（直接调用，结果写入详情页 #company-ai-result）
-async function genAiCompany(company) {
-  const btn = document.getElementById('btn-company-ai');
-  const resultEl = document.getElementById('company-ai-result');
-  if (!btn || !resultEl) return;
-
-  const key = document.getElementById('ai-key').value.trim();
-  if (!key) { resultEl.style.display='block'; resultEl.textContent='请先在顶部填入 API Key'; return; }
-
-  btn.disabled = true;
-  btn.textContent = '⏳ 分析中…';
-  resultEl.style.display = 'block';
-  resultEl.innerHTML = '<span style="color:var(--text-3);font-size:12px">⏳ DeepSeek 分析中…</span>';
-
-  const arts = allArticles.filter(a=>a.company===company).slice(0,50);
-  if (!arts.length) { resultEl.textContent='暂无文章数据'; btn.disabled=false; btn.textContent='✦ 生成 AI 深度分析'; return; }
-
-  // 全局统一编号（所有文章一起编号，行业资讯接在后面）
-  const COMPANY_ALIASES = {
-    '字节跳动': ['字节跳动','字节','跳动','抖音','今日头条','ByteDance'],
-    '小红书':   ['小红书','RED','RedNote'],
-    '美团':     ['美团'],
-    '阿里':     ['阿里巴巴','阿里','蚂蚁','淘天','Alibaba'],
-    '腾讯':     ['腾讯','微信','Tencent'],
-    '行业资讯': [],
-  };
-  const aliases = COMPANY_ALIASES[company] || [company];
-  const industryRelatedArts = company !== '行业资讯'
-    ? allArticles.filter(a => a.company==='行业资讯' && aliases.some(al=>a.title.includes(al))).slice(0,15)
-    : [];
-  // orderedArts 按分组遍历顺序收集，保证与 AI 看到的编号严格一致
-  let globalIdx = 1;
-  const grouped = {};
-  arts.forEach(a => { if (!grouped[a.authorName]) grouped[a.authorName]=[]; grouped[a.authorName].push(a); });
-  const orderedArts = [];
-  const titlesByAccount = Object.entries(grouped)
-    .map(([name, artList]) => `【${name}】\n${artList.map(a => { orderedArts.push(a); return `${globalIdx++}. ${a.title}`; }).join('\n')}`)
-    .join('\n\n');
-  const orderedIndustryArts = [];
-  const industryNote = industryRelatedArts.length
-    ? `\n\n【行业资讯账号关于「${company}」的报道，请重点提取人事变动整合进"人事变动"一节】：\n${industryRelatedArts.map(a => { orderedIndustryArts.push(a); return `${globalIdx++}. 《${a.authorName}》 ${a.title}`; }).join('\n')}`
-    : '';
-  const finalRefArts = [...orderedArts, ...orderedIndustryArts];
-
-  try {
-    const resp = await fetch(`${AI_BASE}/chat/completions`, {
-      method: 'POST',
-      headers: {'Content-Type':'application/json','Authorization':`Bearer ${key}`},
-      body: JSON.stringify({
-        model: 'deepseek-chat',
-        messages: [
-          {role:'system', content:'你是快手雇主品牌团队的竞对情报分析师。分析各公司旗下多个公众号的近期文章，提炼关键情报。输出语言简洁有力，每句话信息密度高，不废话。'},
-          {role:'user', content:`请分析「${company}」旗下各公众号的近期文章，按以下结构输出：\n\n**招聘动态**\n（结合各账号招聘文章，总结该公司最近的招聘方向、岗位重点、规模变化，2-3句）\n\n**人事变动**\n（如检测到高管任免、团队调整等信息则列出；否则写"未检测到明显人事变动"）\n\n**近期战略重点**\n（3条，每条一句）\n- \n- \n- \n\n**对快手的启示**\n（快手雇主品牌可以从中借鉴或差异化的一句话建议）\n\n---\n各账号文章如下：\n${titlesByAccount}${industryNote}`},
-        ],
-        max_tokens: 700, temperature: 0.6,
-      })
-    });
-    const d = await resp.json();
-    if (d.error) throw new Error(d.error.message);
-    const txt = d.choices?.[0]?.message?.content || '分析失败';
-    // 格式化并渲染（把 [N] 替换成内联链接）
-    resultEl.dataset.raw = txt; // 保存原始 AI 文本，供手动存档使用
-    resultEl.dataset.refsJson = JSON.stringify(finalRefArts.map(a=>({title:a.title,url:a.url,authorName:a.authorName}))); // 保存引用文章
-    const formatted = renderWithCitations(txt, finalRefArts, company !== '行业资讯');
-    resultEl.innerHTML = `<span style="font-size:11px;color:var(--blue);font-weight:600;letter-spacing:.03em">✦ AI 深度分析</span><br>${formatted}`;
-    // 自动同步到情报存档，带上引用文章
-    saveAiRecord(company, txt, new Date().toISOString().slice(0,10), finalRefArts, true);
-  } catch(e) {
-    console.error('genAiCompany error', e);
-    if (resultEl) resultEl.innerHTML = `<span style="color:var(--red)">请求失败：${e.message}</span>`;
-  }
-  btn.disabled = false;
-  btn.textContent = '✦ 重新生成 AI 分析';
 }
 
 // 单公司视图：各账号子卡片网格（保留兼容旧调用）
@@ -1824,22 +1756,47 @@ function buildChart(id, type, data, options) {
 
 // ═══════════════ AI ═══════════════
 // 句子 → 文章关键词反查，返回最匹配的文章（无需 AI 标编号）
+// 支持公司感知：如果句子里含有公司名，优先在该公司的文章里匹配
 function findBestMatchArt(sentence, articles) {
   if (!articles || !articles.length) return null;
-  // 提取句子里长度>=2的汉字词段
-  const words = sentence.match(/[\u4e00-\u9fa5A-Za-z]{2,}/g) || [];
+  // 去掉 **xxx** 加粗标记再提词，避免标记符干扰
+  const cleanSentence = sentence.replace(/\*\*(.+?)\*\*/g, '$1');
+  // 提取句子里长度>=2的词段
+  const words = cleanSentence.match(/[\u4e00-\u9fa5A-Za-z]{2,}/g) || [];
   if (!words.length) return null;
+
+  // 检测句子里是否明确提到了某公司，用于缩小候选范围
+  const COMPANY_KEYWORDS = {
+    '字节跳动': ['字节跳动','字节','抖音','今日头条','ByteDance'],
+    '腾讯':     ['腾讯','微信','Tencent','WXG'],
+    '阿里':     ['阿里巴巴','阿里','蚂蚁','淘天','Alibaba'],
+    '美团':     ['美团','滴滴'],
+    '小红书':   ['小红书','RED','RedNote'],
+  };
+  let candidateArts = articles;
+  for (const [co, aliases] of Object.entries(COMPANY_KEYWORDS)) {
+    if (aliases.some(alias => cleanSentence.includes(alias))) {
+      const coArts = articles.filter(a => a.company === co);
+      if (coArts.length > 0) { candidateArts = coArts; break; }
+    }
+  }
+
+  // 过滤掉通用高频词，避免误匹配
+  const COMMON_STOP = new Set(['AI','的','了','和','与','在','是','为','从','到','等','中','对','将','及','有','以','其','该','可','已','更','新','大','全','化','性','力','度','量','型','用','能','技术','平台','系统','应用','模型','数据','产品','业务','战略','方向','核心','重点','推进','持续','深度','加强','优化','发展','建设','创新','合作']);
+  const filteredWords = words.filter(w => !COMMON_STOP.has(w) && w.length >= 2);
+  if (!filteredWords.length) return null;
+
   let best = null, bestScore = 0;
-  articles.forEach(art => {
+  candidateArts.forEach(art => {
     if (!art || !art.title) return;
     let score = 0;
-    words.forEach(w => {
-      if (w.length >= 2 && art.title.includes(w)) score += w.length; // 更长的词权重更高
+    filteredWords.forEach(w => {
+      if (art.title.includes(w)) score += w.length * w.length; // 长词平方加权，大幅提升精确匹配
     });
     if (score > bestScore) { bestScore = score; best = art; }
   });
-  // 至少命中 4 个字符才认为匹配
-  return bestScore >= 4 ? best : null;
+  // 提高阈值：至少命中一个 3+ 字的词（即 score >= 9）才认为匹配
+  return bestScore >= 9 ? best : null;
 }
 
 // 把 AI 输出格式化，并为每行结论自动匹配引用角标
@@ -1862,116 +1819,12 @@ function renderWithCitations(txt, articles, enableCitations) {
     return line + badge;
   });
   let html = processedLines.join('\n')
+    .replace(/^#{1,6}\s+/gm, '')         // 去掉残留 ### 标题前缀
+    .replace(/^---+$/gm, '')              // 去掉分割线
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\n/g, '<br>')
-    .replace(/^[•\-] (.+)/gm, '<span style="display:block;padding-left:10px">• $1</span>');
+    .replace(/^[•\*\-] (.+)/gm, '<span style="display:block;padding-left:10px">• $1</span>');
   return html;
-}
-
-function applyAiToCard(company, txt) {
-  const el = document.getElementById(`ai-note-${company}`);
-  if (!el) return;
-
-  // 解析各 section
-  const sections = {};
-  let cur = null;
-  txt.split('\n').forEach(line => {
-    const m = line.match(/^\*\*(.+?)\*\*/);
-    if (m) { cur = m[1]; sections[cur] = []; }
-    else if (cur && line.trim()) sections[cur].push(line.trim());
-  });
-
-  // 将 AI 结论注入对应卡片 section 的上方（如有内容）
-  // 也统一显示在 ai-result 区块里
-  const formatted = txt
-    .replace(/\*\*(.+?)\*\*/g, '<strong style="color:var(--text);display:block;margin-top:8px;margin-bottom:2px">$1</strong>')
-    .replace(/\n/g, '<br>')
-    .replace(/^[•\-] (.+)/gm, '<span style="display:block;padding-left:10px">• $1</span>');
-  el.style.display = 'block';
-  el.dataset.raw = txt; // 保存原始文本，供手动存档时使用
-  el.innerHTML = `<span style="font-size:11px;color:var(--blue);font-weight:600;letter-spacing:.03em">✦ AI 深度摘要</span><br>${formatted}`;
-}
-
-async function genAi(company) {
-  const key = document.getElementById('ai-key').value.trim();
-  const el  = document.getElementById(`ai-note-${company}`);
-  if (!el) return;
-  el.style.display = 'block';
-  if (!key) { el.textContent = '请先填入 API Key'; return; }
-
-  const arts = allArticles.filter(a=>a.company===company).slice(0,50);
-  if (!arts.length) { el.textContent = '暂无文章数据'; return; }
-
-  // 全局统一编号
-  const COMPANY_ALIASES = {
-    '字节跳动': ['字节跳动','字节','跳动','抖音','今日头条','ByteDance'],
-    '小红书':   ['小红书','RED','RedNote'],
-    '美团':     ['美团'],
-    '阿里':     ['阿里巴巴','阿里','蚂蚁','淘天','Alibaba'],
-    '腾讯':     ['腾讯','微信','Tencent'],
-    '行业资讯': [],
-  };
-  const aliases = COMPANY_ALIASES[company] || [company];
-  const industryRelatedArts = company !== '行业资讯'
-    ? allArticles.filter(a => a.company === '行业资讯' && aliases.some(al => a.title.includes(al))).slice(0,15)
-    : [];
-  const refArts = [...arts, ...industryRelatedArts];
-  let globalIdx = 1;
-  const grouped = {};
-  arts.forEach(a => { if (!grouped[a.authorName]) grouped[a.authorName]=[]; grouped[a.authorName].push(a); });
-  // orderedArts 按分组遍历顺序收集，保证与 AI 看到的编号严格一致
-  const orderedArts = [];
-  const titlesByAccount = Object.entries(grouped)
-    .map(([name, artList]) => `【${name}】\n${artList.map(a => { orderedArts.push(a); return `${globalIdx++}. ${a.title}`; }).join('\n')}`)
-    .join('\n\n');
-  const orderedIndustryArts = [];
-  const industryPersonNote = industryRelatedArts.length
-    ? `\n\n【以下是行业资讯账号关于「${company}」的报道】：\n${industryRelatedArts.map(a => { orderedIndustryArts.push(a); return `${globalIdx++}. 《${a.authorName}》 ${a.title}`; }).join('\n')}`
-    : '';
-  // 引用文章顺序与 AI 编号严格一致
-  const finalRefArts = [...orderedArts, ...orderedIndustryArts];
-
-  el.innerHTML = '<span style="color:var(--text-3);font-size:12px">⏳ DeepSeek 分析中…</span>';
-  try {
-    const resp = await fetch(`${AI_BASE}/chat/completions`,{
-      method:'POST',
-      headers:{'Content-Type':'application/json','Authorization':`Bearer ${key}`},
-      body:JSON.stringify({
-        model:'deepseek-chat',
-        messages:[
-          {role:'system',content:'你是快手雇主品牌团队的竞对情报分析师。分析各公司旗下多个公众号的近期文章，提炼关键情报。输出语言简洁有力，每句话信息密度高，不废话。'},
-          {role:'user',content:`请分析「${company}」旗下各公众号的近期文章，按以下结构输出：\n\n**招聘动态**\n（结合各账号招聘文章，总结该公司最近的招聘方向、岗位重点、规模变化，2-3句）\n\n**人事变动**\n（如检测到高管任免、团队调整等信息则列出；否则写"未检测到明显人事变动"）\n\n**近期战略重点**\n（3条，每条一句）\n- \n- \n- \n\n**对快手的启示**\n（快手雇主品牌可以从中借鉴或差异化的一句话建议）\n\n---\n各账号文章如下：\n${titlesByAccount}${industryPersonNote}`},
-        ],
-        max_tokens:700, temperature:0.6,
-      })
-    });
-    const d = await resp.json();
-    if (d.error) throw new Error(d.error.message);
-    const txt = d.choices?.[0]?.message?.content||'分析失败';
-    applyAiToCard(company, txt);
-    // 保存引用文章到 el.dataset，供手动存档用
-    el.dataset.refsJson = JSON.stringify(refArts.map(a=>({title:a.title,url:a.url,authorName:a.authorName})));
-    // 自动同步到情报存档，带上引用文章
-    saveAiRecord(company, txt, new Date().toISOString().slice(0,10), refArts, true);
-  } catch(e) { el.innerHTML = `<span style="color:var(--red)">请求失败：${e.message}</span>`; }
-}
-
-async function triggerAiSummary() {
-  if (curView!=='brief') switchView('brief');
-  const companies = curCompany==='all' ? Object.keys(COMPANY_GROUPS) : [curCompany];
-  const btn = document.getElementById('btn-ai');
-  const tip = document.getElementById('ai-tip');
-  btn.disabled = true;
-  btn.textContent = `⏳ 分析中 0/${companies.length}…`;
-  let done = 0;
-  await Promise.all(companies.map(async c => {
-    await genAi(c);
-    done++;
-    btn.textContent = `⏳ 分析中 ${done}/${companies.length}…`;
-  }));
-  btn.disabled = false;
-  btn.textContent = '✦ 重新生成全部情报摘要';
-  tip.textContent = `已完成 ${done} 家 · 含行业资讯跨账号人事整合`;
 }
 
 // ═══════════════ REFRESH ═══════════════
