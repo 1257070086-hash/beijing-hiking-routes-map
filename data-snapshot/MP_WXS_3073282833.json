@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "5ElJ8p292RZPlia_QRsW5A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/5ElJ8p292RZPlia_QRsW5A",
+            "title": "「部署态」元年，这家公司就把落地方案卷到了七种",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFNuHp8Gawt2xElNhPjy7LiadqG1BgC8smpJZsUHblOicP1nb1qyYtHdqFPEbs3MgpUg5p2nChLXxjZypGGS66pXlly5BotzFyibw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-20T04:06:00.000Z"
+        },
+        {
+            "id": "vWRBs2EJg_A1LUG10Q9Ddw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/vWRBs2EJg_A1LUG10Q9Ddw",
+            "title": "如何正确Vibe Coding？这是来自Anthropic编程智能体负责人的大师课",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFEibXZZoqFlvnPM8N7jsIVrkaEoGcmEX8mBdRdZ17oyB6chXULNFiakqwicyZ4rPHvKre9oTMhcvZSicT56ib5yvpMR277CdiaD3PhM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-20T04:06:00.000Z"
+        },
+        {
+            "id": "m98d0dusIGkQ9n8XUg84MA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/m98d0dusIGkQ9n8XUg84MA",
+            "title": "CVPR 2026｜突破3D空间推理瓶颈：北大联合南科大提出QuatRoPE，让大模型精准理解三维物体关系",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFYYMChItnBumib85oldP4ZKiaEiarMibiawzrVfDVBvIwD9MuoLzA27x81OV0jv2S520GWhUMtyibAaCLRhLRBxnXhJoAjbIIvlMFvU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-20T04:06:00.000Z"
+        },
+        {
             "id": "lfjpZ7KDzNS41WCiCJjMUg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/lfjpZ7KDzNS41WCiCJjMUg",
@@ -784,30 +808,6 @@
             "title": "老黄呼吁所有企业「养虾」当天，阿里正规军入场，「悟空」把路铺平了",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFc86U1ibN8XZiaJTkkygLib7ia8ALl8xcU873vlDnC6mSoM7dNWP8eibmjAaIjF3R3RHyyyanIyd1WFPKtiaaA0VayDeq1Pmv8YCJAk/0?wx_fmt=jpeg",
             "date_modified": "2026-03-17T10:00:12.000Z"
-        },
-        {
-            "id": "kJgTM_9J13zytRp-pKOqZA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/kJgTM_9J13zytRp-pKOqZA",
-            "title": "一家00后创办的世界模型公司，凭什么让华为哈勃重金押注？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGouYRVhNAGkVMiaia04yXkw4n5RI6SasFQ8XaDYjNFomtnybB7q3mTeJqQuVl56TUmx9q86bVu2cbL3HwpdhaBlzu7QcJfIKZRg/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-17T10:00:12.000Z"
-        },
-        {
-            "id": "nJ6faGAM3jhiPPYWLxb1mA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/nJ6faGAM3jhiPPYWLxb1mA",
-            "title": "TPAMI 2026 | 仅用两个变量破解混杂因素：CIC实现动力学因果推断与混杂变量重构",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE9W9mgEAP9k5LxHOg3ZE8Z7mZz33FGEFwXs5Od3lHjaAIlpv1DNqubynmv3LWxgnxpfaWrFnbsNsucnsZc0iaIBfibjeye3icSjI/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-17T10:00:12.000Z"
-        },
-        {
-            "id": "zryQas1YMkPuvASCYB9xeQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/zryQas1YMkPuvASCYB9xeQ",
-            "title": "清华团队悄悄开源了一只「教学龙虾」：国内首个L4级AI课堂来了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEwxX2fWEZGPaNPibnYrJBXUWacTd81omnmHClLxfj8Hicc266USPtiaH0ibXW0OUc6UGxChibichm1qPSC3Q1UO0ZRNv0n7HbRlvChk/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-16T03:50:32.000Z"
         }
     ]
 }

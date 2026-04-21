@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "fLiyW2t4CBOnWjx2Km8d8g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fLiyW2t4CBOnWjx2Km8d8g",
+            "title": "从提需求到部署发布，全AI全自动化后，研发效能全面跃升",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz905PHV0siarjfk84jgQXRMay8AZtt75gu2oWfWV1yLRLzzXnhDJcib6j8FKRBlWzEFRQxMBg6MPadFqws5xOboFYIO51ictUhU98FY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-20T09:37:21.000Z"
+        },
+        {
+            "id": "pr8oQ9wEC7Oa1NvvW89j6w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/pr8oQ9wEC7Oa1NvvW89j6w",
+            "title": "从Vibe Coding到Agentic Engineering：重构后台开发全流程",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz904szngkJV1gTzqoZzdQGmaa8Qx62MQX7ERT1QZowzIIMSxFD4R7vwFWrrGAko0y159xrMWqsHibYuIqjcrsgN36WSJ4S5gJKCHs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-17T09:36:44.000Z"
+        },
+        {
             "id": "M-xrfkboccq6IMQlxYZwAQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/M-xrfkboccq6IMQlxYZwAQ",
@@ -790,22 +806,6 @@
             "title": "腾讯Kuikly框架进一步开源，新增支持Web，开启一码五端新体验！",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvaupA5G4yLjr4iceV0ALdpbuNsOdFvZQn9Wbvhky9wlI9DzBkO9QT5TxC2SRd7eNwuShg0kWg7LQQcw/0?wx_fmt=jpeg",
             "date_modified": "2025-08-20T04:11:37.000Z"
-        },
-        {
-            "id": "AH2u0cMqyqmnCrfDtgo8tw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/AH2u0cMqyqmnCrfDtgo8tw",
-            "title": "腾讯的这款AI数据智能体工具Lumos，颠覆了传统的数据分析",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvastKfk6q6ul8Aeib66WyMnFFbbGJaWTibyYC9x6icvXicvoq7bKKXOpC0pqVribbQfGaVuRv0v3ibtqBvdA/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-18T09:37:20.000Z"
-        },
-        {
-            "id": "H02eKRegzJnzZhgj7MINAw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/H02eKRegzJnzZhgj7MINAw",
-            "title": "迈向可信AI：LLM幻觉的分析与优化",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvav8Qetiap0nZEzEuAVmic7keWfpJB5jItQHicUIbMAFU7Vf3EcdAqUahQVWt9qXObuAVM2v1BwnG1BRQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-14T09:37:32.000Z"
         }
     ]
 }

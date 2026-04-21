@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "1MWzKJdSDWzWQS8KICBN6w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1MWzKJdSDWzWQS8KICBN6w",
+            "title": "前Anthropic后训练工程师李迎超加入美团",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmwDufRAXH4xGYkfmocsEm7WR8v115vYyL9nDPka4yzQkavjeskdqaRTuQd6rgN9JtHWRSVyVWNDPddvyLsjr6W6ia4O1KIHWYE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-21T01:26:41.000Z"
+        },
+        {
+            "id": "ROGrBi64nyPH-onEO6I5vQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ROGrBi64nyPH-onEO6I5vQ",
+            "title": "袁千离职，华为系高管彻底告别阿里云",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlTtXkQpibibkeRib5N5kfoqQJVFbGk4iag9PYIphAiaYrBHQbicCxbZbORvDqP39jXqj4RWiblolGtqJtIiagaHnJDsiaObprEIVD3ELCU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-20T01:46:59.000Z"
+        },
+        {
+            "id": "t0qQMDFDZ5aopIoUK6kTNw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/t0qQMDFDZ5aopIoUK6kTNw",
+            "title": "字节前沿技术领域人才校招正式启动，三类人才优先录取",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlu3gNFrqer0iclf6fyIeDva5tqMwpnPju3ZBTYUmVcTLqHY1JIPTIXIzDQ3FZBf1uUwicSe9wx3yk9Ola3ibZDgv25C0J4cPKUjk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-17T05:11:34.000Z"
+        },
+        {
             "id": "vD4rI7BryGBWRzjRMtJK1Q",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/vD4rI7BryGBWRzjRMtJK1Q",
@@ -784,30 +808,6 @@
             "title": "谁能成为「AI时代的微信」？",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibYwxiaCZ27S2OXEmSJtYSDibbo1nTWKmhuMrJO9icouwAgsMickfRRpiaP01qMsrgpYxxgiapTj0zCbLMkMLVX1mpSXA/0?wx_fmt=jpeg",
             "date_modified": "2025-11-24T05:25:54.000Z"
-        },
-        {
-            "id": "FlupK2ji_avURIXT2VSqwA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/FlupK2ji_avURIXT2VSqwA",
-            "title": "饿了么“橙了”背后：外卖大战进入新拐点了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/GHG7ZsHKiceSuDvv4bkYv4RjEYHJR6swrvpxrRQ1Ho1dayfVmqIhqBfwf41eE4d07jcxGKziclWre6RCZYeMw6Xg/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-21T03:27:05.000Z"
-        },
-        {
-            "id": "Ams1ezXAcVE5B8GqbjMJKQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Ams1ezXAcVE5B8GqbjMJKQ",
-            "title": "TikTok视频推荐算法负责人宋洋离职，加入Meta",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibYwxiaCZ27S2IDMHFBosjILWUAJ6yb0a0zAgrwcexx1Ba3oIpSUXVfwgMrpnWKRrOiaicQH0dFZKia6Fnic7siaXhbTg/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-20T01:56:20.000Z"
-        },
-        {
-            "id": "x__4ZlLSkhFjkC1P5JfHJg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/x__4ZlLSkhFjkC1P5JfHJg",
-            "title": "百度Q3总营收312亿元：首次披露AI业务收入 增速50%超预期",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibYwxiaCZ27S2YosUiaIGibsMEJI0dpD9BbiaZxIItiaz3B0QfzAVABSQ7DrrVQ7rDqXh3SQjvuiaoXeBZY74KOiaSWY9g/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-19T01:12:53.000Z"
         }
     ]
 }

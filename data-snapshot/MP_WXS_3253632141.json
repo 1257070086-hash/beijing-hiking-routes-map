@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "bkP765KBSx0fNvco01Athg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bkP765KBSx0fNvco01Athg",
+            "title": "字节跳动首创DisCoGC架构，重塑EB级分布式存储GC范式",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FedYrYTQiaAHDzGZ5QX335bucWxf6ytdjaiaDibYoJ1o48L655nkMib6nFHxbkssdmKg8Zza60LP7uXzaVXlUu8g1m74aekwgcLONxs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-17T04:04:13.000Z"
+        },
+        {
+            "id": "2vb_eZYP2r5X9XT8chRFCw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/2vb_eZYP2r5X9XT8chRFCw",
+            "title": "字节跳动前沿技术领域人才校招，正式启动！",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FedNuWutfsGZ7ctBctIk4Uo3UZqUguEgxR1Mq0CFBFbwsCL5n7ZWlGyec7ktsib9zdBAKjS1FjdqKRxSp27O5E1ic6zDt79bicz7tM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-16T12:54:05.000Z"
+        },
+        {
             "id": "6WjEsaPbB3w19G_lP2pkog",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/6WjEsaPbB3w19G_lP2pkog",
@@ -792,22 +808,6 @@
             "title": "猎影计划：从密流中捕获 Cobalt Strike 的隐秘身影",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgw8oTJ6zwoH39n6vKN16SLYtkibDKhA9MFXBUgLxKqWLNyBefhcGwY3rQh2VI0JsJ3pOBjP4qnlTA/0?wx_fmt=jpeg",
             "date_modified": "2025-07-23T10:04:21.000Z"
-        },
-        {
-            "id": "hHN9WuVnE2kwsN0R8gxNKA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/hHN9WuVnE2kwsN0R8gxNKA",
-            "title": "The First Context Engineer：TRAE 2.0 SOLO 发布",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOg34EWmaY3f1CHibqmoD7HFOLxPzgc2IoWbpvibXMcB9OGibSyoJgFNaM2QrHHK1VsticNTXq59F25vFw/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-22T13:20:32.000Z"
-        },
-        {
-            "id": "a4ThvkQEFPweoSbBIJPOPg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/a4ThvkQEFPweoSbBIJPOPg",
-            "title": "诱导大模型 | 新型“回音室”攻击和对抗技术",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhh5Us7qDnW6u2QI5XvaV8UXclU7FhNTYNRHriao4NcSDlAHibXULA2d1Wm60ZcnVU6r08sCQuFYibFg/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-18T09:07:17.000Z"
         }
     ]
 }

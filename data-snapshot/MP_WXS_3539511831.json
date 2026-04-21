@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "l0E5hOER1V2Xb-91hEa-ZQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/l0E5hOER1V2Xb-91hEa-ZQ",
+            "title": "4.20｜大厂AI换血季；谁说不能写华为？京东员工达95万；姚劲波真急了；俞浩包场迪士尼！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/oQjET7dYAzwGuw9dAMicsEEXn5g2vhg7FOZYeVB53YWz53uTcCzDGsrDtUtYDOgXQaSxwticORySt5BKsJ0cySQiceLEt7KibdficlzibCUhxwa1U/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-20T15:31:54.000Z"
+        },
+        {
             "id": "YSnuBD_PUj-Rsa8409Kv9A",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/YSnuBD_PUj-Rsa8409Kv9A",
@@ -799,14 +807,6 @@
             "url": "https://mp.weixin.qq.com/s/jHK6HNmp9NJNe3OGzDTCsw",
             "title": "滴滴社招 | 网约车安全团队最新hc放出，就等你来投！",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2J1OBcrDTC6LhYY5Ya8xt8ns0xjiaaRUVFVmaavarODMvVKkPkn0PUJnqicyPjzS83Z5sBeO9dXoxPg/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-17T12:25:20.000Z"
-        },
-        {
-            "id": "8As_8WR3t191E5xoMSbIxg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/8As_8WR3t191E5xoMSbIxg",
-            "title": "蚂蚁集团社招 | 数科技术部纳新，最新hc都在这了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2J1OBcrDTC6LhYY5Ya8xt8ntF5UhJKGW4cGzCzpsLcDlqqEVYrBqNd9VpOnyKXgegAxdbIibxhGiaAQ/0?wx_fmt=jpeg",
             "date_modified": "2025-10-17T12:25:20.000Z"
         }
     ]

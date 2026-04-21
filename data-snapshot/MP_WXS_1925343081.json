@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "jhJ1pl5nNtSmvcvuawMuRw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/jhJ1pl5nNtSmvcvuawMuRw",
+            "title": "奖池20万+、直通终面！腾讯PCG「校园AI产品创意大赛」启动！",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FZd11iblto2TgicLKjR1UU783ChkkxW9FxAGDgVFrmn7w1Fx2oIQLLAEWtgDOlmOjVQ6MISYyYZicVasMLNhiatoXib0sxCVHo3zASE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-20T06:10:00.000Z"
+        },
+        {
+            "id": "CDbhSc_NHyszDmiq5RCO1Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/CDbhSc_NHyszDmiq5RCO1Q",
+            "title": "免费课程，带薪学习！腾讯游戏2026特效训练营开班！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/50opAau08FY0XBXsaJdCZtnF7kkewEBRicqlG9wrzUyG8JrGV9dgHUpvR17tPgJrZIcsOUuuYibRYaL76AanPJkv0kkWsqmWMGaqTfG7wgmC0/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-20T06:10:00.000Z"
+        },
+        {
             "id": "Re5JehjvVJZRtyXtgZpxuw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/Re5JehjvVJZRtyXtgZpxuw",
@@ -792,22 +808,6 @@
             "title": "腾讯2026校招补录，还有机会！",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMjoueicOlrtPcGiakObd8wTPNXWxyu7fY2w9iakMWz2gMovnxoIDmXMpibJzKeicGRpfLpiabOOg201iaicSQ/0?wx_fmt=jpeg",
             "date_modified": "2025-12-02T10:25:25.000Z"
-        },
-        {
-            "id": "PgJrBN97P0EjrgpjsHzazg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/PgJrBN97P0EjrgpjsHzazg",
-            "title": "有鹅选鹅！鹅厂校招潮玩礼盒「小蓝盒」今日首发",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMjBxzFZiaNBHP8YpzueX8yF5M6ibNLib5lj272H4m7JGbO5JmcCicTNgjmDYvpDC8tfd8m0kgke39ymEQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-26T08:03:54.000Z"
-        },
-        {
-            "id": "ni9Gbh6Aq_0tPR2gBWEK4Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ni9Gbh6Aq_0tPR2gBWEK4Q",
-            "title": "这位青云人，想请你喝咖啡｜腾讯《青云Live》杂志",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMh23zwXqYgJ9OECuiaibPV1WD6hSyibUM4xW1VoQib74UfjQUQ0wIcqvPtcUo7XzoVfNKnuibIicQyYJB9Q/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-24T11:16:13.000Z"
         }
     ]
 }
