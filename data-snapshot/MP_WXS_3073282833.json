@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "bi6pNqJ_q7BVzkn0G2k5BA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bi6pNqJ_q7BVzkn0G2k5BA",
+            "title": "千万养虾人的终极梦想！全球首个「养虾本」带你懒人养虾开箱即食",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqH9g5C3mNjZBk0zU4kibf0BHv8x4q2Jx0SibFuGtqKibTrqGicnv7cytF3zLCLWNuhhyNWYm5RYsVgpRFWQqFGPHSkvdTS6H9PXnDI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T03:30:57.000Z"
+        },
+        {
+            "id": "NLTYnIWvhPffpQKIM3qIdw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/NLTYnIWvhPffpQKIM3qIdw",
+            "title": "Transformer可以改装成Mamba了：苹果把推理成本直接打成线性",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHuSAyHtLuLnbibeI5K8n9BXVYuKl9f2Ckd0icDUDyLbibAYQNuPZHhnlxNyB2If9Brey9ia1b0vWJqLAFUkVZ3k68ScOF81Fc0kHY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T03:30:57.000Z"
+        },
+        {
+            "id": "QALqpGZxvqiTW0FWSpYrrg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/QALqpGZxvqiTW0FWSpYrrg",
+            "title": "ICLR 2026 | ProSafePrune：一剪见效，告别大模型过度防御",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHEIZ6ic4rSJ68T0cfGArrstzmU3VpdAtOCkubIaqmVOWatqm45h066xhEkuWmbHiahoibZamgWXJ16Svkp5qyh8gmc0mkFZ7VM1A/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T03:30:57.000Z"
+        },
+        {
             "id": "gGb5ahEIZCZx6Twur_PTjA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/gGb5ahEIZCZx6Twur_PTjA",
@@ -784,30 +808,6 @@
             "title": "ICLR 2026 | 机器人不够聪明？VLMgineer让大模型自己「发明工具」，从设计到使用全自动",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE61CL8W85gHpVCUWib5S0GjULT2rl0DRtXKstNTIo2nrvQdP4SYg6V9mGcX5De2LibiasORHgaxs7ibmRCzW4npwakjSlrYRCN7vk/0?wx_fmt=jpeg",
             "date_modified": "2026-03-20T05:00:30.000Z"
-        },
-        {
-            "id": "k4WlVjldfbto6bRgACVN4g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/k4WlVjldfbto6bRgACVN4g",
-            "title": "当中国AI喊出「开源脑机」，马斯克站到全网的对立面",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFCxIvdicUsLWVXTHic6LOyjLgAVNwghpZfj3TCTxxkvUMn3ib1Te9dBOwJiagG163ttCf5CuIV1peialzg9HVVacxZ9WqgdibfXicCe4/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T06:46:57.000Z"
-        },
-        {
-            "id": "DnV3sG1YyWmCcEyVIb0_3w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/DnV3sG1YyWmCcEyVIb0_3w",
-            "title": "想进OpenAI？先解出这道题，百万美元算力已就位",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGYRAZOJxoyw2V4yoeBWHIzfhdFqUQe3s7uYWJ4vm1Slic3XmopaIv6dpqT2icZ6RA1ZiahsXGSJTUJ4vcT3IVNFX7ZlvFTt0fPA4/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T06:46:57.000Z"
-        },
-        {
-            "id": "Q28azqwk-PtsXoep2i0_0Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Q28azqwk-PtsXoep2i0_0Q",
-            "title": "CVPR2026  | Streamo：让大模型变成实时流式交互助手",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHZcsAwOQlLrqfOjIDK2OeDgfmQVDSAosC4rQVEo1dFU2aSiarL8aCBJPAX7oRjBdqsLF3wNmt5B8kOYhDHcfw2PgHzcdYmefII/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T06:46:57.000Z"
         }
     ]
 }

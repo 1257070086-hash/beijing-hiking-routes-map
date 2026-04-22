@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "B0bBawapZLyVlOHGX9ibGg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/B0bBawapZLyVlOHGX9ibGg",
+            "title": "同济er速来集合！「AI Builder 创造营」正式启动报名！",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/pawZofA4fxMQdMWlAUD8EibYn0HhT5dsS0ek2AM5blMnQ7lST420PslGyC8GRibrf3PtgVvssQgJPlWj59v89pib042oUQ7ZibdLcEIkLLjXAHU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-21T11:07:07.000Z"
+        },
+        {
             "id": "f5kbF2qkl-VdnchrHtxs2A",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/f5kbF2qkl-VdnchrHtxs2A",
@@ -800,14 +808,6 @@
             "title": "接头暗号：八点零二，懂的入",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/LXrT0o54f1ibDld4c7B07K83lC4T8fHvSM7NLQwegbvTETrYDibRsoKtibBpRpPL2ialonTOyxb4F8gibylZNbMq6cw/0?wx_fmt=jpeg",
             "date_modified": "2022-07-21T08:25:09.000Z"
-        },
-        {
-            "id": "EKzJkrnZ9INSIqLJ7Z70QQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/EKzJkrnZ9INSIqLJ7Z70QQ",
-            "title": "小红书REDstar顶尖技术人才招聘计划正式启动！",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/LXrT0o54f1icribgoOGynbKgg4jBtaUnqPruibCbRg8AZI3bHib4q9YgC4XibCWLriaQMub3bicdLFF3cOpTZa9iaDf3mg/0?wx_fmt=jpeg",
-            "date_modified": "2022-07-19T01:00:17.000Z"
         }
     ]
 }
