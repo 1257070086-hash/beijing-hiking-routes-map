@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "gGb5ahEIZCZx6Twur_PTjA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/gGb5ahEIZCZx6Twur_PTjA",
+            "title": "拒绝透露姓名，却拿了两个世界第一：具身圈大佬们都在打听它是谁",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHGJr6ibxtcOjLNRQpMpiaTUEnxQbBmzFaJMSFFtgduaVuv4eHn9ej6aicNkY4Hiao4TAuiau5kftc87sJ9ruMbJWMrAmiaxjZIgQqP0/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-21T13:09:59.000Z"
+        },
+        {
+            "id": "rcJbCnmUvq8iRxohc0Z3eg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/rcJbCnmUvq8iRxohc0Z3eg",
+            "title": "谢尔盖·布林重启「创始人模式」？谷歌组建「突击队」，重押「AI编程」",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqG1hqOyxqic8kvQvias1JPib5eGGdnianG6hgzXd4L5lSBAphEUPeKNZkrtj73aib7WkibXEdEEybZ2JB5pIvwn88o0AumqWXkL3Xc68/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-21T13:09:59.000Z"
+        },
+        {
+            "id": "eEKTH4DUoLu7PAD7GlnC_g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/eEKTH4DUoLu7PAD7GlnC_g",
+            "title": "Monet：赋予多模态大模型如人类一般的抽象视觉思考能力",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqExSibF7iboicCY2QWKxPtynH9Kv3NEibJ9eD6M5RsNIBrxrfmHVqBSPuJicAP55azdDSy7O7ibk9ccvo03vgaro64QOStZeDc11Yf5A/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-21T13:09:59.000Z"
+        },
+        {
             "id": "5ElJ8p292RZPlia_QRsW5A",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/5ElJ8p292RZPlia_QRsW5A",
@@ -784,30 +808,6 @@
             "title": "CVPR2026  | Streamo：让大模型变成实时流式交互助手",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHZcsAwOQlLrqfOjIDK2OeDgfmQVDSAosC4rQVEo1dFU2aSiarL8aCBJPAX7oRjBdqsLF3wNmt5B8kOYhDHcfw2PgHzcdYmefII/0?wx_fmt=jpeg",
             "date_modified": "2026-03-19T06:46:57.000Z"
-        },
-        {
-            "id": "greKLeayuGqSYmVFdOBSFA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/greKLeayuGqSYmVFdOBSFA",
-            "title": "更全面的具身智能真机评测来了！CVPR 2026 ManipArena挑战赛邀你打榜",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGlFGvYChn1j8DvvlYxYvuQ5BEVynwRfufzjOKNsuq30Xr6JJicBzLUS3ribyaISOUu0cZzA4LCVlRhXdibSyuNGAias9dkLrWxY00/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-18T07:37:04.000Z"
-        },
-        {
-            "id": "Ks6h3SeYuS2HhsvtEMiNBQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Ks6h3SeYuS2HhsvtEMiNBQ",
-            "title": "第二代PPTAgent来了！中科院软件所开源首个本地通用幻灯片智能体，9B参数打平GPT-5",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE70sxK9WiaRlrfU3CGFvNN4mGf3d4cYqicfzJMLqkiaf9AwN4YAdZ5ia00PEJRS7MoXicwG8DffP63tq1hMMGWsqYq3dzKQXgqdyoU/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-18T07:37:04.000Z"
-        },
-        {
-            "id": "2N4AZXsBy2Jq-kVU1ak-jw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/2N4AZXsBy2Jq-kVU1ak-jw",
-            "title": "老黄呼吁所有企业「养虾」当天，阿里正规军入场，「悟空」把路铺平了",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFc86U1ibN8XZiaJTkkygLib7ia8ALl8xcU873vlDnC6mSoM7dNWP8eibmjAaIjF3R3RHyyyanIyd1WFPKtiaaA0VayDeq1Pmv8YCJAk/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-17T10:00:12.000Z"
         }
     ]
 }
