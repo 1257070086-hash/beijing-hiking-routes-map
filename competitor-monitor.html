@@ -1804,8 +1804,9 @@ function renderWithCitations(txt, articles, enableCitations) {
   if (!txt) return '';
   // 去掉 AI 可能输出的数字引用编号，如 [1] [2][3] 等
   txt = txt.replace(/\[\d+\](\[\d+\])*/g, '');
-  // 去掉末尾参考文章部分（**参考文章** 或 ---\n**参考文章** 开头的一切）
-  txt = txt.replace(/(\n|^)(---\s*\n)?\*\*参考文章\*\*[\s\S]*/m, '');
+  // 去掉末尾参考文章部分（**参考文章** 或 ---\n**参考文章** 等各种格式）
+  txt = txt.replace(/(\n|^)[-—]{0,5}\s*\n?\s*\*\*参考文章\*\*[\s\S]*/m, '');
+  txt = txt.replace(/(\n|^)参考文章[\s\S]*/m, '');
   const lines = txt.split('\n');
   const processedLines = lines.map(line => {
     // 跳过标题行、空行、纯符号行
