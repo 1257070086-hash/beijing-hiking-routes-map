@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "2qnhrgo68_IKj4jnyRzNtw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/2qnhrgo68_IKj4jnyRzNtw",
+            "title": "美团校园 AI Hackathon 大赛，等你来战！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/dguibS1kreNb040e0etY8AWib5qiaG7HWPn1NFicI0aSEOoib829Ek4ia96hbKxdq1xACVt9vCK8PBYibH0SbrRhnZDpaksjldoL6icYQu3kuQyt7hc/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T09:06:43.000Z"
+        },
+        {
+            "id": "HlQF5ZhGAobjTcukvhTybQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/HlQF5ZhGAobjTcukvhTybQ",
+            "title": "社招｜美团核心本地商业闪购事业部，等你一起来！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/dguibS1kreNasf8wE5icZED3vpWblzlfxBSxjjOG58FKic6ILKCVfrQZTeW0n3FVqxs3ibicFxyAE0oQ69r01OLmdS8iaWXW1QdaYHBpg4pzicQeXE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T09:06:43.000Z"
+        },
+        {
+            "id": "8HkdEb_ANdP_mjSW_4lXNg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/8HkdEb_ANdP_mjSW_4lXNg",
+            "title": "模拟面试｜AI产品经理岗&算法工程师岗，看直播get一手面经！",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/dguibS1kreNYouAtNaIa6eHBePNH83qrv3ybmgXTZjPZF0TkC5c9CwwemgSsNWBHXZ7ZjOffmk725IIJ9AnCicD8a79r5qwPBYQycqItyoPAQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T09:06:43.000Z"
+        },
+        {
             "id": "FQgmaOyAA8ateiA-QAakxg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/FQgmaOyAA8ateiA-QAakxg",
@@ -784,30 +808,6 @@
             "title": "麦当劳与美团无人机达成全面合作，10+深圳公园可享空投汉堡！",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/tOEDsPaAH9XNunbKsaFho0XTOELDqGgJQrp8533Hcr1TNibIjvMXzQBp2FhnibwbNGx2GSnyZsBqlUn8DBZk2zeA/0?wx_fmt=jpeg",
             "date_modified": "2025-08-13T09:03:41.000Z"
-        },
-        {
-            "id": "b45utkLbZR8AfQ014NnIeQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/b45utkLbZR8AfQ014NnIeQ",
-            "title": "获奖名单公布！首届美团【未来设计】大赛圆满收官",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/tOEDsPaAH9UEYyaBwIr4CfceWAlF50yjey1cMDt1H4QS66cVTSeD88pKictg2zdzEbZiaQSicFhcGoLgZibBJFICcA/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-05T09:03:43.000Z"
-        },
-        {
-            "id": "K99aJwLEnjveHCArRU_89A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/K99aJwLEnjveHCArRU_89A",
-            "title": "直播｜今晚19:00看美团2026届校招启动发布会！校招负责人帮你划重点",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/tOEDsPaAH9VoiclwdC3fgQLrH79Uqg3kxrpna3XtQZTBYkpvjOd2NqzAJveL1kibxN40x8qSuzR20pRiafm0Y4cCw/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-30T03:03:43.000Z"
-        },
-        {
-            "id": "Vs5SSi1kZaUl_IjGuffMwg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Vs5SSi1kZaUl_IjGuffMwg",
-            "title": "校招｜美团核心本地商业2026届校园招聘正式启动！",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/tOEDsPaAH9Vial975H9TxOqc1h8APJxErDjtDe1b3FgYNUchtgDwwWCdJ8Xq07gxDC0ToKUqrsPWdwMI15UOgicw/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-30T03:03:43.000Z"
         }
     ]
 }

@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "6NTmK7yWWV-O1zV3lxTM8A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/6NTmK7yWWV-O1zV3lxTM8A",
+            "title": "国企、外企岗位推荐",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lBich4Tjxv4PUE9CIA72lYjqmLcicq3TbCHLtN9ClZTIY68sxmlAGgZBBTSD5fmyzY7fxFkh8MuxrLg/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T04:20:02.000Z"
+        },
+        {
             "id": "k8gti4Z1JIvF6fk_IBYRpQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/k8gti4Z1JIvF6fk_IBYRpQ",
@@ -799,14 +807,6 @@
             "url": "https://mp.weixin.qq.com/s/q77NogYrjQXz0OnJNqWLpA",
             "title": "今日大厂员工事：快手王犇离职；闲鱼组织架构调整；百度空降高P；字节期权回购；腾讯天美迎贵客；狗东零售求才若渴；",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lAOWprCIdDYakHlRvYkDdssd3OIwiaG6iccP21tgZPPeyPljQP52R6QCvaNicsBOlhkjfeIYlJR1HP5A/0?wx_fmt=jpeg",
-            "date_modified": "2025-03-05T04:22:57.000Z"
-        },
-        {
-            "id": "32zVWDjMW7IYeF2gJpJ4gg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/32zVWDjMW7IYeF2gJpJ4gg",
-            "title": "大厂运营转AI初创公司，职场女性经历分享",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lBEzmVTibdwhWiaPDRlaqbOibD6aY8Qg8lpXniactr1b33g8Y8tSSAR2vEU7y1a9Vx9tYLrsIGb21iaLkQ/0?wx_fmt=jpeg",
             "date_modified": "2025-03-05T04:22:57.000Z"
         }
     ]

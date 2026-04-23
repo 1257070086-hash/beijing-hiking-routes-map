@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "kXMmZN_4IguVtVoJbTQpJw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kXMmZN_4IguVtVoJbTQpJw",
+            "title": "能谈心更能办事：阿里发布千问AI数字人形象“千问小酒窝”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnqL9AzBFnm8yibGdotCyt2mfFMMoKR9psW5Gc2YkLaITib8x0aVtAH2wMqIVm2x5LibrYX1sxlAIOOs51srSfTfIVnzXuqmMmCa4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T02:48:18.000Z"
+        },
+        {
             "id": "1MWzKJdSDWzWQS8KICBN6w",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/1MWzKJdSDWzWQS8KICBN6w",
@@ -800,14 +808,6 @@
             "title": "透视外卖账本：京东被「暴击」，阿里方向转移",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YjhmbbkdV6vVQ625Gk3IS2JC2juJwgRKTGpjCeQBtSrNMF6MdJ6ibtOLF5Qr5XMHSAZTjX06MicvvyXNugjGIYfw/0?wx_fmt=jpeg",
             "date_modified": "2025-11-25T05:32:12.000Z"
-        },
-        {
-            "id": "rh5UZdXHMRxPr3K8td2JQQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/rh5UZdXHMRxPr3K8td2JQQ",
-            "title": "谁能成为「AI时代的微信」？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibYwxiaCZ27S2OXEmSJtYSDibbo1nTWKmhuMrJO9icouwAgsMickfRRpiaP01qMsrgpYxxgiapTj0zCbLMkMLVX1mpSXA/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-24T05:25:54.000Z"
         }
     ]
 }

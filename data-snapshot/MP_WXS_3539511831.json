@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "3b9U15COUZto4EXtyPDgqw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/3b9U15COUZto4EXtyPDgqw",
+            "title": "国家亲自下场：人才缺口，终于有人填了！（附试点名单）",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/oQjET7dYAzw5zN3rxSZfGOcYcDDic88icTO4qZPia1RKSM2JLOiaichmxwory7Kxzy4NSPmiaANOiaAFnSjkodyUJZOZup6278J2oVicRcPF6v8eEcQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T07:39:03.000Z"
+        },
+        {
+            "id": "ZTshGKQ0M7vPF6nLRwlhag",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ZTshGKQ0M7vPF6nLRwlhag",
+            "title": "拼多多社招｜PDD核心算法团队纳新，最新hc都在这了！",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/oQjET7dYAzwRowT5bJw9BclRczYhtSU3e3yay7pneczISmKADo5yxOQKbiaMBDoIVm1745mDfvPqTj9RoXtAOHUZBYPwG3OTfibPKQP1tcZ5E/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T07:39:03.000Z"
+        },
+        {
             "id": "l0E5hOER1V2Xb-91hEa-ZQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/l0E5hOER1V2Xb-91hEa-ZQ",
@@ -792,22 +808,6 @@
             "title": "美团S-team添两位新成员，持续开展“领导梯队培养计划”",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2LlLwfMXSRDBzm88ynCacy3dBRuYCUMM5ra5A8weV8AcAVphe7ZHJ142xfwh0fnENNict3DZibI1pSw/0?wx_fmt=jpeg",
             "date_modified": "2025-10-20T12:14:29.000Z"
-        },
-        {
-            "id": "PUm9A6KYd-xM6YRd4U-fKQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/PUm9A6KYd-xM6YRd4U-fKQ",
-            "title": "10.17｜字节保障方案更新；阿里、蚂蚁联合设立香港总部；同程发全员邮件；淘天师兄师姐制度升级",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2J1OBcrDTC6LhYY5Ya8xt8nACqlWVMWsE9pKsH6EhPw69IUKhh3pvAQeal0iabcAgicC77klDIvJFuA/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-17T12:25:20.000Z"
-        },
-        {
-            "id": "jHK6HNmp9NJNe3OGzDTCsw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/jHK6HNmp9NJNe3OGzDTCsw",
-            "title": "滴滴社招 | 网约车安全团队最新hc放出，就等你来投！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/I8txyBI0a2J1OBcrDTC6LhYY5Ya8xt8ns0xjiaaRUVFVmaavarODMvVKkPkn0PUJnqicyPjzS83Z5sBeO9dXoxPg/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-17T12:25:20.000Z"
         }
     ]
 }

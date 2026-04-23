@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "LDUAYqARMCDc210WfS_dFg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/LDUAYqARMCDc210WfS_dFg",
+            "title": "回答“青云计划”的那些问题",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/50opAau08FaoX3Arhq0LR66r3EIPqolVdm8mdcqTbAJzXbDAIBRLLG0Riciam1hTjtCicibuewPicicANwrZxxGCLyxkQnKJxr7iaZjHriar91dUicbU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T10:51:07.000Z"
+        },
+        {
+            "id": "lkJKAzB6qWbVDpBE6fdOcw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/lkJKAzB6qWbVDpBE6fdOcw",
+            "title": "腾讯ICLR 150+中稿！这些技术亮点值得你关注",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FY4EuYgsE73ZvmVvlUDicZsw1s3J7jyQmt2ibdgbIDsDvY691luxTVutMMibicVoxH87bO3aaYOOiauM1BqAic2FOqgBgDjmyesXMMtE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T10:51:07.000Z"
+        },
+        {
+            "id": "KOd24uFhdguVLw1UtJRswQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KOd24uFhdguVLw1UtJRswQ",
+            "title": "腾讯X浙江大学深度合作，共建“智能图形与互动娱乐联合实验室”培育游戏技术人才",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FaIv05QhO343qSXDtqNjo5kJFARKWf7ia3fXh6OwVbn7l7MWBU1lRok0Hp7wC9yVkcT45iaLOZfLROBpzd2GYhg4MdT5coUHaaib4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-22T10:51:07.000Z"
+        },
+        {
             "id": "jhJ1pl5nNtSmvcvuawMuRw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/jhJ1pl5nNtSmvcvuawMuRw",
@@ -784,30 +808,6 @@
             "title": "技术交流不设限｜腾讯青云群星将来活动回顾",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMjxIbzekQu4LVbE7ZKBw0eStJQqZBZgmBrG94HoaiarpNgHFAa8iblhYN7rfBnFrI0hvciakibtLBHEew/0?wx_fmt=jpeg",
             "date_modified": "2025-12-05T14:51:27.000Z"
-        },
-        {
-            "id": "zE5GYKGNWk5v6FSH23EA9Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/zE5GYKGNWk5v6FSH23EA9Q",
-            "title": "线上！免费！Tencent Day求职辅导报名启动！",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMhupmvZkXfulhicjBkMmexa1c2IUHlsvmaZYvobjaXOvwm0XHdcKysUkE2kuDFDBmcYM5d64DQGARQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-03T11:31:10.000Z"
-        },
-        {
-            "id": "Ep_buR4oFid_gHcegd4D0w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Ep_buR4oFid_gHcegd4D0w",
-            "title": "腾讯与深圳河套学院达成战略合作，打造大湾区产学研新范式",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMhupmvZkXfulhicjBkMmexa1utMMJZibiciaicXOCkgkOREs3wvib4N4uefGez0Mf7Py32KJiasJLUMkVSUQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-03T11:31:10.000Z"
-        },
-        {
-            "id": "9uVKEepLwmWazB8t83ZpXA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/9uVKEepLwmWazB8t83ZpXA",
-            "title": "腾讯2026校招补录，还有机会！",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMjoueicOlrtPcGiakObd8wTPNXWxyu7fY2w9iakMWz2gMovnxoIDmXMpibJzKeicGRpfLpiabOOg201iaicSQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-02T10:25:25.000Z"
         }
     ]
 }
