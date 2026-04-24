@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "VJgVPeJ5GZhVwbRtneEk_Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/VJgVPeJ5GZhVwbRtneEk_Q",
+            "title": "Harness Engineering：AI 能在真正\"出事会炸\"的后端系统里写代码吗？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz907cxTyqsu7dAgBWI0jSZppqS9vPQWPPxKxNu7KmlDlUEx1FO1YsmtEM08j6Hx4NFdDRouexkRXgAAjWbIc8icsCgQeOb1Z2dw4Y/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-21T10:26:59.000Z"
+        },
+        {
             "id": "fLiyW2t4CBOnWjx2Km8d8g",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/fLiyW2t4CBOnWjx2Km8d8g",
@@ -798,14 +806,6 @@
             "title": "DeepSeek V3.1 领衔，万字长文CodeBuddy AI Coding 企业落地实践思考",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvav1dkBE9HsuY4AeELbeRU9mFYGKia9uaicu2KZQcuvXKvvBtueZzLV5ic51DKbQJaTENbiagu3QXNXbbg/0?wx_fmt=jpeg",
             "date_modified": "2025-08-22T10:46:18.000Z"
-        },
-        {
-            "id": "x9TyypzmwraeOvEXHSiiCg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/x9TyypzmwraeOvEXHSiiCg",
-            "title": "腾讯Kuikly框架进一步开源，新增支持Web，开启一码五端新体验！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvaupA5G4yLjr4iceV0ALdpbuNsOdFvZQn9Wbvhky9wlI9DzBkO9QT5TxC2SRd7eNwuShg0kWg7LQQcw/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-20T04:11:37.000Z"
         }
     ]
 }

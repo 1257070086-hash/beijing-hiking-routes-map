@@ -10,6 +10,38 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "jcu_iOORK5HWlwvIbfghIQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/jcu_iOORK5HWlwvIbfghIQ",
+            "title": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhiakHTsyNrN0M1BibPwHJMjGHiaXT643uVvicic2ErN0mHcTiauAWYFctkVwwnGMTxqicdbOtpWia2CSLgChy0UHwRmmGctxdkrPZQV28/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-23T12:32:27.000Z"
+        },
+        {
+            "id": "kKYfIG9h3nwvSUyuRkJjAA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kKYfIG9h3nwvSUyuRkJjAA",
+            "title": "把大模型推向亿级DAU前台，快手直播如何重构匹配效率与交互体验？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgooqxaFlpHv4lwjGoe9aBx7qjEaxYbibY6r5meicIPCnCAE3Say9ibgFxNDZfQt3SvzatOxg3icKHn28FtCH3wfODc2GicUO5yNPhU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-23T12:32:27.000Z"
+        },
+        {
+            "id": "KPUxRFMx0EiNOgfVdujhyQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KPUxRFMx0EiNOgfVdujhyQ",
+            "title": "为什么说 Harness 是 AI 时代的操作系统？| 极客时间",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNia4np1ib73ejicWLTv57qpx2iaZR2Jvj9kJqxniaYnQ1jo0KWPa86FibejcWokURCMyOKEMKWruCNgkB9GxuruO9mYvUoPXAicUAXK1Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-23T12:32:27.000Z"
+        },
+        {
+            "id": "BtfpERARrvEv1kENN-PcCA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BtfpERARrvEv1kENN-PcCA",
+            "title": "GitHub Copilot CLI 正式进入全面可用阶段",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgDlI9PLBGicg6RIAhpgicJwgOGrRJSB2LHKb1Dviapy3RE2Dhr0yBibvAib9LHpafEWMHIHt0DKL1Y9xHByTt1avOfS1ycicZ4DVkU4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-23T12:32:27.000Z"
+        },
+        {
             "id": "xY5PmnslogdPPkV4L09chw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/xY5PmnslogdPPkV4L09chw",
@@ -776,38 +808,6 @@
             "title": "Rust 的独特之处不只内存安全：来自自主机器人的启示",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiaTH4eAdO9pWWzjPeUuIyiabRyGpqpsspQMGiciadqXmmz8iaqHoyTpIrLWlwicicebv8J6pPvl3525XUjsHnbWc9lKr3xzicPQI2fwicw/0?wx_fmt=jpeg",
             "date_modified": "2026-03-31T05:31:26.000Z"
-        },
-        {
-            "id": "__kUslxf8r_BL8eDC4FqFA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/__kUslxf8r_BL8eDC4FqFA",
-            "title": "JavaScript 2025 状态调查：生态趋于成熟，TypeScript 巩固主导地位",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgra40TKcMvQTjJphibln4FoUQib23ibwQ1Se22HJJWEUX16cwNC9e9RphNIOLdHonRL0kibX9vWJ8ToRA5oJpGCx7CaHSrmF8w608/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-31T05:31:26.000Z"
-        },
-        {
-            "id": "aigOK9sQZ56JDOPm9vMJww",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/aigOK9sQZ56JDOPm9vMJww",
-            "title": "PingCAP 联合创始人兼 CTO 黄东旭已确认出席 QCon 北京站，分享 The Age of Autonomous Systems 自主系统的时代",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjlR92yGSNPp9by9sZy0GW6mBibIjxJthr0llTfhzynxx1sBPOVf84K2ZXwlNaFiaxYLl8Y9dVvGHbxr0Mqf72ICQINaUicY4CjvE/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-31T05:31:26.000Z"
-        },
-        {
-            "id": "KLfkEHL7ji18c2ScSN3Fvg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/KLfkEHL7ji18c2ScSN3Fvg",
-            "title": "通义实验室推出CoPaw，更适合打工人的国产龙虾来了",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiar8BCYtiaRVcDpQZfRGiasPGUYqRgNKpLNPCotXWQpgrgXWqsvHDmSVAwYz1TqvCWA9GicstjhejbXINSqJ5UTNSq29erAz2llHY/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-30T07:56:45.000Z"
-        },
-        {
-            "id": "SvhP0-sKY86GhUX_RuIVyg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/SvhP0-sKY86GhUX_RuIVyg",
-            "title": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhm9f6wx9t5E9fQ0dR8WuPmDNmaJ85tL1ScMRhV5WNPLjvdoOCbxQe08A8mqLNcicWXRWlNZKm01vHNefzibyciboFeXc8yRTdibQk/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-30T07:56:45.000Z"
         }
     ]
 }

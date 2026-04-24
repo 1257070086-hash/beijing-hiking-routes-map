@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "T6EtapFTJTKtEnE1llWohA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/T6EtapFTJTKtEnE1llWohA",
+            "title": "滴滴自动驾驶CTO浙大校招宣讲，阐述发展历程和技术理念",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmleJl9ib1ibhhLjHyL848A8BIxOeiavDP9GjiaCdOSCDQqJ95k2IRa7GQiaxXpbAkw56AcjcQlzvBeOncjuGHBIWicSFyuNrSyRic08qM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-24T02:01:15.000Z"
+        },
+        {
+            "id": "QLLOTtAJG_497l4-ojVH5Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/QLLOTtAJG_497l4-ojVH5Q",
+            "title": "为什么现在是加入腾讯青云计划最好的时间？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnKUV1axMnCcrU1QlwLvJ9ApFbFGysfasUyIQ7pj9CicAfABlf566t9FHLicMOCuia6PR1HcmTtNUqibkBrXONHHBahJ14RKR8JsII/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-23T13:31:52.000Z"
+        },
+        {
             "id": "kXMmZN_4IguVtVoJbTQpJw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/kXMmZN_4IguVtVoJbTQpJw",
@@ -792,22 +808,6 @@
             "title": "阿里不用再给外卖砸钱了",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OH087NN8eyWs84q9V3tNf5WUSfLgrkjRiatmXtzdrPOQC7UezzKFjGzTdG4ppmcTHzbMDcluH3xN8TT6UxEGKrw/0?wx_fmt=jpeg",
             "date_modified": "2025-11-27T02:23:33.000Z"
-        },
-        {
-            "id": "AruPgmiAtJER5fVkPL4Org",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/AruPgmiAtJER5fVkPL4Org",
-            "title": "Meta猛挖字节墙脚",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/UNJJvfWbETuf791eVMibyUkcib49x1ibl3bXXtXZF9FnVPuqRQkYv7YPjE4AqjG6R6fuQfMXdhHKshHt2eeKrqRzA/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-26T02:23:23.000Z"
-        },
-        {
-            "id": "2b2NDQANaccpvprUdf44lA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/2b2NDQANaccpvprUdf44lA",
-            "title": "透视外卖账本：京东被「暴击」，阿里方向转移",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YjhmbbkdV6vVQ625Gk3IS2JC2juJwgRKTGpjCeQBtSrNMF6MdJ6ibtOLF5Qr5XMHSAZTjX06MicvvyXNugjGIYfw/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-25T05:32:12.000Z"
         }
     ]
 }
