@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "d7QteVcIQoQ7ClxrHMIy4A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/d7QteVcIQoQ7ClxrHMIy4A",
+            "title": "elasticpp：重塑Elasticsearch查询性能的C++内核引擎",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz5r5iagUibUGTRic4G4JHt8Lfp6ib12tl0WiaypmjD64q0KukTA3sq0nIP5QeTHvuw2fBUd0q5EMUKcYsxVzHmwgOCtQ5hL8q064g1o/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-24T10:31:26.000Z"
+        },
+        {
+            "id": "exxxGcmamyVROyf9PBQdbQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/exxxGcmamyVROyf9PBQdbQ",
+            "title": "世界读书日｜AI时代，我们该读什么？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz42GXhepKZmXvcv319uXcG2CR6bPTN2UQouicAqSxPgVRaGU9duLbnXlzf3yZIHTRpZnsvzH3NxmnmFZpejGQYvt9BQ2vQwdqcM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-23T12:28:26.000Z"
+        },
+        {
             "id": "PGpkC04XfF7ilMDb9vOcNQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/PGpkC04XfF7ilMDb9vOcNQ",
@@ -792,22 +808,6 @@
             "title": "阿里云基础网络技术5篇论文入选全球网络顶会NSDI",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30GZZib4T8tGzE3K5rQZmvYKJ0ibVqz4WgPia2yhGic0NfExB1JLcXKQI0iaMOicqfQqR2xtAm4gGPdKGwUg/0?wx_fmt=jpeg",
             "date_modified": "2025-05-15T00:31:19.000Z"
-        },
-        {
-            "id": "kFvublYF0wDJmU6a6BU6tA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/kFvublYF0wDJmU6a6BU6tA",
-            "title": "大模型推理框架RTP-LLM对DeepSeek-V3的优化实践",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30GibU4IT9C8vqMgczicsB4t91RWKlwOGLP8EBoAgX8jgD6DkLlF7oj7HCvbzvEJFLC8BzoPhcS1NVPQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-14T03:31:13.000Z"
-        },
-        {
-            "id": "jUyMsPp3zToJsvOnZiUSRA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/jUyMsPp3zToJsvOnZiUSRA",
-            "title": "【云故事探索 | 文末留言有礼 】No.7：「越用越上瘾」，中华财险60%研发人员用通义灵码提效",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30FCLhdZDfDKiaCnn3z8AOE52fRcbFLkzbKQCjTPYx8ofdvfLhpjcZlXEqsOZGugN6DNicXDzju4nvnQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-09T00:30:28.000Z"
         }
     ]
 }

@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "dJiIi3CP-iLmDrcqg_lSmA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/dJiIi3CP-iLmDrcqg_lSmA",
+            "title": "鹅厂员工，最近看的一本书是什么？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz907gf9A9avHrFwn3ZCjd7ibo4GZF1XG6g8CL4R3O9IBtYfUtOlfHSU6c83GibeoR50ud97cJL9mu7ibnvVJVBzUQZ3rVcrlyndiaPRI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-24T09:24:38.000Z"
+        },
+        {
             "id": "VJgVPeJ5GZhVwbRtneEk_Q",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/VJgVPeJ5GZhVwbRtneEk_Q",
@@ -798,14 +806,6 @@
             "title": "Python 2还能走多远？",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauykdM4ibEsqLAaibw7LPvoFfL7c6vgQvS6FNq2do76gQpyoT0AY6LLaJ3IkP9oUGl9ic41icqksBCIXw/0?wx_fmt=jpeg",
             "date_modified": "2025-08-25T12:51:16.000Z"
-        },
-        {
-            "id": "Sn40DhPrPD5Pi835KijnvQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Sn40DhPrPD5Pi835KijnvQ",
-            "title": "DeepSeek V3.1 领衔，万字长文CodeBuddy AI Coding 企业落地实践思考",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvav1dkBE9HsuY4AeELbeRU9mFYGKia9uaicu2KZQcuvXKvvBtueZzLV5ic51DKbQJaTENbiagu3QXNXbbg/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-22T10:46:18.000Z"
         }
     ]
 }

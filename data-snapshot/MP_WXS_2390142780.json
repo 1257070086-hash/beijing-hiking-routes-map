@@ -10,6 +10,102 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "TKaIPD7-Yx0P5HMrNGajOQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/TKaIPD7-Yx0P5HMrNGajOQ",
+            "title": "1850 亿美元天价支出、75% 代码由 AI 生成！谷歌正式宣告：全面转向智能体工作流",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiapvQRGXBsPJ1RlUtiabr2JWq8nTibbI370O6yF1U2AOyMBkFvd9GGZaiakYE1xlQ1wwhH5b5MpKoMLBmtNNYgicaHCaTObKpV5THs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-26T02:16:28.000Z"
+        },
+        {
+            "id": "BJMKsf8vKdAGcYFUoVuamA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BJMKsf8vKdAGcYFUoVuamA",
+            "title": "智能体工程的隐形技术债：10分钟造出一个 Agent，公司却要为它养一个平台团队",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjVXxdLVe8SviaoC81P2t9Hs4YvNy0HeNaC848fSeoOZELMOPopEUyLw2OuEXfFZjoXMPapjDQvlFTvLoGYd5XUytF7qhR6h6Ho/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-26T02:16:28.000Z"
+        },
+        {
+            "id": "q3yja_gKRCM29B049wc55Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/q3yja_gKRCM29B049wc55Q",
+            "title": "超越 RAG：用 Spring Boot 构建具备上下文感知能力的 AI 系统",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNg66l8IYxN7UEjVIy7Su4Qb0hV9a0dhjCNicfDicQLvJbdEHvmTMEMvRYsvy57yycJaCTgKdlrqfmaoExJDZyR7sjqsxZ0DzBicU0/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-26T02:16:28.000Z"
+        },
+        {
+            "id": "VnkwffXl8vo3j5UZtkLCOQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/VnkwffXl8vo3j5UZtkLCOQ",
+            "title": "Gemini CLI 引入子代理机制，实现任务委派与并行代理工作流",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgP589UE6WVgE9DtiaH7ZPKUdxq7pkdPfwXBMCtLg0p1sMSN0xEXOMy5fdWbCwC5zGXpZhjub6UNkLQ3icMHBvadYVcJCia3TqU4M/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-26T02:16:28.000Z"
+        },
+        {
+            "id": "_k6tFQEKrvUiGh1RFDOUrQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_k6tFQEKrvUiGh1RFDOUrQ",
+            "title": "“我把所有模型都换成了DeepSeek V4”：月账单降 90%，效果还更好",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjScffK0z8s65LK39wNibNxnnOJcK5MVqKyYf4rkKOr9nz6syvibq2SYoxC3rX2oElXr0UN6yS0Ef86gP0U7hyh33wncVRc86Pr8/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-25T07:30:37.000Z"
+        },
+        {
+            "id": "eYL3Luk7FocIu4oBy4PQSw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/eYL3Luk7FocIu4oBy4PQSw",
+            "title": "AI 编程的失控临界点：理解债、上下文衰减与独立开发者的新天花板",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhbmPlr8eViaLErUWHuocsN1NvMoTAF03R31ibf23xbfEpQKGBOBLFULFnP0qF4e2p07DicAcqz0BSoV0YGpibt7SdNKawoDwzEMtU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-25T07:30:37.000Z"
+        },
+        {
+            "id": "x13u69kvwG4GoaA1d29XYg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/x13u69kvwG4GoaA1d29XYg",
+            "title": "AWS 新发布的 S3 Files 适合作为 Kafka 的存储吗？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNh8ZRPNxqApGX7gxowR8ziaYdia62iaic9TtuaXHNcsjVYF9kKV8FELDz42fkGjsgBotx1X2AC4KQt4ZXYzLBJ4IAbCXmiaxOy7ibZpw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-25T07:30:37.000Z"
+        },
+        {
+            "id": "GGaKu2-06i_JWpZeMMJRQA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GGaKu2-06i_JWpZeMMJRQA",
+            "title": "OPC的接单困境：10个需求同时来，敢让“龙虾”替你拍板吗？| 直播预告",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiamiavYTYO7G1oyqsjcHBld37bttnTd7ydOjOJFuoBUiaib3aGSG1ojfSPy96Mb1ic0BZ6YVMeCWXT72rT4vcIWlmUmn6tw7ibjvmco/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-25T07:30:37.000Z"
+        },
+        {
+            "id": "Xlb8mzqNufy9dreC6JG6xw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Xlb8mzqNufy9dreC6JG6xw",
+            "title": "DeepSeek V4 重磅开源！首次打通华为Ascend，也没丢掉英伟达，百万上下文夺回国产模型话语权",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjGORZCzrxBtv6Y2TB840IdM2G89kOIhtYnhic0axN1V4Bqt60ib1eI1plRDibvJ2r1DX1SluCLic26IXYa6jELMpdBfQKjVL6J83w/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-24T04:15:35.000Z"
+        },
+        {
+            "id": "KsJX3vrIE7tfQFFoccC4cQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KsJX3vrIE7tfQFFoccC4cQ",
+            "title": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaiaeu9BPxE0Mmca3eOIVg8lXFJpEYYWJJ8Zy8c6Ns4wp65kWDItqaibVUbFcH4ERhrwbhVgTA8u6ggsYntiaelFGjUMx2KVU0icTY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-24T04:15:35.000Z"
+        },
+        {
+            "id": "6x9rlW3Phb1GwZ9avH8kXg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/6x9rlW3Phb1GwZ9avH8kXg",
+            "title": "Vibe Coding 时代，程序员的核心竞争力到底是什么？| 极客时间",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgUCKiaeA9QoMToHH9V00XbqD51QibvqOib9gunYDv9DVicNGWDIUw6aROZtCyxGHg7YiaTIAqj5xs4ctkOibXXWBLbR9icu80VdKyf6w/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-24T04:15:35.000Z"
+        },
+        {
+            "id": "dCYVyyiaptYvBY8p8FhiMQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/dCYVyyiaptYvBY8p8FhiMQ",
+            "title": "AI Token说：企业级“龙虾”落地那点事儿，QwenPaw这么说...| Q推荐",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjTsZq8ZdCK0TbXkWRG0aU46cFzrhia8xs4mP3ckv5ibfrwdnvT8fcffO80p7AZFqI7iaccJGNd4LXK1WPcrzJ4TP0SFPAJCv2yPA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-24T04:15:35.000Z"
+        },
+        {
             "id": "jcu_iOORK5HWlwvIbfghIQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/jcu_iOORK5HWlwvIbfghIQ",
@@ -712,102 +808,6 @@
             "title": "大模型驱动下的生成式搜推：淘宝闪购全链路重构实践｜QCon 北京",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNianHPDd2kbbvwcibLSQfln9YLpicsQwoVZbzVvicaVpwpFokiagmG879K85B2xcUVqMnYordOdrm7hlfficpKPMHO9nPKIa1qkERVBU/0?wx_fmt=jpeg",
             "date_modified": "2026-04-03T07:04:46.000Z"
-        },
-        {
-            "id": "LUiHjBNR8maPpyWHmupQSA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/LUiHjBNR8maPpyWHmupQSA",
-            "title": "Claude Code 泄露的代码里，处处写着：这家公司人品不行",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhny3cp7iad0bZZhuI31DN7keAf3K86ATYORS9jmkbU2Iu2yYsPSTjYouJb3zKgWyqKzFvcA1sRMPlnmqMFxLPkWy7icWBBUpmYE/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-02T01:57:12.000Z"
-        },
-        {
-            "id": "cigereb66Lq5P2wrLYbuig",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/cigereb66Lq5P2wrLYbuig",
-            "title": "Get 笔记的断舍离清单：我们拒绝过的那些“高级” AI 功能",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgcFvNkb0mrAT1vvrNFfNY4MCkmZ661RPOVPCRwsUHQicuH5djFDvicXjOLSyicdKctZBelDbiagGoEjM1whW7bULYsf8kzYsavPZQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-02T01:57:12.000Z"
-        },
-        {
-            "id": "9hLJ-TkfNSWyB0ul6BkkFQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/9hLJ-TkfNSWyB0ul6BkkFQ",
-            "title": "2026 中国企业 AI 应用场景报告：千份实践解码 AI 价值落地全路径 | 极客时间企业版",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNj2zloIquxM2sfN3N3fZ10ibHu6CibDxicGOvWTcg8XOYkmxMtdbFlmpZ7ffI2ibrGmibbyV75oicSx1vLpn8xP2RbF5O8VjV4ACL6t4/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-02T01:57:12.000Z"
-        },
-        {
-            "id": "CEgbNjBLYb_HlE1LGP84mw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/CEgbNjBLYb_HlE1LGP84mw",
-            "title": "微软推出 WinApp CLI，统一 Windows 应用开发的工作流",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhCeibRIoicCjeMd0xKGyuldBdy70fIFpgicjmMI3kiam0smAondhDX3BmsRvEhzSJYJwrEfjP3O4nTAibV5qxLF8Ct5soCs0wqNtG0/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-02T01:57:12.000Z"
-        },
-        {
-            "id": "HEg1bAzk5J1V7KL8FOKqKw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/HEg1bAzk5J1V7KL8FOKqKw",
-            "title": "1220亿美金！OpenAI 完成史上最大规模融资，微软“退居二线”，首次提及“超级应用”",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhVicDburiaWy6LibYAfPF46iauparx70R7uQZbLvcnulrUnQQ0fvfoloJbDqv56xPTkCzTjghrePPmu5S0N5oxa6ukbF7x1XNGSJQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-01T04:52:33.000Z"
-        },
-        {
-            "id": "v1DR7TnENcKzbgdv5gc8Ew",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/v1DR7TnENcKzbgdv5gc8Ew",
-            "title": "Claude Code刚放出大招，转眼就被群嘲“用不起”！OpenAl趁机甩出最阴插件，直接偷家",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgeicRPTefUv91I9fwvsDOy3ubfEtx3Gib1wibH1YpdtIBATSVHcl0BUxexVUJdAQWvKNQibqktxsTia6iaqTULiciaqZWpdolWVia6tu2o/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-01T04:52:33.000Z"
-        },
-        {
-            "id": "cNnaK6HfDgRilTGq7KHOLQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/cNnaK6HfDgRilTGq7KHOLQ",
-            "title": "微信、QQ能接龙虾了，然后呢？| 加入 InfoQ 龙虾线上辅导",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjuP1N9mhE5Gpovqic78aqNXfkqnTAgRibLtib5Yf9MmrUwgPpEUkEsTz5dljPmPsr6AhaHhsv5fAMRrcSxc0siajbnCGpIuDClnGg/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-01T04:52:33.000Z"
-        },
-        {
-            "id": "IsgB9kBKNd2yJ5rvZklQyA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/IsgB9kBKNd2yJ5rvZklQyA",
-            "title": "干货 | 执行个 systemd 命令，竟然让容器CPU“打架”？一文看懂绑核错乱的根因",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhGfBtPR4MIlcqSRvPiaRPvYJticibViaOk4h200Q6jVhZhfic27NQJepib60xkgTJLFBmnKRdGkOVRHYj6m9CpHxIIZdhzkk90iaYTBY/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-01T04:52:33.000Z"
-        },
-        {
-            "id": "wojWMd1FwPhRqlFc3T47Dw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/wojWMd1FwPhRqlFc3T47Dw",
-            "title": "去哪儿旅行研发工程师刘洋确认出席 QCon 北京，分享智能体平台如何助力运营提效 1 万 PD",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjgibFhtBjiaeTjoMLib3yJIUDCGvY3iaAYziaibuPHSSFuT8as1hdRseOg0kt6JicEiaibB4nJ3oh5GbcjgWoxTrWqiaFyECy0ay1SJ2uNc/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-01T04:52:33.000Z"
-        },
-        {
-            "id": "ICSIprjjM8hiXEkSdMTrjg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ICSIprjjM8hiXEkSdMTrjg",
-            "title": "OpenClaw 火了之后，企业真正缺的不是更聪明的龙虾，而是一套上岗体系",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNia7ZSfaaFwQ7SDfqhBjwhNgYTjVojXHHNic12BEI4wEicqC3WOGLtDXXpAAQxhNd3MRNeVGoA9SrBhiaPXP7PNkmgGpxf3iaSSPMZE/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-31T05:31:26.000Z"
-        },
-        {
-            "id": "HwRa3TisO94cKO0EUhXfbw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/HwRa3TisO94cKO0EUhXfbw",
-            "title": "终于不用跟图表死磕了！这个 Skill 让 OpenClaw 直接封神",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNg7agSKuKb85rTnaCNqj7O4E5XkqFltAib0B9icnWGDXxnrCMf9gZeG19hWzMUInIB9kL3nw9ooRyAw2CgG5Uq3IUReWBgEia4yMI/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-31T05:31:26.000Z"
-        },
-        {
-            "id": "zW05X6h7XiqRi66R7Fjjbw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/zW05X6h7XiqRi66R7Fjjbw",
-            "title": "Rust 的独特之处不只内存安全：来自自主机器人的启示",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiaTH4eAdO9pWWzjPeUuIyiabRyGpqpsspQMGiciadqXmmz8iaqHoyTpIrLWlwicicebv8J6pPvl3525XUjsHnbWc9lKr3xzicPQI2fwicw/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-31T05:31:26.000Z"
         }
     ]
 }
