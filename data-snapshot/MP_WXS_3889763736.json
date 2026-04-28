@@ -1,1 +1,813 @@
-{"version": "https://jsonfeed.org/version/1", "title": "小红书技术REDtech", "home_page_url": "http://localhost:4000/feeds/MP_WXS_3889763736.json", "description": "小红书技术团队官方账号，小红书技术创新与问题解读的分享平台，与你共前进。", "icon": "http://wx.qlogo.cn/mmhead/Q3auHgzwzM4CbQgGibMwdaPP1mvKL46CQ12jvJAqlLIpz6lpbW870Zg/0", "author": {"name": "小红书技术REDtech"}, "generator": "WeWe-RSS", "items": [{"id": "u0-tZEWTPX4Jh9y9EbVJ1g", "content_html": "", "url": "https://mp.weixin.qq.com/s/u0-tZEWTPX4Jh9y9EbVJ1g", "title": "小红书 Relax 开源发布：面向全模态 Agentic 的异步 RL 训练引擎", "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRnE9fs7OOgZzmUP2IVvVibuPx4kNwXZicb5K10gjyjFMb7icibSsrEf88kicknfFguUWpxYrgdVzyXD753JdIIZ2AXwOmf7X6Tia0RJ0/0?wx_fmt=jpeg", "date_modified": "2026-04-15T03:01:36.000Z"}, {"id": "bZnwABi4XKTJCgvGhq-mYw", "content_html": "", "url": "https://mp.weixin.qq.com/s/bZnwABi4XKTJCgvGhq-mYw", "title": "ICLR 2026｜小红书多模态推理大模型 Vision‑R1 ：实现图文内容的深度逻辑推理与理解", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/P9Hs04VFGRnt6hDkrPIUNEzyfzic7Co817G0sqAbAT0ibQggGmfl900ickwicBXpDquEgSfjYbMhKkLqARqOTcicv0S9Uiamyyv4wibYlu3vp2tObk/0?wx_fmt=jpeg", "date_modified": "2026-03-10T10:03:34.000Z"}, {"id": "HOH6xTOOnegSwnu3FK8y9g", "content_html": "", "url": "https://mp.weixin.qq.com/s/HOH6xTOOnegSwnu3FK8y9g", "title": "30B参数超越GPT-5！REDSearcher让「深度搜索Agent」做到低成本可扩展！", "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRm8IlThC7GBtFTU7movYQThnZ5v69ibaIFxeQReiayF2dZMA2czYgxLPt28ic6CajBtAnqicr3iaPGaTGenzfabRlOc6YCEyxtlSbLA/0?wx_fmt=jpeg", "date_modified": "2026-03-09T10:01:26.000Z"}, {"id": "fu7QWtGtv4u0BFF4EiwiJQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/fu7QWtGtv4u0BFF4EiwiJQ", "title": "史诗级更新！小红书图像编辑FireRed-Image-Edit v1.1发布：OOTD元素融合、人像一致性大幅提升，社区友好拉满", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/P9Hs04VFGRnpAYxRMibVtdpyFX7QUXy9pxlJmQ4LPXXCCRP5SH66torJypkNjdFXErJ3Na8Ynkicb7xH0tyy4Mr1nXpsicqbYoib2ojvbbIf1TQ/0?wx_fmt=jpeg", "date_modified": "2026-03-08T12:42:20.000Z"}, {"id": "W0buSraMmMxL_9j5YbYNyw", "content_html": "", "url": "https://mp.weixin.qq.com/s/W0buSraMmMxL_9j5YbYNyw", "title": "🧨不仅仅是动效：实时交互系统如何打造极致沉浸的语音拜年体验", "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRmZCukaxN9POGQolo4VBgBj1VntVuFfH90xolFAbeCRwdr0JGeO15icCPofDBB4DiczU0lDib8DfXRdpFiavORiceV14COE22zHnnO8/0?wx_fmt=jpeg", "date_modified": "2026-03-04T09:58:46.000Z"}, {"id": "if7rvPDqf4TGPADji-Z_3g", "content_html": "", "url": "https://mp.weixin.qq.com/s/if7rvPDqf4TGPADji-Z_3g", "title": "FireRed-OCR 开源发布：端到端方案新SOTA！小红书提出低成本文档识别训练范式", "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRl5icl21zuyLgOcCyfk63n0c5phCh2A0CZkiayZ7TZibmszwHRtNGOOHPhhmIfL0xQgtvhb2wRnia5XLTFmyxFPvtZrA0On5bI2Y0o/0?wx_fmt=jpeg", "date_modified": "2026-03-02T09:59:02.000Z"}, {"id": "g1nZPkDWwt3weGUhjcfsuQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/g1nZPkDWwt3weGUhjcfsuQ", "title": "小红书发布 SWE-Bench Mobile：当 AI Agent 面对亿级用户 App 代码库，最高通过率仅12%？", "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRmJrTq7fq9MXTJoU8gQQnb3eRrHicrD5YiaWclaZc74KJ9CHWia5hXSgoknIrwVpFNk4DHIJYyRrUIMXxfRqDyWXrQU08XBcJ3zD0/0?wx_fmt=jpeg", "date_modified": "2026-02-27T10:01:43.000Z"}, {"id": "u3I8F_f0dVwSrCjF3G7PJw", "content_html": "", "url": "https://mp.weixin.qq.com/s/u3I8F_f0dVwSrCjF3G7PJw", "title": "小红书发布FireRed-Image-Edit：图像编辑新SOTA", "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRmDRK02JW8iaiarA0picD4zNyT1yKl6A8Q0ibFMwbaicekupWlO8FciaS2YJbz5j0sUKGHxxZARRK7rupI3zrmiblyDKOCrKeEB7WicXibA/0?wx_fmt=jpeg", "date_modified": "2026-02-12T10:22:31.000Z"}, {"id": "nzQ2JVbVUJZ7pQ3eIEIHDQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/nzQ2JVbVUJZ7pQ3eIEIHDQ", "title": "「码」上有灵感！速来领取REDtech送你的马年专属红包封面", "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRkiaibkx8GsntPzHEBUW4jTtk7v9w9nuWyr8TtS7mFPibjKdLfULmmUdeCmM7BsV8UDr30UstuASy6OZqGB9NaIibfaTSaq3xUco7E/0?wx_fmt=jpeg", "date_modified": "2026-02-10T09:45:08.000Z"}, {"id": "ubYfc_Ihl9JMEZnlBPHvKQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/ubYfc_Ihl9JMEZnlBPHvKQ", "title": "支撑亿级流量：小红书 2025 MySQL 内核做了哪些关键改造？", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/P9Hs04VFGRkXZtIyT3O5U2yHpMC8z6nk7ws3hIwyRyfIYBJN0MAibwAu1mTv3L0pXuJibpsFl95GY4niaJGA3xZOsts8icYghYKrbAVYiarhT2AE/0?wx_fmt=jpeg", "date_modified": "2026-02-05T10:02:34.000Z"}, {"id": "FEYCGxSlGurNetVv0LOohg", "content_html": "", "url": "https://mp.weixin.qq.com/s/FEYCGxSlGurNetVv0LOohg", "title": "Java 再升级！JDK21 + 虚拟线程技术大规模落地方案解密", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Ith1kceJevvuoMOV8cpG9MP97EbjlsdcFeHOhicOnJdGWicIicHEF45Fiamickm8quu2nZiadp9x7sCMObw/0?wx_fmt=jpeg", "date_modified": "2026-01-30T09:04:04.000Z"}, {"id": "Q-tap7xI3Y5diTMEt5hMyw", "content_html": "", "url": "https://mp.weixin.qq.com/s/Q-tap7xI3Y5diTMEt5hMyw", "title": "小红书MySQL内核秒杀能力重磅再升级", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvFM3AhYOrsF3c9cgibVZLmoNuHMSG7kt0bibGNibTUynccJ1h2ODdSeXV3Qiag1uG9CiaIeQ2ftlCpWMw/0?wx_fmt=jpeg", "date_modified": "2026-01-19T10:04:17.000Z"}, {"id": "FjW2hpZEhI7-HIHe8tJmFw", "content_html": "", "url": "https://mp.weixin.qq.com/s/FjW2hpZEhI7-HIHe8tJmFw", "title": "KDD 2026 | 小红书内容审核：Hi-Guard 让内容治理“知其然，更知其所以然”", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iv6o7gBSuyGbqTsF6hOsY9OUbU0TqsFOBdkUWCBLUQFmEhAD0qBIibb2LebL0tlu2ibfcuhia74Ab35A/0?wx_fmt=jpeg", "date_modified": "2026-01-15T10:02:03.000Z"}, {"id": "1aKUcyMz6JGUlfcbvA2GSA", "content_html": "", "url": "https://mp.weixin.qq.com/s/1aKUcyMz6JGUlfcbvA2GSA", "title": "REDtech·2025 热门技术文章年度盘点｜互动有礼", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IumNJ5UM8GrMcYIKjibhcJgro54UWWftxJ1fPXuOAYXOcABeyX7nXaviao63QoUN2sxZrCNBEg4VgBg/0?wx_fmt=jpeg", "date_modified": "2025-12-29T10:05:46.000Z"}, {"id": "pCDobFG3uSWRO_7ZXSCBgQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/pCDobFG3uSWRO_7ZXSCBgQ", "title": "小红书混合云架构下自用数据中心设计实践与探索", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvoQ2Kq5ZQzah6IIZLLZ1vrRRVRjwzDMvWvxWUdc8067OBCdMS9b0ztI8jEF3ibwU0BtLF0p26orqg/0?wx_fmt=jpeg", "date_modified": "2025-12-25T10:02:12.000Z"}, {"id": "M2sUhkay7NhFjJHKdEaf0Q", "content_html": "", "url": "https://mp.weixin.qq.com/s/M2sUhkay7NhFjJHKdEaf0Q", "title": "NeurIPS2025｜小红书智创AIGC团队提出布局控制生成新算法InstanceAssemble", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IticNiaxicXSHGroia7w0L4ee81UCxX4ulYaNIOvhmlogXt7SeJGOiciaGw0ialAh5PsgfC13mE8UVOJkeew/0?wx_fmt=jpeg", "date_modified": "2025-12-18T10:07:27.000Z"}, {"id": "-7YEig9nAte5DfDthn3oiQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/-7YEig9nAte5DfDthn3oiQ", "title": "大模型训练的高效内存解决方案：流水线感知的细粒度激活卸载，实现显存开销与吞吐性能的联合最优", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsVD7nL6OFpDiaqTia3WLsaB6Uhe71vysyC1hrbWib7Y4Hn3ibhg64Au45Dwkap7AmPBSpArzib6VywJNw/0?wx_fmt=jpeg", "date_modified": "2025-12-11T10:04:33.000Z"}, {"id": "OvNm5iIn7BjssPiE_JAqSA", "content_html": "", "url": "https://mp.weixin.qq.com/s/OvNm5iIn7BjssPiE_JAqSA", "title": "KDD 2026｜小红书搜索：生成式相关性让搜索“会思考”", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItR42MNvNBI7gkcl3USEaIJib1ejRMjHHuLGov3jYoed9304iakgdlewO8PI1DjSyvzDUc1vj3Via15w/0?wx_fmt=jpeg", "date_modified": "2025-12-09T07:03:00.000Z"}, {"id": "agyF9AH7l66PR4_mFQJ2vg", "content_html": "", "url": "https://mp.weixin.qq.com/s/agyF9AH7l66PR4_mFQJ2vg", "title": "AAAI 2026 | 跨视频推理基准 CrossVid：给多模态大模型出一道“综合题”", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Itjtdhm8YfyYzxG7RzDURxFF9pr25ciaYOftxF9iaXYPjdVwX8leoBcGBtcYt8oiaIWNBTccL6dYOpqQ/0?wx_fmt=jpeg", "date_modified": "2025-12-04T10:01:08.000Z"}, {"id": "eEQoTNtLKb9lFbfemAN6bw", "content_html": "", "url": "https://mp.weixin.qq.com/s/eEQoTNtLKb9lFbfemAN6bw", "title": "EMNLP 2025｜思维链提示虽好，但它可能正在“隐藏”大模型的幻觉", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuibKKoe1iaQyEvW5yaf30Uw5tQoHqPWQWDkpq8d3untsdnKV2rJAIjVgZsuR3icUT4T30Ph8ZHN3MPw/0?wx_fmt=jpeg", "date_modified": "2025-11-27T11:03:23.000Z"}, {"id": "ooU--PPm1dEUWSeJYBhrDA", "content_html": "", "url": "https://mp.weixin.qq.com/s/ooU--PPm1dEUWSeJYBhrDA", "title": "小红书推出通用推理智能体 DeepAgent：工具&任务随心配！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItV8YFMLsLJM6vltiaje6eVPqWQ5utW7NWY8DnOuu95JrRDgshbGunCX7CnbpOmJCIic2eOrKwXuORQ/0?wx_fmt=jpeg", "date_modified": "2025-11-20T10:02:55.000Z"}, {"id": "SUkW1RhGCrjSJEVtsd_LIQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/SUkW1RhGCrjSJEVtsd_LIQ", "title": "RecSys 2025 | 小红书推荐团队提出视频时长预估新方法：EGMN", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iu5dhtK4icwj0VFoicbh4lvdZNlbO5nTvxRAOYPDicDOMvibqmd4ZLVM55ibicFHulOEbYZEdyBVib7bFpUg/0?wx_fmt=jpeg", "date_modified": "2025-11-13T10:04:06.000Z"}, {"id": "ASzmwDt8_PPne8xVYY_VLA", "content_html": "", "url": "https://mp.weixin.qq.com/s/ASzmwDt8_PPne8xVYY_VLA", "title": "从“实现需求”到“共创价值”：AI Native时代需要什么样的工程师团队？", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuwjO8QGO6oXiaRq3ACLVDyyNIlBs2ekIfL0Ro4HOeTgL6sZ1N9dGPb6jC80GX7ibh25tedeUc6mLoQ/0?wx_fmt=jpeg", "date_modified": "2025-11-10T04:01:44.000Z"}, {"id": "mSksm15Zv6x_9k5rY-aloQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/mSksm15Zv6x_9k5rY-aloQ", "title": "ACL 2025 杰出论文 | 小红书 AI 搜索和北理工提出“容量差距法则”", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IspAFXHsiarchgNptGaccAcLv5260hib2K2KYzpvzjib3icl1UZ3JB7nUayERxfcH4jmj4gFSQtibib8Lfw/0?wx_fmt=jpeg", "date_modified": "2025-11-04T10:03:20.000Z"}, {"id": "kggHH0OeM0mpLoXSVFzGAQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/kggHH0OeM0mpLoXSVFzGAQ", "title": "Hugging Face创始人 x 小红书技术副总裁：关于开源、AI与技术人成长", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvzCk4Xb5ibSRFORjvZXjerOuDMsxBDlPtrq2PZLDryYicpsQXWEiaAy9ZZmadCNhySUjOvKWr5iaJs9A/0?wx_fmt=jpeg", "date_modified": "2025-11-03T04:00:31.000Z"}, {"id": "AO0430_j59taDgxutNWXqQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/AO0430_j59taDgxutNWXqQ", "title": "技术、产品同学必看！一场关于「开源、AI、技术人成长」的1024特别课程", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuQhVnQQn6QBecbzaZibpnyTMEIN27YSYTQ7MRhONmhIoVvtzBlC9LmV2ROsfcE0oQKmURo2YsHDPQ/0?wx_fmt=jpeg", "date_modified": "2025-10-23T12:02:45.000Z"}, {"id": "SQh55byO6USoC4JY4An2Gw", "content_html": "", "url": "https://mp.weixin.qq.com/s/SQh55byO6USoC4JY4An2Gw", "title": "让我们一起恭喜小红书算法团队同学~", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItPF41bayB6TCibNRR34T9B0h09wMUhS5QMcrfGLZYPMJiaiaJDuSIMzZBFsRJC9YIA8ZR7SXwVvpdXA/0?wx_fmt=jpeg", "date_modified": "2025-09-30T15:13:14.000Z"}, {"id": "BTVYywhpgU1mdUy8s0JJlQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/BTVYywhpgU1mdUy8s0JJlQ", "title": "小红书 Data+AI 数据平台实践", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuT1cfYvMd3COjiaSkvSRTdLn6L0L166nEQbDFAwDC0leiaJ2V8UotZIj525D6DZ3g9J9jx743DOqYw/0?wx_fmt=jpeg", "date_modified": "2025-09-22T10:02:20.000Z"}, {"id": "a3h_j8WpGbrEGS3ovZYXqg", "content_html": "", "url": "https://mp.weixin.qq.com/s/a3h_j8WpGbrEGS3ovZYXqg", "title": "行业领先！小红书智创音频技术团队打造SOTA对话生成模型 FireRedTTS-2", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuickicAVe82OSfuYKTzmfZiaNtYREND1WLaw3k1eGL5ggfXDVf4MchIg0IFMgO0lyByYHa5JHIEdMfQ/0?wx_fmt=jpeg", "date_modified": "2025-09-19T10:06:31.000Z"}, {"id": "063_3cpeSXY8o5yhkOVc1w", "content_html": "", "url": "https://mp.weixin.qq.com/s/063_3cpeSXY8o5yhkOVc1w", "title": "小红书新一代数据库代理 RedHub 的设计与实践", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsUMeMwAmxRLwuxtJDmsLhQV3SzUz5tm9lSCU9rOUHvrqtjS37vicz8WE6qUTepM6oEXO2IokkMzbA/0?wx_fmt=jpeg", "date_modified": "2025-08-27T10:02:29.000Z"}, {"id": "xUfv0eCBmJ2ySjT0E-V-DQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/xUfv0eCBmJ2ySjT0E-V-DQ", "title": "ACM MM 2025 | 小红书AIGC团队提出风格迁移加速新算法STD", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItYZjR2Dkwe44oia5iavAnn9nW32hAunSngTkicqIKh1RTTBE1ica1VM2HjGNrp5lXR1cd47CKAstetcg/0?wx_fmt=jpeg", "date_modified": "2025-08-19T11:02:22.000Z"}, {"id": "vi9QQyIciCY3yMZ3RnPVIA", "content_html": "", "url": "https://mp.weixin.qq.com/s/vi9QQyIciCY3yMZ3RnPVIA", "title": "ICCV 2025 | 小红书AIGC团队提出图像和视频可控人脸生成新算法DynamicFace", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IunENPlMKb2LhE6qQt4ahXDC2hxqSsD2jQpy0kNrGCuguJzmKz0nT8bMRlSeeNcInSr2FPp0WIxIA/0?wx_fmt=jpeg", "date_modified": "2025-08-18T10:00:49.000Z"}, {"id": "660_EiV2KTR7pTvRJny_JA", "content_html": "", "url": "https://mp.weixin.qq.com/s/660_EiV2KTR7pTvRJny_JA", "title": "小红书自研keyless支持HTTPs卸载", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuZqnYnxmud1y7aSHws7lMichfuPBZlS1xFqBulMnTLY5mHToybDWjk81PMzb8TqfIibNmq5OueSgNQ/0?wx_fmt=jpeg", "date_modified": "2025-08-13T10:02:58.000Z"}, {"id": "0Lu7_XVCbMIOJkN9h_0o6g", "content_html": "", "url": "https://mp.weixin.qq.com/s/0Lu7_XVCbMIOJkN9h_0o6g", "title": "小红书自研Binlog Server守护MySQL数据0丢失", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsHKFTA0cean0SDugyvNm9mnPSdqOpE0fyt4gO7Kfm8iczkNAQlcrtokkoAZPRAjWNibibHKWLU8IOww/0?wx_fmt=jpeg", "date_modified": "2025-08-07T10:02:10.000Z"}, {"id": "akO8a2c_hVsSz2vNdExdIw", "content_html": "", "url": "https://mp.weixin.qq.com/s/akO8a2c_hVsSz2vNdExdIw", "title": "小红书 hi lab 开源多模态大模型 dots.vlm1，效果接近闭源 SoTA 模型", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItibJxwiaeSsT5Gx4WhZFNpI6cgg2VTCZdyOrtUh5moJ5eAw0nEIgicYVnO3SjxrtI6v9yzmbDjszsFg/0?wx_fmt=jpeg", "date_modified": "2025-08-06T10:01:41.000Z"}, {"id": "oyi8y85C-TF9TWdujbiFUA", "content_html": "", "url": "https://mp.weixin.qq.com/s/oyi8y85C-TF9TWdujbiFUA", "title": "小红书hi lab开源多语言文档布局解析模型dots.ocr，1.7B小模型实现SOTA性能", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuWQvGLZ2oqNVNyuWkOqsCX6MX1ichrwhjVU0JMiafibv7F4dhYq9prD4oeND5IP8HUfeRxw0jITC6mQ/0?wx_fmt=jpeg", "date_modified": "2025-07-31T04:01:33.000Z"}, {"id": "qxDNW5Ss3r4zhPSCqdXvqw", "content_html": "", "url": "https://mp.weixin.qq.com/s/qxDNW5Ss3r4zhPSCqdXvqw", "title": "小红书JDK升级带来10%整体性能提升，这份升级指南收好了！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItrqxWeF1ODl53UYhM6aU7PurUVcxtXIuIuXSUSEvOUqFZ6JsAwlSVSGWIu6nEopbmuI0IgibHOT7A/0?wx_fmt=jpeg", "date_modified": "2025-07-24T10:00:29.000Z"}, {"id": "MQJb6VcEc-Ky7_QMwvxjQg", "content_html": "", "url": "https://mp.weixin.qq.com/s/MQJb6VcEc-Ky7_QMwvxjQg", "title": "小红书「REDstar顶尖人才计划」全球启动！毕业三年内均可投递！", "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/LXrT0o54f1icqeKnWUB355jrVNYjQcVxfRutpnHiaKOR2PdxfVLZP1OVAEmLrDNygH3H0ibHW82GoHajwDoDc8tkA/0?wx_fmt=jpeg", "date_modified": "2025-07-03T03:34:27.000Z"}, {"id": "3UadDLhVdQQFh8VCyLJpuw", "content_html": "", "url": "https://mp.weixin.qq.com/s/3UadDLhVdQQFh8VCyLJpuw", "title": "万字干货：小红书 hi lab 团队关于奖励模型的一些探索", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Itdl0BKNKQDicxR09gZktzKGRMtCw8LmLvEETkROyuriaDXGEBm3uXbszSfJU1ico44ChSUF3Xbvoumw/0?wx_fmt=jpeg", "date_modified": "2025-06-24T10:01:25.000Z"}, {"id": "0ck3XA4q4q5u2hhA2NZ8pg", "content_html": "", "url": "https://mp.weixin.qq.com/s/0ck3XA4q4q5u2hhA2NZ8pg", "title": "告别无效思考 | 小红书Hi Lab 提出Think When You Need", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Isiaxg2lAguEWrk5ibQd7Fh6ianiasibQwdJoV1U2ztk0nxkjhvOl6FG1kjpFb7Bjkz0YrQicCyv0KSrmpw/0?wx_fmt=jpeg", "date_modified": "2025-06-19T10:00:53.000Z"}, {"id": "UkNX-cpSD11c5C22Mvfo3Q", "content_html": "", "url": "https://mp.weixin.qq.com/s/UkNX-cpSD11c5C22Mvfo3Q", "title": "小红书Hi Lab提出DeepEyes，探索O3「Thinking with Images」能力", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvBUic0oZXyZwTceiaBEFXTj9mzIuREYPAJjl2libMfiaj5tSSKTjb7UlhcvNeyHhq263KqnapsQNyUOw/0?wx_fmt=jpeg", "date_modified": "2025-06-09T10:02:15.000Z"}, {"id": "alrgkHayznBd6TOyNXyuCg", "content_html": "", "url": "https://mp.weixin.qq.com/s/alrgkHayznBd6TOyNXyuCg", "title": "小红书hi lab首次开源文本大模型，14个checkpoint覆盖Pretrain与Instruct阶段", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItQOTqFh9kZ6nImhPkkQOpD9iaOcXibr3FJIDtKQOahBJ8XX8y0yRqtMVxDxvicUbumichebgUwJOg7ibA/0?wx_fmt=jpeg", "date_modified": "2025-06-06T04:20:38.000Z"}, {"id": "ImO4uB7A4gXbHCuxCZx5kg", "content_html": "", "url": "https://mp.weixin.qq.com/s/ImO4uB7A4gXbHCuxCZx5kg", "title": "ACL 2025 | Revisiting Self-Consistency: 动态分布对齐视角下的大模型投票策略", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvyooR2icdnwL5WnMmcQFh2ocy0zfEiarQls3p9fLtWH2kvSxMwCzdyfgMbr0cXY7GRpCKo9Nhic5kNw/0?wx_fmt=jpeg", "date_modified": "2025-06-05T10:03:25.000Z"}, {"id": "nwZBObF1KzfSBfb2sP-sag", "content_html": "", "url": "https://mp.weixin.qq.com/s/nwZBObF1KzfSBfb2sP-sag", "title": "ACL 2025｜大模型长度准确可控生成：为何不准？如何更准？", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvyooR2icdnwL5WnMmcQFh2oK3qKPLCL1GdFVeiaBeLxTrJTk0EG9o1KGf1Uz49QlwnTbdOdYRemWrA/0?wx_fmt=jpeg", "date_modified": "2025-06-04T10:00:55.000Z"}, {"id": "fn0Gjo9o2iC6rkqNCLE4lw", "content_html": "", "url": "https://mp.weixin.qq.com/s/fn0Gjo9o2iC6rkqNCLE4lw", "title": "ACL 2025 | 效率最高提升300倍：TailoredBench实现大模型定制化高效评估", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvBUic0oZXyZwTceiaBEFXTj9oDIia50prU3ibf1XXQFS4rNEr5RFESzT6nZSqGzialsg7B43mia8qd4wfA/0?wx_fmt=jpeg", "date_modified": "2025-06-03T10:01:26.000Z"}, {"id": "O_Ew3kCPXdH2cUZVsdOZ1Q", "content_html": "", "url": "https://mp.weixin.qq.com/s/O_Ew3kCPXdH2cUZVsdOZ1Q", "title": "ICML 2025 | 小红书 hi lab 团队提出多模态奖励模型泛化新方法", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvvdJ9z4yo07k3EV20iatUde9gqTuj6uKMv5psGH8WWfg23hdV0Ojy0z20ChyfKiaqpicfsWccw7gU2A/0?wx_fmt=jpeg", "date_modified": "2025-05-29T10:03:42.000Z"}, {"id": "OzFfkWYpJWMwDXHjwRGKCg", "content_html": "", "url": "https://mp.weixin.qq.com/s/OzFfkWYpJWMwDXHjwRGKCg", "title": "WWW2025 | 小红书向量检索团队提出超大规模向量检索图索引构建新方法", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuGzZGaJFmHgQ9xgaKuPyuERfukJVP3fZia6Vau7rjQWUDvv8FyF4LWcibOhYpO6wFjt6Kz4CvEDs6A/0?wx_fmt=jpeg", "date_modified": "2025-05-22T10:01:59.000Z"}, {"id": "lsiD6RXxou-V9U6ssQwZcw", "content_html": "", "url": "https://mp.weixin.qq.com/s/lsiD6RXxou-V9U6ssQwZcw", "title": "增量计算+实时湖仓构建小红书实验数仓生产新范式", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItJDqP7b1SPPy00SGMaGvjGYBiasaHqicx3rtdO75R9fEWNedNOWQm7tO53zlvyOsxjpbIey2icl3iabw/0?wx_fmt=jpeg", "date_modified": "2025-05-19T10:00:55.000Z"}, {"id": "4yn1Z3c-GaCbhp3PqkGhqA", "content_html": "", "url": "https://mp.weixin.qq.com/s/4yn1Z3c-GaCbhp3PqkGhqA", "title": "ICLR 2025 Spotlight｜小红书大模型评估新突破！UniCBE 最高节省 50% 标注成本", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsUnQT8TNXib7UkAf7NVf5DSdIxfFjFR5w4nB62RjcevgiafDWuS0wFBuVljVQHBfTpxLB1IJsibflmA/0?wx_fmt=jpeg", "date_modified": "2025-03-13T10:07:04.000Z"}, {"id": "wnkYr4qKIFmh9E9H_XcwTA", "content_html": "", "url": "https://mp.weixin.qq.com/s/wnkYr4qKIFmh9E9H_XcwTA", "title": "小红书推出自研Rust高性能七层网关ROFF", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvbdOx09DPBFic8Owew8S0HOsH5ibD7H1WT37jN8UXFg8A6KicUXLWU5qHU6tOMJPTIkVFo4lBKWMLhg/0?wx_fmt=jpeg", "date_modified": "2025-03-06T10:01:20.000Z"}, {"id": "BRO6Iv39-KJ_sEYZSm0vsQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/BRO6Iv39-KJ_sEYZSm0vsQ", "title": "KDD2025｜小红书联合中科大提出1.44M轻量高效AI图像检测模型，超SOTA 4.5个点", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsIKD3Ea9v6tJ4UDhI1UtXWFB9jKl41GLqpssPosyPibHAw7mTnjlSf4RrRqBI6DWlO91icaiass4Z5g/0?wx_fmt=jpeg", "date_modified": "2025-02-27T10:06:58.000Z"}, {"id": "yBk2gIEkgK1b4tFadVC1oQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/yBk2gIEkgK1b4tFadVC1oQ", "title": "ICLR2025｜小红书等提出AI图像检测新基准新方法", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86It5MI3GkFpZzFwnqjCY4iaBtyibUQCcTThxeNgsFReoXCVfpCMwdEDacuSkoqsmCAJRw5nXpeL7WILw/0?wx_fmt=jpeg", "date_modified": "2025-02-24T10:20:47.000Z"}, {"id": "M6qy0IdtbLMLLCraE9EeMA", "content_html": "", "url": "https://mp.weixin.qq.com/s/M6qy0IdtbLMLLCraE9EeMA", "title": "重塑数仓开发模式：物化视图与逻辑数据集的应用", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Is0rwRqb5UicgAvKtXic6xhHc9gteGHV5yuFJLLPZLVLbjU1h5ecyhrPXb8tGejbLMfttGJQuicjIqQg/0?wx_fmt=jpeg", "date_modified": "2025-02-20T10:01:29.000Z"}, {"id": "6sAxo9I3b2dEkWK0wgLzxA", "content_html": "", "url": "https://mp.weixin.qq.com/s/6sAxo9I3b2dEkWK0wgLzxA", "title": "小红书与上海交大发布多模态大模型新基准", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Itp3CzeicfU0cicgAh2WicbbfMHxqBPJlVqSUpDeasUl0qbMhjaHPZzH95cKWjUJP0JXoYtbibGaTMupQ/0?wx_fmt=jpeg", "date_modified": "2025-02-17T10:03:07.000Z"}, {"id": "_qG8Qljj9E-ac4AeaUXZvg", "content_html": "", "url": "https://mp.weixin.qq.com/s/_qG8Qljj9E-ac4AeaUXZvg", "title": "小红书应用算法部开放招聘，商业化/社区/交易三大业务方向热招", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuNrBCdf2f9UZCndWp52vzyYibP2fA0JKmDicIhK8mGOykeL4erdCcpJybvfX1Mgs6gVw9TTPMaicwyw/0?wx_fmt=jpeg", "date_modified": "2025-02-12T10:05:40.000Z"}, {"id": "B5qkgwGHdFY2QY7l4LLFGg", "content_html": "", "url": "https://mp.weixin.qq.com/s/B5qkgwGHdFY2QY7l4LLFGg", "title": "AAAI2025｜小红书搜索广告团队提出幻觉检测新方法：基于语义图增强的不确定建模", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItqxHljWibZ0LGiasJFUfT9330cP4ldOnZIeGy9ojdCHcTtUgS3R4ZA8e4UUoNricE0momI8ibjLKSZLw/0?wx_fmt=jpeg", "date_modified": "2025-01-16T09:59:23.000Z"}, {"id": "Z1Wl_przUNCYRuqdjoWu4w", "content_html": "", "url": "https://mp.weixin.qq.com/s/Z1Wl_przUNCYRuqdjoWu4w", "title": "小红书入选信通院“2024年云原生标杆案例”", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItygDMyRT4lsSFAaBkSX5UqqeDpvIQgpyMc0fIrefRSiau6629GxhKWMaQiby9rZ9Z7wNG3BDNusMDQ/0?wx_fmt=jpeg", "date_modified": "2025-01-16T09:59:23.000Z"}, {"id": "tG_ktQ0WbZHQavtoJtaXbw", "content_html": "", "url": "https://mp.weixin.qq.com/s/tG_ktQ0WbZHQavtoJtaXbw", "title": "从0到1构建RLHF系统——小红书大模型团队的探索与实践", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItTlGW89iamibTribic5vNO3gSysSOFkoOyyT4PF82LRQYkaLJnsvYPibGIlAHvUUgyTZ9vCQJcd4R5TmA/0?wx_fmt=jpeg", "date_modified": "2025-01-02T09:21:19.000Z"}, {"id": "Nf4KpBKGifBusp9SnyIQKw", "content_html": "", "url": "https://mp.weixin.qq.com/s/Nf4KpBKGifBusp9SnyIQKw", "title": "NeurIPS2024 | 大模型指令嵌入：面向任务识别的指令表示", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItAAUgFicJU3fFAcUFSHaAz5OjGWibg2lrFpgtv1n475uc9kLhF1xAGxKE9wyYBJgyKEF9JvDEUibcIQ/0?wx_fmt=jpeg", "date_modified": "2024-12-26T09:00:17.000Z"}, {"id": "lYAV-hl-f3ywEsievfHdbA", "content_html": "", "url": "https://mp.weixin.qq.com/s/lYAV-hl-f3ywEsievfHdbA", "title": "EMNLP2024 | 示例越多性能反而越差？大模型注意力分散是关键", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86It2S80VSGQyRuGIz8dOiauZeqZYN6V0q9BHdPfOIDbRQfdya6UhicN9SewTgSicJnVqZ5iaz3IfC6hwTg/0?wx_fmt=jpeg", "date_modified": "2024-12-26T09:00:17.000Z"}, {"id": "_pj5vVQZ1azMv8fuq925Qg", "content_html": "", "url": "https://mp.weixin.qq.com/s/_pj5vVQZ1azMv8fuq925Qg", "title": "小红书获上海市网络安全攻防演练第一名", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86It2S80VSGQyRuGIz8dOiauZesgKZMgicFWzxFsuibr3qqeNcKe1jxW92T6Q5ZlDYrm07MCSkAJeJkG3Q/0?wx_fmt=jpeg", "date_modified": "2024-12-25T10:06:00.000Z"}, {"id": "JFtlCbcakyKd60H10ldEEw", "content_html": "", "url": "https://mp.weixin.qq.com/s/JFtlCbcakyKd60H10ldEEw", "title": "小红书MySQL数据一致性校验能力探索与实践", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvWHfqQgO7eodf4JOoxRf5R4wpjeZj7zoYw6zqX65FvmnVfibFc3wdmpQ1gn7tPBXDfQKIH4icB3eJw/0?wx_fmt=jpeg", "date_modified": "2024-12-19T09:01:23.000Z"}, {"id": "BJJunPVQyNmfd-2FFuKG2g", "content_html": "", "url": "https://mp.weixin.qq.com/s/BJJunPVQyNmfd-2FFuKG2g", "title": "REDstar｜剑尘：那条看上去不太常规的路，可能是属于自己的正确道路", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItzLbseggpFx7trD0ZFV7hmEchibNuLgJRyAcFEicFeXaBd7cEONlGptc34miaiciaUt8VynKu10dvtNdw/0?wx_fmt=jpeg", "date_modified": "2024-12-05T10:21:12.000Z"}, {"id": "9Hgrj59BOCytzqTuaeFWjg", "content_html": "", "url": "https://mp.weixin.qq.com/s/9Hgrj59BOCytzqTuaeFWjg", "title": "小红书向量检索团队获得CIKM 2024最佳应用研究论文奖！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Is3sN1Wv1e5DnKdfT7iaghLDKENcpZe8EiaRuVySHMq9ic0rVClgKcA04zAZ0BV1WCgsWiascCUeicl9Qw/0?wx_fmt=jpeg", "date_modified": "2024-11-07T09:01:17.000Z"}, {"id": "oPonMwFKAwr_H9-r4_umzA", "content_html": "", "url": "https://mp.weixin.qq.com/s/oPonMwFKAwr_H9-r4_umzA", "title": "点击查看小红书程序员的朋友圈", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KFxns84fHVW2oQPtAEunmoTowG9JjkwqmP5UmEu6MVPGm1TH0Plk0xSHkTHZWk099OKll4dgiax3G4Ef0zK13fA/0?wx_fmt=jpeg", "date_modified": "2024-10-26T14:01:11.000Z"}, {"id": "nAIw-YbnultU75lDEBsjgA", "content_html": "", "url": "https://mp.weixin.qq.com/s/nAIw-YbnultU75lDEBsjgA", "title": "Code for Passion @小红书程序员", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KFxns84fHVVibfv1xjbdLduNhxc6m993QKvrnKUhjoTOlVojLITfdzsrvBaUUqkcuzFhxdkKib8y56ic6h1zuRlicA/0?wx_fmt=jpeg", "date_modified": "2024-10-24T12:04:38.000Z"}, {"id": "aumDJcoKHklLo1QEp9otlg", "content_html": "", "url": "https://mp.weixin.qq.com/s/aumDJcoKHklLo1QEp9otlg", "title": "Apache Pulsar在小红书在线场景下的探索与实践", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItfaQpA0ViapvmHmBzRPYvT67Xxj3Q45SiaT3lVYBt6qlMt5dNFQSaPhwtjnJZCm256voPBADYGhdKA/0?wx_fmt=jpeg", "date_modified": "2024-10-23T09:56:59.000Z"}, {"id": "brG03PcopbkgM3uEen3mpw", "content_html": "", "url": "https://mp.weixin.qq.com/s/brG03PcopbkgM3uEen3mpw", "title": "小红书提出大模型推理加速算法 HASS 刷新 SOTA", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvAsQZXjTKfVdCPoXXwqRyloH1EFic6LShicqcKiaZibvU4r1RL5zHXwRE9Beiay28RyziaDp1eX5lQeyyQ/0?wx_fmt=jpeg", "date_modified": "2024-10-11T10:27:56.000Z"}, {"id": "5KOpCFJ0SuWQ-qe9_U4Qyg", "content_html": "", "url": "https://mp.weixin.qq.com/s/5KOpCFJ0SuWQ-qe9_U4Qyg", "title": "AIOps在小红书的探索与实践——故障定位与诊断", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItlyE0miaVGzhWWdVRXTwsPZlSFD9GYDwuMD8LfpLozBWmGX86QpJM2FlRiapicTr5AYb0anGUWjJqicA/0?wx_fmt=jpeg", "date_modified": "2024-10-09T09:58:38.000Z"}, {"id": "tvaY4wAMf_kPjXCvHcXaUA", "content_html": "", "url": "https://mp.weixin.qq.com/s/tvaY4wAMf_kPjXCvHcXaUA", "title": "多模态对齐在小红书推荐的研究及应用", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvP6ziaPyDbNgBA9sCJHV1T96iaBicbG1cgt9M02SRdgmSVe6eyiaMIr6Yy8fNaC5P3VteINX7stSf6NA/0?wx_fmt=jpeg", "date_modified": "2024-09-23T10:02:43.000Z"}, {"id": "L9uSklIf2ouJh2ZHYU-Qvg", "content_html": "", "url": "https://mp.weixin.qq.com/s/L9uSklIf2ouJh2ZHYU-Qvg", "title": "小红书推出AIGC加速新算法TDD", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsNE1AbKfHkf1T26gdz2tNdStp4JJI0G8NeSufKV8fNuq1al4zsibOtL4pkWQzgjfOYY4XjxFNkZIg/0?wx_fmt=jpeg", "date_modified": "2024-09-19T10:49:39.000Z"}, {"id": "GNof-dxU7BDdv0OOsa_sFw", "content_html": "", "url": "https://mp.weixin.qq.com/s/GNof-dxU7BDdv0OOsa_sFw", "title": "探索可观测的新视角—— eBPF 在小红书的实践", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvuoEcDfqaC8rfrEoerpJXXBibzbmXA474ia6EWASUiawdgFj5Lll3pDTVOaEsCJQ0iaD7RGhJ1R8BdAA/0?wx_fmt=jpeg", "date_modified": "2024-09-09T10:01:57.000Z"}, {"id": "oPI8veIHxQSgibBP4ChFAw", "content_html": "", "url": "https://mp.weixin.qq.com/s/oPI8veIHxQSgibBP4ChFAw", "title": "AIGC 赋能展示广告：大模型在小红书标题生成中的深度实践", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iu6SubyGcJt0T3nJ06y0ot39eqVK5ibGM3nSWhIEhdcUooPjg3CWKzneaYE5LjrQH1Pn6OdBtz6wgA/0?wx_fmt=jpeg", "date_modified": "2024-09-02T10:05:29.000Z"}, {"id": "hUt6p3FY2IJwkuSXKnNUfQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/hUt6p3FY2IJwkuSXKnNUfQ", "title": "直播预告 | 10篇顶会论文分享，提前开启小红书校招内推！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItOM0bnJhUsx1lviabk3VtkTsSDk8raWDNrHR6MXxFLakBOK9h5zoYOx8CAfajKceZJ3ERibPcGtoqw/0?wx_fmt=jpeg", "date_modified": "2024-08-23T11:19:07.000Z"}, {"id": "h-zChStPhB7-11YtV5J9fg", "content_html": "", "url": "https://mp.weixin.qq.com/s/h-zChStPhB7-11YtV5J9fg", "title": "语义与效率、算法与算力双飞轮——小红书广告召回实践", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IveyB2BxsNCXj9hC1edw198pTwRreteZiaRIsE7aGeKrAAlWrclsn7YEqG2SkJzhIov3oV5HlMgNcA/0?wx_fmt=jpeg", "date_modified": "2024-08-01T09:36:35.000Z"}, {"id": "KCjg6zONQv7tYw5WaZz8Mw", "content_html": "", "url": "https://mp.weixin.qq.com/s/KCjg6zONQv7tYw5WaZz8Mw", "title": "中国大陆机构首次！小红书搜索与清华合作获得SIGIR2024最佳论文奖", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iu3MeY1kh9B5u7unRclUTUnQibLD02tr6rOba7SJT6vS48vtr62d5qjwWMTxWELzqoWXQV3JVJRS0A/0?wx_fmt=jpeg", "date_modified": "2024-07-29T10:00:36.000Z"}, {"id": "3q2vq8_gQdint36NoYX3lQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/3q2vq8_gQdint36NoYX3lQ", "title": "和小红书一起参会！ 了解大模型与大数据融合的技术趋势", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Ite4YgRB4BEYp3ibhBoO8R019Gvv73Xqa7qUibhHrxPxkFpzFWsh5FQVmULvQmS7dX30ImkxIwic13FA/0?wx_fmt=jpeg", "date_modified": "2024-06-26T10:03:09.000Z"}, {"id": "ZGYLuYPIffGflMRPrFXuVA", "content_html": "", "url": "https://mp.weixin.qq.com/s/ZGYLuYPIffGflMRPrFXuVA", "title": "小红书大模型团队火热招募中！在这里，看见未来 ！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsI6bzms2UTVzz6qdDwkxrzhPh2TnOpxR3ictcPuAgf7AeX1hFW4luY7hytGI0KbGGfCuZNv4z6MaQ/0?wx_fmt=jpeg", "date_modified": "2024-06-25T12:41:32.000Z"}, {"id": "4itqPINGnHLxzEpyDT7ZwQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/4itqPINGnHLxzEpyDT7ZwQ", "title": "时延降低 50%，小红书图数据库如何实现多跳查询性能大幅提升", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuVvhXuLds7Ktia5ADqtzOZDibDpibGENjYq4mTxyv0RIicDHdNpfkiaEfwWialXicJPXSI0xUuMrwLGEfug/0?wx_fmt=jpeg", "date_modified": "2024-06-24T12:02:50.000Z"}, {"id": "ohZKWD5_a_-Lz59FoHdYpA", "content_html": "", "url": "https://mp.weixin.qq.com/s/ohZKWD5_a_-Lz59FoHdYpA", "title": "小红书 2024 大模型论文分享会来啦，与多位顶会作者在线畅聊！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItF9iaVSBpGlkjUPDPf2VoON7HCX4TvPY6CFN5oTE7cDPGmvtbpCOWdAGSnRpIc6cJibQySJBHzYUqw/0?wx_fmt=jpeg", "date_modified": "2024-06-20T10:02:59.000Z"}, {"id": "lXyGDvCcmtQJy180dkS_Mg", "content_html": "", "url": "https://mp.weixin.qq.com/s/lXyGDvCcmtQJy180dkS_Mg", "title": "斩获 CVPR NTIRE 冠亚军，小红书如何提升短视频与直播体验质量？", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Is8DoibcZXu04p734K45ajBEjVxX4BIR63fgopoTgECYp3sXHbU7HdqG1SZoKAicpojnaPfon83Sp7g/0?wx_fmt=jpeg", "date_modified": "2024-06-17T10:01:57.000Z"}, {"id": "L01FflEMfsY5u-fty6jHAQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/L01FflEMfsY5u-fty6jHAQ", "title": "WebGPU 引领前端未来，互动渲染如何驱动小红书业务增长？", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvPdCFphPYXmBd4183QicpKHSyTExFa76gJt6hLtOIGcyVia8chWxw4R7rjOBIuia8U7BqzxIrJN3oQw/0?wx_fmt=jpeg", "date_modified": "2024-05-31T04:02:44.000Z"}, {"id": "F62qmAoEFcyx3WEYdeVBXA", "content_html": "", "url": "https://mp.weixin.qq.com/s/F62qmAoEFcyx3WEYdeVBXA", "title": "小红书云原生 Kafka 技术剖析：分层存储与弹性伸缩", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuJC563ribGrUDxNntcJXZBMjJiapbK0PtC9vCb1IlI68HnGiakPooiaicxmXRgTTaAFiaM2Etiaicd7NLZdA/0?wx_fmt=jpeg", "date_modified": "2024-05-23T10:00:13.000Z"}, {"id": "Po3JNavtknJ8dFi68k_c_A", "content_html": "", "url": "https://mp.weixin.qq.com/s/Po3JNavtknJ8dFi68k_c_A", "title": "W3C 标准带头人开讲 WebGPU 前沿趋势，小红书线下沙龙开放报名！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IstVYEicksNxOevibSIAiaM1nibiazdYYlYpiafm2Ochqltavh3fmrpKqRN0uOYjFYqzNVWDeTicxEHIaxbg/0?wx_fmt=jpeg", "date_modified": "2024-05-16T04:15:56.000Z"}, {"id": "rBzc4gNvjlfhe1ZwhxmkIA", "content_html": "", "url": "https://mp.weixin.qq.com/s/rBzc4gNvjlfhe1ZwhxmkIA", "title": "CVPR 2024｜多模态场景感知，小红书高保真人体运动预测方法来了！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItCOHnde0X71uZk2WIfMe2fTqRVgoUqiaHwoDmkjhNAISUjTPKXfwcM8iawNHkvhUEpj5yOf2uK9hNA/0?wx_fmt=jpeg", "date_modified": "2024-05-10T10:00:20.000Z"}, {"id": "DgzLZDrXq0lNm-wRLxdmNw", "content_html": "", "url": "https://mp.weixin.qq.com/s/DgzLZDrXq0lNm-wRLxdmNw", "title": "小红书从记忆机制解读信息检索，提出新范式获得 EACL Oral", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsQV2TJ7n4qQbbbxFZxHuDxmopAgSkDvM4NfXibtUo3JQ8jicyYTmM6ZyIzz68qGpLF8rhpk2fSU9icw/0?wx_fmt=jpeg", "date_modified": "2024-04-28T08:00:15.000Z"}, {"id": "Q8jGrylR40_PncaEQw3_cQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/Q8jGrylR40_PncaEQw3_cQ", "title": "大数据、数据架构、推荐冷启动...小红书的 AI 数据新方案都在这个会", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuV8lUeicCZmorRCDTOxH7byhmoRkjJcWSJvCWLEG6WFn4cWv0swJ4rEHXDxd4vicmNPdbITPT7CicIQ/0?wx_fmt=jpeg", "date_modified": "2024-04-15T13:14:33.000Z"}, {"id": "OVNMoAhkbgWISsIplC0vGQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/OVNMoAhkbgWISsIplC0vGQ", "title": "小红书搜索团队提出新解码策略，降低大模型推理成本", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItNIwlyyknt0uDicVT78nibxx2kEyicP7MJkZdRC7dgQq7JlcicwGKtoibvwP6Xtias9vGcrofhvXbeHQ4Q/0?wx_fmt=jpeg", "date_modified": "2024-04-10T10:00:44.000Z"}, {"id": "JTWdbs2anBSusGwdI7s5ag", "content_html": "", "url": "https://mp.weixin.qq.com/s/JTWdbs2anBSusGwdI7s5ag", "title": "小红书离线数仓提效新思路，提升百倍回刷性能", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Itupd0rMdwrVzZlzQd7ZabgeibJFEzfb1xYOaSQT8kQC2AUlBKPkED6HpsUbdoENDt27JiaotrM6OTg/0?wx_fmt=jpeg", "date_modified": "2024-03-18T10:00:23.000Z"}, {"id": "rKWgIGuCgidUduxhCl2-3A", "content_html": "", "url": "https://mp.weixin.qq.com/s/rKWgIGuCgidUduxhCl2-3A", "title": "释放数据湖潜力：小红书如何实现数仓效率与成本的双重优化", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvpzsNDAkagpD0vYAVyMCSWst8bYhPrQ3AqcfLn0oMgHYhQjI7rYFFgHufyW2e7HNbsGoDyF0tn6A/0?wx_fmt=jpeg", "date_modified": "2024-03-04T09:01:11.000Z"}, {"id": "XLEqCJNGDmUIg14CtXN3jQ", "content_html": "", "url": "https://mp.weixin.qq.com/s/XLEqCJNGDmUIg14CtXN3jQ", "title": "GitHub 斩获 8300 星，小红书爆火开源 InstantID 要开直播了！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvcjVD4LJkLnYk2qmDicUy7xEz0GZop1SGjwDEicuXzbJurdhYctYrpLiaqTplaDPh9ibs3exueGM2QLg/0?wx_fmt=jpeg", "date_modified": "2024-02-27T10:22:01.000Z"}, {"id": "-r4Yah3NByUkJ8c60oihqw", "content_html": "", "url": "https://mp.weixin.qq.com/s/-r4Yah3NByUkJ8c60oihqw", "title": "你的新春照小红书包了！速来定制新春头像，技术让年味更浓", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvcY6vOlBYv5kWXM1DekXjWj3a007zgglwqoAU8fcjkCfzo4H2L9bTGmPEJTxQmUHNcHwKdkSyHuw/0?wx_fmt=jpeg", "date_modified": "2024-02-09T02:51:23.000Z"}, {"id": "rR4WdUL6bAgf7gpFQOyqlg", "content_html": "", "url": "https://mp.weixin.qq.com/s/rR4WdUL6bAgf7gpFQOyqlg", "title": "速领小红书 REDtech 龙年专属红包封面，码上好运来！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItiaaZ0gdIx0ZxDicrlOL39btLgb49bJ7utFzIBaTUppfeoW0pJbeoNgqaLLHGCf4bAicZzlHofGRK2Q/0?wx_fmt=jpeg", "date_modified": "2024-02-04T11:25:26.000Z"}, {"id": "9sWmF4L3eQbHO2XjSC387Q", "content_html": "", "url": "https://mp.weixin.qq.com/s/9sWmF4L3eQbHO2XjSC387Q", "title": "小红书论文刷新 SOTA：人体动作预测再升级，能精准到指尖", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItFBicOoCC0TdkCHfzria0mtU8zIupBOUUO91A0L7adXPibwn4R6ryphNEQ99ff9laaM1jick9JibCciaxA/0?wx_fmt=jpeg", "date_modified": "2024-01-31T09:02:56.000Z"}, {"id": "f2uMjLNCr-zi0SlgOwWcqg", "content_html": "", "url": "https://mp.weixin.qq.com/s/f2uMjLNCr-zi0SlgOwWcqg", "title": "直播预告｜原生 vs 跨端，聊聊鸿蒙应用开发的真实感受", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuocsksUAL2mjCQEq7w4icSJowAAcm8QCXYdT78tFdOKvUKGClEfCfIgoYLsDWHutBFnntA3jofYMQ/0?wx_fmt=jpeg", "date_modified": "2024-01-29T04:14:20.000Z"}, {"id": "m9q-iZ4UV510v2K_U9Pkzg", "content_html": "", "url": "https://mp.weixin.qq.com/s/m9q-iZ4UV510v2K_U9Pkzg", "title": "小红书多模态团队建立新「扩散模型」：解码脑电波，高清还原人眼所见", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iuq0CpcmswibdbqHSeiaTI9zgQoBGwibKMEP2T47u6F0nr4dPzIr6oEa3vuaDbpC5F9KN2bufyzbOicWQ/0?wx_fmt=jpeg", "date_modified": "2024-01-23T09:00:37.000Z"}, {"id": "cAxohCGF2mpYBn5rU3S1Ew", "content_html": "", "url": "https://mp.weixin.qq.com/s/cAxohCGF2mpYBn5rU3S1Ew", "title": "爆款背后的机制：解码小红书流量算法", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItvzcvDGEzOYHQLINXvpXLRcKKOlVa7clFFXkg8AXr4skH63g7drWdAp5oNCh1YzOBnn1sF1m2k5w/0?wx_fmt=jpeg", "date_modified": "2024-01-20T09:00:08.000Z"}, {"id": "FHCq-4yJOm8bT7yTiIkrow", "content_html": "", "url": "https://mp.weixin.qq.com/s/FHCq-4yJOm8bT7yTiIkrow", "title": "代码之外：工程师的成长进阶秘籍", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IstLPGf0bqibD8CGPqXf4GQneqoXaGcFnPpCrWRJCkcrhHTRWletoSyoAadxw6xKodkBQL6RCXG2HA/0?wx_fmt=jpeg", "date_modified": "2024-01-18T09:01:16.000Z"}, {"id": "KUa3Yn3DTkXaFQ2JKHvlZw", "content_html": "", "url": "https://mp.weixin.qq.com/s/KUa3Yn3DTkXaFQ2JKHvlZw", "title": "小红书搜索团队提出全新框架：验证负样本对大模型蒸馏的价值", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvyS1VTC0Ao9rOY6SosvrY9kcLAZfZH3mYbG7UrHJ1FNlF7KeAwbTGkL3dth7DytTiaSzOwQdR1hmw/0?wx_fmt=jpeg", "date_modified": "2024-01-12T09:01:11.000Z"}, {"id": "3DUoqiFh3Aj3b_TLLPt0Hw", "content_html": "", "url": "https://mp.weixin.qq.com/s/3DUoqiFh3Aj3b_TLLPt0Hw", "title": "小红书 X WSDM 2024「对话式多文档问答挑战赛」火热开赛！", "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Isr8QtZHjVDkyMCmQA5HEOjjlshor8xHYicYy0MFsUKMtfzGB5JmXjWfibicK5GmFIQOSNruV2YzBEIQ/0?wx_fmt=jpeg", "date_modified": "2024-01-06T08:00:13.000Z"}]}
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "小红书技术REDtech",
+    "home_page_url": "http://localhost:4000/feeds/MP_WXS_3889763736.json",
+    "description": "小红书技术团队官方账号，小红书技术创新与问题解读的分享平台，与你共前进。",
+    "icon": "http://wx.qlogo.cn/mmhead/Q3auHgzwzM4CbQgGibMwdaPP1mvKL46CQ12jvJAqlLIpz6lpbW870Zg/0",
+    "author": {
+        "name": "小红书技术REDtech"
+    },
+    "generator": "WeWe-RSS",
+    "items": [
+        {
+            "id": "u0-tZEWTPX4Jh9y9EbVJ1g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/u0-tZEWTPX4Jh9y9EbVJ1g",
+            "title": "小红书 Relax 开源发布：面向全模态 Agentic 的异步 RL 训练引擎",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRnE9fs7OOgZzmUP2IVvVibuPx4kNwXZicb5K10gjyjFMb7icibSsrEf88kicknfFguUWpxYrgdVzyXD753JdIIZ2AXwOmf7X6Tia0RJ0/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-15T03:01:36.000Z"
+        },
+        {
+            "id": "bZnwABi4XKTJCgvGhq-mYw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bZnwABi4XKTJCgvGhq-mYw",
+            "title": "ICLR 2026｜小红书多模态推理大模型 Vision‑R1 ：实现图文内容的深度逻辑推理与理解",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/P9Hs04VFGRnt6hDkrPIUNEzyfzic7Co817G0sqAbAT0ibQggGmfl900ickwicBXpDquEgSfjYbMhKkLqARqOTcicv0S9Uiamyyv4wibYlu3vp2tObk/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-10T10:03:34.000Z"
+        },
+        {
+            "id": "HOH6xTOOnegSwnu3FK8y9g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/HOH6xTOOnegSwnu3FK8y9g",
+            "title": "30B参数超越GPT-5！REDSearcher让「深度搜索Agent」做到低成本可扩展！",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRm8IlThC7GBtFTU7movYQThnZ5v69ibaIFxeQReiayF2dZMA2czYgxLPt28ic6CajBtAnqicr3iaPGaTGenzfabRlOc6YCEyxtlSbLA/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-09T10:01:26.000Z"
+        },
+        {
+            "id": "fu7QWtGtv4u0BFF4EiwiJQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fu7QWtGtv4u0BFF4EiwiJQ",
+            "title": "史诗级更新！小红书图像编辑FireRed-Image-Edit v1.1发布：OOTD元素融合、人像一致性大幅提升，社区友好拉满",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/P9Hs04VFGRnpAYxRMibVtdpyFX7QUXy9pxlJmQ4LPXXCCRP5SH66torJypkNjdFXErJ3Na8Ynkicb7xH0tyy4Mr1nXpsicqbYoib2ojvbbIf1TQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-08T12:42:20.000Z"
+        },
+        {
+            "id": "W0buSraMmMxL_9j5YbYNyw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/W0buSraMmMxL_9j5YbYNyw",
+            "title": "🧨不仅仅是动效：实时交互系统如何打造极致沉浸的语音拜年体验",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRmZCukaxN9POGQolo4VBgBj1VntVuFfH90xolFAbeCRwdr0JGeO15icCPofDBB4DiczU0lDib8DfXRdpFiavORiceV14COE22zHnnO8/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-04T09:58:46.000Z"
+        },
+        {
+            "id": "if7rvPDqf4TGPADji-Z_3g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/if7rvPDqf4TGPADji-Z_3g",
+            "title": "FireRed-OCR 开源发布：端到端方案新SOTA！小红书提出低成本文档识别训练范式",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRl5icl21zuyLgOcCyfk63n0c5phCh2A0CZkiayZ7TZibmszwHRtNGOOHPhhmIfL0xQgtvhb2wRnia5XLTFmyxFPvtZrA0On5bI2Y0o/0?wx_fmt=jpeg",
+            "date_modified": "2026-03-02T09:59:02.000Z"
+        },
+        {
+            "id": "g1nZPkDWwt3weGUhjcfsuQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/g1nZPkDWwt3weGUhjcfsuQ",
+            "title": "小红书发布 SWE-Bench Mobile：当 AI Agent 面对亿级用户 App 代码库，最高通过率仅12%？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRmJrTq7fq9MXTJoU8gQQnb3eRrHicrD5YiaWclaZc74KJ9CHWia5hXSgoknIrwVpFNk4DHIJYyRrUIMXxfRqDyWXrQU08XBcJ3zD0/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-27T10:01:43.000Z"
+        },
+        {
+            "id": "u3I8F_f0dVwSrCjF3G7PJw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/u3I8F_f0dVwSrCjF3G7PJw",
+            "title": "小红书发布FireRed-Image-Edit：图像编辑新SOTA",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRmDRK02JW8iaiarA0picD4zNyT1yKl6A8Q0ibFMwbaicekupWlO8FciaS2YJbz5j0sUKGHxxZARRK7rupI3zrmiblyDKOCrKeEB7WicXibA/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-12T10:22:31.000Z"
+        },
+        {
+            "id": "nzQ2JVbVUJZ7pQ3eIEIHDQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nzQ2JVbVUJZ7pQ3eIEIHDQ",
+            "title": "「码」上有灵感！速来领取REDtech送你的马年专属红包封面",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRkiaibkx8GsntPzHEBUW4jTtk7v9w9nuWyr8TtS7mFPibjKdLfULmmUdeCmM7BsV8UDr30UstuASy6OZqGB9NaIibfaTSaq3xUco7E/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-10T09:45:08.000Z"
+        },
+        {
+            "id": "ubYfc_Ihl9JMEZnlBPHvKQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ubYfc_Ihl9JMEZnlBPHvKQ",
+            "title": "支撑亿级流量：小红书 2025 MySQL 内核做了哪些关键改造？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/P9Hs04VFGRkXZtIyT3O5U2yHpMC8z6nk7ws3hIwyRyfIYBJN0MAibwAu1mTv3L0pXuJibpsFl95GY4niaJGA3xZOsts8icYghYKrbAVYiarhT2AE/0?wx_fmt=jpeg",
+            "date_modified": "2026-02-05T10:02:34.000Z"
+        },
+        {
+            "id": "FEYCGxSlGurNetVv0LOohg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FEYCGxSlGurNetVv0LOohg",
+            "title": "Java 再升级！JDK21 + 虚拟线程技术大规模落地方案解密",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Ith1kceJevvuoMOV8cpG9MP97EbjlsdcFeHOhicOnJdGWicIicHEF45Fiamickm8quu2nZiadp9x7sCMObw/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-30T09:04:04.000Z"
+        },
+        {
+            "id": "Q-tap7xI3Y5diTMEt5hMyw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Q-tap7xI3Y5diTMEt5hMyw",
+            "title": "小红书MySQL内核秒杀能力重磅再升级",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvFM3AhYOrsF3c9cgibVZLmoNuHMSG7kt0bibGNibTUynccJ1h2ODdSeXV3Qiag1uG9CiaIeQ2ftlCpWMw/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-19T10:04:17.000Z"
+        },
+        {
+            "id": "FjW2hpZEhI7-HIHe8tJmFw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FjW2hpZEhI7-HIHe8tJmFw",
+            "title": "KDD 2026 | 小红书内容审核：Hi-Guard 让内容治理“知其然，更知其所以然”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iv6o7gBSuyGbqTsF6hOsY9OUbU0TqsFOBdkUWCBLUQFmEhAD0qBIibb2LebL0tlu2ibfcuhia74Ab35A/0?wx_fmt=jpeg",
+            "date_modified": "2026-01-15T10:02:03.000Z"
+        },
+        {
+            "id": "1aKUcyMz6JGUlfcbvA2GSA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1aKUcyMz6JGUlfcbvA2GSA",
+            "title": "REDtech·2025 热门技术文章年度盘点｜互动有礼",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IumNJ5UM8GrMcYIKjibhcJgro54UWWftxJ1fPXuOAYXOcABeyX7nXaviao63QoUN2sxZrCNBEg4VgBg/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-29T10:05:46.000Z"
+        },
+        {
+            "id": "pCDobFG3uSWRO_7ZXSCBgQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/pCDobFG3uSWRO_7ZXSCBgQ",
+            "title": "小红书混合云架构下自用数据中心设计实践与探索",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvoQ2Kq5ZQzah6IIZLLZ1vrRRVRjwzDMvWvxWUdc8067OBCdMS9b0ztI8jEF3ibwU0BtLF0p26orqg/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-25T10:02:12.000Z"
+        },
+        {
+            "id": "M2sUhkay7NhFjJHKdEaf0Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/M2sUhkay7NhFjJHKdEaf0Q",
+            "title": "NeurIPS2025｜小红书智创AIGC团队提出布局控制生成新算法InstanceAssemble",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IticNiaxicXSHGroia7w0L4ee81UCxX4ulYaNIOvhmlogXt7SeJGOiciaGw0ialAh5PsgfC13mE8UVOJkeew/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-18T10:07:27.000Z"
+        },
+        {
+            "id": "-7YEig9nAte5DfDthn3oiQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/-7YEig9nAte5DfDthn3oiQ",
+            "title": "大模型训练的高效内存解决方案：流水线感知的细粒度激活卸载，实现显存开销与吞吐性能的联合最优",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsVD7nL6OFpDiaqTia3WLsaB6Uhe71vysyC1hrbWib7Y4Hn3ibhg64Au45Dwkap7AmPBSpArzib6VywJNw/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-11T10:04:33.000Z"
+        },
+        {
+            "id": "OvNm5iIn7BjssPiE_JAqSA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/OvNm5iIn7BjssPiE_JAqSA",
+            "title": "KDD 2026｜小红书搜索：生成式相关性让搜索“会思考”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItR42MNvNBI7gkcl3USEaIJib1ejRMjHHuLGov3jYoed9304iakgdlewO8PI1DjSyvzDUc1vj3Via15w/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-09T07:03:00.000Z"
+        },
+        {
+            "id": "agyF9AH7l66PR4_mFQJ2vg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/agyF9AH7l66PR4_mFQJ2vg",
+            "title": "AAAI 2026 | 跨视频推理基准 CrossVid：给多模态大模型出一道“综合题”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Itjtdhm8YfyYzxG7RzDURxFF9pr25ciaYOftxF9iaXYPjdVwX8leoBcGBtcYt8oiaIWNBTccL6dYOpqQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-12-04T10:01:08.000Z"
+        },
+        {
+            "id": "eEQoTNtLKb9lFbfemAN6bw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/eEQoTNtLKb9lFbfemAN6bw",
+            "title": "EMNLP 2025｜思维链提示虽好，但它可能正在“隐藏”大模型的幻觉",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuibKKoe1iaQyEvW5yaf30Uw5tQoHqPWQWDkpq8d3untsdnKV2rJAIjVgZsuR3icUT4T30Ph8ZHN3MPw/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-27T11:03:23.000Z"
+        },
+        {
+            "id": "ooU--PPm1dEUWSeJYBhrDA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ooU--PPm1dEUWSeJYBhrDA",
+            "title": "小红书推出通用推理智能体 DeepAgent：工具&任务随心配！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItV8YFMLsLJM6vltiaje6eVPqWQ5utW7NWY8DnOuu95JrRDgshbGunCX7CnbpOmJCIic2eOrKwXuORQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-20T10:02:55.000Z"
+        },
+        {
+            "id": "SUkW1RhGCrjSJEVtsd_LIQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/SUkW1RhGCrjSJEVtsd_LIQ",
+            "title": "RecSys 2025 | 小红书推荐团队提出视频时长预估新方法：EGMN",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iu5dhtK4icwj0VFoicbh4lvdZNlbO5nTvxRAOYPDicDOMvibqmd4ZLVM55ibicFHulOEbYZEdyBVib7bFpUg/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-13T10:04:06.000Z"
+        },
+        {
+            "id": "ASzmwDt8_PPne8xVYY_VLA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ASzmwDt8_PPne8xVYY_VLA",
+            "title": "从“实现需求”到“共创价值”：AI Native时代需要什么样的工程师团队？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuwjO8QGO6oXiaRq3ACLVDyyNIlBs2ekIfL0Ro4HOeTgL6sZ1N9dGPb6jC80GX7ibh25tedeUc6mLoQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-10T04:01:44.000Z"
+        },
+        {
+            "id": "mSksm15Zv6x_9k5rY-aloQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/mSksm15Zv6x_9k5rY-aloQ",
+            "title": "ACL 2025 杰出论文 | 小红书 AI 搜索和北理工提出“容量差距法则”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IspAFXHsiarchgNptGaccAcLv5260hib2K2KYzpvzjib3icl1UZ3JB7nUayERxfcH4jmj4gFSQtibib8Lfw/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-04T10:03:20.000Z"
+        },
+        {
+            "id": "kggHH0OeM0mpLoXSVFzGAQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kggHH0OeM0mpLoXSVFzGAQ",
+            "title": "Hugging Face创始人 x 小红书技术副总裁：关于开源、AI与技术人成长",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvzCk4Xb5ibSRFORjvZXjerOuDMsxBDlPtrq2PZLDryYicpsQXWEiaAy9ZZmadCNhySUjOvKWr5iaJs9A/0?wx_fmt=jpeg",
+            "date_modified": "2025-11-03T04:00:31.000Z"
+        },
+        {
+            "id": "AO0430_j59taDgxutNWXqQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/AO0430_j59taDgxutNWXqQ",
+            "title": "技术、产品同学必看！一场关于「开源、AI、技术人成长」的1024特别课程",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuQhVnQQn6QBecbzaZibpnyTMEIN27YSYTQ7MRhONmhIoVvtzBlC9LmV2ROsfcE0oQKmURo2YsHDPQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-10-23T12:02:45.000Z"
+        },
+        {
+            "id": "SQh55byO6USoC4JY4An2Gw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/SQh55byO6USoC4JY4An2Gw",
+            "title": "让我们一起恭喜小红书算法团队同学~",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItPF41bayB6TCibNRR34T9B0h09wMUhS5QMcrfGLZYPMJiaiaJDuSIMzZBFsRJC9YIA8ZR7SXwVvpdXA/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-30T15:13:14.000Z"
+        },
+        {
+            "id": "BTVYywhpgU1mdUy8s0JJlQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BTVYywhpgU1mdUy8s0JJlQ",
+            "title": "小红书 Data+AI 数据平台实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuT1cfYvMd3COjiaSkvSRTdLn6L0L166nEQbDFAwDC0leiaJ2V8UotZIj525D6DZ3g9J9jx743DOqYw/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-22T10:02:20.000Z"
+        },
+        {
+            "id": "a3h_j8WpGbrEGS3ovZYXqg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/a3h_j8WpGbrEGS3ovZYXqg",
+            "title": "行业领先！小红书智创音频技术团队打造SOTA对话生成模型 FireRedTTS-2",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuickicAVe82OSfuYKTzmfZiaNtYREND1WLaw3k1eGL5ggfXDVf4MchIg0IFMgO0lyByYHa5JHIEdMfQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-09-19T10:06:31.000Z"
+        },
+        {
+            "id": "063_3cpeSXY8o5yhkOVc1w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/063_3cpeSXY8o5yhkOVc1w",
+            "title": "小红书新一代数据库代理 RedHub 的设计与实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsUMeMwAmxRLwuxtJDmsLhQV3SzUz5tm9lSCU9rOUHvrqtjS37vicz8WE6qUTepM6oEXO2IokkMzbA/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-27T10:02:29.000Z"
+        },
+        {
+            "id": "xUfv0eCBmJ2ySjT0E-V-DQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xUfv0eCBmJ2ySjT0E-V-DQ",
+            "title": "ACM MM 2025 | 小红书AIGC团队提出风格迁移加速新算法STD",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItYZjR2Dkwe44oia5iavAnn9nW32hAunSngTkicqIKh1RTTBE1ica1VM2HjGNrp5lXR1cd47CKAstetcg/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-19T11:02:22.000Z"
+        },
+        {
+            "id": "vi9QQyIciCY3yMZ3RnPVIA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/vi9QQyIciCY3yMZ3RnPVIA",
+            "title": "ICCV 2025 | 小红书AIGC团队提出图像和视频可控人脸生成新算法DynamicFace",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IunENPlMKb2LhE6qQt4ahXDC2hxqSsD2jQpy0kNrGCuguJzmKz0nT8bMRlSeeNcInSr2FPp0WIxIA/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-18T10:00:49.000Z"
+        },
+        {
+            "id": "660_EiV2KTR7pTvRJny_JA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/660_EiV2KTR7pTvRJny_JA",
+            "title": "小红书自研keyless支持HTTPs卸载",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuZqnYnxmud1y7aSHws7lMichfuPBZlS1xFqBulMnTLY5mHToybDWjk81PMzb8TqfIibNmq5OueSgNQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-13T10:02:58.000Z"
+        },
+        {
+            "id": "0Lu7_XVCbMIOJkN9h_0o6g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/0Lu7_XVCbMIOJkN9h_0o6g",
+            "title": "小红书自研Binlog Server守护MySQL数据0丢失",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsHKFTA0cean0SDugyvNm9mnPSdqOpE0fyt4gO7Kfm8iczkNAQlcrtokkoAZPRAjWNibibHKWLU8IOww/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-07T10:02:10.000Z"
+        },
+        {
+            "id": "akO8a2c_hVsSz2vNdExdIw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/akO8a2c_hVsSz2vNdExdIw",
+            "title": "小红书 hi lab 开源多模态大模型 dots.vlm1，效果接近闭源 SoTA 模型",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItibJxwiaeSsT5Gx4WhZFNpI6cgg2VTCZdyOrtUh5moJ5eAw0nEIgicYVnO3SjxrtI6v9yzmbDjszsFg/0?wx_fmt=jpeg",
+            "date_modified": "2025-08-06T10:01:41.000Z"
+        },
+        {
+            "id": "oyi8y85C-TF9TWdujbiFUA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/oyi8y85C-TF9TWdujbiFUA",
+            "title": "小红书hi lab开源多语言文档布局解析模型dots.ocr，1.7B小模型实现SOTA性能",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuWQvGLZ2oqNVNyuWkOqsCX6MX1ichrwhjVU0JMiafibv7F4dhYq9prD4oeND5IP8HUfeRxw0jITC6mQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-31T04:01:33.000Z"
+        },
+        {
+            "id": "qxDNW5Ss3r4zhPSCqdXvqw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qxDNW5Ss3r4zhPSCqdXvqw",
+            "title": "小红书JDK升级带来10%整体性能提升，这份升级指南收好了！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItrqxWeF1ODl53UYhM6aU7PurUVcxtXIuIuXSUSEvOUqFZ6JsAwlSVSGWIu6nEopbmuI0IgibHOT7A/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-24T10:00:29.000Z"
+        },
+        {
+            "id": "MQJb6VcEc-Ky7_QMwvxjQg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/MQJb6VcEc-Ky7_QMwvxjQg",
+            "title": "小红书「REDstar顶尖人才计划」全球启动！毕业三年内均可投递！",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/LXrT0o54f1icqeKnWUB355jrVNYjQcVxfRutpnHiaKOR2PdxfVLZP1OVAEmLrDNygH3H0ibHW82GoHajwDoDc8tkA/0?wx_fmt=jpeg",
+            "date_modified": "2025-07-03T03:34:27.000Z"
+        },
+        {
+            "id": "3UadDLhVdQQFh8VCyLJpuw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/3UadDLhVdQQFh8VCyLJpuw",
+            "title": "万字干货：小红书 hi lab 团队关于奖励模型的一些探索",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Itdl0BKNKQDicxR09gZktzKGRMtCw8LmLvEETkROyuriaDXGEBm3uXbszSfJU1ico44ChSUF3Xbvoumw/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-24T10:01:25.000Z"
+        },
+        {
+            "id": "0ck3XA4q4q5u2hhA2NZ8pg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/0ck3XA4q4q5u2hhA2NZ8pg",
+            "title": "告别无效思考 | 小红书Hi Lab 提出Think When You Need",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Isiaxg2lAguEWrk5ibQd7Fh6ianiasibQwdJoV1U2ztk0nxkjhvOl6FG1kjpFb7Bjkz0YrQicCyv0KSrmpw/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-19T10:00:53.000Z"
+        },
+        {
+            "id": "UkNX-cpSD11c5C22Mvfo3Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/UkNX-cpSD11c5C22Mvfo3Q",
+            "title": "小红书Hi Lab提出DeepEyes，探索O3「Thinking with Images」能力",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvBUic0oZXyZwTceiaBEFXTj9mzIuREYPAJjl2libMfiaj5tSSKTjb7UlhcvNeyHhq263KqnapsQNyUOw/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-09T10:02:15.000Z"
+        },
+        {
+            "id": "alrgkHayznBd6TOyNXyuCg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/alrgkHayznBd6TOyNXyuCg",
+            "title": "小红书hi lab首次开源文本大模型，14个checkpoint覆盖Pretrain与Instruct阶段",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItQOTqFh9kZ6nImhPkkQOpD9iaOcXibr3FJIDtKQOahBJ8XX8y0yRqtMVxDxvicUbumichebgUwJOg7ibA/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-06T04:20:38.000Z"
+        },
+        {
+            "id": "ImO4uB7A4gXbHCuxCZx5kg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ImO4uB7A4gXbHCuxCZx5kg",
+            "title": "ACL 2025 | Revisiting Self-Consistency: 动态分布对齐视角下的大模型投票策略",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvyooR2icdnwL5WnMmcQFh2ocy0zfEiarQls3p9fLtWH2kvSxMwCzdyfgMbr0cXY7GRpCKo9Nhic5kNw/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-05T10:03:25.000Z"
+        },
+        {
+            "id": "nwZBObF1KzfSBfb2sP-sag",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nwZBObF1KzfSBfb2sP-sag",
+            "title": "ACL 2025｜大模型长度准确可控生成：为何不准？如何更准？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvyooR2icdnwL5WnMmcQFh2oK3qKPLCL1GdFVeiaBeLxTrJTk0EG9o1KGf1Uz49QlwnTbdOdYRemWrA/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-04T10:00:55.000Z"
+        },
+        {
+            "id": "fn0Gjo9o2iC6rkqNCLE4lw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fn0Gjo9o2iC6rkqNCLE4lw",
+            "title": "ACL 2025 | 效率最高提升300倍：TailoredBench实现大模型定制化高效评估",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvBUic0oZXyZwTceiaBEFXTj9oDIia50prU3ibf1XXQFS4rNEr5RFESzT6nZSqGzialsg7B43mia8qd4wfA/0?wx_fmt=jpeg",
+            "date_modified": "2025-06-03T10:01:26.000Z"
+        },
+        {
+            "id": "O_Ew3kCPXdH2cUZVsdOZ1Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/O_Ew3kCPXdH2cUZVsdOZ1Q",
+            "title": "ICML 2025 | 小红书 hi lab 团队提出多模态奖励模型泛化新方法",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvvdJ9z4yo07k3EV20iatUde9gqTuj6uKMv5psGH8WWfg23hdV0Ojy0z20ChyfKiaqpicfsWccw7gU2A/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-29T10:03:42.000Z"
+        },
+        {
+            "id": "OzFfkWYpJWMwDXHjwRGKCg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/OzFfkWYpJWMwDXHjwRGKCg",
+            "title": "WWW2025 | 小红书向量检索团队提出超大规模向量检索图索引构建新方法",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuGzZGaJFmHgQ9xgaKuPyuERfukJVP3fZia6Vau7rjQWUDvv8FyF4LWcibOhYpO6wFjt6Kz4CvEDs6A/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-22T10:01:59.000Z"
+        },
+        {
+            "id": "lsiD6RXxou-V9U6ssQwZcw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/lsiD6RXxou-V9U6ssQwZcw",
+            "title": "增量计算+实时湖仓构建小红书实验数仓生产新范式",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItJDqP7b1SPPy00SGMaGvjGYBiasaHqicx3rtdO75R9fEWNedNOWQm7tO53zlvyOsxjpbIey2icl3iabw/0?wx_fmt=jpeg",
+            "date_modified": "2025-05-19T10:00:55.000Z"
+        },
+        {
+            "id": "4yn1Z3c-GaCbhp3PqkGhqA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4yn1Z3c-GaCbhp3PqkGhqA",
+            "title": "ICLR 2025 Spotlight｜小红书大模型评估新突破！UniCBE 最高节省 50% 标注成本",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsUnQT8TNXib7UkAf7NVf5DSdIxfFjFR5w4nB62RjcevgiafDWuS0wFBuVljVQHBfTpxLB1IJsibflmA/0?wx_fmt=jpeg",
+            "date_modified": "2025-03-13T10:07:04.000Z"
+        },
+        {
+            "id": "wnkYr4qKIFmh9E9H_XcwTA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/wnkYr4qKIFmh9E9H_XcwTA",
+            "title": "小红书推出自研Rust高性能七层网关ROFF",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvbdOx09DPBFic8Owew8S0HOsH5ibD7H1WT37jN8UXFg8A6KicUXLWU5qHU6tOMJPTIkVFo4lBKWMLhg/0?wx_fmt=jpeg",
+            "date_modified": "2025-03-06T10:01:20.000Z"
+        },
+        {
+            "id": "BRO6Iv39-KJ_sEYZSm0vsQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BRO6Iv39-KJ_sEYZSm0vsQ",
+            "title": "KDD2025｜小红书联合中科大提出1.44M轻量高效AI图像检测模型，超SOTA 4.5个点",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsIKD3Ea9v6tJ4UDhI1UtXWFB9jKl41GLqpssPosyPibHAw7mTnjlSf4RrRqBI6DWlO91icaiass4Z5g/0?wx_fmt=jpeg",
+            "date_modified": "2025-02-27T10:06:58.000Z"
+        },
+        {
+            "id": "yBk2gIEkgK1b4tFadVC1oQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/yBk2gIEkgK1b4tFadVC1oQ",
+            "title": "ICLR2025｜小红书等提出AI图像检测新基准新方法",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86It5MI3GkFpZzFwnqjCY4iaBtyibUQCcTThxeNgsFReoXCVfpCMwdEDacuSkoqsmCAJRw5nXpeL7WILw/0?wx_fmt=jpeg",
+            "date_modified": "2025-02-24T10:20:47.000Z"
+        },
+        {
+            "id": "M6qy0IdtbLMLLCraE9EeMA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/M6qy0IdtbLMLLCraE9EeMA",
+            "title": "重塑数仓开发模式：物化视图与逻辑数据集的应用",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Is0rwRqb5UicgAvKtXic6xhHc9gteGHV5yuFJLLPZLVLbjU1h5ecyhrPXb8tGejbLMfttGJQuicjIqQg/0?wx_fmt=jpeg",
+            "date_modified": "2025-02-20T10:01:29.000Z"
+        },
+        {
+            "id": "6sAxo9I3b2dEkWK0wgLzxA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/6sAxo9I3b2dEkWK0wgLzxA",
+            "title": "小红书与上海交大发布多模态大模型新基准",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Itp3CzeicfU0cicgAh2WicbbfMHxqBPJlVqSUpDeasUl0qbMhjaHPZzH95cKWjUJP0JXoYtbibGaTMupQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-02-17T10:03:07.000Z"
+        },
+        {
+            "id": "_qG8Qljj9E-ac4AeaUXZvg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_qG8Qljj9E-ac4AeaUXZvg",
+            "title": "小红书应用算法部开放招聘，商业化/社区/交易三大业务方向热招",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuNrBCdf2f9UZCndWp52vzyYibP2fA0JKmDicIhK8mGOykeL4erdCcpJybvfX1Mgs6gVw9TTPMaicwyw/0?wx_fmt=jpeg",
+            "date_modified": "2025-02-12T10:05:40.000Z"
+        },
+        {
+            "id": "B5qkgwGHdFY2QY7l4LLFGg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/B5qkgwGHdFY2QY7l4LLFGg",
+            "title": "AAAI2025｜小红书搜索广告团队提出幻觉检测新方法：基于语义图增强的不确定建模",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItqxHljWibZ0LGiasJFUfT9330cP4ldOnZIeGy9ojdCHcTtUgS3R4ZA8e4UUoNricE0momI8ibjLKSZLw/0?wx_fmt=jpeg",
+            "date_modified": "2025-01-16T09:59:23.000Z"
+        },
+        {
+            "id": "Z1Wl_przUNCYRuqdjoWu4w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Z1Wl_przUNCYRuqdjoWu4w",
+            "title": "小红书入选信通院“2024年云原生标杆案例”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItygDMyRT4lsSFAaBkSX5UqqeDpvIQgpyMc0fIrefRSiau6629GxhKWMaQiby9rZ9Z7wNG3BDNusMDQ/0?wx_fmt=jpeg",
+            "date_modified": "2025-01-16T09:59:23.000Z"
+        },
+        {
+            "id": "tG_ktQ0WbZHQavtoJtaXbw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/tG_ktQ0WbZHQavtoJtaXbw",
+            "title": "从0到1构建RLHF系统——小红书大模型团队的探索与实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItTlGW89iamibTribic5vNO3gSysSOFkoOyyT4PF82LRQYkaLJnsvYPibGIlAHvUUgyTZ9vCQJcd4R5TmA/0?wx_fmt=jpeg",
+            "date_modified": "2025-01-02T09:21:19.000Z"
+        },
+        {
+            "id": "Nf4KpBKGifBusp9SnyIQKw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Nf4KpBKGifBusp9SnyIQKw",
+            "title": "NeurIPS2024 | 大模型指令嵌入：面向任务识别的指令表示",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItAAUgFicJU3fFAcUFSHaAz5OjGWibg2lrFpgtv1n475uc9kLhF1xAGxKE9wyYBJgyKEF9JvDEUibcIQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-26T09:00:17.000Z"
+        },
+        {
+            "id": "lYAV-hl-f3ywEsievfHdbA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/lYAV-hl-f3ywEsievfHdbA",
+            "title": "EMNLP2024 | 示例越多性能反而越差？大模型注意力分散是关键",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86It2S80VSGQyRuGIz8dOiauZeqZYN6V0q9BHdPfOIDbRQfdya6UhicN9SewTgSicJnVqZ5iaz3IfC6hwTg/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-26T09:00:17.000Z"
+        },
+        {
+            "id": "_pj5vVQZ1azMv8fuq925Qg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_pj5vVQZ1azMv8fuq925Qg",
+            "title": "小红书获上海市网络安全攻防演练第一名",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86It2S80VSGQyRuGIz8dOiauZesgKZMgicFWzxFsuibr3qqeNcKe1jxW92T6Q5ZlDYrm07MCSkAJeJkG3Q/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-25T10:06:00.000Z"
+        },
+        {
+            "id": "JFtlCbcakyKd60H10ldEEw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JFtlCbcakyKd60H10ldEEw",
+            "title": "小红书MySQL数据一致性校验能力探索与实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvWHfqQgO7eodf4JOoxRf5R4wpjeZj7zoYw6zqX65FvmnVfibFc3wdmpQ1gn7tPBXDfQKIH4icB3eJw/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-19T09:01:23.000Z"
+        },
+        {
+            "id": "BJJunPVQyNmfd-2FFuKG2g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BJJunPVQyNmfd-2FFuKG2g",
+            "title": "REDstar｜剑尘：那条看上去不太常规的路，可能是属于自己的正确道路",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItzLbseggpFx7trD0ZFV7hmEchibNuLgJRyAcFEicFeXaBd7cEONlGptc34miaiciaUt8VynKu10dvtNdw/0?wx_fmt=jpeg",
+            "date_modified": "2024-12-05T10:21:12.000Z"
+        },
+        {
+            "id": "9Hgrj59BOCytzqTuaeFWjg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9Hgrj59BOCytzqTuaeFWjg",
+            "title": "小红书向量检索团队获得CIKM 2024最佳应用研究论文奖！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Is3sN1Wv1e5DnKdfT7iaghLDKENcpZe8EiaRuVySHMq9ic0rVClgKcA04zAZ0BV1WCgsWiascCUeicl9Qw/0?wx_fmt=jpeg",
+            "date_modified": "2024-11-07T09:01:17.000Z"
+        },
+        {
+            "id": "oPonMwFKAwr_H9-r4_umzA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/oPonMwFKAwr_H9-r4_umzA",
+            "title": "点击查看小红书程序员的朋友圈",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KFxns84fHVW2oQPtAEunmoTowG9JjkwqmP5UmEu6MVPGm1TH0Plk0xSHkTHZWk099OKll4dgiax3G4Ef0zK13fA/0?wx_fmt=jpeg",
+            "date_modified": "2024-10-26T14:01:11.000Z"
+        },
+        {
+            "id": "nAIw-YbnultU75lDEBsjgA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nAIw-YbnultU75lDEBsjgA",
+            "title": "Code for Passion @小红书程序员",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KFxns84fHVVibfv1xjbdLduNhxc6m993QKvrnKUhjoTOlVojLITfdzsrvBaUUqkcuzFhxdkKib8y56ic6h1zuRlicA/0?wx_fmt=jpeg",
+            "date_modified": "2024-10-24T12:04:38.000Z"
+        },
+        {
+            "id": "aumDJcoKHklLo1QEp9otlg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/aumDJcoKHklLo1QEp9otlg",
+            "title": "Apache Pulsar在小红书在线场景下的探索与实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItfaQpA0ViapvmHmBzRPYvT67Xxj3Q45SiaT3lVYBt6qlMt5dNFQSaPhwtjnJZCm256voPBADYGhdKA/0?wx_fmt=jpeg",
+            "date_modified": "2024-10-23T09:56:59.000Z"
+        },
+        {
+            "id": "brG03PcopbkgM3uEen3mpw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/brG03PcopbkgM3uEen3mpw",
+            "title": "小红书提出大模型推理加速算法 HASS 刷新 SOTA",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvAsQZXjTKfVdCPoXXwqRyloH1EFic6LShicqcKiaZibvU4r1RL5zHXwRE9Beiay28RyziaDp1eX5lQeyyQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-10-11T10:27:56.000Z"
+        },
+        {
+            "id": "5KOpCFJ0SuWQ-qe9_U4Qyg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/5KOpCFJ0SuWQ-qe9_U4Qyg",
+            "title": "AIOps在小红书的探索与实践——故障定位与诊断",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItlyE0miaVGzhWWdVRXTwsPZlSFD9GYDwuMD8LfpLozBWmGX86QpJM2FlRiapicTr5AYb0anGUWjJqicA/0?wx_fmt=jpeg",
+            "date_modified": "2024-10-09T09:58:38.000Z"
+        },
+        {
+            "id": "tvaY4wAMf_kPjXCvHcXaUA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/tvaY4wAMf_kPjXCvHcXaUA",
+            "title": "多模态对齐在小红书推荐的研究及应用",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvP6ziaPyDbNgBA9sCJHV1T96iaBicbG1cgt9M02SRdgmSVe6eyiaMIr6Yy8fNaC5P3VteINX7stSf6NA/0?wx_fmt=jpeg",
+            "date_modified": "2024-09-23T10:02:43.000Z"
+        },
+        {
+            "id": "L9uSklIf2ouJh2ZHYU-Qvg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/L9uSklIf2ouJh2ZHYU-Qvg",
+            "title": "小红书推出AIGC加速新算法TDD",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsNE1AbKfHkf1T26gdz2tNdStp4JJI0G8NeSufKV8fNuq1al4zsibOtL4pkWQzgjfOYY4XjxFNkZIg/0?wx_fmt=jpeg",
+            "date_modified": "2024-09-19T10:49:39.000Z"
+        },
+        {
+            "id": "GNof-dxU7BDdv0OOsa_sFw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GNof-dxU7BDdv0OOsa_sFw",
+            "title": "探索可观测的新视角—— eBPF 在小红书的实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvuoEcDfqaC8rfrEoerpJXXBibzbmXA474ia6EWASUiawdgFj5Lll3pDTVOaEsCJQ0iaD7RGhJ1R8BdAA/0?wx_fmt=jpeg",
+            "date_modified": "2024-09-09T10:01:57.000Z"
+        },
+        {
+            "id": "oPI8veIHxQSgibBP4ChFAw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/oPI8veIHxQSgibBP4ChFAw",
+            "title": "AIGC 赋能展示广告：大模型在小红书标题生成中的深度实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iu6SubyGcJt0T3nJ06y0ot39eqVK5ibGM3nSWhIEhdcUooPjg3CWKzneaYE5LjrQH1Pn6OdBtz6wgA/0?wx_fmt=jpeg",
+            "date_modified": "2024-09-02T10:05:29.000Z"
+        },
+        {
+            "id": "hUt6p3FY2IJwkuSXKnNUfQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hUt6p3FY2IJwkuSXKnNUfQ",
+            "title": "直播预告 | 10篇顶会论文分享，提前开启小红书校招内推！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItOM0bnJhUsx1lviabk3VtkTsSDk8raWDNrHR6MXxFLakBOK9h5zoYOx8CAfajKceZJ3ERibPcGtoqw/0?wx_fmt=jpeg",
+            "date_modified": "2024-08-23T11:19:07.000Z"
+        },
+        {
+            "id": "h-zChStPhB7-11YtV5J9fg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/h-zChStPhB7-11YtV5J9fg",
+            "title": "语义与效率、算法与算力双飞轮——小红书广告召回实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IveyB2BxsNCXj9hC1edw198pTwRreteZiaRIsE7aGeKrAAlWrclsn7YEqG2SkJzhIov3oV5HlMgNcA/0?wx_fmt=jpeg",
+            "date_modified": "2024-08-01T09:36:35.000Z"
+        },
+        {
+            "id": "KCjg6zONQv7tYw5WaZz8Mw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KCjg6zONQv7tYw5WaZz8Mw",
+            "title": "中国大陆机构首次！小红书搜索与清华合作获得SIGIR2024最佳论文奖",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iu3MeY1kh9B5u7unRclUTUnQibLD02tr6rOba7SJT6vS48vtr62d5qjwWMTxWELzqoWXQV3JVJRS0A/0?wx_fmt=jpeg",
+            "date_modified": "2024-07-29T10:00:36.000Z"
+        },
+        {
+            "id": "3q2vq8_gQdint36NoYX3lQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/3q2vq8_gQdint36NoYX3lQ",
+            "title": "和小红书一起参会！ 了解大模型与大数据融合的技术趋势",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Ite4YgRB4BEYp3ibhBoO8R019Gvv73Xqa7qUibhHrxPxkFpzFWsh5FQVmULvQmS7dX30ImkxIwic13FA/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-26T10:03:09.000Z"
+        },
+        {
+            "id": "ZGYLuYPIffGflMRPrFXuVA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ZGYLuYPIffGflMRPrFXuVA",
+            "title": "小红书大模型团队火热招募中！在这里，看见未来 ！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsI6bzms2UTVzz6qdDwkxrzhPh2TnOpxR3ictcPuAgf7AeX1hFW4luY7hytGI0KbGGfCuZNv4z6MaQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-25T12:41:32.000Z"
+        },
+        {
+            "id": "4itqPINGnHLxzEpyDT7ZwQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4itqPINGnHLxzEpyDT7ZwQ",
+            "title": "时延降低 50%，小红书图数据库如何实现多跳查询性能大幅提升",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuVvhXuLds7Ktia5ADqtzOZDibDpibGENjYq4mTxyv0RIicDHdNpfkiaEfwWialXicJPXSI0xUuMrwLGEfug/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-24T12:02:50.000Z"
+        },
+        {
+            "id": "ohZKWD5_a_-Lz59FoHdYpA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ohZKWD5_a_-Lz59FoHdYpA",
+            "title": "小红书 2024 大模型论文分享会来啦，与多位顶会作者在线畅聊！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItF9iaVSBpGlkjUPDPf2VoON7HCX4TvPY6CFN5oTE7cDPGmvtbpCOWdAGSnRpIc6cJibQySJBHzYUqw/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-20T10:02:59.000Z"
+        },
+        {
+            "id": "lXyGDvCcmtQJy180dkS_Mg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/lXyGDvCcmtQJy180dkS_Mg",
+            "title": "斩获 CVPR NTIRE 冠亚军，小红书如何提升短视频与直播体验质量？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Is8DoibcZXu04p734K45ajBEjVxX4BIR63fgopoTgECYp3sXHbU7HdqG1SZoKAicpojnaPfon83Sp7g/0?wx_fmt=jpeg",
+            "date_modified": "2024-06-17T10:01:57.000Z"
+        },
+        {
+            "id": "L01FflEMfsY5u-fty6jHAQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/L01FflEMfsY5u-fty6jHAQ",
+            "title": "WebGPU 引领前端未来，互动渲染如何驱动小红书业务增长？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvPdCFphPYXmBd4183QicpKHSyTExFa76gJt6hLtOIGcyVia8chWxw4R7rjOBIuia8U7BqzxIrJN3oQw/0?wx_fmt=jpeg",
+            "date_modified": "2024-05-31T04:02:44.000Z"
+        },
+        {
+            "id": "F62qmAoEFcyx3WEYdeVBXA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/F62qmAoEFcyx3WEYdeVBXA",
+            "title": "小红书云原生 Kafka 技术剖析：分层存储与弹性伸缩",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuJC563ribGrUDxNntcJXZBMjJiapbK0PtC9vCb1IlI68HnGiakPooiaicxmXRgTTaAFiaM2Etiaicd7NLZdA/0?wx_fmt=jpeg",
+            "date_modified": "2024-05-23T10:00:13.000Z"
+        },
+        {
+            "id": "Po3JNavtknJ8dFi68k_c_A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Po3JNavtknJ8dFi68k_c_A",
+            "title": "W3C 标准带头人开讲 WebGPU 前沿趋势，小红书线下沙龙开放报名！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IstVYEicksNxOevibSIAiaM1nibiazdYYlYpiafm2Ochqltavh3fmrpKqRN0uOYjFYqzNVWDeTicxEHIaxbg/0?wx_fmt=jpeg",
+            "date_modified": "2024-05-16T04:15:56.000Z"
+        },
+        {
+            "id": "rBzc4gNvjlfhe1ZwhxmkIA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/rBzc4gNvjlfhe1ZwhxmkIA",
+            "title": "CVPR 2024｜多模态场景感知，小红书高保真人体运动预测方法来了！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItCOHnde0X71uZk2WIfMe2fTqRVgoUqiaHwoDmkjhNAISUjTPKXfwcM8iawNHkvhUEpj5yOf2uK9hNA/0?wx_fmt=jpeg",
+            "date_modified": "2024-05-10T10:00:20.000Z"
+        },
+        {
+            "id": "DgzLZDrXq0lNm-wRLxdmNw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/DgzLZDrXq0lNm-wRLxdmNw",
+            "title": "小红书从记忆机制解读信息检索，提出新范式获得 EACL Oral",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IsQV2TJ7n4qQbbbxFZxHuDxmopAgSkDvM4NfXibtUo3JQ8jicyYTmM6ZyIzz68qGpLF8rhpk2fSU9icw/0?wx_fmt=jpeg",
+            "date_modified": "2024-04-28T08:00:15.000Z"
+        },
+        {
+            "id": "Q8jGrylR40_PncaEQw3_cQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Q8jGrylR40_PncaEQw3_cQ",
+            "title": "大数据、数据架构、推荐冷启动...小红书的 AI 数据新方案都在这个会",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuV8lUeicCZmorRCDTOxH7byhmoRkjJcWSJvCWLEG6WFn4cWv0swJ4rEHXDxd4vicmNPdbITPT7CicIQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-04-15T13:14:33.000Z"
+        },
+        {
+            "id": "OVNMoAhkbgWISsIplC0vGQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/OVNMoAhkbgWISsIplC0vGQ",
+            "title": "小红书搜索团队提出新解码策略，降低大模型推理成本",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItNIwlyyknt0uDicVT78nibxx2kEyicP7MJkZdRC7dgQq7JlcicwGKtoibvwP6Xtias9vGcrofhvXbeHQ4Q/0?wx_fmt=jpeg",
+            "date_modified": "2024-04-10T10:00:44.000Z"
+        },
+        {
+            "id": "JTWdbs2anBSusGwdI7s5ag",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JTWdbs2anBSusGwdI7s5ag",
+            "title": "小红书离线数仓提效新思路，提升百倍回刷性能",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Itupd0rMdwrVzZlzQd7ZabgeibJFEzfb1xYOaSQT8kQC2AUlBKPkED6HpsUbdoENDt27JiaotrM6OTg/0?wx_fmt=jpeg",
+            "date_modified": "2024-03-18T10:00:23.000Z"
+        },
+        {
+            "id": "rKWgIGuCgidUduxhCl2-3A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/rKWgIGuCgidUduxhCl2-3A",
+            "title": "释放数据湖潜力：小红书如何实现数仓效率与成本的双重优化",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvpzsNDAkagpD0vYAVyMCSWst8bYhPrQ3AqcfLn0oMgHYhQjI7rYFFgHufyW2e7HNbsGoDyF0tn6A/0?wx_fmt=jpeg",
+            "date_modified": "2024-03-04T09:01:11.000Z"
+        },
+        {
+            "id": "XLEqCJNGDmUIg14CtXN3jQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/XLEqCJNGDmUIg14CtXN3jQ",
+            "title": "GitHub 斩获 8300 星，小红书爆火开源 InstantID 要开直播了！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvcjVD4LJkLnYk2qmDicUy7xEz0GZop1SGjwDEicuXzbJurdhYctYrpLiaqTplaDPh9ibs3exueGM2QLg/0?wx_fmt=jpeg",
+            "date_modified": "2024-02-27T10:22:01.000Z"
+        },
+        {
+            "id": "-r4Yah3NByUkJ8c60oihqw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/-r4Yah3NByUkJ8c60oihqw",
+            "title": "你的新春照小红书包了！速来定制新春头像，技术让年味更浓",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvcY6vOlBYv5kWXM1DekXjWj3a007zgglwqoAU8fcjkCfzo4H2L9bTGmPEJTxQmUHNcHwKdkSyHuw/0?wx_fmt=jpeg",
+            "date_modified": "2024-02-09T02:51:23.000Z"
+        },
+        {
+            "id": "rR4WdUL6bAgf7gpFQOyqlg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/rR4WdUL6bAgf7gpFQOyqlg",
+            "title": "速领小红书 REDtech 龙年专属红包封面，码上好运来！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItiaaZ0gdIx0ZxDicrlOL39btLgb49bJ7utFzIBaTUppfeoW0pJbeoNgqaLLHGCf4bAicZzlHofGRK2Q/0?wx_fmt=jpeg",
+            "date_modified": "2024-02-04T11:25:26.000Z"
+        },
+        {
+            "id": "9sWmF4L3eQbHO2XjSC387Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9sWmF4L3eQbHO2XjSC387Q",
+            "title": "小红书论文刷新 SOTA：人体动作预测再升级，能精准到指尖",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItFBicOoCC0TdkCHfzria0mtU8zIupBOUUO91A0L7adXPibwn4R6ryphNEQ99ff9laaM1jick9JibCciaxA/0?wx_fmt=jpeg",
+            "date_modified": "2024-01-31T09:02:56.000Z"
+        },
+        {
+            "id": "f2uMjLNCr-zi0SlgOwWcqg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/f2uMjLNCr-zi0SlgOwWcqg",
+            "title": "直播预告｜原生 vs 跨端，聊聊鸿蒙应用开发的真实感受",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuocsksUAL2mjCQEq7w4icSJowAAcm8QCXYdT78tFdOKvUKGClEfCfIgoYLsDWHutBFnntA3jofYMQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-01-29T04:14:20.000Z"
+        },
+        {
+            "id": "m9q-iZ4UV510v2K_U9Pkzg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/m9q-iZ4UV510v2K_U9Pkzg",
+            "title": "小红书多模态团队建立新「扩散模型」：解码脑电波，高清还原人眼所见",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iuq0CpcmswibdbqHSeiaTI9zgQoBGwibKMEP2T47u6F0nr4dPzIr6oEa3vuaDbpC5F9KN2bufyzbOicWQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-01-23T09:00:37.000Z"
+        },
+        {
+            "id": "cAxohCGF2mpYBn5rU3S1Ew",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/cAxohCGF2mpYBn5rU3S1Ew",
+            "title": "爆款背后的机制：解码小红书流量算法",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItvzcvDGEzOYHQLINXvpXLRcKKOlVa7clFFXkg8AXr4skH63g7drWdAp5oNCh1YzOBnn1sF1m2k5w/0?wx_fmt=jpeg",
+            "date_modified": "2024-01-20T09:00:08.000Z"
+        },
+        {
+            "id": "FHCq-4yJOm8bT7yTiIkrow",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FHCq-4yJOm8bT7yTiIkrow",
+            "title": "代码之外：工程师的成长进阶秘籍",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IstLPGf0bqibD8CGPqXf4GQneqoXaGcFnPpCrWRJCkcrhHTRWletoSyoAadxw6xKodkBQL6RCXG2HA/0?wx_fmt=jpeg",
+            "date_modified": "2024-01-18T09:01:16.000Z"
+        },
+        {
+            "id": "KUa3Yn3DTkXaFQ2JKHvlZw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KUa3Yn3DTkXaFQ2JKHvlZw",
+            "title": "小红书搜索团队提出全新框架：验证负样本对大模型蒸馏的价值",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvyS1VTC0Ao9rOY6SosvrY9kcLAZfZH3mYbG7UrHJ1FNlF7KeAwbTGkL3dth7DytTiaSzOwQdR1hmw/0?wx_fmt=jpeg",
+            "date_modified": "2024-01-12T09:01:11.000Z"
+        },
+        {
+            "id": "3DUoqiFh3Aj3b_TLLPt0Hw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/3DUoqiFh3Aj3b_TLLPt0Hw",
+            "title": "小红书 X WSDM 2024「对话式多文档问答挑战赛」火热开赛！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Isr8QtZHjVDkyMCmQA5HEOjjlshor8xHYicYy0MFsUKMtfzGB5JmXjWfibicK5GmFIQOSNruV2YzBEIQ/0?wx_fmt=jpeg",
+            "date_modified": "2024-01-06T08:00:13.000Z"
+        }
+    ]
+}
