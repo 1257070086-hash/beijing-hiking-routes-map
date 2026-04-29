@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "c0MT-kZHlVbus5x25yOxlg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/c0MT-kZHlVbus5x25yOxlg",
+            "title": "阿里高绩效员工年终奖上浮1-2个月，新员工长期激励首年归属近1/3",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnNG5qByIpnIP4LA8micicYHQoXYMBcsDJ0CHrYJKkaDCAZSicCdj6OrphIKb8pVmrrL3hGd6hrI4HicYdiccD8fiaibD1WlvC5uAAM9c/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-29T10:19:19.000Z"
+        },
+        {
             "id": "5co1OGn_kDMdKj_yiDoFgQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/5co1OGn_kDMdKj_yiDoFgQ",
@@ -800,14 +808,6 @@
             "title": "张一鸣的新“iPhone”，只卖3500",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/6RjsZ916vmgNjvjE6U38jpgDtZSqdDuxKThjDXRocUsSQlALarDyDKsNgEzPbr3ia369ibrPAZcKpicgM02MTbO5A/0?wx_fmt=jpeg",
             "date_modified": "2025-12-03T02:25:14.000Z"
-        },
-        {
-            "id": "v6H5dsAm_kjEC9y0es0HFA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/v6H5dsAm_kjEC9y0es0HFA",
-            "title": "大模型正在成为大厂一把手工程",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibYwxiaCZ27S2toFufwKb2MA2MeLcdssx43fIQn3icNa4tDzc3p3qDYziaibwic3P0uYAjwibLGWl0tUTibToKjajWcotQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-01T06:36:44.000Z"
         }
     ]
 }

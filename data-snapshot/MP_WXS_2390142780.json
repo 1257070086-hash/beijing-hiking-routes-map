@@ -10,6 +10,102 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "I-l6nUY9N4xdrZUBjPZRDg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/I-l6nUY9N4xdrZUBjPZRDg",
+            "title": "凌晨，OpenAI 与亚马逊云科技史上最大联合发布来了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhxmQzEMmNiajxDU7xBs3Nj9Pod6moaqhKNjLVPXeNVadbqftjibgeOkSnHicC1T6duqoLedd9ruGLpqgWjtj8mxymib57pMG0xWDo/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-29T02:16:53.000Z"
+        },
+        {
+            "id": "sXTPqyQCkQD7e9vnqNmklA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/sXTPqyQCkQD7e9vnqNmklA",
+            "title": "大模型落地 B 端营销：京东物流如何用 Agentic Workflow 破解\"机械感\"难题，实现降本 50%",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhiaDAlY788qcYGDBzYln4m6afXO3yh6PfqWDaa2IczqvXoyX1pLDARhAm0AvI53cSKNnTjib17eK9WEHtxEgTCXt7HL46Pn6rXs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-29T02:16:53.000Z"
+        },
+        {
+            "id": "Mlk4XIW-32RTyeD516o5Hw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Mlk4XIW-32RTyeD516o5Hw",
+            "title": "印奇这次要“从0重做”智驾模型！首谈阶跃和千里双公司布局：中国AI商业闭环要靠车跑出来",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/lYDricib2fsm7KbFa0iaibgVtia6yDwW2P0RWdnjLcllpQePiatfNbFn27umYBFqG7wDcRTa1y8RSUQkiabh8QkB97l9E1EYFlDHiafDTx9NUdLlEQI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-29T02:16:53.000Z"
+        },
+        {
+            "id": "ufcB9O1k2fYmxYbPswupLA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ufcB9O1k2fYmxYbPswupLA",
+            "title": "百度 Create 2026：给所有想赢的普通人，发一张超级个体入场券 | Q推荐",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgM15zRctWSIpHWfw6ibxOVqjLFwb3JGpBea8AhMHVCaMibibiaggnEv5DG7k5gT4KZt8sAibwfWf2TYLGc5amogauB2SWbPER5a4ia8/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-29T02:16:53.000Z"
+        },
+        {
+            "id": "P-Uml_V5lXrhnYcGfQDBOw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/P-Uml_V5lXrhnYcGfQDBOw",
+            "title": "openJiuwen社区首发Team Skills，定义Coordination Engineering新范式",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhy5NicIPE9F1x1jfdfsmF6adGbkSvtawuvUJe0jvfMUYRYibt9dAtdVQDCLiaR0zlAAQFI5Wh74xND6F0pJ3iaia7ZEoQgZHjQfKxk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T08:23:06.000Z"
+        },
+        {
+            "id": "zOg1tqERmIPc3HBlNu_v0g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/zOg1tqERmIPc3HBlNu_v0g",
+            "title": "深度访谈｜OpenClaw引爆Agent元年，AI Agent在企业内如何规模化应用？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgsUFzAINtBKgqlaYfkW8QRSdyyMFdWQr5Nc5rRicTeXNMd6Dxl7quODNkSCA4CZO5rogCNVebKcXNTCosQd13UyAZU26nC83Ig/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T08:23:06.000Z"
+        },
+        {
+            "id": "q-D9uFFP5mUPIBK0FwGdFQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/q-D9uFFP5mUPIBK0FwGdFQ",
+            "title": "浅析 Amazon S3 Files：工作机制、性能边界与选型思路",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNj1qklcOVpIE0RF2ZLRq5snrkWDDA2r7N3TmHf2qK2x9og7VdKDIiaOUPvJyQsX4PLPiaO95JP8bjERPTpibSxGHCVAHuXZYehfQk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T08:23:06.000Z"
+        },
+        {
+            "id": "-mMFSKTrW_N_1BUKLxtg8Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/-mMFSKTrW_N_1BUKLxtg8Q",
+            "title": "Lyft 使用 AI 和人机协同扩展了全球范围内的本地化能力",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgtFexo4xwiaraExuTtoDNf6ob5rVsxfe6H73DYQSkrNBlnMWsgFmrDiclQxicmjv7IjPfXLTLsMeny8UWibbmyEt3rvgUdJxXqqpU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T08:23:06.000Z"
+        },
+        {
+            "id": "FUh3VjFdfvUY-Ypgke11rg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FUh3VjFdfvUY-Ypgke11rg",
+            "title": "谷歌开源“Agent Skill 超级工具箱”，云、库、引擎、AI全线打通，开发者狂喜",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhh6GrBqNu7miakctygKniamNsk1wXOY9g9VYbBRUtBawwJRtnhZEB8Pm99pSQ0nB0MhozQRDLs6sd0vAAnSrI7bxf3nRHJBIrZU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T06:33:55.000Z"
+        },
+        {
+            "id": "BMwJ41bx92JbZMtTe5a78Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BMwJ41bx92JbZMtTe5a78Q",
+            "title": "Anthropic、OpenAI、谷歌和微软都认为智能代理控制层是产品，但在定价上存在分歧",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgENDxibJdeoRlQcHGjicYZuM01X6r4EBIRo2eazJpLT1woW4RclBfblMZrvdQIsruRtTzc7gOeqNRpsexqCElDLmGyBPql1WvhQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T06:33:55.000Z"
+        },
+        {
+            "id": "4iiOwMDh9YvN9NM3tJ6hsQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4iiOwMDh9YvN9NM3tJ6hsQ",
+            "title": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhXqIVjzFzeGQAOZibRBLEbORjElFtuZsOvKt9KR6nyyPdorsVJnG15AfkIvpRhazX3engibIYuV4US1SJUtf2j5dPRJXQdhfwbc/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T06:33:55.000Z"
+        },
+        {
+            "id": "sANF7aeLPryIj0RqRzhFuQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/sANF7aeLPryIj0RqRzhFuQ",
+            "title": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhSshK4Zu2R0XA9Qn6SUQ7goqvA9cmYmMSQAD2PtVX8xv6SEoDeR5RXxrbVQpO5dsWXqpLB7F4wyj7nSiaKKzOFhnzoNaaLeWbk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T06:33:55.000Z"
+        },
+        {
             "id": "TKaIPD7-Yx0P5HMrNGajOQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/TKaIPD7-Yx0P5HMrNGajOQ",
@@ -712,102 +808,6 @@
             "title": "智谱AI财报炸场，Token价值暴涨、核心指标直追Anthropic水平！CEO张鹏：人人都将是“Token架构师”",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgcs85ktku9VTcmH66g65Uh9OVyGAU5mpMmsJAYicWEX0JVlQF99XWt3kRyLopic5Y7jgibEO9uoVr5LnZgyjoNyKHgwJ7E4reueU/0?wx_fmt=jpeg",
             "date_modified": "2026-04-05T02:15:44.000Z"
-        },
-        {
-            "id": "jq8eA30HV4aM0g6cU-pJBQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/jq8eA30HV4aM0g6cU-pJBQ",
-            "title": "写入快 2 倍，查询快 6 倍，存储成本反降 50%：丰巢日志平台从 ELK 升级为 Apache Doris",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhgB6E3vOvXzOs6wZ06sWB7DicJFhKMpVySCI2ZnTibEdYkRHfFfo8lbm56bEQmicRYwsOeHT8BuDWEuxLounicgd10nMqplIibU8ns/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-05T02:15:44.000Z"
-        },
-        {
-            "id": "au2bjLKcvVBEbTf88mnIaA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/au2bjLKcvVBEbTf88mnIaA",
-            "title": "智能体 AI 模式强化软件工程规范性",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNh7qF2zlUc7k8f9Ve2AoDcDhqRxt7S9nDesgYfXwD8ScTZA5Tm7WvUr2NER9YWcRBxsOq5d0TlfjbvphS2kCu9kYia5zun5mNOY/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-05T02:15:44.000Z"
-        },
-        {
-            "id": "gAo1l83r-YBvnTtv1Uym3A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/gAo1l83r-YBvnTtv1Uym3A",
-            "title": "Java 近期资讯：GraalVM Build Tools、EclipseLink、Spring 里程碑版本、Open Liberty 和 Quarkus",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNia0Ef80BZ1cjwia5MJ20SlJmplzI4CRRibWAfLVGib8wf8yYCnf2jW4E8z7ibhLp7ticAmN55riaicZhALkJEZicK1cKDALBqTAfYiaF290/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-05T02:15:44.000Z"
-        },
-        {
-            "id": "DIhgtYltsmlMMDtUB3YH3g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/DIhgtYltsmlMMDtUB3YH3g",
-            "title": "Anthropic掐断“龙虾”补贴，OpenClaw创始人哭求仅换7天续命，网友吵疯：作秀还是义务",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiarOwwW3yuj8Bf3LtCB7Iu1lfugajiaoiboibLViczUZic1KIo1r77ic1cn1DOdicpmBWdvXJQgFC8N2XqYRugq16micVcFibY3zvxskqZw/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-04T04:04:05.000Z"
-        },
-        {
-            "id": "c9LTuevUhl52vpC2iQAEaQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/c9LTuevUhl52vpC2iQAEaQ",
-            "title": "构建Claude Code的经验教训：从智能体的视角观察",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNg2icCvtsSWicYQmicIj5IX919j6Mw23ULRJfn28szialBrBlSb7KEwib6qe4KWXdCWbfBauk4ySV6qnRhUAAb7ticnRiakZBnBExewmE/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-04T04:04:05.000Z"
-        },
-        {
-            "id": "b86MK_rpSf5om9bIQGJHYw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/b86MK_rpSf5om9bIQGJHYw",
-            "title": "“随选随配”的自定义区域：Cloudflare 推出细粒度数据驻留控制",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjibQw89l7exftMhL6bVJEWg9Z9IhFaXLt2WzB7Qe24TymmUMYZrtp9lbiaTy4R4LiazxKlHGffib9NCLKgYd3ByTYrz07ax6xXYtg/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-04T04:04:05.000Z"
-        },
-        {
-            "id": "Y5E7KSMeBLvu2aV87wb80w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Y5E7KSMeBLvu2aV87wb80w",
-            "title": "实验性 Web Install API 试图改进应用发现与分发方式",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjXrCesIicuhc22F2lVWfP2HVNpzgejl2P4erlGhABianO9P8GLvPSKqWiagPq0wTuD6ia90azVVnzzxs5lHY4hkyXUjDEdclp5hGo/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-04T04:04:05.000Z"
-        },
-        {
-            "id": "V4s-eATEjeQJNl_FAPlkiA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/V4s-eATEjeQJNl_FAPlkiA",
-            "title": "OpenAI 联创曝 Sora 未死：算力不够先下桌，与Anthropic 竞争让员工更团结了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhWILD8VPlHo6vJWKoRP8icXwibSmjAL1rQI7c4JBFXxia4xr3fDhwHwXI9AhRuicHHF2MKvB61TsR4oELanmdazzOiaAjWjAQ2ZaGo/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-03T07:04:46.000Z"
-        },
-        {
-            "id": "JCBx9-7uBlprNawS3Ic6eA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/JCBx9-7uBlprNawS3Ic6eA",
-            "title": "AI 资本大转向：OpenAI 凉、Anthropic 火、马斯克赢",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjJrlibsEMaWNR7OjxbdoNgj4V03oiad9baReJiazsriaGuWdE4EUmf8NK6kO618xFe38aCre723YSib1BgDJql1oNBz5zibXKD14phw/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-03T07:04:46.000Z"
-        },
-        {
-            "id": "Xncer734foweTLjrQ82BRQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Xncer734foweTLjrQ82BRQ",
-            "title": "构建大规模自治体系",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgMDWEDgnIjF5N0hKBfJBFepz2tlcXeVKuFp4dy9kHWstDiatuvJWqOn2tntudJXzicQDLYQicHTax8c6peiaW3mGB7SGR3xeIo0PA/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-03T07:04:46.000Z"
-        },
-        {
-            "id": "Wx6nMaSWwT1EpBOxTou-7A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Wx6nMaSWwT1EpBOxTou-7A",
-            "title": "Discord 工程团队如何在 Elixir Actor 模型中实现分布式追踪而不牺牲性能",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjz2nEf672w7G9HpGeFMcvXDbxiaRcTDc9HfBex9hiaRyeguPrVhjTXF3w6xVNJTEzcxddwibQADFmgEGZdYCIjoJddaFXJmNyBRo/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-03T07:04:46.000Z"
-        },
-        {
-            "id": "C_6UKz8gF9ow1XYGHgYhbw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/C_6UKz8gF9ow1XYGHgYhbw",
-            "title": "大模型驱动下的生成式搜推：淘宝闪购全链路重构实践｜QCon 北京",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNianHPDd2kbbvwcibLSQfln9YLpicsQwoVZbzVvicaVpwpFokiagmG879K85B2xcUVqMnYordOdrm7hlfficpKPMHO9nPKIa1qkERVBU/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-03T07:04:46.000Z"
         }
     ]
 }

@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "N27RtaXDwOZ4fAW2lt8WTQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/N27RtaXDwOZ4fAW2lt8WTQ",
+            "title": "清华美团数字生活研究院五周年，一场科技与美好生活的双向奔赴",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0Dw5giboAjAhUUKuRzr5gRGr4ibpqds5VU6GC4ddon9U5TTsM09tCf3E6y6cdicPmn7KNJrwwjqAQr4hK5Avg9McZPssDnjR2sibodE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-23T11:58:59.000Z"
+        },
+        {
+            "id": "AZ3r96L--DJEhHMzjlDJyw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/AZ3r96L--DJEhHMzjlDJyw",
+            "title": "LARYBench 发布：定义具身动作表征 ImageNet，首次度量从人类视频学习的泛化表征",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0DxSRlRrpqrLqkgX4vW1ZyhvQsV1lUgW5Tt5p528DJq714gjBnicghufTg3HHqkp0uSp66OAMflSH3SBXxicLSkmAzap7l5r59U1Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-23T11:58:59.000Z"
+        },
+        {
+            "id": "jZ5KyzjVaSH8T-RJWbF9rw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/jZ5KyzjVaSH8T-RJWbF9rw",
+            "title": "30万+元奖金池！美团校园 AI Hackathon 大赛等你来战",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0DxdtIeZXMeOlrdnQUsJQQ88iagb71QcODtwjgteAomLiam8H7y1tLf9tJOeXcOKdrxD12pucic8sFibExibX8rNvcaYS7atBQMb45UY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-23T11:58:59.000Z"
+        },
+        {
             "id": "xAo_PemwBOKvuj0TaOnseQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/xAo_PemwBOKvuj0TaOnseQ",
@@ -784,30 +808,6 @@
             "title": "美团无人机感知与避障技术成国际标准 “自研+应用”填补全球空白",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXMsNLia4ic6hfqwSCxWCibscNDcMoUV6IRk6rQ9mRSXHuT3RCvqdjvLfNqZUouC0cC9XK4ibAHkk9OPA/0?wx_fmt=jpeg",
             "date_modified": "2025-05-15T11:58:50.000Z"
-        },
-        {
-            "id": "WU_Pq_MTWiFkYc7Pc9SvWQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/WU_Pq_MTWiFkYc7Pc9SvWQ",
-            "title": "OR算法+ML模型混合推理框架架构演进",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVdsk1sNr5M4PxkibwveGTobxjskMfdPaLpwAdH1wR0O5y8h5VHEzJqCqI5D2nF6IE6EmcYmWlhJ2w/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-08T11:59:19.000Z"
-        },
-        {
-            "id": "KRgrouki4KNELDt_9jZNPw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/KRgrouki4KNELDt_9jZNPw",
-            "title": "活动报名 | 智能测试新征程：AI 驱动的测试创新探索主题",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXIIqy7Vr5fknueADufrYNSGb2Gh1W3LicKRKyaN8DprWXXCPNCnR1sNEcniczeLFmdlTqHDlc84Wbw/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-08T11:59:19.000Z"
-        },
-        {
-            "id": "1t15ZaLgndGYidqY8DDMUg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/1t15ZaLgndGYidqY8DDMUg",
-            "title": "招聘 | 美团 AI 搜索：致力用 AI 技术创造极致的搜索和交互体验",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXIIqy7Vr5fknueADufrYNSjGyvENoZEFG6Jb9u6yvZwAo3wAfGLOus7kxJYzGuXe74ZKcMIkGOAQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-08T11:59:19.000Z"
         }
     ]
 }

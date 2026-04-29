@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "MamimcCQj_Hd12T8iFVmKg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/MamimcCQj_Hd12T8iFVmKg",
+            "title": "读完这篇，你就搞懂 DeepSeek v4 了",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz904uESUeo0dS0pMoZEqT76c7ptwJQzibBHCZqibpgHDC5gpN3iaYykzm8Gic4pS130xpJ9V6L3H1DMqpicibiaMeibg7yLvqjoOOC11Ttqk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T09:24:24.000Z"
+        },
+        {
+            "id": "Xy8NwrHZRWv301eTZz4Dpw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Xy8NwrHZRWv301eTZz4Dpw",
+            "title": "Harness不是目的，知识才是护城河 —— 一个AI工程交付团队的知识沉淀实践",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz907qYXA7DSJAF0P66wZBibP539hjJ3uEnmoAlrBYhD3UERy4fQUtfHGogibHicuupibSz5Ru01RQToJQ83vTupRicbHKBmCee5cfV4AI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T09:37:04.000Z"
+        },
+        {
             "id": "dJiIi3CP-iLmDrcqg_lSmA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/dJiIi3CP-iLmDrcqg_lSmA",
@@ -790,22 +806,6 @@
             "title": "迈向通用人工智能AGI：从RAG到DeepSearch，智能体百花齐放",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavdrYg6rkaZc4I19KO30zIZLuZeNYicQYkgiabpmMN0pg45s4FScX1kAcRodxhTGFZjk5wCn5KYMrvA/0?wx_fmt=jpeg",
             "date_modified": "2025-08-29T09:33:43.000Z"
-        },
-        {
-            "id": "vkGdKl1qZnBMBqAwRVI4pA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/vkGdKl1qZnBMBqAwRVI4pA",
-            "title": "代码基础，情书就不基础",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvaugJMDP5ibaibp1jggxbChVxaGicQgOfryzhNG59U3lxcpG8WKGWL0xGvib7oVExOu8kicvicCz7iarfiagqQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-27T09:46:56.000Z"
-        },
-        {
-            "id": "ROPYunLcsyTsBYH7PEopJw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ROPYunLcsyTsBYH7PEopJw",
-            "title": "Python 2还能走多远？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauykdM4ibEsqLAaibw7LPvoFfL7c6vgQvS6FNq2do76gQpyoT0AY6LLaJ3IkP9oUGl9ic41icqksBCIXw/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-25T12:51:16.000Z"
         }
     ]
 }

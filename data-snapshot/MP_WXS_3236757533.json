@@ -10,6 +10,78 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "BhrUm_mfg9-peSsceEIVhw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BhrUm_mfg9-peSsceEIVhw",
+            "title": "不卷参数卷架构，这个开源模型把图像理解和生成统一了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGEdPrv9sOJU02jQSDbibPGCv3IiaXHvYtjKHm0qu5jYJtL1rvPe4ndDM7gicDF1xTVLDzJFM3adcUCSxViaPTdAMwqyOfyugkSWld4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T12:56:30.000Z"
+        },
+        {
+            "id": "TX5_KfchdvfWGd0iltwcdw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/TX5_KfchdvfWGd0iltwcdw",
+            "title": "小米双模型正式开源！MiMo-V2.5-Pro无中断肝出“macOS”：54个应用全开、浏览器真能冲浪",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFck7AMBSMMp8vNSFL03CcaY5ltYrh2lpiaIZTqA4UgTKsnRzJaRiaV6N6lIiavrGibyphMChf0xORfdcBwWbMlm5L6tC2yPxv7kWQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T12:56:30.000Z"
+        },
+        {
+            "id": "Uq4vsChZwr4umbxIrenRpQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Uq4vsChZwr4umbxIrenRpQ",
+            "title": "消费级显卡可以快速上手跑！面壁智能MiniCPM-o 4.5发技术报告",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGEZ8EGPuyNeVpfQcegicxupfXociaKUqHUB57GWAaxzMV7xcyDcTxuFJic5HhZweJib0GQGRz48Kq05zZ033ZlxhjE1qD0UXBGs34k/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T12:56:30.000Z"
+        },
+        {
+            "id": "ajMzISIy00p_Hicy-oUEsA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ajMzISIy00p_Hicy-oUEsA",
+            "title": "成功率最高暴跌36.9%！南洋理工首个“模糊指令”测试，直击具身智能落地软肋",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFG9QoEhHIDnrw63qJ6JY2QibicyfjnGZzAhBJ89PN43gJpXyLbsQ1ibXMEYjKpDSzvEt0ibvYUwTYZX174uJupia64c3biaY7BNmRNM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T12:56:30.000Z"
+        },
+        {
+            "id": "ZCAoJdo3zHTL0bnfyg6SmA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ZCAoJdo3zHTL0bnfyg6SmA",
+            "title": "量子位编辑作者招聘",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T12:56:30.000Z"
+        },
+        {
+            "id": "KuiQzjyFZB3k5Qfv8TtUpQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KuiQzjyFZB3k5Qfv8TtUpQ",
+            "title": "Meshy用户破千万后杀向新战场：ARR年翻14倍，头部厂商集体买单",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGEMy3qnOVxJ4jAxROKRxEaN2OMr5FxCUI1ibE17ibs5qQ5aKHRg87rU8sHmFdHPVs6miclYV9VuTmubk1XhWgFDgGdveJgYOK5HIA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T03:47:17.000Z"
+        },
+        {
+            "id": "cDKFl7hv44cmJQz8NPtuiw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/cDKFl7hv44cmJQz8NPtuiw",
+            "title": "DeepSeek V4永久降价！缓存命中再打1折，实测编程成本骤降83%",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGEY4icKtoiak3KdhbiceNRXMyKtl3tDoTorueBoXOQW2lwXn4ia3FMD8kNFicKGNUamh2PB5JqClXWeL8fdCvJOsItofbG7uAUHjn1A/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T03:47:17.000Z"
+        },
+        {
+            "id": "olxDZGz0QXuOWobf4UioOg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/olxDZGz0QXuOWobf4UioOg",
+            "title": "超越Claude Mythos和GPT-5.5！斯坦福Agent验证框架拿下SOTA，Transformer作者转发",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGrToMbqRBEtOfXwc8oYs8bicG8DSAiaUdFAcabN5ZFmicpMq8zSDpHblcVowO8Cv5QT95WoCEs9eCx365PJcLCG8SKvWicibPxmwEk/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T03:47:17.000Z"
+        },
+        {
+            "id": "D6rZkBjifPstIyClhtGziQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/D6rZkBjifPstIyClhtGziQ",
+            "title": "量子位编辑作者招聘",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T03:47:17.000Z"
+        },
+        {
             "id": "am6FOS9N6O5AOFxgodAuHw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/am6FOS9N6O5AOFxgodAuHw",
@@ -736,78 +808,6 @@
             "title": "OpenAI又曝出内讧了！IPO前夜高层大换血",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFGBibT90icN36moHL3Db0ic638hNdWBJPkVJResaSNZDWLiaZ9FKfq0vIxUc4uTuxicxicelp1sbQrhib9amEfJI9xf3dVvRHibEg8ku8/0?wx_fmt=jpeg",
             "date_modified": "2026-04-06T05:23:19.000Z"
-        },
-        {
-            "id": "2Q9Jz-dWTm6arURYgUV6DQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/2Q9Jz-dWTm6arURYgUV6DQ",
-            "title": "让离线强化学习从「局部描摹」变「全局布局」丨ICLR'26",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGhQSVe7hzGBCvt62RWgG3iauvUn3h1AmhhrBSy7cVUzPkU0b27U0L7C3vsS8WFMPr075CbG73EUqvVMRhnMfJzxaibYfoQQ9o3g/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-06T05:23:19.000Z"
-        },
-        {
-            "id": "uvTdrOJwgnGRfEGQAzjdAA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/uvTdrOJwgnGRfEGQAzjdAA",
-            "title": "一年一度最值得关注的AI榜单来啦！申报即日启动",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGHYMUW63xpzzsk1VDnHZVpVm4XibxJWu1r3cx8GzphyvwsEsUuicm1OKicXhy6zNu0QlxLtAWibibrQAXVTYhibBujCmC5ibQO8HFGdRQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-06T05:23:19.000Z"
-        },
-        {
-            "id": "HPlgL9h8XsZjEHCKr2Kb7g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/HPlgL9h8XsZjEHCKr2Kb7g",
-            "title": "量子位编辑作者招聘",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-06T05:23:19.000Z"
-        },
-        {
-            "id": "BLwrThpQYBKVOlJpb4gwvg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/BLwrThpQYBKVOlJpb4gwvg",
-            "title": "GPT-6，曝光了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGqHib5m06a20TiaiazLRWNqbafiamHicxBSzoGb6TvCNu4tZgk26AGJ8Kxu750AyvnlSibt8C1OBFCPRIc6N3ADuOD5ZfZ1vRN5mI2w/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-05T04:39:08.000Z"
-        },
-        {
-            "id": "WzrpdgBiqMT1zOCf1bS6XA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/WzrpdgBiqMT1zOCf1bS6XA",
-            "title": "具身龙虾，上车理想",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGHM9KhwkfQVicFiaZFIiamYhjWFUmFlwtLscH5r40u4f7J8S2reBvFWibcs01C6KDxURcAv7y3HCB0K7wYV0KoEFPOIc16RhcDNmEc/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-05T04:39:08.000Z"
-        },
-        {
-            "id": "QB2ATqZ49sRm2BegwUB0oQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/QB2ATqZ49sRm2BegwUB0oQ",
-            "title": "一年一度最值得关注的AI榜单来啦！申报即日启动",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGHYMUW63xpzzsk1VDnHZVpVm4XibxJWu1r3cx8GzphyvwsEsUuicm1OKicXhy6zNu0QlxLtAWibibrQAXVTYhibBujCmC5ibQO8HFGdRQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-05T04:39:08.000Z"
-        },
-        {
-            "id": "_8ilvvOR5u5UHr0AA_fc6w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/_8ilvvOR5u5UHr0AA_fc6w",
-            "title": "量子位编辑作者招聘",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-05T04:39:08.000Z"
-        },
-        {
-            "id": "yWb_EA8ODbFBsUlPBH10Tg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/yWb_EA8ODbFBsUlPBH10Tg",
-            "title": "联想重新定义“龙虾”",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGEjP0HpcbDrnRLyNqdEL5oQK5Akn8icK16XaYAO6oPHNr6fzNseRtuyiaiaMjHCGFyCh5abykA2ENQYUkiaOwDHicsqSfFpSrwic5pvY/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-04T05:04:29.000Z"
-        },
-        {
-            "id": "njRxx7V_-MJrXn6sS7Hh8g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/njRxx7V_-MJrXn6sS7Hh8g",
-            "title": "25年10x工程师经验一夜归零！Django创始人警告：3-8年的程序员受AI冲击最大",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFSOhFd05pVSRicqicQS8g3CpWXmlgBUeUmf8bhQqnKWa5d8Ef2SAA9QvzDPTnQMRj57uUAEVkVPNvqyGFbhlcMSvwzeeibDXOvnw/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-04T05:04:29.000Z"
         }
     ]
 }

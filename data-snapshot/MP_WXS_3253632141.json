@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "e1q5UxyguWCj3sDcM2t-3w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/e1q5UxyguWCj3sDcM2t-3w",
+            "title": "两大成果入选 | 火山引擎AI安全研究亮相Black Hat Asia 2026",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FecwUg7O1Wr6thspPWQBmibsoeaxnhAHyIrSz7zIrOrIKq3mCkv2q6blC0blsiafGqCO3BCByYE77pSemSKQXN6b2ez2wNXKWLZuU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T09:02:18.000Z"
+        },
+        {
             "id": "oCApjtIVQDFe1LVAGwbZ2Q",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/oCApjtIVQDFe1LVAGwbZ2Q",
@@ -800,14 +808,6 @@
             "title": "JavaScript 内存泄漏排查方法",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOhLSxlCuXiaQ0Yo7CtQqoq5RUSACyF4vIOoCDIHAh6jCticzRLAlIQrpeZicoiaOB9gs5SW6Z8SUaJkeA/0?wx_fmt=jpeg",
             "date_modified": "2025-07-29T07:58:42.000Z"
-        },
-        {
-            "id": "89AMdQtBmaJwjNDS44rXxg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/89AMdQtBmaJwjNDS44rXxg",
-            "title": "字节KV数据库(ABase)架构论文入选数据库顶会SIGMOD 2025",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiaVjtn4bRWPicIzYm21XgmKr2CeAY1Arz7XPfnVUFibIOh9RzmsEicOdBBGv9zTWybicvZ2x9nLmoJg6g/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-28T10:04:24.000Z"
         }
     ]
 }
