@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "6-NzIGV0i5P_uPa22IPjxA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/6-NzIGV0i5P_uPa22IPjxA",
+            "title": "刚刚，小红书高层迎来大变动：柯南升任总裁，夏侯升任算法总负责人",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/MABFN5xh55yvsroYn9gWMiblSaHUiaDh1tOibKtpIE5FTVE475k7cHHN86WqhKZuk8jPOwJxwiaGHoEfgBhxtQGu8aWPmZHUSVVtdau32xH0lia4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-30T04:34:18.000Z"
+        },
+        {
+            "id": "ohyJA89EIRvbd2LK1gSNSQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ohyJA89EIRvbd2LK1gSNSQ",
+            "title": "今日大厂员工事：鹅厂迎来搬家；阿里年终开奖；字节漕河泾8月搬家；携程发布无理由事假细则；百度Claude code今日停用",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/MABFN5xh55xZYeP4JSlCFqLRs9ian3J4grPMa4KjXX6ejY4iaxHrkg5OiaFpgPrNx9ELqGWGjlIx3lnZ476xAlxjZATDjiaLvZr2GEpVbOstGQo/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-29T11:17:35.000Z"
+        },
+        {
+            "id": "G2nMeycVak4o9lkVQW6DCQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/G2nMeycVak4o9lkVQW6DCQ",
+            "title": "刚刚，百度迎来职级体系大调整，原TP序列全部取消，替换为5级-12级",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/MABFN5xh55wQvkHrPicJxvHgMJ84J0h9sPric7vmhJ13HiccFh67bRfjUMfO6p8tphhtW9K2RakcwCya1RRy4YGKq6xCVa9PXWJudCvueic4Gu0/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T02:26:34.000Z"
+        },
+        {
             "id": "6NTmK7yWWV-O1zV3lxTM8A",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/6NTmK7yWWV-O1zV3lxTM8A",
@@ -784,30 +808,6 @@
             "title": "离开互联网大厂后，你过得好吗",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lCZdfBwxicsv4KyvufaFzjgC1oBJ6pjoqDibmWd2lNLsPFJgWWtuMnZhsGbNiapPY8e23ibwIeBcL5niaA/0?wx_fmt=jpeg",
             "date_modified": "2025-03-11T07:24:08.000Z"
-        },
-        {
-            "id": "iLn06NUG78Gzeh4jaWvQ2A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/iLn06NUG78Gzeh4jaWvQ2A",
-            "title": "今日大厂员工事：字节年终开奖；淘天空降大佬；阿里云年终发放延迟；鹅厂晋升季结果出炉；大疆反内卷，员工9点必须下班走人",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lAZHgvyQuOOxU3lt7o6hiaf34baLXgBBwBuwmV9zqibcjqyFj9815beNvlL8gqFUibFLicK7xib18aKIHw/0?wx_fmt=jpeg",
-            "date_modified": "2025-03-10T04:20:13.000Z"
-        },
-        {
-            "id": "tRZYkoktdyWdmiRhqXvazw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/tRZYkoktdyWdmiRhqXvazw",
-            "title": "离开互联网大厂后，你过得好吗",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lCZdfBwxicsv4KyvufaFzjgC1oBJ6pjoqDibmWd2lNLsPFJgWWtuMnZhsGbNiapPY8e23ibwIeBcL5niaA/0?wx_fmt=jpeg",
-            "date_modified": "2025-03-10T04:20:13.000Z"
-        },
-        {
-            "id": "q77NogYrjQXz0OnJNqWLpA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/q77NogYrjQXz0OnJNqWLpA",
-            "title": "今日大厂员工事：快手王犇离职；闲鱼组织架构调整；百度空降高P；字节期权回购；腾讯天美迎贵客；狗东零售求才若渴；",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lAOWprCIdDYakHlRvYkDdssd3OIwiaG6iccP21tgZPPeyPljQP52R6QCvaNicsBOlhkjfeIYlJR1HP5A/0?wx_fmt=jpeg",
-            "date_modified": "2025-03-05T04:22:57.000Z"
         }
     ]
 }

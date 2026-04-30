@@ -10,6 +10,38 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "sR7X6domCisQ-fsrQkD4rA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/sR7X6domCisQ-fsrQkD4rA",
+            "title": "“我可能不再建议学计算机”！图灵奖得主炮轰半个行业，并断言：AI Agent最后全是数据库问题",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgxB3gMcwomice8NpbLI6fEiasCfcNezibAiagPF6CqxPco68wBR7EWDA5odEkTPV0deXg4bGicIu3HNbOs2LrzHASejeF0ibSK8Qyu8/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-30T05:39:39.000Z"
+        },
+        {
+            "id": "aKUWBkgRq_NuA73-O4y2JA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/aKUWBkgRq_NuA73-O4y2JA",
+            "title": "京东广告大模型实战：GRAM 架构如何在 50ms 内完成生成式推荐？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNhWDib3icJ2g7AYBFQ5UOFlKnXxpujtIbHctxR7aeZiaYg8l3UPDqrkmRibxllbD4wYPyibsXXLNDqsefqlrqUPFdFmqoVXsojUuOjo/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-30T05:39:39.000Z"
+        },
+        {
+            "id": "_JTYxmLS4nblVw73dFUovA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_JTYxmLS4nblVw73dFUovA",
+            "title": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了 ｜Q推荐",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjOiceNBaFpSSKdxjwScKKvZP4uYibrfyDKkUM8Piboywlab9mj6iceEJrIknm2mc5WYRnk5EHdusLFp8aapc25mPZjCXuzaggfUxY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-30T05:39:39.000Z"
+        },
+        {
+            "id": "FWRCJqTUONODgMaei4IPGQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FWRCJqTUONODgMaei4IPGQ",
+            "title": "这可能是近十年最重要的 C++ 版本更新，反射、契约、并发模型全面进化",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNhOpD1XEztbOdpIos1D4mvhfLX01sibJTzSOOTo0uGC1Yjm99s2ImyeLlpJTKT4k6C6kKicYjVQfbYCt4ups2mplgmpYZcBXEeLY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-30T05:39:39.000Z"
+        },
+        {
             "id": "I-l6nUY9N4xdrZUBjPZRDg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/I-l6nUY9N4xdrZUBjPZRDg",
@@ -776,38 +808,6 @@
             "title": "Cursor 3 发布：IDE 不重要了，智能体控制台上位，VS Code 这一套开始失效",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaicUEDTLx0uLj3mG4YQytMqc2Z8ZgcXtkMTg4C5CrNHm5dfUXHLpbXmLuLQlwPtcuibuFz3mr2dFZGzkOfiaMvkXdV0VpFUhALJ0/0?wx_fmt=jpeg",
             "date_modified": "2026-04-06T03:56:32.000Z"
-        },
-        {
-            "id": "2YlpfJHceFlb4iIw-fdGrg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/2YlpfJHceFlb4iIw-fdGrg",
-            "title": "一场机器人黑客松，让具身智能的差距与机会同时显形",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjw8admiaiaGCudRWzZ7fmlyH7JxJpG7u7R6pmMD3kMPyCIEWWibpE6zIfDfBXnv94fBEVBLRBGShViasg3QHXqYVRyMRWgibGl9fxc/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-06T03:56:32.000Z"
-        },
-        {
-            "id": "-ZO9_7NSI_pvURrT83goVg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/-ZO9_7NSI_pvURrT83goVg",
-            "title": "Pinterest 部署生产级模型上下文协议生态系统，赋能 AI 智能体工作流",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaRGo8XvuroVT3S9iaMc8wK0icpJBmWpPjyVZrQicaAG8EvqezqEibSkoVSV0mPlEicrFgiaZc79dRpuI0RcgCOjVkgR1SKashP3mZkw/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-06T03:56:32.000Z"
-        },
-        {
-            "id": "TB7d6h0kSAoKbuLQMQozJA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/TB7d6h0kSAoKbuLQMQozJA",
-            "title": "TanStack Start 推出导入保护机制，强化服务器与客户端边界划分",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaibOtAcfgoGvdp0Cogmd3iaib1iarqzSQKwibsAhjZPibeMICaBicsTiciaz5CE6ibhNGARcxsibvUHsadm45LT1CL7UVxeuf7PpDNLOlw2M/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-06T03:56:32.000Z"
-        },
-        {
-            "id": "ZTnimFsFDPHWKT8W-spsrw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ZTnimFsFDPHWKT8W-spsrw",
-            "title": "智谱AI财报炸场，Token价值暴涨、核心指标直追Anthropic水平！CEO张鹏：人人都将是“Token架构师”",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgcs85ktku9VTcmH66g65Uh9OVyGAU5mpMmsJAYicWEX0JVlQF99XWt3kRyLopic5Y7jgibEO9uoVr5LnZgyjoNyKHgwJ7E4reueU/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-05T02:15:44.000Z"
         }
     ]
 }

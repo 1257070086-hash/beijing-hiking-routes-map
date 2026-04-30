@@ -10,6 +10,166 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "Z9-QfTvW-3kRAzZT2o0-zw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Z9-QfTvW-3kRAzZT2o0-zw",
+            "title": "Generalist之后，罗剑岚团队推出LWD，也要变革具身智能训练范式",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGWzp8OtGjgpVgpQXNRFfhtBnKehchnSGrkF1rGesTVJOyrKYvib2a2K0v7C9APMicpHYiawmYedMU2QrjQia0iaiaZMfE5ATAxC5gIw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-30T04:50:15.000Z"
+        },
+        {
+            "id": "hqZK35ieOcKgk3QgHCiqTQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/hqZK35ieOcKgk3QgHCiqTQ",
+            "title": "哈萨比斯出的难题，GPT之父接上了：用一个知识停在1930年的模型",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqEey9AdPCe1pjMKmiaVdTp4B7kOmAcGqzRgwldyxsJsGByKI5tibs0RpcP42icXuGCaESrhegMYIgH9xkaZKAoVdO8uYp09iaSgNqU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-30T04:50:15.000Z"
+        },
+        {
+            "id": "ykWkbRbw_0VapEjBWPcJDw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ykWkbRbw_0VapEjBWPcJDw",
+            "title": "ACL 2026 综述：从事后解释到内生解释，大模型内生可解释性的前沿进展",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqF1M6sV9VhooLvgsPHPZEAdfmPffm35rlcUQfBQpE2ZRyB3qdVf1eQcAh2208scyrV6kRBsql3SB52Uo9ibOOqo63f7qUOt3vS0/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-30T04:50:15.000Z"
+        },
+        {
+            "id": "NAyeqaaMnyI2IKBoEH2i3w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/NAyeqaaMnyI2IKBoEH2i3w",
+            "title": "诺奖得主实验室走出的中国团队，正用世界模型重构生命分子设计",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqF4dLpbC7blr1N82CwnCUlnZCjahxnYb6dc2RNTaibDqSgUrwkfN6fKc4jLu63ol9deaSHibOQLOXG7C8Jia9ziaoD1FWHsfxvcibdo/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-29T03:09:14.000Z"
+        },
+        {
+            "id": "pmunN6EtsH7UHr5oqDXNAA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/pmunN6EtsH7UHr5oqDXNAA",
+            "title": "无需训练，如何提升黑箱VLM？CARPRT用「类别感知」给出答案",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGJSucX8GzJXASHVlhNw9lKtibmiaGJQ2ASMo7CZrlQU33bL1nvbCZcibsiczwffBL7P43BNHWJQPTTnxniaMoRIf6iank3xg2XrtNhE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-29T03:09:14.000Z"
+        },
+        {
+            "id": "EKeHwrcTHXOa4r53q1iPXg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/EKeHwrcTHXOa4r53q1iPXg",
+            "title": "让大模型理解真实医疗视频，全球首个开源技术方案来了！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHuiazh6nm28JeLicLVLBfWyQTiaaQwyWMTsc24OC6mUtmDK1fTSOnU2y3E4DpYn8JZxtBYgkZZqsZUsUWjVzNgN0SVVcraF0A0oI/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T07:41:59.000Z"
+        },
+        {
+            "id": "A5ZQjAGpfuFJ6P2h3L_M0g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/A5ZQjAGpfuFJ6P2h3L_M0g",
+            "title": "openJiuwen社区首发「Coordination Enginnering」，让智能体从「单兵作战」到「精锐团队」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqG5RHcuiaiapcRM9pp5xvEAFibRDd4vbNk9ib38tTSv19PMMEFia35AvS1Yny4GRkUYaNsfHURYpBCYgzibUfulQf6lI2cGzyAUQqfsU/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T07:41:59.000Z"
+        },
+        {
+            "id": "GuRb2wbxf002NNQ9Pymk0Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GuRb2wbxf002NNQ9Pymk0Q",
+            "title": "ACL 2026｜答得更准还写得更短？华为泰勒实验室提出SHAPE，给LLM推理装了个「推理税」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGMZIYae22licxeXQGHWBZ6VVTlmiauYkN22Rgpibbnao1zHpnrby2iaRl3DX569D7H9Zswez1kXQkMZt1jAbLsJiaBxkJ8GghlvAW8/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-28T07:41:59.000Z"
+        },
+        {
+            "id": "h8IiyTwIBMuTNBesgVw85g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/h8IiyTwIBMuTNBesgVw85g",
+            "title": "从99行代码复刻冰雪奇缘，到引领3D AI，胡渊鸣的公司凭什么「爆火欧美」？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE9OUgETdMiavSDCnLCVenicv1BYw2TBy0GsUc6sB06WUbUXqHITxBW9FBTAYvJjTU1RrxjEmOtFZK5wCeI9UGLXibh5qTTJdJm4M/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T00:03:59.000Z"
+        },
+        {
+            "id": "xi-wYsgd_bIdtRTSN-9oKg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xi-wYsgd_bIdtRTSN-9oKg",
+            "title": "苹果新论文发出惊人一问：What do your logits know?",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFgjp0uHicyUWgdHJum5TFQ5ibBPmE66HlSrsAa1ntvxyicuVW7iaabMU8Iic3MfcxfpjjHR87m5lymG361O7KJdmsib5DKMMSEbMv7M/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T00:03:59.000Z"
+        },
+        {
+            "id": "q85FyJDJ7USnI0NFrH7eOQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/q85FyJDJ7USnI0NFrH7eOQ",
+            "title": "ACL 2026 | 别轻易给AI发「～」，它可能会删掉你的整个主目录",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGTl8bZ57AV2ObJVAIK2j7RSFHSSleF9lPTt9mhQhdra3UkfJIxG2fdglIQyHs0Vj20gCDh1Dze8L35Q5aCIjEVQ6q29BQkjJM/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-27T00:03:59.000Z"
+        },
+        {
+            "id": "v3XujOLco3fMJuEzQKer0w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/v3XujOLco3fMJuEzQKer0w",
+            "title": "终于，学界找到了深度学习的「牛顿定律」",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGMvWY6U3ozH9vdnIdq6fe7m6gkEveUcIicYGfBGl4JxtJz05A8ng9jmWzYGsmKbDqKKLRccxJqia62ib5RnXiaW9KHxF2yTRx7SiaY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-26T03:50:17.000Z"
+        },
+        {
+            "id": "zDyucvyMywy-jS5y8wps3Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/zDyucvyMywy-jS5y8wps3Q",
+            "title": "剪映上线AI助手，熬夜剪片的苦日子终于到头了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KmXPKA19gW8yU8cVnOME0Ij7iacD6FarWcvDeibUYCrvhq3UfuSw7aicicCCGwvWAvL5ZUYX9VKehmoLiaA621M37WA/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-26T03:50:17.000Z"
+        },
+        {
+            "id": "DNck9A5iNAITZY0pySfUFw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/DNck9A5iNAITZY0pySfUFw",
+            "title": "大模型高效推理新答案：ICLR 2026提出Balanced Thinking，精度提升10.0的同时，推理长度直降35.4%",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFbuibajHRyIwF1ZYA7uxOqofYLgaLUgxqsZlubXkIXjl8Dqm3TUKkba1YwGJp43aRYT2AFkUQBXkS7IgHkuvbIAhGNtquUBDBc/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-26T03:50:17.000Z"
+        },
+        {
+            "id": "uXvcwhc7CP4nGw13Tw5B-w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/uXvcwhc7CP4nGw13Tw5B-w",
+            "title": "开源模型横扫21个科学发现任务！宽德Will联手斯坦福清北，把试错变成武器",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqEmL2oUvcwUxXKJ0FbY303tPcPbCNkz1aqcahsOOYN0icFxqia6Deiczuk8qTNRcLVFo2D7vz0ibe7kxc2fvYicVmKg0s9KUuJOwa8A/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-25T06:09:57.000Z"
+        },
+        {
+            "id": "nO8AIAnvHhkLRyGHCgErUQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nO8AIAnvHhkLRyGHCgErUQ",
+            "title": "ICLR 2026获奖论文揭晓：两篇杰出论文，大神Alec Radford经典工作获时间检验奖",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHauGiaDsWzicuE0qRVgh9DO4GkLkJEm90zqcNs98PuvwAicDsXXMpZNBwHqeSYwXgwcKEibGKrTfPOQ6c9ibaCQAwDicXBTicTZQZeUY/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-25T06:09:57.000Z"
+        },
+        {
+            "id": "FQxg8UEnqU1_-cGJgeobPw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FQxg8UEnqU1_-cGJgeobPw",
+            "title": "前馈式3D的终极路线图来了！五大核心战线，一文看清未来三维重建该往哪走",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqG28XAHEvXcniaVzmLtF4CUsWIDKI0UchxyStmoAHFic87EqRR4o3A7cav8RrYakSu6TxhOyAzDw4RBaR7iaLHQLaKicQibjPLtber4/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-25T06:09:57.000Z"
+        },
+        {
+            "id": "NYAHoj8EOHWxNpi3t3IbrA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/NYAHoj8EOHWxNpi3t3IbrA",
+            "title": "机器人马拉松超越人类之后：本体走到尽头，智能成为下半场",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFa4HJz86QnkQicaECUEW6NFLor3icib8X1uf4e7gCia5J8VBhOdWGGGPoR4ib2UvV3GBsE620ore1vibeGvWc5r86EwP8hs0qm4kbbs/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-24T09:06:41.000Z"
+        },
+        {
+            "id": "jzWwJ2lEErzZmr6x6JSnGQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/jzWwJ2lEErzZmr6x6JSnGQ",
+            "title": "Anthropic实锤Claude Code「降智」：就是这三个Bug造成的",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHq2yhQhLCmt5auaFfVEfLyVpOjqQaqpsOfVMz1PA8CiaAkFKlWYsDcJecIjibialqwaqt6SjLpMomziaae03mMuaIWr8wYTj3cHQE/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-24T09:06:41.000Z"
+        },
+        {
+            "id": "KWbLQYpCFLPHPC_XubrZVA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KWbLQYpCFLPHPC_XubrZVA",
+            "title": "记得住、答得快、用得省：HERMES 让流式视频理解实时响应提速10倍",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE6O1MaDHWwNtFHicVwgMpqPvtuR62Yaf7KfKzNick1iaHoj5chmD5FB3VH2libs5PShnyiaRCBNAwgBia4XhzLIW9tg3eYLibD62OzKw/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-24T09:06:41.000Z"
+        },
+        {
             "id": "RZo5YfYxdB7PhLjTcuwyww",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/RZo5YfYxdB7PhLjTcuwyww",
@@ -648,166 +808,6 @@
             "title": "专访中科第五纪黄岩：在具身智能的狂热中，做一位技术实干家",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHwtw2wExHDaVibJI1NN3auFUTDicpwokz6UgOiaNxf34I46AXyRcHYm5hYeDcGVzeDSMyiaGzldfFp8S8P5m0R46ib7zENVgdnrGgM/0?wx_fmt=jpeg",
             "date_modified": "2026-03-27T04:05:14.000Z"
-        },
-        {
-            "id": "I4R8OP4w47_qY34X4gsExw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/I4R8OP4w47_qY34X4gsExw",
-            "title": "CCF与淘天这个基金，单项资助30万，支持你研究「龙虾」",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHyKqZGh03VEYia4dXdyfywFKqRZaUvfUF1nWQp8h7C0xwhegEyWoryE3MpkN4Q5speLACwHI9k3IAokF4icO3PcAnJ2HHw28lBo/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-27T04:05:14.000Z"
-        },
-        {
-            "id": "qgGe51RcwJxkZ25DxQEpBA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/qgGe51RcwJxkZ25DxQEpBA",
-            "title": "不止Deep，更要Wide：清华、无问芯穹发布多智能体系统WideSeek-R1，4B模型比肩671B模型！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFrdn8dZ1j7tPne4KZMb4gzUOv15rOQjsuUocWgtT6ftRnwT1KgIdrT8xOHUEv9cl7nLwY7OZORiaB0iaWLyeUuwh95xMyQxhcibs/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-27T04:05:14.000Z"
-        },
-        {
-            "id": "wHRuU64BVq9VFL-T6X31iw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/wHRuU64BVq9VFL-T6X31iw",
-            "title": "糟糕，大佬45年前论文，被判AI生成",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFpNZ751od3C2ArywK4iasts9f1iaEkChGWPYG3KYINIUhiapgDJfVx5JlCHLPjS7tvKcqa2DTojS7psY37Wz5LoIoSRick4ve55Y4/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-26T11:38:50.000Z"
-        },
-        {
-            "id": "6sZTC1D-hMwekVJSjbTsfQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/6sZTC1D-hMwekVJSjbTsfQ",
-            "title": "内存股集体大跌，原因竟是谷歌这篇一年前的论文",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEH9TCBCrTJ0ic7KHcns2KhjDBDBdnbmPO2v1Tunej9HEakyoI0Z8PaIJfm43LXdPsjblqaTQNcibsq1Zhur0ysrKCn5sOVgTtuw/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-26T11:38:50.000Z"
-        },
-        {
-            "id": "9TmVSNHMQYY4ULJaJYEOWw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/9TmVSNHMQYY4ULJaJYEOWw",
-            "title": "ICLR 2026 Oral | Revela：用语言建模重新定义稠密检索器训练",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGUV5Riawz0rv5mUepcl4vMjT6ZagzIj5BerAE9GiaQOM7VjveAdYVhPz06eYHUFunGc1iacm0ykqibHHHyOGFYUxDROmln8BdfPpo/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-26T11:38:50.000Z"
-        },
-        {
-            "id": "YuKaeXNdKjX8TZWxRwmL-g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/YuKaeXNdKjX8TZWxRwmL-g",
-            "title": "我在微信免费养「龙虾」，玩到上瘾，这组CP太强了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGEmF7FAF8OxQrz2n5wJhibXeudYX4jNtJ51wDIrpklibCkpx90Hd1pO1P4eyJsicayJ02RZX0Gnibt0tYFDZl1z15kCS5t0T710UE/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-25T03:59:10.000Z"
-        },
-        {
-            "id": "VrQ65bEnXJWSKGjmYuyy9A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/VrQ65bEnXJWSKGjmYuyy9A",
-            "title": "突发｜立即检查你的Python库！LiteLLM被投毒，Karpathy警告，马斯克关注",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFxUtearYlOiamj50FMgYrhGpBCU5jIbujWSltib4qQOx9fhrn8FNRA5P2Yicr5TsPUdRZABJnib6gTGyVJ8CMCVdeaQubian59S4Fg/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-25T03:59:10.000Z"
-        },
-        {
-            "id": "81wiPTdyebb9nGfAvoU2CQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/81wiPTdyebb9nGfAvoU2CQ",
-            "title": "对抗KV Cache压缩的脆弱性：两行代码以最坏风险控制防御底层假设崩塌",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHnNjLQzJ1PjUl4r7I8FZa3qsR81G1LgrAvKAJW1dTEianuD660yyibXiaqxQPfqEp4XeBkXSlbSOv15zNPXmwbKcVnc1iaMQTwLIo/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-25T03:59:10.000Z"
-        },
-        {
-            "id": "Tk4TaItYzS4J6U8tRPD0Og",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Tk4TaItYzS4J6U8tRPD0Og",
-            "title": "RXD大会首发北京：当硅谷还在谈论物理AI，西门子已重写工业规则",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqE0RCiaVFF5Vl7o1aU99aib7q1TACSq495eXafKsbUxRoGZVsJ1Xc6lbY86RQ7uqX5ATZNCbgwaCgcOciaPibptg6255377iakCd6mQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-24T09:14:14.000Z"
-        },
-        {
-            "id": "VycD8SODNAnHiLIg4DlZvw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/VycD8SODNAnHiLIg4DlZvw",
-            "title": "世界模型开始做减法？LeCun团队和清华团队给出两种思路",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFInoSscFsXBfJiaUEibOEOWtB3nTADUUpNiamia27XjialdZKKreClg5WNamIAyHwjm6wsfcPqCZvQx2Uia909yEfIyBBuDFnGHH508/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-24T09:14:14.000Z"
-        },
-        {
-            "id": "RYATYwUDgLnGm29RH1fr_Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/RYATYwUDgLnGm29RH1fr_Q",
-            "title": "世界模型最新综述！中科院联合MBZ、NTU、Oxford系统梳理前沿进展",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFuHwdwAb18jPV2NciaJ8iabSmqthvichSPicLZuGyK1sS9Vp1bVZaERPnZMR0CYCseFLQaJwk7whzkAC1Vb1f4M6jQOAlbJUBfSdk/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-24T09:14:14.000Z"
-        },
-        {
-            "id": "xm0EXBmn8QbyzBt3X4GY7A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/xm0EXBmn8QbyzBt3X4GY7A",
-            "title": "必看！Sebastian Raschka新博客盘点了所有主要注意力机制",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGgqCm3qaCb3CeGwllG37YZ3VEibghf6icuplfOQbR7uENHPAWuZEUAQdhcoK1z2LZ61nCDDxzC5tapje2wIUJlWMKBjDgMARUuc/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-23T07:07:16.000Z"
-        },
-        {
-            "id": "RNAAfzvmCYUmMAIceNogXw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/RNAAfzvmCYUmMAIceNogXw",
-            "title": "扎克伯格正在打造自己的「AI分身」，并计划裁掉1.6万人",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqEOGlXKJysA4l4zBQYgTdxCVtUkn4VcxUia7SrZa0FfiaZWynKK20JAEm8MHcCWyyexEpLiaoqSwdkTc94yQRgU25dDDhz9kNmUicI/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-23T07:07:16.000Z"
-        },
-        {
-            "id": "sy1L2RoWuv3-fBOO4rG1rg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/sy1L2RoWuv3-fBOO4rG1rg",
-            "title": "北大团队提出 SHINE：将任意文本转化为大模型 LoRA，仅需一次前向传播！",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHibdLV6hh5bbSUjDn05pCb5ibfdNTJkkpqpYDicKKiaN10H1RGVWCDbZL4xQocwWYk4JECzxgOvvJ4N9I28eEWR7w60h8aibzyBWQs/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-23T07:07:16.000Z"
-        },
-        {
-            "id": "1yTd36hev6o4OieTdOeYAw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/1yTd36hev6o4OieTdOeYAw",
-            "title": "扩散语言模型总是均匀发力，华为诺亚教它「抓重点」",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFibkH2ibqyQTKicxt40pkR21VtHOeDH5UKvibWx3eLIe7SiapMhU8P6buflxUKN7JFKotGXPkibbG6jZiaCV9OOMdoWAqibMQsAibdQGo0/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-22T05:31:43.000Z"
-        },
-        {
-            "id": "JOadccKoBIRur-F2IjrcQA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/JOadccKoBIRur-F2IjrcQA",
-            "title": "刚刚，马斯克启动TERAFAB项目：万亿瓦算力工厂，瞄准太空",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHm1stkhOHr5jIjH6fIxI1eticZpHCpJ9Bco13YuhIqwTXwyXKBJLG9ONExQ4ib67ExjSWZI9DT5oC3XrOKBbNeNdvvYQg3ucU80/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-22T05:31:43.000Z"
-        },
-        {
-            "id": "xoIJU4fBcTW4UfnbFZAKYQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/xoIJU4fBcTW4UfnbFZAKYQ",
-            "title": "CVPR 2026 | 中科院、港中文等提出HiFi-Inpaint：无损还原物体细节，重塑Inpainting生成范式！",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFv2mjjAePGrNKLyaPFk1YUFUDoCPYFnwz6ia6lvEsgRxlDL56nftGVfiaVvx5J1icJRm3dicS6uIbzkwib502S74sz1cI5Pmt0lIPI/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-22T05:31:43.000Z"
-        },
-        {
-            "id": "olYbVOqTIvfoJ6DAhwVNdQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/olYbVOqTIvfoJ6DAhwVNdQ",
-            "title": "「龙虾」爆火，token成「硬通货」后，这场AI比赛变得更重要了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGibTVET6Jr4kyD4cRV0TJkib50kMdvMuUbBnTQmIalKxfJV6I7xZeIuMVlOvIcD4jkpAjWiamc59fvibELQmdCCOto8tgndickxCyY/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-21T05:01:03.000Z"
-        },
-        {
-            "id": "1glKNj-EMygQJOruWw6r6Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/1glKNj-EMygQJOruWw6r6Q",
-            "title": "画质革命还是AI整容？DLSS 5引爆全网争议，老黄亲自下场论战",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHzCibibBObHryZtZNVX3zLcrrZX4K4NaZW67akR50icw7yLTHLAZBBplMN8ey7FtWVUY6qPQLCN1n2BTY4hNtEc5N8RiaTnfVFV6c/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-21T05:01:03.000Z"
-        },
-        {
-            "id": "ngn6YY6AjO7vbQQlOv0fIg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ngn6YY6AjO7vbQQlOv0fIg",
-            "title": "ICLR 2026 | 清华提出交叉熵分解：“误差熵”才是大模型规模定律真正的驱动项",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqH27lhjEzcvhbcRhJBIvdNrwsO9fqPdCAV5SFcCrsQkBxicfLMW7M2yiaGuqiccewxEKQFrW8LbpKic4GWnibcOGiaDV4JcsTTdSdhbU/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-21T05:01:03.000Z"
         }
     ]
 }
