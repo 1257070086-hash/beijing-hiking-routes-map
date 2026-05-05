@@ -37,40 +37,46 @@
     if (el) el.classList.add('current');
   };
 
+  // 用 week 字符串生成稳定的 key（去掉空格）
+  function weekKey(week) { return week.replace(/\s/g, ''); }
+
   const sidebarNav = document.getElementById('sidebar-nav');
   if (sidebarNav) {
     sidebarNav.innerHTML = REPORTS.map(r => {
-      const sectionsHtml = `
-        <div class="sidebar-sections" id="sidebar-sections-${r.week.replace(' ', '')}" style="display:none">
+      const key = weekKey(r.week);
+      // 非 active 项不渲染子目录 div，避免 id 冲突
+      const sectionsHtml = r.active ? `
+        <div class="sidebar-sections" id="sidebar-sections-${key}">
           ${SECTIONS.map(s => `
             <span class="sidebar-anchor" onclick="smoothTo('${s.anchor}', this)">
               <span class="sidebar-anchor-dot" style="background:${s.color}"></span>
               ${s.label}
             </span>`).join('')}
-        </div>`;
+        </div>` : '';
 
       const clickAttr = r.active
-        ? `onclick="toggleSections('${r.week.replace(' ', '')}', this)"`
+        ? `onclick="toggleSections('${key}', this)"`
         : `onclick="location.href='${r.file}'"`;
 
       return `
         <div class="sidebar-report">
-          <div class="sidebar-item${r.active ? ' active' : ''}" ${clickAttr}>
+          <div class="sidebar-item${r.active ? ' active expanded' : ''}" ${clickAttr}>
             <span class="sidebar-item-week">${r.week}</span>
             <span class="sidebar-item-sub">${r.range}</span>
           </div>
-          ${r.active ? sectionsHtml : ''}
+          ${sectionsHtml}
         </div>`;
     }).join('');
   }
 
-  // 折叠/展开子目录
-  window.toggleSections = function(key, headerEl) {
+  // 折叠/展开子目录（通过 key 查 DOM，不依赖 this）
+  window.toggleSections = function(key) {
     const el = document.getElementById(`sidebar-sections-${key}`);
+    const header = el && el.previousElementSibling;
     if (!el) return;
     const isOpen = el.style.display !== 'none';
-    el.style.display = isOpen ? 'none' : 'block';
-    headerEl.classList.toggle('expanded', !isOpen);
+    el.style.display = isOpen ? 'none' : '';
+    if (header) header.classList.toggle('expanded', !isOpen);
   };
 
   // 滚动监听：高亮当前区域
