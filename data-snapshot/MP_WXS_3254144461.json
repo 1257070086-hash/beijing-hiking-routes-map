@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "is7up_x4knqiFmcaopmqtg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/is7up_x4knqiFmcaopmqtg",
+            "title": "互联网大厂中高阶晋升，评委看重的是这五点",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkqSwjJaSicy2dT072Iwtfh7AdgqKtXp1fs6DpIMWqLjZe2T3gtNDsN0tMLXoPIMTbOhdLOkyj1dg9e6GAvQUs84b7cQIQKJibks/0?wx_fmt=jpeg",
+            "date_modified": "2026-04-30T03:26:59.000Z"
+        },
+        {
             "id": "c0MT-kZHlVbus5x25yOxlg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/c0MT-kZHlVbus5x25yOxlg",
@@ -800,14 +808,6 @@
             "title": "中国互联网大厂大模型求职指南",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibYwxiaCZ27S19RGOLN8j95zeE1ab8QLw66kAIUfWHFRrH8IKuE1dZCBTpaI9H8AbnHPYzfclr9N39rK8j1ujZmQ/0?wx_fmt=jpeg",
             "date_modified": "2025-12-04T01:07:01.000Z"
-        },
-        {
-            "id": "DAb5tp0TJmU_QfOQQCf0Ew",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/DAb5tp0TJmU_QfOQQCf0Ew",
-            "title": "张一鸣的新“iPhone”，只卖3500",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/6RjsZ916vmgNjvjE6U38jpgDtZSqdDuxKThjDXRocUsSQlALarDyDKsNgEzPbr3ia369ibrPAZcKpicgM02MTbO5A/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-03T02:25:14.000Z"
         }
     ]
 }

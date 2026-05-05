@@ -10,6 +10,62 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "h4O4RolNQ0mcJCxs9lVjFQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/h4O4RolNQ0mcJCxs9lVjFQ",
+            "title": "42%的代码是AI写的，可96%的开发者不信它：谁敢拍板说“上线”？这成了2026年最大挑战",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgfnGfNPLoseTgHBUexdqKQpGFrCrdiafVTckzib0azPzscDGGYZiaGuq5JsLqE8mr6zIibqlvvgblUW1p8WgAicPCia3wdsBtmUhibQo/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-05T02:31:33.000Z"
+        },
+        {
+            "id": "U8nE8IDCXKWHYnsbwplbwg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/U8nE8IDCXKWHYnsbwplbwg",
+            "title": "硅谷大厂开始AI-first换血：先裁3万人、再招8000个新人，传统产品经理正在被Builder淘汰！",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgGAxNkNIyjhePFpIpgEib4fRHX86N7SfU0ffTxxDLOXk6hkgKWhMJ9Smp5KR4ZTgk1pWuh6G4zEhBRRM94PAPuriaEOqyBK1sVM/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-04T02:31:17.000Z"
+        },
+        {
+            "id": "yPhd9bjl5UHFf58sgZLlaA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/yPhd9bjl5UHFf58sgZLlaA",
+            "title": "第一个全职AI CEO来了！29岁前编程神童正让AI替他管理千人公司",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgA2AvDPY1w0hKkSliagic6lqdgwqrZKHZwtvF4h9iavK21JHKms1ef2vVC3AbdBib48rRiaPQaibuMjibZ9nXDLPxZjBV7hXYpAQgm5s/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-03T02:31:22.000Z"
+        },
+        {
+            "id": "Kj6oQSPijcE8mHbbeAKjkA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Kj6oQSPijcE8mHbbeAKjkA",
+            "title": "在大厂，token用少了不“健康”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiahyVwKlhaXA5KdrJicfUtNbbHUSkibMo6puVL3veDYVTWricjicxLmeRblRtibVN3TiaBYb85s7KCaJk7ich5EP1DjvvEmW3Www3ibmdk/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-02T02:31:10.000Z"
+        },
+        {
+            "id": "PJSCqKBt_ikEDJ7wl-CHpg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/PJSCqKBt_ikEDJ7wl-CHpg",
+            "title": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/lYDricib2fsm55N2wfGawia3ro7X4QWSxsYHKWuTzNlEUdMuiazLxRrLuF3ZL1BZ9rRapmMlcq7xDVSVNxInW8Ypb3ySuBDficH3Gd44XvxpcEIQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-02T02:31:10.000Z"
+        },
+        {
+            "id": "uP_cZBXgyC1eaMOO-meutQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/uP_cZBXgyC1eaMOO-meutQ",
+            "title": "“如果你不用更多Token，就永远逃不出底层”：AI竞赛开始变成资源战争",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjZ0yO6mAZBJo2bwXXVrslOzYaTsUFNysVXRLA7CEjgvAb6HOCjORJCmjJrFRlApsBpKFmUH3J5hTqzzewg8LOAskjaC7gayk0/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-01T02:12:45.000Z"
+        },
+        {
+            "id": "FjLOIWT1JKq4er3TEz8aow",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/FjLOIWT1JKq4er3TEz8aow",
+            "title": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgJsPXOqN2dFXKIzpibSSvmib5y2gscO1hnZS1WFvMRsPS6xeXGuU5IpGx36iaEzx5UqtDBGBYsxe2lFAaavSXm29iaUEficlmZ0PyA/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-01T02:12:45.000Z"
+        },
+        {
             "id": "sR7X6domCisQ-fsrQkD4rA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/sR7X6domCisQ-fsrQkD4rA",
@@ -752,62 +808,6 @@
             "title": "自动驾驶优化：从复杂性到实时工程",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiaxOjhM8IRLsLman0KU6w8dyBmwHkN6EjmToOvicKQWrMG7N0Zn95iaMrGpJZFDvRwMib0NPnuBOIa9IasASK4fMMfh76lqc9wibnQ/0?wx_fmt=jpeg",
             "date_modified": "2026-04-08T07:31:56.000Z"
-        },
-        {
-            "id": "CjMSwtO51_9ZO-a2DBAprQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/CjMSwtO51_9ZO-a2DBAprQ",
-            "title": "ESLint v10 发布，但有开发者已经在考虑换 Biome 了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgNibKmDhRQZ7IbLoQWuOjofXwRnsWJRKYicXnzz02lo0Bicg6NGLP0HGL2ib9ViaVKJh3das3g5MFj5DWSlUMic4upynKSYQe208iaQA/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-08T07:31:56.000Z"
-        },
-        {
-            "id": "MbbQ4FRsVLm9KFmygz34EA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/MbbQ4FRsVLm9KFmygz34EA",
-            "title": "OpenSandbox：重新思考 Agent 时代的 Runtime｜QCon 北京",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjj9diaQoGtqzjQcHJRImBP4iaaCppASXfj1oZgMC9HNnkHf1icM5vdHxIPjcthEwMoPibVTGUmcPYxADkuyyAWZnzvUju1ib71f5g0/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-08T07:31:56.000Z"
-        },
-        {
-            "id": "y0JLrC_Af9X0cA_t08ymjg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/y0JLrC_Af9X0cA_t08ymjg",
-            "title": "Karpathy 亲手终结了RAG的草莽时代",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjYyqGTTvf6ZCEAIlERM7bX3HYXDibsIezbqwnRSnfE2N7K1N13MbEqotPR3Y9h6VTmeKsV3X09d7a9atUYNyBic56qCp6ibOttWo/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-07T05:05:54.000Z"
-        },
-        {
-            "id": "w2ZQUpeccEfpHOd_lZOHHA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/w2ZQUpeccEfpHOd_lZOHHA",
-            "title": "从工具到生命形式：OpenClaw 引发的 Agent 再思考",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgWOkpAYrJJoWYKUHFFJHTfyMlMZxHaZ3ceBzOzo78rBgBxBBa41KaK6Cozn77aI0jpBrpicnHxUhqPLvcy664o3CoSXGf4wmGA/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-07T05:05:54.000Z"
-        },
-        {
-            "id": "yAfCk5e0o6BRvcXW7dzEXg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/yAfCk5e0o6BRvcXW7dzEXg",
-            "title": "AI 时代的架构治理",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNia4rkS2PluHib4vAia7QdSiaPBkH3yvqLXFnIYPrC6JtCwH11wC4fCVOn0X6Kdk94jiaK1YEIIL54IktT963TYexKJ2XNzDUEEwoLM/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-07T05:05:54.000Z"
-        },
-        {
-            "id": "fAXfEa-ThAaxzw2CdVQyNA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/fAXfEa-ThAaxzw2CdVQyNA",
-            "title": "Helidon 引入 Agent 能力，Java 框架开始内建 AI 编排",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjibN85RIxPicbc9a9gyIcdrlMuR6VfNpoiavlAjp4Uicofys0G6Mbj73qicLicibdqicWyjRNUIbdEhpI34wF2oU8Vic922xNkqK1wwEEk/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-07T05:05:54.000Z"
-        },
-        {
-            "id": "bZKP6LxxLYfUin8iMXzWYw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/bZKP6LxxLYfUin8iMXzWYw",
-            "title": "Cursor 3 发布：IDE 不重要了，智能体控制台上位，VS Code 这一套开始失效",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaicUEDTLx0uLj3mG4YQytMqc2Z8ZgcXtkMTg4C5CrNHm5dfUXHLpbXmLuLQlwPtcuibuFz3mr2dFZGzkOfiaMvkXdV0VpFUhALJ0/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-06T03:56:32.000Z"
         }
     ]
 }

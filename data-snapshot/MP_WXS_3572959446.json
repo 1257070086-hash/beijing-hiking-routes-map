@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "GBaPrVWMGpV7Z6bVuEXhSA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GBaPrVWMGpV7Z6bVuEXhSA",
+            "title": "详解 DeepSeek V4：Infra 巨鲸 “四连击”，百万上下文走进现实",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/J3iaQ6X4GdYVG1MdpLNiaa7uk6icCIic12rotJ5asA2qdx72Ricp5Sf2yw2ASmiag90iaqGYM7t3MZNpdwsKBO9VkDibZn8Eia29YPkxlSaGabQKqqYs/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-02T11:44:28.000Z"
+        },
+        {
+            "id": "Z-dvNxvVkOis4t9aj40U1g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Z-dvNxvVkOis4t9aj40U1g",
+            "title": "对话传祺 BU 总裁黄坚：改革要上下同欲，积小胜为大胜",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYWMibKnopibRqUp8eKtkQRua1oxC1XPplMMSftlOxibv9iaahHQVM5dpzI6hIibHmlWXzDOKuWwGM7vliakhG41cjyGQ5jZ3FG3xqsE4/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-01T02:25:49.000Z"
+        },
+        {
+            "id": "1xycXXUAlEkZBF4IC-i3aQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1xycXXUAlEkZBF4IC-i3aQ",
+            "title": "中国车企涌入南美，欧美同行的旧工厂是加速器",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYX2xGnggGfialyWyA5SxHQQYYiabUmvuNJHgvAib2axv04Ngg2tm21LgTiapdBsjnhDPu4ySPdeV2mQ8NMQyLluTvwSyfvOkoiaPJsg/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-01T02:25:49.000Z"
+        },
+        {
             "id": "dQE1CmZpGzy2dDd9Fl3Pjg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/dQE1CmZpGzy2dDd9Fl3Pjg",
@@ -784,30 +808,6 @@
             "title": "港股的非典型 IPO 大年丨晚点小数据",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5s3Zamickib0BZz6fraUkwhN2JwooGfaV6hnxiceKR3NicvWYlgS4EgmNibLfAHsibOe3cJW56EXKqJph3Q/0?wx_fmt=jpeg",
             "date_modified": "2026-02-04T16:21:24.000Z"
-        },
-        {
-            "id": "cjspCFQxCj91rhKcu6I7Mw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/cjspCFQxCj91rhKcu6I7Mw",
-            "title": "建完 1000 个站，宁德时代换电的账终于能算清了",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5ticRzdGlkmttnRG9cPiaY0alJKOibiaXJAGJULnc1OI4SE9JLJIgrqbxu4pjCpc4TlPNfSiaSmWSCqgKg/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-03T12:13:36.000Z"
-        },
-        {
-            "id": "UN7SP3V4hmP0Vye70PYH6w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/UN7SP3V4hmP0Vye70PYH6w",
-            "title": "晚点独家丨小鹏自动驾驶、智能座舱中心合并，新成立通用智能中心",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5ticRzdGlkmttnRG9cPiaY0alu131yLIOL1nMhLibSemO2t42fO4SxpHiaJdpC0DgdicmscuFVOCLq4myw/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-03T12:13:36.000Z"
-        },
-        {
-            "id": "BE8TL74jOmlpiUMdEEkcww",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/BE8TL74jOmlpiUMdEEkcww",
-            "title": "陈亦伦和李震宇创立的具身公司它石智航，不做 VLA、不仿真，不走主流路线",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5upNOlBfcBjgrYic94ghYIwDXTNUB3UtTENodQRv3RAtdOfrpgDknn6CljuR3OZoShh6xwG2QAFlrw/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-02T02:03:12.000Z"
         }
     ]
 }
