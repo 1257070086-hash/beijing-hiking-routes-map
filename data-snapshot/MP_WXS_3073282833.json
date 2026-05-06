@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "eLN0bUO-hGAxEwPFQ7zsjg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/eLN0bUO-hGAxEwPFQ7zsjg",
+            "title": "国产双开源：让Mac成为你的私人AI工作站",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGaXsuibOEUvytdxBk6KgK7EvwtCup4vnBPssyIibRUqicf6JzWCErforMuzrtXImpOq0S0icKLiaJCznvfdygS10hic2uOqnj0Yv1qc/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-06T04:07:13.000Z"
+        },
+        {
+            "id": "A7ATOoYGBWwf1dpV9GIevw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/A7ATOoYGBWwf1dpV9GIevw",
+            "title": "DeepSeek版Claude Code登顶热榜：8700星，鲸鱼哥火了",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqG8J8dNwHqtrmHspxSUdpBo8QUKiawzzYcrm1smVyrqibbenRpKzspzOJyk4EX4CUGBPqnaObOvddWZoZwIJiaibt2l0OnibjcibibBpo/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-06T04:07:13.000Z"
+        },
+        {
+            "id": "83eRAXNNKHdHS2BjY3iTuQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/83eRAXNNKHdHS2BjY3iTuQ",
+            "title": "阿里开源PromptEcho：用冻结多模态大模型为文生图训练提供高质量Reward",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGCMcCkrMaWkBUhaHYUKAj8nEFpoyUib6kouFos4rsvdXQoDDM4F086HnjgRg0cqPJd4ibcfm4eg2Iibo8QzqfKKGb6hM4XvqshMw/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-06T04:07:13.000Z"
+        },
+        {
             "id": "FcTzvVjn3OVNpLDDZk-ctA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/FcTzvVjn3OVNpLDDZk-ctA",
@@ -784,30 +808,6 @@
             "title": "超百万算力、72小时、近百台真机：具身智能的刷分时代，被一场「裸考」终结",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEP0RltxKULIicpWg37FYqzIicU0F9DZB4iacGdIQaLkmajWHLGrY5LXsrqL5ib18eibXfyM4NG2FVJLggknCH9dLdp09VBTwYAqIz4/0?wx_fmt=jpeg",
             "date_modified": "2026-04-01T05:02:26.000Z"
-        },
-        {
-            "id": "Etka-XqjE8_hC4Dy7ekJJA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Etka-XqjE8_hC4Dy7ekJJA",
-            "title": "去现场救火、去商超理货！杭州这场国际机器人大赛，5月亮相",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqEBLPBMwokBSPk7ZQwkaFZ4ktBV1eyBbgcibRrlYu2ZYr9ss6Fc4JAXkXYTwyzbJ8iaXFdbkibpcXsvrmmxA1mqIK42AW06zNXXQg/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-01T05:02:26.000Z"
-        },
-        {
-            "id": "kf2qaVq1U1CtDTNtD4tRvg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/kf2qaVq1U1CtDTNtD4tRvg",
-            "title": "比全球最强推理引擎还快2倍，斯坦福、普林斯顿破解大模型「串行魔咒」",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHJK184aa1VfpEKbiaQAaL6mwCnFnQaXDrNMuAkLqFwogzocicqnbpqOMKVibiaoibQpkJWmdYyyaeTOXYBU5KptaPBv5veq8XcSyCQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-01T05:02:26.000Z"
-        },
-        {
-            "id": "GW3HL1HqbXl0LVj8BR-vtA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/GW3HL1HqbXl0LVj8BR-vtA",
-            "title": "京东卷出新高度！硬刚「复杂指令」长时长、自由态数字人直播终于丝滑了",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFzYcuJ3BuRSCu8Tib3pyHsay4KtAFoBCaguU7RMEnzId3v3KWicvKoK8TibbUwpVWB6gicKUsl2kI7OGUz0yjNLrKtFYTSfQpJyB4/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-31T05:36:45.000Z"
         }
     ]
 }
