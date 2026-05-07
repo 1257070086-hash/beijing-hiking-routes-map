@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "ThvJjPZfK1fF9rJJIIXSrg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ThvJjPZfK1fF9rJJIIXSrg",
+            "title": "晚点独家丨月之暗面将完成 20 亿美元新融资，估值破 200 亿美元",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/J3iaQ6X4GdYWkZk1HqLPXzPLr0aDwtyLHLEmgKibPHTjzFuwfwwLX91lle1bycblXXibqlNy9Az58CrOlP0ZlnM0yhdXXDbfITgQ2gFxd7G4WM/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-06T08:34:47.000Z"
+        },
+        {
+            "id": "Rfjm-ZDN5W1Grm87vIi3ow",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Rfjm-ZDN5W1Grm87vIi3ow",
+            "title": "一家视觉模型公司决定不再 “低调”丨100 个 AI 创业者",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/J3iaQ6X4GdYXgpeYo5nmtZeZtT0wUKicbwvrUpL0mfnuIpyZ8vL1ggyicJE7qjHMF4oyyrk6AKxGfFsfUT1fc1gpN1F6qywoTp8GW75ATNnrGo/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-06T08:34:47.000Z"
+        },
+        {
             "id": "GBaPrVWMGpV7Z6bVuEXhSA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/GBaPrVWMGpV7Z6bVuEXhSA",
@@ -792,22 +808,6 @@
             "title": "规模、效率、灵活，百胜中国的 3 万店增长计划",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5vyrBzwNeLTquLDzAWSMwz3zxozl35J5dYh57QxYYyLrl67T6d5bVj8k6VGRD2nuU9S3Ef9zLAMRg/0?wx_fmt=jpeg",
             "date_modified": "2026-02-05T14:33:58.000Z"
-        },
-        {
-            "id": "wQEg4wSyyyHyAu2RXe6Itw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/wQEg4wSyyyHyAu2RXe6Itw",
-            "title": "为什么 ClawdBot 能带火 Mac mini？叶天奇聊 Agent 电脑丨100 个 AI 创业者",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5vyrBzwNeLTquLDzAWSMwz3m66VulaicteU39v3BG3m2Wh1XDFftz42iciaCR5DGZRVnbeCvt2ky5wBQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-05T14:33:58.000Z"
-        },
-        {
-            "id": "Zpa916wqEN6RV1bazs7AxQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Zpa916wqEN6RV1bazs7AxQ",
-            "title": "港股的非典型 IPO 大年丨晚点小数据",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/VWpZENjIo5s3Zamickib0BZz6fraUkwhN2JwooGfaV6hnxiceKR3NicvWYlgS4EgmNibLfAHsibOe3cJW56EXKqJph3Q/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-04T16:21:24.000Z"
         }
     ]
 }

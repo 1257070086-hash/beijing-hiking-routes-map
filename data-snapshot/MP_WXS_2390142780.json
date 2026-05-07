@@ -10,6 +10,70 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "snXnzEteCfIeMKgI6QYxxg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/snXnzEteCfIeMKgI6QYxxg",
+            "title": "马斯克22万张GPU救场后，Claude勉强恢复“三个月前体验”，Gary Marcus却警告：GPU将严重过剩，很快不值钱",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiaffFZebgr1cchs2foUzo1XKfOwR3ZZ7OfyhhYp5OyOwfdmicib1RQwfts5ppOicia39JPrG65Q3AJSgXgiaRQhU74vS9qfiaNbeOD5M/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T03:21:24.000Z"
+        },
+        {
+            "id": "3qVQD3xpQzphRO-gOfGLaQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/3qVQD3xpQzphRO-gOfGLaQ",
+            "title": "技术·艺术· 算术：京东零售 AIGC 百亿素材供给实践",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjqF1qHrWQt7bibSQnH0UicnUxX4VOeoE2JSOuKs1wNmYFkjsTfRw5AaDVXQibUicYkE8YH3XDgHFZhIDd9PALMI1waBh4dwdMbTicQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T03:21:24.000Z"
+        },
+        {
+            "id": "P-MnmnREgtiOq-DbHfDuVA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/P-MnmnREgtiOq-DbHfDuVA",
+            "title": "构建分层的 Agentic RAG 系统：具备自主纠错的多模态推理",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNjLQUeJSAU7pYulRIxbW9wtINlTQ4yhaEB1QWiaEdrxPjOFruicVL9iay17VecaxbTM11JKiae3kCicYENhETw8RBK462ZuMciao4aXs/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T03:21:24.000Z"
+        },
+        {
+            "id": "DlmANpWa7QLHodzjsYOeyA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/DlmANpWa7QLHodzjsYOeyA",
+            "title": "CNCF 警告：仅靠 Kubernetes 不足以保障 LLM 工作负载的安全性",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiaziaDhSu7JlqlRF7icOT7vbmrUGLT8N26LO7puK8hRvVLibLiblhcFswdnNp0DFCLTw10wGQskc69DfXdDbeb4DiaThJeKE8G5osfA/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T03:21:24.000Z"
+        },
+        {
+            "id": "8kNDE1UnIWyhA3NAUdL0zA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/8kNDE1UnIWyhA3NAUdL0zA",
+            "title": "Cursor 删库9秒毁了一家公司？资深开发者讲了大实话：把数据库交给AI的那一刻，公司就已经没了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgpNtc2PhCXlicR6H8aaLDKWZ3MKkJTpz4TBpCv0biaFeAiaGzytMeJ7Ue8cDZfHI8qoqobzgPnfiaHbVvHD7vvuHQVDefYR5d5ofU/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-06T06:31:45.000Z"
+        },
+        {
+            "id": "_cVUH5h33P8I3otqhlb5vw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_cVUH5h33P8I3otqhlb5vw",
+            "title": "如何破解内容安全“不可能三角”？快手王东旭：把组织从“固态”变成“液态”",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiafiaYrMMIliaRmb3NC6BcVFaib2jENFBS9ib3m6RpC32kLdfx3WDCbkdkuybshsadc68rqLzL1zB186WibWZnaQDfu0u5ibYX4Fbbvw/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-06T06:31:45.000Z"
+        },
+        {
+            "id": "a0RABLTpflY9fxb79InrEw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/a0RABLTpflY9fxb79InrEw",
+            "title": "Java 世界的 MCP：将架构策略应用于 LLM 集成",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiaE3jb5U0mDwxy6WTsr6MTicIo7wb8eUV2p71roWwaibibwo9GHMonYXvIgayPpVagHEMI77BezKpnGMWvaACvm0UGZ6Gic61JcW5Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-06T06:31:45.000Z"
+        },
+        {
+            "id": "8aOFRS9QSS9C6gSF1BWXUw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/8aOFRS9QSS9C6gSF1BWXUw",
+            "title": "Vercel 开源 Open Agents，支持后台运行 AI 编码工作流",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgibiaHzSvD3icibQweicEVgOK1w3rvXPmzrUzPwV8FR0iaDDZLl221WgkUgcicnbwSH6BS05xiawzgG9IZEen8SBpk0pq76rgWibbCUXib0/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-06T06:31:45.000Z"
+        },
+        {
             "id": "h4O4RolNQ0mcJCxs9lVjFQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/h4O4RolNQ0mcJCxs9lVjFQ",
@@ -744,70 +808,6 @@
             "title": "GitHub 如何用 AI 重构反馈处理机制",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNj8aYRBnHgm7iapVa57Nhjib7ynUjQicEm2ibv0A1icr2Wjq8DWsicOaeGMB8FVOg7DTZnn9CsbrBZ1gNyLDCCq7xmtiaoibh6INV0IKUE/0?wx_fmt=jpeg",
             "date_modified": "2026-04-10T06:11:43.000Z"
-        },
-        {
-            "id": "nvoL67QhBptlwP8sT2TENw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/nvoL67QhBptlwP8sT2TENw",
-            "title": "杀死“流水线”： ColaOS（ListenHub）如何构建 AI 时代的液态超级团队 | QCon",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNgzGupco0JkbsaxFnE4N55A2AiczzaEiaJY5v1W4w2v6cHYiaQeV6wiaR59bJtSYeOiacrRSDRyoz5OGV5ra7sS6455IuGkOkibSUOZA/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-10T06:11:43.000Z"
-        },
-        {
-            "id": "bxJJoBu37qUp_41ph2g7nw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/bxJJoBu37qUp_41ph2g7nw",
-            "title": "从业务场景到组织体系，“龙虾” 如何走进企业",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNgBqLR8hia2mfibzfq2eZwhQ5Hx5POn9eaabic2CEJJfrjRmVgLQRJ58kqbzOut7I53SpUMiazCnfNTJbeveKRgtFpqiaI5TC683TGE/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-09T09:10:15.000Z"
-        },
-        {
-            "id": "5QH__lMgeQekRs4FlftoQQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/5QH__lMgeQekRs4FlftoQQ",
-            "title": "端到端语音模型：从语音表征到模型架构",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjGicCoY3Htiaa37licEQWFaMpy4yYNy4Vic7AXzFEzDCcIBhqy5kRqBDVZ8sjmrEgcnBtEKT82Ss2HttRMqgm7gq7plqkWLO2ITuM/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-09T09:10:15.000Z"
-        },
-        {
-            "id": "25MIiD4JDbCX8LM4TvIplw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/25MIiD4JDbCX8LM4TvIplw",
-            "title": "Teleport 报告：AI 安全事件频出，背后往往是过度授权",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNj3ibeWnm7OVhyXqhtDv6PtOxqibHmsW8fPzoMAOicYMPffGfJ4Q0D1hZRYTPRgPPkygwFHzqu1zq0P3Ric62WVxbMnfs5Yqngn9Nw/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-09T09:10:15.000Z"
-        },
-        {
-            "id": "xgoBC99PVAzBP0tUDDTMnA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/xgoBC99PVAzBP0tUDDTMnA",
-            "title": "阿里云飞天企业版X平头哥“真武”芯片，推理性能跃迁13倍，底层逻辑是什么？| Q推荐",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiaCgicNgX4vZFYBJLWf8SG72YxRic0nhELEO6dEyUca6ic1WYhcbVM4EJhJo25Gq8g6SdM6JoNtgSx0cQ1WcKb1AkRjjQBQQhSHP0/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-09T09:10:15.000Z"
-        },
-        {
-            "id": "2k5Qnstf8Nf5ePjvOQMOvw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/2k5Qnstf8Nf5ePjvOQMOvw",
-            "title": "Spec 退场，skills 上位：Codex 团队的产品方法论变了",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNjVxicFDPGrWjUzgo00Eic74zWgSnnvK4xx2DB1BHCOTeNnaiabIsBZIOU5iacelLI2S4jVicwGEYx5eTd9SdlvsszWCslIurYgibShc/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-08T07:31:56.000Z"
-        },
-        {
-            "id": "JW81eEz-zAHLqQd0cu4Zig",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/JW81eEz-zAHLqQd0cu4Zig",
-            "title": "没有KPI，也能领先OpenAI？从“内部观察者”视角看顶级AI实验室如何运作",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/hLLZnAbUwNiarRE6eP1NGSeDh8NTibicmSts6FtX9ABpRFIjgiblhCHrp7YIhWoSQVibFEL8p7oqBvudAnymPasvaV0hRP0YXG1LMSDKPsibCOSww/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-08T07:31:56.000Z"
-        },
-        {
-            "id": "moxZsfvtBDKzvg34Ooc0AA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/moxZsfvtBDKzvg34Ooc0AA",
-            "title": "自动驾驶优化：从复杂性到实时工程",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/hLLZnAbUwNiaxOjhM8IRLsLman0KU6w8dyBmwHkN6EjmToOvicKQWrMG7N0Zn95iaMrGpJZFDvRwMib0NPnuBOIa9IasASK4fMMfh76lqc9wibnQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-08T07:31:56.000Z"
         }
     ]
 }
