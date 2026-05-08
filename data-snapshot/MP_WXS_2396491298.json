@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "CTY5mdgKh6TmPrO6xsKhWQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/CTY5mdgKh6TmPrO6xsKhWQ",
+            "title": "用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/V95GN2mm0DyhibaUcfvOWOsFLRL7Albzq8odyyRkdRnwOxJTy4naFajbCia3lBLQ7EsZEdr97IiaWmI76WOeqeCaL5kpCFw1gDiak1jnZW0v9y4/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T11:58:58.000Z"
+        },
+        {
+            "id": "9hTjyKCUX0eSeSWraMCVcw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9hTjyKCUX0eSeSWraMCVcw",
+            "title": "报名｜CVPR 2026 美团学术论文精选及分享会",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0DxDFuXx50DOCH62pldyhjdTxP7aHiaaAdtibnGHvbeq0L3UVULSiciaDTlObVGTgl5NtqVrFib5JP2P4ibl5InMnbNTicqWsgEaicdyHAE/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T11:58:58.000Z"
+        },
+        {
+            "id": "nB4Hmm5crgzo9seTdproFA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/nB4Hmm5crgzo9seTdproFA",
+            "title": "30万+元奖金池！美团校园 AI Hackathon 大赛等你来战",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0DxdtIeZXMeOlrdnQUsJQQ88iagb71QcODtwjgteAomLiam8H7y1tLf9tJOeXcOKdrxD12pucic8sFibExibX8rNvcaYS7atBQMb45UY/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T11:58:58.000Z"
+        },
+        {
             "id": "N27RtaXDwOZ4fAW2lt8WTQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/N27RtaXDwOZ4fAW2lt8WTQ",
@@ -784,30 +808,6 @@
             "title": "美团2026届北斗计划正式启动",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVX97s8P0719SFl8MGv8W2DAKD6DQanXk7257UgDdDcRzAEqHoyA772O4icN1Lv83k7pZtrT2JKJnA/0?wx_fmt=jpeg",
             "date_modified": "2025-05-22T11:58:52.000Z"
-        },
-        {
-            "id": "JiDOqD-ThU0Upp6xnNg3Nw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/JiDOqD-ThU0Upp6xnNg3Nw",
-            "title": "MTGR：美团外卖生成式推荐Scaling Law落地实践",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsV1EY8oI2wUztNnQCicz28Z47ePJVpsJfafks9DcTtlOsrHIkEibkvNKmJpE8jWJCnSL71LCRM9CWZg/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-15T11:58:50.000Z"
-        },
-        {
-            "id": "CgcaPwv0ntg5yww6Pxn0bA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/CgcaPwv0ntg5yww6Pxn0bA",
-            "title": "招聘 | 美团 AI 搜索：致力用 AI 技术创造极致的搜索和交互体验",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXIIqy7Vr5fknueADufrYNSjGyvENoZEFG6Jb9u6yvZwAo3wAfGLOus7kxJYzGuXe74ZKcMIkGOAQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-15T11:58:50.000Z"
-        },
-        {
-            "id": "m4PaS62oYACAmT4V7pfwlg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/m4PaS62oYACAmT4V7pfwlg",
-            "title": "美团无人机感知与避障技术成国际标准 “自研+应用”填补全球空白",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXMsNLia4ic6hfqwSCxWCibscNDcMoUV6IRk6rQ9mRSXHuT3RCvqdjvLfNqZUouC0cC9XK4ibAHkk9OPA/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-15T11:58:50.000Z"
         }
     ]
 }

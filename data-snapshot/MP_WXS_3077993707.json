@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "XyRKZQDf1ifhQmKLn_Xp1A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/XyRKZQDf1ifhQmKLn_Xp1A",
+            "title": "字节腾讯掀起实习生涨薪潮，这个世界疯了？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/84KicV7PqdKH6MQs4MwkqHHUG9OLJjj81YMWweu5rK1zVJyLaWqXxqJIQQr1EP9nPEguKS2Ah92S4dnReP4yzVn0ZwcCZzs1KvEztTIDibn0U/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-08T08:40:40.000Z"
+        },
+        {
             "id": "x44rbdE4ALV8-c-Qza_mgA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/x44rbdE4ALV8-c-Qza_mgA",
@@ -800,14 +808,6 @@
             "title": "美团到综事业部，组织升级",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/WScw4v7JH3EtS4u1iaGWWwsY88fIzlafC1Phb2f2wC3aupMSnf1U9biaLRrJbBvr8scH2tQzhiaQJIsvE7VcwKDMw/0?wx_fmt=jpeg",
             "date_modified": "2025-03-10T04:43:37.000Z"
-        },
-        {
-            "id": "D0fAgjmPPYFqLACf-wxh1Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/D0fAgjmPPYFqLACf-wxh1Q",
-            "title": "2000万刀，一位00后腾讯员工暴富了！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/WScw4v7JH3G3CcSzRUXxzmXVMpNib3BRPaiaTibDic0I8dn4ILbcHMO54icqT8ibTQWkz8s5oNxpgnTkHnBiaaF7BicDfQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-03-09T12:26:51.000Z"
         }
     ]
 }

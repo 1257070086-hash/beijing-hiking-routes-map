@@ -10,6 +10,70 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "G2O42ck4vej97Qg1osAKLg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/G2O42ck4vej97Qg1osAKLg",
+            "title": "所有实验室都怕字节，所有人都在夸DeepSeek！美国研究员36小时中国AI行",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGEiadkkEdRIukothT1M5fKdj9353hqwQp3dSftRchYeUrbmqTLek5QWLJm0EEf4I3FZcmKUqibZiaibjLib2uQz1j0iaTbRBQymGbWTY/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-08T04:05:39.000Z"
+        },
+        {
+            "id": "I5dRqYWogmgROkOusRtzTA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/I5dRqYWogmgROkOusRtzTA",
+            "title": "GPT-5级推理能力塞进语音模型，OpenAI把同传翻译成本砍穿地板价",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGXTgzxpTq90HBUYwk5ykKEUmBVBlicUXdm50iayC8IibB9NMiaKW4Dhmde4yjfkc9w9TKMibVSVYPbx5XgTsqeIYeYr0YV7Ck3Lr20/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-08T04:05:39.000Z"
+        },
+        {
+            "id": "ps77RurdZ427OsQW4UuDVw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ps77RurdZ427OsQW4UuDVw",
+            "title": "提速4.48倍！哈工大华为新框架让扩散大模型精度无损、推理起飞",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFEdcwGuHficEAI9hh7CXibt3WN7vMk7GEj6GdRsp0ACoL6WaQBoDianzzNiaPhOYxhAS2pDIQsR6OAtibumsMjiaaVfwnZhn5JicabH0/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-08T04:05:39.000Z"
+        },
+        {
+            "id": "rml6ASCy_76SiOV3MJtw8Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/rml6ASCy_76SiOV3MJtw8Q",
+            "title": "量子位编辑作者招聘",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-08T04:05:39.000Z"
+        },
+        {
+            "id": "IUNQqdi2x3CeoVU_biembA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/IUNQqdi2x3CeoVU_biembA",
+            "title": "离谱！一句话+百元预算，这只龙虾就给我搓出了一支百万级广告片？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGExCAb6yA0DIAzRz1XZ2gmSHBBgwM5kicXiaH4HKRaIIrupzmvwTzgXPVPgejlnvSIqibMafHn90T9XLdlNM7KXcxNaoDiajcjVQDs/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T13:36:20.000Z"
+        },
+        {
+            "id": "fBuNUAyNV99OIPZqZlM9Kw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fBuNUAyNV99OIPZqZlM9Kw",
+            "title": "原生Agent杀入画布！一站式搞定专业创作，全程可控、不抽卡",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGEsYBLjkBKOlB0ubXyxII3sGgaM9uW2mlKRrz5icvicgBKylZmthcOgcwGh5gorsISD1nsh8SKJSeV3ibGvBfwl75OQZq0FaUu9wU/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T13:36:20.000Z"
+        },
+        {
+            "id": "uvLpXd_A2IUVAe7ynWwVYA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/uvLpXd_A2IUVAe7ynWwVYA",
+            "title": "只看图片就能学会压缩Token！浙大&阿里新框架多轮VQA压缩率90%，精度不掉｜CVPR 2026",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGGfKB9hoal69QmAuiaUlVuOYsXQl2smdqv21DjF3OIMAAIKfaN80GticePNf5SBz91uVzlMXbfJeQE1Xq0FPyCuD27X3Cz10f9Jw/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T13:36:20.000Z"
+        },
+        {
+            "id": "PHBntzmwGh85TWFu1HrDiw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/PHBntzmwGh85TWFu1HrDiw",
+            "title": "量子位编辑作者招聘",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T13:36:20.000Z"
+        },
+        {
             "id": "2pp13Vhg6amldsGe-_N7Tg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/2pp13Vhg6amldsGe-_N7Tg",
@@ -744,70 +808,6 @@
             "title": "量子位编辑作者招聘",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
             "date_modified": "2026-04-14T03:45:49.000Z"
-        },
-        {
-            "id": "BtI_ceZp-oG5YNS17dwuug",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/BtI_ceZp-oG5YNS17dwuug",
-            "title": "马斯克版微信亮相：支持中文，加密聊天，还专门防截屏",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGFU1hwibf3B0OjXiaNIpJz2IH0dvxticW57SiaDJOwiaJmQxRVZGbqdqvWMGFrq0RVCvf4vZFdUEZTelvycu5c06I0SNyh6f5YOQWXs/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-13T14:33:54.000Z"
-        },
-        {
-            "id": "16uZcg5adOEB5EYtbdL-mw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/16uZcg5adOEB5EYtbdL-mw",
-            "title": "@所有人，2026真的需要自己上手用AI了丨年度AI盛会",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGEY3eL3TuibHuRqLWEq1Q7ltBFCeEo5XKDPVMHlw1VYkGcEJa9flIs9ibwNTNIqBUG2ias06klv6lnqNcH4ROe6QTZQxNnKhsTt4I/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-13T14:33:54.000Z"
-        },
-        {
-            "id": "m1P0KXuGzgrS-D0K7Z1Bug",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/m1P0KXuGzgrS-D0K7Z1Bug",
-            "title": "超越人手！中国第一家脑机接口独角兽，要把仿生手带给机器人",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGGAZdTrLjEMibWQbDJGYHIicnqz87gAyUDicgJmmFtCXZJUbFEvPqDBptbyBCBns0s3nXVmOFgpmcqYJ1lSNFUBtV7PpjFavqF9wk/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-12T01:59:54.000Z"
-        },
-        {
-            "id": "xwEQgb60ayLR7T42Je3SiQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/xwEQgb60ayLR7T42Je3SiQ",
-            "title": "Claude复活30年前传奇游戏，仅用一个周末",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/A6fTew8FFGH5UKzgUOl9OeibEQNpwE7UwDy0aibpv26ueW5pXd26AEeiaTrA2wbElc5nRGANOkoGpGF9MHbRn1Y9jxO1zAl2T1IzUP5tDX74Io/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-12T01:59:54.000Z"
-        },
-        {
-            "id": "IHKYn-mpoLyT6R00Jy6YxQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/IHKYn-mpoLyT6R00Jy6YxQ",
-            "title": "36.4万超声图文对！中国团队构建首个大规模超声专属数据集，让AI真正读懂临床诊断语义丨CVPR'26",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGFLQdTGNUlc9ibQ8DRf2rfusII6bm8UcxnJtfC9MsEF6jwotMp9NLjL0P0RicjSXiatMvPRbW2nu0Akm3RTuECf5wx203hmbjooics/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-12T01:59:54.000Z"
-        },
-        {
-            "id": "50eVbAqnXN6w4QAht_f2eA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/50eVbAqnXN6w4QAht_f2eA",
-            "title": "一年一度最值得关注的AI榜单来啦！申报即日启动",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGHYMUW63xpzzsk1VDnHZVpVm4XibxJWu1r3cx8GzphyvwsEsUuicm1OKicXhy6zNu0QlxLtAWibibrQAXVTYhibBujCmC5ibQO8HFGdRQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-12T01:59:54.000Z"
-        },
-        {
-            "id": "MN-JXCjME-tXfHUznJyYHg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/MN-JXCjME-tXfHUznJyYHg",
-            "title": "量子位编辑作者招聘",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/YicUhk5aAGtBwsQQg50rdDIFHPibz5pbVfnv0oOoRSQ2KmEYBSJRibeXrJnIU1euj0icCf6pXdduQdCbnRJy3b7u7Q/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-12T01:59:54.000Z"
-        },
-        {
-            "id": "Dfj0Z1JiMoTjzSCBassL2Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Dfj0Z1JiMoTjzSCBassL2Q",
-            "title": "中国具身模型狂揽全球第一！机器人的人类数据时代来了",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/A6fTew8FFGH4Bnia7Bm2QbOiau0VM25PHcOkvGHlEfFoT6CGUK8dn2iaKltwiacaHicOHjaBnF8OaiaI3SluLtX45u3fzbvD2mtfTNGvj7D9bV0p4/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-11T01:05:04.000Z"
         }
     ]
 }
