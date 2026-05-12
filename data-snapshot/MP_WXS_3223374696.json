@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "KRwUZC1LC79gIj7GV4LkKA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KRwUZC1LC79gIj7GV4LkKA",
+            "title": "今日大厂员工事：鹅厂迎来实习生大涨薪；快手电商换帅；百度外包盘点；shein普调起飞；小红书启动内部AI调研；美团搜索组织架构调整",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/MABFN5xh55yPptnsZQ9mJKM3MiatxcK7cmybGOuR2n4d3BCVuutwPKwnFnPGUO5zt5hlaRaHOozkh8BloyxnaZz0L3FTR2okiasXLTl3ocIN4/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-08T05:00:59.000Z"
+        },
+        {
             "id": "6-NzIGV0i5P_uPa22IPjxA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/6-NzIGV0i5P_uPa22IPjxA",
@@ -799,14 +807,6 @@
             "url": "https://mp.weixin.qq.com/s/PC6JLEKZ-Y7k3MV4xeZHnQ",
             "title": "某厂P6程序员润日本，获得永居身份经验分享",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lBic4o1GOV9egvq0ryiams9pe41ENMFG6cpWZb1UbuDShCvOJrhlLP3MB1N3HwZd4icSImC1tEO50VbQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-03-11T07:24:08.000Z"
-        },
-        {
-            "id": "rNSICtx7OdezTEGXbbzVWA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/rNSICtx7OdezTEGXbbzVWA",
-            "title": "离开互联网大厂后，你过得好吗",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lCZdfBwxicsv4KyvufaFzjgC1oBJ6pjoqDibmWd2lNLsPFJgWWtuMnZhsGbNiapPY8e23ibwIeBcL5niaA/0?wx_fmt=jpeg",
             "date_modified": "2025-03-11T07:24:08.000Z"
         }
     ]

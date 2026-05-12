@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "JV4-oPP0jjsBCZ4tW3Gy1g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JV4-oPP0jjsBCZ4tW3Gy1g",
+            "title": "Harness不是目的，知识才是护城河 —— 一个AI工程交付团队的知识沉淀实践",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz907qYXA7DSJAF0P66wZBibP539hjJ3uEnmoAlrBYhD3UERy4fQUtfHGogibHicuupibSz5Ru01RQToJQ83vTupRicbHKBmCee5cfV4AI/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-11T09:37:14.000Z"
+        },
+        {
+            "id": "1hAg9mNr1g6MKx0Om8osQg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1hAg9mNr1g6MKx0Om8osQg",
+            "title": "鹅厂员工觉得好的code模型应该具备什么能力？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz906m5SJwWtOgkibVNax7jGia0uh530ZQ4sHFczRntRzgicffrI9r8uJ4oVuFzPAAIoEeQpqXt8OGx35ia3UGUlRUpZZvNd3pdQqMBd0/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-09T11:22:28.000Z"
+        },
+        {
+            "id": "r__2l_u6oXwzWHyD3wu_ZQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/r__2l_u6oXwzWHyD3wu_ZQ",
+            "title": "十年老技术开发的 AI Agent 探索之路",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz906bkzDkKt0JmcTF0uNUxxccrGsn3a4EIQspkIxXzHZBdv2Xj8KKapLdjOuccWqL4kGCsmjgyx45aRrybBTelDBudd686d1gb6s/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-07T09:34:54.000Z"
+        },
+        {
             "id": "0tOs8D31gMUc6C6pSFctNg",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/0tOs8D31gMUc6C6pSFctNg",
@@ -782,30 +806,6 @@
             "title": "万字长文详解腾讯优图RAG技术的架构设计与创新实践",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvaucGt6F7rr5iaIgyuW9e2ymDvtAcnzn3QhQG9HL3hicAMGlicnmswjFPyaCa312mXAu5cIdjjTJu2iacw/0?wx_fmt=jpeg",
             "date_modified": "2025-09-08T09:36:59.000Z"
-        },
-        {
-            "id": "JYoy-1Azm4cqnHX5GUdUoQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/JYoy-1Azm4cqnHX5GUdUoQ",
-            "title": "揭秘腾讯内部科研组织ARC Lab：找最好的人才，做最难的事情",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvasqU4de1Q78O4AiaOOH62XIXhyWGaZlDZA0Ij6dJyiciarV1Qduoq38NL9bJen4AVEFWnJ44PaNsJopg/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-06T09:36:27.000Z"
-        },
-        {
-            "id": "_YZ0boYSVng0hHKnS79jCQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/_YZ0boYSVng0hHKnS79jCQ",
-            "title": "你的AI“体检”了吗？开源AI红队测试平台，一键自查三大风险",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvatDicpThbicxqLYSHEXReeFO5iayQPia4xCth3qPhDVnah622NjDlDU8ksRbtX139lDFicl8iaiccYNYFbDQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-04T09:28:52.000Z"
-        },
-        {
-            "id": "PaxMnnfpfEKAQUhYdNJLuw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/PaxMnnfpfEKAQUhYdNJLuw",
-            "title": "Golang后台服务性能优化，实用Tips梳理大全",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavAAUeqbAicKOicDhWSv173wsiadtQNwq0lg8LfNKjxn4kiaiaVUCtPwrzLbzYTtFRL4RGuShXsB9qH8eQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-01T09:36:01.000Z"
         }
     ]
 }

@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "LnqMt-jEj1HtfXOdPPMNOA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/LnqMt-jEj1HtfXOdPPMNOA",
+            "title": "听说美团人都在上班养虾？AI搭子上岗实录",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/dguibS1kreNa7tSWc6EichTHZnjJSnOUkO46nlKxMbNNg9ehjibz8ibxjUClzkfWMrGyo45If8PIY2IkYkMqR3CbufbiauD9IdKdzf1zXJW5ko3M/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-08T09:08:36.000Z"
+        },
+        {
             "id": "JwKI9N94eFltKknYnJA82g",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/JwKI9N94eFltKknYnJA82g",
@@ -799,14 +807,6 @@
             "url": "https://mp.weixin.qq.com/s/wyIojrdKRtBD_2_Kzqahxw",
             "title": "模拟面试 | 秋招面试第一场，我们直播给你看！",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/tOEDsPaAH9XNunbKsaFho0XTOELDqGgJGJmEpfOzQsc6TFU2O2yKQiaLqtVzbqr1yrlb9Mbx52MVWOQibeHvsXlw/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-13T09:03:41.000Z"
-        },
-        {
-            "id": "hkR0ZMykgB1m47n11cctNw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/hkR0ZMykgB1m47n11cctNw",
-            "title": "校招｜Keeta 2026届校园招聘Q&A",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/tOEDsPaAH9XNunbKsaFho0XTOELDqGgJiaT9y2UF7DRLAwTwZFkHO0Lqb6f32g5tKNEaicwuZyicooOXD4fd2JaIg/0?wx_fmt=jpeg",
             "date_modified": "2025-08-13T09:03:41.000Z"
         }
     ]

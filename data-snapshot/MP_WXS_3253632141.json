@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "3MpOJVIkA8r9dKyCH1XxWQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/3MpOJVIkA8r9dKyCH1XxWQ",
+            "title": "IGA Pages × TRAE ：TRAE 如何快速实现一键部署",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FeeGlLuuHs95kUxjic03uAsibbBD5pDuyyIpU3sp9dW3QcStU7dpmAic3icTBCj0QkwEbG4TEvgKXyajiawPiaOvj0pUYnqSnE5GEazcg/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-11T10:03:33.000Z"
+        },
+        {
             "id": "LyfGYi2_KxYXldG3gC-NVw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/LyfGYi2_KxYXldG3gC-NVw",
@@ -800,14 +808,6 @@
             "title": "基于 DiT 大模型与字体级分割的视频字幕无痕擦除方案，助力短剧出海",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiasLDg3rOiagEhJMGemaqw3zzvwTQlibg4icVbMWibo64VK0AS0yIicTemSMzTZzkTTBuQLwkic9CYBgKww/0?wx_fmt=jpeg",
             "date_modified": "2025-08-11T10:03:14.000Z"
-        },
-        {
-            "id": "wKJwbNESHeX67UYR8bqOkg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/wKJwbNESHeX67UYR8bqOkg",
-            "title": "当AI智能体学会“欺骗”，我们如何自保？来自火山的MCP安全答卷",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOgOl49cTjJ3fm4UT8OlzI9dq8o6nKahMMaiahszV5nSHx36chSY5cV6L2kBiaofzC5YtBeH28iccueKw/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-06T10:03:19.000Z"
         }
     ]
 }
