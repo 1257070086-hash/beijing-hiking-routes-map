@@ -651,8 +651,30 @@ async function init() {
   }
 }
 
+// 写入单条摘要记录（内部辅助）
+function writeSummaryToArchive(generatedAt, summaries) {
+  const dateKey = generatedAt ? generatedAt.slice(0,10) : new Date().toISOString().slice(0,10);
+  Object.entries(summaries).forEach(([company, txt]) => {
+    if (!txt || txt === '暂无文章数据') return;
+    const companyArticles = allArticles.filter(a => a.company === company);
+    saveAiRecord(company, txt, dateKey, companyArticles, true);
+  });
+}
+
 // 加载 data-snapshot/ai-summary.json 写入 archive（AI 资讯摘要 Tab 展示）
 async function loadSnapshotAiSummary() {
+  // 先加载历史补录日报（ai-summary-history.json）
+  try {
+    const histR = await fetch(`${SNAPSHOT_BASE}/ai-summary-history.json`);
+    if (histR.ok) {
+      const histList = await histR.json(); // 格式：[{generatedAt, summaries}, ...]
+      for (const item of histList) {
+        if (item && item.summaries) writeSummaryToArchive(item.generatedAt, item.summaries);
+      }
+    }
+  } catch(e) { /* 无历史文件时忽略 */ }
+
+  // 再加载今日摘要（ai-summary.json）
   try {
     const r = await fetch(`${SNAPSHOT_BASE}/ai-summary.json`);
     if (!r.ok) return;
@@ -660,15 +682,9 @@ async function loadSnapshotAiSummary() {
     const { generatedAt, summaries } = data;
     if (!summaries) return;
 
-    const dateKey = generatedAt ? generatedAt.slice(0,10) : new Date().toISOString().slice(0,10);
-
     // 始终覆盖写入：用最新快照替换当天同公司旧记录
     // 同时传入对应公司的真实文章列表，供引用标注使用
-    Object.entries(summaries).forEach(([company, txt]) => {
-      if (!txt || txt === '暂无文章数据') return;
-      const companyArticles = allArticles.filter(a => a.company === company);
-      saveAiRecord(company, txt, dateKey, companyArticles, true);
-    });
+    writeSummaryToArchive(generatedAt, summaries);
 
     // 若当前在 archive 视图则立即刷新
     if (curView === 'archive') renderArchive();
@@ -753,7 +769,7 @@ async function fetchArticles() {
   const dataBase = usingSnapshot ? SNAPSHOT_BASE : WEWE_BASE + '/feeds';
   const results = await Promise.all(sources.map(async src => {
     try {
-      const url = `${dataBase}/${src.id}.json`;
+      const url = usingSnapshot ? `${dataBase}/${src.id}.json` : `${dataBase}/${src.id}.json?limit=100`;
       const r = await fetch(url);
       const d = await r.json();
       const items = (d.items||[]).map(item => ({

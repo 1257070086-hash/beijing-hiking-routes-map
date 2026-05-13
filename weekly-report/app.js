@@ -15,7 +15,8 @@
 
   // ── 左侧目录渲染 ──────────────────────────────────────
   const REPORTS = [
-    { week: '2026 W18', range: '4.28 — 5.5', file: 'index.html', active: true },
+    { week: '2026 W19', range: '5.6 — 5.12', file: 'index.html', active: true },
+    { week: '2026 W18', range: '4.28 — 5.5', file: 'report-W18.html', active: false },
     { week: '2026 W17', range: '4.21 — 4.27', file: 'report-W17.html', active: false },
     { week: '2026 W16', range: '4.14 — 4.19', file: 'report-W16.html', active: false },
   ];
