@@ -10,6 +10,14 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "bD10zbBeTtzMyEKqjIdT1w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bD10zbBeTtzMyEKqjIdT1w",
+            "title": "当我把 AI 变成一个\"算法\"：Skill 工程化设计的心路历程",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz907icGqAdbI5DqE8TBbibxdXkYVNhgun7emOOiaWOTD3ATY8I2Q7bsn2K9mjJH8Mrdoe1N33qORhwxw7yfL363pmVny9wRibGicqHzto/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-13T09:24:47.000Z"
+        },
+        {
             "id": "JV4-oPP0jjsBCZ4tW3Gy1g",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/JV4-oPP0jjsBCZ4tW3Gy1g",
@@ -798,14 +806,6 @@
             "url": "https://mp.weixin.qq.com/s/bfeIcMbCXHSO32JHg05Sxg",
             "title": "鹅厂11年：一份写给高敏感的生存指北",
             "date_modified": "2025-09-10T14:59:14.000Z"
-        },
-        {
-            "id": "H2E1pVOMdZJyCE1zk5Z07w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/H2E1pVOMdZJyCE1zk5Z07w",
-            "title": "万字长文详解腾讯优图RAG技术的架构设计与创新实践",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvaucGt6F7rr5iaIgyuW9e2ymDvtAcnzn3QhQG9HL3hicAMGlicnmswjFPyaCa312mXAu5cIdjjTJu2iacw/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-08T09:36:59.000Z"
         }
     ]
 }

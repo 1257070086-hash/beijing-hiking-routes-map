@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "cyamfuP6J2db3r50EN3QJQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/cyamfuP6J2db3r50EN3QJQ",
+            "title": "重构大模型通信架构：火山引擎 RocketMQ For AI 解决方案",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/FGB4hYw9FeduDCyicoXldXUf9E3IGbvic8eXD9o01HUOpRQJQiaOfSd6JV7wfohvOaZw3MzJGKB0cKYQo36x8eia9wLNZIpFibetIeI5KpzYTwCs/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-14T03:02:45.000Z"
+        },
+        {
+            "id": "sK9zCXWEDGrb_UaMfD004g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/sK9zCXWEDGrb_UaMfD004g",
+            "title": "业务团队也能“手搓”应用？火山 Supabase 助力猿辅导对话式 Agent 落地",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FGB4hYw9FefUn36ATtewrM3WJicsfU4aSCO9Jmy9a0LBg5nL2otvbOeOc15bKkFibPIxfDDZiaJ8MMiaiazhXiakyGEN3O5vGBdRvFwdyhqmJR7Bw/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-13T03:02:49.000Z"
+        },
+        {
             "id": "3MpOJVIkA8r9dKyCH1XxWQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/3MpOJVIkA8r9dKyCH1XxWQ",
@@ -792,22 +808,6 @@
             "title": "智能体防御 | 一文了解3种系统提示词加固方法",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOjLOtKibcDflA3gn08GbKukRsBXEXeFvKWpIO2icm0r5WibhqkJ1Rnhicoiamqdxk7SW974am54Rh5yhwA/0?wx_fmt=jpeg",
             "date_modified": "2025-08-15T10:10:26.000Z"
-        },
-        {
-            "id": "JZgLqyGyKgTkArINB0dijw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/JZgLqyGyKgTkArINB0dijw",
-            "title": "PartCrafter：首个结构化3D多部件生成模型",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOh8iaeQJvSrXe19p6MBfXgde7HWfB4dBgzMvbCO9JZ7Qxso26WbrHMib6E7iaicSqYZKe6uYK7iajsfyvw/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-13T09:08:45.000Z"
-        },
-        {
-            "id": "Ksl_lF8KNwM0vRtsjzWaBA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Ksl_lF8KNwM0vRtsjzWaBA",
-            "title": "基于 DiT 大模型与字体级分割的视频字幕无痕擦除方案，助力短剧出海",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5EcwYhllQOiasLDg3rOiagEhJMGemaqw3zzvwTQlibg4icVbMWibo64VK0AS0yIicTemSMzTZzkTTBuQLwkic9CYBgKww/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-11T10:03:14.000Z"
         }
     ]
 }

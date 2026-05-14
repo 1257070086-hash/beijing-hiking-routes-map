@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "BuQUwQ4zCiIpcX6m8oDbAA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BuQUwQ4zCiIpcX6m8oDbAA",
+            "title": "31万行代码重构：用评测管好AI Coding",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/dguibS1kreNbP5bFUuzk4boLSP6LQc1JBUjZsqWd3Sk8FmSH4Yb4nqPYKfaKcaB0icaypnu1SYForu9CE80lshp7ia5HKowibicSktrIqsHZR2sU/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-13T09:07:20.000Z"
+        },
+        {
+            "id": "ZKtNnkJ7WyeYHYlYNx9FLQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ZKtNnkJ7WyeYHYlYNx9FLQ",
+            "title": "报名｜CVPR 2026 美团学术论文精选及分享会",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/dguibS1kreNaXkyadwtwfYqib747ia1riaRog6icMzt1c3dFZYsibnaT0U8lY5BpbYmwQyHQDBx59uR45kII32oXmYsmeiaz0K2crllQkPwXGdibATs/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-13T09:07:20.000Z"
+        },
+        {
             "id": "LnqMt-jEj1HtfXOdPPMNOA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/LnqMt-jEj1HtfXOdPPMNOA",
@@ -792,22 +808,6 @@
             "title": "直播预告｜美团校招生对话AI产品大咖，AI时代如何择业？",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/tOEDsPaAH9WzQezVAAic0nFufMJgWImBtLwrWP2LicBDkbBP1Nica3guMTvjlSo1VPxHJvUC8eg0og3DggMTUkKYQ/0?wx_fmt=jpeg",
             "date_modified": "2025-08-20T09:06:17.000Z"
-        },
-        {
-            "id": "s5CXUYfOwS3H8sebEEBe2w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/s5CXUYfOwS3H8sebEEBe2w",
-            "title": "NoCode AI 赛事双站热启！清华站 和 深圳大学城站作品征集活动火热进行中，万元奖金 + 实习机会等你来！",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/tOEDsPaAH9WzQezVAAic0nFufMJgWImBtCG5BLPiasJazmGyVkkjTeYZGnnOasY8FfvpUsgibzCxT4GUumGFYfeJQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-20T09:06:17.000Z"
-        },
-        {
-            "id": "wyIojrdKRtBD_2_Kzqahxw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/wyIojrdKRtBD_2_Kzqahxw",
-            "title": "模拟面试 | 秋招面试第一场，我们直播给你看！",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/tOEDsPaAH9XNunbKsaFho0XTOELDqGgJGJmEpfOzQsc6TFU2O2yKQiaLqtVzbqr1yrlb9Mbx52MVWOQibeHvsXlw/0?wx_fmt=jpeg",
-            "date_modified": "2025-08-13T09:03:41.000Z"
         }
     ]
 }

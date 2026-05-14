@@ -10,6 +10,62 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "qqUgDyARxuy9yyj93WdWJg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qqUgDyARxuy9yyj93WdWJg",
+            "title": "鹅厂日常Plog｜衣食住行全记录",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FbEvrnZpXgwSWYyaGbMicpOfQs8nqWGiaSdoHFVDHBcicMV991mQd5pTfwvrsIYDLVubAuGJ5ImZMKdVO0iaOYdBJmoA7AibKbywpR8/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-14T10:39:47.000Z"
+        },
+        {
+            "id": "gDo11n92yHx7PTHlM-DPdQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/gDo11n92yHx7PTHlM-DPdQ",
+            "title": "2026星火挑战周课题重磅发布！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kqA90yjYex4f6pHIMoU8m3oY6zhlpIvCHCorW82sOz5zr3DroctHLXUzibOQ8hIAyu2EickbMK59sXia2FdfuaMsFiaYY2UmcCQR5krCTgQmEkE/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-14T10:39:47.000Z"
+        },
+        {
+            "id": "kbJ-K8wyHgcr-lvwisFM4Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kbJ-K8wyHgcr-lvwisFM4Q",
+            "title": "「腾讯校园招聘 Skill」上线：岗位匹配、简历修改、模拟面试",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FYGOCy00oDCLsx4ejvSX1WZPSB7AXwVPocicMZYBPCPbiaP3iarVf1SgvXAnDsC73ec1Q2PITLuTSS6z8X8eGQicfibicXom3OCNQlck/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-13T09:18:52.000Z"
+        },
+        {
+            "id": "BDvMS6hd-qCGENGe5zdTAA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BDvMS6hd-qCGENGe5zdTAA",
+            "title": "AI时代，腾讯游戏引擎开发岗有哪些技术探索？",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FYaibQv1k1sdk0grhB4uonibz4IELJvudKwtr4Jt7XvjVYxu05hVFk9LA5kZQ4BOBZg3o0uZfd5LXA3ib6xdAtibjgb6lMqvFEDohM/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-13T09:18:52.000Z"
+        },
+        {
+            "id": "rZBbPNIKFjQ3J3Cm0_kSzg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/rZBbPNIKFjQ3J3Cm0_kSzg",
+            "title": "2026腾讯广告算法大赛赛事辅导营报名启动！",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FZNibTspILOX8uKcxn9kMLSdWhMLgiclTN6C42VSianbr9HR6AbNG2L6BH9dsqH3za8fo44rQPicF9baXlLWCicZwJibbtH43SxtGsGY/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-13T09:18:52.000Z"
+        },
+        {
+            "id": "fCcVl2ljaI3WZN-dVNCEOQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fCcVl2ljaI3WZN-dVNCEOQ",
+            "title": "腾讯青云招聘速报｜语音领域热招中（附沙龙报名链接）",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/50opAau08FaHjEkw6SrD7vaSWPdBb5gcas6An41b0yNsZzflVyAct9szETqNXvMq9dbm3pBSkeYIDStvmFxrMOYtib38CLLjicOeIhr0iaAlYs/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-11T11:03:52.000Z"
+        },
+        {
+            "id": "YRU2S2uOaHHJ3L9YEwISGQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/YRU2S2uOaHHJ3L9YEwISGQ",
+            "title": "新一代统一推荐架构TokenFormer来了，广告技术团队多岗位等你投递！",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08Fa6rOhIrZyBrlQwKLyKTTozUWIGk45WVvAicohZs8cyFLK6fmemXJcDDiaiaresqicho5icjezHI9jxYHedOzfLrJMwktPg7Pticco5A/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-11T11:03:52.000Z"
+        },
+        {
             "id": "c859ceJi65Aesyg6w2sCFw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/c859ceJi65Aesyg6w2sCFw",
@@ -752,62 +808,6 @@
             "title": "腾讯混元青云计划实习生，全年招募！",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMgvOO7nqmFH4JF9priaT1iadJl0JnpF6NLiaYVHpiaIBjYibbYeS3M1dE8es26gmNSZ2qEDAXBSbwNasYg/0?wx_fmt=jpeg",
             "date_modified": "2025-12-24T11:51:37.000Z"
-        },
-        {
-            "id": "enhJoO0WUotURabJlJbgiA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/enhJoO0WUotURabJlJbgiA",
-            "title": "社招｜欢迎来到王者荣耀·UGC项目",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMgvOO7nqmFH4JF9priaT1iadJR0Y3MjYuiax8NqBU6Sv2qWKLJw1F0XXnjTULHmXAO91Hr26AqrdDBpw/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-24T11:51:37.000Z"
-        },
-        {
-            "id": "ywjHEjpUZ_ZkXr6dwyORxw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ywjHEjpUZ_ZkXr6dwyORxw",
-            "title": "腾讯2025未来产品经理创造营，第二期报名启动！",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMhy9cgbe3AibZprqaWEhwnJM93klGd6XoCgNia4K3URUVlO7ibWT2yI4c9vDGlSNlm6kIvb7NialDOhSA/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-23T09:52:07.000Z"
-        },
-        {
-            "id": "IpHCNYX4YTOjaSh1OoweYA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/IpHCNYX4YTOjaSh1OoweYA",
-            "title": "腾讯游戏与中国美术学院达成深度合作，助力游戏美术人才培育",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMhy9cgbe3AibZprqaWEhwnJMgJbZyiaNiaLjcpSxaF0BCGd78bkDkPxJaRaZlicuq5uK4jicj1Ty4zNibyQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-23T09:52:07.000Z"
-        },
-        {
-            "id": "uqc1_9O2_7UMunngZm5GZA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/uqc1_9O2_7UMunngZm5GZA",
-            "title": "腾讯游戏「引擎技术远程课题实践」招募启动！",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMgmScgHM73kdDLyxsATnnlicC343gzz9juyn50iaBWIoUHgo7gX8trtA6hnLMMmiaJxvYjumcuM3ICpQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-18T09:49:43.000Z"
-        },
-        {
-            "id": "h9bKRWrP7K68E9A4JuU8og",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/h9bKRWrP7K68E9A4JuU8og",
-            "title": "腾讯海外校招高频答疑🤩留学生求职必看",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMjWQE2jMDJnsDYS2JRL7p91YbheOian5OFtGt0Hj1z6xqk0AfXgtF5lV5oFtE3Lrn1fE895Gctia3Bg/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-18T09:49:43.000Z"
-        },
-        {
-            "id": "qcypKcQlYTJPTcVKln6xLw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/qcypKcQlYTJPTcVKln6xLw",
-            "title": "腾讯CSIG 2026校招补录，AI+云前沿战场等你加入！",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMjWQE2jMDJnsDYS2JRL7p911XJXEsEel0RntapUtiammUQicA5DGIpZhWibg9mNY3EtqicciaezksZjAxA/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-18T09:49:43.000Z"
-        },
-        {
-            "id": "maMQoXKBuVPY4SiTjFvZNg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/maMQoXKBuVPY4SiTjFvZNg",
-            "title": "腾讯2026全球校园大使开始招募啦！！！⏰",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/CqncWic46iaMghkE9icjen3TrxUeT25lOf1RPIhiaV44mibqXaKQ5dCkMXEibiaL8yup9Ks8LWFkicSno0FxxEySOH44WQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-16T09:41:21.000Z"
         }
     ]
 }
