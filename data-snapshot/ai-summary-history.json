@@ -9,5 +9,16 @@
       "美团": "暂无文章数据",
       "小红书": "暂无文章数据"
     }
+  },
+  {
+    "generatedAt": "2026-05-13T15:00:00Z",
+    "summaries": {
+      "行业资讯": "**阿里财报 & 经营动向**\n阿里巴巴2026财年Q4财报电话会议纪要出炉，市场关注云业务增速与AI商业化进展，管理层对AI投入持续加码表态积极[1]。\n\n**AI 人物与行业趋势**\n百度李彦宏公开提出AI时代新度量衡\"DAA\"（Daily Active Agent），标志着行业正式进入\"AI自我进化\"讨论阶段，Agent活跃度或将取代DAU成为下一代产品衡量指标[2]。前Llama核心研究员林俊旸创业消息曝出，新AI Lab估值已达20亿美元，AI人才创业潮仍在加速[4]。\n\n**产品动态**\n快手 OneSearch-V2 全量上线，生成式搜索进入\"懂你\"阶段，实现跨模态意图理解[5]。字节跳动推出视觉生成第三种技术路线，挑战扩散自回归统治，方法论类比\"边画边改\"[6]。微信聊天记录喂AI功能（腾讯官方版）上线，对话数据成为个人AI助手新燃料[9]。\n\n**医疗AI落地**\n循证医学AI工具已服务500万中国医生，88天登录193次的使用密度显示医疗AI应用进入深度渗透阶段[3]。\n\n**参考文章**\n[1] 2026-05-13 · 互联网坊间八卦 · [阿里2026财年Q4财报电话会议纪要（含QA）](https://mp.weixin.qq.com/s/ithSEzaCiRTbkXmxp6b8_A)\n[2] 2026-05-13 · 申妈的朋友圈 · [AI步入\"自我进化\"时代，李彦宏首提AI时代度量衡\"DAA\"](https://mp.weixin.qq.com/s/SrnW_MnYCZr0m3hLMSsjhA)\n[3] 2026-05-13 · 机器之心 · [88天登录193次！让500万中国医生拥有神助攻](https://mp.weixin.qq.com/s/v-gu6sfMO4d4KB-H7JfwjQ)\n[4] 2026-05-13 · 机器之心 · [突发！林俊旸被曝创业：新AI Lab估值20亿美元](https://mp.weixin.qq.com/s/m-lScy7wGrs69q7BParyzA)\n[5] 2026-05-13 · 机器之心 · [快手OneSearch-V2全量上线，生成式搜索进入「懂你」时代](https://mp.weixin.qq.com/s/dhjBRUxxQ1nAlsgoA7zkpQ)\n[6] 2026-05-13 · 量子位 · [挑战扩散自回归统治！字节提出视觉生成第三种路线](https://mp.weixin.qq.com/s/TAYMBnKLbiG_gtkJpC8Ekw)\n[9] 2026-05-13 · 量子位 · [微信聊天记录喂AI（腾讯官方版）](https://mp.weixin.qq.com/s/t0ShavUeol-4QdE6pj0fhQ)",
+      "字节跳动": "**火山引擎 x Supabase · Agent 落地加速**\n字节跳动技术团队分享火山 Supabase 助力猿辅导对话式 Agent 落地实践，聚焦业务团队如何低代码快速搭建应用，Agent 工程化能力正从技术团队向业务团队下沉[1]。\n\n**参考文章**\n[1] 2026-05-13 · 字节跳动技术团队 · [业务团队也能\"手搓\"应用？火山 Supabase 助力猿辅导对话式 Agent 落地](https://mp.weixin.qq.com/s/sK9zCXWEDGrb_UaMfD004g)",
+      "腾讯": "**校招 Skill 上线 · AI 招聘助手**\n腾讯校园招聘推出专属 Skill，整合岗位匹配、简历修改、模拟面试三大功能，招聘流程 AI 化提速[1]。\n\n**Skill 工程化实践**\n腾讯技术工程分享 AI Skill 工程化设计心路历程，探讨如何将 AI 能力封装为可复用\"算法\"模块[4]。\n\n**参考文章**\n[1] 2026-05-13 · 腾讯招聘 · [「腾讯校园招聘 Skill」上线：岗位匹配、简历修改、模拟面试](https://mp.weixin.qq.com/s/kbJ-K8wyHgcr-lvwisFM4Q)\n[4] 2026-05-13 · 腾讯技术工程 · [当我把 AI 变成一个\"算法\"：Skill 工程化设计的心路历程](https://mp.weixin.qq.com/s/bD10zbBeTtzMyEKqjIdT1w)",
+      "阿里巴巴": "暂无文章数据",
+      "美团": "**AI Coding 质量管控**\n美团分享31万行代码重构实践，通过构建评测体系管理 AI Coding 质量，解决大规模 AI 辅助研发中的可靠性问题[1]。\n\n**学术活动**\nCVPR 2026 美团学术论文分享会招募参与者[2]。\n\n**参考文章**\n[1] 2026-05-13 · 美团招聘 · [31万行代码重构：用评测管好AI Coding](https://mp.weixin.qq.com/s/BuQUwQ4zCiIpcX6m8oDbAA)\n[2] 2026-05-13 · 美团招聘 · [报名｜CVPR 2026 美团学术论文精选及分享会](https://mp.weixin.qq.com/s/ZKtNnkJ7WyeYHYlYNx9FLQ)",
+      "小红书": "暂无文章数据"
+    }
   }
 ]
