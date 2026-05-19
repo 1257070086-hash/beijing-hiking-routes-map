@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "J9MhLDpATavgSmZ_1WrtxA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/J9MhLDpATavgSmZ_1WrtxA",
+            "title": "QCon 北京 2026 | 把自动化测试当 AI Coding 来做：小红书 GUI Agent 实战回顾",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRmShGCtjal8UEssIcYExhS04iaMT0gu8J3SfbgXucHPKucz4YBMibOhERAQPKP4EEJayWVTBicbNNxbqMayQ0wPt9Id9IA2YWPiarE/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-12T10:01:36.000Z"
+        },
+        {
+            "id": "b2ljTH5m4We8amA4hGWLOg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/b2ljTH5m4We8amA4hGWLOg",
+            "title": "打造AI时代项目管理新范式 - 小红书PMO团队的Agentic探索之路",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/P9Hs04VFGRlqKB3vrAT8Ow9dnrV8CpJiaKq54dgp9nboeox4yickAYRU4qfoxfgwHTRp321xm5xUoh37ia0qLhYQuyR6UuWicmPjJx8fqQRrgB4/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-11T09:58:16.000Z"
+        },
+        {
             "id": "u0-tZEWTPX4Jh9y9EbVJ1g",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/u0-tZEWTPX4Jh9y9EbVJ1g",
@@ -792,22 +808,6 @@
             "title": "代码之外：工程师的成长进阶秘籍",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IstLPGf0bqibD8CGPqXf4GQneqoXaGcFnPpCrWRJCkcrhHTRWletoSyoAadxw6xKodkBQL6RCXG2HA/0?wx_fmt=jpeg",
             "date_modified": "2024-01-18T09:01:16.000Z"
-        },
-        {
-            "id": "KUa3Yn3DTkXaFQ2JKHvlZw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/KUa3Yn3DTkXaFQ2JKHvlZw",
-            "title": "小红书搜索团队提出全新框架：验证负样本对大模型蒸馏的价值",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IvyS1VTC0Ao9rOY6SosvrY9kcLAZfZH3mYbG7UrHJ1FNlF7KeAwbTGkL3dth7DytTiaSzOwQdR1hmw/0?wx_fmt=jpeg",
-            "date_modified": "2024-01-12T09:01:11.000Z"
-        },
-        {
-            "id": "3DUoqiFh3Aj3b_TLLPt0Hw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/3DUoqiFh3Aj3b_TLLPt0Hw",
-            "title": "小红书 X WSDM 2024「对话式多文档问答挑战赛」火热开赛！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Isr8QtZHjVDkyMCmQA5HEOjjlshor8xHYicYy0MFsUKMtfzGB5JmXjWfibicK5GmFIQOSNruV2YzBEIQ/0?wx_fmt=jpeg",
-            "date_modified": "2024-01-06T08:00:13.000Z"
         }
     ]
 }

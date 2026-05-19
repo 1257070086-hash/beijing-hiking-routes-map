@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "9YV6SyX4FtVYgxHF7h-FGA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/9YV6SyX4FtVYgxHF7h-FGA",
+            "title": "美团 LongCat 开源 General 365：树立推理评测新标尺",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/V95GN2mm0DyeuYk2vbDVt7Hu5u61BvAoiaeaElibiaKzpLx03vZyCax8icJoopVH4YuPjX9oIOkd5TkSZmHUwBoQCzQMCbs6GmcUk0yRzW4J75I/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-14T11:59:39.000Z"
+        },
+        {
+            "id": "v-OWXXKHjwiM68EBPXdoBw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/v-OWXXKHjwiM68EBPXdoBw",
+            "title": "美团无人机低空物流解决方案亮相世界无人机大会",
+            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/V95GN2mm0DzgsOe5dcxIbao4tBIAfzlTzRDYQ9wsdxmkmWwYMPIFk1OJvyrfJmUfXOBYwria9iacuZkouPUDgwjOibCF4apZ09AXjesK4ibf1C8/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-14T11:59:39.000Z"
+        },
+        {
+            "id": "bgh4UyMdqEvCbgRucGMuaw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bgh4UyMdqEvCbgRucGMuaw",
+            "title": "MARS TALK 香港大学站｜共话具身智能的技术演进与商业化进程",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/V95GN2mm0DwW5icG8znp1QiaV4NiaMmibRjYM5lHcrSicC2akB8t0HYeoJ11uO8a5XWyYrQwQlVW0G7oTWiaahiccbwfbKKC0iaiaWqrnCiajj0wPjJEE/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-14T11:59:39.000Z"
+        },
+        {
             "id": "CTY5mdgKh6TmPrO6xsKhWQ",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/CTY5mdgKh6TmPrO6xsKhWQ",
@@ -784,30 +808,6 @@
             "title": "报名 | 美团技术沙龙【AI+安全：智能技术在安全领域的应用探索】",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsXB55qL9ibmFITv7hVmVAPIrMQhF00Oej45wPiaQUgjpuv3CxPm4JmIPAHCd3MZvyWvbBVwQ3H6PjwQ/0?wx_fmt=jpeg",
             "date_modified": "2025-05-28T11:59:20.000Z"
-        },
-        {
-            "id": "goYuFb1SdpZcoPci1lsosA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/goYuFb1SdpZcoPci1lsosA",
-            "title": "可信实验白皮书系列01：从0到1的方法论与实践指南",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsURCWpInD1H00MVJ0EwkqyXWuztl9FGZcOf9fEjMZfveaMLLJDet6flGu9u7OzupOhWaNzkM8BWAg/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-22T11:58:52.000Z"
-        },
-        {
-            "id": "sGziybRFxZ4tkFniq3LtUA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/sGziybRFxZ4tkFniq3LtUA",
-            "title": "可信实验白皮书系列02：AB实验基础",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsURCWpInD1H00MVJ0EwkqyXDH2cmS1OicbWRrws3moUSHpGVn37755YYVqgjo938OOicXibLMh7jjBzA/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-22T11:58:52.000Z"
-        },
-        {
-            "id": "_ySva4UWxwHbkEqprywUkA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/_ySva4UWxwHbkEqprywUkA",
-            "title": "美团2026届北斗计划正式启动",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/hEx03cFgUsVX97s8P0719SFl8MGv8W2DAKD6DQanXk7257UgDdDcRzAEqHoyA772O4icN1Lv83k7pZtrT2JKJnA/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-22T11:58:52.000Z"
         }
     ]
 }

@@ -10,6 +10,78 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "2viAFaRVKPtNWjh6uhMEww",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/2viAFaRVKPtNWjh6uhMEww",
+            "title": "一个月狂烧130万美元！龙虾之父自曝token账单，费用OpenAI全包",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHDHEJ3IPo6vib45WUaaJX2xZO8uoh29wch37ndpds8ibxvXqm3aNEBbJA6Jybr62BwABjKko4DkicgeicCSPuq6aiavEOWfQHNAvNo/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-17T03:06:52.000Z"
+        },
+        {
+            "id": "V54ADN6w3UhUpgC5XczjQw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/V54ADN6w3UhUpgC5XczjQw",
+            "title": "「世界模型」究竟是什么？一文看懂其前世今生与百亿赌局",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFN3LfnXpWBrVfiahz3T9ibh8xyCBiah0mRXXByytTA1vNVOQ8GBvptPZibtje5sjs5Wib2TVCcoW7jlQXBvmQxny3JYsaltoXtoLFs/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-17T03:06:52.000Z"
+        },
+        {
+            "id": "ulZyoQZgxJfwGhqYwC9KKw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ulZyoQZgxJfwGhqYwC9KKw",
+            "title": "花了1000倍的token，效果可能却没有更好：AI Agent的“隐性账单”长什么样",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFzzHXkpIzYT3QhgIHUs7Lj3NlziaemgtpOpKeAZBaHcGqQBjjAibw4dl1KUe8quPcqPHQ5zelo49N2LfoJwTSjddvFQHXlDHIw0/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-17T03:06:52.000Z"
+        },
+        {
+            "id": "3rbwpSoyZ2RWTE-yTigtLQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/3rbwpSoyZ2RWTE-yTigtLQ",
+            "title": "这一次，不比炫技，比谁更能「干活」",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqG3NAQCrm8zgHdNWGGYqOB14E5s7elXbMic51iacib9ZlfJAV7HaXLKv5xoLoLuITcAYqbtjxVsbwKJgP5eeEVPMCVeOuiaISKEX1c/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-16T10:22:58.000Z"
+        },
+        {
+            "id": "1fWBaNIqnVYV3U02xl1Xvg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1fWBaNIqnVYV3U02xl1Xvg",
+            "title": "Anthropic又整活，卡片大小的电脑也跑上Claude Code了",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqFCmCGe4JtPyJPNmvl9CEoJcBTqhc9y7Rb0wzQkyGzajuje0FSd6ff9cLve7ia5j5qbLyOGrIcE4RYI51pkT4dTWDTH57c6LuFg/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-16T10:22:58.000Z"
+        },
+        {
+            "id": "BfvfWybpTAObAiN-Ky7Jgg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BfvfWybpTAObAiN-Ky7Jgg",
+            "title": "机器人为什么需要世界模型？世界顶尖机构联合综述震撼发布",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGJibz56zhm9kC48jPZvwdHDdRFyfgSrG0ANNnZ5ch4lpQkTsmC1Wopo2WJu0xqoiaXxGkdMlHRHjTWMh82k4XtjyE9W0wCte61w/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-16T10:22:58.000Z"
+        },
+        {
+            "id": "p2Y0lTAEIWJr4C3Gq2j3JA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/p2Y0lTAEIWJr4C3Gq2j3JA",
+            "title": "越懂你，越危险？MemPrivacy揭示AI记忆下一站",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqF45SaReAJSn6v8eUvD45MVMVJrxOV5ep4y9TCF6cicFg5ib0UwsKGgmLYQfLdfPYFQyeqmeb9oRmkUCK64Z4t240cKESlicrV494/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-15T02:06:52.000Z"
+        },
+        {
+            "id": "KMF0zt5kecO21ub5DMOMig",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/KMF0zt5kecO21ub5DMOMig",
+            "title": "为了应付老板的Token消耗KPI，亚马逊员工竟这样做...",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHOBdv8RKM1R5J1FjLJFlAZ7og8yTEn93iaJzUnsia0iaesTBsh4xgsASADxSGIicJ5o00g59F0azGHsj3eT6RGWrmIibrB6Albmics4/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-15T02:06:52.000Z"
+        },
+        {
+            "id": "4e6qXfhfbrNKuJOpRCQqtw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4e6qXfhfbrNKuJOpRCQqtw",
+            "title": "RSS-2026 | 港科大（广州）开源首个无需训练的开放词汇3D占据地图构建系统",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFDSv06LbBJgt3GWGqg3kV6kPD6Nbic2GJyI7DCticJ5buciaAHsjwZs8icgzvGbklGEN8TueArvyt5HDXaN0z8XYjAkhQB2L9jZV4/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-15T02:06:52.000Z"
+        },
+        {
             "id": "8JQr-Tc-bpaOSViV7T0icA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/8JQr-Tc-bpaOSViV7T0icA",
@@ -736,78 +808,6 @@
             "title": "迎接范式革命：最新、最全的大模型Latent Space综述，NUS、复旦、清华等联合出品",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqEVyLZA2o5QlQMHEibxoBP3Y2jdjdiaQJia5lutjib5Oh1PCKUtfibfRVAbQ2xnYF8Lqlhrjl7J1wlbqVSZUSkLB70CqY4ujrwkU4ow/0?wx_fmt=jpeg",
             "date_modified": "2026-04-13T03:58:37.000Z"
-        },
-        {
-            "id": "WG_4zJbNk9K14UngO7TbGw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/WG_4zJbNk9K14UngO7TbGw",
-            "title": "CVPR 2026 WorldArena挑战赛启动，高德开源高性能世界模型基线",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFJkkAicc7B1P72jibsDHSMwYWIwx97aaoAV6EcAZmoPtYEYpSa1micj64uZOcjnOaWTDE5dAibw39WJ9tlJh6KLYFS1MB0JXvhUsE/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-12T09:01:53.000Z"
-        },
-        {
-            "id": "47mp36YLoScx2DZURUaS_g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/47mp36YLoScx2DZURUaS_g",
-            "title": "陶哲轩亲调AI人设，权游小恶魔、贱女孩蕾吉娜版物理教学，你接受不",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGsMCQ7PY50PZkMeEaOIarribdkKxcP51Q4NrftAHsMcciaOpPUoQQXTxUouSsDpI8dM0YQrIfRAI93mnVuY9fUvpibicwNfo6c7Rg/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-12T09:01:53.000Z"
-        },
-        {
-            "id": "JgivHuO7JUEWygJJq1RKrA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/JgivHuO7JUEWygJJq1RKrA",
-            "title": "ICLR 2026｜隐式思考模型LRT：「隐式思维链」推理，更快更强！",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHIjFbOjWNShLyHNUBJ0ic9AaKIVUjpBJj22BcDaKkGYZcZqkqnWSCHMx6rFpCQGCwx95QwWmcT7obfCQ6eKCduA0TQcxFeZfxM/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-12T09:01:53.000Z"
-        },
-        {
-            "id": "8qnnf6J9sgh9thTbfg1ndg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/8qnnf6J9sgh9thTbfg1ndg",
-            "title": "「10万小时人类数据」不搞对齐只靠规模，灵初智能Psi-R2登顶MolmoSpaces！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqFJnNBNXW7wdEzK3qjh7nWBZan7gnr8y1hoDYLk7rOUSyRfnQSicY57Q6005zZywbYm1EbmKHiad8SMyxUvEWxSJVqLzWXfUM4KY/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-11T01:14:13.000Z"
-        },
-        {
-            "id": "nKSkuCgmx4X-bROfisvYqQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/nKSkuCgmx4X-bROfisvYqQ",
-            "title": "突发！奥特曼家被扔燃烧弹，OpenAI星际之门也出问题了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqG9R1BJ94UubWZ3FtAWdwrXPMnanjwB09c0Q5qFYeDzE9DwRpNA7lXnibmzmfwic6cGeXleQpRS0CO3OftSN4VhFGkLyl6Q80oI0/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-11T01:14:13.000Z"
-        },
-        {
-            "id": "xqWNj-B4UuLnbAANUbr8Yg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/xqWNj-B4UuLnbAANUbr8Yg",
-            "title": "CVPR Highlight｜让无人机学会自己认路+锁位目标，国防科大给出一套新解法",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqGyzxRjM9mVyMb87EcDFXREzgATaz871ic2QDp6lIRGNoem9Yr4jcEOTDfcS2dM1oJZvejAmjWQ8NGTrJ4Q0jibp5JBcfPicsd3qs/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-11T01:14:13.000Z"
-        },
-        {
-            "id": "a5lojLW_fbvGPQ86pfYQFg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/a5lojLW_fbvGPQ86pfYQFg",
-            "title": "Generalist爆火背后：具身智能真正的竞争，已不在模型",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqHMjb00AO95ejrXF464j8hTlWfbC6KW01v1TMrstZqhic4dZVic3Lzwdhue6jGQibeTs2w7TX4pDlIBIos17HemicyDxTKNuzMicK3w/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-10T10:18:53.000Z"
-        },
-        {
-            "id": "rCaBRiRTp7gz7k4bclNamQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/rCaBRiRTp7gz7k4bclNamQ",
-            "title": "龙虾连Gemma 4，只需三步，谷歌官方教程出炉，不再花钱买token",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/5L8bhP5dIqHc9LOYe4EIhyd4TCQ1g6IuBhMrB1jaFOSJ0E8gAnUpVEhJrqUM9qvibhx1FeAUBltvC7bUz8Cm8Z1XDiaOibC0ujebteLjjTnwWg/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-10T10:18:53.000Z"
-        },
-        {
-            "id": "fkIvNeG9bFQaDIboQbaL4g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/fkIvNeG9bFQaDIboQbaL4g",
-            "title": "CVPR 2026 | 20步也能稳住画质，这个扩散加速方法不一样",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqEgxZ6rzicEFXW8vyF5we3KMHicOtKRWhTVOQgcOLxVH3NExQ77nQfObp8bW9aFRR1gBiaBENugTh0dAz4TRWSfssqPP0InRYgHIE/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-10T10:18:53.000Z"
         }
     ]
 }

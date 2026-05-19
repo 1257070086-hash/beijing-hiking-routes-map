@@ -10,6 +10,22 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "l-L2_abmijjpG_XOCAMsZw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/l-L2_abmijjpG_XOCAMsZw",
+            "title": "Qoder 1.0正式发布！从AI IDE迈向智能体自主开发工作台",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz55StaLMHMm8e1t62KibeY8edobhaqiav0GzwqVJd8gClarMvWO4zpNaXpF0QmI3TVARJJyOrOLDb4yicbicXs7icWdjmEOyCjqERIg/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-15T06:22:09.000Z"
+        },
+        {
+            "id": "X6lh1LuOJgbkJQ8t0Zky1g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/X6lh1LuOJgbkJQ8t0Zky1g",
+            "title": "阿里巴巴&蚂蚁 LoongSuite GenAI 可观测语义规范：从统一数据语言到规模化落地",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz5wDpJrpAjYtEXibRsnFrgRxREO38OlSvowZaWUUNJfjUciaXSqRtTNfXLY8htKmO1vLfcOhWA1MuiapKeANINibjXStcjy9hsXaCI/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-12T10:58:55.000Z"
+        },
+        {
             "id": "Xf3C60jCxR4ppMi4HuAnVA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/Xf3C60jCxR4ppMi4HuAnVA",
@@ -792,22 +808,6 @@
             "title": "日志采集效能跃迁：iLogtail 到 LoongCollector 的全面升级",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30EdkmHEpUQgCCLAqbibyHHT29OjR6dHNCQ6eAeLwRj4Uib2tKte6VSnnJc22orQ7dBzwo4NFxaFAI9A/0?wx_fmt=jpeg",
             "date_modified": "2025-05-21T00:31:31.000Z"
-        },
-        {
-            "id": "gM_4Tp6oYZd-U4keeMAVEQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/gM_4Tp6oYZd-U4keeMAVEQ",
-            "title": "阿里国际AI Business技术团队多篇论文入选 ACL 2025",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30EdkmHEpUQgCCLAqbibyHHT2IiaKaCWW6L9NLAvhCHnlr5ice0pBTgfET8TmYyNlsu40pDIBaarp0icFg/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-20T06:30:36.000Z"
-        },
-        {
-            "id": "i7J-xVZScp3Zl0-Q5IuC1w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/i7J-xVZScp3Zl0-Q5IuC1w",
-            "title": "Mooncake 最新进展：SGLang 和 LMCache 基于 Mooncake 实现高效 PD 分离框架",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30H6w5F7HsAQP22MiaYVnZQwSWJibspszCc01I3YEvJaqjgic2ZxM6pLQ7ZOrI4TgzZYVibuibkWHWfpvlA/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-16T00:30:57.000Z"
         }
     ]
 }
