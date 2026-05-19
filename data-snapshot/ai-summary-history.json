@@ -20,5 +20,27 @@
       "美团": "**AI Coding 质量管控**\n美团分享31万行代码重构实践，通过构建评测体系管理 AI Coding 质量，解决大规模 AI 辅助研发中的可靠性问题[1]。\n\n**学术活动**\nCVPR 2026 美团学术论文分享会招募参与者[2]。\n\n**参考文章**\n[1] 2026-05-13 · 美团招聘 · [31万行代码重构：用评测管好AI Coding](https://mp.weixin.qq.com/s/BuQUwQ4zCiIpcX6m8oDbAA)\n[2] 2026-05-13 · 美团招聘 · [报名｜CVPR 2026 美团学术论文精选及分享会](https://mp.weixin.qq.com/s/ZKtNnkJ7WyeYHYlYNx9FLQ)",
       "小红书": "暂无文章数据"
     }
+  },
+  {
+    "generatedAt": "2026-05-15T15:00:00Z",
+    "summaries": {
+      "行业资讯": "**AI 安全与隐私**\nMemPrivacy 研究揭示 AI 记忆机制的隐私风险：模型对用户的了解越深，潜在危险也越大，个人数据保护议题进入新阶段[1]。Anthropic 最新论文突破大模型黑箱，隐藏动机发现率提升4倍以上，可解释性研究取得里程碑进展[5]。\n\n**AI 基础设施争夺**\nAnthropic 砸千亿美元抢购芯片（H200 尚未入境中国），随即宣布涨价，开发者成本压力上升，算力军备竞赛持续[4]。\n\n**多模态 Agent 落地**\nOPPO 开源安卓端多模态 Agent X-OmniClaw，实现手机端 AI 管家能力，端侧 Agent 生态加速成型[7]。\n\n**创业与招聘**\n极客部落 OPC 首批 AI 创业共建者路演启动，AI 创业氛围持续升温[6]。得物春招规模翻倍、覆盖10城[8]。\n\n**参考文章**\n[1] 2026-05-15 · 机器之心 · [越懂你，越危险？MemPrivacy揭示AI记忆下一站](https://mp.weixin.qq.com/s/p2Y0lTAEIWJr4C3Gq2j3JA)\n[4] 2026-05-15 · InfoQ · [H200还没到中国，Anthropic先急了：千亿美元抢芯片，转头涨价让开发者买单](https://mp.weixin.qq.com/s/LVVIWvJsRNEMJeu3D2SmoQ)\n[5] 2026-05-15 · InfoQ · [Anthropic最新论文撬开大模型黑箱：隐藏动机发现率提升4倍以上](https://mp.weixin.qq.com/s/YAJG_yfULzyuVWL0naQbKQ)\n[6] 2026-05-15 · InfoQ · [极客部落OPC入驻路演评审，首批AI创业共建者加速集结](https://mp.weixin.qq.com/s/EbfXfkCUpmISQZuMlCHDYA)\n[7] 2026-05-15 · InfoQ · [OPPO开源安卓端多模态Agent X-OmniClaw，手机AI管家真的来了](https://mp.weixin.qq.com/s/3II1XRWOPmW0hwtCpGrbXA)\n[8] 2026-05-15 · 大厂青年 · [招聘规模翻倍、覆盖10城，得物春招为什么值得去？](https://mp.weixin.qq.com/s/1X8Jdf8hL-cxiqWH0oP6ig)",
+      "字节跳动": "暂无文章数据",
+      "腾讯": "暂无文章数据",
+      "阿里巴巴": "**Qoder 1.0 · AI IDE 迈向自主开发工作台**\n阿里技术发布 Qoder 1.0，从 AI 辅助编程工具进化为智能体自主开发工作台，标志着 AI 编程范式从\"辅助\"升级为\"自主\"，开发者角色进一步转型[1]。\n\n**参考文章**\n[1] 2026-05-15 · 阿里技术 · [Qoder 1.0正式发布！从AI IDE迈向智能体自主开发工作台](https://mp.weixin.qq.com/s/l-L2_abmijjpG_XOCAMsZw)",
+      "美团": "暂无文章数据",
+      "小红书": "暂无文章数据"
+    }
+  },
+  {
+    "generatedAt": "2026-05-16T15:00:00Z",
+    "summaries": {
+      "行业资讯": "**AI 实用化竞争加速**\n机器之心指出本轮 AI 竞争的核心已从\"炫技\"转向\"干活\"，能落地、能解决真实问题的 AI 产品正在赢得用户[1]。翁荔实测首个创业模型，指出以\"回合制\"为代表的传统 ChatGPT 交互范式正被原生实时交互模式取代[5]。\n\n**ChatGPT 金融扩张**\nOpenAI 打通银行 API，ChatGPT 正式介入金融支付场景，安全性争议随即引发全网热议[4]。\n\n**端侧 AI 突破**\nAnthropic 将 Claude Code 跑上卡片大小的设备，端侧大模型部署门槛持续下探[2]。\n\n**机器人与世界模型**\n全球顶尖机构联合发布机器人世界模型综述，具身智能进入理论体系化阶段[3]。\n\n**企业 ML 平台**\nNetflix 推出\"模型生命周期图\"，为企业级机器学习治理提供新范式[7]。\n\n**参考文章**\n[1] 2026-05-16 · 机器之心 · [这一次，不比炫技，比谁更能「干活」](https://mp.weixin.qq.com/s/3rbwpSoyZ2RWTE-yTigtLQ)\n[2] 2026-05-16 · 机器之心 · [Anthropic又整活，卡片大小的电脑也跑上Claude Code了](https://mp.weixin.qq.com/s/1fWBaNIqnVYV3U02xl1Xvg)\n[3] 2026-05-16 · 机器之心 · [机器人为什么需要世界模型？世界顶尖机构联合综述震撼发布](https://mp.weixin.qq.com/s/BfvfWybpTAObAiN-Ky7Jgg)\n[4] 2026-05-16 · InfoQ · [OpenAI把手伸进你的钱包了！ChatGPT打通银行API](https://mp.weixin.qq.com/s/bK8R2XYhpdQxK0YLLeA2oA)\n[5] 2026-05-16 · InfoQ · [ChatGPT那一套要过时了？翁荔实测创业首个模型](https://mp.weixin.qq.com/s/uPfGCiaRMJe3prDjg-zsUQ)\n[7] 2026-05-16 · InfoQ · [Netflix推出\"模型生命周期图\"，扩展企业级机器学习](https://mp.weixin.qq.com/s/ayi_mz5fryCWxHmbUQBn2w)",
+      "字节跳动": "暂无文章数据",
+      "腾讯": "暂无文章数据",
+      "阿里巴巴": "暂无文章数据",
+      "美团": "暂无文章数据",
+      "小红书": "暂无文章数据"
+    }
   }
 ]

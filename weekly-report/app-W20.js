@@ -1,4 +1,4 @@
-// 渲染周报页面 - W19 版本
+// 渲染周报页面 - W20 版本
 (function () {
   const data = window.REPORT_DATA;
   const app = document.getElementById('app');
@@ -15,8 +15,8 @@
 
   // ── 左侧目录渲染 ──────────────────────────────────────
   const REPORTS = [
-    { week: '2026 W20', range: '5.13 — 5.19', file: 'report-W20.html', active: false },
-    { week: '2026 W19', range: '5.6 — 5.12', file: 'report-W19.html', active: true },
+    { week: '2026 W20', range: '5.13 — 5.19', file: 'report-W20.html', active: true },
+    { week: '2026 W19', range: '5.6 — 5.12', file: 'report-W19.html', active: false },
     { week: '2026 W18', range: '4.28 — 5.5', file: 'report-W18.html', active: false },
     { week: '2026 W17', range: '4.21 — 4.27', file: 'report-W17.html', active: false },
   ];
