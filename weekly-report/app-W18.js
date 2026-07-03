@@ -15,10 +15,18 @@
 
   // ── 左侧目录渲染 ──────────────────────────────────────
   const REPORTS = [
-    { week: '2026 W19', range: '5.6 — 5.12', file: 'report-W19.html', active: false },
-    { week: '2026 W18', range: '4.28 — 5.5', file: 'report-W18.html', active: true },
-    { week: '2026 W17', range: '4.21 — 4.27', file: 'report-W17.html', active: false },
-    { week: '2026 W16', range: '4.14 — 4.19', file: 'report-W16.html', active: false },
+    { week: '2026 W27', range: '06.30 — 07.06', file: 'index.html', active: false },
+    { week: '2026 W26', range: '06.23 — 06.29', file: 'report-W26.html', active: false },
+    { week: '2026 W25', range: '06.16 — 06.22', file: 'report-W25.html', active: false },
+    { week: '2026 W24', range: '06.09 — 06.15', file: 'report-W24.html', active: false },
+    { week: '2026 W23', range: '06.02 — 06.08', file: 'report-W23.html', active: false },
+    { week: '2026 W22', range: '05.26 — 06.01', file: 'report-W22.html', active: false },
+    { week: '2026 W21', range: '05.19 — 05.25', file: 'report-W21.html', active: false },
+    { week: '2026 W20', range: 'W20', file: 'report-W20.html', active: false },
+    { week: '2026 W19', range: 'W19', file: 'report-W19.html', active: false },
+    { week: '2026 W18', range: 'W18', file: 'report-W18.html', active: true },
+    { week: '2026 W17', range: 'W17', file: 'report-W17.html', active: false },
+    { week: '2026 W16', range: 'W16', file: 'report-W16.html', active: false }
   ];
 
   const SECTIONS = [
