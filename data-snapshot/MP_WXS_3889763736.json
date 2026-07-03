@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "WEiagYBdk-h-tDFSsOuBzQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/WEiagYBdk-h-tDFSsOuBzQ",
+            "title": "小红书多媒体任务调度系统的演进优化",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRkl2ic8vRS9fAhokbVzicd87dtd9Zs7SMbiaw65BLH46bzgPHbtsaQ9DibfNsJd39T3iazlmaG2stic61T0IQibwvJYxX0nZyZ3h3nloA/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-27T10:01:41.000Z"
+        },
+        {
+            "id": "_TMLx4sD9LiFzsOTEs-3dw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/_TMLx4sD9LiFzsOTEs-3dw",
+            "title": "QECon深圳2026｜小红书技术专场：Agent驱动的研发效率工程探索与实践",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/P9Hs04VFGRkQsCCDvQ9pY6ACibUsukE2BfbnqGiaF3pIrKcCF6xic30Qqibd3hEQXgyo8aWv3MGHZF5kEpTMwB6qphmLZlW6VcrJicfsmlxLCmQ8/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-19T09:59:51.000Z"
+        },
+        {
+            "id": "yGjxPmMQfT2M4SkGvuScmw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/yGjxPmMQfT2M4SkGvuScmw",
+            "title": "小红书引擎架构团队ICDE 2026新成果：CCD感知编排突破多核CPU向量搜索性能天花板",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/P9Hs04VFGRmxBJuxIvdA0IwXJmWDFnv3vxKfRI7rCHseT3GCAh72MqFG1LCfey62rJHDf8Lia51Lf2gPPdwRRInjS8NVVZnjaXSbicGIa0bSQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-18T10:03:36.000Z"
+        },
+        {
             "id": "J9MhLDpATavgSmZ_1WrtxA",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/J9MhLDpATavgSmZ_1WrtxA",
@@ -784,30 +808,6 @@
             "title": "直播预告｜原生 vs 跨端，聊聊鸿蒙应用开发的真实感受",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IuocsksUAL2mjCQEq7w4icSJowAAcm8QCXYdT78tFdOKvUKGClEfCfIgoYLsDWHutBFnntA3jofYMQ/0?wx_fmt=jpeg",
             "date_modified": "2024-01-29T04:14:20.000Z"
-        },
-        {
-            "id": "m9q-iZ4UV510v2K_U9Pkzg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/m9q-iZ4UV510v2K_U9Pkzg",
-            "title": "小红书多模态团队建立新「扩散模型」：解码脑电波，高清还原人眼所见",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86Iuq0CpcmswibdbqHSeiaTI9zgQoBGwibKMEP2T47u6F0nr4dPzIr6oEa3vuaDbpC5F9KN2bufyzbOicWQ/0?wx_fmt=jpeg",
-            "date_modified": "2024-01-23T09:00:37.000Z"
-        },
-        {
-            "id": "cAxohCGF2mpYBn5rU3S1Ew",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/cAxohCGF2mpYBn5rU3S1Ew",
-            "title": "爆款背后的机制：解码小红书流量算法",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86ItvzcvDGEzOYHQLINXvpXLRcKKOlVa7clFFXkg8AXr4skH63g7drWdAp5oNCh1YzOBnn1sF1m2k5w/0?wx_fmt=jpeg",
-            "date_modified": "2024-01-20T09:00:08.000Z"
-        },
-        {
-            "id": "FHCq-4yJOm8bT7yTiIkrow",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/FHCq-4yJOm8bT7yTiIkrow",
-            "title": "代码之外：工程师的成长进阶秘籍",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/vxnkL2N86IstLPGf0bqibD8CGPqXf4GQneqoXaGcFnPpCrWRJCkcrhHTRWletoSyoAadxw6xKodkBQL6RCXG2HA/0?wx_fmt=jpeg",
-            "date_modified": "2024-01-18T09:01:16.000Z"
         }
     ]
 }
