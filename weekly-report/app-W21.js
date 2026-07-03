@@ -1,4 +1,4 @@
-// 渲染周报页面
+// 渲染周报页面 - W20 版本
 (function () {
   const data = window.REPORT_DATA;
   const app = document.getElementById('app');
@@ -15,18 +15,11 @@
 
   // ── 左侧目录渲染 ──────────────────────────────────────
   const REPORTS = [
-    { week: '2026 W27', range: '06.30 — 07.06', file: 'index.html', active: true },
-    { week: '2026 W26', range: '06.23 — 06.29', file: 'report-W26.html', active: false },
-    { week: '2026 W25', range: '06.16 — 06.22', file: 'report-W25.html', active: false },
-    { week: '2026 W24', range: '06.09 — 06.15', file: 'report-W24.html', active: false },
-    { week: '2026 W23', range: '06.02 — 06.08', file: 'report-W23.html', active: false },
-    { week: '2026 W22', range: '05.26 — 06.01', file: 'report-W22.html', active: false },
-    { week: '2026 W21', range: '05.19 — 05.25', file: 'report-W21.html', active: false },
+    { week: '2026 W21', range: '05.19 — 05.25', file: 'index.html', active: true },
     { week: '2026 W20', range: 'W20', file: 'report-W20.html', active: false },
     { week: '2026 W19', range: 'W19', file: 'report-W19.html', active: false },
     { week: '2026 W18', range: 'W18', file: 'report-W18.html', active: false },
-    { week: '2026 W17', range: 'W17', file: 'report-W17.html', active: false },
-    { week: '2026 W16', range: 'W16', file: 'report-W16.html', active: false }
+    { week: '2026 W17', range: 'W17', file: 'report-W17.html', active: false }
   ];
 
   const SECTIONS = [
@@ -53,7 +46,6 @@
   if (sidebarNav) {
     sidebarNav.innerHTML = REPORTS.map(r => {
       const key = weekKey(r.week);
-      // 非 active 项不渲染子目录 div，避免 id 冲突
       const sectionsHtml = r.active ? `
         <div class="sidebar-sections" id="sidebar-sections-${key}">
           ${SECTIONS.map(s => `
@@ -78,7 +70,6 @@
     }).join('');
   }
 
-  // 折叠/展开子目录（通过 key 查 DOM，不依赖 this）
   window.toggleSections = function(key) {
     const el = document.getElementById(`sidebar-sections-${key}`);
     const header = el && el.previousElementSibling;
@@ -121,7 +112,6 @@
   // 所有 section（包括启示）统一用品牌色标签背景，文字为黑色
   function renderSection(title, sectionData, brandColor) {
     const isInsight = sectionData.isInsight;
-    // 只设背景色和边框，文字颜色由 CSS 控制为黑色
     const titleStyle = `background:${brandColor}18; border:1px solid ${brandColor}38`;
     return `
       <div class="card-section${isInsight ? ' insight' : ''}">
@@ -152,7 +142,6 @@
     ...data.companies.map(co => ({ label: co.name, color: co.color, anchor: `section-${co.id}` })),
   ].map(btn => {
     const hex = btn.color;
-    // 把品牌色转成很浅的背景（20% 透明度模拟）
     return `<a href="javascript:void(0)" class="company-nav-btn"
       onclick="smoothTo('${btn.anchor}', null)"
       onmouseenter="this.style.color='${hex}';this.style.borderColor='${hex}';this.style.background='${hex}18'"
