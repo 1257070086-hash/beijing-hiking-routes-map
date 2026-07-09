@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "ywmtyIseEruuF5Yn4k2_BQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ywmtyIseEruuF5Yn4k2_BQ",
+            "title": "字节绩效迎来大调整：将加大激励力度，加强字节范与领导力考核",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/MABFN5xh55zTdumSBGMtlrdibr8WXSGGO8dIlxN79utN1oMyRQ5XowWkmGh8Oz9Ne1qzV88Er4ONgyicVIMrAmB3Z4WldPAfL7lFsIh0K1ZJs/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-08T03:33:27.000Z"
+        },
+        {
+            "id": "pS4XBxt0pf2chGqUxRRWbA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/pS4XBxt0pf2chGqUxRRWbA",
+            "title": "大厂日爆运营招募",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lA4CcWb4j1XUH6Fy6YHiaI63vjibalO1SdaJeTaWqnEo3ZC5D9cTpsdwTm8PB0OjX6Am70C4K0SyjicQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-08T03:33:27.000Z"
+        },
+        {
+            "id": "MhfJT1RVFIBhinXVaE-k_g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/MhfJT1RVFIBhinXVaE-k_g",
+            "title": "今日大厂员工事：京东抹平leader数量；美团服体王磊将离职；阿里QoderWork并入钉钉；字节钱景离职；百度token新规发布后撤回",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/MABFN5xh55wicJo8Y5U0e6sK6BxcZzmk8BnSTiaSrwSzw70fJFHD0MQUdaLOCIhbzTrAfibub4LicNcNTSzEKyOIZvUKjwIf2QzIOK91r99kSibI/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-07T03:39:54.000Z"
+        },
+        {
             "id": "JAjsdXcokoEGFxSJWYIMGw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/JAjsdXcokoEGFxSJWYIMGw",
@@ -784,30 +808,6 @@
             "title": "刚刚！小红书期权上调至25美元，达历史新高",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lAGibFbpnQTTVJluqdhjlnwKPwOc8SFEsef1Do8szp7HJoHbHPv74WnQ3iaFyBtuaOOOzAvViaMt5Miaw/0?wx_fmt=jpeg",
             "date_modified": "2025-10-17T09:20:48.000Z"
-        },
-        {
-            "id": "6ftAZstZb__AyF9n4248wA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/6ftAZstZb__AyF9n4248wA",
-            "title": "今日大厂员工事：饿了么通知期权回购；百度部分团队搬横琴；抖音电商上线大促餐；京东扩建；蚂蚁搜推团队合并；理想启动销售PIP",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lBoTvRVc9cQ87SgfP1FygPmqEJdGJut8aXR58Oiaj1NicQkJQEAibYGlsPEtX31rLDia0K2SwuG1Ric5rg/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-16T03:39:40.000Z"
-        },
-        {
-            "id": "Upb2C2N76GRXmaQi0asktw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Upb2C2N76GRXmaQi0asktw",
-            "title": "刚刚！腾讯启动人才专项，每人激励50万",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lCmvUv4s3y0A4kVlKweUwkmLLunHVHOcG76laVwicZLl23kdb2dLhQib7gqK9iavT17UicSkpbWHj9aAw/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-14T04:34:19.000Z"
-        },
-        {
-            "id": "W3kBJ5fARj51Y8sVbduj8Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/W3kBJ5fARj51Y8sVbduj8Q",
-            "title": "今日大厂员工事：钉钉宣布提前放假；多多深圳搬上海；得物启动弹性工作制；字节期权回购；狗东餐补变外卖券；网易杭州搬家；希音自研IM",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/a1K5vT5T4lDay1gx4OtDIt8gway99HUxvpOPiaGGdBfeic6z2SMf20bWga6c0tolm0ZUV2I2S9ibr3UnarZJNicOIA/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-11T04:29:55.000Z"
         }
     ]
 }

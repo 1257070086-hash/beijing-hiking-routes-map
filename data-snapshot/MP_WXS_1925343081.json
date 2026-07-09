@@ -10,6 +10,30 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "JR6IL2WKfX-rK8UULJ1Hkg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JR6IL2WKfX-rK8UULJ1Hkg",
+            "title": "腾讯混元青云计划｜全球招募顶尖技术人",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FaO0nSo5rW1sGEn2814VaqsPDfR4kJmwPKvz6e4cibm8KlQpB78AtSiaeBIEpVkibyplXpialVkNJGVqfypsV8SUKKC3ibEAXFkgxwc/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-06T12:51:30.000Z"
+        },
+        {
+            "id": "-aM7jMGjA03LpqwydyX_Jw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/-aM7jMGjA03LpqwydyX_Jw",
+            "title": "腾讯 ICML 150+中稿，Oral & Spotlight 精选抢先看",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FZOJeicvUPJVrWiciclc2fU2ZPcDKf9N7KScmwOiapTPQFBrsz11C50xQ34wlfUPZeFCUIrzlcIBqiaKhEkbsicKr5s7oVbJa9e4ia1ds/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-03T08:36:49.000Z"
+        },
+        {
+            "id": "ve0GpyzogrBi3mYieL5T2g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ve0GpyzogrBi3mYieL5T2g",
+            "title": "清华SIGS × 腾讯：大模型科学与工程项目全日制工程硕士，2027年推免报名中",
+            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FZm6I0ylUMKr8WGMeLzLsEK0SlhaEL6PT0zULdtShkzF5MIwspD6SFibhzwYQPXbedGnjHnPjWRM4XjPexaGH8U9J2QVdIdW8aY/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-03T08:36:49.000Z"
+        },
+        {
             "id": "tn4YPtIuhrTu-ozSp7Biog",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/tn4YPtIuhrTu-ozSp7Biog",
@@ -784,30 +808,6 @@
             "title": "腾讯MPR「鹅创营」传播研习培养专项第三期开启报名！",
             "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/50opAau08FbCqo8oaUOsIYBabKtklpFVSV0soYsmSGv1FgL8U8l7LTq0ffVuOhTsQavJskXiaia4kHibpuJ3rnSKXoBKMlxGtMlDnmJiavdibwjQ/0?wx_fmt=jpeg",
             "date_modified": "2026-02-27T09:53:34.000Z"
-        },
-        {
-            "id": "m3vrsys946jaUGq0Lp4vRw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/m3vrsys946jaUGq0Lp4vRw",
-            "title": "腾讯TEG存储团队2026校招补录，正在热招！",
-            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FZUlYU6w8SLTic3cICkK6J0U3BiaG4YcTcNgicKP1qd2jAkuiaE9wq57E7IM5VjFbjaS5sxIvvWoWCeRiccSGNiaTfwO9nJew2uqUupQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-27T09:53:34.000Z"
-        },
-        {
-            "id": "y8h5ugxjCsp-8pqjRJfEOg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/y8h5ugxjCsp-8pqjRJfEOg",
-            "title": "元宝校招补录&实习生招聘，多类岗位正在热招！",
-            "image": "http://mmecoa.qpic.cn/sz_mmecoa_jpg/50opAau08FbSnSZico55l9WFWgMzz8yTWiaCXTiadzAuCxbuCQ0AMMuQq8oHSyKlkJBpKR6QsRQmstKUZQht75SStn6QRt8leY4A5v1sLGKCVU/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-13T03:31:04.000Z"
-        },
-        {
-            "id": "VPM1dlxQYDYEe6hS70CPcQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/VPM1dlxQYDYEe6hS70CPcQ",
-            "title": "社招 | 元宝正在热招，和腾讯一起探索 AI 的无限可能",
-            "image": "http://mmecoa.qpic.cn/mmecoa_jpg/50opAau08FbU0ZCD5tXF53iaLsCdpJkiab6iaXV3kqCn8FcGFrc1uUCYqaF7rykMP0XnIVLicb2IYEFDhKib7tbJLfIYicyb4KYxKm4hoAXkN8UOY/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-11T12:01:06.000Z"
         }
     ]
 }

@@ -10,6 +10,308 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "BBySdR4uz9ybhcB0lak3rw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BBySdR4uz9ybhcB0lak3rw",
+            "title": "精打细算虾养成指南： 省 Token 和把 AI 用好，从来就是一件事",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz904HBoedWiccVA0nia5VDFA58tibjOJ68ibo4nasp3skJlqfAa62DLMeZzUEiaQlRCIicoia6bCqXcDhrMGiaxbIFQMNlnIrhru3HpGQO2k/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-08T09:36:32.000Z"
+        },
+        {
+            "id": "LGo7daiYYRf1r_YY3r-cXw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/LGo7daiYYRf1r_YY3r-cXw",
+            "title": "从Vibe Coding到Harness—— 一套大仓AI工程化实战",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz906zibCK7ibnolEYiadVQhfAd8icOVz68S2ic9gOPAg7cCLyWqJTVzicxGYNcZckU7eCptDIH4yeRjWCm5A5UcCdtwO830BpwYRibHj7xs/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-07T09:40:23.000Z"
+        },
+        {
+            "id": "h06MS8Ps5VvOxLPV3MZPLw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/h06MS8Ps5VvOxLPV3MZPLw",
+            "title": "腾讯混元Hy3发布：Agent能力和产品体验跃升",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz9062IdkEDBU4FaluuO4uQezUIo7loOzyZibnvZbRywyxF2PcAfywJKfcibPbNfFeEw3bD1xYvOUS4zwLYhDem12F6NdQa0XpnMVPA/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-06T08:05:38.000Z"
+        },
+        {
+            "id": "UE-RZH9hnbBd06CVapFGrA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/UE-RZH9hnbBd06CVapFGrA",
+            "title": "从AI Coding到Harness Engineering的端到端工程开发实践",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz904jkrUB8mKxNSVicpFy4rGAFicnia4Z3bQeObtxfLhcFwkVgTPNt6zSjl8DySrlHNgn2PtEOJSzkkL8qqyNdzJWO6KP2Aia0x6baVE/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-03T09:37:26.000Z"
+        },
+        {
+            "id": "ddwgM_jm1kD9JZyEK4ZTuw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ddwgM_jm1kD9JZyEK4ZTuw",
+            "title": "五块钱如何花三天...\n\n\n\n\n\nhorsley，一位腾讯应用开发高级工程师\n\n从token 焦虑到系统化治理，horsley这次想分享的不是几个省 token 小技巧，而是额度收紧后，团队怎样更稳定、更可持续地使用 Agent。\n\n要真正管住 Token 成本，不能只靠临时节流，关键是先把这四件事看清楚：\n\n\n一，真正的问题是浪费不可见\n很多 token 不是花在难题上，而是花在黑盒里的绕路上。尤其在 IDE vibe 里，外部只看到结果，却看不到 agent 有没有选错模型、反复读旧上下文、工具失败后重试，或因为环境问题绕远路。\n\n所以第一步不是让每个人更克制，而是先把浪费看清楚。\n\n常见的四类浪费：\n（1）任务和模型不匹配：低复杂度任务也默认上顶级模型。\n（2）上下文越来越厚：长对话里旧信息、工具输出、历史判断不断累积。\n（3）工具和 MCP 太吵：日志、测试、命令输出里大量噪音被原样塞进上下文。\n（4）失败反复重来：依赖缺失、参数错误、工具失败导致 agent 一轮轮尝试。\n\n这些单次看都不大，但每天反复发生，就会成为账单上的大头。\n\n\n二，值得花和该治理要分开\n复杂设计、关键判断、疑难排障、探索新 workflow，这些 token 花得值，因为它们换来真实进展。\n真正该治理的是模型错配、上下文膨胀、工具噪音和失败重试这些低质量消耗。\n\n\n三，个人经验&平台能力\n现在很多节省方式都靠个人经验：谁知道该用便宜模型，谁记得哪个 prompt 稳，谁的机器工具链更顺。但换个人、换机器、换一轮会话，经验就容易归零。团队不能长期靠个人自觉控成本。\n\n长期看，省 token 应该从个人技巧变成系统能力。平台至少要做到：过程可见，能看到 tool call、失败重试和 token 花费位置；经验可沉淀，记录任务适合什么模型、prompt、skill；实验可回放，在同一状态下比较不同方案；环境可统一，减少本地差异带来的绕路。\n\n\n四，两个启发\ncaveman 说明输出也是上下文，少寒暄、少复述、结论优先，可以减少后续语言垃圾。\nRTK 说明工具输出不该原样喂给模型，而应先过滤、聚合、截断和去重。\n它们共同证明：真正有效的 token 优化，不靠人临场克制，而要做进 workflow。\n\n\n最后共识\n先把不同浪费拆开看，再承认只靠个人兜底不可持续，最后再把可观测、经验沉淀、模型分层和工具治理做成平台能力。这样，Token 成本管理才不是一场临时省钱运动，而是一次真正的工程化治理。\n\n五块钱未必能花三天，但至少要让每一块钱花得更明白。",
+            "date_modified": "2026-07-01T09:54:51.000Z"
+        },
+        {
+            "id": "xVSkRLIYP0Y9Q9ia-Co2Xw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/xVSkRLIYP0Y9Q9ia-Co2Xw",
+            "title": "AI+ Kuikly：7.5小时落地三端「多模态聊天 App」实战",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz907VkBvjUSiazedaEa0CQH9eTB0qALAKR5ffWGU5TKqOygHIw9n0IOD8hF1NNCYiaUgBMIh6zDHz9xIliaVUfj8sm0N01CPjmJvaJQ/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-30T09:44:38.000Z"
+        },
+        {
+            "id": "uhc7_-0Vm_cw9p17b9VyJA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/uhc7_-0Vm_cw9p17b9VyJA",
+            "title": "开启Harness Engineering探索之旅",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz90626sjIWc4PZhyeC3xI7IYTVgKY73LM0BJa9ZRu7SoFicsAK9ZGOMlgyX4bXmvBZxBicSlfUJiaWlE2Qq47iagN5ZJiabovnChkyOsY/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-29T09:37:23.000Z"
+        },
+        {
+            "id": "miAOHTBZLyuDfNle1jrO0w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/miAOHTBZLyuDfNle1jrO0w",
+            "title": "腾讯混元AI Infra如何优化Hy3 Preview：一次大模型推理性能提升的技术拆解",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz905w9BuUXrAicj6gpIyNy7sGAibAIkQwO8LXQ9xibZP5PcP1nJicrjWPTQpYuX7U5FQp93p2G5loL9rbKhVP6iaPJhxeSI0nMOPB9yf4/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-26T09:37:36.000Z"
+        },
+        {
+            "id": "Tdxv-6MM1OIzWwxelwXPBw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Tdxv-6MM1OIzWwxelwXPBw",
+            "title": "鹅厂员工当年高考都考了多少分？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz907U0RGibEEmngoefzCE98NOTribmCqyhHibpTNyaMZoiaCzVxOldPBPA74cmLD5rRQscUycfFz6xupoaSe3ACnGbw7k5jYS9yFd5RY/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-25T11:36:04.000Z"
+        },
+        {
+            "id": "uZb1DpQjh1zPQ-wOhIv5gw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/uZb1DpQjh1zPQ-wOhIv5gw",
+            "title": "从0到1带你速通 Marvis马维斯",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz907tBGPddnkVK9nZnHHzvhwGFSoNeicJbmxhTAZUL05jwsB3InMIeenS5Y0ibXpuFfroSh1BvGibolwpNL7qDrJS6FaUetdaMpUXKM/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-24T12:20:53.000Z"
+        },
+        {
+            "id": "1JumxmeZn6oXn3GgERuUQw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1JumxmeZn6oXn3GgERuUQw",
+            "title": "2026腾讯犀牛鸟开源人才培养计划正式开启",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz906nehQfE12pShMK1sXRuhz2R8b4npVzK7Ro2yzj96YICftPZkTm8uc7EoHA7By6hVINJqxcS5CN1AWpEuVkc39tLcvOossiaa6k/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-24T12:20:53.000Z"
+        },
+        {
+            "id": "1dUfjAM1sr-Ja_Ad3LPT9g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/1dUfjAM1sr-Ja_Ad3LPT9g",
+            "title": "你讲卫生吗？ \n \n \n \n\n\nEnri，一位腾讯AI产品工程师，\n过去半年Enri和大模型打交道，最大收获就两个字：卫生。 \n不是物理卫生，是交互习惯的卫生。Token 越来越便宜，但你的注意力和决策带宽不会。脏活干多了，模型变傻，脑子也跟着乱。 \n\n以下七条实战经验：\n\n一、锁死模型配置 \n很多工具默认\"自适应思考\"，实际上它会让Token 消耗失控。正确做法是固定配置：推理档位锁死 high，关掉自适应，思考预算设上限 32K，关掉超长上下文，设定 200K 自动压缩。降智是你没把档位锁死，不是模型变笨。  \n \n二、固定内容别动，利用缓存 \n模型对完全相同的输入前缀有缓存命中机制，重复使用只需十分之一的费用。长期不变的内容（如身份、业务、输出偏好、原则、约束）固定下来，不要每次重新组织语言。临时放本次任务、材料、目标、截止时间。变动的成本远高于你想象。 \n \n三、别喂 PPT \nPPT、Word 这类复杂格式文件包含大量排版控制信息，喂给模型会消耗 80% 以上的无效 Token。先转成 Markdown 再喂。格式是给人看的，Markdown 是给模型看的。 \n \n四、别让会话变垃圾桶 \n超长会话堆积历史日志和工具调用记录，模型翻旧账，又贵又慢。换任务就开新对话，跑偏了重开重说背景，距上一条超一小时也重开。只有同一任务连续推进且不足一小时，留原对话才划算。 \n \n五、让 AI 看一段，别扫一片 \n用 @ 精准指定文件或函数，别让 AI 自己扫描整个项目。@文件名引用文件，@函数名引用函数，选中代码直接改。改一个验证规则从扫几十个文件降到几百 Token，差距是几十倍。能 @ 函数不 @ 文件，能 @ 文件不靠扫描。 \n \n六、让模型先问 \n告诉模型\"你一次问我一个问题，帮我把思路理清\"，等它问完再整理成文档，产出的 AI 感会弱很多。或先问\"你需要我给你什么信息才能完成得更好？\"，让模型主动暴露你的盲区。让模型先问，比让模型先猜便宜。 \n \n七、把想和干拆开 \n用顶配模型讨论方案，只出方案不动文件；然后交给便宜模型机械执行。顶配模型不需要读取整个项目，消耗降 3-5 倍；便宜模型不思考只管干，Token 极便宜。机械的活交给机器，思考留给最贵的脑子。 \n\n这些习惯不是为了省钱。Token 会继续变便宜，但你的思考带宽和注意力不会。AI 太便宜反而容易滥用——一十个 Agent 全开，扫整个项目，无限试错无限返工。 \n你的决策带宽有限。对自己前额叶好点，注意 AI 时代的工作卫生。",
+            "date_modified": "2026-06-23T10:45:02.000Z"
+        },
+        {
+            "id": "YqIyL7uW4EV2r5HLDW7wcA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/YqIyL7uW4EV2r5HLDW7wcA",
+            "title": "Loop Engineering 实践指南：在 Code Buddy 中构建自主循环系统",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz906NjWbW9fb7bSyM329L0VtXtibAaEsAzl5aAMf0Mj5A9obCPqicVC6yVZrIJQky0yfR91DWicOlLCkjvumZfNZklmvBXNrmI5CAWA/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-22T09:22:58.000Z"
+        },
+        {
+            "id": "kAPx6ZxXxpTyRi-hYAbqtA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kAPx6ZxXxpTyRi-hYAbqtA",
+            "title": "你的 Harness 工作流真的在进步吗？我们用一场考试撕掉了遮羞布",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz906yLicFicu38vURmYibn0aoFY0z3QeEuk0iax3gwD67K3OiclCLQUaypAm7iaHV9GtulAnGJUl7wRlvvyIAeCEwen9BdicCw4HHUPx4mk/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-18T10:20:15.000Z"
+        },
+        {
+            "id": "V727TpGvRjo5RvYRGZl6oA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/V727TpGvRjo5RvYRGZl6oA",
+            "title": "拆解大模型几项核心操作背后的数学与 Infra 优化逻辑",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz905ia76VjjQGjG0YIYZh4IzgMA9zpU9ickZtiaHQ4m8wGsibff116HCrFNt0grpQ1bic3YotibG8HhRwNv4sXNI8tEbzicAo0oWBNPwZwc/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-17T09:33:19.000Z"
+        },
+        {
+            "id": "m9AkFQe5qacNNo2F5oQ_zQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/m9AkFQe5qacNNo2F5oQ_zQ",
+            "title": "AI 真的能帮你微信下单了！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz905KuJzzP6wemgJ3piaC7ZibtRjTJzkGF4TfltpWTxI7KQGSn7GvqGicrKYwOeBfgbclB8pm6vkJkqJRaR7nckODWFrhZ8l5UMfZL4/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-17T09:33:19.000Z"
+        },
+        {
+            "id": "PUbGqheJhFMmb6hGj1ZtOw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/PUbGqheJhFMmb6hGj1ZtOw",
+            "title": "AI Agent & Skill 测评方案及落地实践",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz906M72615UyOLbfb785d2hXpOFcnev0icMXfSoDsyhNeYh8JkYQNrZLY4nRTQalEf0JzL2e1CRJMy5NtC2q35xYZPnDP58Svp4J8/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-16T09:34:26.000Z"
+        },
+        {
+            "id": "VE8SeibOtpHHYypKQw1TAQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/VE8SeibOtpHHYypKQw1TAQ",
+            "title": "谁是 Agent 最强守门员？首个 Agent 技能安全评测基准 SkillTrustBench 正式发布",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz907gPl47451s1Ug2f4SfiarEpHyuXZR6XM3Nc9CYpdict6qZZnnu5vLRTDSUerv5THLcK4rVgeqf780LP2gT3icDze2gl7gTL6qgBc/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-16T09:34:26.000Z"
+        },
+        {
+            "id": "x8ssQ-trmIqHMPlvQSE9SA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/x8ssQ-trmIqHMPlvQSE9SA",
+            "title": "一篇搞懂 AI Coding Agent 的 Token 成本控制",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz905QlibkFZjjzceqhbMSkUiaWzjtmKRj72dRhwQdibYzGeOsh1WOTCcbOgiamYxw1uZdrWdC64haiaw2Z7BgxIZTsJAUmKj9OfveVV24/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-15T09:28:30.000Z"
+        },
+        {
+            "id": "SdgzbUY2Rxk0fD48iaKXdQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/SdgzbUY2Rxk0fD48iaKXdQ",
+            "title": "微信测试团队斩获 CVPR 2026 NTIRE RAIM挑战赛冠军",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz907flb3hKgSIgYdKNpnKuRvxSX9sHgh8gVD5MscicQxM2cUAPnLWN5qM6CjsdhS9I5jUImJXaTMjQibico5bS71OMqZLbxJiaLhEcX4/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-12T09:36:56.000Z"
+        },
+        {
+            "id": "qwvaDL0vsY5MwMGCtSHd2g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qwvaDL0vsY5MwMGCtSHd2g",
+            "title": "腾讯混元AI Infra进化：HPC-Ops推理核心算子全面升级",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz906m2f5jdzsvWniajo553nahPD5bptibibuTlEYVSH0TIAfB9wUla3ge3RCbbIIrnPoyJcNFzib7ia41ZjRJx8N0ouoWlRhGMA3qcEEw/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-11T08:20:26.000Z"
+        },
+        {
+            "id": "91s_klZ1CTR4eEW2JnMGNg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/91s_klZ1CTR4eEW2JnMGNg",
+            "title": "跨端页面秒开，腾讯开源框架Kuikly是怎么做到的？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz9053GB9RPKV0WI4nVyfQwtMKI6YMkqJ52c930f1zySNnfQRnjtRcNu27ZxMSiaicgSvMWLutk04ExeGibRWiaATRRkq4pXdPSlVhYa4/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-10T09:38:25.000Z"
+        },
+        {
+            "id": "qcJzolklDZnJFdDBti8XfQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/qcJzolklDZnJFdDBti8XfQ",
+            "title": "高考那几天，鹅厂员工遇到过什么至今难忘的事？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz907A9Q4lnMWyIMhPMiatFiapJEDxs34eb36W3eHSsp0cQswuDp1Xl2E0NZIqQNWyOQMTMJkKHp3C7gbRDNAAHumN7PspczlgJjaak/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-09T09:41:48.000Z"
+        },
+        {
+            "id": "BQwyvE2qIfguwKk63F3LZw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/BQwyvE2qIfguwKk63F3LZw",
+            "title": "横向拆解Claude Code、Codex等六大Agent上下文压缩策略后，我们做了第 7 个",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz904icjO7uu7V3eJl74ibrHT6Op7KK36ibT9b6ubsbMGr4T9uqOlDic27J7Anp4vMYj72eb4wPNATNKZacQLSS8DRUOWlspZ9jpweJWg/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-08T09:37:04.000Z"
+        },
+        {
+            "id": "SZv3pDXPrL9vwV3Ua_84Kg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/SZv3pDXPrL9vwV3Ua_84Kg",
+            "title": "如何写好 Skill：一份终极实战经验手册",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz905r5ia072TZfibiaYl16fldibK0L4R57K9n52a9HnvjeDK1krGuRzwC4uxgbrk4OomqRowAtQBYsYht6ZkWPR6RAU7yajJvku8ouwI/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-05T09:37:15.000Z"
+        },
+        {
+            "id": "4EI3b2-U91Qf4rqLGcwhDg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/4EI3b2-U91Qf4rqLGcwhDg",
+            "title": "还在好奇鹅厂人Vibe Coding了什么东西？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz906F9GgPBRweeaibLRB4TMVOicuPUBzibGXskM13gibuiahPzrxtMVXEJkXX0sbWyFAEJ8OoicgicuFclJ3RD0TRcPhNDMibibP0X05UD1bs/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-03T11:03:04.000Z"
+        },
+        {
+            "id": "sCmRKJjTpdB4k3145OzZMg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/sCmRKJjTpdB4k3145OzZMg",
+            "title": "深入解析Chromium的 AI Coding 开发体系",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz904o0zd84PQ1pK7iceYTeM3pW3J4GSiau7ibX7ClSI9OdSkGxFwlMtvMmYvU7tMLAIB5wa16x6z7o8qhYjmEKdxFJ3Sh8W6jEG510w/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-01T09:36:59.000Z"
+        },
+        {
+            "id": "49dxdMXEUoWIYlIh8fFqMQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/49dxdMXEUoWIYlIh8fFqMQ",
+            "title": "OpenClaw与Hermes：源码里的 AI Agent 架构知识大复盘",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz906XyZv2eeteOsahxaLuPwg2DZ7eO1uvfK2roibh5icwI3dbVBxza56tkSjrkpGO5SPTIWNfMmewW9DY7MwL3NQ0CTzUw9yNnOrGk/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-29T09:36:47.000Z"
+        },
+        {
+            "id": "ooTYAzFvxC4PCQ5H82dRhQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ooTYAzFvxC4PCQ5H82dRhQ",
+            "title": "Harness 的尽头不是缰绳，是镜子：AI 时代最沉默的那场革命",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz905yDYUR4exdg0sPSnBe0dXHHZpqu9cQ6aULbgwTIPwlVbibrYMLmPVxpunVTTNgLXquSiaRyKR4v5IaIOGrdRTuSsPYbgEBCgnaE/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-28T09:38:03.000Z"
+        },
+        {
+            "id": "Va7Zgmz0s_F2uxC8qSCdzw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Va7Zgmz0s_F2uxC8qSCdzw",
+            "title": "Marvis 实测：6 个 AI“牛马”扎根桌面之后",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz905flA1sKFfwhF1tlyF1aH9sxezJHNRwIHnicmbIAAsbHFJ4IETEBRIanibDibp5te6z9nGKDwibpaaFNQmf61H14GiamwicL79HsJkm8/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-27T10:02:02.000Z"
+        },
+        {
+            "id": "yy_2UQB2NJdkEhDJiKz5kQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/yy_2UQB2NJdkEhDJiKz5kQ",
+            "title": "从3632个漏洞看AI时代的评测基准重构！VulnGym基准发布",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz907dbuiakqQ2ApNbcWxdNKCkABr3lViaYy2ficEInI9ca45UmJUjjs6UJWXuI5shjibfiaAJFdzIgMicxsVlJ7c5qV9uxEqZsdXAYfna0/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-26T09:32:36.000Z"
+        },
+        {
+            "id": "gCRMjGry2EmBmv1CFfCzVQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/gCRMjGry2EmBmv1CFfCzVQ",
+            "title": "AI Infra入门干货总结：大模型是如何高效推理的",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz9052MxYfxQsCibfj0jc833YryZxibJevoGic2tsUP4fRA2JKhskQ6Zr5acVb7vqxy3UKSspKvMkclZSV7CWhjiaqIBlnrqibZXce9f5E/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-25T09:37:16.000Z"
+        },
+        {
+            "id": "2FvZeKtllqguaYLKD5Nw3g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/2FvZeKtllqguaYLKD5Nw3g",
+            "title": "斩获冠军！清华 x 腾讯混元登顶 MLSys 2026 MoE 模型推理优化竞赛",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz905HGHibZlnCf8hMbgp0zI4zxgDdhYxbB8ex8xserxDg1gJJibqibdx7gvOub5d3OcmicNnk2lRASdicoGXhqibNsqHolPo4lGW57ian88/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-24T04:00:41.000Z"
+        },
+        {
+            "id": "MSXKfefrqM31q-7WXIqCEg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/MSXKfefrqM31q-7WXIqCEg",
+            "title": "腾讯云Agent Memory节省61% Token提升52%成功率的诀窍：Mermaid无限画布×上下文卸载",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KVER9adz907Ptk7c9aI29oktD35yFQ4aY6hYGv5CDn4opY1bABdJZsjZAS04ibk9RqbNaqMSzBeWQ1xJU09rM38B9bjo6VdZGtKtYkhTWBOM/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-22T09:37:23.000Z"
+        },
+        {
+            "id": "Kkx247EjYGTwcvniAPMlbw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/Kkx247EjYGTwcvniAPMlbw",
+            "title": "三个关键词，2026谷歌 I/O大会全说透了",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz906cep3aUqElTa6L9mRVXFPvMSE59fQdUjZOKFDRLB4gI4Ka0f9jI4WfXXiaJ9oNnpb4wiamnR0f5z5V39s52XNibN4pURuiaiasa3ia8/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-20T07:25:43.000Z"
+        },
+        {
+            "id": "dIO7APJrm3AzIIgwJUMf5Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/dIO7APJrm3AzIIgwJUMf5Q",
+            "title": "给程序员送什么，会让他炫耀三天三夜？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz904jDZk7JlzGNjZ06WAxC9yJ3OwyCnxZscNxxmibjlm7IN962obauUiboxd2LvEqIaKldOziahlsa0Gtf3uM7ZjlIdhr87ia2abu18o/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-19T11:16:33.000Z"
+        },
+        {
+            "id": "5f0I2apY4oFsHrttANBOJg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/5f0I2apY4oFsHrttANBOJg",
+            "title": "从0开发大模型的17种Agent架构演进详细拆解",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz904mlTY41PcTKqibOktmnEticzGIQAtZMZx9an3pjAYjmhRvIeG5iapPDc7vAEtDlVDkFTFYJlyvrfibicopCq5vQ1YfbOibMO34l1NjM/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-18T09:40:21.000Z"
+        },
+        {
+            "id": "IeI8zD8YmCON0BN0YCMu1Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/IeI8zD8YmCON0BN0YCMu1Q",
+            "title": "腾讯混元推出轻量翻译大模型，无需联网，手机直接运行！",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/KVER9adz907EKeqSHpm6AcsysWCU4rDmpuvpPWsic368X03BPJtemBO5CruTINJguWFkpHvicicoWfVpVyZEdOIgPqibVoibSmWcictM3YmT0WOias/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-15T09:37:16.000Z"
+        },
+        {
             "id": "bD10zbBeTtzMyEKqjIdT1w",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/bD10zbBeTtzMyEKqjIdT1w",
@@ -503,309 +805,6 @@
             "title": "首发！建议你一定要看的《AI 生成代码在野安全风险研究》",
             "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvasp48qZgBnriaJX07tnDTykX1ICFU2kvnzQBuouSf2ojKg6XtZdcj2hcRGHSPA6PKYz3HD2QH7NzAQ/0?wx_fmt=jpeg",
             "date_modified": "2025-12-19T09:46:19.000Z"
-        },
-        {
-            "id": "3PF6mgWiJWnLPmfNZYiH7A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/3PF6mgWiJWnLPmfNZYiH7A",
-            "title": "全面布局智能视频图像压缩，腾讯TNC编解码多项国际赛事夺魁",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavf2E3D0HNtiaYhJtkUiaMyqag6pjic5dXb201hkcKdtmbQZp9gxouqgjpqHgWBkrlg3mxmy2xORLsRw/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-19T09:46:19.000Z"
-        },
-        {
-            "id": "UGL3MtLXdyqcWkJYRVQQJA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/UGL3MtLXdyqcWkJYRVQQJA",
-            "title": "鹅厂员工闭着眼睛写出来的代码都有哪些？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvasp48qZgBnriaJX07tnDTykX4ZXnjhjNNK0Lo7NibtrQOibhlYA5ljpictEuTVU0nUJOIEa5RlcpSiao6Q/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-18T10:41:43.000Z"
-        },
-        {
-            "id": "m37YhDsKsQn2HWuV7LKwgg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/m37YhDsKsQn2HWuV7LKwgg",
-            "title": "破除AI Agent自主操控风险：万字解读LangGraph“人工干预”机制 ，附零基础实战",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauoOCicKvD6puYUXADeziblUTBd4O3UjHic5Bh8z3q1VRMlQ9p2PonUzfoteUbxDbHnQPocgor96OppA/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-15T10:18:40.000Z"
-        },
-        {
-            "id": "WXXKpVth8OJqvjrnS1m7Cw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/WXXKpVth8OJqvjrnS1m7Cw",
-            "title": "AI研发新范式：基于技术方案全链路生成代码",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauzwjqeE8Pe3jJVQo5l0srVbxicQW3np92JEkZ6GljibibsIP8W7KxnWMD9iaZyoeH9AXNSia5NSLicdGcw/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-12T09:36:46.000Z"
-        },
-        {
-            "id": "lPycwc28FXdQ5feYR9dY3w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/lPycwc28FXdQ5feYR9dY3w",
-            "title": "当你让程序员许愿...",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvasO41dBnice6mn697gcwD7P7Dic3akgd3xRZZzdjckxic95q3pgZQLbKcrl8yVVAEFKHPOxsjXLOFUxA/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-10T10:33:34.000Z"
-        },
-        {
-            "id": "sARM1GWhKQAHEInhEheZiA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/sARM1GWhKQAHEInhEheZiA",
-            "title": "让AI智能体拥有像人类的持久记忆：基于LangGraph的长短期记忆管理实践指南",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauzwjqeE8Pe3jJVQo5l0srVbVgw9o07JqruTjM39mTyMuZmCpvELISAThH7zjvrunyJWNc0ze9JTg/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-08T09:37:02.000Z"
-        },
-        {
-            "id": "TgMdemhYSDmmymejTd162w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/TgMdemhYSDmmymejTd162w",
-            "title": "构建知识闭环：用CodeBuddy打造自我进化的数据分析体系",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvaswlwfxHbicFLs0Yj50dwvoZwd0RbD44LEVZa5HMJerqeIXr2qzlOWhUUO1IqvncBUu7dgtxojC29w/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-05T09:31:37.000Z"
-        },
-        {
-            "id": "x2aixxjfGJvA_epMR9mu2Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/x2aixxjfGJvA_epMR9mu2Q",
-            "title": "看懂这篇，你就能秒懂 LLM底层秘密—Transformer原理解析",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvasNtAd1CJKCLbib4hz96KPGQqUkGcsrNu7bIIjbrNyficB7wrNxWOncVfAuaRrk8tbiaVLqQH41xIRjw/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-03T13:04:14.000Z"
-        },
-        {
-            "id": "mijKvAdCd9KFvKc_0kXBLg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/mijKvAdCd9KFvKc_0kXBLg",
-            "title": "从CoT到AGI：深扒大模型LLM“深度思考”的技术演进",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvat0UhZ5qhkOia9OabBzC8YQAsS80h0qKicexV3lV8vib8P5bNxibuEJILBegtQSKv59cUyehgOM7qgqng/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-01T09:53:23.000Z"
-        },
-        {
-            "id": "j6KDT-_YZRYXHNDXt_le7A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/j6KDT-_YZRYXHNDXt_le7A",
-            "title": "腾讯Bugly2025鸿蒙应用行业质量分析报告",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvat0UhZ5qhkOia9OabBzC8YQADLnaSgVibMnYDcPxleVbpIgkTlMwdEvNOiaLCWOdlEiayT784JTk3IRicQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-12-01T09:53:23.000Z"
-        },
-        {
-            "id": "WsxPPL2YKTMOIcCmg7NXXw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/WsxPPL2YKTMOIcCmg7NXXw",
-            "title": "2025必看系列：AI如何重新定义研究？万字长文讲透Deep Research",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauTxGicHcQwCSLTK9l1GCUTTwF7o0NVCChibPUmiaotguWnibw2ibh6TE5onXtRRmcBTiaGaYz3nnUt3dvQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-28T09:36:56.000Z"
-        },
-        {
-            "id": "zhASYhfXKaG4gfoUmMuWpA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/zhASYhfXKaG4gfoUmMuWpA",
-            "title": "鹅厂员工的“神之一手”代码都长什么样？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauTxGicHcQwCSLTK9l1GCUTTxfvFNJPwjePQgKEwTQskYIHrZAEMmEREysHhhZJnzPtIwib6GO0fHkQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-26T09:39:50.000Z"
-        },
-        {
-            "id": "Wc40b6sN6yduTx1bkw7qcQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Wc40b6sN6yduTx1bkw7qcQ",
-            "title": "深入AI Agent内核: Google gemini-cli 源码深度解构",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvassJUicu9uictHibG8Ltvnwxq37NmicarkQbh7QtKbF3HuaRGsu5jEtLOksgEYJviaftXPOtsNdMGicnc2w/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-24T09:38:57.000Z"
-        },
-        {
-            "id": "hFejZCXex_nw0Nrg-egP0g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/hFejZCXex_nw0Nrg-egP0g",
-            "title": "这大概是我见过最通俗易懂的AI发展历程科普详文了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavSZsbSmdnMumMXZibBPGboKFUhg4a6e73MSKU27z4P8erWWJibTVyZAib9pdwm2bicWZnPMOwicL7XsnQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-21T09:36:54.000Z"
-        },
-        {
-            "id": "ANHLk4x2KzTVi4cwWl6OJA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ANHLk4x2KzTVi4cwWl6OJA",
-            "title": "《程序员年度最热prompt》",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauy0Iqdpg3Cb2XeL1jZI5v0F0qicIbls4Ao1ykUibIkhByncv1R5QiaudL6hwZlZPdsbspKQnk0OeAUA/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-19T10:04:10.000Z"
-        },
-        {
-            "id": "IBiMj2QSjS8CI0hGmsANtw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/IBiMj2QSjS8CI0hGmsANtw",
-            "title": "一看就懂！AI 核心概念速通指南",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvatDnicy7B46kKPSicvhaGE2B9vSdGicMpnmQOJEetxpEia1kWveWib5h2P2n7CTesv8iaR94cAwHMickL2Bw/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-13T12:49:27.000Z"
-        },
-        {
-            "id": "k6TZUYFndo4tGrVbSUrn0g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/k6TZUYFndo4tGrVbSUrn0g",
-            "title": "2025年终必看：开源大模型哪家强？9大模型架构演变历程一次性看明白",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauPEQ43Rjs4faltKgyPaB4Dj2S0WL5gmFygSRIQLzAgjkF93FdJoMmvIIDux8D5PfWOyt8vPBs6zg/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-10T09:43:05.000Z"
-        },
-        {
-            "id": "jggBSOy6zzsq88K5i22Omw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/jggBSOy6zzsq88K5i22Omw",
-            "title": "获NVIDIA致谢：悟空Agent的实践、复盘与迭代",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvasPIoguMrvgOia00y5n8fEMXOAR8KNg7JkYZeVXRZd1zRu594uqZcB55bSvLmdO5KnIaHgHJMbNQPQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-07T09:38:12.000Z"
-        },
-        {
-            "id": "oxR-hHHupk2P8Enf4dlEvA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/oxR-hHHupk2P8Enf4dlEvA",
-            "title": "微信测试中心刷新业界标准，斩获 ICCV 图像质量评估挑战赛冠军",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavBw8mCHbRECRtA0yqicEKibmxDqucrDT7Z04ibk7sC4umqkYSXoXfW8f077VMCXXibIxvVmakcsnK5ibw/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-05T09:36:39.000Z"
-        },
-        {
-            "id": "8vtvgMWJTeDhb1jFnmehew",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/8vtvgMWJTeDhb1jFnmehew",
-            "title": "偷偷用！看看谁还在辛苦“扒录音”？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavBw8mCHbRECRtA0yqicEKibm6X1h9MZIOx5H3pwzD8FbRnYSKpoNjhCLr6calcZVacQSN6pUmSzVCQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-11-03T09:41:51.000Z"
-        },
-        {
-            "id": "4aTx74h5h0kqPXxg6U0_zw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/4aTx74h5h0kqPXxg6U0_zw",
-            "title": "腾讯发布大模型思考早停算法SpecExit，效果无损，端到端加速2.5倍！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavxJic6p9uBmiaXUicP4tjAddXEhMde7LaP8AsP3teeJN9eCOXPV5icuMYt3PFIaKBR5cicwaLiba9TUMPw/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-31T09:36:41.000Z"
-        },
-        {
-            "id": "5H78_gJb2Z2rLXMHdfGtmg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/5H78_gJb2Z2rLXMHdfGtmg",
-            "title": "鹅厂程序员的键盘都长什么样？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavIJ9NotvuFm3u1SYenMLUeBRZLkX9xjwd2PQ6k0lNy1eX9epohPZMJ1OHGlfQJEd63Cbp408e1Ew/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-29T10:12:17.000Z"
-        },
-        {
-            "id": "6sP3rHIfFzFPsW2k1MzvbA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/6sP3rHIfFzFPsW2k1MzvbA",
-            "title": "AI编程上瘾指南，一天不用浑身难受",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavxJic6p9uBmiaXUicP4tjAddX6tAowW93T7jGUia85flHcseHsfOT0qaFmGbfMs11ZnYgiayonWvibHBqg/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-27T09:37:20.000Z"
-        },
-        {
-            "id": "gyxOBtkt1Cxb9tkzLLHzzA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/gyxOBtkt1Cxb9tkzLLHzzA",
-            "title": "糟了...敲上头了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvasQhNQEYOIXk48RPOZhgRNzxMmHiaHkzgfibo6hk74cricuMPyjBT8EibREHnN7BKKThfqm2Hl09rhLzg/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-24T01:07:40.000Z"
-        },
-        {
-            "id": "-uksKQxbslB9qVZNalGtzg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/-uksKQxbslB9qVZNalGtzg",
-            "title": "前端真的比后端简单吗？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvau6s4qWae0Qc9StrYoFibUnJ5DO2UEdM3MuvyLHggnTbic9ukIo2KwJ1IJJpkcjzTb3f31OllWVt1cA/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-22T09:56:31.000Z"
-        },
-        {
-            "id": "qyCLff0WG15bEQvjodF-GQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/qyCLff0WG15bEQvjodF-GQ",
-            "title": "一文讲懂Agent及其主流框架：自己想、自己干、自己复盘的才是好Agent！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauNZyziaHia56WajsqXbwHetmEJ8LgSnJm2ibFThTl9fcbqygr8u0vY6FNfOez6MnOypUMibm7ic1Ug7TQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-20T09:36:45.000Z"
-        },
-        {
-            "id": "Ulz-xY30226F-fDi1HEZtQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Ulz-xY30226F-fDi1HEZtQ",
-            "title": "有什么事情是当了程序员之后才知道的？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvav1t1pv3Xr47R5sEHwGEicKEFpwiatyPhxDKVPUOAic4rO0jYicpdju7VLryXumaJ7rY9xP8X0d2vIAKw/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-15T09:51:36.000Z"
-        },
-        {
-            "id": "CkqyzHKarLmkWs0x963QOw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/CkqyzHKarLmkWs0x963QOw",
-            "title": "24小时快速入门大热语言Rust！学不会来找我",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvatvwLEbpbUjYCA91icp5YIWLU1jZhesHYJTcC2KQVlABHYE0NicyQPFR4r3TQJZqzSXSuTicl0KrgU5g/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-13T09:36:57.000Z"
-        },
-        {
-            "id": "OOvXiZbUojt4M5NwRMgmvw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/OOvXiZbUojt4M5NwRMgmvw",
-            "title": "tRPC-Agent-Go：构建智能AI应用的Go语言Agent框架",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvatvwLEbpbUjYCA91icp5YIWLYG19L5hvBCKMEYpoWnoZSA6kTNHiavTWqlGUwhRNZbnHJJ5YlDpGBmQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-13T09:36:57.000Z"
-        },
-        {
-            "id": "3OJw_eM6M25vP0dS0B1lhA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/3OJw_eM6M25vP0dS0B1lhA",
-            "title": "腾讯发布1.58Bit大模型量化新算法Tequila！突破\"死区陷阱\"，效果性能刷新SOTA",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavoeTqBZiagIg0LhdiaqavQKYkDNaD9c0RQRFyH5YnPJ1ocCBwCsPmMr8R7zxc9vgk8WUYwm8nlbniag/0?wx_fmt=jpeg",
-            "date_modified": "2025-10-10T09:37:15.000Z"
-        },
-        {
-            "id": "UNBeItAesrVK7CR0ynAQNg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/UNBeItAesrVK7CR0ynAQNg",
-            "title": "10000+免费鹅厂中秋红包封面！速抢！！！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavdKopZ76pMjWgYDR2zoibzfEHWocwhrVC9ic1OP93A11HQFOqb2lNJpNObiaefNE7iaicnJS5yjvnNbhw/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-29T10:56:12.000Z"
-        },
-        {
-            "id": "fDb82xdDKk9ONGCKvDialg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/fDb82xdDKk9ONGCKvDialg",
-            "title": "微信开发工程师总结的20条C++性能陷阱与实用特性，读起来很过瘾",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvauVo2fuO8GgoYC7rV6Uy5ONLh0fLgwYibibX3wyuanVoulicGDNPlPCO3HJFM5W98fsZK9Cb99dAS56A/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-26T09:36:45.000Z"
-        },
-        {
-            "id": "2WIhtwdjE-FMOHn_5CjAKA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/2WIhtwdjE-FMOHn_5CjAKA",
-            "title": "00后黑客落网！曾运营大型僵尸网络，频繁攻击腾讯游戏、DeepSeek、X平台",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvasvQX5X3Mmdy6hW5f3NNeCShY2eAQicWnSu2PwcUbxyxhsVJ8sCdSictBP2ib6DKCFTPcT2LNk0k9WPQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-22T09:35:56.000Z"
-        },
-        {
-            "id": "x94x-E2sTipPrthl7vI_xQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/x94x-E2sTipPrthl7vI_xQ",
-            "title": "开源项目的死与新生！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvat59CBlQb7OxJ5Q3iamk6KvsMVssUiayQcibxMKpwicT4SGmxEsticjiavTcpjHV3f2R02v7YYPgbj3KJtQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-19T10:07:54.000Z"
-        },
-        {
-            "id": "tfLJ-Zaaw52v8hRjlpMszQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/tfLJ-Zaaw52v8hRjlpMszQ",
-            "title": "腾讯开源框架 Kuikly 再升级！率先适配 “液态玻璃”，原生体验更极致",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavGMy3ibzeVqVF2l7UBFmDYK1JCc5iaww5KJlq2iaX2ZVSGRafHDHC9Ib4pXVZ4ocaarP8U1dO2vgXicw/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-16T03:25:52.000Z"
-        },
-        {
-            "id": "hzBJuJkaMQmhyvnx6ON0Bg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/hzBJuJkaMQmhyvnx6ON0Bg",
-            "title": "大模型提示词技巧Prompt Engineering，看这一篇就够了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavu0sa2LVribMqMkPI2dwreUXQ5xhD2sqjk0T6ATBr8Av85gm3pvqaAdR3hegvWJKRUpbx8TuyBWTw/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-12T09:37:30.000Z"
-        },
-        {
-            "id": "gBjH8HBwvdqn8jXeKLjCFA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/gBjH8HBwvdqn8jXeKLjCFA",
-            "title": "不蒸馏也超强？揭秘端到端文档OCR模型 POINTS-Reader",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/j3gficicyOvavu0sa2LVribMqMkPI2dwreU1RwRB2iaJpCZ7PYZiajsxs2fwP9qia1SQQruiba4lMLzyvD8goMJwsuITQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-09-12T09:37:30.000Z"
-        },
-        {
-            "id": "bfeIcMbCXHSO32JHg05Sxg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/bfeIcMbCXHSO32JHg05Sxg",
-            "title": "鹅厂11年：一份写给高敏感的生存指北",
-            "date_modified": "2025-09-10T14:59:14.000Z"
         }
     ]
 }

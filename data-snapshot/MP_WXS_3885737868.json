@@ -10,6 +10,174 @@
     "generator": "WeWe-RSS",
     "items": [
         {
+            "id": "c8BymWxcopweHr11u7zY-Q",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/c8BymWxcopweHr11u7zY-Q",
+            "title": "Harness 工程实践：如何让 Agent 完成自主迭代",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz6vlpS4GFBtibQXiabMj152YGSibAVvj8YyCZU8xaLqKmSPuyScB0hgicuBexGgvVTPt8cSUSicJCiaG3hRKkbunjfYzVTxTOvhHfvTE/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-08T11:37:03.000Z"
+        },
+        {
+            "id": "tp2vHpCeeKYFA23tFzwThA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/tp2vHpCeeKYFA23tFzwThA",
+            "title": "硬核少年技术节5.0抢鲜看！四大AI成果首发，报名即将截止",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz75jbiaZDNnqdMRIchBnhSlTu60icbh3JVxxfLu0x0PCeQWTC5TcLvOzib3IMjUtciaRib2cxYibcGlgicDuChFlJDwplyib4fe2CLWufw/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-08T11:37:03.000Z"
+        },
+        {
+            "id": "0NuS75Bcys0xNCp9wNl8aw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/0NuS75Bcys0xNCp9wNl8aw",
+            "title": "从「不敢发」到「天天发」：AI Agent 时代的 CI/CD 生存指南",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz58iaKIOWSzkkgImpRbvpFD4s9f6qc10QlHqHT4Fz7Et25uibL3uluEfGK1n2kdem72TSAnzDu89VS8Jp4Gn4V0UNPYuG9ibTEZfs/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-07T10:09:08.000Z"
+        },
+        {
+            "id": "46wmaOdXD8gWQzD0BXII1A",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/46wmaOdXD8gWQzD0BXII1A",
+            "title": "为什么 Agent 时代，大家都在做 CLI ？",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz4DGfXXv6a9VEdDOXX0icFxibQYc0xpJUiaD7owPftibiarbG2lEs8wyhXnv1pYPs7RyUiaI7YJgeXiattR0HPlZN59I841wzliaiaSRY3k/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-06T10:09:21.000Z"
+        },
+        {
+            "id": "bsSBfvWyLUEdFHFZmFOckQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/bsSBfvWyLUEdFHFZmFOckQ",
+            "title": "为什么大模型的缓存命中率能到 90%？",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz6ydLnPn5ficruPEhB3XmzKnkJicnKa8yTI1R6cYggHXibLSkzUTfJsFIGQibKd6KrsQxDvLdaxUVzIW1ibfYK1qOLz0WORPJ9U9e3Q/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-03T11:19:21.000Z"
+        },
+        {
+            "id": "7a2L-GatYYwI6s1uK9mTjA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/7a2L-GatYYwI6s1uK9mTjA",
+            "title": "Agent 评测：方法论与体系设计",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz683Hn7hqFOnW85bx3LMWYALR9MjicCc37rloSH3klsHuO1JX3nBH7JErcDR21RicYO18DL5x7C995NahZkW66g4ibKW5xsSdFjDA/0?wx_fmt=jpeg",
+            "date_modified": "2026-07-02T10:09:16.000Z"
+        },
+        {
+            "id": "IHT_Apd5KccDnI8xprlR7w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/IHT_Apd5KccDnI8xprlR7w",
+            "title": "OpenSandbox 再进化：Credential Vault 让真实密钥不再进入沙箱",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz59lj6Tdr9MEIdLHWBfPpicYFibic48VLEhXNSZtY6RVyn1o54FqYYUVAmLW3MmKdvUcayOSyYBVkdY38ebicOLLDETiccb0nbqyuSs/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-26T08:07:49.000Z"
+        },
+        {
+            "id": "gVyOQ8mnG9Mpudj0czWS3g",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/gVyOQ8mnG9Mpudj0czWS3g",
+            "title": "阿里开源 Open Code Review：一周揽下 5k star，更专业的代码评审 CLI",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz4QLnkBgxRmgw24ib9Yo17oZuNC6l2V9v7fP9uYuXvM2pFiarrtqpqL5tShKuRFe8uXv325xrkicODkf1Ikibzfb1LbnujCatyhdtI/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-24T01:07:04.000Z"
+        },
+        {
+            "id": "JD70QNbDn7aOjoScS24CpQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/JD70QNbDn7aOjoScS24CpQ",
+            "title": "HappyHorse 1.1来了，现已登陆千问云、百炼",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz6ZiacR9zpicRnOUj1jk6ShF0G7y1haFqD1IW8GFjFpVUncEexqEqbg9q0z8W5KHKunLdAQR7PaKdEULebpQzZmZNz3F7lHgl5Kw/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-23T10:13:47.000Z"
+        },
+        {
+            "id": "ael7aIEoomk4AU84E-mpGg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ael7aIEoomk4AU84E-mpGg",
+            "title": "Loop Engineering 概念解析、思考与实践",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz6S6teY5R5dMWu03E3xZObdUkdLWGb273g2NMJBibc9nrjLzHHcuuSuoXk8iadibA64E6UnlbmPXqwNVVqreOic2Pbemff46ZibnArE/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-18T10:21:01.000Z"
+        },
+        {
+            "id": "XpSpAiWY-nXjw8d8QPbabg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/XpSpAiWY-nXjw8d8QPbabg",
+            "title": "后端架构 AI Friendly 的标准与路径：面向无人值守开发时代的系统重构",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz4KmFibLXrcicA4ncPOiacaIzpjmVB8rAG5fppmRyUgKKggU3PgaTB479z40uecFcvP3CCrnf3kWHzc4QVlKx3eWd18Ef2JGzZYME/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-15T11:27:21.000Z"
+        },
+        {
+            "id": "eqXwBatW2CzcAPXO9m3T3w",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/eqXwBatW2CzcAPXO9m3T3w",
+            "title": "Qoder 工程实践：当瓶颈从模型转移到人",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz6y873eohmU7vF5hHWsCbFDuibFUOu3gEWGHZyia1Tiaic28cibDsUicKTpuhpag0oOknHJuiaFibhZItI5pmH3ZR7j9ga817vgVI5KwRk/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-12T09:55:39.000Z"
+        },
+        {
+            "id": "HoStCq53XElBlbLU6uPTJA",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/HoStCq53XElBlbLU6uPTJA",
+            "title": "AI 不缺智商缺纪律：一场 Harness 工程化实践",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz6LX89DUobWcUPUx0Gia6g5zU82Nrv05gwuWwkJV1gEEPAx1icwLznuWzKOyecuHTG8MLQC1ENl2Beibiau6uUMuxicY5AKd3ARxxC4/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-10T12:24:35.000Z"
+        },
+        {
+            "id": "mSjb20PDsfiK88C9AQB7og",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/mSjb20PDsfiK88C9AQB7og",
+            "title": "Harness Engineering：长程自动化 AI Coding / Skills 开发实践",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz6joE5oChcJSbMV23Bc1G28hMFP1ot0iaN8JbS4gQBUvkMibJTgBGz8xMSvAZKSelBib62MFzAf0gtaGeLJiaKDUeAwDkXXwoncvjc/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-09T12:43:00.000Z"
+        },
+        {
+            "id": "fOONHtYDAJ39BojQxJ2-qg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/fOONHtYDAJ39BojQxJ2-qg",
+            "title": "重新思考研发基础设施：当 Agent 成为第一公民",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz5qDxrV6UMRAOAib4Bu62qOQOp5SjxfNcw8ibW9zpRicrwXpLST3cFz81L3SVJ74WMeJrm6gbeAibib3LjzwmvUkOQqCUvichBpRRE4Y/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-03T10:09:59.000Z"
+        },
+        {
+            "id": "ONYZFjxpIDgoRBSblLtGZg",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ONYZFjxpIDgoRBSblLtGZg",
+            "title": "Agent核心技术概念与范式发生了哪些演变以及背后的思考",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz5XPa1tS3iaR2aBWSmR8niaBmKCuzrtcXmNPtLNkIAGc7KN1qDLtkWPchUuAo8NFO06AGiaIb8xIiaFYdwajStoLRDVQiaaG0SztcVg/0?wx_fmt=jpeg",
+            "date_modified": "2026-06-01T10:18:53.000Z"
+        },
+        {
+            "id": "n4iqEWPfrok91b692nFTJw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/n4iqEWPfrok91b692nFTJw",
+            "title": "让项目管理也 AI Native —— 两个 Git 仓库干掉了周报、洞察和效能报表",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz5PoRtV8qiaia999LV5kVNyfHmJXtpJXQXmNeF07WBFiaFBfAA17Lia250Qsh89RBzLG48e6rhaibYjI7CCm6NKeJXMWxk2Nwb7bVj4/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-28T11:06:25.000Z"
+        },
+        {
+            "id": "pV-f8WzoYSDxpEUk0uQdFw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/pV-f8WzoYSDxpEUk0uQdFw",
+            "title": "从语言涌现到协作涌现：如何让 AI 产生高质量决策",
+            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/kN3t5R6pdz5UcSRkUr2OgWfOJUYGsooibNL895icsonkyCbIn6Xk7gicoucW9mMe2xiaTg5LlfH5GOMxxTsoibgJHlJLGpG8pVcZzsqQTibEBXXHY/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-27T10:30:01.000Z"
+        },
+        {
+            "id": "kGLsIvi70gRF3rO8QSH2Lw",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/kGLsIvi70gRF3rO8QSH2Lw",
+            "title": "近9倍训练加速：DiT里的残差流，正在成为收敛瓶颈",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz5KzfdibZicd9TkAywHOoDgiafdtgO4jSy1WA8bLYFlicaYTGZuNPxDolhNO0YfAssOvkQvTD0OIRhN36KpX8SpKpAiaA6uV28de4s4/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-26T10:50:39.000Z"
+        },
+        {
+            "id": "ILX8GGETM84-_rQssCZhwQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/ILX8GGETM84-_rQssCZhwQ",
+            "title": "从0到1搭建 Agent ：Agent 原理分析及个人助手实践（长文干货）",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz7fZn11UtXic0YdX9xe3hzdVt3krvatZmDS1TvIyduFRicyicmt3NxoS9RfaQwaOa1k4nBiaZicqGEgW68HHdxLrB2kjg5sfyrYFDSE/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-21T11:29:21.000Z"
+        },
+        {
+            "id": "GhLLVM3TgJXYPxR1WpTsAQ",
+            "content_html": "",
+            "url": "https://mp.weixin.qq.com/s/GhLLVM3TgJXYPxR1WpTsAQ",
+            "title": "真武M890 AI芯片首次亮相，构建Agentic算力芯底座",
+            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/kN3t5R6pdz7gDNL7c4j4EYGlXuebP1fLOeapLiaXVJIPtcoha195d7hicyeITmHq50NOTFsUTP9fACGIUJDUCXlkj7WFgV5emfkpvW0cUhotg/0?wx_fmt=jpeg",
+            "date_modified": "2026-05-20T11:04:10.000Z"
+        },
+        {
             "id": "l-L2_abmijjpG_XOCAMsZw",
             "content_html": "",
             "url": "https://mp.weixin.qq.com/s/l-L2_abmijjpG_XOCAMsZw",
@@ -640,174 +808,6 @@
             "title": "小白也能做OS运维：阿里云操作系统控制台助你轻松解决三大运维难题",
             "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30GrSfXgTjrNIPliafBEj9CweA0WsuCdZXQqpv4ZW0icrNtZZEHM6DybH5ialCMfaCpXGpwclGnxZibzEA/0?wx_fmt=jpeg",
             "date_modified": "2025-07-15T00:30:53.000Z"
-        },
-        {
-            "id": "son-QiZ-e3wJelwb-sCOYg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/son-QiZ-e3wJelwb-sCOYg",
-            "title": "「智驱未来，云网随行」阿里云基础设施AI技术沙龙云网络专场在杭州举办",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30HvmpqRNIKlXaUkaLiaqwzOgoAMoHDKQvTf81PAdDBxo4G7XgBzLhAwvWpQhfnenIyx7Hamick0Paiaw/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-11T00:31:16.000Z"
-        },
-        {
-            "id": "iIlnXxZaC513Hv0H3MbCjQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/iIlnXxZaC513Hv0H3MbCjQ",
-            "title": "基于智能体的自适应测试系统 - 淘工厂实践（一）",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30F5vqn8icZtppd9UUqTSaC506FobJXJNqp7sC9sutHfkHQpLgc06h3TZq8Q4IE8yGHzgJjwia1ibkO7w/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-09T00:31:24.000Z"
-        },
-        {
-            "id": "i7ey0zFSdFMK0A-k7kJPWg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/i7ey0zFSdFMK0A-k7kJPWg",
-            "title": "workflow is all you need？探讨乐高式流程编排能否实现任意Multi-Agent模式",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30F5vqn8icZtppd9UUqTSaC50EzksxbmiaP4qtrjibwxBI2hNEeTlMVLYzjicbHlVibPMZXysbprMNYaXnw/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-04T00:30:56.000Z"
-        },
-        {
-            "id": "OWicH_iliBnO9PDQzW4p6Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/OWicH_iliBnO9PDQzW4p6Q",
-            "title": "云故事探索NO.15：阿里云云原生加速鸣鸣很忙数字化",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30GribNceN66lkJDZFxtfAC7MAkSWrYnibqCXmofGskKjvYE5bGur1EuDeLFLjXuMsjWUXHLYgeM9mIw/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-02T00:30:35.000Z"
-        },
-        {
-            "id": "vReeqXmxPrQ3xGVlz87k9g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/vReeqXmxPrQ3xGVlz87k9g",
-            "title": "【云故事探索】NO.14：乐言科技——云原生加速电商行业赋能，云消息队列助力降本 37%",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30GribNceN66lkJDZFxtfAC7MAkSWrYnibqCXmofGskKjvYE5bGur1EuDeLFLjXuMsjWUXHLYgeM9mIw/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-02T00:30:35.000Z"
-        },
-        {
-            "id": "BhbhfXzKgh_Jp4JI3OGVKA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/BhbhfXzKgh_Jp4JI3OGVKA",
-            "title": "【云故事探索】NO.13：全链路「长」在阿里云上！极氪汽车全速打造智能出行好体验",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30GribNceN66lkJDZFxtfAC7MAkSWrYnibqCXmofGskKjvYE5bGur1EuDeLFLjXuMsjWUXHLYgeM9mIw/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-02T00:30:35.000Z"
-        },
-        {
-            "id": "xtq-AE7zF7jLprw8XcCcFA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/xtq-AE7zF7jLprw8XcCcFA",
-            "title": "完全开源！阿里国际发布：Ovis-U1 统一的多模态理解与生成模型",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30GribNceN66lkJDZFxtfAC7MoicEeVj88VYse2XxjSwX6XCEnOkTVaT4qILC5vWIw3lYW3dHqjLkWfQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-07-01T09:54:21.000Z"
-        },
-        {
-            "id": "R71Tmcs7DJsd76qJYP5Pfg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/R71Tmcs7DJsd76qJYP5Pfg",
-            "title": "大模型终于能“听懂”云操作了？",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30HpmntJ683HcciaOfYdBsic1KibU0YQRReZ3oqRnWupHAO9utYAVUCEsvdvibicmLMqdq8ObjNYKggSEGQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-06-27T00:30:29.000Z"
-        },
-        {
-            "id": "-nVCsHeim6C4irvkYjyA9g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/-nVCsHeim6C4irvkYjyA9g",
-            "title": "重磅！淘天联合爱橙开源强化学习训练框架ROLL，高效支持十亿到千亿参数大模型训练",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30EbsnTmqA5xge30JX6qcaxiaFxqneBoCqZJicFtLuUpX7HKiaTCZgJ1UuVknN5thQtgVtqzcxnBx1PSw/0?wx_fmt=jpeg",
-            "date_modified": "2025-06-25T04:54:08.000Z"
-        },
-        {
-            "id": "cR_raEMnXSxTfANo3Wtiaw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/cR_raEMnXSxTfANo3Wtiaw",
-            "title": "ICML 2025 | Parrot：通过多语言视觉指令微调，让AI说地道多国语言",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30FwJJyGPWWZ2J5vgVnezgaiaUMH3th8sbFbpDdiaOO71V1RODpdPl0nlvVWw7kRibiculzicKPMRkxic3mQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-06-23T00:30:34.000Z"
-        },
-        {
-            "id": "uNO7pyZE864kSbLoJ9eYzA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/uNO7pyZE864kSbLoJ9eYzA",
-            "title": "学习 MCP 最好的时机是 7 个月前，其次是现在",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30HCH5qemhSzskcdROWIr8AboiaWXNH4wZ7MX2cv5ND4BEW8ZIrT52icg6rVuT1pvPoS1FiaAdqibPNjrg/0?wx_fmt=jpeg",
-            "date_modified": "2025-06-20T00:30:42.000Z"
-        },
-        {
-            "id": "C7OTRD7MhtHTt7t98s_cHw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/C7OTRD7MhtHTt7t98s_cHw",
-            "title": "别再手搓测试数据了！AE测试数据智造系统揭秘",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30H4LYJt9YrqdogI6oJjibic2xgnX8C5aY79QK6nAWG1usr7M7rstczNusMKyaiaWJPGbNQXIIHsVLIEw/0?wx_fmt=jpeg",
-            "date_modified": "2025-06-18T00:30:44.000Z"
-        },
-        {
-            "id": "x6WJnpkk5vlQLW-_SLn3eg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/x6WJnpkk5vlQLW-_SLn3eg",
-            "title": "用Cursor开启JAVA+AI生涯",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30EibOuT2kkYPVg7TTBBf3zz6bofKAEn4qAr5pUzx6102sFVU7k8ErwQPhsQ85JN4tQ2lpe2MMuwMtg/0?wx_fmt=jpeg",
-            "date_modified": "2025-06-13T00:31:42.000Z"
-        },
-        {
-            "id": "DOh_rSm4mr_D0kmvrYZ8QQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/DOh_rSm4mr_D0kmvrYZ8QQ",
-            "title": "浅析 rust 大明星 Tokio",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30GqWjXk2vN0FPZuia1cvkwkzMYicbHQQqRoPLTOTMR4zkDVn4CibQqkHWXBmgicciadtjzibO1GBQiaJPrJg/0?wx_fmt=jpeg",
-            "date_modified": "2025-06-11T00:31:17.000Z"
-        },
-        {
-            "id": "rA-L_CAW8kLobvHzw6aOTA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/rA-L_CAW8kLobvHzw6aOTA",
-            "title": "Cursor入门：MCP开发调用和项目实战",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30Erq7kxvmbCiaiaPTUOYsic2xxQKlicQfK0bZ60H16XEL4stCFxoic2yuvib0SXPFoeTic6155iaL66CByLcQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-06-05T00:30:59.000Z"
-        },
-        {
-            "id": "k1ro2PIaUdjiLOHqz344Og",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/k1ro2PIaUdjiLOHqz344Og",
-            "title": "首个AI翻译实战榜来了！阿里国际×司南OpenCompass×北语联合发布TransBench",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30Erq7kxvmbCiaiaPTUOYsic2xxpjt3QTgbr4ic7OXaOgXXF29aaiaHokQ8fbOEYY3oBKAkeCpooWxMSLBQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-06-04T07:30:43.000Z"
-        },
-        {
-            "id": "H1BHE1GEWgsd_c8igR699A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/H1BHE1GEWgsd_c8igR699A",
-            "title": "MCP Server的五种主流架构与Nacos的选择",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30GxibUWjRtf0sAcvwriajdfnrNGYbm1aqX9rsp1c0zJmViakEr5n7yjtxh7Iqy3wL8ztRmxT4GjQYM2Q/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-30T00:31:34.000Z"
-        },
-        {
-            "id": "5d8ER_5QpYan5B7kjkRyIg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/5d8ER_5QpYan5B7kjkRyIg",
-            "title": "这几类运维难题，看阿里云操作系统控制台如何一站式破解",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30FthiadL7hxKmiatNjwfVjGybZJiaibEQztaA0qHpQibrdU77ibdxC50T2RorTDkaJKRHQYL7agV2STMwjw/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-29T00:30:30.000Z"
-        },
-        {
-            "id": "n1W_FVEPSwzTRcTiO_quVA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/n1W_FVEPSwzTRcTiO_quVA",
-            "title": "解锁高德语音包新玩法：这个六一，用孩子的声音，导航你的世界",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30HPA7PwVI3EnFkj72ibK2a3icn4oMx9vJxRn2yr7uUUKvg8bEdF7Rg08mtNUY34sib6EYGDmvM9ZZ0dQ/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-28T00:30:39.000Z"
-        },
-        {
-            "id": "7XvAcTst9OU_4orDr-dD-w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/7XvAcTst9OU_4orDr-dD-w",
-            "title": "如何让 Agent 规划调用工具",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30FnBecgaEzbAf6iaRghZACWAe7dJTL5rwoyzetpTHNibiaPzCrnUWibZu2VXVc4PMbgrFTcXCPsgdOk0w/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-23T00:30:59.000Z"
-        },
-        {
-            "id": "WeLFFCwFm05zgxz9nkFtdg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/WeLFFCwFm05zgxz9nkFtdg",
-            "title": "日志采集效能跃迁：iLogtail 到 LoongCollector 的全面升级",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/OmCbZ5JK30EdkmHEpUQgCCLAqbibyHHT29OjR6dHNCQ6eAeLwRj4Uib2tKte6VSnnJc22orQ7dBzwo4NFxaFAI9A/0?wx_fmt=jpeg",
-            "date_modified": "2025-05-21T00:31:31.000Z"
         }
     ]
 }
