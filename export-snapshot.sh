@@ -178,8 +178,15 @@ CITATION_INSTRUCTION = (
 
 for company in list(COMPANY_GROUPS.keys()):
     log(f"  生成「{company}」摘要...")
-    # 只取今天的文章
+    # 先尝试今天，无文章则扩展到 7 天，再无则取最新 30 篇（不限日期）
     arts = get_recent_arts(company, days=1)
+    if not arts:
+        arts = get_recent_arts(company, days=7)
+    if not arts:
+        # 取该公司快照里最新的 30 篇（不限日期）
+        arts = [a for a in all_articles if a['company'] == company]
+        arts.sort(key=lambda x: x['date'], reverse=True)
+        arts = arts[:30]
     if not arts:
         summaries[company] = '暂无文章数据'
         continue

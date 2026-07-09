@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>行业资讯雷达</title>
+  <!-- 禁止缓存，强制浏览器每次获取最新版本 -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>行业资讯雷达 v2</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
@@ -613,7 +617,7 @@ const PAGE_SZ  = 25;
 const SNAPSHOT_BASE = './data-snapshot';
 
 const COMPANY_GROUPS = {
-  '行业资讯': ['MP_WXS_3223374696','MP_WXS_3572959446','MP_WXS_3254144461','MP_WXS_3539511831','MP_WXS_3077993707','MP_WXS_1432156401','MP_WXS_3073282833','MP_WXS_2390142780','MP_WXS_3236757533'],
+  '行业资讯': ['MP_WXS_3223374696','MP_WXS_3572959446','MP_WXS_3254144461','MP_WXS_3539511831','MP_WXS_3077993707','MP_WXS_1432156401','MP_WXS_3073282833','MP_WXS_2390142780','MP_WXS_3236757533','MP_WXS_3225964491'],
   '字节跳动': ['MP_WXS_3231231509','MP_WXS_3293283359','MP_WXS_3930693616','MP_WXS_3253632141'],
   '腾讯':     ['MP_WXS_1925343081','MP_WXS_2266383221','MP_WXS_2398602260'],
   '阿里':     ['MP_WXS_3534750856','MP_WXS_3885737868'],
@@ -657,10 +661,55 @@ async function init() {
 
   await fetchSources();
   await fetchArticles();
+
+  // 加载静态 AI 摘要快照（所有人都能看到，无需 API Key）
+  await loadSnapshotAiSummary();
+
   // 检测未分类账号，有则弹出分类面板
   const unclassified = getUnclassified();
   if (unclassified.length) {
     setTimeout(() => openClassifyModal(), 600);
+  }
+}
+
+// 加载 data-snapshot/ai-summary.json 并渲染到各公司卡片
+async function loadSnapshotAiSummary() {
+  try {
+    const r = await fetch(`${SNAPSHOT_BASE}/ai-summary.json`);
+    if (!r.ok) return; // 文件不存在时静默跳过
+    const data = await r.json();
+    const { generatedAt, summaries } = data;
+    if (!summaries) return;
+
+    // 格式化生成时间
+    const dateStr = generatedAt
+      ? new Date(generatedAt).toLocaleString('zh-CN', { month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit' })
+      : '';
+
+    Object.entries(summaries).forEach(([company, txt]) => {
+      if (!txt || txt === '暂无文章数据') return;
+      const el = document.getElementById(`ai-note-${company}`);
+      if (!el) return;
+      const formatted = txt
+        .replace(/\*\*(.+?)\*\*/g, '<strong style="color:var(--text);display:block;margin-top:8px;margin-bottom:2px">$1</strong>')
+        .replace(/\n/g, '<br>')
+        .replace(/^[•\-] (.+)/gm, '<span style="display:block;padding-left:10px">• $1</span>');
+      el.style.display = 'block';
+      el.dataset.raw = txt;
+      el.innerHTML = `
+        <span style="font-size:11px;color:var(--blue);font-weight:600;letter-spacing:.03em">✦ AI 情报摘要</span>
+        ${dateStr ? `<span style="font-size:10px;color:var(--text-3);margin-left:6px">· 更新于 ${dateStr}</span>` : ''}
+        <br>${formatted}`;
+    });
+
+    // 更新顶部状态栏提示
+    if (dateStr) {
+      const tip = document.getElementById('ai-tip');
+      if (tip) tip.textContent = `AI 摘要快照 · 更新于 ${dateStr} · 点击可重新生成`;
+    }
+  } catch(e) {
+    // ai-summary.json 不存在或解析失败，静默跳过（不影响页面其他功能）
+    console.log('AI 摘要快照未找到，如需展示请运行 export-snapshot.sh');
   }
 }
 
@@ -1497,9 +1546,11 @@ async function genAiCompany(company) {
         model: 'deepseek-chat',
         messages: [
           {role:'system', content:'你是快手雇主品牌团队的竞对情报分析师。分析各公司旗下多个公众号的近期文章，提炼关键情报。输出语言简洁有力，每句话信息密度高，不废话。'},
-          {role:'user', content:`请分析「${company}」旗下各公众号的近期文章，按以下结构输出：\n\n**招聘动态**\n（结合各账号招聘文章，总结该公司最近的招聘方向、岗位重点、规模变化，2-3句）\n\n**人事变动**\n（如检测到高管任免、团队调整等信息则列出；否则写"未检测到明显人事变动"）\n\n**近期战略重点**\n（3条，每条一句）\n- \n- \n- \n\n**对快手的启示**\n（快手雇主品牌可以从中借鉴或差异化的一句话建议）\n\n---\n各账号文章如下：\n${titlesByAccount}${industryNote}`},
+          {role:'user', content: company === '行业资讯'
+            ? `请分析以下互联网行业资讯账号的近期文章，按以下结构输出：\n\n**本周热点事件**\n（3-5条，列出本周互联网行业最重要的事件/动态，每条一句）\n\n**各大厂动向速览**\n（按公司分组，每家1-2句核心动态，只写有实质内容的公司）\n\n**最新技术进展**\n（2-3条，提炼各大厂近期发布的重要技术/产品进展，AI、基础设施、工程平台等优先）\n\n**行业趋势洞察**\n（2-3条，提炼这批文章反映出的行业中长期趋势）\n\n**对快手的启示**\n（从行业动态中提炼1-2条对快手雇主品牌最有价值的启示）\n\n---\n各账号文章如下：\n${titlesByAccount}`
+            : `请分析「${company}」旗下各公众号的近期文章，按以下结构输出：\n\n**招聘动态**\n（结合各账号招聘文章，总结该公司最近的招聘方向、岗位重点、规模变化，2-3句）\n\n**人事变动**\n（如检测到高管任免、团队调整等信息则列出；否则写"未检测到明显人事变动"）\n\n**最新技术进展**\n（1-2条，提炼该公司近期发布的重要技术/产品进展；无相关内容则写"暂未检测到明显技术发布"）\n\n**近期战略重点**\n（3条，每条一句）\n- \n- \n- \n\n**对快手的启示**\n（快手雇主品牌可以从中借鉴或差异化的一句话建议）\n\n---\n各账号文章如下：\n${titlesByAccount}${industryNote}`},
         ],
-        max_tokens: 700, temperature: 0.6,
+        max_tokens: 900, temperature: 0.6,
       })
     });
     const d = await resp.json();
@@ -1948,9 +1999,11 @@ async function genAi(company) {
         model:'deepseek-chat',
         messages:[
           {role:'system',content:'你是快手雇主品牌团队的竞对情报分析师。分析各公司旗下多个公众号的近期文章，提炼关键情报。输出语言简洁有力，每句话信息密度高，不废话。'},
-          {role:'user',content:`请分析「${company}」旗下各公众号的近期文章，按以下结构输出：\n\n**招聘动态**\n（结合各账号招聘文章，总结该公司最近的招聘方向、岗位重点、规模变化，2-3句）\n\n**人事变动**\n（如检测到高管任免、团队调整等信息则列出；否则写"未检测到明显人事变动"）\n\n**近期战略重点**\n（3条，每条一句）\n- \n- \n- \n\n**对快手的启示**\n（快手雇主品牌可以从中借鉴或差异化的一句话建议）\n\n---\n各账号文章如下：\n${titlesByAccount}${industryPersonNote}`},
+          {role:'user',content: company === '行业资讯'
+            ? `请分析以下互联网行业资讯账号的近期文章，按以下结构输出：\n\n**本周热点事件**\n（3-5条，列出本周互联网行业最重要的事件/动态，每条一句）\n\n**各大厂动向速览**\n（按公司分组，每家1-2句核心动态，只写有实质内容的公司）\n\n**最新技术进展**\n（2-3条，提炼各大厂近期发布的重要技术/产品进展，AI、基础设施、工程平台等优先）\n\n**行业趋势洞察**\n（2-3条，提炼这批文章反映出的行业中长期趋势）\n\n**对快手的启示**\n（从行业动态中提炼1-2条对快手雇主品牌最有价值的启示）\n\n---\n各账号文章如下：\n${titlesByAccount}`
+            : `请分析「${company}」旗下各公众号的近期文章，按以下结构输出：\n\n**招聘动态**\n（结合各账号招聘文章，总结该公司最近的招聘方向、岗位重点、规模变化，2-3句）\n\n**人事变动**\n（如检测到高管任免、团队调整等信息则列出；否则写"未检测到明显人事变动"）\n\n**最新技术进展**\n（1-2条，提炼该公司近期发布的重要技术/产品进展；无相关内容则写"暂未检测到明显技术发布"）\n\n**近期战略重点**\n（3条，每条一句）\n- \n- \n- \n\n**对快手的启示**\n（快手雇主品牌可以从中借鉴或差异化的一句话建议）\n\n---\n各账号文章如下：\n${titlesByAccount}${industryPersonNote}`},
         ],
-        max_tokens:700, temperature:0.6,
+        max_tokens:900, temperature:0.6,
       })
     });
     const d = await resp.json();

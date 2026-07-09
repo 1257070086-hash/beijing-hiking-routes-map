@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>快手15周年司庆 · AI贪吃蛇淘汰赛对阵图</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      width: 2400px;
+      background: #0b0f1e;
+      color: #f0f2ff;
+      font-family: -apple-system, 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+    }
+
+    .container { width: 2360px; padding: 20px; }
+
+    .inner {
+      width: 2320px;
+      background: linear-gradient(160deg, #0d1228 0%, #141e3c 40%, #0d1228 100%);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 20px;
+      padding: 44px 52px 36px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .inner::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        repeating-linear-gradient(90deg, rgba(255,255,255,0.022) 0, rgba(255,255,255,0.022) 1px, transparent 1px, transparent 48px),
+        repeating-linear-gradient(0deg, rgba(255,255,255,0.016) 0, rgba(255,255,255,0.016) 1px, transparent 1px, transparent 48px);
+      pointer-events: none;
+    }
+
+    .inner::after {
+      content: '';
+      position: absolute; top: -180px; left: 50%; transform: translateX(-50%);
+      width: 500px; height: 360px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,138,42,0.2), transparent 70%);
+      pointer-events: none;
+    }
+
+    /* ===== TITLE ===== */
+    .title-area { text-align: center; margin-bottom: 40px; position: relative; z-index: 2; }
+
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 8px 18px; border: 1px solid rgba(255,138,42,0.42); border-radius: 999px;
+      background: rgba(255,138,42,0.12); color: #ffc896; font-size: 14px; font-weight: 500;
+    }
+
+    .pulse-dot { width: 8px; height: 8px; border-radius: 50%; background: #ff8a2a; box-shadow: 0 0 16px #ff8a2a; }
+
+    .main-title { margin-top: 20px; font-size: 52px; font-weight: 900; letter-spacing: -0.04em; line-height: 1.12; }
+    .main-title em { font-style: normal; color: #ff8a2a; }
+
+    .main-sub { margin-top: 10px; font-size: 17px; color: #8b9cc4; line-height: 1.7; max-width: 880px; margin-left: auto; margin-right: auto; }
+
+    /* ===== GROUPS ===== */
+    .section-label { font-size: 14px; font-weight: 700; letter-spacing: 0.14em; color: #5e6d8f; margin-bottom: 16px; position: relative; z-index: 2; }
+
+    .groups-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; position: relative; z-index: 2; margin-bottom: 44px; }
+
+    .group-card {
+      border: 1px solid rgba(255,255,255,0.1); border-radius: 16px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.07), rgba(255,255,255,0.02));
+    }
+
+    .group-top {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 20px; border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .group-name { display: flex; align-items: center; gap: 12px; font-size: 24px; font-weight: 900; }
+
+    .group-badge {
+      width: 36px; height: 36px; border-radius: 10px; display: inline-flex; align-items: center;
+      justify-content: center; color: #fff; font-weight: 900; font-size: 16px;
+    }
+    .group-badge.a { background: linear-gradient(135deg, #ff8a2a, #ff4d2e); box-shadow: 0 0 24px rgba(255,138,42,0.3); }
+    .group-badge.b { background: linear-gradient(135deg, #43a3ff, #9a6cff); box-shadow: 0 0 24px rgba(67,163,255,0.3); }
+
+    .group-q-tag { font-size: 12px; color: #5e6d8f; padding: 5px 12px; border: 1px solid rgba(255,255,255,0.08); border-radius: 999px; background: rgba(255,255,255,0.05); }
+
+    .team-row { display: flex; align-items: center; gap: 12px; padding: 11px 20px; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 15px; font-weight: 500; }
+    .team-row:last-child { border-bottom: none; }
+    .team-row.special { background: rgba(255,209,102,0.07); }
+
+    .team-num {
+      width: 30px; height: 30px; border-radius: 7px; display: inline-flex; align-items: center;
+      justify-content: center; background: rgba(255,255,255,0.1); font-size: 11px; font-weight: 700; color: #c5d0f0;
+    }
+    .team-row.special .team-num { background: rgba(255,209,102,0.12); color: #ffd166; }
+
+    .q-mark { margin-left: auto; padding: 3px 8px; border-radius: 999px; font-size: 10px; font-weight: 700; }
+    .q-mark.top4 { background: rgba(56,214,155,0.12); border: 1px solid rgba(56,214,155,0.3); color: #a8ffe0; }
+    .q-mark.out { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); color: #5e6d8f; }
+
+    /* ===== BRACKET (World Cup style with CSS flex columns) ===== */
+    .bracket-section { position: relative; z-index: 2; }
+
+    .bracket-wrap {
+      display: flex;
+      align-items: stretch;
+      gap: 0;
+      margin-top: 20px;
+      min-height: 780px;
+    }
+
+    /* Each column */
+    .b-col { display: flex; flex-direction: column; position: relative; }
+    .b-col-header {
+      font-size: 13px; font-weight: 700; letter-spacing: 0.14em; color: #5e6d8f;
+      text-align: center; padding-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,0.06);
+      margin-bottom: 12px; text-transform: uppercase;
+    }
+    .b-col-header.champ { color: #ffd166; border-bottom-color: rgba(255,209,102,0.12); }
+
+    /* Column widths */
+    .col-qf { width: 320px; }
+    .col-sf { width: 320px; }
+    .col-fi { width: 320px; }
+    .col-ch { width: 260px; }
+
+    /* Connector column between match columns */
+    .conn-col { width: 52px; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; }
+
+    /* Connector lines inside conn-col */
+    .conn-group { position: relative; width: 100%; display: flex; flex-direction: column; align-items: center; }
+
+    .conn-h { width: 100%; height: 2px; background: rgba(255,255,255,0.1); position: relative; }
+    .conn-h.orange { background: rgba(255,138,42,0.3); }
+    .conn-h.blue { background: rgba(67,163,255,0.3); }
+    .conn-h.gold { background: rgba(255,209,102,0.3); }
+
+    .conn-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,138,42,0.5); position: absolute; right: -3px; top: -2px; }
+    .conn-dot.blue { background: rgba(67,163,255,0.5); }
+    .conn-dot.gold { background: rgba(255,209,102,0.5); }
+
+    /* Vertical connector lines */
+    .conn-v { width: 2px; background: rgba(255,255,255,0.1); }
+    .conn-v.orange { background: rgba(255,138,42,0.3); }
+    .conn-v.blue { background: rgba(67,163,255,0.3); }
+    .conn-v.gold { background: rgba(255,209,102,0.3); }
+
+    /* Match card */
+    .match-card {
+      border: 1px solid rgba(255,255,255,0.12); border-radius: 12px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.09), rgba(255,255,255,0.03));
+      overflow: hidden; position: relative;
+    }
+
+    .match-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2.5px;
+      background: linear-gradient(90deg, #ff8a2a, #43a3ff); border-radius: 12px 12px 0 0;
+    }
+
+    .match-label { padding: 8px 14px 2px; font-size: 12px; font-weight: 700; letter-spacing: 0.1em; color: #ff8a2a; text-transform: uppercase; }
+
+    .match-slot { display: flex; align-items: center; gap: 9px; padding: 9px 14px; border-top: 1px solid rgba(255,255,255,0.04); font-size: 14px; font-weight: 500; color: #e8edff; }
+    .match-slot:first-of-type { border-top: none; }
+
+    .slot-badge {
+      width: 28px; height: 28px; border-radius: 7px; display: inline-flex; align-items: center;
+      justify-content: center; font-size: 10px; font-weight: 700; background: rgba(255,255,255,0.1); color: #c5d0f0;
+    }
+    .slot-badge.a { background: rgba(255,138,42,0.18); color: #ffaa5e; }
+    .slot-badge.b { background: rgba(67,163,255,0.18); color: #7bc4ff; }
+    .slot-badge.w { background: rgba(56,214,155,0.18); color: #a8ffe0; }
+
+    .vs { padding: 1px 14px; font-size: 10px; font-weight: 700; color: #ffd166; text-align: center; }
+
+    .bo3 {
+      position: absolute; top: 6px; right: 10px; padding: 2px 6px;
+      border: 1px solid rgba(56,214,155,0.35); border-radius: 999px;
+      background: rgba(56,214,155,0.1); color: #a8ffe0; font-size: 9px; font-weight: 700;
+    }
+
+    /* Champion card */
+    .champ-card {
+      border: 1px solid rgba(255,209,102,0.4); border-radius: 14px;
+      background: radial-gradient(circle at 50% 30%, rgba(255,209,102,0.2), transparent 50%),
+        linear-gradient(135deg, rgba(255,209,102,0.08), rgba(255,255,255,0.03));
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 24px; position: relative; overflow: hidden;
+    }
+
+    .champ-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2.5px;
+      background: linear-gradient(90deg, #ffd166, #ff8a2a); border-radius: 14px 14px 0 0;
+    }
+
+    .trophy { font-size: 52px; margin-bottom: 12px; filter: drop-shadow(0 0 20px rgba(255,209,102,0.35)); }
+    .champ-title { font-size: 24px; font-weight: 900; color: #ffd166; }
+    .champ-desc { max-width: 190px; margin-top: 8px; font-size: 13px; color: #8b9cc4; line-height: 1.55; }
+
+    /* QF column: 4 matches evenly spaced */
+    .col-qf .match-card { margin-bottom: 36px; }
+    .col-qf .match-card:last-child { margin-bottom: 0; }
+
+    /* SF column: 2 matches with large gap (centered between their QF pairs) */
+    .col-sf .match-card { margin-bottom: 200px; }
+    .col-sf .match-card:last-child { margin-bottom: 0; }
+
+    /* FI column: final + 3rd place */
+    .col-fi .match-card { margin-bottom: 120px; }
+    .col-fi .match-card:last-child { margin-bottom: 0; }
+
+    /* Champion card fills the column */
+    .col-ch .champ-card { flex: 1; }
+
+    /* Dimmed match (3rd place) */
+    .match-dim { border-color: rgba(255,255,255,0.07); }
+    .match-dim::before { background: rgba(255,255,255,0.06); }
+    .match-dim .match-label { color: #5e6d8f; }
+    .match-dim .match-slot { color: #8b9cc4; }
+    .match-dim .vs { color: #5e6d8f; }
+    .match-dim .slot-badge { background: rgba(255,255,255,0.06); color: #5e6d8f; }
+
+    /* Arrow between columns */
+    .flow-arrow {
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; color: rgba(255,255,255,0.15); font-weight: 300;
+      width: 52px;
+    }
+
+    /* ===== RULES ===== */
+    .rules-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; position: relative; z-index: 2; margin-bottom: 28px; }
+
+    .rule-card {
+      padding: 16px 20px; border: 1px solid rgba(255,255,255,0.07); border-radius: 12px;
+      background: rgba(255,255,255,0.04);
+    }
+    .rule-card b { display: block; font-size: 15px; font-weight: 700; color: #ff8a2a; margin-bottom: 6px; }
+    .rule-card span { font-size: 13px; color: #8b9cc4; line-height: 1.55; }
+
+    .bottom-note {
+      padding: 14px 22px; border: 1px solid rgba(255,209,102,0.22); border-radius: 12px;
+      background: rgba(255,209,102,0.05); color: #ffe0a0; font-size: 14px; line-height: 1.65;
+      position: relative; z-index: 2;
+    }
+
+    .footer { margin-top: 16px; text-align: center; color: #3d4d72; font-size: 12px; position: relative; z-index: 2; }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="inner">
+
+      <div class="title-area">
+        <div class="eyebrow"><span class="pulse-dot"></span>快手15周年司庆 · Myflicker AI 贪吃蛇进化大作战</div>
+        <div class="main-title">14队小组赛 + 淘汰赛 <em>对阵图</em></div>
+        <div class="main-sub">A/B 两组各 7 队单循环积分赛，每组前 4 名晋级 8 强；淘汰赛从 8 强开始全部采用 BO3 三局两胜制</div>
+      </div>
+
+      <!-- Groups -->
+      <div class="section-label">GROUP STAGE · 小组赛分组</div>
+      <div class="groups-grid">
+        <div class="group-card">
+          <div class="group-top"><div class="group-name"><span class="group-badge a">A</span>A 组</div><span class="group-q-tag">前 4 名晋级</span></div>
+          <div class="team-row"><span class="team-num">A1</span>可灵AI事业部<span class="q-mark top4">TOP4</span></div>
+          <div class="team-row"><span class="team-num">A2</span>综合支持与效率线<span class="q-mark top4">TOP4</span></div>
+          <div class="team-row"><span class="team-num">A3</span>主站线<span class="q-mark top4">TOP4</span></div>
+          <div class="team-row"><span class="team-num">A4</span>社区科学线<span class="q-mark out">5-7</span></div>
+          <div class="team-row"><span class="team-num">A5</span>人力资源线<span class="q-mark out">5-7</span></div>
+          <div class="team-row"><span class="team-num">A6</span>KSIB<span class="q-mark out">5-7</span></div>
+          <div class="team-row"><span class="team-num">A7</span>商业化事业部<span class="q-mark out">5-7</span></div>
+        </div>
+        <div class="group-card">
+          <div class="group-top"><div class="group-name"><span class="group-badge b">B</span>B 组</div><span class="group-q-tag">前 4 名晋级</span></div>
+          <div class="team-row"><span class="team-num">B1</span>财经线<span class="q-mark top4">TOP4</span></div>
+          <div class="team-row"><span class="team-num">B2</span>生活服务事业部<span class="q-mark top4">TOP4</span></div>
+          <div class="team-row"><span class="team-num">B3</span>安全合规线<span class="q-mark top4">TOP4</span></div>
+          <div class="team-row"><span class="team-num">B4</span>经营管理委员会<span class="q-mark out">5-7</span></div>
+          <div class="team-row"><span class="team-num">B5</span>电商事业部<span class="q-mark out">5-7</span></div>
+          <div class="team-row"><span class="team-num">B6</span>廉正合规部<span class="q-mark out">5-7</span></div>
+          <div class="team-row special"><span class="team-num">B7</span>特别邀请媒体队<span class="q-mark out">5-7</span></div>
+        </div>
+      </div>
+
+      <!-- Bracket -->
+      <div class="section-label">KNOCKOUT STAGE · 淘汰赛对阵图</div>
+
+      <div class="bracket-wrap">
+        <!-- QF -->
+        <div class="b-col col-qf">
+          <div class="b-col-header">QUARTERFINALS · 8强赛</div>
+
+          <div class="match-card">
+            <span class="bo3">BO3</span>
+            <div class="match-label">8强赛 1</div>
+            <div class="match-slot"><span class="slot-badge a">A1</span>A 组第 1</div>
+            <div class="vs">VS</div>
+            <div class="match-slot"><span class="slot-badge b">B4</span>B 组第 4</div>
+          </div>
+
+          <div class="match-card">
+            <span class="bo3">BO3</span>
+            <div class="match-label">8强赛 2</div>
+            <div class="match-slot"><span class="slot-badge b">B2</span>B 组第 2</div>
+            <div class="vs">VS</div>
+            <div class="match-slot"><span class="slot-badge a">A3</span>A 组第 3</div>
+          </div>
+
+          <div class="match-card">
+            <span class="bo3">BO3</span>
+            <div class="match-label">8强赛 3</div>
+            <div class="match-slot"><span class="slot-badge b">B1</span>B 组第 1</div>
+            <div class="vs">VS</div>
+            <div class="match-slot"><span class="slot-badge a">A4</span>A 组第 4</div>
+          </div>
+
+          <div class="match-card">
+            <span class="bo3">BO3</span>
+            <div class="match-label">8强赛 4</div>
+            <div class="match-slot"><span class="slot-badge a">A2</span>A 组第 2</div>
+            <div class="vs">VS</div>
+            <div class="match-slot"><span class="slot-badge b">B3</span>B 组第 3</div>
+          </div>
+        </div>
+
+        <div class="flow-arrow">→</div>
+
+        <!-- SF -->
+        <div class="b-col col-sf">
+          <div class="b-col-header">SEMIFINALS · 半决赛</div>
+
+          <div class="match-card">
+            <span class="bo3">BO3</span>
+            <div class="match-label">半决赛 1</div>
+            <div class="match-slot"><span class="slot-badge w">W1</span>8强赛1 胜者</div>
+            <div class="vs">VS</div>
+            <div class="match-slot"><span class="slot-badge w">W2</span>8强赛2 胜者</div>
+          </div>
+
+          <div class="match-card">
+            <span class="bo3">BO3</span>
+            <div class="match-label">半决赛 2</div>
+            <div class="match-slot"><span class="slot-badge w">W3</span>8强赛3 胜者</div>
+            <div class="vs">VS</div>
+            <div class="match-slot"><span class="slot-badge w">W4</span>8强赛4 胜者</div>
+          </div>
+        </div>
+
+        <div class="flow-arrow">→</div>
+
+        <!-- Final -->
+        <div class="b-col col-fi">
+          <div class="b-col-header">FINAL · 决赛</div>
+
+          <div class="match-card">
+            <span class="bo3">BO3</span>
+            <div class="match-label">冠军决赛</div>
+            <div class="match-slot"><span class="slot-badge w">SW1</span>半决赛1 胜者</div>
+            <div class="vs">VS</div>
+            <div class="match-slot"><span class="slot-badge w">SW2</span>半决赛2 胜者</div>
+          </div>
+
+          <div class="match-card match-dim">
+            <div class="match-label">3RD · 季军赛（可选）</div>
+            <div class="match-slot"><span class="slot-badge">L1</span>半决赛1 负者</div>
+            <div class="vs">VS</div>
+            <div class="match-slot"><span class="slot-badge">L2</span>半决赛2 负者</div>
+          </div>
+        </div>
+
+        <div class="flow-arrow">→</div>
+
+        <!-- Champion -->
+        <div class="b-col col-ch">
+          <div class="b-col-header champ">CHAMPION · 冠军</div>
+          <div class="champ-card">
+            <div class="trophy">🏆</div>
+            <div class="champ-title">AI 蛇王冠军</div>
+            <div class="champ-desc">决赛 BO3 获胜队伍获得本次司庆 AI 贪吃蛇冠军</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rules -->
+      <div class="rules-row">
+        <div class="rule-card"><b>小组赛</b><span>两组分别进行单循环赛。每组 7 队，每队 6 场，每组 21 场。</span></div>
+        <div class="rule-card"><b>积分规则</b><span>每场单局定胜负。胜者积 3 分，败者积 0 分，不设平局。</span></div>
+        <div class="rule-card"><b>晋级规则</b><span>A、B 两组各取前 4 名晋级，组成 8 强淘汰赛阵容。</span></div>
+        <div class="rule-card"><b>淘汰赛</b><span>8 强赛、半决赛、决赛均采用 BO3，率先赢下 2 局者晋级或夺冠。</span></div>
+      </div>
+
+      <div class="bottom-note">说明：本页面为模拟赛程图。小组赛可在线上提前完成，并在司庆当天只直播 8 强淘汰赛；如需压缩直播时长，可取消季军赛，保留 8 强赛、半决赛和决赛。</div>
+
+      <div class="footer">快手15周年司庆 · Myflicker AI 贪吃蛇进化大作战 · 模拟赛程对阵图</div>
+    </div>
+  </div>
+</body>
+</html>

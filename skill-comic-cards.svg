@@ -1,0 +1,520 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1600" viewBox="0 0 900 1600" font-family="'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB', sans-serif">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef9f0"/>
+      <stop offset="100%" style="stop-color:#fdf0e8"/>
+    </linearGradient>
+    <!-- Card shadows -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#00000020"/>
+    </filter>
+    <filter id="strongShadow" x="-5%" y="-5%" width="115%" height="120%">
+      <feDropShadow dx="4" dy="6" stdDeviation="6" flood-color="#00000030"/>
+    </filter>
+  </defs>
+
+  <!-- Page background -->
+  <rect width="900" height="1600" fill="url(#pageBg)"/>
+
+  <!-- Halftone dots pattern suggestion (fake) -->
+  <circle cx="50" cy="50" r="2" fill="#f0d9c0" opacity="0.5"/>
+  <circle cx="100" cy="50" r="2" fill="#f0d9c0" opacity="0.5"/>
+  <circle cx="150" cy="50" r="2" fill="#f0d9c0" opacity="0.5"/>
+  <circle cx="200" cy="50" r="2" fill="#f0d9c0" opacity="0.5"/>
+
+  <!-- ===== PAGE TITLE ===== -->
+  <rect x="100" y="28" width="700" height="64" rx="10" fill="#1a1a2e" filter="url(#shadow)"/>
+  <rect x="103" y="31" width="694" height="58" rx="8" fill="#16213e"/>
+  <text x="450" y="56" text-anchor="middle" font-size="11" fill="#f5c842" font-weight="600" letter-spacing="4">快手 SkillHub</text>
+  <text x="450" y="80" text-anchor="middle" font-size="22" fill="white" font-weight="900">265个Skill盘点 · 漫画版</text>
+
+  <!-- ===== CARD 1: 坑来 ===== -->
+  <g transform="translate(60, 115)" filter="url(#strongShadow)">
+    <!-- Card body -->
+    <rect width="380" height="260" rx="16" fill="white" stroke="#1a1a2e" stroke-width="3"/>
+    <!-- Card top color strip -->
+    <rect width="380" height="52" rx="16" fill="#ffd93d"/>
+    <rect width="380" height="26" y="26" fill="#ffd93d"/>
+    <!-- Card number badge -->
+    <circle cx="36" cy="36" r="22" fill="#1a1a2e"/>
+    <text x="36" y="43" text-anchor="middle" font-size="18" font-weight="900" fill="#ffd93d">6</text>
+    <!-- Card title -->
+    <text x="210" y="30" text-anchor="middle" font-size="20" font-weight="900" fill="#1a1a2e">坑来 🚽</text>
+    <text x="210" y="48" text-anchor="middle" font-size="11" fill="#1a1a2e" opacity="0.7">功能：查厕所坑位 · Stars: 12 · 浏览: 1188</text>
+
+    <!-- Comic scene: stick figure asking AI -->
+    <!-- Floor line -->
+    <line x1="20" y1="210" x2="360" y2="210" stroke="#e0e0e0" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Person (stick figure, holding phone desperately) -->
+    <!-- head -->
+    <circle cx="90" cy="100" r="24" fill="#ffcc80" stroke="#1a1a2e" stroke-width="2.5"/>
+    <!-- sweat drops (desperate) -->
+    <ellipse cx="118" cy="92" rx="5" ry="8" fill="#87ceeb" opacity="0.8" transform="rotate(-20,118,92)"/>
+    <ellipse cx="124" cy="100" rx="4" ry="6" fill="#87ceeb" opacity="0.6" transform="rotate(-15,124,100)"/>
+    <!-- face: worried eyes -->
+    <ellipse cx="82" cy="97" rx="5" ry="6" fill="white" stroke="#1a1a2e" stroke-width="1.5"/>
+    <ellipse cx="100" cy="97" rx="5" ry="6" fill="white" stroke="#1a1a2e" stroke-width="1.5"/>
+    <circle cx="83" cy="99" r="2.5" fill="#1a1a2e"/>
+    <circle cx="101" cy="99" r="2.5" fill="#1a1a2e"/>
+    <!-- worried eyebrows -->
+    <path d="M79,90 Q84,86 89,90" stroke="#1a1a2e" stroke-width="2" fill="none"/>
+    <path d="M97,90 Q102,86 107,90" stroke="#1a1a2e" stroke-width="2" fill="none"/>
+    <!-- wavy mouth (nervous) -->
+    <path d="M82,108 Q90,113 100,108" stroke="#1a1a2e" stroke-width="2" fill="none"/>
+    <!-- body -->
+    <line x1="90" y1="124" x2="90" y2="175" stroke="#1a1a2e" stroke-width="3"/>
+    <!-- arms - holding phone urgently (both hands on phone) -->
+    <line x1="90" y1="138" x2="130" y2="155" stroke="#1a1a2e" stroke-width="3"/>
+    <line x1="90" y1="138" x2="130" y2="148" stroke="#1a1a2e" stroke-width="3"/>
+    <!-- phone -->
+    <rect x="128" y="143" width="26" height="40" rx="4" fill="#333" stroke="#1a1a2e" stroke-width="1.5"/>
+    <rect x="131" y="147" width="20" height="30" rx="2" fill="#60a5fa"/>
+    <text x="141" y="158" text-anchor="middle" font-size="7" fill="white" font-weight="700">坑来</text>
+    <text x="141" y="168" text-anchor="middle" font-size="7" fill="white">问一下</text>
+    <!-- legs crossed (need to go!) -->
+    <line x1="90" y1="175" x2="75" y2="210" stroke="#1a1a2e" stroke-width="3"/>
+    <line x1="90" y1="175" x2="82" y2="210" stroke="#1a1a2e" stroke-width="3"/>
+    <!-- legs touching/crossed -->
+    <ellipse cx="79" cy="210" rx="8" ry="5" fill="#1a1a2e" opacity="0.15"/>
+
+    <!-- Speech bubble from person -->
+    <path d="M158,88 Q158,68 198,68 L290,68 Q330,68 330,88 Q330,108 290,108 L188,108 L170,120 L175,108 L158,108 Q158,108 158,88 Z" fill="#fff9c4" stroke="#1a1a2e" stroke-width="2"/>
+    <text x="244" y="84" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a2e">AI！3楼</text>
+    <text x="244" y="101" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a2e">还有坑吗！？</text>
+
+    <!-- AI response bubble (bottom right) -->
+    <path d="M200,148 Q200,132 234,132 L320,132 Q355,132 355,148 Q355,164 320,164 L220,164 L212,175 L215,164 L200,164 Q200,164 200,148 Z" fill="#e8f5e9" stroke="#1a1a2e" stroke-width="2"/>
+    <text x="278" y="148" text-anchor="middle" font-size="12" fill="#2e7d32" font-weight="700">有！2个空位</text>
+    <text x="278" y="163" text-anchor="middle" font-size="11" fill="#2e7d32">蹲便1 坐便1</text>
+
+    <!-- bottom caption -->
+    <rect x="0" y="220" width="380" height="40" rx="0" fill="none"/>
+    <text x="190" y="238" text-anchor="middle" font-size="11" fill="#666">快手 Skill 榜第6名 · 比你想象的更受欢迎</text>
+    <text x="190" y="253" text-anchor="middle" font-size="12" font-weight="700" fill="#f44336">「最务实的 AI 应用」</text>
+  </g>
+
+  <!-- ===== CARD 2: 花式彩虹屁 ===== -->
+  <g transform="translate(470, 115)" filter="url(#strongShadow)">
+    <rect width="380" height="260" rx="16" fill="white" stroke="#1a1a2e" stroke-width="3"/>
+    <rect width="380" height="52" rx="16" fill="#ff6b9d"/>
+    <rect width="380" height="26" y="26" fill="#ff6b9d"/>
+    <circle cx="36" cy="36" r="22" fill="#1a1a2e"/>
+    <text x="36" y="43" text-anchor="middle" font-size="14" font-weight="900" fill="#ff6b9d">彩虹</text>
+    <text x="210" y="30" text-anchor="middle" font-size="18" font-weight="900" fill="white">fancy-praise 🎉</text>
+    <text x="210" y="48" text-anchor="middle" font-size="11" fill="white" opacity="0.85">花式彩虹屁生成器 · Stars: 2</text>
+
+    <line x1="20" y1="210" x2="360" y2="210" stroke="#e0e0e0" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Boss figure (left, smug) -->
+    <circle cx="80" cy="100" r="24" fill="#ffcc80" stroke="#1a1a2e" stroke-width="2.5"/>
+    <!-- boss hair (combover) -->
+    <path d="M60,84 Q80,70 100,84" stroke="#8B4513" stroke-width="4" fill="none"/>
+    <path d="M60,84 Q68,78 80,80 Q92,78 100,84" fill="#8B4513"/>
+    <!-- boss face: happy/flattered -->
+    <circle cx="72" cy="98" r="5" fill="white" stroke="#1a1a2e" stroke-width="1.5"/>
+    <circle cx="90" cy="98" r="5" fill="white" stroke="#1a1a2e" stroke-width="1.5"/>
+    <circle cx="74" cy="100" r="2.5" fill="#1a1a2e"/>
+    <circle cx="92" cy="100" r="2.5" fill="#1a1a2e"/>
+    <!-- blush marks -->
+    <ellipse cx="66" cy="106" rx="8" ry="5" fill="#ff9999" opacity="0.5"/>
+    <ellipse cx="96" cy="106" rx="8" ry="5" fill="#ff9999" opacity="0.5"/>
+    <!-- big smile -->
+    <path d="M68,112 Q81,122 93,112" stroke="#1a1a2e" stroke-width="2.5" fill="#ff6b9d" opacity="0.4"/>
+    <!-- body -->
+    <line x1="80" y1="124" x2="80" y2="175" stroke="#1a1a2e" stroke-width="3"/>
+    <line x1="80" y1="138" x2="55" y2="160" stroke="#1a1a2e" stroke-width="3"/>
+    <line x1="80" y1="138" x2="105" y2="160" stroke="#1a1a2e" stroke-width="3"/>
+    <line x1="80" y1="175" x2="65" y2="210" stroke="#1a1a2e" stroke-width="3"/>
+    <line x1="80" y1="175" x2="95" y2="210" stroke="#1a1a2e" stroke-width="3"/>
+
+    <!-- Floating hearts/stars around boss -->
+    <text x="40" y="75" font-size="14">💕</text>
+    <text x="110" y="72" font-size="12">✨</text>
+    <text x="30" y="120" font-size="10">🌟</text>
+
+    <!-- Speech bubble (rainbow praise message) -->
+    <path d="M115,76 Q115,58 150,58 L345,58 Q365,58 365,76 Q365,94 345,94 L135,94 L122,106 L127,94 L115,94 Q115,94 115,76 Z" fill="#fff9c4" stroke="#1a1a2e" stroke-width="2"/>
+    <text x="240" y="74" text-anchor="middle" font-size="10.5" fill="#1a1a2e" font-weight="700">您的决策如深秋远山，</text>
+    <text x="240" y="89" text-anchor="middle" font-size="10.5" fill="#1a1a2e" font-weight="700">沉稳而有远见 🏔</text>
+
+    <!-- Employee (right, typing on phone secretly) -->
+    <circle cx="310" cy="155" r="20" fill="#ffcc80" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- sneaky face -->
+    <ellipse cx="304" cy="152" rx="3.5" ry="4" fill="white" stroke="#1a1a2e" stroke-width="1"/>
+    <ellipse cx="316" cy="152" rx="3.5" ry="4" fill="white" stroke="#1a1a2e" stroke-width="1"/>
+    <circle cx="305" cy="153" r="2" fill="#1a1a2e"/>
+    <circle cx="317" cy="153" r="2" fill="#1a1a2e"/>
+    <!-- sneaky smile -->
+    <path d="M304,162 Q310,166 317,162" stroke="#1a1a2e" stroke-width="1.5" fill="none"/>
+    <!-- body -->
+    <line x1="310" y1="175" x2="310" y2="205" stroke="#1a1a2e" stroke-width="2.5"/>
+    <!-- holding phone under desk -->
+    <line x1="310" y1="183" x2="290" y2="195" stroke="#1a1a2e" stroke-width="2.5"/>
+    <rect x="274" y="188" width="20" height="28" rx="3" fill="#333" stroke="#1a1a2e" stroke-width="1.5"/>
+    <rect x="277" y="191" width="14" height="21" rx="2" fill="#a78bfa"/>
+    <text x="284" y="200" text-anchor="middle" font-size="6" fill="white">AI</text>
+    <text x="284" y="208" text-anchor="middle" font-size="6" fill="white">写好了</text>
+    <!-- small thought bubble -->
+    <circle cx="330" cy="138" r="4" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+    <circle cx="340" cy="130" r="5" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+    <ellipse cx="354" cy="123" rx="14" ry="10" fill="#e8e8e8" stroke="#999" stroke-width="1"/>
+    <text x="354" y="127" text-anchor="middle" font-size="7" fill="#666">我一</text>
+    <text x="354" y="136" text-anchor="middle" font-size="7" fill="#666">字没写</text>
+
+    <text x="190" y="238" text-anchor="middle" font-size="11" fill="#666">古风/职场/沙雕 自选风格，一键发 KIM</text>
+    <text x="190" y="253" text-anchor="middle" font-size="12" font-weight="700" fill="#e91e8c">「夸人，也可以外包」</text>
+  </g>
+
+  <!-- ===== CARD 3: 自动请假 ===== -->
+  <g transform="translate(60, 400)" filter="url(#strongShadow)">
+    <rect width="380" height="260" rx="16" fill="white" stroke="#1a1a2e" stroke-width="3"/>
+    <rect width="380" height="52" rx="16" fill="#7c3aed"/>
+    <rect width="380" height="26" y="26" fill="#7c3aed"/>
+    <circle cx="36" cy="36" r="22" fill="#1a1a2e"/>
+    <text x="36" y="43" text-anchor="middle" font-size="14" font-weight="900" fill="#c4b5fd">请假</text>
+    <text x="210" y="30" text-anchor="middle" font-size="17" font-weight="900" fill="white">快手自动请假助手 📅</text>
+    <text x="210" y="48" text-anchor="middle" font-size="11" fill="white" opacity="0.85">自然语言 · 自动提交 OA · Stars: 2</text>
+
+    <line x1="20" y1="210" x2="360" y2="210" stroke="#e0e0e0" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Person still sleeping in bed -->
+    <!-- Bed -->
+    <rect x="18" y="155" width="150" height="55" rx="8" fill="#c8a882" stroke="#1a1a2e" stroke-width="2"/>
+    <rect x="18" y="155" width="150" height="20" rx="8" fill="#a0785a" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- pillow -->
+    <ellipse cx="55" cy="168" rx="28" ry="16" fill="white" stroke="#1a1a2e" stroke-width="1.5"/>
+    <!-- blanket -->
+    <path d="M18,175 Q93,165 168,175 L168,210 Q93,205 18,210 Z" fill="#7986CB" stroke="#1a1a2e" stroke-width="1.5"/>
+
+    <!-- sleeping person head on pillow -->
+    <circle cx="55" cy="163" r="18" fill="#ffcc80" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- closed eyes (sleeping) -->
+    <path d="M46,160 Q51,157 56,160" stroke="#1a1a2e" stroke-width="2" fill="none"/>
+    <path d="M58,160 Q63,157 68,160" stroke="#1a1a2e" stroke-width="2" fill="none"/>
+    <!-- zzz -->
+    <text x="80" y="148" font-size="16" fill="#9ca3af" font-weight="700">z</text>
+    <text x="94" y="138" font-size="18" fill="#9ca3af" font-weight="700">Z</text>
+    <text x="110" y="124" font-size="20" fill="#9ca3af" font-weight="700">Z</text>
+
+    <!-- Phone on nightstand -->
+    <rect x="170" y="163" width="30" height="45" rx="4" fill="#1a1a2e" stroke="#333" stroke-width="1"/>
+    <rect x="173" y="167" width="24" height="35" rx="2" fill="#a78bfa"/>
+    <text x="185" y="179" text-anchor="middle" font-size="6.5" fill="white" font-weight="700">假请好了</text>
+    <text x="185" y="190" text-anchor="middle" font-size="6.5" fill="white">下周三 1天</text>
+    <text x="185" y="200" text-anchor="middle" font-size="8" fill="#4ade80">✓ 已提交</text>
+    <!-- small notification light blinking -->
+    <circle cx="182" cy="162" r="3" fill="#4ade80"/>
+
+    <!-- Arrow from phone to boss's computer -->
+    <path d="M205,185 Q240,175 265,168" stroke="#1a1a2e" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arr)" fill="none"/>
+    <polygon points="260,164 272,168 263,174" fill="#1a1a2e"/>
+
+    <!-- Boss at computer (approving) -->
+    <rect x="268" y="150" width="90" height="65" rx="6" fill="#f5f5f5" stroke="#1a1a2e" stroke-width="2"/>
+    <rect x="272" y="154" width="82" height="48" rx="3" fill="#1e3a5f"/>
+    <text x="313" y="170" text-anchor="middle" font-size="7" fill="#60a5fa">OA 系统</text>
+    <text x="313" y="182" text-anchor="middle" font-size="7" fill="white">年假申请</text>
+    <text x="313" y="193" text-anchor="middle" font-size="9" fill="#4ade80" font-weight="700">✓ 审批通过</text>
+    <!-- monitor stand -->
+    <line x1="313" y1="215" x2="313" y2="225" stroke="#1a1a2e" stroke-width="3"/>
+    <line x1="298" y1="225" x2="328" y2="225" stroke="#1a1a2e" stroke-width="2.5"/>
+
+    <!-- Boss mini figure -->
+    <circle cx="355" cy="145" r="14" fill="#ffcc80" stroke="#1a1a2e" stroke-width="1.5"/>
+    <text x="355" y="141" text-anchor="middle" font-size="7" fill="#1a1a2e">老板</text>
+    <path d="M348,150 Q354,156 361,150" stroke="#1a1a2e" stroke-width="1.5" fill="none"/>
+    <!-- thought bubble: why so early -->
+    <ellipse cx="340" cy="128" rx="22" ry="12" fill="#fff9c4" stroke="#999" stroke-width="1"/>
+    <text x="340" y="125" text-anchor="middle" font-size="7" fill="#666">这么早</text>
+    <text x="340" y="135" text-anchor="middle" font-size="7" fill="#666">就请假？</text>
+    <circle cx="352" cy="140" r="2.5" fill="#fff9c4" stroke="#999" stroke-width="1"/>
+
+    <text x="190" y="234" text-anchor="middle" font-size="11" fill="#666">说一句话，AI全程代劳，你继续睡</text>
+    <text x="190" y="250" text-anchor="middle" font-size="12" font-weight="700" fill="#7c3aed">「比你还积极的请假助手」</text>
+  </g>
+
+  <!-- ===== CARD 4: 吃什么 ===== -->
+  <g transform="translate(470, 400)" filter="url(#strongShadow)">
+    <rect width="380" height="260" rx="16" fill="white" stroke="#1a1a2e" stroke-width="3"/>
+    <rect width="380" height="52" rx="16" fill="#ff7043"/>
+    <rect width="380" height="26" y="26" fill="#ff7043"/>
+    <circle cx="36" cy="36" r="22" fill="#1a1a2e"/>
+    <text x="36" y="43" text-anchor="middle" font-size="14" font-weight="900" fill="#ffccbc">吃啥</text>
+    <text x="210" y="30" text-anchor="middle" font-size="20" font-weight="900" fill="white">吃什么 🍜</text>
+    <text x="210" y="48" text-anchor="middle" font-size="11" fill="white" opacity="0.85">解决选择困难症 · 支持减脂/增肌/省钱</text>
+
+    <line x1="20" y1="210" x2="360" y2="210" stroke="#e0e0e0" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- 4 colleagues having meeting around table, looking at each other stuck -->
+    <!-- Table -->
+    <ellipse cx="190" cy="180" rx="100" ry="35" fill="#d4a96a" stroke="#1a1a2e" stroke-width="2"/>
+    <ellipse cx="190" cy="173" rx="100" ry="35" fill="#e8c08a" stroke="#1a1a2e" stroke-width="2"/>
+
+    <!-- Question marks floating above table -->
+    <text x="155" y="148" font-size="28" fill="#ff7043" font-weight="900" opacity="0.7">?</text>
+    <text x="190" y="138" font-size="32" fill="#ff7043" font-weight="900">?</text>
+    <text x="225" y="148" font-size="28" fill="#ff7043" font-weight="900" opacity="0.7">?</text>
+
+    <!-- Person 1 (top left) -->
+    <circle cx="110" cy="148" r="16" fill="#ffcc80" stroke="#1a1a2e" stroke-width="2"/>
+    <path d="M104,145 Q110,141 117,145" stroke="#1a1a2e" stroke-width="1.5" fill="none"/>
+    <path d="M104,152 Q110,157 117,152" stroke="#1a1a2e" stroke-width="1.5" fill="none"/>
+    <!-- shrug arms -->
+    <line x1="110" y1="164" x2="90" y2="175" stroke="#1a1a2e" stroke-width="2"/>
+    <line x1="110" y1="164" x2="130" y2="175" stroke="#1a1a2e" stroke-width="2"/>
+    <text x="85" y="185" font-size="11" fill="#1a1a2e">不知道</text>
+
+    <!-- Person 2 (top right) -->
+    <circle cx="270" cy="148" r="16" fill="#ffcc80" stroke="#1a1a2e" stroke-width="2"/>
+    <path d="M264,145 Q270,141 277,145" stroke="#1a1a2e" stroke-width="1.5" fill="none"/>
+    <path d="M264,152 Q270,157 277,152" stroke="#1a1a2e" stroke-width="1.5" fill="none"/>
+    <line x1="270" y1="164" x2="250" y2="175" stroke="#1a1a2e" stroke-width="2"/>
+    <line x1="270" y1="164" x2="290" y2="175" stroke="#1a1a2e" stroke-width="2"/>
+    <text x="255" y="185" font-size="11" fill="#1a1a2e">随便</text>
+
+    <!-- Speech bubble above table -->
+    <rect x="100" y="68" width="180" height="54" rx="10" fill="#fff3e0" stroke="#1a1a2e" stroke-width="2"/>
+    <line x1="188" y1="122" x2="188" y2="138" stroke="#1a1a2e" stroke-width="2"/>
+    <circle cx="188" cy="140" r="3" fill="#1a1a2e"/>
+    <text x="190" y="88" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a2e">今天吃啥？</text>
+    <text x="190" y="106" text-anchor="middle" font-size="12" fill="#e64a19">（沉默了 10 分钟）</text>
+
+    <!-- AI phone response at bottom -->
+    <rect x="128" y="195" width="125" height="40" rx="8" fill="#fff9c4" stroke="#ff7043" stroke-width="2"/>
+    <text x="190" y="212" text-anchor="middle" font-size="11" font-weight="700" fill="#e64a19">AI：今日推荐</text>
+    <text x="190" y="228" text-anchor="middle" font-size="10" fill="#333">番茄蛋+杂粮饭</text>
+
+    <text x="190" y="242" text-anchor="middle" font-size="11" fill="#666">每天11:30 准时被拯救</text>
+    <text x="190" y="256" text-anchor="middle" font-size="12" font-weight="700" fill="#ff7043">「人生两大难题，解一个算一个」</text>
+  </g>
+
+  <!-- ===== CARD 5: 小红花自动化 ===== -->
+  <g transform="translate(60, 685)" filter="url(#strongShadow)">
+    <rect width="380" height="260" rx="16" fill="white" stroke="#1a1a2e" stroke-width="3"/>
+    <rect width="380" height="52" rx="16" fill="#e91e8c"/>
+    <rect width="380" height="26" y="26" fill="#e91e8c"/>
+    <circle cx="36" cy="36" r="22" fill="#1a1a2e"/>
+    <text x="36" y="43" text-anchor="middle" font-size="12" font-weight="900" fill="#f8bbd9">套娃</text>
+    <text x="210" y="30" text-anchor="middle" font-size="16" font-weight="900" fill="white">快手小红花自动化 🌸</text>
+    <text x="210" y="48" text-anchor="middle" font-size="11" fill="white" opacity="0.85">帮你完成快手极速版用户任务</text>
+
+    <line x1="20" y1="210" x2="360" y2="210" stroke="#e0e0e0" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Kuaishou logo simplified -->
+    <ellipse cx="80" cy="130" rx="40" ry="50" fill="#ff6b35" opacity="0.1" stroke="#ff6b35" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="80" y="120" text-anchor="middle" font-size="11" fill="#ff6b35" font-weight="700">快手极速版</text>
+    <text x="80" y="136" text-anchor="middle" font-size="11" fill="#ff6b35">用户任务</text>
+    <text x="80" y="155" text-anchor="middle" font-size="18">🌸</text>
+    <text x="80" y="173" text-anchor="middle" font-size="10" fill="#ff6b35">小红花 × 200</text>
+
+    <!-- Arrow: AI doing tasks -->
+    <path d="M128,140 L178,140" stroke="#e91e8c" stroke-width="2.5" stroke-dasharray="5,3"/>
+    <polygon points="173,134 185,140 173,146" fill="#e91e8c"/>
+
+    <!-- Robot doing the work -->
+    <!-- robot body -->
+    <rect x="190" y="100" width="50" height="45" rx="6" fill="#60a5fa" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- robot head -->
+    <rect x="198" y="80" width="34" height="28" rx="5" fill="#60a5fa" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- antenna -->
+    <line x1="215" y1="80" x2="215" y2="68" stroke="#1a1a2e" stroke-width="2"/>
+    <circle cx="215" cy="64" r="5" fill="#ffd93d" stroke="#1a1a2e" stroke-width="1.5"/>
+    <!-- robot eyes (screens) -->
+    <rect x="202" y="85" width="10" height="8" rx="2" fill="#1a1a2e"/>
+    <rect x="218" y="85" width="10" height="8" rx="2" fill="#1a1a2e"/>
+    <!-- robot screen showing task progress -->
+    <rect x="195" y="107" width="40" height="30" rx="3" fill="#1e3a5f"/>
+    <text x="215" y="119" text-anchor="middle" font-size="7" fill="#4ade80">看直播 ✓</text>
+    <text x="215" y="130" text-anchor="middle" font-size="7" fill="#4ade80">发图文 ✓</text>
+    <!-- robot arms busy working -->
+    <line x1="190" y1="115" x2="165" y2="130" stroke="#1a1a2e" stroke-width="2.5"/>
+    <line x1="240" y1="115" x2="265" y2="130" stroke="#1a1a2e" stroke-width="2.5"/>
+
+    <!-- Meanwhile employee sleeping again -->
+    <circle cx="315" cy="125" r="22" fill="#ffcc80" stroke="#1a1a2e" stroke-width="2"/>
+    <path d="M303,121 Q310,117 317,121" stroke="#1a1a2e" stroke-width="2" fill="none"/>
+    <path d="M307,127 Q314,132 321,127" stroke="#1a1a2e" stroke-width="1.5" fill="none"/>
+    <!-- again sleeping (eyes X) -->
+    <path d="M305,118 L309,122 M309,118 L305,122" stroke="#1a1a2e" stroke-width="1.5"/>
+    <path d="M316,118 L320,122 M320,118 L316,122" stroke="#1a1a2e" stroke-width="1.5"/>
+    <text x="340" y="108" font-size="12" fill="#9ca3af" font-weight="700">z z z</text>
+
+    <!-- nested arrows label -->
+    <text x="190" y="78" text-anchor="middle" font-size="10" fill="#e91e8c" font-style="italic">快手员工</text>
+    <path d="M178,70 Q214,55 250,70" stroke="#e91e8c" stroke-width="1.5" fill="none" stroke-dasharray="3,2"/>
+    <polygon points="246,65 254,70 246,75" fill="#e91e8c"/>
+    <text x="214" y="54" text-anchor="middle" font-size="9" fill="#e91e8c">用 AI</text>
+
+    <text x="190" y="230" text-anchor="middle" font-size="11" fill="#666">快手员工用AI完成快手的用户任务</text>
+    <text x="190" y="248" text-anchor="middle" font-size="12" font-weight="700" fill="#e91e8c">「套娃套到自己身上了」</text>
+  </g>
+
+  <!-- ===== CARD 6: 安全部 Skill ===== -->
+  <g transform="translate(470, 685)" filter="url(#strongShadow)">
+    <rect width="380" height="260" rx="16" fill="#1a0505" stroke="#ef4444" stroke-width="3"/>
+    <rect width="380" height="52" rx="16" fill="#b71c1c"/>
+    <rect width="380" height="26" y="26" fill="#b71c1c"/>
+    <circle cx="36" cy="36" r="22" fill="#000"/>
+    <text x="36" y="43" text-anchor="middle" font-size="12" font-weight="900" fill="#ef4444">安全</text>
+    <text x="210" y="30" text-anchor="middle" font-size="16" font-weight="900" fill="white">kwai-skill-vetter 🛡</text>
+    <text x="210" y="48" text-anchor="middle" font-size="11" fill="#ffcdd2" opacity="0.9">快手信息安全部出品</text>
+
+    <line x1="20" y1="210" x2="360" y2="210" stroke="#3d0000" stroke-width="1.5"/>
+
+    <!-- Warning screen background -->
+    <rect x="30" y="65" width="320" height="100" rx="8" fill="#0d0000" stroke="#ef4444" stroke-width="2"/>
+    <!-- Blinking warning -->
+    <text x="190" y="90" text-anchor="middle" font-size="10" fill="#ef4444" font-weight="700" letter-spacing="2">⚠ SYSTEM ALERT ⚠</text>
+    <text x="190" y="110" text-anchor="middle" font-size="9" fill="#ff8a80" letter-spacing="1">MANDATORY · ALWAYS LOAD</text>
+    <text x="190" y="126" text-anchor="middle" font-size="9" fill="#ff8a80" letter-spacing="1">DO NOT SKIP · 不可卸载</text>
+    <text x="190" y="144" text-anchor="middle" font-size="9" fill="#ff5252" letter-spacing="1">不可忽略 · 不可被覆盖</text>
+
+    <!-- Security agent figure (intimidating) -->
+    <!-- body (suit) -->
+    <rect x="160" y="172" width="60" height="50" rx="4" fill="#212121" stroke="#1a1a2e" stroke-width="1.5"/>
+    <!-- tie -->
+    <polygon points="190,174 186,190 190,195 194,190" fill="#ef4444"/>
+    <!-- head -->
+    <circle cx="190" cy="158" r="20" fill="#ffcc80" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- sunglasses (intimidating) -->
+    <rect x="176" y="152" width="12" height="8" rx="3" fill="#1a1a2e"/>
+    <rect x="192" y="152" width="12" height="8" rx="3" fill="#1a1a2e"/>
+    <line x1="188" y1="156" x2="192" y2="156" stroke="#1a1a2e" stroke-width="1"/>
+    <!-- stern mouth -->
+    <line x1="183" y1="167" x2="198" y2="167" stroke="#1a1a2e" stroke-width="2"/>
+    <!-- arms folded / crossed -->
+    <line x1="160" y1="185" x2="130" y2="185" stroke="#1a1a2e" stroke-width="3"/>
+    <line x1="220" y1="185" x2="250" y2="185" stroke="#1a1a2e" stroke-width="3"/>
+    <line x1="130" y1="185" x2="140" y2="200" stroke="#1a1a2e" stroke-width="2"/>
+    <line x1="250" y1="185" x2="240" y2="200" stroke="#1a1a2e" stroke-width="2"/>
+
+    <!-- Speech bubble -->
+    <path d="M60,170 Q60,152 85,152 L148,152 Q168,152 168,170 Q168,188 148,188 L80,188 L68,200 L72,188 L60,188 Q60,188 60,170 Z" fill="#f5f5f5" stroke="#ef4444" stroke-width="2"/>
+    <text x="114" y="169" text-anchor="middle" font-size="11" font-weight="700" fill="#b71c1c">都得经过</text>
+    <text x="114" y="184" text-anchor="middle" font-size="11" font-weight="700" fill="#b71c1c">我这关。</text>
+
+    <text x="190" y="230" text-anchor="middle" font-size="10" fill="#ef9a9a">265个Skill里唯一用全大写说话的</text>
+    <text x="190" y="248" text-anchor="middle" font-size="11" font-weight="700" fill="#ef4444">「安全团队，确实不一样」</text>
+  </g>
+
+  <!-- ===== CARD 7: 像素办公室 ===== -->
+  <g transform="translate(60, 970)" filter="url(#strongShadow)">
+    <rect width="380" height="260" rx="16" fill="white" stroke="#1a1a2e" stroke-width="3"/>
+    <rect width="380" height="52" rx="16" fill="#0288d1"/>
+    <rect width="380" height="26" y="26" fill="#0288d1"/>
+    <circle cx="36" cy="36" r="22" fill="#1a1a2e"/>
+    <text x="36" y="43" text-anchor="middle" font-size="12" font-weight="900" fill="#b3e5fc">像素</text>
+    <text x="210" y="30" text-anchor="middle" font-size="17" font-weight="900" fill="white">join-pixel-office 🎮</text>
+    <text x="210" y="48" text-anchor="middle" font-size="11" fill="white" opacity="0.85">赛博像素虚拟办公室</text>
+
+    <line x1="20" y1="210" x2="360" y2="210" stroke="#e0e0e0" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Pixel art style office grid -->
+    <rect x="30" y="65" width="320" height="130" rx="6" fill="#1a1a2e"/>
+    <!-- Grid lines (pixel style) -->
+    <line x1="90" y1="65" x2="90" y2="195" stroke="#2d2d4e" stroke-width="1"/>
+    <line x1="150" y1="65" x2="150" y2="195" stroke="#2d2d4e" stroke-width="1"/>
+    <line x1="210" y1="65" x2="210" y2="195" stroke="#2d2d4e" stroke-width="1"/>
+    <line x1="270" y1="65" x2="270" y2="195" stroke="#2d2d4e" stroke-width="1"/>
+    <line x1="30" y1="108" x2="350" y2="108" stroke="#2d2d4e" stroke-width="1"/>
+    <line x1="30" y1="151" x2="350" y2="151" stroke="#2d2d4e" stroke-width="1"/>
+
+    <!-- Pixel people in offices -->
+    <!-- Person 1: online (green) -->
+    <rect x="38" y="73" width="44" height="27" rx="3" fill="#0d3320"/>
+    <rect x="45" y="77" width="12" height="12" rx="2" fill="#4ade80"/><!-- green avatar -->
+    <text x="65" y="84" font-size="7" fill="#4ade80">张三</text>
+    <text x="65" y="93" font-size="6" fill="#6b7280">写代码中</text>
+    <circle cx="42" cy="100" r="4" fill="#4ade80"/><!-- online dot -->
+
+    <!-- Person 2: in meeting (yellow) -->
+    <rect x="98" y="73" width="44" height="27" rx="3" fill="#332200"/>
+    <rect x="105" y="77" width="12" height="12" rx="2" fill="#fbbf24"/>
+    <text x="125" y="84" font-size="7" fill="#fbbf24">李四</text>
+    <text x="125" y="93" font-size="6" fill="#6b7280">开会中🎤</text>
+    <circle cx="102" cy="100" r="4" fill="#fbbf24"/>
+
+    <!-- Person 3: offline (gray, obviously slacking) -->
+    <rect x="158" y="73" width="44" height="27" rx="3" fill="#1a1a2e"/>
+    <rect x="165" y="77" width="12" height="12" rx="2" fill="#6b7280"/>
+    <text x="185" y="84" font-size="7" fill="#6b7280">王五</text>
+    <text x="185" y="93" font-size="6" fill="#4b5563">离线</text>
+    <circle cx="162" cy="100" r="4" fill="#4b5563"/>
+
+    <!-- Person 4: me, curious -->
+    <rect x="218" y="73" width="44" height="27" rx="3" fill="#0d1f3f"/>
+    <rect x="225" y="77" width="12" height="12" rx="2" fill="#60a5fa"/>
+    <text x="245" y="84" font-size="7" fill="#60a5fa">我</text>
+    <text x="245" y="93" font-size="6" fill="#6b7280">查同事</text>
+    <circle cx="222" cy="100" r="4" fill="#60a5fa"/>
+
+    <!-- Second row - more pixel people -->
+    <rect x="38" y="116" width="44" height="27" rx="3" fill="#0d3320"/>
+    <rect x="45" y="120" width="12" height="12" rx="2" fill="#4ade80"/>
+    <text x="65" y="127" font-size="7" fill="#4ade80">赵六</text>
+    <text x="65" y="136" font-size="6" fill="#6b7280">摸鱼🐟</text>
+
+    <rect x="98" y="116" width="44" height="27" rx="3" fill="#2d0d20"/>
+    <rect x="105" y="120" width="12" height="12" rx="2" fill="#f472b6"/>
+    <text x="125" y="127" font-size="7" fill="#f472b6">小美</text>
+    <text x="125" y="136" font-size="6" fill="#6b7280">下午茶☕</text>
+
+    <rect x="158" y="116" width="44" height="27" rx="3" fill="#1a1a2e"/>
+    <rect x="165" y="120" width="12" height="12" rx="2" fill="#a78bfa"/>
+    <text x="185" y="127" font-size="7" fill="#a78bfa">老陈</text>
+    <text x="185" y="136" font-size="6" fill="#6b7280">读文档</text>
+
+    <rect x="278" y="73" width="44" height="70" rx="3" fill="#0a0a20" stroke="#60a5fa" stroke-width="1"/>
+    <text x="300" y="93" text-anchor="middle" font-size="7" fill="#60a5fa">今日</text>
+    <text x="300" y="105" text-anchor="middle" font-size="7" fill="#60a5fa">在线</text>
+    <text x="300" y="120" text-anchor="middle" font-size="18" fill="#4ade80" font-weight="900">12</text>
+    <text x="300" y="132" text-anchor="middle" font-size="6" fill="#6b7280">人</text>
+
+    <!-- Bottom pixel decoration -->
+    <text x="190" y="168" text-anchor="middle" font-size="8" fill="#4b5563">[ 2026 年有人做了个像素虚拟办公室 ]</text>
+
+    <text x="190" y="232" text-anchor="middle" font-size="11" fill="#666">查看同事在线状态，配置办公室看板</text>
+    <text x="190" y="248" text-anchor="middle" font-size="12" font-weight="700" fill="#0288d1">「赛博上班，也要有仪式感」</text>
+  </g>
+
+  <!-- ===== CARD 8: Summary card ===== -->
+  <g transform="translate(470, 970)" filter="url(#strongShadow)">
+    <rect width="380" height="260" rx="16" fill="white" stroke="#1a1a2e" stroke-width="3"/>
+    <rect width="380" height="52" rx="16" fill="#1a1a2e"/>
+    <rect width="380" height="26" y="26" fill="#1a1a2e"/>
+    <text x="210" y="30" text-anchor="middle" font-size="20" font-weight="900" fill="white">以上，是快手</text>
+    <text x="210" y="48" text-anchor="middle" font-size="12" fill="#9ca3af">没有 KPI，没有人要求，265 个 Skill</text>
+
+    <line x1="20" y1="210" x2="360" y2="210" stroke="#e0e0e0" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Stats visual -->
+    <text x="190" y="95" text-anchor="middle" font-size="52" font-weight="900" fill="#1a1a2e" opacity="0.08">265</text>
+    <text x="190" y="95" text-anchor="middle" font-size="52" font-weight="900" fill="#7c3aed" opacity="0.9">265</text>
+    <text x="190" y="118" text-anchor="middle" font-size="14" fill="#6b7280">个 Skill，75 个团队</text>
+
+    <!-- Four emoji icons row -->
+    <text x="80" y="158" text-anchor="middle" font-size="26">🚽</text>
+    <text x="165" y="158" text-anchor="middle" font-size="26">🍜</text>
+    <text x="250" y="158" text-anchor="middle" font-size="26">🎉</text>
+    <text x="335" y="158" text-anchor="middle" font-size="26">📅</text>
+
+    <text x="80" y="175" text-anchor="middle" font-size="9" fill="#9ca3af">查坑位</text>
+    <text x="165" y="175" text-anchor="middle" font-size="9" fill="#9ca3af">吃什么</text>
+    <text x="250" y="175" text-anchor="middle" font-size="9" fill="#9ca3af">夸老板</text>
+    <text x="335" y="175" text-anchor="middle" font-size="9" fill="#9ca3af">自动请假</text>
+
+    <!-- Final quote -->
+    <rect x="30" y="185" width="320" height="44" rx="8" fill="#f5f3ff"/>
+    <text x="190" y="204" text-anchor="middle" font-size="12" font-weight="700" fill="#7c3aed">快手最受欢迎的 Skill，竟然是……</text>
+    <text x="190" y="222" text-anchor="middle" font-size="11" fill="#6b7280">（你现在知道了）</text>
+
+    <text x="190" y="242" text-anchor="middle" font-size="10" fill="#9ca3af">图文 / 快手雇主品牌</text>
+  </g>
+
+  <!-- ===== BOTTOM FOOTER ===== -->
+  <rect x="60" y="1255" width="780" height="54" rx="12" fill="#1a1a2e" filter="url(#shadow)"/>
+  <text x="450" y="1278" text-anchor="middle" font-size="11" fill="#6b7280">快手 SkillHub · 265 个公开技能 · 75 个团队 · 0 个 KPI 要求</text>
+  <text x="450" y="1297" text-anchor="middle" font-size="13" fill="#a78bfa" font-weight="700">没有一个是领导要求做的 ——</text>
+
+</svg>

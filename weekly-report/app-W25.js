@@ -15,6 +15,7 @@
 
   // ── 左侧目录渲染 ──────────────────────────────────────
   const REPORTS = [
+    { week: '2026 W28', range: '07.07 — 07.13', file: 'index.html', active: false },
     { week: '2026 W27', range: '06.30 — 07.06', file: 'index.html', active: false },
     { week: '2026 W26', range: '06.23 — 06.29', file: 'report-W26.html', active: false },
     { week: '2026 W25', range: '06.16 — 06.22', file: 'report-W25.html', active: true },

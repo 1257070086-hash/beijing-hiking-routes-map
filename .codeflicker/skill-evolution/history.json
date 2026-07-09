@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "skills": {
+    "skill-migrator": {
+      "skillName": "skill-migrator",
+      "skillType": "personal",
+      "currentVersion": "v1",
+      "totalEvents": 1,
+      "history": [
+        {
+          "id": "evt_1777465654525_kr6a31",
+          "timestamp": "2026-04-29T12:27:34.525Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "8wcdwd491wg2218jss94",
+          "reason": "发现 --classify 脚本 stdout 被 SSO 认证进度信息污染，导致重定向后 JSON 文件无法直接 json.load()。SKILL.md 原文描述错误（称 stdout 是纯净 JSON）。已修正描述并添加 workaround：用管道+python内联脚本从第一个 { 截取 JSON，规避污染问题。",
+          "backupPath": "skill-evolution/backups/skill-migrator/v0_2026-04-29T12-27-34-524Z.md",
+          "contentHash": "sha256:694242b15d27856d34b1c6856272b66bca0f3c5fd4154a3c7240f8e23de2bd46",
+          "version": "v1"
+        }
+      ]
+    },
+    "docs-shuttle": {
+      "skillName": "docs-shuttle",
+      "skillType": "personal",
+      "currentVersion": "v1",
+      "totalEvents": 1,
+      "history": [
+        {
+          "id": "evt_1778087663463_ydxl5o",
+          "timestamp": "2026-05-06T17:14:23.463Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "skill-review-1778087568198-ipsb3w",
+          "reason": "发现 push.py 上传到缓存项目文件夹时报 NOT_PERMITTED（resultCode），根因是 config.json 中 parentId 缓存失效，与 Cookie 有效性无关。记忆中补充了问题现象、根因分析和三种解法（去掉--project上传到根目录/清空projects缓存/调试API查原始返回）",
+          "contentHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "version": "v1"
+        }
+      ]
+    },
+    "context-window-management": {
+      "skillName": "context-window-management",
+      "skillType": "personal",
+      "currentVersion": "v1",
+      "totalEvents": 1,
+      "history": [
+        {
+          "id": "evt_1778127718986_7uiitj",
+          "timestamp": "2026-05-07T04:21:58.986Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "skill-review-1778127658386-bvd19x",
+          "reason": "Added anti-pattern: tool parameter loss under context pressure. Discovered through trial-and-error in video summarization session where write_to_file content, execute_command command, and other large-content parameters were silently dropped when context usage was ~58%. Added symptom identification, root cause analysis, and 5 mitigation strategies.",
+          "backupPath": "skill-evolution/backups/context-window-management/v0_2026-05-07T04-21-58-985Z.md",
+          "contentHash": "sha256:db3a41389e409076b96b29eb22029d24de7bcd6dd1a6bac147ad137ea923b679",
+          "version": "v1"
+        }
+      ]
+    },
+    "battlesnake-ai-pitfalls": {
+      "skillName": "battlesnake-ai-pitfalls",
+      "skillType": "personal",
+      "currentVersion": "v1",
+      "totalEvents": 1,
+      "history": [
+        {
+          "id": "evt_1778355177872_bml6as",
+          "timestamp": "2026-05-09T19:32:57.872Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "clsa6xd8g6s2lr80n2u2",
+          "reason": "Updated memory a722f2b3ec4002dd with new pitfalls: snake heading rule (倒三角最长边=朝向), tail release (build_tail_release_set), heading-aware threat (effective_threat_steps). No new skill created - these are project-specific algorithm implementations, not reusable as a standalone skill.",
+          "backupPath": "skill-evolution/backups/battlesnake-ai-pitfalls/v0_2026-05-09T19-32-57-871Z.md",
+          "contentHash": "a722f2b3ec4002dd-v2",
+          "version": "v1"
+        }
+      ]
+    },
+    "battlesnake-ai-debugger": {
+      "skillName": "battlesnake-ai-debugger",
+      "skillType": "personal",
+      "currentVersion": "v8",
+      "totalEvents": 8,
+      "history": [
+        {
+          "id": "evt_1778442710698_tcwqqd",
+          "timestamp": "2026-05-10T19:51:50.698Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "ku07g690kpr3zhffb08j",
+          "reason": "v9 flood fill Minimax → v10 Make/Unmake + Paranoid Minimax + Voronoi architecture rewrite. Added: undo dead snake pre_move_snapshot fix, NEUTRAL Voronoi lock, head_collision_threat, would_self_kill head-not-filter, boundary_penalty, escape_routes, diagnostic logging + death cause analysis, Beam truncation",
+          "contentHash": "updated-v10.3",
+          "version": "v8"
+        },
+        {
+          "id": "evt_1778417577426_v8j3rn",
+          "timestamp": "2026-05-10T12:52:57.426Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "ku07g690kpr3zhffb08j",
+          "reason": "v8.1 skill content outdated: actual code is v9.2 with completely rewritten architecture (single ff core + minimal patches instead of 3 metrics with phase weights). Added: just_ate ghost cells bug, enemy length shrinking bug, food_bonus conditional activation, sort_by_ff edge_dist tiebreak, ate_bonus progressive, urgent health threshold raised to 60",
+          "backupPath": "skill-evolution/backups/battlesnake-ai-debugger/v6_2026-05-10T12-52-57-425Z.md",
+          "contentHash": "v5.0.0-v9.2-single-ff-core",
+          "version": "v7"
+        },
+        {
+          "id": "evt_1778416088576_wcz8j4",
+          "timestamp": "2026-05-10T12:28:08.576Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "ku07g690kpr3zhffb08j",
+          "reason": "v8.1 major architecture change: flood fill compression replaces Voronoi core, edge_dist replaces manhattan-center penalty, new symptom-rootcause table, new diagnostic method for weight conflicts",
+          "contentHash": "battlesnake-ai-debugger-v8.1",
+          "version": "v6"
+        },
+        {
+          "id": "evt_1778414268866_kmqjvt",
+          "timestamp": "2026-05-10T11:57:48.866Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "ku07g690kpr3zhffb08j",
+          "reason": "Updated from v2.0(v6.3) to v3.0(v7.1): core architecture shift from 6 evaluate metrics+4 anti-loop patches to 2 metrics+depth=8. Added short snake w_voronoi=0, linear food decay, ate_bonus in middle layers. Removed mobility/center/ff_ratio patches.",
+          "contentHash": "v3.0.0",
+          "version": "v5"
+        },
+        {
+          "id": "evt_1778398438461_gutprb",
+          "timestamp": "2026-05-10T07:33:58.461Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "skill-review-1778398267598-yrj6rx",
+          "reason": "Added v6.3 anti-loop mechanisms (mobility, ff_ratio, center_score, uturn_penalty) and looping root cause analysis to skill and memory. Updated evaluate section from v6.1 to v6.3, added 3 new pitfall rows to speed-reference table.",
+          "backupPath": "skill-evolution/backups/battlesnake-ai-debugger/v3_2026-05-10T07-33-58-461Z.md",
+          "contentHash": "updated-2026-05-10-v63",
+          "version": "v4"
+        },
+        {
+          "id": "evt_1778391943979_jmav3h",
+          "timestamp": "2026-05-10T05:45:43.979Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "skill-review-1778391842256-zqdn5c",
+          "reason": "v6.1实战修复经验：step_state对手尾部出队完整方案、Voronoi压制食物的架构级矛盾、短蛇阶段权重动态调整、近距食物加成、ate_bonus每层累加、踩坑速查表新增4条",
+          "contentHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "version": "v3"
+        },
+        {
+          "id": "evt_1778390869471_w3jiql",
+          "timestamp": "2026-05-10T05:27:49.471Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "skill-review-1778390744792-g0rmwy",
+          "reason": "v6.0架构设计经验沉淀：Voronoi差值核心设计理念、三层软降级安全过滤、正交三指标evaluate、Minimax vs RL决策对比、Railway部署端口踩坑。从v1.0.0的纯调试排查升级为v2.0.0的调试+设计+部署全流程指南。",
+          "contentHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "version": "v2"
+        },
+        {
+          "id": "evt_1778356910276_0womkb",
+          "timestamp": "2026-05-09T20:01:50.276Z",
+          "operation": "create",
+          "trigger": "review_session",
+          "sessionId": "skill-review-1778356785161-igo3en",
+          "reason": "实战调试Battlesnake AI发现7类踩坑经验（蛇头朝向/flood fill/死局保命/对手模拟/自我绕死），沉淀为可复用的排查指南skill",
+          "contentHash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "version": "v1"
+        }
+      ]
+    },
+    "video-summarizer": {
+      "skillName": "video-summarizer",
+      "skillType": "personal",
+      "currentVersion": "v2",
+      "totalEvents": 2,
+      "history": [
+        {
+          "id": "evt_1778439969132_2yq4hp",
+          "timestamp": "2026-05-10T19:06:09.132Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "skill-review-1778439865875-pvvcbe",
+          "reason": "补充ffmpeg大文件音频提取必须用nohup的踩坑经验：直接后台运行ffmpeg会僵死(CPU=0%)，用nohup+日志文件后11秒完成(780x速度)。原SKILL.md只写了建议后台运行，但没有nohup的具体命令、僵死排查方法和实测数据",
+          "backupPath": "skill-evolution/backups/video-summarizer/v1_2026-05-10T19-06-09-131Z.md",
+          "contentHash": "sha256:70e83b75e7a6038e745a1bf90b8ae67ec841e094daf5f9bca5780806a7259614",
+          "version": "v2"
+        },
+        {
+          "id": "evt_1778433136976_5skigl",
+          "timestamp": "2026-05-10T17:12:16.976Z",
+          "operation": "update",
+          "trigger": "review_session",
+          "sessionId": "nmub7vfv0b67x5rr4ubz",
+          "reason": "新增本地视频+纯图片PDF组合工作流。踩坑经验：金融会员课PDF100%无文字层，pdftotext和PyMuPDF get_text()全返回空白，必须get_pixmap导出PNG视觉读取。1.6GB大视频ffmpeg提取需后台并行处理。",
+          "backupPath": "skill-evolution/backups/video-summarizer/v0_2026-05-10T17-12-16-976Z.md",
+          "contentHash": "sha256:fd99db1434800d95987e28137cf7b851bdde3b833ae58f07156447c269299748",
+          "version": "v1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0d2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f5c842;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8923a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c0c0c0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8a8a8a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bronze" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cd7f32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5e3c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rowHover1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e1040;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#130a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rowHover2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#140c30;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0e0820;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa" />
+      <stop offset="50%" style="stop-color:#60a5fa" />
+      <stop offset="100%" style="stop-color:#f472b6" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1100" fill="url(#bgGrad)" rx="16"/>
+
+  <!-- Decorative top glow -->
+  <ellipse cx="400" cy="0" rx="300" ry="80" fill="#7c3aed" opacity="0.15"/>
+
+  <!-- Header area -->
+  <rect x="0" y="0" width="800" height="130" fill="none"/>
+
+  <!-- Logo badge -->
+  <rect x="30" y="22" width="90" height="28" rx="6" fill="#7c3aed" opacity="0.3"/>
+  <text x="75" y="41" text-anchor="middle" font-size="12" fill="#c4b5fd" font-weight="600">SkillHub</text>
+
+  <!-- Season badge -->
+  <rect x="680" y="22" width="90" height="28" rx="6" fill="#1e3a5f" opacity="0.8"/>
+  <text x="725" y="41" text-anchor="middle" font-size="12" fill="#60a5fa" font-weight="600">2025 赛季</text>
+
+  <!-- Title -->
+  <text x="400" y="75" text-anchor="middle" font-size="28" font-weight="800" fill="url(#titleGrad)" filter="url(#softglow)">快手 Skill 英雄榜</text>
+  <text x="400" y="102" text-anchor="middle" font-size="13" fill="#6b7280">265 个技能参赛 · 全员投票 · 数据截至 2025 Q1</text>
+
+  <!-- Divider line -->
+  <line x1="30" y1="118" x2="770" y2="118" stroke="#2d1b69" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <rect x="30" y="124" width="740" height="32" rx="6" fill="#1a0f3a"/>
+  <text x="58" y="145" font-size="11" fill="#6b7280" font-weight="600">排名</text>
+  <text x="120" y="145" font-size="11" fill="#6b7280" font-weight="600">技能名称</text>
+  <text x="360" y="145" font-size="11" fill="#6b7280" font-weight="600">技能描述</text>
+  <text x="670" y="145" text-anchor="middle" font-size="11" fill="#6b7280" font-weight="600">⭐ 收藏</text>
+  <text x="745" y="145" text-anchor="middle" font-size="11" fill="#6b7280" font-weight="600">👁 浏览</text>
+
+  <!-- ===== ROW 1 - GOLD ===== -->
+  <rect x="30" y="162" width="740" height="72" rx="8" fill="url(#rowHover1)" stroke="#f5c842" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- Gold left accent -->
+  <rect x="30" y="162" width="4" height="72" rx="2" fill="url(#gold)"/>
+  <!-- Rank badge -->
+  <circle cx="62" cy="198" r="18" fill="#f5c842" opacity="0.15"/>
+  <text x="62" y="203" text-anchor="middle" font-size="18" fill="#f5c842" font-weight="900" filter="url(#glow)">1</text>
+  <!-- Skill name -->
+  <text x="120" y="191" font-size="15" font-weight="700" fill="#f5c842">svg-flowchart-designer</text>
+  <text x="120" y="210" font-size="11" fill="#9ca3af">🎨 画图能手</text>
+  <!-- Description -->
+  <text x="360" y="188" font-size="12" fill="#d1d5db">流程图 / 架构图 / 信息图</text>
+  <text x="360" y="208" font-size="12" fill="#d1d5db">SVG &amp; HTML 双输出，13种子类型</text>
+  <text x="360" y="225" font-size="10" fill="#6b7280">📌 全平台最强画图工具</text>
+  <!-- Stats -->
+  <text x="670" y="203" text-anchor="middle" font-size="16" font-weight="700" fill="#f5c842">30</text>
+  <text x="745" y="203" text-anchor="middle" font-size="16" font-weight="700" fill="#a78bfa">1500</text>
+
+  <!-- ===== ROW 2 - SILVER ===== -->
+  <rect x="30" y="242" width="740" height="72" rx="8" fill="url(#rowHover2)" stroke="#c0c0c0" stroke-width="1" stroke-opacity="0.3"/>
+  <rect x="30" y="242" width="4" height="72" rx="2" fill="url(#silver)"/>
+  <circle cx="62" cy="278" r="18" fill="#c0c0c0" opacity="0.12"/>
+  <text x="62" y="283" text-anchor="middle" font-size="18" fill="#c0c0c0" font-weight="900">2</text>
+  <text x="120" y="271" font-size="15" font-weight="700" fill="#e5e7eb">kuaishou-sso-login</text>
+  <text x="120" y="290" font-size="11" fill="#9ca3af">🔐 通行证</text>
+  <text x="360" y="268" font-size="12" fill="#d1d5db">快手内网 SSO 自动登录</text>
+  <text x="360" y="288" font-size="12" fill="#d1d5db">KIM扫码 / 短信 / 密码三合一</text>
+  <text x="360" y="305" font-size="10" fill="#6b7280">🚪 进入内网的第一把钥匙</text>
+  <text x="670" y="283" text-anchor="middle" font-size="16" font-weight="700" fill="#c0c0c0">20</text>
+  <text x="745" y="283" text-anchor="middle" font-size="16" font-weight="700" fill="#a78bfa">1401</text>
+
+  <!-- ===== ROW 3 - BRONZE ===== -->
+  <rect x="30" y="322" width="740" height="72" rx="8" fill="url(#rowHover1)" stroke="#cd7f32" stroke-width="1" stroke-opacity="0.3"/>
+  <rect x="30" y="322" width="4" height="72" rx="2" fill="url(#bronze)"/>
+  <circle cx="62" cy="358" r="18" fill="#cd7f32" opacity="0.12"/>
+  <text x="62" y="363" text-anchor="middle" font-size="18" fill="#cd7f32" font-weight="900">3</text>
+  <text x="120" y="351" font-size="15" font-weight="700" fill="#e5e7eb">awesome-skillhub</text>
+  <text x="120" y="370" font-size="11" fill="#9ca3af">📖 新手礼包</text>
+  <text x="360" y="348" font-size="12" fill="#d1d5db">SkillHub 官方使用指南</text>
+  <text x="360" y="368" font-size="12" fill="#d1d5db">教你找、装、用、更新 Skill</text>
+  <text x="360" y="385" font-size="10" fill="#6b7280">🎓 入门必读，浏览量全站第一</text>
+  <text x="670" y="363" text-anchor="middle" font-size="16" font-weight="700" fill="#cd7f32">16</text>
+  <text x="745" y="363" text-anchor="middle" font-size="16" font-weight="700" fill="#a78bfa">1994</text>
+
+  <!-- ===== ROW 4 ===== -->
+  <rect x="30" y="402" width="740" height="68" rx="8" fill="url(#rowHover2)"/>
+  <rect x="30" y="402" width="4" height="68" rx="2" fill="#60a5fa" opacity="0.6"/>
+  <text x="62" y="441" text-anchor="middle" font-size="16" fill="#9ca3af" font-weight="700">4</text>
+  <text x="120" y="431" font-size="14" font-weight="600" fill="#e5e7eb">kwaibi-data-query</text>
+  <text x="120" y="450" font-size="11" fill="#9ca3af">📊 数据侦探</text>
+  <text x="360" y="428" font-size="12" fill="#d1d5db">天策看板数据一键查询</text>
+  <text x="360" y="446" font-size="12" fill="#d1d5db">OLAP / 洞察 / Dashboard 全支持</text>
+  <text x="670" y="441" text-anchor="middle" font-size="15" font-weight="700" fill="#60a5fa">15</text>
+  <text x="745" y="441" text-anchor="middle" font-size="15" font-weight="700" fill="#a78bfa">1074</text>
+
+  <!-- ===== ROW 5 ===== -->
+  <rect x="30" y="478" width="740" height="68" rx="8" fill="url(#rowHover1)"/>
+  <rect x="30" y="478" width="4" height="68" rx="2" fill="#60a5fa" opacity="0.5"/>
+  <text x="62" y="517" text-anchor="middle" font-size="16" fill="#9ca3af" font-weight="700">5</text>
+  <text x="120" y="507" font-size="14" font-weight="600" fill="#e5e7eb">docs-shuttle</text>
+  <text x="120" y="526" font-size="11" fill="#9ca3af">📝 文档摆渡人</text>
+  <text x="360" y="504" font-size="12" fill="#d1d5db">本地 Markdown ↔ 快手内网 Docs</text>
+  <text x="360" y="522" font-size="12" fill="#d1d5db">双向同步，一键发布</text>
+  <text x="670" y="517" text-anchor="middle" font-size="15" font-weight="700" fill="#60a5fa">13</text>
+  <text x="745" y="517" text-anchor="middle" font-size="15" font-weight="700" fill="#a78bfa">614</text>
+
+  <!-- ===== ROW 6 - SPECIAL (坑来) ===== -->
+  <rect x="30" y="554" width="740" height="80" rx="8" fill="#1a0f20" stroke="#f472b6" stroke-width="1.5" stroke-opacity="0.6"/>
+  <rect x="30" y="554" width="4" height="80" rx="2" fill="#f472b6"/>
+  <!-- Special glow effect -->
+  <rect x="30" y="554" width="740" height="80" rx="8" fill="#f472b6" opacity="0.04"/>
+  <text x="62" y="598" text-anchor="middle" font-size="16" fill="#9ca3af" font-weight="700">6</text>
+  <!-- Special label -->
+  <rect x="90" y="560" width="56" height="18" rx="4" fill="#f472b6" opacity="0.2"/>
+  <text x="118" y="573" text-anchor="middle" font-size="9" fill="#f472b6" font-weight="700">年度黑马</text>
+  <text x="120" y="593" font-size="15" font-weight="700" fill="#f9a8d4">坑来 🚽</text>
+  <text x="120" y="612" font-size="11" fill="#f472b6">厕所侦察员</text>
+  <text x="360" y="578" font-size="12" fill="#d1d5db">实时查询工区各楼层空闲坑位</text>
+  <text x="360" y="598" font-size="12" fill="#d1d5db">蹲便 / 坐便 状态一目了然</text>
+  <text x="360" y="618" font-size="10" fill="#f472b6">💬 「最务实的 AI 应用」——网友评</text>
+  <text x="670" y="598" text-anchor="middle" font-size="15" font-weight="700" fill="#f472b6">12</text>
+  <text x="745" y="598" text-anchor="middle" font-size="15" font-weight="700" fill="#a78bfa">1188</text>
+
+  <!-- More items divider -->
+  <text x="400" y="662" text-anchor="middle" font-size="12" fill="#4b5563">— 以下为榜单延伸 —</text>
+
+  <!-- ===== EXTRA SKILLS - compact rows ===== -->
+  <!-- hungry-helper -->
+  <rect x="30" y="674" width="740" height="52" rx="6" fill="url(#rowHover2)"/>
+  <rect x="30" y="674" width="3" height="52" rx="2" fill="#34d399" opacity="0.6"/>
+  <text x="62" y="703" text-anchor="middle" font-size="14" fill="#9ca3af" font-weight="600">+</text>
+  <text x="120" y="698" font-size="13" font-weight="600" fill="#e5e7eb">hungry-helper &amp; 吃什么 🍜</text>
+  <text x="120" y="716" font-size="11" fill="#6b7280">老铁食堂助手 · 减脂/增肌/省钱饮食推荐</text>
+  <text x="670" y="703" text-anchor="middle" font-size="13" fill="#34d399">3+1</text>
+  <text x="745" y="703" text-anchor="middle" font-size="13" fill="#a78bfa">112+</text>
+
+  <!-- fancy-praise -->
+  <rect x="30" y="732" width="740" height="52" rx="6" fill="url(#rowHover1)"/>
+  <rect x="30" y="732" width="3" height="52" rx="2" fill="#fbbf24" opacity="0.6"/>
+  <text x="62" y="761" text-anchor="middle" font-size="14" fill="#9ca3af" font-weight="600">+</text>
+  <text x="120" y="756" font-size="13" font-weight="600" fill="#e5e7eb">fancy-praise 🎉</text>
+  <text x="120" y="774" font-size="11" fill="#6b7280">花式彩虹屁生成器 · 古风/职场/沙雕风 · 一键发 KIM</text>
+  <text x="670" y="761" text-anchor="middle" font-size="13" fill="#fbbf24">2</text>
+  <text x="745" y="761" text-anchor="middle" font-size="13" fill="#a78bfa">—</text>
+
+  <!-- auto leave -->
+  <rect x="30" y="790" width="740" height="52" rx="6" fill="url(#rowHover2)"/>
+  <rect x="30" y="790" width="3" height="52" rx="2" fill="#a78bfa" opacity="0.6"/>
+  <text x="62" y="819" text-anchor="middle" font-size="14" fill="#9ca3af" font-weight="600">+</text>
+  <text x="120" y="814" font-size="13" font-weight="600" fill="#e5e7eb">快手总部正式休假申请助手 📅</text>
+  <text x="120" y="832" font-size="11" fill="#6b7280">自然语言请假 · 自动提交 OA · 比你还积极</text>
+  <text x="670" y="819" text-anchor="middle" font-size="13" fill="#a78bfa">2</text>
+  <text x="745" y="819" text-anchor="middle" font-size="13" fill="#a78bfa">—</text>
+
+  <!-- pixel office -->
+  <rect x="30" y="848" width="740" height="52" rx="6" fill="url(#rowHover1)"/>
+  <rect x="30" y="848" width="3" height="52" rx="2" fill="#60a5fa" opacity="0.6"/>
+  <text x="62" y="877" text-anchor="middle" font-size="14" fill="#9ca3af" font-weight="600">+</text>
+  <text x="120" y="872" font-size="13" font-weight="600" fill="#e5e7eb">join-pixel-office 🎮</text>
+  <text x="120" y="890" font-size="11" fill="#6b7280">像素虚拟办公室 · 查看同事在线状态</text>
+  <text x="670" y="877" text-anchor="middle" font-size="13" fill="#60a5fa">1</text>
+  <text x="745" y="877" text-anchor="middle" font-size="13" fill="#a78bfa">—</text>
+
+  <!-- security -->
+  <rect x="30" y="906" width="740" height="52" rx="6" fill="#150a0a" stroke="#ef4444" stroke-width="0.5" stroke-opacity="0.4"/>
+  <rect x="30" y="906" width="3" height="52" rx="2" fill="#ef4444"/>
+  <text x="62" y="935" text-anchor="middle" font-size="14" fill="#9ca3af" font-weight="600">+</text>
+  <text x="120" y="930" font-size="13" font-weight="600" fill="#fca5a5">kwai-skill-vetter 🛡</text>
+  <text x="120" y="948" font-size="11" fill="#ef4444">[ MANDATORY · DO NOT SKIP ] 安全部出品 · 强制加载 · 不可卸载</text>
+  <text x="670" y="935" text-anchor="middle" font-size="13" fill="#ef4444">4</text>
+  <text x="745" y="935" text-anchor="middle" font-size="13" fill="#a78bfa">289</text>
+
+  <!-- Bottom stats bar -->
+  <rect x="30" y="978" width="740" height="56" rx="8" fill="#0f0a1e" stroke="#2d1b69" stroke-width="1"/>
+  <text x="400" y="998" text-anchor="middle" font-size="11" fill="#6b7280">总计数据</text>
+  <line x1="30" y1="1004" x2="770" y2="1004" stroke="#1e1040" stroke-width="1"/>
+
+  <!-- Stats items -->
+  <text x="130" y="1028" text-anchor="middle" font-size="22" font-weight="800" fill="#a78bfa">265</text>
+  <text x="130" y="1046" text-anchor="middle" font-size="11" fill="#6b7280">公开技能</text>
+
+  <line x1="240" y1="1010" x2="240" y2="1050" stroke="#2d1b69" stroke-width="1"/>
+
+  <text x="340" y="1028" text-anchor="middle" font-size="22" font-weight="800" fill="#60a5fa">75</text>
+  <text x="340" y="1046" text-anchor="middle" font-size="11" fill="#6b7280">团队在用</text>
+
+  <line x1="440" y1="1010" x2="440" y2="1050" stroke="#2d1b69" stroke-width="1"/>
+
+  <text x="555" y="1028" text-anchor="middle" font-size="22" font-weight="800" fill="#34d399">全员</text>
+  <text x="555" y="1046" text-anchor="middle" font-size="11" fill="#6b7280">自发创建</text>
+
+  <line x1="650" y1="1010" x2="650" y2="1050" stroke="#2d1b69" stroke-width="1"/>
+
+  <text x="720" y="1028" text-anchor="middle" font-size="22" font-weight="800" fill="#f472b6">0</text>
+  <text x="720" y="1046" text-anchor="middle" font-size="11" fill="#6b7280">KPI 要求</text>
+
+  <!-- Footer -->
+  <text x="400" y="1085" text-anchor="middle" font-size="11" fill="#374151">快手 SkillHub · 没有一个是领导要求做的</text>
+
+</svg>

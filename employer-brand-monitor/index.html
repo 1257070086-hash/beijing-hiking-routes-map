@@ -1,0 +1,1616 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>快手雇主品牌 · 舆情监控平台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg:        oklch(97% 0.005 260);
+      --surface:   oklch(100% 0 0);
+      --surface2:  oklch(95% 0.008 260);
+      --border:    oklch(88% 0.012 260);
+      --text:      oklch(18% 0.02 260);
+      --muted:     oklch(52% 0.015 260);
+      --accent:    oklch(48% 0.2 22);   /* 快手红 */
+      --accent-s:  oklch(62% 0.18 22);
+      --accent-bg: oklch(96% 0.03 22);
+      --pos:       oklch(45% 0.18 145);
+      --pos-bg:    oklch(95% 0.04 145);
+      --neg:       oklch(42% 0.2 18);
+      --neg-bg:    oklch(96% 0.04 18);
+      --neu:       oklch(50% 0.05 250);
+      --neu-bg:    oklch(95% 0.015 250);
+      --warn:      oklch(58% 0.2 50);
+      --warn-bg:   oklch(96% 0.04 50);
+      --shadow-sm: 0 1px 3px oklch(0% 0 0 / 0.06), 0 1px 2px oklch(0% 0 0 / 0.04);
+      --shadow:    0 4px 16px oklch(0% 0 0 / 0.08);
+      --r:         10px;
+      --r-sm:      6px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 15px; }
+    body {
+      font-family: 'DM Sans', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ─── Sidebar Layout ─── */
+    .layout {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      background: var(--text);
+      color: oklch(90% 0.01 260);
+      display: flex;
+      flex-direction: column;
+      padding: 28px 0;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    .sidebar-logo {
+      padding: 0 24px 28px;
+      border-bottom: 1px solid oklch(100% 0 0 / 0.1);
+    }
+
+    .sidebar-logo .brand {
+      font-family: 'Noto Serif SC', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: white;
+      line-height: 1.3;
+    }
+
+    .sidebar-logo .sub {
+      font-size: 0.7rem;
+      color: oklch(70% 0.01 260);
+      margin-top: 3px;
+      letter-spacing: 0.05em;
+    }
+
+    .ks-mark {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 3px;
+      margin-right: 6px;
+      letter-spacing: 0.05em;
+    }
+
+    .sidebar-nav {
+      padding: 20px 0;
+      flex: 1;
+    }
+
+    .nav-section {
+      padding: 6px 24px 4px;
+      font-size: 0.62rem;
+      font-weight: 600;
+      color: oklch(55% 0.01 260);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-top: 16px;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 9px 24px;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+      font-size: 0.88rem;
+      color: oklch(75% 0.01 260);
+      border-left: 3px solid transparent;
+    }
+
+    .nav-item:hover {
+      background: oklch(100% 0 0 / 0.06);
+      color: white;
+    }
+
+    .nav-item.active {
+      background: oklch(100% 0 0 / 0.08);
+      color: white;
+      border-left-color: var(--accent);
+    }
+
+    .nav-item .icon { font-size: 1rem; width: 18px; text-align: center; }
+
+    .sidebar-footer {
+      padding: 20px 24px 0;
+      border-top: 1px solid oklch(100% 0 0 / 0.1);
+      font-size: 0.72rem;
+      color: oklch(45% 0.01 260);
+    }
+
+    /* ─── Main Content ─── */
+    .main {
+      overflow: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .topbar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .topbar-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .topbar-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .alert-badge {
+      background: var(--neg);
+      color: white;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      animation: pulse-badge 2s infinite;
+    }
+
+    @keyframes pulse-badge {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.75; }
+    }
+
+    .refresh-btn {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 6px 14px;
+      border-radius: var(--r-sm);
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .refresh-btn:hover { background: var(--border); }
+
+    .content {
+      padding: 28px 32px;
+      flex: 1;
+    }
+
+    /* ─── Pages ─── */
+    .page { display: none; }
+    .page.active { display: block; }
+
+    /* ─── KPI Cards ─── */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .kpi-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 20px 22px;
+      box-shadow: var(--shadow-sm);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 4px;
+      height: 100%;
+    }
+
+    .kpi-card.red::before   { background: var(--neg); }
+    .kpi-card.green::before { background: var(--pos); }
+    .kpi-card.blue::before  { background: var(--neu); }
+    .kpi-card.amber::before { background: var(--warn); }
+
+    .kpi-label {
+      font-size: 0.72rem;
+      font-weight: 500;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .kpi-value {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 600;
+      line-height: 1.15;
+      margin-top: 8px;
+      letter-spacing: -0.02em;
+    }
+
+    .kpi-card.red   .kpi-value { color: var(--neg); }
+    .kpi-card.green .kpi-value { color: var(--pos); }
+    .kpi-card.blue  .kpi-value { color: var(--neu); }
+    .kpi-card.amber .kpi-value { color: var(--warn); }
+
+    .kpi-sub {
+      font-size: 0.73rem;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    /* ─── Charts Row ─── */
+    .charts-row {
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .chart-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 20px 22px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .card-title {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-title .icon { font-size: 1rem; }
+
+    .chart-wrapper {
+      position: relative;
+    }
+
+    .chart-legend {
+      display: flex;
+      gap: 14px;
+      margin-top: 14px;
+      flex-wrap: wrap;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .legend-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    /* ─── Hotwords ─── */
+    .hotwords-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .hotwords-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: baseline;
+      padding-top: 4px;
+    }
+
+    .hw-tag {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-weight: 500;
+      cursor: default;
+      transition: transform 0.15s;
+    }
+
+    .hw-tag:hover { transform: scale(1.05); }
+
+    .hw-tag.neg {
+      background: var(--neg-bg);
+      color: var(--neg);
+    }
+
+    .hw-tag.pos {
+      background: var(--pos-bg);
+      color: var(--pos);
+    }
+
+    .hw-tag.neu {
+      background: var(--neu-bg);
+      color: var(--neu);
+    }
+
+    /* ─── Alert List ─── */
+    .alert-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .alert-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 14px;
+      background: var(--neg-bg);
+      border: 1px solid oklch(88% 0.08 18);
+      border-radius: var(--r-sm);
+      border-left: 3px solid var(--neg);
+    }
+
+    .alert-icon { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+
+    .alert-info { flex: 1; min-width: 0; }
+
+    .alert-title {
+      font-size: 0.83rem;
+      font-weight: 600;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .alert-meta {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .alert-kw {
+      display: inline-block;
+      background: var(--neg);
+      color: white;
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 3px;
+      margin-left: 6px;
+    }
+
+    .handle-btn {
+      background: white;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.72rem;
+      padding: 4px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s, color 0.15s;
+      flex-shrink: 0;
+    }
+
+    .handle-btn:hover {
+      background: var(--neg);
+      color: white;
+      border-color: var(--neg);
+    }
+
+    /* ─── Platform Tabs ─── */
+    .platform-tabs {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    .platform-tab {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 16px;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--muted);
+      transition: all 0.15s;
+      user-select: none;
+    }
+
+    .platform-tab:hover {
+      border-color: var(--accent-s);
+      color: var(--accent);
+      background: var(--accent-bg);
+    }
+
+    .platform-tab.active {
+      background: var(--text);
+      color: white;
+      border-color: var(--text);
+    }
+
+    .platform-tab .tab-count {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: oklch(100% 0 0 / 0.2);
+      border-radius: 10px;
+      min-width: 18px;
+      height: 18px;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 0 5px;
+    }
+
+    .platform-tab:not(.active) .tab-count {
+      background: var(--surface2);
+      color: var(--muted);
+    }
+
+    /* ─── Content List ─── */
+    .filter-bar {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .filter-select, .filter-input {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 7px 12px;
+      border-radius: var(--r-sm);
+      font-size: 0.82rem;
+      font-family: inherit;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .filter-input { width: 220px; cursor: text; }
+
+    .filter-select:focus, .filter-input:focus {
+      border-color: var(--accent-s);
+      box-shadow: 0 0 0 3px oklch(62% 0.18 22 / 0.12);
+    }
+
+    .filter-count {
+      margin-left: auto;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .articles-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .article-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 16px 20px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      transition: transform 0.15s, box-shadow 0.15s;
+      cursor: pointer;
+    }
+
+    .article-card:hover {
+      transform: translateY(-1px);
+      box-shadow: var(--shadow);
+    }
+
+    .article-card.alert-card {
+      border-color: oklch(88% 0.08 18);
+      border-left: 4px solid var(--neg);
+      background: oklch(99% 0.01 18);
+    }
+
+    .platform-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      flex-shrink: 0;
+      letter-spacing: 0.02em;
+    }
+
+    .platform-badge.微博 { background: oklch(92% 0.04 18); color: var(--neg); }
+    .platform-badge.知乎 { background: oklch(88% 0.06 250); color: oklch(35% 0.18 250); }
+    .platform-badge.微信 { background: oklch(92% 0.08 145); color: var(--pos); }
+    .platform-badge.小红书 { background: oklch(92% 0.05 18); color: oklch(45% 0.2 18); }
+
+    .article-body { flex: 1; min-width: 0; }
+
+    .article-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .alert-flag {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      background: var(--neg);
+      color: white;
+      font-size: 0.62rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+
+    .article-excerpt {
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.55;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .article-footer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .sent-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.72rem;
+      font-weight: 500;
+      padding: 3px 9px;
+      border-radius: 20px;
+    }
+
+    .sent-tag.positive { background: var(--pos-bg); color: var(--pos); }
+    .sent-tag.negative { background: var(--neg-bg); color: var(--neg); }
+    .sent-tag.neutral  { background: var(--neu-bg); color: var(--neu); }
+
+    .article-date { font-size: 0.72rem; color: var(--muted); }
+    .article-author { font-size: 0.72rem; color: var(--muted); }
+
+    .kw-pill {
+      display: inline-block;
+      background: var(--warn-bg);
+      color: var(--warn);
+      font-size: 0.65rem;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 3px;
+    }
+
+    .article-link {
+      color: var(--accent-s);
+      font-size: 0.75rem;
+      text-decoration: none;
+      margin-left: auto;
+    }
+
+    .article-link:hover { text-decoration: underline; }
+
+    /* ─── Manual Entry ─── */
+    .form-section {
+      max-width: 680px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-group.full { grid-column: 1 / -1; }
+
+    .form-label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .form-label .req { color: var(--neg); }
+
+    .form-input, .form-textarea, .form-select {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 9px 12px;
+      border-radius: var(--r-sm);
+      font-size: 0.83rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .form-textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .form-input:focus, .form-textarea:focus, .form-select:focus {
+      border-color: var(--accent-s);
+      box-shadow: 0 0 0 3px oklch(62% 0.18 22 / 0.12);
+    }
+
+    .sent-preview {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: var(--r-sm);
+      font-size: 0.82rem;
+      font-weight: 500;
+      margin-top: 4px;
+    }
+
+    .sent-preview.positive { background: var(--pos-bg); color: var(--pos); border: 1px solid oklch(85% 0.08 145); }
+    .sent-preview.negative { background: var(--neg-bg); color: var(--neg); border: 1px solid oklch(88% 0.08 18); }
+    .sent-preview.neutral  { background: var(--neu-bg); color: var(--neu); border: 1px solid oklch(88% 0.04 250); }
+
+    .submit-btn {
+      background: var(--accent);
+      color: white;
+      border: none;
+      padding: 11px 28px;
+      border-radius: var(--r-sm);
+      font-size: 0.88rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      margin-top: 18px;
+      transition: background 0.15s, transform 0.1s;
+    }
+
+    .submit-btn:hover {
+      background: oklch(42% 0.2 22);
+      transform: translateY(-1px);
+    }
+
+    .submit-btn:active { transform: translateY(0); }
+
+    .form-hint {
+      font-size: 0.73rem;
+      color: var(--muted);
+      margin-top: 3px;
+    }
+
+    /* ─── Success Toast ─── */
+    .toast {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      background: var(--text);
+      color: white;
+      padding: 12px 20px;
+      border-radius: var(--r);
+      font-size: 0.85rem;
+      font-weight: 500;
+      box-shadow: var(--shadow);
+      transform: translateY(80px);
+      opacity: 0;
+      transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s;
+      z-index: 100;
+    }
+
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    /* ─── Settings Page ─── */
+    .settings-section {
+      max-width: 640px;
+    }
+
+    .settings-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 22px 24px;
+      margin-bottom: 14px;
+    }
+
+    .settings-title {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 14px;
+    }
+
+    .keyword-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .kw-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      font-weight: 500;
+    }
+
+    .kw-item.crisis { background: var(--neg-bg); color: var(--neg); border: 1px solid oklch(88% 0.08 18); }
+    .kw-item.neg    { background: var(--warn-bg); color: var(--warn); border: 1px solid oklch(88% 0.06 50); }
+    .kw-item.pos    { background: var(--pos-bg); color: var(--pos); border: 1px solid oklch(85% 0.08 145); }
+
+    .kw-del {
+      cursor: pointer;
+      opacity: 0.5;
+      font-size: 0.85rem;
+      transition: opacity 0.15s;
+    }
+    .kw-del:hover { opacity: 1; }
+
+    .kw-add-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .kw-add-row .form-input { flex: 1; }
+
+    .add-btn {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 8px 16px;
+      border-radius: var(--r-sm);
+      font-size: 0.82rem;
+      font-family: inherit;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .add-btn:hover { background: var(--border); }
+
+    /* ─── Scrollbar ─── */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: oklch(75% 0.015 260); }
+
+    /* ─── Animate in ─── */
+    @keyframes fadein {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .kpi-card, .chart-card { animation: fadein 0.4s cubic-bezier(0.25, 1, 0.5, 1) both; }
+    .kpi-card:nth-child(1) { animation-delay: 0.04s; }
+    .kpi-card:nth-child(2) { animation-delay: 0.08s; }
+    .kpi-card:nth-child(3) { animation-delay: 0.12s; }
+    .kpi-card:nth-child(4) { animation-delay: 0.16s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .kpi-card, .chart-card { animation: none; }
+      .alert-badge { animation: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ─── Sidebar ─── -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="brand"><span class="ks-mark">KS</span>雇主品牌</div>
+      <div class="sub">舆情监控平台 v1.0</div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section">监控</div>
+      <div class="nav-item active" data-page="dashboard">
+        <span class="icon">📊</span> 数据概览
+      </div>
+      <div class="nav-item" data-page="articles">
+        <span class="icon">📋</span> 内容列表
+      </div>
+      <div class="nav-item" data-page="alerts">
+        <span class="icon">🚨</span> 预警中心
+      </div>
+      <div class="nav-section">录入</div>
+      <div class="nav-item" data-page="manual">
+        <span class="icon">✏️</span> 手动录入
+      </div>
+      <div class="nav-section">配置</div>
+      <div class="nav-item" data-page="keywords">
+        <span class="icon">⚙️</span> 关键词管理
+      </div>
+    </nav>
+    <div class="sidebar-footer">
+      数据更新：每日自动<br>
+      小红书：手动录入<br>
+      微博/知乎/微信：自动
+    </div>
+  </aside>
+
+  <!-- ─── Main ─── -->
+  <div class="main">
+
+    <div class="topbar">
+      <div class="topbar-title" id="page-title">数据概览</div>
+      <div class="topbar-right">
+        <div class="alert-badge" id="top-alert-badge">🚨 <span id="top-alert-count">0</span> 条待处理预警</div>
+        <button class="refresh-btn" onclick="loadData()">↻ 刷新数据</button>
+      </div>
+    </div>
+
+    <div class="content">
+
+      <!-- ─── Dashboard Page ─── -->
+      <div class="page active" id="page-dashboard">
+
+        <!-- KPI Cards -->
+        <div class="kpi-grid">
+          <div class="kpi-card blue">
+            <div class="kpi-label">本周新增内容</div>
+            <div class="kpi-value" id="kpi-total">—</div>
+            <div class="kpi-sub" id="kpi-total-sub">全平台累计</div>
+          </div>
+          <div class="kpi-card red">
+            <div class="kpi-label">负面情绪占比</div>
+            <div class="kpi-value" id="kpi-neg-pct">—</div>
+            <div class="kpi-sub" id="kpi-neg-sub">负面内容条数</div>
+          </div>
+          <div class="kpi-card amber">
+            <div class="kpi-label">待处理预警</div>
+            <div class="kpi-value" id="kpi-alert">—</div>
+            <div class="kpi-sub">命中危机关键词</div>
+          </div>
+          <div class="kpi-card green">
+            <div class="kpi-label">正面情绪占比</div>
+            <div class="kpi-value" id="kpi-pos-pct">—</div>
+            <div class="kpi-sub" id="kpi-pos-sub">正面内容条数</div>
+          </div>
+        </div>
+
+        <!-- Charts -->
+        <div class="charts-row">
+          <div class="chart-card">
+            <div class="card-title"><span class="icon">🍩</span> 情绪分布</div>
+            <div class="chart-wrapper" style="height:200px">
+              <canvas id="sentiment-chart"></canvas>
+            </div>
+            <div class="chart-legend">
+              <div class="legend-item"><div class="legend-dot" style="background:var(--pos)"></div>正面</div>
+              <div class="legend-item"><div class="legend-dot" style="background:var(--neg)"></div>负面</div>
+              <div class="legend-item"><div class="legend-dot" style="background:var(--neu)"></div>中性</div>
+            </div>
+          </div>
+          <div class="chart-card">
+            <div class="card-title"><span class="icon">📈</span> 近7日各平台发帖趋势</div>
+            <div class="chart-wrapper" style="height:220px">
+              <canvas id="trend-chart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hotwords + Alerts -->
+        <div class="hotwords-row">
+          <div class="chart-card">
+            <div class="card-title"><span class="icon">🔥</span> 热词分布</div>
+            <div class="hotwords-cloud" id="hotwords-cloud">
+              <!-- JS filled -->
+            </div>
+          </div>
+          <div class="chart-card">
+            <div class="card-title"><span class="icon">🚨</span> 最新预警内容</div>
+            <div class="alert-list" id="dashboard-alerts">
+              <!-- JS filled -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ─── Articles Page ─── -->
+      <div class="page" id="page-articles">
+
+        <!-- Platform Tabs -->
+        <div class="platform-tabs" id="platform-tabs">
+          <div class="platform-tab active" data-platform="" onclick="switchPlatformTab(this)">全部 <span class="tab-count" id="tab-count-all">—</span></div>
+          <div class="platform-tab" data-platform="微博" onclick="switchPlatformTab(this)">微博 <span class="tab-count" id="tab-count-wb">—</span></div>
+          <div class="platform-tab" data-platform="知乎" onclick="switchPlatformTab(this)">知乎 <span class="tab-count" id="tab-count-zh">—</span></div>
+          <div class="platform-tab" data-platform="微信" onclick="switchPlatformTab(this)">微信 <span class="tab-count" id="tab-count-wx">—</span></div>
+          <div class="platform-tab" data-platform="小红书" onclick="switchPlatformTab(this)">小红书 <span class="tab-count" id="tab-count-xhs">—</span></div>
+        </div>
+
+        <div class="filter-bar">
+          <select class="filter-select" id="filter-sentiment" onchange="renderArticles()">
+            <option value="">全部情绪</option>
+            <option value="positive">😊 正面</option>
+            <option value="negative">😟 负面</option>
+            <option value="neutral">😐 中性</option>
+          </select>
+          <select class="filter-select" id="filter-alert" onchange="renderArticles()">
+            <option value="">全部内容</option>
+            <option value="1">🚨 仅预警</option>
+          </select>
+          <select class="filter-select" id="filter-year" onchange="renderArticles()">
+            <option value="">全部年份</option>
+            <option value="2025">2025年</option>
+            <option value="2024">2024年</option>
+            <option value="2023">2023年</option>
+            <option value="2022">2022年及更早</option>
+          </select>
+          <input type="text" class="filter-input" id="filter-keyword" placeholder="搜索标题/内容/关键词..." oninput="renderArticles()">
+          <div class="filter-count" id="filter-count">— 条</div>
+        </div>
+        <div class="articles-list" id="articles-list">
+          <!-- JS filled -->
+        </div>
+      </div>
+
+      <!-- ─── Alerts Page ─── -->
+      <div class="page" id="page-alerts">
+        <div class="chart-card" style="margin-bottom:14px">
+          <div class="card-title" style="margin-bottom:8px"><span class="icon">ℹ️</span> 预警说明</div>
+          <p style="font-size:0.8rem;color:var(--muted);line-height:1.6">
+            以下内容命中了你设定的危机关键词，系统已自动标记为预警。请及时评估风险并决定是否需要介入处理。
+            点击「标记处理」后，该条内容将从待处理列表中移除（刷新页面后恢复）。
+          </p>
+        </div>
+        <div class="articles-list" id="alert-articles-list">
+          <!-- JS filled -->
+        </div>
+      </div>
+
+      <!-- ─── Manual Entry Page ─── -->
+      <div class="page" id="page-manual">
+        <div class="form-section">
+          <div class="chart-card" style="margin-bottom:14px">
+            <div class="card-title" style="margin-bottom:8px"><span class="icon">ℹ️</span> 小红书内容手动录入</div>
+            <p style="font-size:0.8rem;color:var(--muted);line-height:1.6">
+              由于小红书平台反爬机制，请在小红书 App 中手动复制帖子内容后填入下方表单。
+              系统将自动进行情绪分析并添加至监控数据库。
+            </p>
+          </div>
+          <div class="settings-card">
+            <form onsubmit="submitManual(event)">
+              <div class="form-grid">
+                <div class="form-group full">
+                  <label class="form-label">标题 <span class="req">*</span></label>
+                  <input type="text" class="form-input" id="m-title" placeholder="帖子标题" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">作者</label>
+                  <input type="text" class="form-input" id="m-author" placeholder="小红书用户名">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">发布日期</label>
+                  <input type="date" class="form-input" id="m-date">
+                </div>
+                <div class="form-group full">
+                  <label class="form-label">内容摘要 <span class="req">*</span></label>
+                  <textarea class="form-textarea" id="m-content" placeholder="粘贴或摘录帖子主要内容..." required></textarea>
+                </div>
+                <div class="form-group full">
+                  <label class="form-label">原文链接</label>
+                  <input type="url" class="form-input" id="m-url" placeholder="https://xiaohongshu.com/...">
+                </div>
+                <div class="form-group full">
+                  <label class="form-label">标签（逗号分隔）</label>
+                  <input type="text" class="form-input" id="m-tags" placeholder="如：校招, 面试, 实习">
+                  <div class="form-hint">多个标签用中文逗号 , 分隔</div>
+                </div>
+                <div class="form-group full">
+                  <label class="form-label">情绪预判（AI自动分析）</label>
+                  <div class="sent-preview neutral" id="sentiment-preview">🤔 请填写内容后自动分析</div>
+                </div>
+              </div>
+              <button type="submit" class="submit-btn">💾 保存到监控库</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── Keywords Page ─── -->
+      <div class="page" id="page-keywords">
+        <div class="settings-section">
+          <div class="settings-card">
+            <div class="settings-title">🔴 危机关键词（命中即预警）</div>
+            <div class="keyword-list" id="kw-crisis-list">
+              <!-- JS filled -->
+            </div>
+            <div class="kw-add-row">
+              <input type="text" class="form-input" id="kw-crisis-input" placeholder="添加危机关键词...">
+              <button class="add-btn" onclick="addKeyword('crisis')">+ 添加</button>
+            </div>
+          </div>
+          <div class="settings-card">
+            <div class="settings-title">🟡 负面关键词（标记负面情绪）</div>
+            <div class="keyword-list" id="kw-neg-list">
+              <!-- JS filled -->
+            </div>
+            <div class="kw-add-row">
+              <input type="text" class="form-input" id="kw-neg-input" placeholder="添加负面关键词...">
+              <button class="add-btn" onclick="addKeyword('neg')">+ 添加</button>
+            </div>
+          </div>
+          <div class="settings-card">
+            <div class="settings-title">🟢 正面关键词（标记正面情绪）</div>
+            <div class="keyword-list" id="kw-pos-list">
+              <!-- JS filled -->
+            </div>
+            <div class="kw-add-row">
+              <input type="text" class="form-input" id="kw-pos-input" placeholder="添加正面关键词...">
+              <button class="add-btn" onclick="addKeyword('pos')">+ 添加</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /content -->
+  </div><!-- /main -->
+
+</div><!-- /layout -->
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ─── App State ─────────────────────────────────────────────────
+let ALL_ARTICLES = [];
+let HANDLED_ALERTS = new Set(JSON.parse(localStorage.getItem('handled_alerts') || '[]'));
+
+const DEFAULT_KEYWORDS = {
+  crisis: ['裁员','维权','PUA','欺骗','黑心','毁约','诈骗','强制','歧视','违法'],
+  neg:    ['不推荐','内卷','压力大','态度差','不靠谱','坑','劝退','混乱','摸鱼','加班严重'],
+  pos:    ['福利好','氛围好','推荐','值得','成长','不错','优秀','赞','满意','友好','温暖']
+};
+
+let KEYWORDS = JSON.parse(localStorage.getItem('keywords') || JSON.stringify(DEFAULT_KEYWORDS));
+
+// ─── Data Loading ───────────────────────────────────────────────
+async function loadData() {
+  try {
+    // Load articles.json
+    const resp = await fetch('data/articles.json');
+    let base = await resp.json();
+
+    // Merge localStorage manual entries
+    const manual = JSON.parse(localStorage.getItem('manual_articles') || '[]');
+    ALL_ARTICLES = [...manual, ...base];
+
+    // Re-analyze sentiment for manual ones
+    ALL_ARTICLES = ALL_ARTICLES.map(a => {
+      if (a._manual) {
+        const result = analyzeSentiment(a.content + ' ' + a.title);
+        return { ...a, sentiment: result.sentiment, sentiment_score: result.score,
+                  keywords_hit: result.hit, is_alert: result.hit.some(k => KEYWORDS.crisis.includes(k)) };
+      }
+      return a;
+    });
+
+    renderAll();
+    showToast('✅ 数据加载成功');
+  } catch (e) {
+    // Fallback: use embedded sample
+    ALL_ARTICLES = EMBEDDED_SAMPLE;
+    renderAll();
+    showToast('⚠️ 使用本地示例数据（请确保 data/articles.json 存在）');
+  }
+}
+
+// ─── Sentiment Analysis ─────────────────────────────────────────
+function analyzeSentiment(text) {
+  if (!text) return { sentiment: 'neutral', score: 0.5, hit: [] };
+  const hit = [];
+
+  const crisisHits = KEYWORDS.crisis.filter(k => text.includes(k));
+  const negHits    = KEYWORDS.neg.filter(k => text.includes(k));
+  const posHits    = KEYWORDS.pos.filter(k => text.includes(k));
+
+  crisisHits.forEach(k => hit.push(k));
+  negHits.forEach(k => hit.push(k));
+
+  const negScore = crisisHits.length * 2 + negHits.length;
+  const posScore = posHits.length;
+
+  if (crisisHits.length > 0) return { sentiment: 'negative', score: 0.08, hit };
+  if (negScore > posScore)   return { sentiment: 'negative', score: Math.max(0.1, 0.4 - negScore * 0.08), hit };
+  if (posScore > negScore)   return { sentiment: 'positive', score: Math.min(0.95, 0.6 + posScore * 0.08), hit };
+  return { sentiment: 'neutral', score: 0.5, hit };
+}
+
+// ─── Render All ─────────────────────────────────────────────────
+function renderAll() {
+  updateKPIs();
+  renderSentimentChart();
+  renderTrendChart();
+  renderHotwords();
+  renderDashboardAlerts();
+  updatePlatformTabCounts();
+  renderArticles();
+  renderAlertPage();
+  updateTopAlertBadge();
+  renderKeywords();
+}
+
+// ─── KPIs ────────────────────────────────────────────────────────
+function updateKPIs() {
+  const total = ALL_ARTICLES.length;
+  const neg   = ALL_ARTICLES.filter(a => a.sentiment === 'negative').length;
+  const pos   = ALL_ARTICLES.filter(a => a.sentiment === 'positive').length;
+  const alerts= ALL_ARTICLES.filter(a => a.is_alert && !HANDLED_ALERTS.has(a.id)).length;
+
+  document.getElementById('kpi-total').textContent = total;
+  document.getElementById('kpi-total-sub').textContent = `覆盖 ${[...new Set(ALL_ARTICLES.map(a=>a.platform))].length} 个平台`;
+  document.getElementById('kpi-neg-pct').textContent = `${Math.round(neg/total*100)}%`;
+  document.getElementById('kpi-neg-sub').textContent = `${neg} 条负面内容`;
+  document.getElementById('kpi-alert').textContent = alerts;
+  document.getElementById('kpi-pos-pct').textContent = `${Math.round(pos/total*100)}%`;
+  document.getElementById('kpi-pos-sub').textContent = `${pos} 条正面内容`;
+}
+
+function updateTopAlertBadge() {
+  const n = ALL_ARTICLES.filter(a => a.is_alert && !HANDLED_ALERTS.has(a.id)).length;
+  document.getElementById('top-alert-count').textContent = n;
+  document.getElementById('top-alert-badge').style.display = n ? 'flex' : 'none';
+}
+
+// ─── Sentiment Chart ─────────────────────────────────────────────
+let sentChart = null;
+function renderSentimentChart() {
+  const pos = ALL_ARTICLES.filter(a => a.sentiment === 'positive').length;
+  const neg = ALL_ARTICLES.filter(a => a.sentiment === 'negative').length;
+  const neu = ALL_ARTICLES.filter(a => a.sentiment === 'neutral').length;
+
+  const ctx = document.getElementById('sentiment-chart').getContext('2d');
+  if (sentChart) sentChart.destroy();
+
+  sentChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: ['正面', '负面', '中性'],
+      datasets: [{
+        data: [pos, neg, neu],
+        backgroundColor: [
+          'oklch(45% 0.18 145)',
+          'oklch(42% 0.2 18)',
+          'oklch(50% 0.05 250)',
+        ],
+        borderWidth: 0,
+        hoverOffset: 8,
+      }]
+    },
+    options: {
+      cutout: '68%',
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: ctx => ` ${ctx.label}: ${ctx.raw} 条 (${Math.round(ctx.raw/ALL_ARTICLES.length*100)}%)`
+          }
+        }
+      }
+    }
+  });
+}
+
+// ─── Trend Chart ─────────────────────────────────────────────────
+let trendChart = null;
+function renderTrendChart() {
+  // Generate last 7 days
+  const days = [];
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date();
+    d.setDate(d.getDate() - i);
+    days.push(d.toISOString().slice(0, 10));
+  }
+
+  const platforms = ['微博', '知乎', '微信', '小红书'];
+  const colors = {
+    '微博': 'oklch(55% 0.2 18)',
+    '知乎': 'oklch(40% 0.18 250)',
+    '微信': 'oklch(45% 0.18 145)',
+    '小红书': 'oklch(52% 0.22 12)',
+  };
+
+  // Simulate distribution based on published_at
+  const datasets = platforms.map(p => {
+    const data = days.map(day => {
+      return ALL_ARTICLES.filter(a => a.platform === p && a.published_at === day).length;
+    });
+    // If all zero (demo mode), distribute randomly
+    const total = data.reduce((s, v) => s + v, 0);
+    const finalData = total === 0
+      ? days.map(() => Math.floor(Math.random() * 3))
+      : data;
+
+    return {
+      label: p,
+      data: finalData,
+      borderColor: colors[p],
+      backgroundColor: colors[p].replace(')', ' / 0.08)').replace('oklch(', 'oklch('),
+      borderWidth: 2,
+      pointRadius: 3,
+      tension: 0.4,
+      fill: false,
+    };
+  });
+
+  const ctx = document.getElementById('trend-chart').getContext('2d');
+  if (trendChart) trendChart.destroy();
+
+  trendChart = new Chart(ctx, {
+    type: 'line',
+    data: { labels: days.map(d => d.slice(5)), datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      scales: {
+        x: {
+          grid: { color: 'oklch(88% 0.012 260)' },
+          ticks: { font: { size: 11 }, color: 'oklch(52% 0.015 260)' }
+        },
+        y: {
+          grid: { color: 'oklch(92% 0.012 260)' },
+          ticks: { font: { size: 11 }, color: 'oklch(52% 0.015 260)', stepSize: 1 },
+          beginAtZero: true,
+        }
+      },
+      plugins: {
+        legend: {
+          labels: { boxWidth: 12, font: { size: 12 }, color: 'oklch(35% 0.02 260)', usePointStyle: true, pointStyle: 'circle' }
+        },
+        tooltip: {
+          backgroundColor: 'oklch(18% 0.02 260)',
+          titleFont: { size: 12 },
+          bodyFont: { size: 12 },
+        }
+      }
+    }
+  });
+}
+
+// ─── Hotwords ────────────────────────────────────────────────────
+function renderHotwords() {
+  const freq = {};
+  ALL_ARTICLES.forEach(a => {
+    const text = (a.title + ' ' + a.content);
+    [...KEYWORDS.crisis, ...KEYWORDS.neg, ...KEYWORDS.pos].forEach(kw => {
+      if (text.includes(kw)) freq[kw] = (freq[kw] || 0) + 1;
+    });
+  });
+
+  const sorted = Object.entries(freq).sort((a, b) => b[1] - a[1]).slice(0, 18);
+  const max = sorted[0]?.[1] || 1;
+
+  const container = document.getElementById('hotwords-cloud');
+  container.innerHTML = sorted.map(([kw, cnt]) => {
+    const size = 0.72 + (cnt / max) * 0.6;
+    const type = KEYWORDS.crisis.includes(kw) ? 'neg' : (KEYWORDS.pos.includes(kw) ? 'pos' : 'neg');
+    return `<span class="hw-tag ${type}" style="font-size:${size}rem">${kw} <small style="opacity:0.6">${cnt}</small></span>`;
+  }).join('');
+
+  if (!sorted.length) container.innerHTML = '<span style="font-size:0.8rem;color:var(--muted)">暂无关键词命中记录</span>';
+}
+
+// ─── Dashboard Alerts ────────────────────────────────────────────
+function renderDashboardAlerts() {
+  const alerts = ALL_ARTICLES.filter(a => a.is_alert && !HANDLED_ALERTS.has(a.id)).slice(0, 4);
+  const container = document.getElementById('dashboard-alerts');
+
+  if (!alerts.length) {
+    container.innerHTML = '<div style="font-size:0.8rem;color:var(--muted);padding:8px 0">✅ 当前无待处理预警</div>';
+    return;
+  }
+
+  container.innerHTML = alerts.map(a => `
+    <div class="alert-item">
+      <div class="alert-icon">⚠️</div>
+      <div class="alert-info">
+        <div class="alert-title">
+          ${a.title}
+          ${a.keywords_hit.map(k => `<span class="alert-kw">${k}</span>`).join('')}
+        </div>
+        <div class="alert-meta">${a.platform} · ${a.author} · ${a.published_at}</div>
+      </div>
+      <button class="handle-btn" onclick="handleAlert('${a.id}')">标记处理</button>
+    </div>
+  `).join('');
+}
+
+function handleAlert(id) {
+  HANDLED_ALERTS.add(id);
+  localStorage.setItem('handled_alerts', JSON.stringify([...HANDLED_ALERTS]));
+  renderAll();
+  showToast('✅ 已标记为已处理');
+}
+
+// ─── Platform Tab ────────────────────────────────────────────────
+let ACTIVE_PLATFORM = '';
+
+function switchPlatformTab(el) {
+  document.querySelectorAll('.platform-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  ACTIVE_PLATFORM = el.dataset.platform || '';
+  renderArticles();
+}
+
+function updatePlatformTabCounts() {
+  const platforms = { '': 'all', '微博': 'wb', '知乎': 'zh', '微信': 'wx', '小红书': 'xhs' };
+  Object.entries(platforms).forEach(([p, key]) => {
+    const n = p === '' ? ALL_ARTICLES.length : ALL_ARTICLES.filter(a => a.platform === p).length;
+    const el = document.getElementById('tab-count-' + key);
+    if (el) el.textContent = n;
+  });
+}
+
+// ─── Articles List ───────────────────────────────────────────────
+function renderArticles() {
+  const sentiment = document.getElementById('filter-sentiment')?.value || '';
+  const alertOnly = document.getElementById('filter-alert')?.value     || '';
+  const year      = document.getElementById('filter-year')?.value      || '';
+  const keyword   = document.getElementById('filter-keyword')?.value?.toLowerCase() || '';
+
+  let articles = ALL_ARTICLES;
+  if (ACTIVE_PLATFORM) articles = articles.filter(a => a.platform === ACTIVE_PLATFORM);
+  if (sentiment)       articles = articles.filter(a => a.sentiment === sentiment);
+  if (alertOnly)       articles = articles.filter(a => a.is_alert);
+  if (year === '2025') articles = articles.filter(a => a.published_at?.startsWith('2025'));
+  else if (year === '2024') articles = articles.filter(a => a.published_at?.startsWith('2024'));
+  else if (year === '2023') articles = articles.filter(a => a.published_at?.startsWith('2023'));
+  else if (year === '2022') articles = articles.filter(a => parseInt(a.published_at) <= 2022);
+  if (keyword) articles = articles.filter(a =>
+    a.title.toLowerCase().includes(keyword) ||
+    a.content.toLowerCase().includes(keyword) ||
+    (a.keywords_hit||[]).some(k => k.includes(keyword))
+  );
+
+  // Sort: alerts first, then by date desc
+  articles = [...articles].sort((a, b) => {
+    if (a.is_alert && !b.is_alert) return -1;
+    if (!a.is_alert && b.is_alert) return 1;
+    return new Date(b.published_at) - new Date(a.published_at);
+  });
+
+  document.getElementById('filter-count').textContent = `${articles.length} 条`;
+  document.getElementById('articles-list').innerHTML = articles.length
+    ? articles.map(a => articleCard(a)).join('')
+    : '<div style="text-align:center;padding:40px 0;color:var(--muted);font-size:0.9rem">暂无符合条件的内容</div>';
+}
+
+function renderAlertPage() {
+  const alerts = ALL_ARTICLES
+    .filter(a => a.is_alert && !HANDLED_ALERTS.has(a.id))
+    .sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+
+  const container = document.getElementById('alert-articles-list');
+
+  if (!alerts.length) {
+    container.innerHTML = '<div style="font-size:0.9rem;color:var(--muted);padding:20px 0;text-align:center">🎉 当前没有待处理预警</div>';
+    return;
+  }
+
+  container.innerHTML = alerts.map(a => articleCard(a, true)).join('');
+}
+
+function articleCard(a, showHandleBtn = false) {
+  const sentLabel = { positive: '正面', negative: '负面', neutral: '中性' };
+  const sentEmoji = { positive: '😊', negative: '😟', neutral: '😐' };
+  const platAbbr  = { '微博': '微博', '知乎': '知乎', '微信': '微信', '小红书': '小红♥' };
+
+  return `
+    <div class="article-card ${a.is_alert && !HANDLED_ALERTS.has(a.id) ? 'alert-card' : ''}">
+      <div class="platform-badge ${a.platform}">${platAbbr[a.platform] || a.platform}</div>
+      <div class="article-body">
+        <div class="article-title">
+          ${a.is_alert && !HANDLED_ALERTS.has(a.id) ? '<span class="alert-flag">⚠️ 预警</span>' : ''}
+          ${a.title}
+        </div>
+        <div class="article-excerpt">${a.content}</div>
+        <div class="article-footer">
+          <span class="sent-tag ${a.sentiment}">${sentEmoji[a.sentiment]} ${sentLabel[a.sentiment]}</span>
+          <span class="article-author">${a.author || '匿名'}</span>
+          <span class="article-date">${a.published_at}</span>
+          ${a.keywords_hit?.length ? a.keywords_hit.map(k => `<span class="kw-pill">${k}</span>`).join('') : ''}
+          ${a.url ? `<a class="article-link" href="${a.url}" target="_blank">查看原文 →</a>` : ''}
+          ${showHandleBtn && a.is_alert ? `<button class="handle-btn" onclick="handleAlert('${a.id}')">标记处理</button>` : ''}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// ─── Manual Entry ────────────────────────────────────────────────
+document.addEventListener('input', function(e) {
+  if (['m-title','m-content'].includes(e.target.id)) {
+    const text = (document.getElementById('m-title')?.value || '') + ' ' +
+                 (document.getElementById('m-content')?.value || '');
+    const result = analyzeSentiment(text);
+    const preview = document.getElementById('sentiment-preview');
+    const labels = { positive: '😊 正面', negative: '😟 负面（含预警关键词）', neutral: '😐 中性' };
+    preview.className = 'sent-preview ' + result.sentiment;
+    preview.textContent = labels[result.sentiment] + (result.hit.length ? ' — 命中：' + result.hit.join('、') : '');
+  }
+});
+
+function submitManual(e) {
+  e.preventDefault();
+  const title   = document.getElementById('m-title').value.trim();
+  const author  = document.getElementById('m-author').value.trim() || '手动录入';
+  const date    = document.getElementById('m-date').value || new Date().toISOString().slice(0,10);
+  const content = document.getElementById('m-content').value.trim();
+  const url     = document.getElementById('m-url').value.trim();
+  const tags    = document.getElementById('m-tags').value.split('，').map(t => t.trim()).filter(Boolean);
+
+  const result  = analyzeSentiment(title + ' ' + content);
+  const isAlert = result.hit.some(k => KEYWORDS.crisis.includes(k));
+
+  const entry = {
+    id: 'xhs_manual_' + Date.now(),
+    platform: '小红书',
+    title, content, url, author,
+    published_at: date,
+    collected_at: new Date().toISOString(),
+    sentiment: result.sentiment,
+    sentiment_score: result.score,
+    keywords_hit: result.hit,
+    is_alert: isAlert,
+    tags,
+    _manual: true,
+  };
+
+  const existing = JSON.parse(localStorage.getItem('manual_articles') || '[]');
+  localStorage.setItem('manual_articles', JSON.stringify([entry, ...existing]));
+
+  // Reset form
+  e.target.reset();
+  document.getElementById('sentiment-preview').className = 'sent-preview neutral';
+  document.getElementById('sentiment-preview').textContent = '🤔 请填写内容后自动分析';
+
+  showToast(`✅ 已保存 "${title}" · ${result.sentiment === 'negative' ? '⚠️ 已标记预警' : '情绪：' + {positive:'正面',negative:'负面',neutral:'中性'}[result.sentiment]}`);
+  loadData();
+}
+
+// ─── Keywords ────────────────────────────────────────────────────
+function renderKeywords() {
+  ['crisis','neg','pos'].forEach(type => {
+    const list = document.getElementById(`kw-${type}-list`);
+    list.innerHTML = KEYWORDS[type].map(kw => `
+      <span class="kw-item ${type}">
+        ${kw}
+        <span class="kw-del" onclick="removeKeyword('${type}','${kw}')">×</span>
+      </span>
+    `).join('');
+  });
+}
+
+function addKeyword(type) {
+  const input = document.getElementById(`kw-${type}-input`);
+  const val = input.value.trim();
+  if (!val) return;
+  if (!KEYWORDS[type].includes(val)) {
+    KEYWORDS[type].push(val);
+    localStorage.setItem('keywords', JSON.stringify(KEYWORDS));
+    renderKeywords();
+    renderHotwords();
+  }
+  input.value = '';
+  showToast(`✅ 已添加关键词「${val}」`);
+}
+
+function removeKeyword(type, kw) {
+  KEYWORDS[type] = KEYWORDS[type].filter(k => k !== kw);
+  localStorage.setItem('keywords', JSON.stringify(KEYWORDS));
+  renderKeywords();
+  renderHotwords();
+}
+
+// ─── Navigation ──────────────────────────────────────────────────
+const PAGE_TITLES = {
+  dashboard: '数据概览',
+  articles:  '内容列表',
+  alerts:    '预警中心',
+  manual:    '手动录入 · 小红书',
+  keywords:  '关键词管理',
+};
+
+document.querySelectorAll('.nav-item').forEach(item => {
+  item.addEventListener('click', () => {
+    const page = item.dataset.page;
+    document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    item.classList.add('active');
+    document.getElementById('page-' + page).classList.add('active');
+    document.getElementById('page-title').textContent = PAGE_TITLES[page] || page;
+  });
+});
+
+// ─── Toast ───────────────────────────────────────────────────────
+let toastTimer = null;
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 3000);
+}
+
+// ─── Embedded Fallback Data（真实抓取内容，data/articles.json 加载失败时使用）──
+const EMBEDDED_SAMPLE = [
+  { id:'zh_mj_336582729', platform:'知乎', title:'大厂面经之快手', content:'综合评价快手是难得的面试体验很好的公司，面试覆盖面广、深度适中，面试官不刁难求职者，无套路编题痕迹，整体风格专业友好。', url:'https://zhuanlan.zhihu.com/p/336582729', author:'老和山拓海', published_at:'2020-12-13', sentiment:'positive', sentiment_score:0.88, keywords_hit:[], is_alert:false, tags:['面试','大厂面经'] },
+  { id:'zh_mj_1909679099976344880', platform:'知乎', title:'面了快手/美团算法岗，面试体验还不错', content:'算法岗面试经历，一面体验良好，面试官友善，没答上的题目也只是引导继续思考，二面主要拷打简历论文，整体感受正向。', url:'https://zhuanlan.zhihu.com/p/1909679099976344880', author:'沪漂城哥', published_at:'2025-05-24', sentiment:'positive', sentiment_score:0.8, keywords_hit:[], is_alert:false, tags:['面试','算法','校招'] },
+  { id:'zh_mj_93541642', platform:'知乎', title:'四面快手、终拿Offer，想告诉你的一些事情', content:'历经四轮面试最终拿到快手Offer，快手高开职级无笔试直接面对面试官，一轮重点考察Java基础，整体流程规范。', url:'https://zhuanlan.zhihu.com/p/93541642', author:'ccww', published_at:'2019-11-25', sentiment:'positive', sentiment_score:0.84, keywords_hit:[], is_alert:false, tags:['面试','offer','面经'] },
+  { id:'zh_q341516374_2965333464', platform:'知乎', title:'在「快手」工作是一种怎样的体验？（在职3年后离职）', content:'自2019年起在快手工作三年，去年因准备出国而离职，总体认为快手是一个在自己财力范围内对员工尽力的公司。', url:'https://www.zhihu.com/question/341516374/answer/2965333464', author:'知乎用户', published_at:'2023-04-02', sentiment:'positive', sentiment_score:0.72, keywords_hit:[], is_alert:false, tags:['工作体验','离职','综合评价'] },
+  { id:'zh_cye_695757997', platform:'知乎', title:'快手游戏，全员被裁，宣告失败', content:'快手北京游戏事业部经历多轮裁员，年初那波裁员后已不到百人，加上三月份及近期裁员，快手北京游戏事业部正式宣告失败。', url:'https://zhuanlan.zhihu.com/p/695757997', author:'宫水三叶', published_at:'2024-05-03', sentiment:'negative', sentiment_score:0.08, keywords_hit:['裁员'], is_alert:true, tags:['裁员','游戏','危机'] },
+  { id:'zh_cye_454473178', platform:'知乎', title:'快手再传裁员：覆盖四大事业部，个别团队裁员比例30%', content:'快手再次传出裁员，覆盖电商、商业化、国际化、游戏四大事业部，个别团队裁员比例达30%，员工对补偿方案不满。', url:'https://zhuanlan.zhihu.com/p/454473178', author:'Java小海', published_at:'2022-01-07', sentiment:'negative', sentiment_score:0.07, keywords_hit:['裁员'], is_alert:true, tags:['裁员','危机','事业部'] },
+  { id:'zh_q56996345_1967909196193337377', platform:'知乎', title:'有人知道在快手工作怎么样吗？（2024年后下坡路）', content:'24年之前的回答不具参考意义，快手工作体验一直是下坡路，早期非常好，随着人越来越多，效率氛围越来越差。', url:'https://www.zhihu.com/question/56996345/answer/1967909196193337377', author:'自由人', published_at:'2025-11-01', sentiment:'negative', sentiment_score:0.25, keywords_hit:['下坡路'], is_alert:false, tags:['工作体验','综合评价'] },
+  { id:'wb_qsf_2025', platform:'微博', title:'快手直播遭黑灰产攻击，平台应急响应引发讨论', content:'2025年12月22日晚，快手多个直播间同时出现违规内容，相关异常账号多达1.7万个，攻击持续60~90分钟。快手发公告：平台遭到黑灰产攻击，已紧急应对处置。', url:'https://weibo.com/1645578093/QjWwqBCX3', author:'南风窗', published_at:'2025-12-25', sentiment:'negative', sentiment_score:0.18, keywords_hit:[], is_alert:false, tags:['平台安全','危机公关','舆情'] },
+];
+
+// ─── Init ────────────────────────────────────────────────────────
+loadData();
+</script>
+</body>
+</html>

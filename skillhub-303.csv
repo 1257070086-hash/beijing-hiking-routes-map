@@ -1,0 +1,251 @@
+Skill名称,功能描述,分类
+svg-flowchart-designer,画图/图表/流程图/架构图/场景图/数据卡片/飞轮图/漫画/信息图，支持SVG或HTML输出，13种子类型,内容创作生产
+kuaishou-sso-login,快手SSO登录自动化，支持KIM扫码/短信验证/账号密码三种方式，自动处理两步验证,平台工具集成
+kwaibi-data-query,查询快手内网KwaiBI（天策）看板数据，支持OLAP/洞察/Dashboard等多种看板类型,数据查询分析
+awesome-skillhub,教会Agent如何使用SkillHub来寻找/下载/上传/更新/卸载Skill的技能指南,平台工具集成
+docs-shuttle,快手内网Docs文档与本地Markdown双向同步工具,平台工具集成
+坑来,查询快手工区内指定楼层是否有空闲卫生间蹲便/坐便,生活娱乐整活
+hive-data-agent,Hive数据智能查询助手，自动访问天工Data Agent分析Hive表/血缘/产出逻辑,数据查询分析
+group-assistant,智能群聊助手，自动监听并回复@消息，支持上下文理解和AI生成回复,内部流程自动化
+autoglm-phone-openclaw,编排本地设备和云真机复合移动端测试任务，支持Keep Build安装/App登录/多机并发,测试质量保障
+kwaibi-da,快手数据分析师专业版，支持深度数据分析/多业务场景/自动化报告，覆盖KwaiBI/天策/多比/启源等平台,数据查询分析
+self-improvement,捕获学习内容/错误和纠正以实现持续改进，Agent自我进化,平台工具集成
+kwaibi-auto-report,KwaiBI看板数据自动查询与分析报告生成，支持OLAP/洞察模式/Dashboard,数据查询分析
+skill-quality-evaluator,生成功能测试(10-15用例)和触发测试(25用例)，含精确率/召回率/F1分数评估,测试质量保障
+phone-control,操控安卓/iOS手机，提供ADB/WDA截图压缩/视觉识别/点击滑动输入,测试质量保障
+kwai-app-test,多设备并行快手APP自动化测试，支持鸿蒙(hdc)/iPhone(ios)/Android(adb),测试质量保障
+skill-vetting,安装前审查ClawHub技能的安全性和实用性,安全合规
+abtest,快手AB实验平台官方SKILL，贴分析页链接一键分析，支持CUPED/DiD/推全决策/异常检测,数据查询分析
+miniapp-kwaibi-data-explorer,快手小程序团队KwaiBI数据查询，监控启动质量/Crash率/支付失败率等,数据查询分析
+kwai-skill-vetter,快手信息安全部Skill审查工具，强制加载不可卸载，安装任何Skill前必须使用,安全合规
+kconf使用,使用Kconf（快手配置中心）声明和消费动态配置，创建配置DTO,研发工程效率
+hungry-helper,老铁食堂助手，获取内网餐厅菜品数据并提供每日用餐推荐,生活娱乐整活
+fancy-praise,花式彩虹屁生成器，根据对象和事件生成夸奖文案并通过KIM直接发送，支持古风/热梗/沙雕等风格,生活娱乐整活
+tianwen-monitor-query,查询天问（Tianwen）监控平台的监控曲线数值和变化趋势,数据查询分析
+dibar-word-optimization,快手底bar词优化/改写工具，剔除负向/敏感表达，参考心智词库,内容创作生产
+universal-autotest-batch-trigger,批量触发UniversalAutoTest自动化测试任务，智能识别海外/主站Agent类型,测试质量保障
+agent-browser,浏览器自动化CLI，支持页面交互/表单填写/截图/数据抓取,平台工具集成
+Vision Animation Code Generation,动画生码Skill，通过Vision MCP生成Lottie动画前端代码（SolidTK/KRN/CSS）,研发工程效率
+meeting-room-booker,自动预约快手Kim会议室，支持定时预约/节假日跳过/失败重试/群通知,内部流程自动化
+快手总部正式休假申请助手,自动化请假，支持年假/调休/病假，自然语言日期解析，自动SSO登录提交,生活娱乐整活
+meeting-checkin-monitor,会议室签到检测与自动释放，忘记签到自动释放,内部流程自动化
+kce-debug,KCE容器调试工具，通过relay bastion连接KCE容器排查问题,研发工程效率
+codeflicker-cross-session-memory,跨session记忆管理，将关键信息保存到topic并在新会话加载,平台工具集成
+phone_device_profile_score,查询快手机型画像平台，返回综合分/CPU分/GPU分/SOC分数/档位/设备占比,数据查询分析
+abtest-sgp,快手海外（新加坡）AB实验平台SKILL，国内abtest的海外补充版,数据查询分析
+codeflicker-token-status,查看CodeFlicker token用量统计，分析近期token消耗,平台工具集成
+find-skills-update,帮助发现并安装Agent技能，搜索优先级：内网SkillHub > clawhub.ai > LangBridge,平台工具集成
+dispute-customer-service-expert,电商纠纷客服指导专家，处理发货错误/质量/物流/退换货等场景,业务电商客服
+project-ko,项目KO助手，交互式问答帮助完成项目KO准备，提供尖锐的专业评估与挑战,内部流程自动化
+marketing-query-v3,营销查询最终版，支持活动/优惠/用户持券/营销操作流水等联合排查,业务电商客服
+kuaishou-docs,快手内部文档交互，创建/读取/上传文档到docs.corp.kuaishou.com,平台工具集成
+rpc-e2e-test,快手内部RPC端到端测试，自动编译/启动/生成测试命令，支持KRPC/gRPC,测试质量保障
+kim-robot-sender,向Kim聊天群发送消息（文本/markdown/图片/文件），支持多机器人配置,内部流程自动化
+intern-hr-interview,自动处理实习生HR面试评价，读取会议记录生成六维度评估,内部流程自动化
+keep-build-tool,Keep平台测试包获取，支持快手主站和快手极速版iOS/Android/HarmonyOS,测试质量保障
+skill-radar-monitor,Skill雷达监控，对指定Skill注入监控上报代码，出错时自动上报到雷达平台,平台工具集成
+give-me-prd-suggest,多重PRD评审建议工具，自动检索历史相似需求/历史故障/竞对方案,研发工程效率
+weekly-report-compare,周报对比与评估，基于六维度框架量化分析商业化团队周报，生成Docs文档,内部流程自动化
+kce-error-log-finder,快速查找KCE容器ERROR日志，自动grep stderr.log/stdout.log,研发工程效率
+multi-search-engine,多搜索引擎集成，支持17个引擎（8 CN + 9 Global），无需API Key,信息查询搜索
+knowledge-base-rag,kwai-android项目本地知识库（125个文档），支持deps/PluginManager/DFM等查询,研发工程效率
+codeflicker-cli,CodeFlicker CLI(flickcli)操作指南，代码生成/审查/Git提交/自然语言转命令,平台工具集成
+skill-publisher,自动将本地Skill发布或更新到多个Skill市场,平台工具集成
+meeting-minutes,将会议草稿笔记整理成结构化会议纪要，按模块分组，提取决策和待办事项,内部流程自动化
+join-pixel-office,加入像素办公室，查看同事在线状态，配置办公室看板,生活娱乐整活
+吃什么,解决今天吃什么的选择困难症，接入食堂菜单，支持减脂/增肌/省钱饮食计划,生活娱乐整活
+skill-creator,创建有效Skill的指南,平台工具集成
+fetch-logistics-products,自动获取Staging/PRT环境物流服务测试商品（顺丰包邮/京东包邮/上门安装）,测试质量保障
+kuaishou-red-flower,快手小红花任务自动化，帮助完成极速版小红花任务（观看直播/发布图文）,生活娱乐整活
+kuaishou-openapi-http,快手OpenAPI调用助手，支持获取accessToken/刷新令牌/调用业务接口,研发工程效率
+rpc-test-case-generator,根据RPC接口信息生成测试用例并实时监控执行结果,测试质量保障
+openclaw-daily-content-monitor,每日定时从内外部数据源检索OpenClaw相关优质内容，按既定结构更新知识库主文档,内容创作生产
+luigi-workflow-http,Luigi工作流HTTP外部对接助手，通过HTTP方式调用Luigi AI工作流,平台工具集成
+kdev-ops,KDev标准操作流程，支持流水线触发/状态查询/MR创建/更新/查看/评论处理,研发工程效率
+kim-msg,快手Kim即时通讯消息发送，支持Webhook（群聊）和消息号（指定用户）两种方式,内部流程自动化
+health-assistant,在预定时间主动推送喝水与起身活动提醒,生活娱乐整活
+qiliang-flow,流量中台启量智能投放，支持各类启量资源投放（通用投放/模版投放）,业务电商客服
+team-bug-fix,处理Team平台缺陷任务，包含修复代码/扭转任务状态/发送群通知的完整流程,研发工程效率
+kdocs-crawler,从快手云文档导出/浏览/下载内容，支持知识库和文档递归遍历及Markdown导出,平台工具集成
+memclaw,高性能AI Agent记忆插件，提供比原生更优的记忆管理/检索和更精准的搜索结果,平台工具集成
+ocr-evaluation,OCR模型评测指导，提供结构准确率/内容准确率和整体可用性指标的全面评估方法,测试质量保障
+financial-exchange-qa,金融交换项目组质量保障Skill，专注于KBF框架的支付/退款/提现/签约四大能力,测试质量保障
+a0,在a0(OpenClaw)中创建新的AI对话会话，并可选择发送首条消息，返回会话链接,平台工具集成
+test-case-writer,按照规范编写详细的测试步骤和测试用例，确保执行者不会因技术问题打断测试流程,测试质量保障
+alert-intelligence-reporter,报警群消息智能总结与实时通知系统，自动监听Kim报警群消息/识别报警级别/生成日报统计,内部流程自动化
+ecom-public-rule-writer,生成电商平台对外规则公告，将内部MRD/评审文档整理为面向商家/达人/平台用户的正式规则文本,业务电商客服
+ks_playwright_sso_login,通过Playwright复用企业SSO登录态，可被其他技能复用或独立执行登录,平台工具集成
+data-warehouse-architecture,数据仓库架构设计知识库，融合阿里/华为方法论，覆盖分层架构/维度建模/数据治理,研发工程效率
+java-root-pom-update,更新Maven项目parent POM到最新release版本，仅在当前版本非最新时修改pom.xml,研发工程效率
+ks-video-id-collector,快手视频ID批量收集工具，自动收集指定时间段内发布的视频ID，保存为Excel文件,内容创作生产
+ppt-maker,生成专业PPT幻灯片，使用SVG结合17种Style Tokens + Bento Grid布局，支持一键PNG导出,内容创作生产
+实习生考勤,快手实习生考勤助手，自动提交考勤记录，支持一键全勤/排除日期/周末加班标记,内部流程自动化
+interview-question-generator,根据简历自动设计面试题和参考答案，支持校招和外包两种模式,内部流程自动化
+industry-research,专业行业研究与市场分析工具，支持市场规模/竞品分析/SWOT/GTM策略等，输出Word/Excel/Dashboard,信息查询搜索
+playwright-test-generator,用户提供手工测试用例和URL，自动生成并执行Playwright Web UI自动化测试,测试质量保障
+test-skill-publisher,测试skill-publisher发布流程，验证敏感信息检测→打包→上传CDN→发布到市场完整流程,测试质量保障（占位）
+cli-anything,为任意GUI应用生成CLI控制接口，使AI Agent能以命令行方式操控软件（GIMP/Blender/LibreOffice等）,研发工程效率
+baoyu-slide-deck,从内容生成专业幻灯片图片，先生成带样式说明的大纲，再逐张生成幻灯片图像,内容创作生产
+git-branch-eloc,通过计算两个Git分支/提交之间的AST树差异估算Java代码等量行数（ELOC）,研发工程效率
+api-field-comparator,对比两个API接口的字段值差异，或在Excel表中标注差异（颜色高亮）,研发工程效率
+test-demo-wyy,运行测试/编写测试/生成测试用例，讨论测试工作流和测试执行,测试质量保障（占位）
+china-workday,判断中国大陆指定日期是否为工作日，支持法定节假日和调休补班,信息查询搜索
+baoyu-compress-image,将图片压缩为WebP（默认）或PNG格式，自动选择工具减小文件体积,内容创作生产
+experience-guide,体验流程优化指南，自动总结内置Skills功能，为用户提供流程指引和最佳实践建议,平台工具集成
+baoyu-translate,多模式文章/文档翻译工具，支持快速/普通/精翻三种模式，自定义词汇表，保持术语一致性,内容创作生产
+baoyu-image-gen,AI图像生成工具，支持OpenAI/Azure/Google/DashScope/MiniMax/即梦/Seedream等多个API,内容创作生产
+live-reservation-skill,快手直播预告查询技能，查询主播直播预约信息或主播预告封禁状态，自动通过SSO登录,业务电商客服
+kim_gif_cn,通过中文对话导出微信表情包/解析小红书笔记视频并转成GIF/将本地视频转GIF,内容创作生产
+hr-login,登录快手内部系统，复用浏览器已有登录态打开目标页面，自动识别测试/正式环境,内部流程自动化
+daily-report-v2,智能日报周报助手，支持P0/P1优先级标记/自动发送Kim，用工作碎片记录生成日/周报,内部流程自动化
+cs-flow-search,客服流程智能查询技能，支持自然语言提问返回结构化处理方案,业务电商客服
+timestamp-converter,将Unix时间戳转换为可读时间，或将具体时间字符串转换为Unix时间戳,研发工程效率
+数据可视化套件,处理Excel/CSV/Word文档，生成可交互HTML看板，支持数据导出和上传,数据查询分析
+kdev-mr-query,查询快手内网kdev（GitLab）MR详情，包括变更文件/评论列表/合并状态/提交记录,研发工程效率
+dev-label-evaluator,研发打标评估工具，根据功能需求描述计算前端和后端的工作量评估值（SP/工时点）,研发工程效率
+post-purchase-test-case-writer,电商购后模块测试用例生成，根据PRD/技术方案生成订单/售后/履约/评价流程测试用例，导出Docs,测试质量保障
+coinpark-deploy,金币游乐园小游戏上线配置工具，读取Docs Sheet并生成KconfKey对应的JSON配置文件并批量上传,业务电商客服
+Ba-data-analysis,专业数据分析与报告生成，覆盖日常监控/异常诊断/AB测试解读/漏斗/留存/用户分群等分析场景,数据查询分析
+local-4layer-memory,基于Elite Longterm Memory框架的纯本地4层记忆系统，包含Hot RAM + Vector Search + Git-Notes,平台工具集成
+hot-word-detector,高精度热点词检测，通过多源融合（微博/百度/抖音/知乎/头条热搜）实时判断搜索词是否蹭了热度,信息查询搜索
+一键导入,快手埋点平台一键导入功能，根据产品和业务线信息自动调用接口批量导入埋点需求分组,研发工程效率
+tiangong-batch-supply-data,在快手天工平台按月拆分并批量提交数据补数任务，自动查询任务元数据并分批提交,数据查询分析
+web-query-summarizer,抓取并总结给定网页/URL的内容，提取关键点/摘要或分析页面内容,信息查询搜索
+kdb-mysql-query,快手KDB平台MySQL数据库只读查询，支持通过集群名称执行SELECT查询，自动处理认证和结果轮询,数据查询分析
+ad-volume-forecaster,广告审核量级预测完整闭环，支持取数/预测/上传/校准等分步骤执行,数据查询分析
+AICommentManager_SinglePostProcess,自动化完成AI评论管理平台的帖子认领/优质评论筛选发布/无效评论批量不采纳全流程,内容创作生产
+live-recorder,浏览抖音/快手直播间并录制主播话术，支持语音识别转文字，提取直播文字和分析主播话术,内容创作生产
+legal-quick-reference,C端用户法律问题速查助手，提供消费者权益/劳动权益/婚姻家庭/房屋租赁/借贷/交通事故等快速解答,信息查询搜索
+kuaishou-lane-injector,快手内网Staging/PRT环境测试泳道注入工具，提供Python脚本自动化注入和验证流程,测试质量保障
+test-radar-inject,测试监控注入+发布流程专用Skill，请求需鉴权的内网接口验证error上报是否正常工作,测试质量保障（占位）
+fault-injection-strategy,对指定Java方法进行sandbox故障注入策略分析，包含参数/返回值/异常/超时注入方案,测试质量保障
+ptp-flow-replay,PTP平台流量回放自动化执行助手，自动从天琴获取容器信息并更新配置/创建和启动压测作业,测试质量保障
+mck-ppt-design,使用python-pptx + 麦肯锡PPT版式要求生成可编辑汇报级PPT，支持39种布局模式和数据图表,内容创作生产
+git-branch-eloc-frontend,通过计算两个Git分支间JS/TS/Vue/React代码的加权差分估算前端代码等量行数（ELOC）,研发工程效率
+test-error-demo,错误上报测试Skill，包含脚本执行失败/接口请求失败/JS执行错误3个场景,测试质量保障（占位）
+baoyu-imagine,AI图像生成，支持OpenAI/Azure/Google/OpenRouter/DashScope/MiniMax/即梦/Seedream/Replicate等,内容创作生产
+tshirt-sp-estimator,基于T恤码估算法（XS/S/M/L/XL）对前后端功能需求进行SP工作量估算,研发工程效率
+rag-evaluator,运行RAG评测/评估知识库质量/检查回归，生成评测报告，操作kwai-android RAG评测工具链,研发工程效率
+business-transfer-assistant,快手客服业务线转接范围查询助手，根据用户问题场景快速判断应转接的业务线/技能组,业务电商客服
+op-skill-search-data-assets,在快手数据地图平台中查询数据资产（Hive表/看板/数据集），覆盖运营平台多个业务场景,数据查询分析
+ios-publish-automation,iOS多仓库自动发版流程，自动化处理KWApp和KWInteraction仓库的分支创建/依赖同步/版本号修改,研发工程效率
+auto-test-manager,自动化测试管理Skill，包含生成测试用例/执行浏览器自动化测试/自动登记测试报告/智能查重,测试质量保障
+行业分析报告,test-business（测试用Skill）,测试质量保障（占位）
+test-no-radar,测试用无雷达监控Skill，返回当前时间和问候，用于验证skill-radar-monitor注入流程,测试质量保障（占位）
+component-generator-standard,根据小程序基础组件测试用例生成快手小程序测试demo，支持36种标准组件,测试质量保障
+shortvideo-plc-info,输入短视频URL/photoId/分享文本，查询短视频PLC（挂车）信息，返回简洁中文摘要,业务电商客服
+Gemini-generate-images-wanqing,通过万擎API网关调用Gemini模型生成图片，自动检测内网/办公网环境选择接入点,内容创作生产
+batch-test-runner,批量测试执行器，支持按优先级批量执行测试用例/失败自动重试/生成执行日志和统计报告,测试质量保障
+selection-user-assistant,人群包筛选助手，通过人群包ID查询KDB数据库crowd表数据,数据查询分析
+talent-recommend-qs,在ATS人才库中根据人才画像筛选候选人/批量推荐到指定职位/分配简历评估人,内部流程自动化
+我写周报,KwaiBI看板归因分析工具，分析KwaiBI平台报错指标的周环比变化原因，自动生成归因分析文档,内部流程自动化
+kconf-http-api,通过HTTP API从快手KConf配置中心读取配置项，支持按stage或region查询,研发工程效率
+krunner-script-writer,生成快手小程序krunner UI自动化测试脚本，支持组件属性验证和视觉截图对比,测试质量保障
+baoyu-xhs-images,生成小红书风格的信息图，支持11种视觉风格和8种版式，将内容分解为1-10张卡通风格图片,内容创作生产
+baoyu-post-to-x,向X（Twitter）发布内容和文章，支持带图/视频的常规推文和X Articles长文，使用真实Chrome CDP,内容创作生产
+gaia-dataset-governance-guide,快手Gaia数据集5步治理工作流，从指标标准化到结构化治理,数据查询分析
+doc-analyzer,文档解析与需求提取专家，支持文本/PDF/Word/Excel格式，解析PRD及各类企业内部文档,研发工程效率
+user-research-interview,将用户访谈逐字稿整理为结构化业务友好的访谈记录文档，提炼核心用户原声,内部流程自动化
+api-skill-generator,输入前端仓库地址和页面URL，自动分析接口调用链并生成可直接运行的SKILL.md和executor.py,研发工程效率
+pexels-image-assistant,通过Pexels免费图库API搜索并下载图片，支持插入到Word/快手文档中,内容创作生产
+kconf-query,查询kconf配置项，支持按目录/放量状态筛选，可选指定创建者过滤,研发工程效率
+autowiki,维护仓库全量背景知识（架构总结/业务背景/模块说明等），支持按业务语义检索代码实体,研发工程效率
+plc-photo-identify,根据photoId或分享链接查询视频在PLC上当前展示的业务类型（电商/挂店等）,业务电商客服
+auto-bug-dispatch,自动检查并派发缺陷修复任务到CodeFlicker，从缺陷系统获取首个待解决缺陷并新建修复session,研发工程效率
+team-create-kim-group,针对快手Team平台指定Task，自动创建KIM需求群并配置消息同步规则,内部流程自动化
+eco-cmp-byr-qa,电商营销买家场景智能问答，返回DAC/MAC/GMV/券核销等营销买家相关指标,业务电商客服
+ks-recruit-auto-interview,快手招聘系统自动约面，支持安排和创建候选人面试流程,内部流程自动化
+strategy-report-writer,将专家访谈纪要/内部复盘文件/行业数据转化为结构化内部战略研究报告正文,信息查询搜索
+android-crash-monitor,回森Android Crash监控定时任务，结合发版周期表监控新版本Java/Native Crash变化趋势,研发工程效率
+kcdn-uploader,通过RESTful API将文件上传到快手KCDN（内容分发网络）以供分享或分发,平台工具集成
+auto-retry,当agent返回失败/空消息或任务超时时，自动识别40+种错误模式并重试最多10次,平台工具集成
+manual-audit-push,快手模板手动推送人审接口，支持单条和批量将模板推送到人工审核阶段,业务电商客服
+test,测试用途的Skill,测试质量保障（占位）
+ltong-test-orchestrator,灵瞳测试编排Skill v3.0，支持测试用例智能解析/自动生成工作流/一键执行测试,测试质量保障
+content-moderation-assistant,快手内容审核辅助工具，帮助一线审核员快速判断违法违规内容（保护动植物/管制器械等）,安全合规
+快手内部平台直播录制,录制快手内网直播平台（live.corp.kuaishou.com）的直播流,内容创作生产
+track-analysis,快手埋点分析平台工具集，支持创建埋点需求分组和批量导入埋点（国内和新加坡环境）,研发工程效率
+lane-injector,为浏览器自动化测试设置HTTP Headers（泳道/Swimlane），用于流量路由和测试环境配置,测试质量保障
+dataset_understanding,全面理解和介绍数据集的端到端解决方案，覆盖数据集识别→元数据获取→字段分析→用途总结全流程,数据查询分析
+date-time-skill,测试技能，回答用户询问当前日期和时间的问题,测试质量保障（占位）
+创建需求分组,快手埋点平台创建需求分组功能，自动调用接口创建需求分组并返回分组ID,研发工程效率
+kaiserving-troubleshoot,KaiServing模型部署问题诊断和答疑，从本地FAQ文档搜索解决方案，处理推理服务异常等问题,研发工程效率
+mcp2skill,将MCP Server的工具列表自动转换为Claude Code Skill，提供MCP Server地址后自动生成技能文件,平台工具集成
+hello-world-skill,最小化示例Skill，用户说hello world或test skill时回复友好问候和当前时间,测试质量保障（占位）
+AB权限审批-营销等其他,用于商业化AB相关权限审批的技能,内部流程自动化
+life-service-query,查询快手生活服务广告数据，包括私信广告消耗/商户广告消耗及私信链路转化数据,业务电商客服
+daily-report,自动发现Git仓库提交日志并汇总CodeFlicker会话，生成用户每日工作报告,内部流程自动化
+KTest-ai-generate-case,通过KTest平台AI自动生成手工测试用例，输入需求描述或文档链接即可,测试质量保障
+ec-ug-qa,电商用增场景智能问答，查询DAC/MAC等指标并支持按用户类型下钻及人群圈选,业务电商客服
+china-map-viz,根据Excel/CSV数据自动生成中国各省份热力图（Choropleth Map），支持自定义色彩主题,数据查询分析
+response-diff,对比两个API响应/JSON payload或文本内容，生成可读Diff摘要并识别有意义的变更,研发工程效率
+talent-query,在招聘系统人才库中按多种筛选条件（工作年限/学历/面试分数等）查询候选人列表,内部流程自动化
+marioclaw-agent,Klaw与Mario的多Agent协作Skill，Klaw负责本地/浏览器操作，Mario负责KIM相关操作,平台工具集成
+kuaishou-admin-live-search,查询指定主播（UID）在某时间范围内的直播归档场次，返回时间/appver/liveStreamId等信息,业务电商客服
+query-requirement-cases-signed,根据需求ID查询KTest测试平台中绑定的测试用例列表（含优先级和测试步骤）,测试质量保障
+tiangong-supply-data,在天工（Tiangong）数据平台提交数据补数任务，支持通过表名自动查找任务并完成审批全流程,数据查询分析
+kuaishou-checkstyle,支持快手内部Java代码的Checkstyle检查，可根据XML配置文件自动执行代码风格校验,研发工程效率
+test-report,测试报告生成工具，用于收集测试结果/覆盖率分析/缺陷统计和风险预警,测试质量保障
+hongtu-assistant,鸿蒙相关问答Skill，自动查询鸿图Agent回答华为鸿蒙人力成本/效能统计/日活等信息,信息查询搜索
+takumi-cr,启动Takumi命令行助手进行代码审查（CR），自动检测Node版本并在项目目录启动,研发工程效率
+test-publish-flow,测试发布流程专用Skill，执行简单问候并返回当前时间，用于验证skill-publisher发布流程是否正常,测试质量保障（占位）
+krpc-service,创建和配置KESS-RPC服务实现，提供@KrpcService注解/RPC依赖配置和YAML配置模板,研发工程效率
+baoyu-comic,知识漫画创作Skill，支持多种艺术风格，逐面板生成教育类原创漫画,内容创作生产
+overwatch,基于RAG技术的风控风险预警分析报告生成Skill，支持kwaibi看板指标波动分析和定时报告,数据查询分析
+测试skill,测试用途的Skill,测试质量保障（占位）
+perf-logging,使用PerfUtils进行性能打点和监控，记录方法执行时间/操作状态和业务指标,研发工程效率
+kmp-troubleshoot,针对kmp-client工程（鸿蒙/Android/iOS三端）的编译报错/符号找不到/依赖配置缺失等问题主动诊断,研发工程效率
+ios-crash-monitor,回森iOS Crash监控定时任务，结合发版周期表监控新版本发布后的Crash率变化和新增Crash问题,研发工程效率
+gitlab-api,支持快手企业GitLab实例的API工具，提供项目查询/MR管理/CI/CD流水线等功能,研发工程效率
+article-quality-review,对候选文章执行两阶段质量评估（初评0-5分+深评0-100分），输出accepted/rejected结构化结果,内容创作生产
+takumi-cli,Takumi CLI操作指南，支持代码生成/Git提交信息生成/自然语言转命令/MCP服务器管理,研发工程效率
+item-abnormal-price-detector,检测商品价格异常，调用MCP工具并结合Kconf配置详细分析价格异常类型及原因,业务电商客服
+Java工程稳定性深度体检,标准化Java工程稳定性检查清单，兼顾人工执行与自动化脚本/AI Agent解析调用,研发工程效率
+prd-review-design,自动审查商业化PRD的逻辑准确性，提取界面/功能设计要点并划分高-中-低优先级输出标准化梳理文档,研发工程效率
+encourage-datasource-connector,激励类数据源接入开发助手，提供桌面弹框接入激励系统（开宝箱/饭补/瓜分金币等）的标准化开发模板,研发工程效率
+kdev-root-pom-analyzer,Maven依赖版本分析和自动更新工具，用于对比root-pom不同release版本依赖差异并批量更新版本,研发工程效率
+Agent自我更新,Agent自我反思+自我批评+自我学习与记忆更新机制，在操作失败/被用户纠正或发现更优方案时自动触发,平台工具集成
+web-test-automation,面向复杂测试场景的Web端自动化测试技能，支持高级UI测试/多步骤工作流/数据验证/测试用例管理,测试质量保障
+video-content-analyzer,分析Bilibili/快手/抖音/YouTube等平台视频内容，提取元数据/分类兴趣标签/生成加权标签和综合分析报告,内容创作生产
+payment-stress-report,KSPay压测报告分析工具，自动查询多个压测任务报告并整合PTP平台QPS数据，生成标准化Markdown汇总报告,测试质量保障
+scan-code,在项目中执行代码分扫描，自动运行npx @es/scanner生成扫描报告,研发工程效率
+api-generator-basic,根据小程序基础API测试用例生成快手小程序Hermes框架API测试页面,测试质量保障
+rpc-development,快手内部KRPC/gRPC服务代码开发，基于KsBoot + KESS-RPC技术栈提供Proto定义/服务实现模板,研发工程效率
+claw-editor,启动或关闭Claw Editor Bridge服务，让用户可通过浏览器访问ClawEditor文件管理器,平台工具集成
+test-zxr,用于测试敏感信息检测的Skill（含模拟敏感数据，禁止在生产环境使用）,测试质量保障（占位）
+smart-planner,基于技术文档/PRD或功能需求，通过结构化分析和代码差异验证生成高质量可操作实施计划,研发工程效率
+kuaishou-bpm-abtest-approval,自动处理快手BPM流程中心的ABTest实验订阅审核流程，支持批量审批/拒绝并记录日志,内部流程自动化
+wechat-mp-article-fetcher,通过已登录的mp.weixin.qq.com会话抓取微信公众号文章全文，支持按账号名订阅并管理订阅列表,信息查询搜索
+token-cost-daily-report,基于会话数据生成每日Token消耗报告和会话主题，并定时通过KIM发送报告给用户,内部流程自动化
+sbti,SBTI人格测试的AI版本，支持对话式测评/反向人格诊断/毒舌人格陪聊/角色扮演prompt生成等四种模式,生活娱乐整活
+kuaishou-batch-live,快手批量创建直播工具，自动启动本地Flask服务并打开配置网页，支持批量为多个主播配置直播场景,业务电商客服
+ks-auto-interview,快手招聘系统自动约面工具，当用户需要安排面试或创建面试时触发,内部流程自动化
+kuaishou-fangzhou-login,登录磁力方舟（CDP）平台/获取/验证UC账号cookie或退出登录/清除cookie,平台工具集成
+auditor-behavior-analysis,自动化审核行为分析，分析样本数据并生成可视化特征分析报告，支持阈值搜索和召回验证,数据查询分析
+grpc-skill-generator,gRPC调用构造器元技能，自动拉取gRPC参数Schema并生成符合OpenClaw规范的业务定制化数据构造Skill,研发工程效率
+baoyu-article-illustrator,分析文章结构并在需要视觉辅助的位置生成插图，采用"类型×风格"二维方法生成配图,内容创作生产
+baoyu-infographic,使用21种版式和20种视觉风格生成专业信息图，分析内容并推荐版式/风格组合，输出可发布的信息图,内容创作生产
+kdb-query,在快手内部KDB平台上查询MySQL数据库数据，通过KDB KwaiCode API创建查询文件/执行SQL并获取结果,数据查询分析
+freight-template-test,运费模板测试自动化，专注于快手小店商家后台运费模板功能测试，支持偏远地区设置/运费计算等B端自动化测试,测试质量保障
+tavily-search,LLM优化的网络搜索工具,信息查询搜索
+team-quality-report,导入Excel数据并生成团队质量分析报告，包含缺陷统计/密度计算和趋势分析,测试质量保障
+baoyu-post-to-weibo,通过Chrome CDP将内容发布到微博，支持含文字/图片/视频的普通帖子和Markdown输入的头条文章,内容创作生产
+clawbook-daily,ClawBook社区每日运营Skill，自动化完成扫描热帖/发布学习心得/回复评论等社区日常运营任务,内容创作生产
+order-fetcher,从快手小店获取指定用户在不同状态下的订单信息，支持staging和prt环境并存储到知识库,业务电商客服
+config-whitelist-manager,从PRD/技术方案/提测文档中提取开关/配置/AB实验信息并管理，支持UID加白状态查询和加白操作,研发工程效率
+onesql-ck-query,通过快手内部OneSQL HTTP同步接口执行ClickHouse SQL并将结果以CSV格式下载到本地工作空间,数据查询分析
+rss-recent-candidate-fetcher,读取或自动创建OPML订阅并按指定时间范围抓取RSS文章正文候选，供article-quality-review继续处理,信息查询搜索
+structured-thinking,将复杂/模糊问题进行结构化拆解和多角度深度分析，输出正式分析报告,信息查询搜索
+query-item-info,查询快手商品基础信息（标题/价格/库存/SKU等），支持staging和online环境,业务电商客服
+address-test,快手商家地址治理自动化测试工具，支持新增/编辑/删除地址/智能解析测试/违规词校验/泳道注入,测试质量保障
+excel-activity-summary,处理活动数据Excel文件，将工作表1数据按列映射填入工作表2，生成按活动名称聚合的汇总Sheet,内部流程自动化
+live-arch-opt-report-skill,快手直播体验&流量团队架构治理周报自动发送，自动统计7个治理明细表格数据并发送到Kim群,内部流程自动化
+selection-sic-assistant,选品包查询助手，用于查询KWAISHOP_SELECTION_SIC集群中的选品包信息（含即将到期查询）,业务电商客服
+hive-diff-test-sql,为Hive表生成全字段diff测试SQL，对比线上(ks_ad_dw)和dev(ks_ad_dw_dev)表数据差异,数据查询分析
+personal-alert-analysis,自动从星环获取未归因报警，总结报警原因并支持执行报警归因操作,研发工程效率
+group-chat-analyzer,自动化分析群聊天记录，生成知识库和问题追踪文档，实现严格问答配对并整理为标准QA格式,内部流程自动化
+伴侣需求技术方案文档生成,帮助用户生成PC伴侣需求实例化文档,研发工程效率
+black-stream-v9,黑产检测v9,安全合规
+kstack-style,按快手KStack社区规范撰写技术文章，提供完整写作风格指南（标题/结构/语言/排版）,内容创作生产
+基础探查 HiveBasicExplorer v2,基于数据质量检测结果，生成可执行的决策建议文档和智能报告（脚本化重构版本）,数据查询分析
+ab-experiment-summary,快手AB实验数据对比分析，根据KwaiBI看

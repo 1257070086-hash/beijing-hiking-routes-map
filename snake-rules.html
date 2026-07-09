@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>贪吃蛇进化挑战赛 — 规则说明</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  --bg: oklch(98% 0.005 90);
+  --surface: oklch(96% 0.008 90);
+  --surface-alt: oklch(93% 0.01 90);
+  --green-d: oklch(40% 0.17 145);
+  --green: oklch(50% 0.2 145);
+  --green-l: oklch(65% 0.15 145);
+  --green-xl: oklch(88% 0.1 145);
+  --red-d: oklch(40% 0.18 25);
+  --red: oklch(50% 0.2 25);
+  --red-l: oklch(65% 0.15 25);
+  --red-xl: oklch(88% 0.08 25);
+  --text: oklch(22% 0.02 90);
+  --text-m: oklch(50% 0.02 90);
+  --border: oklch(88% 0.01 90);
+  --border-alt: oklch(82% 0.01 90);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Noto Sans SC', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: clamp(26px, 4.5vw, 36px);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+
+.header h1 em {
+  font-style: normal;
+  color: var(--green);
+}
+
+.header .subtitle {
+  font-size: 14px;
+  color: var(--text-m);
+  margin-top: 10px;
+}
+
+/* Table wrapper */
+.table-wrapper {
+  border: 1px solid var(--border-alt);
+  border-radius: 14px;
+  overflow: hidden;
+  background: white;
+}
+
+/* Main table */
+.rules-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* Table header */
+.rules-table thead th {
+  padding: 14px 20px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid var(--border-alt);
+}
+
+.rules-table thead th:nth-child(1) {
+  width: 72px;
+  text-align: center;
+}
+
+.rules-table thead th:nth-child(2) {
+  width: 150px;
+}
+
+/* Category divider rows */
+.cat-row td {
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid var(--border-alt);
+}
+
+.cat-row.allow td {
+  background: var(--green-xl);
+  color: var(--green-d);
+}
+
+.cat-row.ban td {
+  background: var(--red-xl);
+  color: var(--red-d);
+}
+
+/* Regular rows */
+.rules-table tbody tr.row td {
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.65;
+  vertical-align: top;
+  transition: background 0.15s ease;
+}
+
+.rules-table tbody tr.row:last-child td {
+  border-bottom: none;
+}
+
+.rules-table tbody tr.row:hover td {
+  background: var(--surface);
+}
+
+/* Category badge in first column */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 7px;
+  font-family: 'Space Mono', monospace;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.badge.allow {
+  background: var(--green-xl);
+  color: var(--green-d);
+}
+
+.badge.ban {
+  background: var(--red-xl);
+  color: var(--red-d);
+}
+
+/* Action name column */
+.action-name {
+  font-weight: 700;
+  font-size: 13.5px;
+}
+
+.action-name.allow-name {
+  color: var(--green-d);
+}
+
+.action-name.ban-name {
+  color: var(--red-d);
+}
+
+/* Description column */
+.desc {
+  color: var(--text);
+  font-weight: 400;
+}
+
+.desc em {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.desc em.green {
+  color: var(--green-d);
+}
+
+.desc em.red {
+  color: var(--red-d);
+}
+
+/* Note below table */
+.note {
+  margin-top: 24px;
+  padding: 18px 22px;
+  background: var(--surface);
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+}
+
+.note::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+  background: oklch(50% 0.12 260);
+  border-radius: 0 4px 4px 0;
+}
+
+.note-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: oklch(42% 0.12 260);
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.note p em {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--green-d);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .container { padding: 28px 14px 48px; }
+  .rules-table thead th { padding: 10px 14px; }
+  .rules-table tbody tr.row td { padding: 14px; font-size: 13px; }
+  .rules-table thead th:nth-child(2) { width: 110px; }
+  .action-name { font-size: 12.5px; }
+}
+
+/* Animation */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header { animation: fadeUp 0.5s cubic-bezier(0.25, 1, 0.5, 1) both; }
+.table-wrapper { animation: fadeUp 0.5s cubic-bezier(0.25, 1, 0.5, 1) 0.12s both; }
+.note { animation: fadeUp 0.5s cubic-bezier(0.25, 1, 0.5, 1) 0.24s both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .header, .table-wrapper, .note { animation: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1>贪吃蛇进化挑战赛 · <em>规则说明</em></h1>
+    <div class="subtitle">4.2 允许的操作 &nbsp;·&nbsp; 4.3 禁止的操作</div>
+  </div>
+
+  <div class="table-wrapper">
+    <table class="rules-table">
+      <thead>
+        <tr>
+          <th>类别</th>
+          <th>操作</th>
+          <th>说明 / 示例</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Allow divider -->
+        <tr class="cat-row allow">
+          <td colspan="3">4.2 &nbsp;允许的操作</td>
+        </tr>
+
+        <!-- Allow rows -->
+        <tr class="row">
+          <td><span class="badge allow">✓</span></td>
+          <td><span class="action-name allow-name">自然语言描述策略</span></td>
+          <td class="desc">请生成一条<em class="green">稳健型 AI 贪吃蛇</em>。它优先保证不撞墙、不撞自己、不撞到对手身体；在安全的前提下寻找最近食物；如果对手靠近，<em class="green">优先拉开距离</em>；如果自己身体明显长于对手，可以尝试<em class="green">压迫对手路线</em>。</td>
+        </tr>
+        <tr class="row">
+          <td><span class="badge allow">✓</span></td>
+          <td><span class="action-name allow-name">多轮对话优化</span></td>
+          <td class="desc">这条蛇太容易贴边，请让它<em class="green">减少靠近边界的行为</em>。</td>
+        </tr>
+        <tr class="row">
+          <td><span class="badge allow">✓</span></td>
+          <td><span class="action-name allow-name">多轮对话优化</span></td>
+          <td class="desc">它在缩圈阶段经常进入死胡同，请让它<em class="green">优先选择可移动空间更大的方向</em>。</td>
+        </tr>
+        <tr class="row">
+          <td><span class="badge allow">✓</span></td>
+          <td><span class="action-name allow-name">多轮对话优化</span></td>
+          <td class="desc">它太保守了，请在身体比对手长时<em class="green">增加围堵倾向</em>。</td>
+        </tr>
+
+        <!-- Ban divider -->
+        <tr class="cat-row ban">
+          <td colspan="3">4.3 &nbsp;禁止的操作</td>
+        </tr>
+
+        <!-- Ban rows -->
+        <tr class="row">
+          <td><span class="badge ban">✕</span></td>
+          <td><span class="action-name ban-name">手写 AI 程序</span></td>
+          <td class="desc">不得自行编写蛇的核心算法并提交</td>
+        </tr>
+        <tr class="row">
+          <td><span class="badge ban">✕</span></td>
+          <td><span class="action-name ban-name">人工修改代码</span></td>
+          <td class="desc">不得人工修改 Myflicker 生成的<em class="red">代码逻辑</em></td>
+        </tr>
+        <tr class="row">
+          <td><span class="badge ban">✕</span></td>
+          <td><span class="action-name ban-name">绕过 Myflicker</span></td>
+          <td class="desc">不得提交<em class="red">非 Myflicker 生成的程序</em></td>
+        </tr>
+        <tr class="row">
+          <td><span class="badge ban">✕</span></td>
+          <td><span class="action-name ban-name">针对地图硬编码</span></td>
+          <td class="desc">不得手动写死某一<em class="red">固定地图尺寸</em>进行适配</td>
+        </tr>
+        <tr class="row">
+          <td><span class="badge ban">✕</span></td>
+          <td><span class="action-name ban-name">临场战术换蛇</span></td>
+          <td class="desc">正式主赛不得根据对手<em class="red">临时更换参赛蛇</em></td>
+        </tr>
+        <tr class="row">
+          <td><span class="badge ban">✕</span></td>
+          <td><span class="action-name ban-name">使用非官方能力</span></td>
+          <td class="desc">不得通过非官方入口加入<em class="red">额外能力或隐藏逻辑</em></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <div class="note-label">NOTE</div>
+    <p>研发同学可以参与<em>策略分析、测试观察、Prompt 优化</em>和规则理解，但所有策略调整必须回到 <em>Myflicker 自然语言对话</em>中完成。</p>
+  </div>
+
+</div>
+
+</body>
+</html>
