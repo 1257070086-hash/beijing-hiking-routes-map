@@ -1,0 +1,7 @@
+# 本地大型子仓库，不提交到 beijing-hiking-routes-map
+wewe-rss/
+beijing-hiking-routes-map/
+battlesnake-rules/
+
+# macOS
+.DS_Store
