@@ -1,4 +1,4 @@
-// 渲染周报页面
+// 渲染周报页面 - W31 版本
 (function () {
   const data = window.REPORT_DATA;
   const app = document.getElementById('app');
@@ -57,7 +57,6 @@
   if (sidebarNav) {
     sidebarNav.innerHTML = REPORTS.map(r => {
       const key = weekKey(r.week);
-      // 非 active 项不渲染子目录 div，避免 id 冲突
       const sectionsHtml = r.active ? `
         <div class="sidebar-sections" id="sidebar-sections-${key}">
           ${SECTIONS.map(s => `
@@ -82,7 +81,6 @@
     }).join('');
   }
 
-  // 折叠/展开子目录（通过 key 查 DOM，不依赖 this）
   window.toggleSections = function(key) {
     const el = document.getElementById(`sidebar-sections-${key}`);
     const header = el && el.previousElementSibling;
@@ -125,7 +123,6 @@
   // 所有 section（包括启示）统一用品牌色标签背景，文字为黑色
   function renderSection(title, sectionData, brandColor) {
     const isInsight = sectionData.isInsight;
-    // 只设背景色和边框，文字颜色由 CSS 控制为黑色
     const titleStyle = `background:${brandColor}18; border:1px solid ${brandColor}38`;
     return `
       <div class="card-section${isInsight ? ' insight' : ''}">
@@ -156,7 +153,6 @@
     ...data.companies.map(co => ({ label: co.name, color: co.color, anchor: `section-${co.id}` })),
   ].map(btn => {
     const hex = btn.color;
-    // 把品牌色转成很浅的背景（20% 透明度模拟）
     return `<a href="javascript:void(0)" class="company-nav-btn"
       onclick="smoothTo('${btn.anchor}', null)"
       onmouseenter="this.style.color='${hex}';this.style.borderColor='${hex}';this.style.background='${hex}18'"
