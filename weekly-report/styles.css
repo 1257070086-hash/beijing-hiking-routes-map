@@ -344,6 +344,15 @@ main {
 .headline-tag.tag-产品 { background: #f0fff4; color: #34c759; }
 .headline-tag.tag-技术 { background: #fff8ed; color: #f5a623; }
 .headline-tag.tag-人才 { background: #f5f0ff; color: #af52de; }
+.headline-tag.tag-热点 { background: #fff0f0; color: #ff3b30; }
+.headline-tag.tag-行业 { background: #f0f6ff; color: #0071e3; }
+.headline-tag.tag-品牌 { background: #fff5f0; color: #ff6a00; }
+.headline-tag.tag-招聘 { background: #f0fff8; color: #34c759; }
+.headline-tag.tag-组织 { background: #f5f0ff; color: #af52de; }
+.headline-tag.tag-监管 { background: #fff8f0; color: #ff9500; }
+.headline-tag.tag-资本 { background: #f0f8ff; color: #007aff; }
+.headline-tag.tag-商业 { background: #f0fff4; color: #30d158; }
+.headline-tag.tag-AI   { background: #f5f0ff; color: #5e5ce6; }
 
 /* ===== 公司卡片 ===== */
 .companies-grid {
