@@ -1,4 +1,4 @@
-// 渲染周报页面 - W16 版本
+// 渲染周报页面 - W30 版本
 (function () {
   const data = window.REPORT_DATA;
   const app = document.getElementById('app');
@@ -16,7 +16,7 @@
   // ── 左侧目录渲染 ──────────────────────────────────────
   const REPORTS = [
     { week: '2026 W31', range: '07.28 — 08.03', file: 'report-W31.html', active: false },
-    { week: '2026 W30', range: '07.21 — 07.27', file: 'report-W30.html', active: false },
+    { week: '2026 W30', range: '07.21 — 07.27', file: 'report-W30.html', active: true },
     { week: '2026 W29', range: '07.14 — 07.20', file: 'report-W29.html', active: false },
     { week: '2026 W28', range: '07.07 — 07.13', file: 'report-W28.html', active: false },
     { week: '2026 W27', range: '06.30 — 07.06', file: 'report-W27.html', active: false },
@@ -30,7 +30,7 @@
     { week: '2026 W19', range: 'W19', file: 'report-W19.html', active: false },
     { week: '2026 W18', range: 'W18', file: 'report-W18.html', active: false },
     { week: '2026 W17', range: 'W17', file: 'report-W17.html', active: false },
-    { week: '2026 W16', range: 'W16', file: 'report-W16.html', active: true },
+    { week: '2026 W16', range: 'W16', file: 'report-W16.html', active: false },
   ];
 
   const SECTIONS = [
@@ -50,40 +50,44 @@
     if (el) el.classList.add('current');
   };
 
+  // 用 week 字符串生成稳定的 key（去掉空格）
+  function weekKey(week) { return week.replace(/\s/g, ''); }
+
   const sidebarNav = document.getElementById('sidebar-nav');
   if (sidebarNav) {
     sidebarNav.innerHTML = REPORTS.map(r => {
-      const sectionsHtml = `
-        <div class="sidebar-sections" id="sidebar-sections-${r.week.replace(' ', '')}" style="display:none">
+      const key = weekKey(r.week);
+      const sectionsHtml = r.active ? `
+        <div class="sidebar-sections" id="sidebar-sections-${key}">
           ${SECTIONS.map(s => `
             <span class="sidebar-anchor" onclick="smoothTo('${s.anchor}', this)">
               <span class="sidebar-anchor-dot" style="background:${s.color}"></span>
               ${s.label}
             </span>`).join('')}
-        </div>`;
+        </div>` : '';
 
       const clickAttr = r.active
-        ? `onclick="toggleSections('${r.week.replace(' ', '')}', this)"`
+        ? `onclick="toggleSections('${key}', this)"`
         : `onclick="location.href='${r.file}'"`;
 
       return `
         <div class="sidebar-report">
-          <div class="sidebar-item${r.active ? ' active' : ''}" ${clickAttr}>
+          <div class="sidebar-item${r.active ? ' active expanded' : ''}" ${clickAttr}>
             <span class="sidebar-item-week">${r.week}</span>
             <span class="sidebar-item-sub">${r.range}</span>
           </div>
-          ${r.active ? sectionsHtml : ''}
+          ${sectionsHtml}
         </div>`;
     }).join('');
   }
 
-  // 折叠/展开子目录
-  window.toggleSections = function(key, headerEl) {
+  window.toggleSections = function(key) {
     const el = document.getElementById(`sidebar-sections-${key}`);
+    const header = el && el.previousElementSibling;
     if (!el) return;
     const isOpen = el.style.display !== 'none';
-    el.style.display = isOpen ? 'none' : 'block';
-    headerEl.classList.toggle('expanded', !isOpen);
+    el.style.display = isOpen ? 'none' : '';
+    if (header) header.classList.toggle('expanded', !isOpen);
   };
 
   // 滚动监听：高亮当前区域

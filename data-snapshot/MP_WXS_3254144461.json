@@ -1,813 +1,813 @@
 {
-    "version": "https://jsonfeed.org/version/1",
-    "title": "申妈的朋友圈",
-    "home_page_url": "http://localhost:4000/feeds/MP_WXS_3254144461.json",
-    "description": "关注互联网大厂求职招聘，职级晋升，高管调整等一切与“人”有关的事情。",
-    "icon": "http://wx.qlogo.cn/mmhead/rLpHsVF9HCVKn0VJ7muJicwvsrnWs58HRYkvhZ44GEzlAe0Z0vJXNvPgQ9uwvC1SKI3cpEJicnfoY/0",
-    "author": {
-        "name": "申妈的朋友圈"
+  "version": "https://jsonfeed.org/version/1",
+  "title": "申妈的朋友圈",
+  "home_page_url": "http://localhost:4000/feeds/MP_WXS_3254144461.json",
+  "description": "关注互联网大厂求职招聘，职级晋升，高管调整等一切与“人”有关的事情。",
+  "icon": "http://wx.qlogo.cn/mmhead/rLpHsVF9HCVKn0VJ7muJicwvsrnWs58HRYkvhZ44GEzlAe0Z0vJXNvPgQ9uwvC1SKI3cpEJicnfoY/0",
+  "author": {
+    "name": "申妈的朋友圈"
+  },
+  "generator": "WeWe-RSS",
+  "items": [
+    {
+      "id": "gdSfX5vpS9tEKB-TN9zrWw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/gdSfX5vpS9tEKB-TN9zrWw",
+      "title": "字节跳动启动2027校园招聘，持续加码AI人才",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmich7ybxdUibCn3mm4gg4o1FJd2SE4NHWBCc7bMudHI2ibIROMUFlA1ORqUQOu7qBrBntfgzYDjnic9u3d4AbJtVUMTt3o4WdgeO8/0?wx_fmt=jpeg",
+      "date_modified": "2026-08-04T04:07:54.000Z"
     },
-    "generator": "WeWe-RSS",
-    "items": [
-        {
-            "id": "1Xhkb9jVW-GfPr5MkLxU5A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/1Xhkb9jVW-GfPr5MkLxU5A",
-            "title": "近30亿美元！可灵AI创全球视频大模型融资新纪录",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkgHy9wGa1MiaoSC2Q1ic0GEmXzKU6xdvSk8qGgMnpoWibgaXcI2oLYx6Zjakyyyib8pnp06nE6vRNhRVQqTfHibxZ3tSwb6JG6NgKU/0?wx_fmt=jpeg",
-            "date_modified": "2026-07-03T01:32:25.000Z"
-        },
-        {
-            "id": "LCuv7y8vnNDGxIdzHdNbvw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/LCuv7y8vnNDGxIdzHdNbvw",
-            "title": "字节正式打响管理变革第一枪",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmma2qKqmDeghmLVRJMpwG29Dib03IApXgKwKPZHW4Qwibe9aO1mBMfcoWahjLlEiboicSQXH4IDU4aTl3v6fTYxziawxhoa7mBGkNs4/0?wx_fmt=jpeg",
-            "date_modified": "2026-07-02T02:44:37.000Z"
-        },
-        {
-            "id": "8PpTiQr6_19YSZ-YF2AhZQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/8PpTiQr6_19YSZ-YF2AhZQ",
-            "title": "AI 圈，还有谁比「贾扬清」的命更好？",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/ACzflXDibhg4icmq5LMXPjzd0R6gEgoYZSI9zrmhRLORpgUyUuBPuo5wfsxv2uAo32A8sDHt0y5m9Pcr7RCN8nJvzuiaPsIfPzFE4YGTFFDSic4/0?wx_fmt=jpeg",
-            "date_modified": "2026-07-01T02:00:55.000Z"
-        },
-        {
-            "id": "Lz7BuT6zYIZvZcQ8S1D25A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Lz7BuT6zYIZvZcQ8S1D25A",
-            "title": "淘宝推荐算法负责人姜宇宁离职",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlpTb0icSIBlYf04L0hslLmgBmFGOOsK9AE8hibPee7Mia9IXOOEEvkBH8Isiaic3kd7VQiak5FbLvIILQIib3vcyh3pKVIlw5TlXWOxc/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-30T01:01:38.000Z"
-        },
-        {
-            "id": "BeI2vlsTeFTiv15ABMsT7Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/BeI2vlsTeFTiv15ABMsT7Q",
-            "title": "腾讯买出了AI半壁江山",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmn2giax0QCicHHrqicICG2EDHiaaW2QTMInaBP6W7pLUbkBwEYtNLI8Q2ibic1LVGfIIHKljvfeuoxf8LAjl6oowML8qFGVN7Z5976zk/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-29T05:33:03.000Z"
-        },
-        {
-            "id": "M8MdO2BsfvBfzDgQWIQVPA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/M8MdO2BsfvBfzDgQWIQVPA",
-            "title": "飞书产品副总裁施凯文离职创业，已获红杉投资",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlUhjLwjhqorMOlpl77axRkdoR9VBPNRYOiccXniaqqxMXy584tIevpI6ibEksibAGo5vickLWbD3lmlBbThHTSaWuYf5eMNjGNibiaT8/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-26T02:26:02.000Z"
-        },
-        {
-            "id": "zwuGtvahbZhIDIZXrPhw7w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/zwuGtvahbZhIDIZXrPhw7w",
-            "title": "一段话锐评互联网大厂大模型团队",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkozN0c4s7DiciaNQbz4R8lXGbbUzHU6uevwZiaNZoTkzNSOLKHiaLb1iamicicLCKiaCsVlDwd97K4Jf6RFz4nndNQiczfaRxAsYx1rzvI/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-25T02:16:33.000Z"
-        },
-        {
-            "id": "ZJRsgu8FYv1CdsNbC9uNHw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ZJRsgu8FYv1CdsNbC9uNHw",
-            "title": "豆包专业版正式上线：连续包月最低68元",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmgRNgYSCdJl0ufCbg1BlIS4IqaBc3plKBlj37fEXhknOSzgt6FP5LmYkc8sZJNib5dCRHickP2l1pJ0icWS4TwKlAfsrT3ZHGDzk/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-24T01:29:01.000Z"
-        },
-        {
-            "id": "c8uKD-metDOWQHnVcnPsJA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/c8uKD-metDOWQHnVcnPsJA",
-            "title": "想种好AI这块地，阿里合伙人也得“弯腰插秧”",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmm2arib95QDnmia8c454J3OJCSQricQQHkhrKzxZpfZgTQUbdQWibJSMVO29DiaVheJRpCr17ic39DQM5FPn9YdYNmOmDxdVhVGaYsco/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-23T07:48:47.000Z"
-        },
-        {
-            "id": "1HvxDhlCDZjqnO85nSUBwA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/1HvxDhlCDZjqnO85nSUBwA",
-            "title": "阿里年报：自持1870万平物业，8亿美元投资Kimi占股36%",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnf30AdKPNgfGbiasGua2euen5JibGiaed1sl0bVZ344iaL7ULIoHudpWh4hQAQPxo3Fok8QE8n3ckPibnmY0TdAIicDg6sEsleYqjWw/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-22T01:33:08.000Z"
-        },
-        {
-            "id": "BObioPWbXkqLV7FrnInlfA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/BObioPWbXkqLV7FrnInlfA",
-            "title": "阿里还需要周靖人吗？",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KkHrGpPyyQ9EGGN4XAI1pTxn4tPyQP7StQq1iaqht8dUEEic8Jcgr8cnNymQ6phnPKz5cWnOJZ6G3wDw9gceibtib1IhMd0LiajG8RoCAkicHbjR8/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-18T06:49:07.000Z"
-        },
-        {
-            "id": "2qQ75FYllPtGFkcsGi4t5w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/2qQ75FYllPtGFkcsGi4t5w",
-            "title": "字节Seed豆包股价格升至14.85美元",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkJeK1rWIX82MPJhXTcaiaCBQtoAZlgmphWh78s3ibvewJYsUbg5mZKn0fsTBCkgm08jkvDhZs4bZ996cC094icbwmjR3nGFhN52c/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-17T02:09:13.000Z"
-        },
-        {
-            "id": "XsmmfszT5Cvu_zWvRB9JFw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/XsmmfszT5Cvu_zWvRB9JFw",
-            "title": "百度IDG首席架构师陈竞凯（T11）离职",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmla6t0dXzNowTGm89v6xeP9zPu3FrcTfzGZcePqp3gVoNl3XMRNXPPWg00kVJS2QbicXhChqBaD0sQmxvYicuAMJEYvpAAgeWFRg/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-16T06:21:07.000Z"
-        },
-        {
-            "id": "tbXzcGAhWIaZWv94JoGPJw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/tbXzcGAhWIaZWv94JoGPJw",
-            "title": "这届618，除了AI，没有任何新鲜事",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/3LxkvicRaicLAX9DDktrjH9T868HdtjDKZz3NjvtPibuNiaLyH8Y9QibfQGJRdcwCQxl8TBdEWPlkZTKhFVNwQeJ4ibqHEanLNyb4yhyKxIjTVA1c/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-15T09:00:22.000Z"
-        },
-        {
-            "id": "g4a61YwKJDH5xSNkupmp-Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/g4a61YwKJDH5xSNkupmp-Q",
-            "title": "阿里否认首席科学家周靖人将离职",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnY7Hal3v3WnqLPs7hYqPTkq3eeNX2BTgvUibt5FZ0rJEEHOUplcqUZHcC8k5AbQY42GF7pqxa2xZ09UJQXtxQ8z3YyHo2fTVZQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-14T06:39:21.000Z"
-        },
-        {
-            "id": "fhrNozovCqRIpUixG6JF0A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/fhrNozovCqRIpUixG6JF0A",
-            "title": "世界杯首日：从比分到红牌，千问预测全对",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnHu5AW2rbdqHh98gqicNyCOFiaytS7uDC3yKI9CEoGThca6DGgDUKNNICtaAhOpaXcTPb1ibgLicWy7uK7C9Ab5W2CcfjuL4mvrsc/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-12T07:12:12.000Z"
-        },
-        {
-            "id": "zt2Qn4FtXOK-gNAMyun0NA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/zt2Qn4FtXOK-gNAMyun0NA",
-            "title": "钉钉换帅：92年技术极客陈宇森接任钉钉CEO",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmngCTSqhgPmmbDdicvc1h5qibicw4Lwq7iclqpMoPXLKRByuRZiaGXn2r0cCxSyyU1vwcps6Qia6vCdW6AhlJgAMjpFzS4duE7zzkUicw/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-11T02:23:29.000Z"
-        },
-        {
-            "id": "9LftxACX1wNWjzJnshHXVQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/9LftxACX1wNWjzJnshHXVQ",
-            "title": "阿里合伙人委员会批评钉钉管理方式，直言AI时代人最宝贵",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnfyIXJtVumvKEkunyZCOfjfwlT0W7tgnHCftRZLSeQFxahHYU1Ew6oygYJPbQoH8dt5C4Vv6DAGv2hqVc8926cLwyiaBjZlKGw/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-10T04:52:27.000Z"
-        },
-        {
-            "id": "gEWL6BwPNdPjgQWe5MOhPg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/gEWL6BwPNdPjgQWe5MOhPg",
-            "title": "美团成立AI新部门，前大众点评总经理牧遥担任负责人",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnEDciakFOiae7ORrZhxP0aLiaLHhNMW162C1OAFvUkmgvr4afkKPvSrWdtUduZics3em13hj6302JVF41bp2KfskP7f1mG7H6ewZA/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-09T05:19:22.000Z"
-        },
-        {
-            "id": "nezaVUWRb72AR5OZ_Tx22Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/nezaVUWRb72AR5OZ_Tx22Q",
-            "title": "字节Seed辟谣：顾全全不是LLM预训练负责人",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmgTIDjhU3bxyBia0hRJIh2FibBeGFOAnFfOZ45NNDFDp0Kwlhumic8icsmibl7Cgq1zLic8M5DIU6ek80RG3tKZmqH7W9AQcPYlbPkE/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-08T05:46:32.000Z"
-        },
-        {
-            "id": "lmv5V4e8-mXonWe0pO63dg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/lmv5V4e8-mXonWe0pO63dg",
-            "title": "百度成立大商业事业部，数字人业务升级为独立部门",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnJ9NxccyiazVMJwZ6GKSZpSYzAnecY7akmbvnZT5mibqNFse1BcHsrBgeXv4Ig1Nl4k9LiaYSCvndufAPZVLDepHKibkTkvHk8zAE/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-07T00:57:04.000Z"
-        },
-        {
-            "id": "0e20MBkraeZCtk_e6lurhA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/0e20MBkraeZCtk_e6lurhA",
-            "title": "阿里云计算平台首席架构师林伟转岗至ATH事业群",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/r1bcibyzeOibvSiaBtv98JSRpdAK6ESricSwvya8xhleYf3PpnSHKuBiaBtkqwtY5KIswMJSoDPOdWQWnU4pR9EBzNROkFMZIknUyaABNHdbbPdM/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-06T01:31:02.000Z"
-        },
-        {
-            "id": "fkUn8VwAxnReAF5RzIaFUw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/fkUn8VwAxnReAF5RzIaFUw",
-            "title": "快手15周年：一家互联网公司，如何用AI重构“自己”",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkicpqsGspGNEytNWOKVM2CuMPFc29MkaHuibr8ZJnFicicM0fGutibiceOvag60ib1srlLfcxgFLkSzIR34icu3Ss5xL5uchiaSBNmBia2I/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-05T07:06:24.000Z"
-        },
-        {
-            "id": "iiu0naNI4a4DpOaqZBjgjQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/iiu0naNI4a4DpOaqZBjgjQ",
-            "title": "抖音集团副总裁张羽转任公司顾问，专注慈善公益事务",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/NhjL9HALuWoibw9kNPLgCOzHIb0vuKDwNuZIxJMogSLSpkeK6nNCTGmkQbRoSWXafoAhI6V5VvJDic84Z9KG3e9TvPyUd3AVuUzicXIppPgOh0/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-04T00:52:41.000Z"
-        },
-        {
-            "id": "Wc903xnbWxrWbndkMMe5uQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Wc903xnbWxrWbndkMMe5uQ",
-            "title": "向第三方Agent全面开放，千问正在打造AI时代真正入口",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcml8BsZUvzzGh6APbAMYCs2NsgmkRkHC2H861CDsXMWgJGXxZItDfC3TibrJL9UTSH1mbYduKkay1ibUdgnK5tzhviaCIYfR3EvMFI/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-03T10:36:48.000Z"
-        },
-        {
-            "id": "uCXQ4Yu3ednO0ZYSHUeDoQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/uCXQ4Yu3ednO0ZYSHUeDoQ",
-            "title": "阿里CTO范禹进入合伙人委员会，盒马CEO严筱磊转向蒋凡汇报",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnibkwTib6PsPNR1aEklmGibwgef3CgTbQBgEQnz6CEGJQiboiaWjSzogQ1QFTLg2DmickrPRunnObu2OiciauD9KIycAsjGVIOeh9KU20/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-02T04:14:46.000Z"
-        },
-        {
-            "id": "VkLwYvpzD11XaahGijQLHA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/VkLwYvpzD11XaahGijQLHA",
-            "title": "AI时代，产品经理涌向字节跳动",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FVGfWjxTu0MFykmRibZzZbhgtt02aOrWFmMhKSzzGAYgcib1YzeNO8kGZx9WmdRib6x2H2v1m6aZ4x8KGC2CskWzNJETc7KsNRr9Coc261k96A/0?wx_fmt=jpeg",
-            "date_modified": "2026-06-01T06:16:25.000Z"
-        },
-        {
-            "id": "loLbfG67tUXCx1eiZ5qucg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/loLbfG67tUXCx1eiZ5qucg",
-            "title": "对青年AI人才来说：天时大于能力，选择大于努力",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkNc9WS7cIaXicolnfUTSndtZghhh0ian4laKYXbUh7eTum0nJwicqkrPKDPFT7iabnOqGXiajkYN85pvibjCAgj3qsRFeCYMEryM1w8/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-29T05:17:28.000Z"
-        },
-        {
-            "id": "R8uF37leuivJQui8BNCZVA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/R8uF37leuivJQui8BNCZVA",
-            "title": "拿下世界杯版权，能为小红书带来什么？",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkRLFyGW4HOz59meVVtsv8qYFhp0Hxqm89o1aojicgCKk6RBw4THpsiaqUT2Z0xVuhoGnsVOpNBtDfypHxaExic3IXDLvd5qLtxI8/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-28T04:10:00.000Z"
-        },
-        {
-            "id": "ChN8kLSpziuifkN63vkVmA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ChN8kLSpziuifkN63vkVmA",
-            "title": "字节豆包股无“认购”一说，Seed员工可选择年终奖以豆包股形式发放",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcml1yjdMq1gslicROzHiajw70hUuR6y6DdESKtEmFWoDTubKpIIIVgXnI1w0jGH0bZQxt51icvic2Q4lWzUPMWKTQmKf1QkTrose2Mc/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-27T00:35:41.000Z"
-        },
-        {
-            "id": "osYX5_O_uG9G8lunRrH_oQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/osYX5_O_uG9G8lunRrH_oQ",
-            "title": "聊聊最近几家大厂职级和管理体系的调整",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnyNszygPjyq8jwJkOTwJML7TGqpjTdicib8wwldiaPNWcd8ib2x6wy7oicUk3277eUuEEnwKlVbuickZmFmSUQaK93Soonicb1ticCia8w/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-26T02:13:42.000Z"
-        },
-        {
-            "id": "LSoGfHPfYKghxxapRGi3NA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/LSoGfHPfYKghxxapRGi3NA",
-            "title": "大模型公司门口，挤满了送钱的大厂和VC",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FVGfWjxTu0PeVcekN7MUyAmvstG7HVGXhicsibLzGgySNS3gdMF2UVvRlibfFZWFZ8SYX9icLmN65u8X3dQgy1XTh0eclHaS2EkXZsjzdibdQQ18/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-25T06:01:31.000Z"
-        },
-        {
-            "id": "Vyvo-qOIdoauxrTSfJmvXA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Vyvo-qOIdoauxrTSfJmvXA",
-            "title": "京东零售高层大调整：杨博接棒汽车事业部，钟波执掌拍卖业务",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/ACzflXDibhg7bHicjgIhDIY8b2AoYiaFFLQlesr6ckKJ9soagj4qVebVCQd0lHXIJh938HU3wBURiaDSH6gRJbHsIMvrWBVkm7JpjIic8BZT11Ug/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-22T05:44:55.000Z"
-        },
-        {
-            "id": "pEJBFMnSXdiNTWl8_PHlLw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/pEJBFMnSXdiNTWl8_PHlLw",
-            "title": "从夯到拉：锐评互联网大厂AI大模型业务",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmk4KgVxW0FXM6DbEp7s3P1DYbAuAUiaQDVtNiaWUIo1bZIbw1tGyUHj8eETic9eiahMLD8Ssic1Iy5icfJSTnibjhaBJSk7ng4k3YhaAc/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-21T03:25:38.000Z"
-        },
-        {
-            "id": "SvhBJXWovNJncCyPh6laDw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/SvhBJXWovNJncCyPh6laDw",
-            "title": "字节奖学金首次全球开放，五年67位得主去向追踪",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGamtkzypBX2ZzWPMmBXPr82F42PavNpKRsiaYMttCkOdml7N5yfWMTIrwTiaNGag7jeS2thru2j6TgBmPl1cqLJjrP4Wan30j6w/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-20T07:12:59.000Z"
-        },
-        {
-            "id": "gy2_HAhJZgPLAnxb4N0-Og",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/gy2_HAhJZgPLAnxb4N0-Og",
-            "title": "大厂HR：AI时代，我们招什么人？",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nW7VKoMpiaBRz5gp8qDYlfAkYEsm21Z2z6vmtu4SHpTzSHXZx5LnYVfDbKeHw2SgpmzqUTClFvCw2ojkySAs4Va6fylB6xkk5OohcbqdoZuI/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-19T05:21:52.000Z"
-        },
-        {
-            "id": "jfO9iNylq9tnuxus1v_5IA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/jfO9iNylq9tnuxus1v_5IA",
-            "title": "烧不起AI就分拆，快手给字节探路",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nn4fiaIib6wss6MiaXkJ1HQMMsibPb0ljKT9TlrPB5RNoaFFW53dktaBuWqUQyUnEKgqe1Wcs05GMDduvKQBUNf6f1UdUM4s95SIA4V5TtXcODQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-18T08:09:47.000Z"
-        },
-        {
-            "id": "hnV2dBsvLUWS4eGKtk6dNQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/hnV2dBsvLUWS4eGKtk6dNQ",
-            "title": "快手生活服务事业部负责人刘逍：用AI重塑生服行业，帮助商家实现两个极致",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlnTBrF9jAQC6m3TOjy6fPD258YfFj3KCZvMEYqj4iaics7JPRo9GneMzLA9NSPDeDwnA5sjzVc2JicQ22ReHacICF1NWWN9ZHEicw/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-15T15:37:32.000Z"
-        },
-        {
-            "id": "uId2eHSH2rY3_RgEMIZW1A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/uId2eHSH2rY3_RgEMIZW1A",
-            "title": "虎鲸文娱旗下妙鸭相机团队解散，维持最低程度运营",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnEA9lmjJNWU6ybckk0VR2DgnspvtOGIsI48ynnOcv1qibF19MJSxdIs5VJtzVYFqLutjXy6Zo2AdKoF7wmZFOBRmZPFwvdxPvw/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-14T07:21:54.000Z"
-        },
-        {
-            "id": "SrnW_MnYCZr0m3hLMSsjhA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/SrnW_MnYCZr0m3hLMSsjhA",
-            "title": "AI步入“自我进化”时代，李彦宏首提AI时代度量衡“DAA”",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnKHKRZSBI6GAHopMG9icv8YyHUw0vNNtYwtiaMteoYMJLcSs6Kf2O7d0Kf851urwWtNVQMrczQ7Ndxf5SCqLlHn3GLYL34nicYUs/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-13T04:59:26.000Z"
-        },
-        {
-            "id": "I3UOKDcm1CsbYGZoSL9ZWQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/I3UOKDcm1CsbYGZoSL9ZWQ",
-            "title": "传快手将分拆可灵业务，估值200亿美元",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlftu8IIX2ZgEIHsCf9UhlNZ9zvUO5MJ3aQQ5YmtQ1BVM2IHM8ROLQRyQbLED8OukSeha2aA6q1VUbGfLVVz677gHzV2EPT8Ek/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-12T01:18:52.000Z"
-        },
-        {
-            "id": "SuKXGGXc9ThD9jBIXNTn7w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/SuKXGGXc9ThD9jBIXNTn7w",
-            "title": "互联网巨头的用人账：130万人、几千亿薪酬，流向哪里？",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nW7VKoMpiaBQcqtSZeWAGrjo9iauj3JbUEwicX5IYvAZRPkJS6Gywug5guQHm91BV0ib01WLNbXsDYtUMKu83SkFCKOuf9aSsTA5DUd3iaiawVzO4/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-11T02:21:37.000Z"
-        },
-        {
-            "id": "maP4XHJ9cAdNwwqgq7-L7Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/maP4XHJ9cAdNwwqgq7-L7Q",
-            "title": "大厂永远理解不了梁文锋",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/gP93I1xESa1Hphzte3qg9H9fhaTu8rIbo26nOw89Zcn6s4XFXfFE2U24LkH2ibRlA4balucruovGYRJaDwm33LlE3NXicocwkLmGLia5fWAnRc/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-10T02:07:18.000Z"
-        },
-        {
-            "id": "fFx0TJdBkav7UfmxNvkv7Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/fFx0TJdBkav7UfmxNvkv7Q",
-            "title": "小红书启动新一轮期权回购：在职员工25.5美元，离职21美元",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlUDS4XW6PbXgdIZu17U56bfbMWTftbdbXoz3VOWF0BAexicUuyT0CcVDYnhm9p9WEzvfM4H0ka0egjtj22aSL3mBotr4oRSuo8/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-09T05:24:01.000Z"
-        },
-        {
-            "id": "C-a5_BNlfCjvfFoe4VaX2Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/C-a5_BNlfCjvfFoe4VaX2Q",
-            "title": "字节旗下剪映产品负责人张琪智离职创业",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkU8gDwpCgGUua4icxKiaCbcgEw1KlNcjictBeInmfugCqzMibE4ib6UajwRIdPsNtfXYjA3icyYXCR3gW4DpicEKC8NOH3XOzn0GTX14/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-08T01:15:49.000Z"
-        },
-        {
-            "id": "4OSJoHI7kK3FEBMMfEaxdQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/4OSJoHI7kK3FEBMMfEaxdQ",
-            "title": "中国某互联网大厂研究员加入OpenAI",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnAkDs5ictxvfYKcMCFichZIhQ2Ribic2HsBvTMpRjY2KGj3Y1rdHp5z21dk7VyCyW0NsIDQWsKaGebB7oOIXlEBG1kj1BeXjuM7yE/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-07T07:44:54.000Z"
-        },
-        {
-            "id": "7baLYsoaLBWdXCCyQGXdxg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/7baLYsoaLBWdXCCyQGXdxg",
-            "title": "豆包开始收费了，我反而觉得是好事",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/1IgQwqF2M5Zyb5auooFic5C3dwfQWP6UOqmeeeLrHuJWxYeTtK1Ym4jz6QmdCticW6ulAvFZqAeIk5mGKx7ibcldglnzCTiaF7ibywolKnJbs3BE/0?wx_fmt=jpeg",
-            "date_modified": "2026-05-06T03:12:01.000Z"
-        },
-        {
-            "id": "is7up_x4knqiFmcaopmqtg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/is7up_x4knqiFmcaopmqtg",
-            "title": "互联网大厂中高阶晋升，评委看重的是这五点",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkqSwjJaSicy2dT072Iwtfh7AdgqKtXp1fs6DpIMWqLjZe2T3gtNDsN0tMLXoPIMTbOhdLOkyj1dg9e6GAvQUs84b7cQIQKJibks/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-30T03:26:59.000Z"
-        },
-        {
-            "id": "c0MT-kZHlVbus5x25yOxlg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/c0MT-kZHlVbus5x25yOxlg",
-            "title": "阿里高绩效员工年终奖上浮1-2个月，新员工长期激励首年归属近1/3",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnNG5qByIpnIP4LA8micicYHQoXYMBcsDJ0CHrYJKkaDCAZSicCdj6OrphIKb8pVmrrL3hGd6hrI4HicYdiccD8fiaibD1WlvC5uAAM9c/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-29T10:19:19.000Z"
-        },
-        {
-            "id": "5co1OGn_kDMdKj_yiDoFgQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/5co1OGn_kDMdKj_yiDoFgQ",
-            "title": "百度宣布组织升级：培育复合人才、构建敏捷组织",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmklUdNwMvruPuoicJ29bHB7EVRCiaOu6TVC0A6FgWJTdd8fJJ6ic44lOkVJ32PPyo3ia5F8icXVvcjvrfXwicuRuDQLGiaJU3Pket4eN8/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-28T02:14:43.000Z"
-        },
-        {
-            "id": "0PHuM7A3Y-SfN0aeNMsuqA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/0PHuM7A3Y-SfN0aeNMsuqA",
-            "title": "互联网大厂的职级薪资对标体系，在大模型时代都不好使了",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnEPT04knibh6N5iaVqNx0WK1vEyDicVRibxiaUAosvMk65Mu9XWOrS5hE2QbywNcUSWQP13rd3qmicbpp2tBv0PKSdqJyujZ3EQujRg/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-27T02:43:43.000Z"
-        },
-        {
-            "id": "T6EtapFTJTKtEnE1llWohA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/T6EtapFTJTKtEnE1llWohA",
-            "title": "滴滴自动驾驶CTO浙大校招宣讲，阐述发展历程和技术理念",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmleJl9ib1ibhhLjHyL848A8BIxOeiavDP9GjiaCdOSCDQqJ95k2IRa7GQiaxXpbAkw56AcjcQlzvBeOncjuGHBIWicSFyuNrSyRic08qM/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-24T02:01:15.000Z"
-        },
-        {
-            "id": "QLLOTtAJG_497l4-ojVH5Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/QLLOTtAJG_497l4-ojVH5Q",
-            "title": "为什么现在是加入腾讯青云计划最好的时间？",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnKUV1axMnCcrU1QlwLvJ9ApFbFGysfasUyIQ7pj9CicAfABlf566t9FHLicMOCuia6PR1HcmTtNUqibkBrXONHHBahJ14RKR8JsII/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-23T13:31:52.000Z"
-        },
-        {
-            "id": "kXMmZN_4IguVtVoJbTQpJw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/kXMmZN_4IguVtVoJbTQpJw",
-            "title": "能谈心更能办事：阿里发布千问AI数字人形象“千问小酒窝”",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnqL9AzBFnm8yibGdotCyt2mfFMMoKR9psW5Gc2YkLaITib8x0aVtAH2wMqIVm2x5LibrYX1sxlAIOOs51srSfTfIVnzXuqmMmCa4/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-22T02:48:18.000Z"
-        },
-        {
-            "id": "1MWzKJdSDWzWQS8KICBN6w",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/1MWzKJdSDWzWQS8KICBN6w",
-            "title": "前Anthropic后训练工程师李迎超加入美团",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmwDufRAXH4xGYkfmocsEm7WR8v115vYyL9nDPka4yzQkavjeskdqaRTuQd6rgN9JtHWRSVyVWNDPddvyLsjr6W6ia4O1KIHWYE/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-21T01:26:41.000Z"
-        },
-        {
-            "id": "ROGrBi64nyPH-onEO6I5vQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ROGrBi64nyPH-onEO6I5vQ",
-            "title": "袁千离职，华为系高管彻底告别阿里云",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlTtXkQpibibkeRib5N5kfoqQJVFbGk4iag9PYIphAiaYrBHQbicCxbZbORvDqP39jXqj4RWiblolGtqJtIiagaHnJDsiaObprEIVD3ELCU/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-20T01:46:59.000Z"
-        },
-        {
-            "id": "t0qQMDFDZ5aopIoUK6kTNw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/t0qQMDFDZ5aopIoUK6kTNw",
-            "title": "字节前沿技术领域人才校招正式启动，三类人才优先录取",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlu3gNFrqer0iclf6fyIeDva5tqMwpnPju3ZBTYUmVcTLqHY1JIPTIXIzDQ3FZBf1uUwicSe9wx3yk9Ola3ibZDgv25C0J4cPKUjk/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-17T05:11:34.000Z"
-        },
-        {
-            "id": "vD4rI7BryGBWRzjRMtJK1Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/vD4rI7BryGBWRzjRMtJK1Q",
-            "title": "字节启动豆包股首次回购，价格13.08美元",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnGxO5ibnApSUFcSB5talXDmicRW0a8QRsHwNIibzE3XOEFgOicxwSjKVmY5CMUVXwNeLfJWO9UiblnDBXgz8l1MIvjSibqWBG85icykA/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-16T00:17:40.000Z"
-        },
-        {
-            "id": "UvaawvM5oywCSwWXSaNufQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/UvaawvM5oywCSwWXSaNufQ",
-            "title": "美团副总裁陶雪璇调任大众点评负责人",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmncLR9J36aQGV4vM5mIl99WQU1WrMz6bZXiaOKYibk8Bicbib5nnoVrm0qqLGCIJtN4gDjvC102PS6gicGLbBaxCAfjSTV3TVIMuOtk/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-15T06:09:10.000Z"
-        },
-        {
-            "id": "M6-UQLQNCnCnKAa18UIMsg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/M6-UQLQNCnCnKAa18UIMsg",
-            "title": "那个做出可灵的人，回阿里又造了一匹黑马",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmqBeItnPGoBAHojcpbNuO0ErlswJW9picTEJgibeHpKiaZjhpAGlHrNibmeFqBHN9ooibXgBkWjcWcMFftCibpcFVqGDZbg4LlyNDbc/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-14T02:05:59.000Z"
-        },
-        {
-            "id": "dUZqc27aT--PCXqV21tReQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/dUZqc27aT--PCXqV21tReQ",
-            "title": "快手搜索人员调整：王毅离职，程稷李宣平接任",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnVQLib11MFnJTNWpr7eO7L6ECHIGItbkLh9klqMpqibnrptkSd8c2YWGKVnJynicNv7pXUTSXofaB4M5XsbQXkOmcATBcarPJZP8/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-13T03:08:03.000Z"
-        },
-        {
-            "id": "37_9KwiY6z40foymIu-SQA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/37_9KwiY6z40foymIu-SQA",
-            "title": "过去一年，70位字节seed成员流向市场，30家字节系AI创业公司崛起",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/4DzjNkEUz4Lk03ASEcUAMicFfHrEcARZ1NEWNZpIEWWLvIEty91jibMUpZOjblFM2YiaXYMf56tSfxjXc9Q4hTUCWHg1OEf6rZKmzWVe6l7Hh0/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-10T01:24:54.000Z"
-        },
-        {
-            "id": "5Ti8gXb3ywNRqxWyP0pnKw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/5Ti8gXb3ywNRqxWyP0pnKw",
-            "title": "宇树最新款机器人R1现身阿里西溪园区，或将成立“树卖通”项目",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcml9De9mt4nS4V0wpkw0ZjRoLia1JXdRYk5f4qz0fT4FaFrVQIRg6G4vomVvLN9blx8fr0cpaic1GxKBEkLuVOiaA2xbQLxe44jN2A/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-09T00:58:18.000Z"
-        },
-        {
-            "id": "5Rp_OWve4DKgMiGiOGix3Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/5Rp_OWve4DKgMiGiOGix3Q",
-            "title": "通义实验室升级为事业部，做强大模型成为阿里AI最重要的战略",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmm6m2Y4hiatjuleUGkiamKicmKHmDe4Fiap1uY39M1w1yZauaDu2HxFTLpqWOY1QFWNgjevkxDzXPialnX5HDKFxowotyI75ZRcdS30/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-08T10:01:31.000Z"
-        },
-        {
-            "id": "MsdIwOglWRZkmIKqFMiu_g",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/MsdIwOglWRZkmIKqFMiu_g",
-            "title": "字节33亿元拿下北京北沙滩附近一宗科研用地",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnWCF99b3qYUoRR4c5KdkCiaGDChEZDzMue5FtdlYGLooCY9aSuEobSaPew9MPggz1nMXLzyOVaXCSxQQvMnQObCxlpHnP3YOjo/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-07T03:59:31.000Z"
-        },
-        {
-            "id": "8p5aCE4NmPIfFHqZUy86Tw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/8p5aCE4NmPIfFHqZUy86Tw",
-            "title": "千问系列大模型三箭连发，阿里到底隐藏了多少实力？",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmJX5VB70Siaftp9lC1wetjpJvw7bPn8SUaCmdDLg0IGJoYXtNwxPnBfxoZkyicwKr2AmLbPONcvYDCpEjDhFTkybicxXACwZ1V1M/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-03T06:26:26.000Z"
-        },
-        {
-            "id": "sZ_nkn9KNaX-9H6RdBBPaQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/sZ_nkn9KNaX-9H6RdBBPaQ",
-            "title": "为什么在AI大模型领域，字节Seed是校招生的第一选择",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlYhib0QRM5wnKsJA8YJtfteEPTKx1p6PicZqibwblmvyOL1GGrawHicxr58hvR2zYvrOyEWSV63Vz57yI4Yghc1Eg4qSCicVAJ3HqM/0?wx_fmt=jpeg",
-            "date_modified": "2026-04-01T06:49:48.000Z"
-        },
-        {
-            "id": "LB6qm9veK8odoRcNhEs03A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/LB6qm9veK8odoRcNhEs03A",
-            "title": "AI 视频生成的未来在中国",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnFEpJPKTcK64MbiceAL5aDwbjEARUS09TKMM7nE9lVzqe19qXL66mTobNcibLXchiau1icAvYnZpsjffiaQnsejOKWd1DzdPSu0jyg/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-31T06:38:45.000Z"
-        },
-        {
-            "id": "SP0fqE1A-WmIsS3A8j-3UA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/SP0fqE1A-WmIsS3A8j-3UA",
-            "title": "用AI来“增效”，大厂打错了算盘",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlicZ1CTCHl4khcfaqqRoHjlpRhz8lAXrRpyEZ0OBPoEjzobIXwKYRJCRIw3K82MfcRasx8UPyqbPGg95kaFBeSovyCs1X1FYJI/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-30T04:11:44.000Z"
-        },
-        {
-            "id": "B8REuTrfkDTnqg-YHru97A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/B8REuTrfkDTnqg-YHru97A",
-            "title": "抖音电商的AB面：光环下的暗涌",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ACzflXDibhg5Fg33OrWnuKhicJrqrBGdTq0c8iadQUj0OZoUAO8ULj0y7WiajDLGbfgia7DbJbRG9rIBjibTHdqzsTjqaE86xSYrI8C7icmzGsPVEw/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-27T03:55:58.000Z"
-        },
-        {
-            "id": "BbJ4v0w3BCbicKR_Ig7XCA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/BbJ4v0w3BCbicKR_Ig7XCA",
-            "title": "巨量星图回归抖音主端，崔诚向陈都烨汇报",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/XqlDibeO6JcBebhheKoOc7A7INQ6dQ4YGTf6megjXy2eC6iaZiatGGTgcX7sGjDVgAIic2CC5Mib88Mh1nliaKAONc7g/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-26T02:57:30.000Z"
-        },
-        {
-            "id": "Fxyp9pA82c0dpYm4KSxAtQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Fxyp9pA82c0dpYm4KSxAtQ",
-            "title": "又双叒叕涨了！小红书期权价格升至30美元/股",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmfsyLQlnucqFNibRloPkejL6Em4pPW7lbIibEwbVun0X5qZYFdGHZFdt1yE2r4VicuPia5T9k3jGYiaOkgjWU6ItUwVEr5BgBj4G8Y/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-25T01:16:27.000Z"
-        },
-        {
-            "id": "67yN8tuF57W_ORbu0kmdmA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/67yN8tuF57W_ORbu0kmdmA",
-            "title": "强烈支持Token中文名称“词元”",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnbqv9KKRzfk7fLq074xog1Zwc0XXavm95fBT926kMNY2xvTuOM20jsZLyBcKeJ75dR9duH1sk4C31WA5kv3XjnSE1B7diaelic0/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-24T05:55:45.000Z"
-        },
-        {
-            "id": "5kPj_LaFkRERL8_14gYkAA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/5kPj_LaFkRERL8_14gYkAA",
-            "title": "腾讯 AI Lab 撤销背后：俞栋离职是最大导火索",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/ACzflXDibhg4P6Ct5qd7q5ATvoJzIMIymLEszlJdUsTXuxmqWiau0icD3Knps0cSBzGWPpgd6yFC0fdianPYiaBjc4fRjtObEicsW40fm9IXxU7OE/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-23T00:59:22.000Z"
-        },
-        {
-            "id": "RuOlvEYkHufhMH96jc3ndg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/RuOlvEYkHufhMH96jc3ndg",
-            "title": "通义没有成为“阿里版Seed”",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmmG1PAqbynTZZibZM2Db9veibs3a4OCY8YwQUTibb2a9JfQq8libsYTUQItT5oMGkohGm0dp94xTY2OBtY4TGV37WFwCu2e44Dicj0/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-20T05:07:50.000Z"
-        },
-        {
-            "id": "pqXCrMli6Czz0aHxZbXy7A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/pqXCrMli6Czz0aHxZbXy7A",
-            "title": "90后大模型天才少年少女，师出同门",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmmsvPYXIaz01jWUm3wnkiaOqpSGj5auDZ57z2t0BNia6Nd09kCZts4TkDiccKJw8wzDNcxxX6JDZnOIJPWatexxBT1T29QBSHoCY/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-19T02:45:43.000Z"
-        },
-        {
-            "id": "ac-JPp5Hx0oHUdowNpppNA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/ac-JPp5Hx0oHUdowNpppNA",
-            "title": "阿里给员工发token  鼓励使用AI工具工作",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmuibCaYQItrZjxGgpG1lHIGNN3t4wAvMZoh7WU62CALgQbQehQMK2VYRTO5uuQSfkg86UPmj0CvyGK6JU4DOJl1zBicMpxqLxAc/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-17T04:26:57.000Z"
-        },
-        {
-            "id": "YoDMuD6ZZwuMsglQRlYvGg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/YoDMuD6ZZwuMsglQRlYvGg",
-            "title": "消息称字节因版权纠纷暂停在全球推出Seedance 2.0",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkLos06iavWicT67K3cH9HYPia9GugBl83eyiaQKVySFvZyVlLf7Mic5Jlg0bcNOlS9qJfxkMQJ1FOzcBP5gTiaYdiaUic2gVCw6ILvVBc/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-16T03:57:26.000Z"
-        },
-        {
-            "id": "vxiqIJLgfHYrU6tosbpOvA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/vxiqIJLgfHYrU6tosbpOvA",
-            "title": "字节辟谣“武汉全部被裁”：超2000人base武汉，将加大对湖北投入",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnKGzm0JCbNY9dHc0gUHLicFes3nl68SXpTRrjqN1XxbTkgJ2os3nYym2BibMmzVm8YPDjds4rUEeYB1TKRHwDaBFnptIJPegbXM/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-14T04:07:43.000Z"
-        },
-        {
-            "id": "QulQi6ec6DIJpBnuISrK3A",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/QulQi6ec6DIJpBnuISrK3A",
-            "title": "前字节Seed 4-1科学家田值联合创立Openclaw方向公司，已获王慧文投资",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlibCrDmJsG4ZaCcKVCwhmJfjE3ibtQbPV6yNxQYAf1HUmKL856ZMfpRZbVk6yfCyDKVBaaEcFUlrWFekg4mfAJPMSz1fyT3O1Lo/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-13T01:29:22.000Z"
-        },
-        {
-            "id": "nfE4IWRzBdu_EdFmwXO2uA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/nfE4IWRzBdu_EdFmwXO2uA",
-            "title": "大厂“养虾”，各怀心事",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nW7VKoMpiaBSSUgAzdOBa6J2CdMWicqsbRrlMynRFMicFUUkRCyv1ImFy7lvlHL8JjzSRvE9yRLQGQ4vSbZyle3nLsDWkUlGHyTJ1E9tSNibUYM/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-12T04:13:40.000Z"
-        },
-        {
-            "id": "NlkipSzscQP9NEGDCvTwZg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/NlkipSzscQP9NEGDCvTwZg",
-            "title": "前阿里副总裁任庚将搭档前理想智驾一号位创业",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ACzflXDibhg5SG5kOQowlb34Q7NJnjOBKXtzf17Ntvd5HaQ0VkYhzMea9MkJ8yycqQt2327oPGmFpfSBuxoDjzAXeYLY4OEt6FKEicDWWFKFs/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-10T04:04:27.000Z"
-        },
-        {
-            "id": "i4KhVPLmprPAQ0egUHNMuw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/i4KhVPLmprPAQ0egUHNMuw",
-            "title": "林俊旸离职后，再看阿里字节的AI路线之争",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlSX70Fhfw34TMXic8vvXdWu8JbYnIGDiaibcRto122LMJUWLOWrMT1xvpKCaWnNp5KuKurDzNHPYyv9Moo7ZUlFEviavT2v6q93OE/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-09T02:08:26.000Z"
-        },
-        {
-            "id": "n9T1JZcfWYgII1rtJcx4FQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/n9T1JZcfWYgII1rtJcx4FQ",
-            "title": "B站首次实现全年盈利，聚焦优质内容带来丰厚回报",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmU9wHuX6a8XIDLvcppibykwx6cHNJZ1fIsjpXU1VTISJ5ZEqoDb90QhYicCFNxkfO1RLzTYk1ou4KSfb2A6smurNePssYgbKrmE/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-07T02:01:07.000Z"
-        },
-        {
-            "id": "_Zx5TDW_2i7VGARX4fRyZA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/_Zx5TDW_2i7VGARX4fRyZA",
-            "title": "原豆包PC端产品负责人齐俊元正式创业",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkJvDwMek9xrPorjOzddCh4KddzXu8tVVMZzkjuibwtQl2Ubfzp1crsu3yCC4gibK2pb3zhmMSgqbzWLDGaCibic6a3ic4S6S5d6t4c/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-06T05:09:32.000Z"
-        },
-        {
-            "id": "MXWrks3RA8q7VINtA7qqng",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/MXWrks3RA8q7VINtA7qqng",
-            "title": "阿里批准林俊旸辞职请求，将成立基础模型支持小组，吴泳铭，靖人，范禹带队",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlrsr8nq7gEm3ibyqlwibZWEpwCWMnWmKsBvyQM1TIelCeeZXpeoNp2IfEHoVunGicY0LNVH19aLXNdDXiciboibcafibgic8gggKgT0ok/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-05T03:06:45.000Z"
-        },
-        {
-            "id": "OUjdqzvoC4uGKgtmMe1KAg",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/OUjdqzvoC4uGKgtmMe1KAg",
-            "title": "阿里千问技术负责人林俊旸宣布退出千问团队",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkCz5DItXgKEabxYAoH0xlpqZL2UGNlwGXsVEFDbZo7ZQTV4IH2TSx2vKaq8Y1jwNdibxU4NGibUicMSHFyvV2TZqWxQtu4y5lANs/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-04T00:17:49.000Z"
-        },
-        {
-            "id": "1eq2hLLOns0vAXFC-MFHUQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/1eq2hLLOns0vAXFC-MFHUQ",
-            "title": "百度智能云技术委员会主席孙珂离职",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkVLfpEnb95BN9MYiaHZ1NiaDYRjqHxhRvt9EhhK1gUNOn0WwazWReOh1GGLQ0WaPpgTBPRTVw2de98JKIg9txMlibfePewTcZqibY/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-03T05:23:22.000Z"
-        },
-        {
-            "id": "RwXflAFk7QVk9sB6MijkJw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/RwXflAFk7QVk9sB6MijkJw",
-            "title": "抖音生服换挡时刻：GMV超8500亿，新一年放缓进攻节奏",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/ACzflXDibhg6VfYM9O1p3IJ6sdDuw6j2HABORl6I0u7ORBccFgDmlUqjIkzhFDONvtibSl43ce2hUkSJVibblPqrPZOKvgGGhsmKABVZDfcSpE/0?wx_fmt=jpeg",
-            "date_modified": "2026-03-02T02:10:16.000Z"
-        },
-        {
-            "id": "Mf9gUKNrsUfnwrqZBVnXWQ",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/Mf9gUKNrsUfnwrqZBVnXWQ",
-            "title": "VC开始从豆包挖人了",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmgR2Gs1VQLa0neZibuObyiabth4wTyBAOI4sSIPH6G2h4qEUnYia8vac2tfhia98icZHedwQzvnTpzXBZuCrAtvsXRRmGZHwDMkhXQ/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-27T02:44:32.000Z"
-        },
-        {
-            "id": "BbQygkeLT_LVLyRyH1Qbww",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/BbQygkeLT_LVLyRyH1Qbww",
-            "title": "小红书商业化&电商架构调整：广告交易都涉及，银时调任国际化电商负责人",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnK88fkWb5XoAXgtcibiaSYoG90Wj0JUfqcViaAXA2lVEAdby32vTsHzJBxYf4icRq3EDAiayy8H2m2dia7mFaSjm41fxkY2WB6fNH9w/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-26T01:38:35.000Z"
-        },
-        {
-            "id": "O7pYnDg-1j7GIsKXhlVpxw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/O7pYnDg-1j7GIsKXhlVpxw",
-            "title": "抢客户、战表格、押AI：钉钉和飞书继续贴身肉搏",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/WRFzraWLtb7QmgSXm6IAxo0Olsa8ic358nqzkjF6YxphL0m1U1ibjsEGZ6zUlmnm3pZjgG1WLtnt5GCoLVX3qibHvSicqtiax7Z3iaibcv22iaFRJico/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-25T06:36:14.000Z"
-        },
-        {
-            "id": "QMgInguS_cmJkfa0MuS2uA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/QMgInguS_cmJkfa0MuS2uA",
-            "title": "百度发放开工红包：最高可得2026元",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnQTS8NUKZ8xYw8puWKibmiazcVUOu6WmfxLDqPhWhia4WaVSiaYt8eicvOrunzIbzVIf7yNwckvFyJfVhP6Q2NGjDVBTW3Fztq2FK4/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-24T02:00:29.000Z"
-        },
-        {
-            "id": "DloCg6yOJRxKf1iQR-A7QA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/DloCg6yOJRxKf1iQR-A7QA",
-            "title": "千问春节档真正的杀手锏来了！",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmk44ZTmXrtsqtTjRrwPB8EfzapAVr0nH6iaTdYRq1icYTdas4XmdXPWVwtdftaKBQcKtSOMMjMzibcepVYN6gHIYaIpOzqsuHFQck/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-16T10:05:46.000Z"
-        },
-        {
-            "id": "E4nOWCnSSAcFEvSaozqing",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/E4nOWCnSSAcFEvSaozqing",
-            "title": "Seedance 2.0之后，字节跳动又发布豆包大模型2.0",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcml7RbyyVtBtJZJCgQ4v3NS7z3pzXSro9Geb3TDgjWosicjtvCz2LAtX9LW0Cb96VWBjibcy7IfCibvN1zhDKOmW231liaAaLliakj98/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-14T06:42:45.000Z"
-        },
-        {
-            "id": "wWqWf5NHYW-3iqYRx276LA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/wWqWf5NHYW-3iqYRx276LA",
-            "title": "字节要复现又一个DeepSeek时刻了？",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkeHSGhttq9btBibroVNicfFzGVQbYic42u4TsQnAYvzlq1Y8OwibCib9J7Dg2ImpGHepF0DZICicj4Bl23nNArvflrgP08ctL3QnZpI/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-13T01:42:38.000Z"
-        },
-        {
-            "id": "gjgOYcFZTk9VC2qB7b_r0Q",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/gjgOYcFZTk9VC2qB7b_r0Q",
-            "title": "快手万字长文披露AI研发范式升级全过程，正式发布编程工具CodeFlicker",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmelVhiarmXb3H77YTOzkpK03C3O1gwFIajNxicSJaXGe05RxpP0gsOJ7tdffdyquibgtqY2HJ0qy7PriauWv4qIjVk45Dic6UUz34s/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-12T01:54:30.000Z"
-        },
-        {
-            "id": "7JHmIRfjds8OA3LdK81DiA",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/7JHmIRfjds8OA3LdK81DiA",
-            "title": "阿里蔡崇信最新专访：我也被马云「开除」过！",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/eVuiajlylcYQ0Z5iclUMcEc5qPTYAd3xX9BjOs0Lichia9zwKu1koLiayHNmUvn1Hn9IDx12AjVD1tl3WGQ70Q82m7aUXUjRia6vndMTFQ1IlZSe8/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-11T01:26:42.000Z"
-        },
-        {
-            "id": "iI8EuumlqnqIDsULzMfBQw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/iI8EuumlqnqIDsULzMfBQw",
-            "title": "豆包宣布参与总台春晚 除夕送机器人等十万份科技大礼",
-            "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnmwFm2v8gfpSKHP0Go00ylPSN9ZibCibv9GQLcVVq4ehFRsxNFJUOUhh2S2ab9xtD5aKEuTIgFQmxGASTLqnGTxPcoBQJVEzBlU/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-10T05:45:39.000Z"
-        },
-        {
-            "id": "tIirQ5290SOrHpXS8hwaRw",
-            "content_html": "",
-            "url": "https://mp.weixin.qq.com/s/tIirQ5290SOrHpXS8hwaRw",
-            "title": "互联网大厂马年礼盒：阿里送千问金匙，快手小红书旅行箱",
-            "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ibYwxiaCZ27S39ibN22tSQdyyzkOgjqVXyq2IicMWoclq0FYXp4eb2NHsjhmZEibadorVTo58tR2sNydX2VaTT7bQQA/0?wx_fmt=jpeg",
-            "date_modified": "2026-02-09T01:54:34.000Z"
-        }
-    ]
+    {
+      "id": "wN1MrFIy8_vsQHm-qZISCA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/wN1MrFIy8_vsQHm-qZISCA",
+      "title": "阿里“千问办公”开启公测",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkHUqbNYibEpibRfkuP3LPLEjjSibbJ46Of3251bdHZ4Afb5JVTPl1zcSZpknVMiaVW1N1yDgpEJk2pt9g3zX0DWkksJWJk4cZ0w70/0?wx_fmt=jpeg",
+      "date_modified": "2026-08-03T03:09:52.000Z"
+    },
+    {
+      "id": "_1CVVpUvl2zH_6hoGFhKtQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/_1CVVpUvl2zH_6hoGFhKtQ",
+      "title": "飞书钉钉，怎么就成了“老登”？",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nW7VKoMpiaBTcnjicJvNahAb3JLZuDKj4VKrA1ic1StVE7OQctfRicsLIgopNRhqicTs3gw9TRWr26v40PlzTtkfuv9WTYW5kSPaibMAjVKD4UGfY/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-31T02:19:26.000Z"
+    },
+    {
+      "id": "oNvBoNANAwbJVFGuQVIDcQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/oNvBoNANAwbJVFGuQVIDcQ",
+      "title": "原字节AI Lab总监李航加入清华大学智能产业研究院",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlYcxdLPql4e4eQ5VrbYOKf4NzjDc19oPxhD4ZCsicZB1rwibNa7GYL2gKLUjwDrgY5dHNynDeDnz0uqGiaR4Tm6kBQeuStRibzu8I/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-30T00:45:59.000Z"
+    },
+    {
+      "id": "sIRZ06jJmxNs4g94p07QSw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/sIRZ06jJmxNs4g94p07QSw",
+      "title": "蚂蚁集团旗下数科、国际、OceanBase启动独立融资",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmfnnAGAQib0I1c8VcnBmiaicZpRUF0H0Dg3ROa3Qf4P9GWMGX4z1s5wlKZzWlrZWLB50fIeoHrXb4DlZ4ibT6Libt5uGALamIooAyY/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-29T12:47:49.000Z"
+    },
+    {
+      "id": "VUkydGGiUkuiTPmy9ZEyJA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/VUkydGGiUkuiTPmy9ZEyJA",
+      "title": "赛马结束，大厂各寻Agent主心骨",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/J6CAbFLAgJAChloAox6KSLyBnUa05Uickp4icHR0ehsh3qxI6I4rPia17hNOWvqI4loh9A71dYtxUu7NZKDIC3JeWiaIJwSF5KOaLY93w4iaulFc/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-28T12:19:12.000Z"
+    },
+    {
+      "id": "5ybIKAx0c6QP4xDIUjnNKQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/5ybIKAx0c6QP4xDIUjnNKQ",
+      "title": "支付宝体验技术部拆分，员工分散到各个业务线",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcml5HEqS76xBO2dUbUO6gzm6LE7OWiaXA0pm1QKC6KLibk2MMPzAAia2J0dLhKUkKsosGPKRQjiaZcQICmCuOH2OnibJVl3Olb85fFyA/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-27T11:38:01.000Z"
+    },
+    {
+      "id": "p0R-G4ZxkatNX1L5X0N5Ng",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/p0R-G4ZxkatNX1L5X0N5Ng",
+      "title": "美团 LongCat 团队基础模型负责人裴鹏即将离职",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmyAZEf1PqQQYtibTu2PR2ZeNJbejwYwCS2Q2OFFaPLo8M0M1m7ia9eVm4slTuXr93YnekCpS73kko4VZiaFak8y0yolficJNEfH7U/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-24T07:26:33.000Z"
+    },
+    {
+      "id": "fLaZIsg1i81DS9Baqzd4Vg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/fLaZIsg1i81DS9Baqzd4Vg",
+      "title": "某厂大模型多模态理解负责人胡瀚即将离职创业",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/r1bcibyzeOibsdgicSibELm0EwtfQAaYpKqETPg7JbZK9ibvp4mSv3vKtJW9Lia5hOBBV9dsK0pw9sNeI5tkiccK7fRj4EnYLcdwsic3Zn99yJ7n81I/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-23T07:21:26.000Z"
+    },
+    {
+      "id": "62V6yMd9T9F7_l8GvDRqRg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/62V6yMd9T9F7_l8GvDRqRg",
+      "title": "小红书回应上市遇阻传闻：IPO相关信息均不属实",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlCnGNIrY8yGjWUPD2IeRT8OkS0iaiaYp5GEzMIP1UY0ibWPibXU7WMc1mDQxxOb5z9KUWSeibJNXIjoMg4EdkUykibMckcwSvApB0o0/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-22T03:55:04.000Z"
+    },
+    {
+      "id": "P6n3D7UdHhPcUAxngBJWlw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/P6n3D7UdHhPcUAxngBJWlw",
+      "title": "张一鸣再捐3亿，支持龙岩教育和医疗发展",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlvRt7pGiajtUqMaIA1zPhQ1GiaJZDy360eBia2xGavrqHCMKM6xxkBdVTfdslj1d9kWsb5HyKPBULp8qq7uNd46eo8NKms7iceKlw/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-21T05:00:15.000Z"
+    },
+    {
+      "id": "fZaTLjJHp_JB4SH8GsS_3w",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/fZaTLjJHp_JB4SH8GsS_3w",
+      "title": "AI coding 这门生意，下半场该怎么打？",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ACzflXDibhg4pV2Hughb2N93acctD07oe84TB0uV9PEqIE2ByRnKibqLZcov3jFcoe9v51UY6nGsdCOgt7YtsktV7JP9icczBUiaMHoh1XWpwpI/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-20T06:56:34.000Z"
+    },
+    {
+      "id": "Gso_IRnEFKkBYdJq2GERSA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/Gso_IRnEFKkBYdJq2GERSA",
+      "title": "阿里整合Agent背后：大厂开始重新分配AI资源",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ACzflXDibhg7sGKWY0OaxRHFS4ic8LnnG8rk3z8pRAyDDtTlLJ8S4cCr5QLZKiaDTWEWtDesrtYF967Xm9Krpyx1XWicJMqF4cia2niaia2n2Dvcy8/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-17T06:02:39.000Z"
+    },
+    {
+      "id": "920NgpJdcq7RL4NpZ_ejmA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/920NgpJdcq7RL4NpZ_ejmA",
+      "title": "独家|阿里ATH调整：张迪接管通义万相团队",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnOxQLaib7reMZvzkqIz7wVB9l0WEme6CxP4KKnD1nYNbcRF9z2uk0jICgYGicnmtTTDMgEAYW8B9fMXGekujcGnialm84JMHYVeU/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-16T02:26:42.000Z"
+    },
+    {
+      "id": "X-5RAEMcFpmj9hk675K5JQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/X-5RAEMcFpmj9hk675K5JQ",
+      "title": "DeepSeek都要上市了，豆包还不分拆吗？",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmn7ibqxZicnVjia8ZxVlWMVSnC81TiaJNicxSPmzxzaNqBXTUYGVeodEHNUfhwZ7C2ibD77eYblicaE7gtvhuExK0M3XtmtH2NHu8GJzw/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-15T08:09:48.000Z"
+    },
+    {
+      "id": "Fh7mZ0IRC4QZHg0uGZYy-w",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/Fh7mZ0IRC4QZHg0uGZYy-w",
+      "title": "原阿里千问Code负责人惠彬原加入某大厂",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmsmQzCzcKJCxPe8yns0jtUTp2CpP6kTgaeWeu1KHSH2eWAZibjj68q64MwtCztOlrQ5bKnAVMFZvFHracfExYNsZKLrQmog17I/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-14T05:21:21.000Z"
+    },
+    {
+      "id": "_VolxhRVvsh7cZSqzdD_Ag",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/_VolxhRVvsh7cZSqzdD_Ag",
+      "title": "独家|被字节开除的实习生、北大博士、NeurIPS 2024最佳论文一作田柯宇，在世界模型领域创业",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlj0h2U5K9Fq3TFYaY5Yj4EiayEFzibvh2Bl1ZOt80qPckQnyOL12smJicBLqIuU3MF0LbkjmFFFjeCCJtmBlvmC4knBiaZu7yj2OE/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-13T00:59:00.000Z"
+    },
+    {
+      "id": "fpzceLQGyrNeHfu3bzfQyg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/fpzceLQGyrNeHfu3bzfQyg",
+      "title": "美团回应裁员：比例不高，员工激情一夜蒸发",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnQOvRBb6VDuoohaWqasZdyVwaFIw5Xlhg5eJsWkibAC3E49uPB5VnVqHAwHcJrKric4o8H80gYH4pkWOaw5E6icI5iaxTgk1OIE0Y/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-10T08:48:18.000Z"
+    },
+    {
+      "id": "E8YTgOkLrl2l4ae_e2BkiA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/E8YTgOkLrl2l4ae_e2BkiA",
+      "title": "大厂AI，转入“基因驱动”",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlsdyGEgZOicMM6uR9ItPpPlUWTicKzp9MvL6E4MqAll6KCamXHODtm4r1YN2dv5g1NNQc3Rxn5uYDTQib8u2mkpox5WI1DGV3KNM/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-09T05:21:44.000Z"
+    },
+    {
+      "id": "QXTmUSAC1dQn3_2Zaq3XyQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/QXTmUSAC1dQn3_2Zaq3XyQ",
+      "title": "原快手高级副总裁、研发线负责人陈彬加入小红书",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlLUIeibhZDf90rQ06F0YXycib1e30Oj5oNRqQtzg1pC5KHBicAWL57YCu68wxSgYAx17MaXHcBkmofMw5yicsb7ficokhPN1afsMbU/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-08T00:57:15.000Z"
+    },
+    {
+      "id": "cvupwyMQHzwWJ3CGXB4G5Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/cvupwyMQHzwWJ3CGXB4G5Q",
+      "title": "腾讯出售2.73亿快手股份，套现126亿港元",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnkKd7TxLiad8gRQcoshrdldg5GTUF5Q7wKMTQAUDhE2G6QfdSE4hYAxBLmibDOvnPvibe76ozBhv5MKoSDKf8Vkhv8OiaH2vPgzw8/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-07T01:30:03.000Z"
+    },
+    {
+      "id": "cJZRCd985VPsoKx3yWBY7Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/cJZRCd985VPsoKx3yWBY7Q",
+      "title": "互联网大厂，顶会现场摆摊挖人",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmAhicrRuNy7ibic2jj62DgPntAtsDCHpk9ibesaEd5w2lMkh02hib8nIrby17pTXXMbJibEEicQqia21GGIVP3ydMxJBibbedITAKiaG0A4/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-06T02:31:16.000Z"
+    },
+    {
+      "id": "1Xhkb9jVW-GfPr5MkLxU5A",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/1Xhkb9jVW-GfPr5MkLxU5A",
+      "title": "近30亿美元！可灵AI创全球视频大模型融资新纪录",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkgHy9wGa1MiaoSC2Q1ic0GEmXzKU6xdvSk8qGgMnpoWibgaXcI2oLYx6Zjakyyyib8pnp06nE6vRNhRVQqTfHibxZ3tSwb6JG6NgKU/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-03T01:32:25.000Z"
+    },
+    {
+      "id": "LCuv7y8vnNDGxIdzHdNbvw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/LCuv7y8vnNDGxIdzHdNbvw",
+      "title": "字节正式打响管理变革第一枪",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmma2qKqmDeghmLVRJMpwG29Dib03IApXgKwKPZHW4Qwibe9aO1mBMfcoWahjLlEiboicSQXH4IDU4aTl3v6fTYxziawxhoa7mBGkNs4/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-02T02:44:37.000Z"
+    },
+    {
+      "id": "8PpTiQr6_19YSZ-YF2AhZQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/8PpTiQr6_19YSZ-YF2AhZQ",
+      "title": "AI 圈，还有谁比「贾扬清」的命更好？",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/ACzflXDibhg4icmq5LMXPjzd0R6gEgoYZSI9zrmhRLORpgUyUuBPuo5wfsxv2uAo32A8sDHt0y5m9Pcr7RCN8nJvzuiaPsIfPzFE4YGTFFDSic4/0?wx_fmt=jpeg",
+      "date_modified": "2026-07-01T02:00:55.000Z"
+    },
+    {
+      "id": "Lz7BuT6zYIZvZcQ8S1D25A",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/Lz7BuT6zYIZvZcQ8S1D25A",
+      "title": "淘宝推荐算法负责人姜宇宁离职",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlpTb0icSIBlYf04L0hslLmgBmFGOOsK9AE8hibPee7Mia9IXOOEEvkBH8Isiaic3kd7VQiak5FbLvIILQIib3vcyh3pKVIlw5TlXWOxc/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-30T01:01:38.000Z"
+    },
+    {
+      "id": "BeI2vlsTeFTiv15ABMsT7Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/BeI2vlsTeFTiv15ABMsT7Q",
+      "title": "腾讯买出了AI半壁江山",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmn2giax0QCicHHrqicICG2EDHiaaW2QTMInaBP6W7pLUbkBwEYtNLI8Q2ibic1LVGfIIHKljvfeuoxf8LAjl6oowML8qFGVN7Z5976zk/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-29T05:33:03.000Z"
+    },
+    {
+      "id": "M8MdO2BsfvBfzDgQWIQVPA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/M8MdO2BsfvBfzDgQWIQVPA",
+      "title": "飞书产品副总裁施凯文离职创业，已获红杉投资",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlUhjLwjhqorMOlpl77axRkdoR9VBPNRYOiccXniaqqxMXy584tIevpI6ibEksibAGo5vickLWbD3lmlBbThHTSaWuYf5eMNjGNibiaT8/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-26T02:26:02.000Z"
+    },
+    {
+      "id": "zwuGtvahbZhIDIZXrPhw7w",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/zwuGtvahbZhIDIZXrPhw7w",
+      "title": "一段话锐评互联网大厂大模型团队",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkozN0c4s7DiciaNQbz4R8lXGbbUzHU6uevwZiaNZoTkzNSOLKHiaLb1iamicicLCKiaCsVlDwd97K4Jf6RFz4nndNQiczfaRxAsYx1rzvI/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-25T02:16:33.000Z"
+    },
+    {
+      "id": "ZJRsgu8FYv1CdsNbC9uNHw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/ZJRsgu8FYv1CdsNbC9uNHw",
+      "title": "豆包专业版正式上线：连续包月最低68元",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmgRNgYSCdJl0ufCbg1BlIS4IqaBc3plKBlj37fEXhknOSzgt6FP5LmYkc8sZJNib5dCRHickP2l1pJ0icWS4TwKlAfsrT3ZHGDzk/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-24T01:29:01.000Z"
+    },
+    {
+      "id": "c8uKD-metDOWQHnVcnPsJA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/c8uKD-metDOWQHnVcnPsJA",
+      "title": "想种好AI这块地，阿里合伙人也得“弯腰插秧”",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmm2arib95QDnmia8c454J3OJCSQricQQHkhrKzxZpfZgTQUbdQWibJSMVO29DiaVheJRpCr17ic39DQM5FPn9YdYNmOmDxdVhVGaYsco/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-23T07:48:47.000Z"
+    },
+    {
+      "id": "1HvxDhlCDZjqnO85nSUBwA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/1HvxDhlCDZjqnO85nSUBwA",
+      "title": "阿里年报：自持1870万平物业，8亿美元投资Kimi占股36%",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnf30AdKPNgfGbiasGua2euen5JibGiaed1sl0bVZ344iaL7ULIoHudpWh4hQAQPxo3Fok8QE8n3ckPibnmY0TdAIicDg6sEsleYqjWw/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-22T01:33:08.000Z"
+    },
+    {
+      "id": "BObioPWbXkqLV7FrnInlfA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/BObioPWbXkqLV7FrnInlfA",
+      "title": "阿里还需要周靖人吗？",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/KkHrGpPyyQ9EGGN4XAI1pTxn4tPyQP7StQq1iaqht8dUEEic8Jcgr8cnNymQ6phnPKz5cWnOJZ6G3wDw9gceibtib1IhMd0LiajG8RoCAkicHbjR8/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-18T06:49:07.000Z"
+    },
+    {
+      "id": "2qQ75FYllPtGFkcsGi4t5w",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/2qQ75FYllPtGFkcsGi4t5w",
+      "title": "字节Seed豆包股价格升至14.85美元",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkJeK1rWIX82MPJhXTcaiaCBQtoAZlgmphWh78s3ibvewJYsUbg5mZKn0fsTBCkgm08jkvDhZs4bZ996cC094icbwmjR3nGFhN52c/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-17T02:09:13.000Z"
+    },
+    {
+      "id": "XsmmfszT5Cvu_zWvRB9JFw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/XsmmfszT5Cvu_zWvRB9JFw",
+      "title": "百度IDG首席架构师陈竞凯（T11）离职",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmla6t0dXzNowTGm89v6xeP9zPu3FrcTfzGZcePqp3gVoNl3XMRNXPPWg00kVJS2QbicXhChqBaD0sQmxvYicuAMJEYvpAAgeWFRg/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-16T06:21:07.000Z"
+    },
+    {
+      "id": "tbXzcGAhWIaZWv94JoGPJw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/tbXzcGAhWIaZWv94JoGPJw",
+      "title": "这届618，除了AI，没有任何新鲜事",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/3LxkvicRaicLAX9DDktrjH9T868HdtjDKZz3NjvtPibuNiaLyH8Y9QibfQGJRdcwCQxl8TBdEWPlkZTKhFVNwQeJ4ibqHEanLNyb4yhyKxIjTVA1c/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-15T09:00:22.000Z"
+    },
+    {
+      "id": "g4a61YwKJDH5xSNkupmp-Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/g4a61YwKJDH5xSNkupmp-Q",
+      "title": "阿里否认首席科学家周靖人将离职",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnY7Hal3v3WnqLPs7hYqPTkq3eeNX2BTgvUibt5FZ0rJEEHOUplcqUZHcC8k5AbQY42GF7pqxa2xZ09UJQXtxQ8z3YyHo2fTVZQ/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-14T06:39:21.000Z"
+    },
+    {
+      "id": "fhrNozovCqRIpUixG6JF0A",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/fhrNozovCqRIpUixG6JF0A",
+      "title": "世界杯首日：从比分到红牌，千问预测全对",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnHu5AW2rbdqHh98gqicNyCOFiaytS7uDC3yKI9CEoGThca6DGgDUKNNICtaAhOpaXcTPb1ibgLicWy7uK7C9Ab5W2CcfjuL4mvrsc/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-12T07:12:12.000Z"
+    },
+    {
+      "id": "zt2Qn4FtXOK-gNAMyun0NA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/zt2Qn4FtXOK-gNAMyun0NA",
+      "title": "钉钉换帅：92年技术极客陈宇森接任钉钉CEO",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmngCTSqhgPmmbDdicvc1h5qibicw4Lwq7iclqpMoPXLKRByuRZiaGXn2r0cCxSyyU1vwcps6Qia6vCdW6AhlJgAMjpFzS4duE7zzkUicw/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-11T02:23:29.000Z"
+    },
+    {
+      "id": "9LftxACX1wNWjzJnshHXVQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/9LftxACX1wNWjzJnshHXVQ",
+      "title": "阿里合伙人委员会批评钉钉管理方式，直言AI时代人最宝贵",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnfyIXJtVumvKEkunyZCOfjfwlT0W7tgnHCftRZLSeQFxahHYU1Ew6oygYJPbQoH8dt5C4Vv6DAGv2hqVc8926cLwyiaBjZlKGw/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-10T04:52:27.000Z"
+    },
+    {
+      "id": "gEWL6BwPNdPjgQWe5MOhPg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/gEWL6BwPNdPjgQWe5MOhPg",
+      "title": "美团成立AI新部门，前大众点评总经理牧遥担任负责人",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnEDciakFOiae7ORrZhxP0aLiaLHhNMW162C1OAFvUkmgvr4afkKPvSrWdtUduZics3em13hj6302JVF41bp2KfskP7f1mG7H6ewZA/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-09T05:19:22.000Z"
+    },
+    {
+      "id": "nezaVUWRb72AR5OZ_Tx22Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/nezaVUWRb72AR5OZ_Tx22Q",
+      "title": "字节Seed辟谣：顾全全不是LLM预训练负责人",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmgTIDjhU3bxyBia0hRJIh2FibBeGFOAnFfOZ45NNDFDp0Kwlhumic8icsmibl7Cgq1zLic8M5DIU6ek80RG3tKZmqH7W9AQcPYlbPkE/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-08T05:46:32.000Z"
+    },
+    {
+      "id": "lmv5V4e8-mXonWe0pO63dg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/lmv5V4e8-mXonWe0pO63dg",
+      "title": "百度成立大商业事业部，数字人业务升级为独立部门",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnJ9NxccyiazVMJwZ6GKSZpSYzAnecY7akmbvnZT5mibqNFse1BcHsrBgeXv4Ig1Nl4k9LiaYSCvndufAPZVLDepHKibkTkvHk8zAE/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-07T00:57:04.000Z"
+    },
+    {
+      "id": "0e20MBkraeZCtk_e6lurhA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/0e20MBkraeZCtk_e6lurhA",
+      "title": "阿里云计算平台首席架构师林伟转岗至ATH事业群",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/r1bcibyzeOibvSiaBtv98JSRpdAK6ESricSwvya8xhleYf3PpnSHKuBiaBtkqwtY5KIswMJSoDPOdWQWnU4pR9EBzNROkFMZIknUyaABNHdbbPdM/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-06T01:31:02.000Z"
+    },
+    {
+      "id": "fkUn8VwAxnReAF5RzIaFUw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/fkUn8VwAxnReAF5RzIaFUw",
+      "title": "快手15周年：一家互联网公司，如何用AI重构“自己”",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkicpqsGspGNEytNWOKVM2CuMPFc29MkaHuibr8ZJnFicicM0fGutibiceOvag60ib1srlLfcxgFLkSzIR34icu3Ss5xL5uchiaSBNmBia2I/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-05T07:06:24.000Z"
+    },
+    {
+      "id": "iiu0naNI4a4DpOaqZBjgjQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/iiu0naNI4a4DpOaqZBjgjQ",
+      "title": "抖音集团副总裁张羽转任公司顾问，专注慈善公益事务",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/NhjL9HALuWoibw9kNPLgCOzHIb0vuKDwNuZIxJMogSLSpkeK6nNCTGmkQbRoSWXafoAhI6V5VvJDic84Z9KG3e9TvPyUd3AVuUzicXIppPgOh0/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-04T00:52:41.000Z"
+    },
+    {
+      "id": "Wc903xnbWxrWbndkMMe5uQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/Wc903xnbWxrWbndkMMe5uQ",
+      "title": "向第三方Agent全面开放，千问正在打造AI时代真正入口",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcml8BsZUvzzGh6APbAMYCs2NsgmkRkHC2H861CDsXMWgJGXxZItDfC3TibrJL9UTSH1mbYduKkay1ibUdgnK5tzhviaCIYfR3EvMFI/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-03T10:36:48.000Z"
+    },
+    {
+      "id": "uCXQ4Yu3ednO0ZYSHUeDoQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/uCXQ4Yu3ednO0ZYSHUeDoQ",
+      "title": "阿里CTO范禹进入合伙人委员会，盒马CEO严筱磊转向蒋凡汇报",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnibkwTib6PsPNR1aEklmGibwgef3CgTbQBgEQnz6CEGJQiboiaWjSzogQ1QFTLg2DmickrPRunnObu2OiciauD9KIycAsjGVIOeh9KU20/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-02T04:14:46.000Z"
+    },
+    {
+      "id": "VkLwYvpzD11XaahGijQLHA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/VkLwYvpzD11XaahGijQLHA",
+      "title": "AI时代，产品经理涌向字节跳动",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FVGfWjxTu0MFykmRibZzZbhgtt02aOrWFmMhKSzzGAYgcib1YzeNO8kGZx9WmdRib6x2H2v1m6aZ4x8KGC2CskWzNJETc7KsNRr9Coc261k96A/0?wx_fmt=jpeg",
+      "date_modified": "2026-06-01T06:16:25.000Z"
+    },
+    {
+      "id": "loLbfG67tUXCx1eiZ5qucg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/loLbfG67tUXCx1eiZ5qucg",
+      "title": "对青年AI人才来说：天时大于能力，选择大于努力",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkNc9WS7cIaXicolnfUTSndtZghhh0ian4laKYXbUh7eTum0nJwicqkrPKDPFT7iabnOqGXiajkYN85pvibjCAgj3qsRFeCYMEryM1w8/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-29T05:17:28.000Z"
+    },
+    {
+      "id": "R8uF37leuivJQui8BNCZVA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/R8uF37leuivJQui8BNCZVA",
+      "title": "拿下世界杯版权，能为小红书带来什么？",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkRLFyGW4HOz59meVVtsv8qYFhp0Hxqm89o1aojicgCKk6RBw4THpsiaqUT2Z0xVuhoGnsVOpNBtDfypHxaExic3IXDLvd5qLtxI8/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-28T04:10:00.000Z"
+    },
+    {
+      "id": "ChN8kLSpziuifkN63vkVmA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/ChN8kLSpziuifkN63vkVmA",
+      "title": "字节豆包股无“认购”一说，Seed员工可选择年终奖以豆包股形式发放",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcml1yjdMq1gslicROzHiajw70hUuR6y6DdESKtEmFWoDTubKpIIIVgXnI1w0jGH0bZQxt51icvic2Q4lWzUPMWKTQmKf1QkTrose2Mc/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-27T00:35:41.000Z"
+    },
+    {
+      "id": "osYX5_O_uG9G8lunRrH_oQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/osYX5_O_uG9G8lunRrH_oQ",
+      "title": "聊聊最近几家大厂职级和管理体系的调整",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnyNszygPjyq8jwJkOTwJML7TGqpjTdicib8wwldiaPNWcd8ib2x6wy7oicUk3277eUuEEnwKlVbuickZmFmSUQaK93Soonicb1ticCia8w/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-26T02:13:42.000Z"
+    },
+    {
+      "id": "LSoGfHPfYKghxxapRGi3NA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/LSoGfHPfYKghxxapRGi3NA",
+      "title": "大模型公司门口，挤满了送钱的大厂和VC",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/FVGfWjxTu0PeVcekN7MUyAmvstG7HVGXhicsibLzGgySNS3gdMF2UVvRlibfFZWFZ8SYX9icLmN65u8X3dQgy1XTh0eclHaS2EkXZsjzdibdQQ18/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-25T06:01:31.000Z"
+    },
+    {
+      "id": "Vyvo-qOIdoauxrTSfJmvXA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/Vyvo-qOIdoauxrTSfJmvXA",
+      "title": "京东零售高层大调整：杨博接棒汽车事业部，钟波执掌拍卖业务",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/ACzflXDibhg7bHicjgIhDIY8b2AoYiaFFLQlesr6ckKJ9soagj4qVebVCQd0lHXIJh938HU3wBURiaDSH6gRJbHsIMvrWBVkm7JpjIic8BZT11Ug/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-22T05:44:55.000Z"
+    },
+    {
+      "id": "pEJBFMnSXdiNTWl8_PHlLw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/pEJBFMnSXdiNTWl8_PHlLw",
+      "title": "从夯到拉：锐评互联网大厂AI大模型业务",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmk4KgVxW0FXM6DbEp7s3P1DYbAuAUiaQDVtNiaWUIo1bZIbw1tGyUHj8eETic9eiahMLD8Ssic1Iy5icfJSTnibjhaBJSk7ng4k3YhaAc/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-21T03:25:38.000Z"
+    },
+    {
+      "id": "SvhBJXWovNJncCyPh6laDw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/SvhBJXWovNJncCyPh6laDw",
+      "title": "字节奖学金首次全球开放，五年67位得主去向追踪",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/5L8bhP5dIqGamtkzypBX2ZzWPMmBXPr82F42PavNpKRsiaYMttCkOdml7N5yfWMTIrwTiaNGag7jeS2thru2j6TgBmPl1cqLJjrP4Wan30j6w/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-20T07:12:59.000Z"
+    },
+    {
+      "id": "gy2_HAhJZgPLAnxb4N0-Og",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/gy2_HAhJZgPLAnxb4N0-Og",
+      "title": "大厂HR：AI时代，我们招什么人？",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nW7VKoMpiaBRz5gp8qDYlfAkYEsm21Z2z6vmtu4SHpTzSHXZx5LnYVfDbKeHw2SgpmzqUTClFvCw2ojkySAs4Va6fylB6xkk5OohcbqdoZuI/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-19T05:21:52.000Z"
+    },
+    {
+      "id": "jfO9iNylq9tnuxus1v_5IA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/jfO9iNylq9tnuxus1v_5IA",
+      "title": "烧不起AI就分拆，快手给字节探路",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nn4fiaIib6wss6MiaXkJ1HQMMsibPb0ljKT9TlrPB5RNoaFFW53dktaBuWqUQyUnEKgqe1Wcs05GMDduvKQBUNf6f1UdUM4s95SIA4V5TtXcODQ/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-18T08:09:47.000Z"
+    },
+    {
+      "id": "hnV2dBsvLUWS4eGKtk6dNQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/hnV2dBsvLUWS4eGKtk6dNQ",
+      "title": "快手生活服务事业部负责人刘逍：用AI重塑生服行业，帮助商家实现两个极致",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlnTBrF9jAQC6m3TOjy6fPD258YfFj3KCZvMEYqj4iaics7JPRo9GneMzLA9NSPDeDwnA5sjzVc2JicQ22ReHacICF1NWWN9ZHEicw/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-15T15:37:32.000Z"
+    },
+    {
+      "id": "uId2eHSH2rY3_RgEMIZW1A",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/uId2eHSH2rY3_RgEMIZW1A",
+      "title": "虎鲸文娱旗下妙鸭相机团队解散，维持最低程度运营",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnEA9lmjJNWU6ybckk0VR2DgnspvtOGIsI48ynnOcv1qibF19MJSxdIs5VJtzVYFqLutjXy6Zo2AdKoF7wmZFOBRmZPFwvdxPvw/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-14T07:21:54.000Z"
+    },
+    {
+      "id": "SrnW_MnYCZr0m3hLMSsjhA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/SrnW_MnYCZr0m3hLMSsjhA",
+      "title": "AI步入“自我进化”时代，李彦宏首提AI时代度量衡“DAA”",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnKHKRZSBI6GAHopMG9icv8YyHUw0vNNtYwtiaMteoYMJLcSs6Kf2O7d0Kf851urwWtNVQMrczQ7Ndxf5SCqLlHn3GLYL34nicYUs/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-13T04:59:26.000Z"
+    },
+    {
+      "id": "I3UOKDcm1CsbYGZoSL9ZWQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/I3UOKDcm1CsbYGZoSL9ZWQ",
+      "title": "传快手将分拆可灵业务，估值200亿美元",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlftu8IIX2ZgEIHsCf9UhlNZ9zvUO5MJ3aQQ5YmtQ1BVM2IHM8ROLQRyQbLED8OukSeha2aA6q1VUbGfLVVz677gHzV2EPT8Ek/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-12T01:18:52.000Z"
+    },
+    {
+      "id": "SuKXGGXc9ThD9jBIXNTn7w",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/SuKXGGXc9ThD9jBIXNTn7w",
+      "title": "互联网巨头的用人账：130万人、几千亿薪酬，流向哪里？",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nW7VKoMpiaBQcqtSZeWAGrjo9iauj3JbUEwicX5IYvAZRPkJS6Gywug5guQHm91BV0ib01WLNbXsDYtUMKu83SkFCKOuf9aSsTA5DUd3iaiawVzO4/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-11T02:21:37.000Z"
+    },
+    {
+      "id": "maP4XHJ9cAdNwwqgq7-L7Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/maP4XHJ9cAdNwwqgq7-L7Q",
+      "title": "大厂永远理解不了梁文锋",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/gP93I1xESa1Hphzte3qg9H9fhaTu8rIbo26nOw89Zcn6s4XFXfFE2U24LkH2ibRlA4balucruovGYRJaDwm33LlE3NXicocwkLmGLia5fWAnRc/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-10T02:07:18.000Z"
+    },
+    {
+      "id": "fFx0TJdBkav7UfmxNvkv7Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/fFx0TJdBkav7UfmxNvkv7Q",
+      "title": "小红书启动新一轮期权回购：在职员工25.5美元，离职21美元",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlUDS4XW6PbXgdIZu17U56bfbMWTftbdbXoz3VOWF0BAexicUuyT0CcVDYnhm9p9WEzvfM4H0ka0egjtj22aSL3mBotr4oRSuo8/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-09T05:24:01.000Z"
+    },
+    {
+      "id": "C-a5_BNlfCjvfFoe4VaX2Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/C-a5_BNlfCjvfFoe4VaX2Q",
+      "title": "字节旗下剪映产品负责人张琪智离职创业",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkU8gDwpCgGUua4icxKiaCbcgEw1KlNcjictBeInmfugCqzMibE4ib6UajwRIdPsNtfXYjA3icyYXCR3gW4DpicEKC8NOH3XOzn0GTX14/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-08T01:15:49.000Z"
+    },
+    {
+      "id": "4OSJoHI7kK3FEBMMfEaxdQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/4OSJoHI7kK3FEBMMfEaxdQ",
+      "title": "中国某互联网大厂研究员加入OpenAI",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnAkDs5ictxvfYKcMCFichZIhQ2Ribic2HsBvTMpRjY2KGj3Y1rdHp5z21dk7VyCyW0NsIDQWsKaGebB7oOIXlEBG1kj1BeXjuM7yE/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-07T07:44:54.000Z"
+    },
+    {
+      "id": "7baLYsoaLBWdXCCyQGXdxg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/7baLYsoaLBWdXCCyQGXdxg",
+      "title": "豆包开始收费了，我反而觉得是好事",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/1IgQwqF2M5Zyb5auooFic5C3dwfQWP6UOqmeeeLrHuJWxYeTtK1Ym4jz6QmdCticW6ulAvFZqAeIk5mGKx7ibcldglnzCTiaF7ibywolKnJbs3BE/0?wx_fmt=jpeg",
+      "date_modified": "2026-05-06T03:12:01.000Z"
+    },
+    {
+      "id": "is7up_x4knqiFmcaopmqtg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/is7up_x4knqiFmcaopmqtg",
+      "title": "互联网大厂中高阶晋升，评委看重的是这五点",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmkqSwjJaSicy2dT072Iwtfh7AdgqKtXp1fs6DpIMWqLjZe2T3gtNDsN0tMLXoPIMTbOhdLOkyj1dg9e6GAvQUs84b7cQIQKJibks/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-30T03:26:59.000Z"
+    },
+    {
+      "id": "c0MT-kZHlVbus5x25yOxlg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/c0MT-kZHlVbus5x25yOxlg",
+      "title": "阿里高绩效员工年终奖上浮1-2个月，新员工长期激励首年归属近1/3",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnNG5qByIpnIP4LA8micicYHQoXYMBcsDJ0CHrYJKkaDCAZSicCdj6OrphIKb8pVmrrL3hGd6hrI4HicYdiccD8fiaibD1WlvC5uAAM9c/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-29T10:19:19.000Z"
+    },
+    {
+      "id": "5co1OGn_kDMdKj_yiDoFgQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/5co1OGn_kDMdKj_yiDoFgQ",
+      "title": "百度宣布组织升级：培育复合人才、构建敏捷组织",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmklUdNwMvruPuoicJ29bHB7EVRCiaOu6TVC0A6FgWJTdd8fJJ6ic44lOkVJ32PPyo3ia5F8icXVvcjvrfXwicuRuDQLGiaJU3Pket4eN8/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-28T02:14:43.000Z"
+    },
+    {
+      "id": "0PHuM7A3Y-SfN0aeNMsuqA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/0PHuM7A3Y-SfN0aeNMsuqA",
+      "title": "互联网大厂的职级薪资对标体系，在大模型时代都不好使了",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnEPT04knibh6N5iaVqNx0WK1vEyDicVRibxiaUAosvMk65Mu9XWOrS5hE2QbywNcUSWQP13rd3qmicbpp2tBv0PKSdqJyujZ3EQujRg/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-27T02:43:43.000Z"
+    },
+    {
+      "id": "T6EtapFTJTKtEnE1llWohA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/T6EtapFTJTKtEnE1llWohA",
+      "title": "滴滴自动驾驶CTO浙大校招宣讲，阐述发展历程和技术理念",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmleJl9ib1ibhhLjHyL848A8BIxOeiavDP9GjiaCdOSCDQqJ95k2IRa7GQiaxXpbAkw56AcjcQlzvBeOncjuGHBIWicSFyuNrSyRic08qM/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-24T02:01:15.000Z"
+    },
+    {
+      "id": "QLLOTtAJG_497l4-ojVH5Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/QLLOTtAJG_497l4-ojVH5Q",
+      "title": "为什么现在是加入腾讯青云计划最好的时间？",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnKUV1axMnCcrU1QlwLvJ9ApFbFGysfasUyIQ7pj9CicAfABlf566t9FHLicMOCuia6PR1HcmTtNUqibkBrXONHHBahJ14RKR8JsII/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-23T13:31:52.000Z"
+    },
+    {
+      "id": "kXMmZN_4IguVtVoJbTQpJw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/kXMmZN_4IguVtVoJbTQpJw",
+      "title": "能谈心更能办事：阿里发布千问AI数字人形象“千问小酒窝”",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnqL9AzBFnm8yibGdotCyt2mfFMMoKR9psW5Gc2YkLaITib8x0aVtAH2wMqIVm2x5LibrYX1sxlAIOOs51srSfTfIVnzXuqmMmCa4/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-22T02:48:18.000Z"
+    },
+    {
+      "id": "1MWzKJdSDWzWQS8KICBN6w",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/1MWzKJdSDWzWQS8KICBN6w",
+      "title": "前Anthropic后训练工程师李迎超加入美团",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmwDufRAXH4xGYkfmocsEm7WR8v115vYyL9nDPka4yzQkavjeskdqaRTuQd6rgN9JtHWRSVyVWNDPddvyLsjr6W6ia4O1KIHWYE/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-21T01:26:41.000Z"
+    },
+    {
+      "id": "ROGrBi64nyPH-onEO6I5vQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/ROGrBi64nyPH-onEO6I5vQ",
+      "title": "袁千离职，华为系高管彻底告别阿里云",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlTtXkQpibibkeRib5N5kfoqQJVFbGk4iag9PYIphAiaYrBHQbicCxbZbORvDqP39jXqj4RWiblolGtqJtIiagaHnJDsiaObprEIVD3ELCU/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-20T01:46:59.000Z"
+    },
+    {
+      "id": "t0qQMDFDZ5aopIoUK6kTNw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/t0qQMDFDZ5aopIoUK6kTNw",
+      "title": "字节前沿技术领域人才校招正式启动，三类人才优先录取",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlu3gNFrqer0iclf6fyIeDva5tqMwpnPju3ZBTYUmVcTLqHY1JIPTIXIzDQ3FZBf1uUwicSe9wx3yk9Ola3ibZDgv25C0J4cPKUjk/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-17T05:11:34.000Z"
+    },
+    {
+      "id": "vD4rI7BryGBWRzjRMtJK1Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/vD4rI7BryGBWRzjRMtJK1Q",
+      "title": "字节启动豆包股首次回购，价格13.08美元",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnGxO5ibnApSUFcSB5talXDmicRW0a8QRsHwNIibzE3XOEFgOicxwSjKVmY5CMUVXwNeLfJWO9UiblnDBXgz8l1MIvjSibqWBG85icykA/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-16T00:17:40.000Z"
+    },
+    {
+      "id": "UvaawvM5oywCSwWXSaNufQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/UvaawvM5oywCSwWXSaNufQ",
+      "title": "美团副总裁陶雪璇调任大众点评负责人",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmncLR9J36aQGV4vM5mIl99WQU1WrMz6bZXiaOKYibk8Bicbib5nnoVrm0qqLGCIJtN4gDjvC102PS6gicGLbBaxCAfjSTV3TVIMuOtk/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-15T06:09:10.000Z"
+    },
+    {
+      "id": "M6-UQLQNCnCnKAa18UIMsg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/M6-UQLQNCnCnKAa18UIMsg",
+      "title": "那个做出可灵的人，回阿里又造了一匹黑马",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmqBeItnPGoBAHojcpbNuO0ErlswJW9picTEJgibeHpKiaZjhpAGlHrNibmeFqBHN9ooibXgBkWjcWcMFftCibpcFVqGDZbg4LlyNDbc/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-14T02:05:59.000Z"
+    },
+    {
+      "id": "dUZqc27aT--PCXqV21tReQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/dUZqc27aT--PCXqV21tReQ",
+      "title": "快手搜索人员调整：王毅离职，程稷李宣平接任",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmnVQLib11MFnJTNWpr7eO7L6ECHIGItbkLh9klqMpqibnrptkSd8c2YWGKVnJynicNv7pXUTSXofaB4M5XsbQXkOmcATBcarPJZP8/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-13T03:08:03.000Z"
+    },
+    {
+      "id": "37_9KwiY6z40foymIu-SQA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/37_9KwiY6z40foymIu-SQA",
+      "title": "过去一年，70位字节seed成员流向市场，30家字节系AI创业公司崛起",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/4DzjNkEUz4Lk03ASEcUAMicFfHrEcARZ1NEWNZpIEWWLvIEty91jibMUpZOjblFM2YiaXYMf56tSfxjXc9Q4hTUCWHg1OEf6rZKmzWVe6l7Hh0/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-10T01:24:54.000Z"
+    },
+    {
+      "id": "5Ti8gXb3ywNRqxWyP0pnKw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/5Ti8gXb3ywNRqxWyP0pnKw",
+      "title": "宇树最新款机器人R1现身阿里西溪园区，或将成立“树卖通”项目",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcml9De9mt4nS4V0wpkw0ZjRoLia1JXdRYk5f4qz0fT4FaFrVQIRg6G4vomVvLN9blx8fr0cpaic1GxKBEkLuVOiaA2xbQLxe44jN2A/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-09T00:58:18.000Z"
+    },
+    {
+      "id": "5Rp_OWve4DKgMiGiOGix3Q",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/5Rp_OWve4DKgMiGiOGix3Q",
+      "title": "通义实验室升级为事业部，做强大模型成为阿里AI最重要的战略",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmm6m2Y4hiatjuleUGkiamKicmKHmDe4Fiap1uY39M1w1yZauaDu2HxFTLpqWOY1QFWNgjevkxDzXPialnX5HDKFxowotyI75ZRcdS30/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-08T10:01:31.000Z"
+    },
+    {
+      "id": "MsdIwOglWRZkmIKqFMiu_g",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/MsdIwOglWRZkmIKqFMiu_g",
+      "title": "字节33亿元拿下北京北沙滩附近一宗科研用地",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnWCF99b3qYUoRR4c5KdkCiaGDChEZDzMue5FtdlYGLooCY9aSuEobSaPew9MPggz1nMXLzyOVaXCSxQQvMnQObCxlpHnP3YOjo/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-07T03:59:31.000Z"
+    },
+    {
+      "id": "8p5aCE4NmPIfFHqZUy86Tw",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/8p5aCE4NmPIfFHqZUy86Tw",
+      "title": "千问系列大模型三箭连发，阿里到底隐藏了多少实力？",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmJX5VB70Siaftp9lC1wetjpJvw7bPn8SUaCmdDLg0IGJoYXtNwxPnBfxoZkyicwKr2AmLbPONcvYDCpEjDhFTkybicxXACwZ1V1M/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-03T06:26:26.000Z"
+    },
+    {
+      "id": "sZ_nkn9KNaX-9H6RdBBPaQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/sZ_nkn9KNaX-9H6RdBBPaQ",
+      "title": "为什么在AI大模型领域，字节Seed是校招生的第一选择",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmlYhib0QRM5wnKsJA8YJtfteEPTKx1p6PicZqibwblmvyOL1GGrawHicxr58hvR2zYvrOyEWSV63Vz57yI4Yghc1Eg4qSCicVAJ3HqM/0?wx_fmt=jpeg",
+      "date_modified": "2026-04-01T06:49:48.000Z"
+    },
+    {
+      "id": "LB6qm9veK8odoRcNhEs03A",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/LB6qm9veK8odoRcNhEs03A",
+      "title": "AI 视频生成的未来在中国",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnFEpJPKTcK64MbiceAL5aDwbjEARUS09TKMM7nE9lVzqe19qXL66mTobNcibLXchiau1icAvYnZpsjffiaQnsejOKWd1DzdPSu0jyg/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-31T06:38:45.000Z"
+    },
+    {
+      "id": "SP0fqE1A-WmIsS3A8j-3UA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/SP0fqE1A-WmIsS3A8j-3UA",
+      "title": "用AI来“增效”，大厂打错了算盘",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmlicZ1CTCHl4khcfaqqRoHjlpRhz8lAXrRpyEZ0OBPoEjzobIXwKYRJCRIw3K82MfcRasx8UPyqbPGg95kaFBeSovyCs1X1FYJI/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-30T04:11:44.000Z"
+    },
+    {
+      "id": "B8REuTrfkDTnqg-YHru97A",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/B8REuTrfkDTnqg-YHru97A",
+      "title": "抖音电商的AB面：光环下的暗涌",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ACzflXDibhg5Fg33OrWnuKhicJrqrBGdTq0c8iadQUj0OZoUAO8ULj0y7WiajDLGbfgia7DbJbRG9rIBjibTHdqzsTjqaE86xSYrI8C7icmzGsPVEw/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-27T03:55:58.000Z"
+    },
+    {
+      "id": "BbJ4v0w3BCbicKR_Ig7XCA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/BbJ4v0w3BCbicKR_Ig7XCA",
+      "title": "巨量星图回归抖音主端，崔诚向陈都烨汇报",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/XqlDibeO6JcBebhheKoOc7A7INQ6dQ4YGTf6megjXy2eC6iaZiatGGTgcX7sGjDVgAIic2CC5Mib88Mh1nliaKAONc7g/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-26T02:57:30.000Z"
+    },
+    {
+      "id": "Fxyp9pA82c0dpYm4KSxAtQ",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/Fxyp9pA82c0dpYm4KSxAtQ",
+      "title": "又双叒叕涨了！小红书期权价格升至30美元/股",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmfsyLQlnucqFNibRloPkejL6Em4pPW7lbIibEwbVun0X5qZYFdGHZFdt1yE2r4VicuPia5T9k3jGYiaOkgjWU6ItUwVEr5BgBj4G8Y/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-25T01:16:27.000Z"
+    },
+    {
+      "id": "67yN8tuF57W_ORbu0kmdmA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/67yN8tuF57W_ORbu0kmdmA",
+      "title": "强烈支持Token中文名称“词元”",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmnbqv9KKRzfk7fLq074xog1Zwc0XXavm95fBT926kMNY2xvTuOM20jsZLyBcKeJ75dR9duH1sk4C31WA5kv3XjnSE1B7diaelic0/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-24T05:55:45.000Z"
+    },
+    {
+      "id": "5kPj_LaFkRERL8_14gYkAA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/5kPj_LaFkRERL8_14gYkAA",
+      "title": "腾讯 AI Lab 撤销背后：俞栋离职是最大导火索",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/ACzflXDibhg4P6Ct5qd7q5ATvoJzIMIymLEszlJdUsTXuxmqWiau0icD3Knps0cSBzGWPpgd6yFC0fdianPYiaBjc4fRjtObEicsW40fm9IXxU7OE/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-23T00:59:22.000Z"
+    },
+    {
+      "id": "RuOlvEYkHufhMH96jc3ndg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/RuOlvEYkHufhMH96jc3ndg",
+      "title": "通义没有成为“阿里版Seed”",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmmG1PAqbynTZZibZM2Db9veibs3a4OCY8YwQUTibb2a9JfQq8libsYTUQItT5oMGkohGm0dp94xTY2OBtY4TGV37WFwCu2e44Dicj0/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-20T05:07:50.000Z"
+    },
+    {
+      "id": "pqXCrMli6Czz0aHxZbXy7A",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/pqXCrMli6Czz0aHxZbXy7A",
+      "title": "90后大模型天才少年少女，师出同门",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmmmsvPYXIaz01jWUm3wnkiaOqpSGj5auDZ57z2t0BNia6Nd09kCZts4TkDiccKJw8wzDNcxxX6JDZnOIJPWatexxBT1T29QBSHoCY/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-19T02:45:43.000Z"
+    },
+    {
+      "id": "ac-JPp5Hx0oHUdowNpppNA",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/ac-JPp5Hx0oHUdowNpppNA",
+      "title": "阿里给员工发token  鼓励使用AI工具工作",
+      "image": "https://mmbiz.qpic.cn/mmbiz_jpg/nEWyk3hdcmmuibCaYQItrZjxGgpG1lHIGNN3t4wAvMZoh7WU62CALgQbQehQMK2VYRTO5uuQSfkg86UPmj0CvyGK6JU4DOJl1zBicMpxqLxAc/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-17T04:26:57.000Z"
+    },
+    {
+      "id": "YoDMuD6ZZwuMsglQRlYvGg",
+      "content_html": "",
+      "url": "https://mp.weixin.qq.com/s/YoDMuD6ZZwuMsglQRlYvGg",
+      "title": "消息称字节因版权纠纷暂停在全球推出Seedance 2.0",
+      "image": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nEWyk3hdcmkLos06iavWicT67K3cH9HYPia9GugBl83eyiaQKVySFvZyVlLf7Mic5Jlg0bcNOlS9qJfxkMQJ1FOzcBP5gTiaYdiaUic2gVCw6ILvVBc/0?wx_fmt=jpeg",
+      "date_modified": "2026-03-16T03:57:26.000Z"
+    }
+  ]
 }

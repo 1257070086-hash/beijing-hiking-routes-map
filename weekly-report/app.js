@@ -30,7 +30,7 @@
     { week: '2026 W19', range: 'W19', file: 'report-W19.html', active: false },
     { week: '2026 W18', range: 'W18', file: 'report-W18.html', active: false },
     { week: '2026 W17', range: 'W17', file: 'report-W17.html', active: false },
-    { week: '2026 W16', range: 'W16', file: 'report-W16.html', active: false }
+    { week: '2026 W16', range: 'W16', file: 'report-W16.html', active: false },
   ];
 
   const SECTIONS = [
