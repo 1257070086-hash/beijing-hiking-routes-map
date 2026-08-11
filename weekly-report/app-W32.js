@@ -1,4 +1,4 @@
-// 渲染周报页面 - W20 版本
+// 渲染周报页面 - W32 版本
 (function () {
   const data = window.REPORT_DATA;
   const app = document.getElementById('app');
@@ -15,12 +15,12 @@
 
   // ── 左侧目录渲染 ──────────────────────────────────────
   const REPORTS = [
-    { week: '2026 W32', range: '08.04 — 08.10', file: 'report-W32.html', active: false },
+    { week: '2026 W32', range: '08.04 — 08.10', file: 'index.html', active: true },
     { week: '2026 W31', range: '07.28 — 08.03', file: 'report-W31.html', active: false },
     { week: '2026 W30', range: '07.21 — 07.27', file: 'report-W30.html', active: false },
     { week: '2026 W29', range: '07.14 — 07.20', file: 'report-W29.html', active: false },
     { week: '2026 W28', range: '07.07 — 07.13', file: 'report-W28.html', active: false },
-    { week: '2026 W27', range: '06.30 — 07.06', file: 'report-W27.html', active: true },
+    { week: '2026 W27', range: '06.30 — 07.06', file: 'report-W27.html', active: false },
     { week: '2026 W26', range: '06.23 — 06.29', file: 'report-W26.html', active: false },
     { week: '2026 W25', range: '06.16 — 06.22', file: 'report-W25.html', active: false },
     { week: '2026 W24', range: '06.09 — 06.15', file: 'report-W24.html', active: false },
@@ -58,6 +58,7 @@
   if (sidebarNav) {
     sidebarNav.innerHTML = REPORTS.map(r => {
       const key = weekKey(r.week);
+      // 非 active 项不渲染子目录 div，避免 id 冲突
       const sectionsHtml = r.active ? `
         <div class="sidebar-sections" id="sidebar-sections-${key}">
           ${SECTIONS.map(s => `
@@ -82,6 +83,7 @@
     }).join('');
   }
 
+  // 折叠/展开子目录（通过 key 查 DOM，不依赖 this）
   window.toggleSections = function(key) {
     const el = document.getElementById(`sidebar-sections-${key}`);
     const header = el && el.previousElementSibling;

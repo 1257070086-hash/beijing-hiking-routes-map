@@ -624,6 +624,8 @@ const COMPANY_BG = {
 };
 const RECRUIT_KW  = ['校招','实习','招聘','春招','秋招','Offer','offer','HC','转正','社招','暑期实习','应届','届'];
 const PERSON_KW   = ['离职','晋升','任命','调整','高管','CTO','CEO','VP','总裁','裁员','优化','人事'];
+// 行业资讯招聘过滤：文章必须同时提到大厂名，排除量子位等媒体自身的编辑招募
+const BIGCO_KW    = ['字节','跳动','腾讯','阿里','美团','小红书','百度','京东','拼多多','华为','网易','滴滴','快手','B站','bilibili','蚂蚁','蔚来','理想','小鹏','商汤','旷视','寒武纪','大疆','字节跳动','阿里巴巴'];
 const STOP = new Set(['的','了','在','是','和','有','我','们','以','及','这','个','上','下','不','也','都','要','可','一','大','小','多','与','为','对','等','将','中','后','已','新','于','从','会','到','更','最','之','而','让','但','或','如','把','被']);
 // 公司名称屏蔽词（词云中不显示）
 const COMPANY_NAMES = new Set(['字节','跳动','字节跳动','小红书','美团','阿里','腾讯','巴巴','阿里巴巴','快手','微信','百度','京东','拼多多','抖音','今日头条','字节范','字节范儿','招聘','技术','团队','行业','资讯','互联网']);
@@ -1169,7 +1171,12 @@ function briefCard(company) {
   const hi = str => kw ? str.replace(new RegExp(kw.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'gi'), m=>`<mark>${m}</mark>`) : str;
 
   // 招聘动态（搜索模式：在匹配结果中找，否则在全部里找招聘词）
-  const recruitArts = (kw ? arts : allArts.filter(a=>RECRUIT_KW.some(kw=>a.title.includes(kw)))).slice(0,4);
+  // 行业资讯：额外要求标题中出现大厂名，过滤量子位等媒体自身的编辑/记者招募
+  const isIndustry = company === '行业资讯';
+  const recruitArts = (kw ? arts : allArts.filter(a =>
+    RECRUIT_KW.some(kw => a.title.includes(kw)) &&
+    (!isIndustry || BIGCO_KW.some(co => a.title.includes(co)))
+  )).slice(0, 4);
   // 技术动态
   const techArts = (kw ? arts : allArts
     .filter(a=>!RECRUIT_KW.some(kw=>a.title.includes(kw))&&!PERSON_KW.some(kw=>a.title.includes(kw)))).slice(0,4);
