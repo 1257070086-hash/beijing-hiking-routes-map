@@ -1,4 +1,4 @@
-// 渲染周报页面 - W20 版本
+// 渲染周报页面 - W34 版本
 (function () {
   const data = window.REPORT_DATA;
   const app = document.getElementById('app');
@@ -15,7 +15,7 @@
 
   // ── 左侧目录渲染 ──────────────────────────────────────
   const REPORTS = [
-    { week: '2026 W34', range: '08.17 — 08.23', file: 'report-W34.html', active: false },
+    { week: '2026 W34', range: '08.17 — 08.23', file: 'index.html', active: true },
     { week: '2026 W33', range: '08.10 — 08.16', file: 'report-W33.html', active: false },
     { week: '2026 W32', range: '08.04 — 08.10', file: 'report-W32.html', active: false },
     { week: '2026 W31', range: '07.28 — 08.03', file: 'report-W31.html', active: false },
@@ -28,7 +28,7 @@
     { week: '2026 W24', range: '06.09 — 06.15', file: 'report-W24.html', active: false },
     { week: '2026 W23', range: '06.02 — 06.08', file: 'report-W23.html', active: false },
     { week: '2026 W22', range: '05.26 — 06.01', file: 'report-W22.html', active: false },
-    { week: '2026 W21', range: '05.19 — 05.25', file: 'report-W21.html', active: true },
+    { week: '2026 W21', range: '05.19 — 05.25', file: 'report-W21.html', active: false },
     { week: '2026 W20', range: 'W20', file: 'report-W20.html', active: false },
     { week: '2026 W19', range: 'W19', file: 'report-W19.html', active: false },
     { week: '2026 W18', range: 'W18', file: 'report-W18.html', active: false },
@@ -60,6 +60,7 @@
   if (sidebarNav) {
     sidebarNav.innerHTML = REPORTS.map(r => {
       const key = weekKey(r.week);
+      // 非 active 项不渲染子目录 div，避免 id 冲突
       const sectionsHtml = r.active ? `
         <div class="sidebar-sections" id="sidebar-sections-${key}">
           ${SECTIONS.map(s => `
@@ -84,6 +85,7 @@
     }).join('');
   }
 
+  // 折叠/展开子目录（通过 key 查 DOM，不依赖 this）
   window.toggleSections = function(key) {
     const el = document.getElementById(`sidebar-sections-${key}`);
     const header = el && el.previousElementSibling;
